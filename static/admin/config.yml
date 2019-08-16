@@ -6,6 +6,24 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "tour"
+    label: "Tour"
+    folder: "src/pages/tour"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tour"}
+      - {label: "Active", name: "active", widget: "boolean", default: true}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Start Date", name: "startDate", widget: "date"}
+      - {label: "End Date", name: "endDate", widget: "date"}
+      - {label: "Price", name: "price", widget: "number"}
+      - {label: "No of seats", name: "seats", widget: "number"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
