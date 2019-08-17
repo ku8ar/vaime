@@ -1,54 +1,38 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from "gatsby"
+import { Link } from 'gatsby'
+import Head from './Head'
+import SocialLink from './SocialLink'
+import logo from '../img/logo.svg'
+import './style.sass'
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
-  return (
-    <div>
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+const Wrapper = ({ children, title = '', description = '' }) => (
+  <main>
+    <Head title={title} description={description} />
+    <header>
+      <div className='content'>
+        <Link to="/" className="logo" title="Logo">
+          <img src={logo} className="logo" alt="Vaime Travel" />
+        </Link>
+        <nav>
+          <Link to="/tours" className="nav-item" title="Logo">Wycieczki</Link>
+          <Link to="/georgia" className="nav-item" title="Logo">Gruzja</Link>
+          <Link to="/faq" className="nav-item" title="Logo">FAQ</Link>
+          <Link to="/partnership" className="nav-item" title="Logo">Współpraca</Link>
+          <Link to="/contact" className="nav-item" title="Logo">Kontakt</Link>
+        </nav>
+        <div className='nav-social'>
+          <SocialLink type='facebook' src='' />
+          <SocialLink type='instagram' src='' />
+          <SocialLink type='youtube' src='' />
+        </div>
+      </div>
+    </header>
+    {children}
+    <footer>
+      <div className='content'>
+      </div>
+    </footer>
+  </main>
+)
 
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href={`${withPrefix("/")}img/apple-touch-icon.png`}
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix("/")}img/favicon-32x32.png`}
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix("/")}img/favicon-16x16.png`}
-          sizes="16x16"
-        />
-
-        <link
-          rel="mask-icon"
-          href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
-
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
-      </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
-    </div>
-  )
-}
-
-export default TemplateWrapper
+export default Wrapper

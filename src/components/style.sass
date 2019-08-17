@@ -6,6 +6,7 @@ $color-primary: #dd3333 // 221, 51, 51
 $color-secondary: #1B222C // 27, 34, 44
 $color-white: #fff
 
+$weight-bold: 700
 $weight-normal: 500
 $weight-thin: 300
 
@@ -18,8 +19,13 @@ $font-normal: 12px
 
 $margin-m: 2rem
 $margin-s: 1rem
+$margin-xs: .5rem
+$margin-xxs: .25rem
 
 $bg-dark: rgba(27, 34, 44, 0.4)
+
+h1, h2, h3, h4, h5, h6, p, div, span
+  color: $color-secondary
 
 body
   width: 100%
@@ -28,7 +34,7 @@ body
   font-weight: $weight-thin
   line-height: 1.5
   letter-spacing: $spacing-s
-  color: #1B222C
+  color: $color-secondary
 
 *
   box-sizing: border-box
@@ -52,6 +58,29 @@ section
   margin-left: auto
   margin-right: auto
   padding: 0 $margin-s
+
+.column
+  display: flex
+  flex-direction: column
+
+.row
+  display: flex
+  flex-direction: row
+
+.m-t-0
+  margin-top: 0
+
+.m-b-0
+  margin-bottom: 0
+
+.m-t-s
+  margin-top: $margin-s
+
+.m-t-xs
+  margin-top: $margin-xs
+
+.m-t-xxs
+  margin-top: $margin-xxs
 
 // header
 
@@ -90,7 +119,7 @@ footer
   min-height: 4rem
   background-color: $color-secondary
 
-// tour
+// misc
 
 .color-white
   color: $color-white
@@ -100,11 +129,16 @@ footer
   background-position: center center
   background-size: cover
 
+.hero-small
+  height: 10rem
+
 .hero-content
   display: flex
   flex-direction: row
   justify-content: space-between
   height: 100%
+
+// tour
 
 .hero-column
   margin-top: auto
@@ -144,3 +178,15 @@ button
   font-weight: $weight-normal
   &:last-child
     border-right: none
+  
+.day-circle
+  display: flex
+  justify-content: center
+  align-items: center
+  color: $color-white
+  background-color: $color-primary
+  margin: 0 $margin-s 0 $margin-xs
+  width: 2rem
+  height: 2rem
+  font-weight: $weight-bold
+  border-radius: 50%

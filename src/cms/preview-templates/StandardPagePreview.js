@@ -1,13 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import { StandardPageTemplate } from '../../templates/standard-page'
 
-const IndexPagePreview = ({ entry, getAsset }) => {
+const StandardPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
   if (!data) return <div>Fill data first</div>
-
   return (
-    <IndexPageTemplate
+    <StandardPageTemplate
       image={data.image}
       title={data.title}
       description={data.description}
@@ -15,11 +14,11 @@ const IndexPagePreview = ({ entry, getAsset }) => {
   )
 }
 
-IndexPagePreview.propTypes = {
+StandardPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 }
 
-export default IndexPagePreview
+export default StandardPagePreview

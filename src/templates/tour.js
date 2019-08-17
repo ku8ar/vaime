@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Wrapper from '../components/Wrapper'
+import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 
-export const TourTemplate = ({title, description, image, startDate, endDate, price, schedule, html}) => {
-
+export const TourTemplate = ({title, description, image, startDate, endDate, price, schedule, html, ...props}) => {
+  console.log(schedule, props)
   return (
     <section>
       <div
@@ -41,11 +41,21 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
       </div>
       <div className='content'>
         <HTMLContent content={html} />
-        <h3>Dzień</h3>
-        <div className='tour-days'>
-          {(schedule || []).map(s => (
-            <div />
-          ))}
+        <div className='column'>
+          <h3>Dzień</h3>
+          <div className='column'>
+            {(schedule || []).map(s => (
+              <div key={s.day} className='row'>
+                <div className='column m-t-xxs'>
+                  <div className='day-circle'>{s.day}</div>
+                </div>
+                <div className='column'>
+                  <h4 className='m-b-0 m-t-0'>{s.place}</h4>
+                  <p className='m-t-0'>{s.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -55,9 +65,9 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
 const Tour = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
-    <Wrapper title={title} description={description}>
+    <Layout title={title} description={description}>
       <TourTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} />
-    </Wrapper>
+    </Layout>
   )
 }
 
@@ -78,6 +88,11 @@ export const pageQuery = graphql`
         seats
         description
         tags
+        schedule {
+          day
+          place
+          text
+        }
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
