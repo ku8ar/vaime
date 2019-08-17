@@ -15,7 +15,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tour"}
       - {label: "Active", name: "active", widget: "boolean", default: true}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Start Date", name: "startDate", widget: "date"}
       - {label: "End Date", name: "endDate", widget: "date"}
       - {label: "Price", name: "price", widget: "number"}
@@ -23,6 +23,7 @@ collections:
       - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
 
   - name: "blog"
     label: "Blog"

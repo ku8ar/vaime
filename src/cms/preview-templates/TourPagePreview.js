@@ -4,7 +4,7 @@ import { TourTemplate } from '../../templates/tour'
 
 const TourPagePreview = ({ entry, widgetFor }) => (
   <TourTemplate
-    content={widgetFor('body')}
+    html={widgetFor('body')}
     {...entry.getIn(['data']).toJS()}
   />
 )

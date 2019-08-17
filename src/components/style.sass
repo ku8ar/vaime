@@ -2,15 +2,36 @@
 
 // variables
 
-$color-primary: #dd3333
-$color-secondary: #1B222C
+$color-primary: #dd3333 // 221, 51, 51
+$color-secondary: #1B222C // 27, 34, 44
 $color-white: #fff
 
+$weight-normal: 500
+$weight-thin: 300
+
+$radius-small: .25rem
+
+$spacing-b: .2rem
+$spacing-s: .03rem
+
+$font-normal: 12px 
+
+$margin-m: 2rem
+$margin-s: 1rem
+
+$bg-dark: rgba(27, 34, 44, 0.4)
+
 body
+  width: 100%
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
   font-size: 14px
+  font-weight: $weight-thin
   line-height: 1.5
+  letter-spacing: $spacing-s
   color: #1B222C
+
+*
+  box-sizing: border-box
 
 main
   width: 100%
@@ -30,7 +51,7 @@ section
   flex-wrap: wrap
   margin-left: auto
   margin-right: auto
-  padding: 0 1rem
+  padding: 0 $margin-s
 
 // header
 
@@ -70,16 +91,56 @@ footer
   background-color: $color-secondary
 
 // tour
+
 .color-white
   color: $color-white
 
-.hero
+.hero-wrapper
   height: 20rem
   background-position: center center
   background-size: cover
 
 .hero-content
   display: flex
-  flex-direction: column
-  justify-content: flex-end
+  flex-direction: row
+  justify-content: space-between
   height: 100%
+
+.hero-column
+  margin-top: auto
+
+.flex-start
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+.flex-end
+  display: flex
+  justify-content: flex-end
+
+button
+  background-color: $color-primary
+  border-color: $color-primary
+  color: $color-white
+  text-transform: uppercase
+  padding: .5rem 1rem
+  font-size: $font-normal
+  letter-spacing: $spacing-b
+  font-weight: $weight-thin
+  border-radius: $radius-small
+  margin: $margin-s 0
+
+.hero-info
+  display: flex
+  flex-direction: row
+  background-color: $bg-dark
+  padding: $margin-s $margin-s $margin-s 0
+
+.hero-pill
+  display: flex
+  flex-direction: column
+  padding: 0 $margin-s
+  border-right: 1px solid $color-white
+  font-weight: $weight-normal
+  &:last-child
+    border-right: none
