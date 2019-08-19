@@ -5,6 +5,7 @@
 $color-primary: #dd3333 // 221, 51, 51
 $color-secondary: #1B222C // 27, 34, 44
 $color-white: #fff
+$color-grey: #FAF9F9
 
 $weight-bold: 700
 $weight-normal: 500
@@ -15,7 +16,7 @@ $radius-small: .25rem
 $spacing-b: .2rem
 $spacing-s: .03rem
 
-$font-normal: 12px 
+$font-normal: 1rem
 
 $margin-m: 2rem
 $margin-s: 1rem
@@ -24,13 +25,39 @@ $margin-xxs: .25rem
 
 $bg-dark: rgba(27, 34, 44, 0.4)
 
+// framerowk
+
 h1, h2, h3, h4, h5, h6, p, div, span
   color: $color-secondary
 
+h1, h2, h3, h4, h5, h6, p
+  margin-top: 0
+  margin-bottom: .5rem
+  font-weight: 300
+
+h1
+  font-size: 2.5rem
+
+h2
+  font-size: 2rem
+  margin-top: 1.5rem
+
+h3
+  font-size: 1.75rem
+
+h4
+  font-size: 1.5rem
+
+h5
+  font-size: 1.25rem
+
+h6
+  font-size: 1rem
+
 body
   width: 100%
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
-  font-size: 14px
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+  font-size: $font-normal
   font-weight: $weight-thin
   line-height: 1.5
   letter-spacing: $spacing-s
@@ -38,6 +65,8 @@ body
 
 *
   box-sizing: border-box
+
+// global
 
 main
   width: 100%
@@ -121,8 +150,14 @@ footer
 
 // misc
 
+.color-primary
+  color: $color-primary
+
 .color-white
   color: $color-white
+
+.bg-color-grey
+  background-color: $color-grey
 
 .hero-wrapper
   height: 20rem
@@ -190,3 +225,73 @@ button
   height: 2rem
   font-weight: $weight-bold
   border-radius: 50%
+
+// landing
+.flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+.flex-center-entire
+  display: flex
+  justify-content: center
+  flex-grow: 1
+  width: 100%
+
+.flex-row-auto
+  display: flex
+  flex-direction: row
+  margin: auto
+
+.tour-item
+  display: flex
+  flex-direction: column
+  width: 20rem
+  height: 15rem
+  box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.16)
+  border-radius: $radius-small
+  margin: $margin-m
+  background-color: $color-white
+
+.tour-item-content
+  display: flex
+  flex-direction: column-reverse
+  align-items: center
+  margin: auto
+  height: 100%
+
+.tour-item-top-wrapper
+  flex: 1
+
+.tour-item-bottom-wrapper
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  margin: $margin-xs $margin-xs 0 $margin-xs
+
+.avatar
+  width: 10rem
+  height: 10rem
+  border-radius: 50%
+  margin-bottom: $margin-s
+
+.team-item
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: $margin-m
+  width: 20rem
+
+.bg-cover
+  background-position: center center
+  background-size: cover
+
+.instafeed
+  display: flex;
+
+.instafeed-item
+  flex: 1
+
+.instafeed-item-image
+  width: 100%
+  height: 100%
