@@ -1,25 +1,28 @@
 import React from 'react'
 import Wrapper from '../components/Layout'
-import { HTMLContent } from '../components/Content'
 import Hero from '../components/Hero'
+import Content, { HTMLContent } from '../components/Content'
 
-export const StandardPageTemplate = ({title, description, image, html}) => (
-  <section>
-    <Hero image={image}>
-      <h1 className='color-white'>{title}</h1>
-      <h2 className='color-white'>{description}</h2>
-    </Hero>
-    <div className='content'>
-      <HTMLContent content={html} />
-    </div>
-  </section>
-)
+export const StandardPageTemplate = ({title, description, image, html, contentComponent}) => {
+  const HtmlComponent = contentComponent || Content
+  return (
+    <section>
+      <Hero image={image}>
+        <h1 className='color-white'>{title}</h1>
+        <h2 className='color-white'>{description}</h2>
+      </Hero>
+      <div className='content'>
+        {html && <HtmlComponent content={html} />}
+      </div>
+    </section>
+  )
+}
 
 const StandardPage = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
     <Wrapper title={title} description={description}>
-      <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} />
+      <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Wrapper>
   )
 }

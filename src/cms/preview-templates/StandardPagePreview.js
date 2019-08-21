@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StandardPageTemplate } from '../../templates/standard-page'
 
-const StandardPagePreview = ({ entry, getAsset }) => {
+const StandardPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
   if (!data) return <div>Fill data first</div>
   return (
@@ -10,6 +10,7 @@ const StandardPagePreview = ({ entry, getAsset }) => {
       image={data.image}
       title={data.title}
       description={data.description}
+      html={widgetFor('body')}
     />
   )
 }
