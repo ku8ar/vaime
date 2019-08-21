@@ -13,7 +13,6 @@ function dateToYMD(date) {
 const TourPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
   if (!data) return <div>Fill data first</div>
-  console.log(widgetFor('body').html)
   return (
     <TourTemplate
       {...data}
