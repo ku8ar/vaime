@@ -5,7 +5,7 @@ image: /img/tour-mosque.jpg
 description: test
 team:
   - name: "Gia Suramelaszewnaszwili"
-    place: "Tbilisi"
+    place: "Tbilisia"
     text: >
       Przewodnik w cenie odpowiadającej jakości wycieczki. Jak sam o sobie mówi 'Może i robimy chujowo, ale kto robi dobrze?!'
   - name: "Gia Suramelaszewnaszwili"

@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import { HTMLContent } from '../components/Content'
+import Content, { HTMLContent } from '../components/Content'
 
-export const TourTemplate = ({title, description, image, startDate, endDate, price, schedule, html, ...props}) => {
-  console.log(schedule, props)
+export const TourTemplate = ({title, description, image, startDate, endDate, price, schedule, html, contentComponent, ...props}) => {
+  const HtmlComponent = contentComponent || Content
   return (
     <section>
       <div
@@ -40,7 +40,7 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
         </div>
       </div>
       <div className='content'>
-        {html && <HTMLContent content={html} />}
+        {html && <HtmlComponent content={html} />}
         <div className='column'>
           <h3>Dzień</h3>
           <div className='column'>
@@ -66,7 +66,7 @@ const Tour = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
     <Layout title={title} description={description}>
-      <TourTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} />
+      <TourTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
 }

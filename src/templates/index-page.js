@@ -4,17 +4,7 @@ import { graphql, Link } from 'gatsby'
 
 import instafeed from 'instafeed.js'
 import Layout from '../components/Layout'
-
-const Hero = ({image, children}) => (
-  <div
-    className="hero-wrapper"
-    style={{backgroundImage: `url(${image && image.childImageSharp ? image.childImageSharp.fluid.src : image})`}}
-  >
-    <div className='content hero-content'>
-      {children}
-    </div>
-  </div>
-)
+import Hero from '../components/Hero'
 
 const Centered = ({children}) => (
   <div className='flex-center'>
@@ -80,7 +70,7 @@ const Instagram = () => {
 }
 
 // TEMPLATE
-export const IndexPageTemplate = ({image, title, tours = [], ...props}) => (
+export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) => (
   <section>
     <Hero image={image}>
       <Centered>
@@ -103,12 +93,12 @@ export const IndexPageTemplate = ({image, title, tours = [], ...props}) => (
     </Section>
     <Section title={"Nasz Zespół!"}>
       <Grid>
-        {[0, 1].map(key => (
+        {(team || []).map((person, i) => (
         <TeamItem
-          key={key}
-          name="Gia Suramelaszewnaszwili"
-          place="Tbilisi"
-          description="Przewodnik w cenie odpowiadającej jakości wycieczki. Jak sam o sobie mówi: 'Może i robimy chujowo, ale kto robi dobrze?!'"
+          key={i}
+          name={person.name}
+          place={person.place}
+          description={person.text}
           image={image}
         />
         ))}

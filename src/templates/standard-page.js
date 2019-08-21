@@ -1,18 +1,14 @@
 import React from 'react'
 import Wrapper from '../components/Layout'
 import { HTMLContent } from '../components/Content'
+import Hero from '../components/Hero'
 
 export const StandardPageTemplate = ({title, description, image, html}) => (
   <section>
-    <div
-      className="hero-wrapper hero-small"
-      style={{backgroundImage: `url(${image && image.childImageSharp ? image.childImageSharp.fluid.src : image})`}}
-    >
-      <div className='content hero-content'>
-        <h1>{title}</h1>
-        <h2>{description}</h2>
-      </div>
-    </div>
+    <Hero image={image}>
+      <h1 className='color-white'>{title}</h1>
+      <h2 className='color-white'>{description}</h2>
+    </Hero>
     <div className='content'>
       <HTMLContent content={html} />
     </div>
@@ -37,6 +33,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
