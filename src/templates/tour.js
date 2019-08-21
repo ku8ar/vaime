@@ -40,7 +40,7 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
         </div>
       </div>
       <div className='content'>
-        <HTMLContent content={html} />
+        {html && <HTMLContent content={html} />}
         <div className='column'>
           <h3>Dzień</h3>
           <div className='column'>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import instafeed from 'instafeed.js'
 import Layout from '../components/Layout'
@@ -37,22 +37,22 @@ const Grid = ({children}) => (
   </div>
 )
 
-const TourItem = ({image, title, subtitle, price}) => (
-  <div className='tour-item'>
-    <div
-      className="tour-item-top-wrapper bg-cover"
-      style={{backgroundImage: `url(${image && image.childImageSharp ? image.childImageSharp.fluid.src : image})`}}
-    >
-      <div className='tour-item-content'>
-        <p className='color-white'>{subtitle}</p>
-        <button>Więcej</button>
+const TourItem = ({image, title, subtitle, price, slug}) => (
+  <Link to={slug} className='tour-item'>
+      <div
+        className="tour-item-top-wrapper bg-cover"
+        style={{backgroundImage: `url(${image && image.childImageSharp ? image.childImageSharp.fluid.src : image})`}}
+      >
+        <div className='tour-item-content'>
+          <p className='color-white'>{subtitle}</p>
+          <button>Więcej</button>
+        </div>
       </div>
-    </div>
-    <div className='tour-item-bottom-wrapper'>
-      <h6>{title}</h6>
-      <h6 className='color-primary'>{price} EUR</h6>
-    </div>
-  </div>
+      <div className='tour-item-bottom-wrapper'>
+        <h6>{title}</h6>
+        <h6 className='color-primary'>{price} EUR</h6>
+      </div>
+  </Link>
 )
 
 const TeamItem = ({image, name, place, description}) => (
@@ -79,22 +79,24 @@ const Instagram = () => {
   return <div className='instafeed' id='instafeed' />
 }
 
-export const IndexPageTemplate = ({image, title, ...props}) => (
+// TEMPLATE
+export const IndexPageTemplate = ({image, title, tours = [], ...props}) => (
   <section>
     <Hero image={image}>
       <Centered>
         <h1 className='color-white'>{title}</h1>
       </Centered>
     </Hero>
-    <Section title={"Podrózuj razem z nami!"} className='bg-color-grey'>
+    <Section title={"Podróżuj razem z nami!"} className='bg-color-grey'>
       <Grid>
-        {[0, 1, 2].map(key => (
+        {tours.map(({node}) => (
         <TourItem
-          key={key}
-          title="Gruzinskie Wakacje"
-          subtitle="Dostępny temin: 02-10 Sierpnia - 8 dni"
-          price={550}
-          image={image}
+          key={node.id}
+          title={node.frontmatter.title}
+          subtitle={`Dostępny temin: ${node.frontmatter.startDate}`}
+          price={node.frontmatter.price}
+          image={node.frontmatter.image}
+          slug={node.fields.slug}
         />
         ))}
       </Grid>
@@ -117,9 +119,10 @@ export const IndexPageTemplate = ({image, title, ...props}) => (
 )
 
 const IndexPage = ({ data }) => {
+  console.log(data.allMarkdownRemark.edges)
   return (
     <Layout>
-      <IndexPageTemplate {...data.markdownRemark.frontmatter} />
+      <IndexPageTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} />
     </Layout>
   )
 }
@@ -136,36 +139,38 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
+    allMarkdownRemark(filter: { frontmatter: { templateKey: { in: "tour" } } } ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            startDate
+            price
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        description
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
         }
       }
     }

@@ -30,6 +30,16 @@ const Wrapper = ({ children, title = '', description = '' }) => (
     {children}
     <footer>
       <div className='content'>
+        <div className='flex-row-auto'>
+          <div className='list'>
+            <h5 className='color-white'>Gruziński Po Polsku</h5>
+            <ul className='color-white'>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </main>

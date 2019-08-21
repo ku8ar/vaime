@@ -2,6 +2,6 @@
 templateKey: 'standard-page'
 path: /contact
 title: contact
-image: /img/jumbotron.jpg
+image: /img/tour-mosque.jpg
 description: contact
 ---

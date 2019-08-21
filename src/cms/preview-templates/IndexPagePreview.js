@@ -11,6 +11,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
       image={data.image}
       title={data.title}
       description={data.description}
+      tours={[]}
     />
   )
 }

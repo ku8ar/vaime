@@ -2,6 +2,6 @@
 templateKey: 'standard-page'
 path: /partnership
 title: partnership
-image: /img/jumbotron.jpg
+image: /img/tour-mosque.jpg
 description: partnership
 ---

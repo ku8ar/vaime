@@ -2,6 +2,6 @@
 templateKey: 'standard-page'
 path: /faq
 title: faq
-image: /img/jumbotron.jpg
+image: /img/tour-mosque.jpg
 description: faq
 ---

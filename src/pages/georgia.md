@@ -2,6 +2,6 @@
 templateKey: 'standard-page'
 path: /georgia
 title: Georgia
-image: /img/jumbotron.jpg
+image: /img/tour-mosque.jpg
 description: georgia
 ---
