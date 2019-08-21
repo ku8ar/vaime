@@ -119,7 +119,7 @@ export const IndexPageTemplate = ({image, title, tours = [], ...props}) => (
 )
 
 const IndexPage = ({ data }) => {
-  console.log(data.allMarkdownRemark.edges)
+  console.log(data.markdownRemark.frontmatter)
   return (
     <Layout>
       <IndexPageTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} />
@@ -171,6 +171,11 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        team {
+          name
+          place
+          text
         }
       }
     }

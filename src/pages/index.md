@@ -3,14 +3,13 @@ templateKey: index-page
 title: Podroze z nini i maja
 image: /img/tour-mosque.jpg
 description: test
-schedule:
-  - name: ""
-    place: "Kutasi"
+team:
+  - name: "Gia Suramelaszewnaszwili"
+    place: "Tbilisi"
     text: >
-      Przylot, zakwaterowanie w ziemiance.
-      Później idziemy opłacić haracz za zabrane paszporty
-  - name: ""
-    place: "Adzaria"
+      Przewodnik w cenie odpowiadającej jakości wycieczki. Jak sam o sobie mówi 'Może i robimy chujowo, ale kto robi dobrze?!'
+  - name: "Gia Suramelaszewnaszwili"
+    place: "Tbilisi"
     text: >
-      Chlejemy u Zebo
+      Przewodnik w cenie odpowiadającej jakości wycieczki. Jak sam o sobie mówi 'Może i robimy chujowo, ale kto robi dobrze?!'
 ---
