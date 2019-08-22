@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Head from './Head'
 import SocialLink from './SocialLink'
 import logo from '../img/logo.svg'
-import './style.sass'
+import '../styles/index.sass'
 
 const Wrapper = ({ children, title = '', description = '' }) => (
   <main>

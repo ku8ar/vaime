@@ -1,0 +1,52 @@
+@import "./variables.sass"
+
+.hero-column
+  margin-top: auto
+
+.flex-start
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+.flex-end
+  display: flex
+  justify-content: flex-end
+
+button
+  background-color: $color-primary
+  border-color: $color-primary
+  color: $color-white
+  text-transform: uppercase
+  padding: .5rem 1rem
+  font-size: $font-normal
+  letter-spacing: $spacing-b
+  font-weight: $weight-thin
+  border-radius: $radius-small
+  margin: $margin-s 0
+
+.hero-info
+  display: flex
+  flex-direction: row
+  background-color: $bg-dark
+  padding: $margin-s $margin-s $margin-s 0
+
+.hero-pill
+  display: flex
+  flex-direction: column
+  padding: 0 $margin-s
+  border-right: 1px solid $color-white
+  font-weight: $weight-normal
+  &:last-child
+    border-right: none
+  
+.day-circle
+  display: flex
+  justify-content: center
+  align-items: center
+  color: $color-white
+  background-color: $color-primary
+  margin: 0 $margin-s 0 $margin-xs
+  width: 2rem
+  height: 2rem
+  font-weight: $weight-bold
+  border-radius: 50%
