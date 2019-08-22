@@ -11,6 +11,6 @@ const icons = {
 
 export default ({type, src}) => (
   <a href={src} className="social-link">
-    <img src={icons[type]} className="social-link" alt={type} />
+    <img src={icons[type]} className="social-link-image" alt={type} />
   </a>
 )

@@ -9,16 +9,16 @@ const Wrapper = ({ children, title = '', description = '' }) => (
   <main>
     <Head title={title} description={description} />
     <header>
-      <div className='content'>
-        <Link to="/" className="logo" title="Logo">
-          <img src={logo} className="logo" alt="Vaime Travel" />
-        </Link>
+      <div className='content navigation'>
         <nav>
-          <Link to="/tours" className="nav-item" title="Logo">Wycieczki</Link>
-          <Link to="/georgia" className="nav-item" title="Logo">Gruzja</Link>
-          <Link to="/faq" className="nav-item" title="Logo">FAQ</Link>
-          <Link to="/partnership" className="nav-item" title="Logo">Współpraca</Link>
-          <Link to="/contact" className="nav-item" title="Logo">Kontakt</Link>
+          <Link to="/" className="logo" title="Logo">
+            <img src={logo} className="logo-img" alt="Vaime Travel" />
+          </Link>
+          <Link to="/tours" className="nav-item" title="Wycieczki">Wycieczki</Link>
+          <Link to="/georgia" className="nav-item" title="Gruzja">Gruzja</Link>
+          <Link to="/faq" className="nav-item" title="FAQ">FAQ</Link>
+          <Link to="/partnership" className="nav-item" title="Współpraca">Współpraca</Link>
+          <Link to="/contact" className="nav-item" title="Kontakt">Kontakt</Link>
         </nav>
         <div className='nav-social'>
           <SocialLink type='facebook' src='' />
