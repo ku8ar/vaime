@@ -35,4 +35,3 @@ schedule:
       samochodami terenowymi. Po zwiedzaniu powrót do Tbilisi, obiadokolacja,
       nocleg w Tbilisi.
 ---
-ss

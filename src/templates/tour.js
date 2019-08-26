@@ -14,7 +14,6 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
         <div className='content hero-content'>
           <div className='hero-column flex-start'>
             <h1 className='color-white'>{title}</h1>
-            <h2 className='color-white'>{description}</h2>
             <div className='hero-info'>
               <div className='hero-pill'>
                 <div className='hero-pill-title color-white'>Termin</div>
@@ -30,7 +29,7 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
               </div>
               <div className='hero-pill'>
                 <div className='hero-pill-title color-white'>Cena</div>
-                <div className='hero-pill-value color-white'>{price}</div>
+                <div className='hero-pill-value color-white'>{price} EUR</div>
               </div>
             </div>
           </div>
@@ -40,9 +39,10 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
         </div>
       </div>
       <div className='content'>
+        <h2>{description}</h2>
         {html && <HtmlComponent content={html} />}
-        <div className='column'>
-          <h3>Dzień</h3>
+        <div className='column m-t-s'>
+          <h6>Dzień</h6>
           <div className='column'>
             {(schedule || []).map(s => (
               <div key={s.day} className='row'>
