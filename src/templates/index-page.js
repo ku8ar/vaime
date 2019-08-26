@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
-
+import moment from 'moment'
+import heart from '../img/heart.svg'
 import instafeed from 'instafeed.js'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
@@ -34,13 +35,16 @@ const TourItem = ({image, title, subtitle, price, slug}) => (
         style={{backgroundImage: `url(${image && image.childImageSharp ? image.childImageSharp.fluid.src : image})`}}
       >
         <div className='tour-item-content'>
-          <p className='color-white'>{subtitle}</p>
+          <p className='tour-item-info color-white'>{subtitle}</p>
           <button>Więcej</button>
         </div>
       </div>
       <div className='tour-item-bottom-wrapper'>
         <h6>{title}</h6>
-        <h6 className='color-primary'>{price} EUR</h6>
+        <div className='tour-item-column'>
+          <img className='tour-item-icon' src={heart} />
+          <h6 className='color-primary'>{price} EUR</h6>
+        </div>
       </div>
   </Link>
 )
@@ -83,7 +87,7 @@ export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) =>
         <TourItem
           key={node.id}
           title={node.frontmatter.title}
-          subtitle={`Dostępny temin: ${node.frontmatter.startDate}`}
+          subtitle={`Dostępny temin: ${moment(node.frontmatter.startDate).format('DD.MM')}-${moment(node.frontmatter.endDate).format('DD.MM')}`}
           price={node.frontmatter.price}
           image={node.frontmatter.image}
           slug={node.fields.slug}

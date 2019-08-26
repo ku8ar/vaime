@@ -19,27 +19,48 @@
   flex-direction: column
   width: 20rem
   height: 15rem
-  box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.16)
+  box-shadow: 0 2px 4px 0 rgba(23,27,30,.1)
   border-radius: $radius-small
   margin: $margin-m
   background-color: $color-white
   text-decoration: none
+  transition: box-shadow .3s ease-out
+  &:hover
+    box-shadow: 0 4px 12px 0 rgba(23,27,30,.3)
 
 .tour-item-content
   display: flex
-  flex-direction: column-reverse
+  flex-direction: column
   align-items: center
+  justify-content: space-between
   margin: auto
   height: 100%
 
+.tour-item-info
+  padding: $margin-xs
+  background-color: $bg-dark
+
+
 .tour-item-top-wrapper
   flex: 1
+  overflow: hidden
 
 .tour-item-bottom-wrapper
   display: flex
-  flex-direction: column
-  justify-content: space-around
+  flex-direction: row
+  justify-content: space-between
   margin: $margin-xs $margin-xs 0 $margin-xs
+  min-height: 3.5rem
+
+.tour-item-column
+  white-space: nowrap
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-end
+
+.tour-item-icon
+  width: 1rem
 
 .avatar
   width: 10rem
