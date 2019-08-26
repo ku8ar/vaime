@@ -30,15 +30,25 @@ const Wrapper = ({ children, title = '', description = '' }) => (
     {children}
     <footer>
       <div className='content'>
-        <div className='flex-row-auto'>
-          <div className='list'>
-            <h5 className='color-white'>Gruziński Po Polsku</h5>
-            <ul className='color-white'>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Youtube</li>
-            </ul>
+        <div className='flex-row-auto footer-columns'>
+          <div className='footer-list'>
+            <img src={logo} className="footer-logo" alt="Vaime Travel" />
+            <a className='footer-link' href=''>+48 730 665 176</a>
+            <a className='footer-link' href=''>+995 555 628 887</a>
+            <a className='footer-link' href=''>info@vaimetravel.com</a>
           </div>
+          <div className='footer-list'>
+            <h5 className='color-white'>Gruziński Po Polsku</h5>
+            <a className='footer-link' href=''>Facebook</a>
+            <a className='footer-link' href=''>Instagram</a>
+            <a className='footer-link' href=''>Youtube</a>
+          </div>
+          <div className='footer-list'>
+            <a className='footer-link' href=''><h6 className='color-white'>Polityka Prywatności</h6></a>
+          </div>
+        </div>
+        <div className='flex-row-auto footer-columns'>
+          <p className='footer-copyright'>© Copyright 2017 Vaime Travel. All Rights Reserved</p>
         </div>
       </div>
     </footer>

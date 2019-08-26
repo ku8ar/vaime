@@ -113,9 +113,9 @@ export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) =>
 )
 
 const IndexPage = ({ data }) => {
-  console.log(data.markdownRemark.frontmatter)
+  const { title, description } = data.markdownRemark.frontmatter
   return (
-    <Layout>
+    <Layout title={title} description={description}>
       <IndexPageTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} />
     </Layout>
   )
