@@ -37,15 +37,16 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Description, name: description, widget: string}
           - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-      - file: "src/pages/fax.md"
+      - file: "src/pages/faq.md"
         label: "Faq"
-        name: "fax"
+        name: "faq"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "standard-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Description, name: description, widget: string}
+          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - file: "src/pages/georgia.md"
         label: "georgia"
         name: "georgia"
@@ -55,6 +56,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Description, name: description, widget: string}
+          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - file: "src/pages/contact.md"
         label: "contact"
         name: "contact"
@@ -64,6 +66,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Description, name: description, widget: string}
+          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - file: "src/pages/partnership.md"
         label: "partnership"
         name: "partnership"
@@ -73,6 +76,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Description, name: description, widget: string}
+          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - file: "src/pages/tours.md"
         label: "Tours"
         name: "tours"
@@ -82,3 +86,4 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Description, name: description, widget: string}
+          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}

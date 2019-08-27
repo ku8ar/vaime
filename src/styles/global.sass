@@ -50,6 +50,14 @@ h6
   font-size: 1rem
   color: $color-secondary
 
+li
+  margin-bottom: 1rem
+  &:last-child
+    margin-bottom: none
+
+strong
+  -webkit-font-smoothing: auto
+
 main
   width: 100%
   min-height: 100vh
@@ -58,6 +66,7 @@ main
   flex-direction: column
 
 section
+  margin-top: 4rem // @see header height
   width: 100%
   flex: 1
 
@@ -86,6 +95,9 @@ section
 
 .m-t-s
   margin-top: $margin-s
+
+.m-b-s
+  margin-bottom: $margin-s
 
 .m-t-xs
   margin-top: $margin-xs

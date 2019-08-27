@@ -1,19 +1,55 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import Wrapper from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
+import Centered from '../components/Centered'
 
-export const StandardPageTemplate = ({title, description, image, html, contentComponent}) => {
+const FaqItem = ({question, answer}) => {
+
+  const [open, setOpen] = useState(false)
+
+  const swipe = useCallback(() => setOpen(!open), [open])
+
+  return (
+    <div className='faq-item' onClick={swipe}>
+      <div className='faq-icon'>
+        ?
+      </div> 
+      <div className='faq-column'>
+        <p className='faq-question'><strong>{question}</strong></p>
+        {open && <p className='faq-answer'>{answer}</p>}
+      </div>
+    </div>
+  )
+}
+
+const Faq = ({list}) => (
+  <div className='faq'>
+    {list && list.map((el, i) => (
+      <FaqItem key={i} {...el} />
+    ))}
+  </div>
+)
+
+export const StandardPageTemplate = ({title, image, html, qa, contentComponent}) => {
   const HtmlComponent = contentComponent || Content
   return (
     <section>
-      <Hero image={image}>
-        <h1 className='color-white'>{title}</h1>
-        <h2 className='color-white'>{description}</h2>
+      <Hero image={image} small>
+        <Centered>
+          <h1 className='color-white'>{title}</h1>
+        </Centered>
       </Hero>
-      <div className='content'>
-        {html && <HtmlComponent content={html} />}
+      {qa && qa.length && (
+        <div className='content m-t-s m-b-s'>
+          <Faq list={qa} />
+        </div>
+      )}
+      {html && (
+      <div className='content m-t-s m-b-s'>
+        {<HtmlComponent content={html} />}
       </div>
+      )}
     </section>
   )
 }
@@ -36,6 +72,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        qa {
+          question
+          answer
+        }
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {

@@ -6,12 +6,7 @@ import heart from '../img/heart.svg'
 import instafeed from 'instafeed.js'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-
-const Centered = ({children}) => (
-  <div className='flex-center'>
-    {children}
-  </div>
-)
+import Centered from '../components/Centered'
 
 const Section = ({title, children, className}) => (
   <div className={className}>
