@@ -7,9 +7,7 @@ const StandardPagePreview = ({ entry, widgetFor }) => {
   if (!data) return <div>Fill data first</div>
   return (
     <StandardPageTemplate
-      image={data.image}
-      title={data.title}
-      description={data.description}
+      {...data}
       html={widgetFor('body')}
     />
   )

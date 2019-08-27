@@ -41,3 +41,5 @@ qa:
       Lot codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi.
       Sprawdź tu
 ---
+
+**Masz inne pytania?** [Napisz do nas!](/kontakt)

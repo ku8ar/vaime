@@ -82,7 +82,7 @@ export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) =>
         <TourItem
           key={node.id}
           title={node.frontmatter.title}
-          subtitle={`Dostępny temin: ${moment(node.frontmatter.startDate).format('DD.MM')}-${moment(node.frontmatter.endDate).format('DD.MM')}`}
+          subtitle={`Dostępny temin: ${moment(node.frontmatter.startDate).format('DD.MM')}-${moment(node.frontmatter.endDate).format('DD.MM')}.${moment(node.frontmatter.endDate).format('YYYY')}`}
           price={node.frontmatter.price}
           image={node.frontmatter.image}
           slug={node.fields.slug}
