@@ -72,9 +72,6 @@ const Instagram = () => {
 export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) => (
   <section>
     <Hero image={image}>
-      <Centered>
-        <h1 className='color-white'>{title}</h1>
-      </Centered>
     </Hero>
     <Section title={"Podróżuj razem z nami!"} className='bg-color-grey'>
       <Grid>
