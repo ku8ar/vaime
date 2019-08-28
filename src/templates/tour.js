@@ -2,8 +2,15 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import moment from 'moment'
 
-export const TourTemplate = ({title, description, image, startDate, endDate, price, schedule, html, contentComponent, ...props}) => {
+const calcDate = (startDate, endDate) => startDate && endDate ?
+  `${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(startDate).format('YYYY')}`
+  : ''
+
+const countDays = (startDate, endDate) => startDate && endDate ? moment(endDate).diff(moment(startDate), 'days') : 0
+
+export const TourTemplate = ({title, description, image, startDate, endDate, price, schedule, seats, html, contentComponent, ...props}) => {
   const HtmlComponent = contentComponent || Content
   return (
     <section>
@@ -17,15 +24,15 @@ export const TourTemplate = ({title, description, image, startDate, endDate, pri
             <div className='hero-info'>
               <div className='hero-pill'>
                 <div className='hero-pill-title color-white'>Termin</div>
-                <div className='hero-pill-value color-white'>{startDate}</div>
+                <div className='hero-pill-value color-white'>{calcDate(startDate, endDate)}</div>
               </div>
               <div className='hero-pill'>
                 <div className='hero-pill-title color-white'>Liczba dni</div>
-                <div className='hero-pill-value color-white'>0 dni / 0 nocy</div>
+                <div className='hero-pill-value color-white'>{countDays(startDate, endDate)} dni / {(countDays(startDate, endDate) || 1) - 1} nocy</div>
               </div>
               <div className='hero-pill'>
                 <div className='hero-pill-title color-white'>Wolne miejsca</div>
-                <div className='hero-pill-value color-white'>0</div>
+                <div className='hero-pill-value color-white'>{seats}</div>
               </div>
               <div className='hero-pill'>
                 <div className='hero-pill-title color-white'>Cena</div>

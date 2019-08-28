@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 title: Gruzińskie Wakacje
-description: Odwiedź najlepsze zakątki Kaukazu!
+description: Podróz przez niezdobytą przez rosjan, nieskazitelnie piękną Gruzję
 startDate: 2019-08-20T17:40:01.346Z
 endDate: 2019-08-23T17:40:01.392Z
 schedule:
@@ -30,7 +30,5 @@ tags:
   - gruzja
   - armenia
 ---
-
-###Podróz przez niezdobytą przez rosjan, nieskazitelnie piękną Gruzję
 
 Odwiedź najlepsze miejsca w regionie, walcz z wilkami, **poluj** na upioru i pij **czaczę** z gruzińskimi bohaterami średniowiecznych sag narodowych. To i jeszcze więcej czeka cię w tej eskapadzie. **Spróbuj**, a nie _pozałujesz_!

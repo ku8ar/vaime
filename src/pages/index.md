@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Podroze z nini i maja
+title: "Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
 image: /img/batumi-bulvar.jpg
-description: test
+description: Podróże z Nini i Mają
 team:
   - name: Gia Suramelaszewnaszwili
     place: Tbilisia
