@@ -1,5 +1,5 @@
 ---
-templateKey: 'standard-page'
+templateKey: 'page'
 path: /faq
 title: FAQ
 image: /img/tour-mosque.jpg

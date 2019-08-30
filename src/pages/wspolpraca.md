@@ -1,6 +1,6 @@
 ---
-templateKey: 'standard-page'
-path: /partnership
+templateKey: 'page'
+path: /wspolpraca
 title: Współpraca
 image: /img/tour-mosque.jpg
 description: Profejsonalna obsługa tour operatorów

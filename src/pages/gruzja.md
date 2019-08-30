@@ -1,6 +1,6 @@
 ---
-templateKey: 'standard-page'
-path: /georgia
+templateKey: 'page'
+path: /gruzja
 title: Gruzja
 image: /img/tour-mosque.jpg
 description: Informacje o Gruzji

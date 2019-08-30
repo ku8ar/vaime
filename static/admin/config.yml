@@ -10,7 +10,7 @@ collections:
     label: "Tour"
     folder: "src/pages/tour"
     create: true
-    slug: "{{slug}}"
+    slug: "wycieczka"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tour"}
       - {label: "Active", name: "active", widget: "boolean", default: true}
@@ -24,66 +24,29 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-
-  - name: "pages"
-    label: "Pages"
+  
+  - name: "static"
+    label: "Static"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Home"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
           - {label: Title, name: title, widget: string}
           - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
           - {label: Description, name: description, widget: string}
           - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-      - file: "src/pages/faq.md"
-        label: "Faq"
-        name: "faq"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "standard-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Description, name: description, widget: string}
-          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
-      - file: "src/pages/georgia.md"
-        label: "georgia"
-        name: "georgia"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "standard-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Description, name: description, widget: string}
-          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
-      - file: "src/pages/contact.md"
-        label: "contact"
-        name: "contact"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "standard-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Description, name: description, widget: string}
-          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
-      - file: "src/pages/partnership.md"
-        label: "partnership"
-        name: "partnership"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "standard-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Description, name: description, widget: string}
-          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
-      - file: "src/pages/tours.md"
-        label: "Tours"
-        name: "tours"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "standard-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Description, name: description, widget: string}
-          - {label: "Question & Answer", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
+
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
+    create: true
+    slug: "{{slug}}"
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page"}
+        - {label: Title, name: title, widget: string}
+        - {label: Image, name: image, widget: image}
+        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: Description, name: description, widget: string}
+        - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}

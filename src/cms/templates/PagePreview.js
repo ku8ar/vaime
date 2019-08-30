@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StandardPageTemplate } from '../../templates/standard-page'
+import { StandardPageTemplate } from '../../templates/page'
 
 const StandardPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()

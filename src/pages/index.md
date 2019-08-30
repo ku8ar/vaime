@@ -1,5 +1,5 @@
 ---
-templateKey: index-page
+templateKey: home
 title: "Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
 images:
   - name: Batumi Bulwar
