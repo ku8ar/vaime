@@ -6,7 +6,6 @@ import heart from '../img/heart.svg'
 import instafeed from 'instafeed.js'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-import Centered from '../components/Centered'
 
 const Section = ({title, children, className}) => (
   <div className={className}>
@@ -69,9 +68,9 @@ const Instagram = () => {
 }
 
 // TEMPLATE
-export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) => (
+export const IndexPageTemplate = ({images, title, tours = [], team, ...props}) => (
   <section>
-    <Hero image={image}>
+    <Hero images={images}>
     </Hero>
     <Section title={"Podróżuj razem z nami!"} className='bg-color-grey'>
       <Grid>
@@ -95,7 +94,7 @@ export const IndexPageTemplate = ({image, title, tours = [], team, ...props}) =>
           name={person.name}
           place={person.place}
           description={person.text}
-          image={image}
+          image={images[0]}
         />
         ))}
       </Grid>
@@ -151,10 +150,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        images {
+          name
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
