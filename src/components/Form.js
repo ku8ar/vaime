@@ -1,0 +1,93 @@
+import React, { useMemo } from 'react'
+import styled, { css } from 'styled-components'
+import { Formik, Form, Field, ErrorMessage } from 'formik'
+import { Button } from './Base'
+import Icon from './InputIcon'
+
+export default ({ fieldset, onSubmit }) => {
+  const initialValues = useInitialValues(fieldset)
+  return (
+    <Formik
+      initialValues={initialValues}
+      validate={validate}
+      onSubmit={onSubmit}
+    >
+      {({ isSubmitting }) => (
+        <FormWrapper>
+          {fieldset.map(field => <FormInput key={field.name} {...field} />)}
+          <Button type="submit" disabled={isSubmitting}>Wyślij</Button>
+        </FormWrapper>
+      )}
+    </Formik>
+  )
+}
+
+const useInitialValues = (fieldset) => useMemo(
+  () => fieldset.reduce((acc, field) =>
+    ({ ...acc, [field.name]: field.initialValue }),
+    {}), [])
+
+const validate = values =>
+  Object.entries(values)
+    .reduce((acc, [key, value]) => 
+      !value && value !== 0 ? { ...acc, [key]: 'To pole jest wymagane' } : acc
+    , {})
+
+const getFormComponent = (type) => {
+  switch (true) {
+    case type === 'textarea': return TextArea
+    default: return Input
+  }
+}
+
+const FormInput = ({ type, name, icon, ...props }) => (
+  <FormInputWrapper>
+    <FieldWrapper>
+      <Icon name={icon} />
+      <Field type={type} name={name} component={getFormComponent(type)} {...props} />
+    </FieldWrapper>
+    <ErrorMessage name={name} component={Error} />
+  </FormInputWrapper>
+)
+
+const FormWrapper = styled(Form)`
+  display: flex;
+  flex-direction: column;
+`
+
+const FormInputWrapper = styled.div`
+  margin-top: 1rem;
+  &:first-child {
+    margin-top: 0;
+  }
+`
+
+const FieldWrapper = styled.div`
+  border-radius: ${p => p.theme.radiusSmall};
+  border: 1px solid ${p => p.theme.colorGreyDark};
+  display: flex;
+`
+
+const inputCss = css`
+  min-height: 1.75rem;
+  width: 100%;
+  padding: .5rem;
+  border: none;
+  border-left: 1px solid ${p => p.theme.colorGreyDark};
+  &:focus {
+    outline: none;
+  }
+`
+
+const Input = styled.input`
+  ${inputCss}
+`
+
+const TextArea = styled.textarea`
+  ${inputCss}
+`
+
+const Error = styled.p`
+  color: ${p => p.theme.colorPrimary};
+  margin: 0;
+`

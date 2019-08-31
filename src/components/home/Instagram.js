@@ -14,9 +14,8 @@ const GlobalStyle = createGlobalStyle`
 
   .instafeed-item {
     width: 33%;
-    height: 33%;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
+    height: auto;
+    border: 1px solid white;
   }
 
   .instafeed-item-image {
@@ -26,7 +25,10 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const Wrapper = styled.div`
-  width: 50%;
+  width: auto;
+  max-width: 50%;
+  margin-right: 2rem;
+  flex: 1;
 `
 
 const Title = styled(H2)`

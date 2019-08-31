@@ -31,6 +31,7 @@ const theme = {
   // radius
   radiusSmall: '.25rem',
   // font
+  fontNormal: '16px',
   fontFamily: '"Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
 }
 

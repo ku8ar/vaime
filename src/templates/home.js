@@ -8,6 +8,7 @@ import Section from '../components/home/Section'
 import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
+import ContactForm from '../components/home/ContactForm'
 import DoubledSection from '../components/home/DoubledSection'
 
 export const HomeTemplate = ({ images, tours = [], team = [] }) => (
@@ -38,6 +39,7 @@ export const HomeTemplate = ({ images, tours = [], team = [] }) => (
     </Section>
     <DoubledSection>
       <Instagram />
+      <ContactForm />
     </DoubledSection>
   </Page>
 )

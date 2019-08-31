@@ -9,8 +9,9 @@ export const Center = styled.div`
 
 export const Grid = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: row;
-  margin: auto;
+  justify-content: center;
 `
 
 export const View = styled.div`
