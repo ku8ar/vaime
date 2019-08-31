@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Section from '../components/home/Section'
 import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
+import InfoBelt from '../components/home/InfoBelt'
 import TourTile from '../components/TourTile'
 import {Page, Grid} from '../components/Base'
 
@@ -12,7 +13,8 @@ export const HomeTemplate = ({ images, tours = [], team = [] }) => (
   <Page>
     <Hero images={images}>
     </Hero>
-    <Section title={"Podróżuj razem z nami!"} color='colorGrey'>
+    <InfoBelt />
+    <Section title={"Podróżuj razem z nami!"}>
       <Grid>
         {tours.map(({ node }) => (
           <TourTile
@@ -23,7 +25,7 @@ export const HomeTemplate = ({ images, tours = [], team = [] }) => (
         ))}
       </Grid>
     </Section>
-    <Section title={"Nasz Zespół!"}>
+    <Section title={"Nasz Zespół!"} color='colorGrey'>
       <Grid>
         {team.map(person => (
           <TeamTile
