@@ -2,12 +2,13 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
+import TourTile from '../components/TourTile'
+import {Page, Grid} from '../components/Base'
 import Section from '../components/home/Section'
 import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
-import TourTile from '../components/TourTile'
-import {Page, Grid} from '../components/Base'
+import DoubledSection from '../components/home/DoubledSection'
 
 export const HomeTemplate = ({ images, tours = [], team = [] }) => (
   <Page>
@@ -35,7 +36,9 @@ export const HomeTemplate = ({ images, tours = [], team = [] }) => (
         ))}
       </Grid>
     </Section>
-    <Instagram />
+    <DoubledSection>
+      <Instagram />
+    </DoubledSection>
   </Page>
 )
 

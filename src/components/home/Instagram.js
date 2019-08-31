@@ -1,14 +1,22 @@
 import React, { useEffect } from 'react'
-import { createGlobalStyle } from 'styled-components'
-import instafeed from 'instafeed.js'
+import styled, { createGlobalStyle } from 'styled-components'
+import Instafeed from 'instafeed.js'
+import { H2 } from '../Base'
+// @todo: add react svg support
+import instagramPrimary from '../../img/social/instagram_primary.svg'
 
 const GlobalStyle = createGlobalStyle`
   .instafeed {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .instafeed-item {
-    flex: 1;
+    width: 33%;
+    height: 33%;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
   }
 
   .instafeed-item-image {
@@ -17,11 +25,25 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
+const Wrapper = styled.div`
+  width: 50%;
+`
+
+const Title = styled(H2)`
+  text-transform: none;
+  margin-bottom: 2rem;
+`
+
+const Icon = styled.img`
+  height: 1.5rem;
+  margin-right: .5rem;
+`
+
 export default () => {
   useEffect(() => {
-    const feed = new instafeed({
+    const feed = new Instafeed({
       get: 'user',
-      limit: 12,
+      limit: 9,
       accessToken: '10221529773.1677ed0.d596aafbded7483fb106dbfe6534952d',
       userId: 10221529773,
       template: '<a class="instafeed-item" href="{{link}}"><img  class="instafeed-item-image" src="{{image}}" /></a>'
@@ -29,9 +51,10 @@ export default () => {
     feed.run()
   }, [])
   return (
-    <> 
+    <Wrapper> 
       <GlobalStyle />
+      <Title color='colorPrimary'><Icon src={instagramPrimary} />vaimetravel</Title>
       <div className='instafeed' id='instafeed' />
-    </>
+    </Wrapper>
   )
 }
