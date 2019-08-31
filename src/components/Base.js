@@ -23,6 +23,13 @@ export const View = styled.div`
   padding: 0 1rem;
 `
 
+// @see header height
+export const Page = styled.section`
+  margin-top: 4rem;
+  width: 100%;
+  flex: 1;
+`
+
 const center = css`
   display: flex;
   justify-content: center;

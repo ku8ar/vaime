@@ -6,10 +6,10 @@ import Section from '../components/home/Section'
 import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
 import TourTile from '../components/TourTile'
-import {Grid} from '../components/Base'
+import {Page, Grid} from '../components/Base'
 
 export const HomeTemplate = ({ images, tours = [], team = [] }) => (
-  <section>
+  <Page>
     <Hero images={images}>
     </Hero>
     <Section title={"Podróżuj razem z nami!"} color='colorGrey'>
@@ -34,7 +34,7 @@ export const HomeTemplate = ({ images, tours = [], team = [] }) => (
       </Grid>
     </Section>
     <Instagram />
-  </section>
+  </Page>
 )
 
 export default ({ data }) => {
