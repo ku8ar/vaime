@@ -2,7 +2,9 @@
 templateKey: 'page'
 path: /wspolpraca
 title: Współpraca
-image: /img/tour-mosque.jpg
+images:
+  - name: Batumi Bulwar
+    image: /img/batumi-bulvar.jpg
 description: Profejsonalna obsługa tour operatorów
 qa:
 ---

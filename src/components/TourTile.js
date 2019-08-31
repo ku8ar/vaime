@@ -3,15 +3,16 @@ import styled from 'styled-components'
 import { path } from 'rambda'
 import { Link } from 'gatsby'
 import moment from 'moment'
-import {H6} from './Base'
+import {H6, Button} from './Base'
 import heart from '../img/heart.svg'
 
 export default ({ slug, tour }) => {
   if (!tour) return
 
-  const { title, startDate, endDate, image, price } = tour
+  const { title, startDate, endDate, images, price } = tour
   const subtitle = `Dostępny temin: ${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(endDate).format('YYYY')}`
-  const src = image && image.childImageSharp ? image.childImageSharp.fluid.src : image
+  // @todo: get only first image
+  const src = path('image.childImageSharp.fluid.src', images && images[0]) || images && images[0]
 
   return (
     <LinkWrapper to={slug}>
@@ -20,7 +21,7 @@ export default ({ slug, tour }) => {
       >
         <TourContent>
           <TourInfo>{subtitle}</TourInfo>
-          <button>Więcej</button>
+          <Button>Więcej</Button>
         </TourContent>
       </BgCover>
       <BottomLabel>

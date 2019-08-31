@@ -7,7 +7,9 @@ startDate: 2019-10-05T20:45:36.360Z
 endDate: 2019-10-15T20:45:36.422Z
 price: 535
 seats: 5
-image: /img/rabati1.jpg
+images:
+  - name: Batumi Bulwar
+    image: /img/batumi-bulvar.jpg
 tags:
   - efdf
 schedule:

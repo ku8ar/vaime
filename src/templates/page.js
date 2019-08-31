@@ -2,17 +2,17 @@ import React from 'react'
 import Wrapper from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
-import { Page, Center } from '../components/Base'
+import { Page, Center, H1 } from '../components/Base'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 
-export const StandardPageTemplate = ({title, image, html, qa, contentComponent}) => {
+export const StandardPageTemplate = ({title, images, html, qa, contentComponent}) => {
   const HtmlComponent = contentComponent || Content
   return (
     <Page>
-      <Hero image={image} small>
+      <Hero images={images} small>
         <Center>
-          <h1 className='color-white'>{title}</h1>
+          <H1 color='colorWhite'>{title}</H1>
         </Center>
       </Hero>
       <Faq list={qa} />
@@ -43,10 +43,13 @@ export const pageQuery = graphql`
           question
           answer
         }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        images {
+          name
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

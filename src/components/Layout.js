@@ -1,6 +1,7 @@
 import React from 'react'
 import Seo from './custom/Seo'
 import styled, { ThemeProvider } from 'styled-components'
+import GlobalStyle from './GlobalStyle'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 import '../styles/index.sass'
@@ -29,11 +30,14 @@ const theme = {
   spacingSmall: '.03rem',
   // radius
   radiusSmall: '.25rem',
+  // font
+  fontFamily: '"Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
 }
 
 const Layout = ({ children, title = '', description = '' }) => (
   <ThemeProvider theme={theme}>
     <Main>
+      <GlobalStyle />
       <Seo title={title} description={description} />
       <Header />
       {children}

@@ -38,6 +38,7 @@ const center = css`
 `
 
 export const H1 = styled.h1`
+  color: ${props => props.theme[props.color]};
 `
 
 export const H2 = styled.h2`
@@ -62,3 +63,17 @@ export const H6 = styled.h6`
 `
 
 export const P = styled.p``
+
+export const Button = styled.button`
+  background-color: ${p => p.theme.colorPrimary};
+  border-color: ${p => p.theme.colorPrimary};
+  color: ${p => p.theme.colorWhite};
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  font-size: ${p => p.theme.fontNormal};
+  letter-spacing: ${p => p.theme.spacingBig};
+  font-weight: ${p => p.theme.weightThin};
+  border-radius: ${p => p.theme.radiusSmall};
+  margin: ${p => p.theme.marginS} 0;
+  cursor: pointer;
+`

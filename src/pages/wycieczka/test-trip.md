@@ -25,7 +25,9 @@ schedule:
       Niestety oficjalne pozegnanie. Więcej hajsu z was nie ściągniemy. Ci którzy opłacili haracz zostają wypuszczeni do samolotu, a resztę wywozimy do Pankisi sprzedać ciapatym
 price: 10
 seats: 12
-image: /img/tour-mosque.jpg
+images:
+  - name: Batumi Bulwar
+    image: /img/batumi-bulvar.jpg
 tags:
   - gruzja
   - armenia

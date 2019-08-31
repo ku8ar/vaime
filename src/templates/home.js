@@ -59,10 +59,13 @@ export const pageQuery = graphql`
             title
             startDate
             price
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
+            images {
+              name
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
               }
             }

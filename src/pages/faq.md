@@ -2,7 +2,9 @@
 templateKey: 'page'
 path: /faq
 title: FAQ
-image: /img/tour-mosque.jpg
+images:
+  - name: Batumi Bulwar
+    image: /img/batumi-bulvar.jpg
 description: Pytania i odpowiedzi
 qa:
   - question: 'Czy w Gruzji jest bezpiecznie?'

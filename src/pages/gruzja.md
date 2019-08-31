@@ -2,7 +2,9 @@
 templateKey: 'page'
 path: /gruzja
 title: Gruzja
-image: /img/tour-mosque.jpg
+images:
+  - name: Batumi Bulwar
+    image: /img/batumi-bulvar.jpg
 description: Informacje o Gruzji
 qa:
 ---
