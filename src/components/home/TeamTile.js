@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {H4, H5, P} from '../Text'
+import {H4, H5, P} from '../Base'
 
 const Wrapper = styled.div`
   display: flex;

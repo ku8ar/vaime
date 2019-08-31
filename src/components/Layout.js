@@ -1,5 +1,5 @@
 import React from 'react'
-import Seo from './Seo'
+import Seo from './custom/Seo'
 import styled, { ThemeProvider } from 'styled-components'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
@@ -31,14 +31,6 @@ const theme = {
   radiusSmall: '.25rem',
 }
 
-const Main = styled.main`
-  width: 100%;
-  min-height: 100vh;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-`
-
 const Layout = ({ children, title = '', description = '' }) => (
   <ThemeProvider theme={theme}>
     <Main>
@@ -49,5 +41,13 @@ const Layout = ({ children, title = '', description = '' }) => (
     </Main>
   </ThemeProvider>
 )
+
+const Main = styled.main`
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+`
 
 export default Layout

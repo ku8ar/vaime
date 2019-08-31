@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import LayoutContent from '../LayoutContent'
 import logo from '../../img/logo.svg'
-import { H5, H6 } from '../Text'
+import { View, H5, H6 } from '../Base'
 
 const Footer = styled.footer`
   min-height: 4rem;
@@ -40,7 +39,7 @@ const FooterCopyright = styled.p`
 
 export default () => (
   <Footer>
-    <LayoutContent>
+    <View>
       <FooterRow>
         <FooterList>
           <FooterLogo src={logo} alt="Vaime Travel" />
@@ -61,6 +60,6 @@ export default () => (
       <FooterRow>
         <FooterCopyright>© Copyright 2017 Vaime Travel. All Rights Reserved</FooterCopyright>
       </FooterRow>
-    </LayoutContent>
+    </View>
   </Footer>
 )

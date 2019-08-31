@@ -3,8 +3,36 @@ import styled from 'styled-components'
 import { path } from 'rambda'
 import { Link } from 'gatsby'
 import moment from 'moment'
-import {H6} from './Text'
+import {H6} from './Base'
 import heart from '../img/heart.svg'
+
+export default ({ slug, tour }) => {
+  if (!tour) return
+
+  const { title, startDate, endDate, image, price } = tour
+  const subtitle = `Dostępny temin: ${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(endDate).format('YYYY')}`
+  const src = image && image.childImageSharp ? image.childImageSharp.fluid.src : image
+
+  return (
+    <LinkWrapper to={slug}>
+      <BgCover
+        style={{ backgroundImage: `url(${src})` }}
+      >
+        <TourContent>
+          <TourInfo>{subtitle}</TourInfo>
+          <button>Więcej</button>
+        </TourContent>
+      </BgCover>
+      <BottomLabel>
+        <H6>{title}</H6>
+        <TourColumn>
+          <HeartIcon src={heart} />
+          <H6 color='colorPrimary'>{price} EUR</H6>
+        </TourColumn>
+      </BottomLabel>
+    </LinkWrapper>
+  )
+}
 
 const LinkWrapper = styled(Link)`
   display: flex;
@@ -64,31 +92,3 @@ const TourColumn = styled.div`
   justify-content: center;
   align-items: flex-end;
 `
-
-export default ({ slug, tour }) => {
-  if (!tour) return
-
-  const { title, startDate, endDate, image, price } = tour
-  const subtitle = `Dostępny temin: ${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(endDate).format('YYYY')}`
-  const src = image && image.childImageSharp ? image.childImageSharp.fluid.src : image
-
-  return (
-    <LinkWrapper to={slug}>
-      <BgCover
-        style={{ backgroundImage: `url(${src})` }}
-      >
-        <TourContent>
-          <TourInfo>{subtitle}</TourInfo>
-          <button>Więcej</button>
-        </TourContent>
-      </BgCover>
-      <BottomLabel>
-        <H6>{title}</H6>
-        <TourColumn>
-          <HeartIcon src={heart} />
-          <H6 color='colorPrimary'>{price} EUR</H6>
-        </TourColumn>
-      </BottomLabel>
-    </LinkWrapper>
-  )
-}

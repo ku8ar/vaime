@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import logo from '../../img/logo.svg'
-import LayoutContent from '../LayoutContent'
+import { View } from '../Base'
 import SocialLink from './SocialLink'
 
 const Header = styled.header`
@@ -47,7 +47,7 @@ const NavSocialList = styled.div`
   display: flex;
 `
 
-const LayoutNavigation = styled(LayoutContent)`
+const LayoutNavigation = styled(View)`
   justify-content: space-between;
   align-items: center;
 `

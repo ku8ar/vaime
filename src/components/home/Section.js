@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import LayoutContent from '../LayoutContent'
-import {H2} from '../Text'
+import { View, H2 } from '../Base'
 
 const Wrapper = styled.div`
   background-color: ${props => props.theme[props.color]}
@@ -9,9 +8,9 @@ const Wrapper = styled.div`
 
 export default ({color, title, children}) => (
   <Wrapper color={color}>
-    <LayoutContent>
+    <View>
       <H2 color='colorPrimary' center>{title}</H2>
       {children}
-    </LayoutContent>
+    </View>
   </Wrapper>
 )

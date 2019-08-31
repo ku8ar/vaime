@@ -1,5 +1,28 @@
 import styled, { css } from 'styled-components'
 
+export const Center = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+`
+
+export const Grid = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+`
+
+export const View = styled.div`
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+`
+
 const center = css`
   display: flex;
   justify-content: center;

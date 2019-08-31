@@ -5,8 +5,8 @@ import Hero from '../components/Hero'
 import Section from '../components/home/Section'
 import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
-import Grid from '../components/Grid'
 import TourTile from '../components/TourTile'
+import {Grid} from '../components/Base'
 
 export const HomeTemplate = ({ images, tours = [], team = [] }) => (
   <section>

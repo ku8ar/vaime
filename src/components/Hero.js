@@ -3,7 +3,7 @@ import Img from 'gatsby-image'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import {path} from 'rambda'
-import LayoutContent from './LayoutContent'
+import {View} from './Base'
 
 const Hero = ({ image, images, children, small }) => {
   const imgKey = useImageKey(images)
@@ -60,7 +60,7 @@ const HeroWrapper = styled.div`
   background-size: cover;
 `
 
-const HeroContent = styled(LayoutContent)`
+const HeroContent = styled(View)`
   display: flex;
   flex-direction: row;
   justify-content: space-between;

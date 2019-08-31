@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react'
 import Wrapper from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
-import Centered from '../components/Centered'
+import { Center } from '../components/Base'
 
 const FaqItem = ({question, answer}) => {
 
@@ -36,9 +36,9 @@ export const StandardPageTemplate = ({title, image, html, qa, contentComponent})
   return (
     <section>
       <Hero image={image} small>
-        <Centered>
+        <Center>
           <h1 className='color-white'>{title}</h1>
-        </Centered>
+        </Center>
       </Hero>
       {qa && qa.length && (
         <div className='content m-t-s m-b-s'>
