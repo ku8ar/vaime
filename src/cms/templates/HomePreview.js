@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/home'
+import { HomeTemplate } from '../../templates/home'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
   if (!data) return <div>Fill data first</div>
 
   return (
-    <IndexPageTemplate
+    <HomeTemplate
       image={data.image}
       title={data.title}
       description={data.description}

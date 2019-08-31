@@ -1,0 +1,7 @@
+{
+  "extends": "gatsby-standard",
+  "rules": {
+    "react/display-name": [false],
+    "no-unused-vars": ["warn"]
+  }
+}
