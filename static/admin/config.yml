@@ -20,7 +20,7 @@ collections:
       - {label: "End Date", name: "endDate", widget: "date"}
       - {label: "Price", name: "price", widget: "number"}
       - {label: "No of seats", name: "seats", widget: "number"}
-      - {label: "Image", name: "image", widget: image}
+      - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}

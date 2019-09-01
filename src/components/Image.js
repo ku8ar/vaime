@@ -9,7 +9,11 @@ export default ({data, ...props}) => {
   const fluid = path('image.childImageSharp.fluid', data)
 
   if (!fluid) {
-    return <img {...props} alt={name} src={path('image', data)} />
+    const style = {
+      objectFit: 'cover',
+      ...(props.style || {})
+    }
+    return <img {...props} style={style} alt={name} src={path('image', data)} />
   }
 
   return <Img {...props} alt={name} fluid={fluid} />
