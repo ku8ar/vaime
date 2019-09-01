@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Img from 'gatsby-image'
+import {path} from 'rambda'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import {View} from './Base'
@@ -7,7 +8,7 @@ import {View} from './Base'
 const Hero = ({ images, children, small }) => {
   const imgKey = useImageKey(images)
   const imageObj = images && images.length ? images[imgKey] : {}
-  const fluid = imageObj.image.childImageSharp.fluid
+  const fluid = path('image.childImageSharp.fluid', imageObj)
   const alt = imageObj.name
 
   return (
