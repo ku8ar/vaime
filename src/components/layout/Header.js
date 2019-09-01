@@ -1,9 +1,57 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import logo from '../../img/logo.svg'
+import bars from '../../img/bars.svg'
 import { View } from '../Base'
 import SocialLink from './SocialLink'
+import MobileNavigation from './MobileNavigation'
+
+export default () => {
+  const [menu, setMenu] = useState(false)
+  const toggleMenu = useCallback(() => setMenu(!menu), [menu])
+
+  return (
+    <>
+      <Header>
+        <LayoutNavigationDesktop>
+          <Nav>
+            <LogoWrapper to="/" title="Logo">
+              <LogoIcon src={logo} alt="Vaime Travel" />
+            </LogoWrapper>
+            {navigation.map(nav => (
+              <NavItem key={nav.to} {...nav}>{nav.title}</NavItem>
+            ))}
+          </Nav>
+          <NavSocialList>
+            {social.map(soc => <SocialLink key={soc.type} {...soc} />)}
+          </NavSocialList>
+        </LayoutNavigationDesktop>
+        <LayoutNavigationMobile>
+          <LogoWrapper to="/" title="Logo">
+            <LogoIcon src={logo} alt="Vaime Travel" />
+          </LogoWrapper>
+          <BurgerIcon src={bars} onClick={toggleMenu} />
+        </LayoutNavigationMobile>
+      </Header>
+      <MobileNavigation navigation={navigation} menu={menu} toggleMenu={toggleMenu} />
+    </>
+  )
+}
+
+const navigation = [
+  { to: '/wycieczki', title: 'Wycieczki' },
+  { to: '/gruzja', title: 'Gruzja' },
+  { to: '/faq', title: 'FAQ' },
+  { to: '/wspolpraca', title: 'Współpraca' },
+  { to: '/kontakt', title: 'Kontakt' },
+]
+
+const social = [
+  { type: 'facebook', src: '' },
+  { type: 'instagram', src: '' },
+  { type: 'youtube', src: '' }
+]
 
 const Header = styled.header`
   display: flex;
@@ -47,29 +95,23 @@ const NavSocialList = styled.div`
   display: flex;
 `
 
-const LayoutNavigation = styled(View)`
+const LayoutNavigationDesktop = styled(View)`
   justify-content: space-between;
   align-items: center;
+  ${p => p.theme.mobile`
+    display: none;
+  `}
 `
 
-export default () => (
-  <Header>
-    <LayoutNavigation>
-      <Nav>
-        <LogoWrapper to="/" title="Logo">
-          <LogoIcon src={logo} alt="Vaime Travel" />
-        </LogoWrapper>
-        <NavItem to="/wycieczki" title="Wycieczki">Wycieczki</NavItem>
-        <NavItem to="/gruzja" title="Gruzja">Gruzja</NavItem>
-        <NavItem to="/faq" title="FAQ">FAQ</NavItem>
-        <NavItem to="/wspolpraca" title="Współpraca">Współpraca</NavItem>
-        <NavItem to="/kontakt" title="Kontakt">Kontakt</NavItem>
-      </Nav>
-      <NavSocialList>
-        <SocialLink type='facebook' src='' />
-        <SocialLink type='instagram' src='' />
-        <SocialLink type='youtube' src='' />
-      </NavSocialList>
-    </LayoutNavigation>
-  </Header>
-)
+const LayoutNavigationMobile = styled(View)`
+  display: none;
+  ${p => p.theme.mobile`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  `}
+`
+
+const BurgerIcon = styled.img`
+  height: 2.5rem;
+`

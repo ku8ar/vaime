@@ -12,6 +12,7 @@ export const Grid = styled.div`
   width: 100%;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 `
 
 export const View = styled.div`

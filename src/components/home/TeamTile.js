@@ -9,6 +9,10 @@ const Wrapper = styled.div`
   align-items: center;
   margin: ${props => props.theme.marginM};
   width: 20rem;
+  ${p => p.theme.mobile`
+    margin-left: 0;
+    margin-right: 0;
+  `}
 `
 
 const Avatar = styled(Image)`

@@ -51,11 +51,15 @@ const LinkWrapper = styled(Link)`
     box-shadow: 0 4px 12px 0 rgba(23,27,30,.3);
   }
   &:first-child {
-    margin-left: 0
+    margin-left: 0;
   }
   &:last-child {
-    margin-right: 0
+    margin-right: 0;
   }
+  ${p => p.theme.mobile`
+    margin-left: 0;
+    margin-right: 0;
+  `}
 `
 
 const Top = styled.div`

@@ -29,6 +29,11 @@ const Wrapper = styled.div`
   max-width: 50%;
   margin-right: 2rem;
   flex: 1;
+  ${p => p.theme.mobile`
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+  `}
 `
 
 const Title = styled(H2)`

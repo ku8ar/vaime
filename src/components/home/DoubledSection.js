@@ -6,4 +6,7 @@ export default styled(View)`
   flex-direction: row;
   padding-top: 1rem;
   padding-bottom: 2.5rem;
+  ${p => p.theme.mobile`
+    flex-direction: column;
+  `}
 `

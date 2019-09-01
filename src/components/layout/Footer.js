@@ -15,6 +15,7 @@ const FooterRow = styled.div`
   margin: auto;
   width: 100%;
   justify-content: space-between;
+  flex-wrap: wrap;
 `
 
 const FooterList = styled.div`

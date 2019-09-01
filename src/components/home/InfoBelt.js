@@ -12,15 +12,16 @@ const data = [
 ]
 
 const Wrapper = styled.div`
-  padding: .5rem 0;
   background-color: ${p => p.theme.colorGrey}
 `
 
 const InfoView = styled(View)`
   justify-content: space-around;
+  flex-wrap: wrap;
 `
 
 const InfoWrapper = styled.div`
+  padding: .5rem 0;
   width: 15rem;
   display: flex;
   flex-direction: row;
