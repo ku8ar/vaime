@@ -84,7 +84,7 @@ const useImageKey = (images) => {
       setX(isNext ? newX : 0)
     }, 5000);
     return () => clearTimeout(timer);
-  }, [x]);
+  }, [x, images]);
   
   return x
 }
