@@ -1,20 +1,22 @@
 ---
 templateKey: home
-title: "Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
-images:
-  - name: Batumi Bulwar
-    image: /img/batumi-bulvar.jpg
+title: 'Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy'
 description: Podróże z Nini i Mają
+images:
+  - image: /img/batumi-bulvar.jpg
+    name: Batumi Bulwar
+  - image: /img/p1000434-1-.jpg
+    name: 'Kazbek, Gergeti, Stepancminda'
 team:
-  - name: Niniszeba
+  - image: /img/batumi-bulvar.jpg
+    name: Niniszeba
     place: Tbilisia
-    image: /img/batumi-bulvar.jpg
     text: >
       Przewodnik w cenie odpowiadającej jakości wycieczki. Jak sam o sobie mówi
       'Może i robimy chujowo, ale kto robi dobrze?!'
-  - name: Al Maja
+  - image: /img/batumi-bulvar.jpg
+    name: Al Maja
     place: Tbilisi
-    image: /img/batumi-bulvar.jpg
     text: >
       Przewodnik w cenie odpowiadającej jakości wycieczki. Jak sam o sobie mówi
       'Może i robimy chujowo, ale kto robi dobrze?!'
