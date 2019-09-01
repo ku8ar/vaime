@@ -11,4 +11,4 @@ CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate('index', HomePreview)
 CMS.registerPreviewTemplate('tour', TourPreview)
-CMS.registerPreviewTemplate('page', PagePreview)
+CMS.registerPreviewTemplate('pages', PagePreview)

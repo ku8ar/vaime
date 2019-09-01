@@ -1,20 +1,15 @@
-import React, { useRef, useLayoutEffect } from "react"
+import React from "react"
 import { StyleSheetManager } from "styled-components"
 
-
 export default ({ children }) => {
-	const iframeRef = useRef(null);
+  const iframe = document.getElementsByTagName('iframe')[0]
+  if (!iframe) return null
+  const iframeHeadElem = iframe.contentDocument.head
+  console.log('preview')
 
-	useLayoutEffect(() => {
-		const iframe = document.querySelector('#nc-root iframe');
-		const iframeHeadElem = iframe && iframe.contentDocument.head;
-    iframeRef.current = iframeHeadElem;
-    console.log(iframeHeadElem)
-	});
-
-  return iframeRef && iframeRef.current ? (
-    <StyleSheetManager target={iframeRef && iframeRef.current}>
+  return (
+    <StyleSheetManager target={iframeHeadElem}>
       {children}
     </StyleSheetManager>
-  ) : null
+  )
 }
