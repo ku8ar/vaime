@@ -6,6 +6,7 @@ module.exports = {
     description: 'Ecommerce',
   },
   plugins: [
+    'gatsby-plugin-netlify-cache',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     `gatsby-plugin-styled-components`,
@@ -89,7 +90,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-netlify-cache',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
