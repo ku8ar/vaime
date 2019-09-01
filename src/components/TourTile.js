@@ -10,15 +10,14 @@ import heart from '../img/heart.svg'
 export default ({ slug, tour }) => {
   if (!tour) return
 
-  const { title, startDate, endDate, images, price } = tour
+  const { title, startDate, endDate, thumb, price } = tour
   const subtitle = `Dostępny temin: ${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(endDate).format('YYYY')}`
-  // @todo: get only first image
-  const fluid = path('image.childImageSharp.fluid', images && images[0]) || images && images[0]
+  const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   return (
     <LinkWrapper to={slug}>
       <Top>
-        <BgCover fluid={fluid} style={imgStyle} />
+        <BgCover fluid={fluid} style={imgStyle} alt={title} />
         <TourContent>
           <TourInfo>{subtitle}</TourInfo>
           <TourButton>Więcej</TourButton>
