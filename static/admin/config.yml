@@ -22,14 +22,15 @@ collections:
       - {label: "No of seats", name: "seats", widget: "number"}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-  
+      - {label: "Price contains", name: "priceContains", widget: "list"}
+      - {label: "Price not contains", name: "priceNotContains", widget: "list"}
+
   - name: "static"
     label: "Static"
     files:
       - file: "src/pages/index.md"
-        label: "Home"
+        label: "Start Page"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
@@ -37,6 +38,17 @@ collections:
           - {label: Description, name: description, widget: string}
           - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
           - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}, {label: "image", name: image, widget: image}]}
+      - file: "src/pages/index.md"
+        label: "Global"
+        name: "global"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "global"}
+          - {label: "SEO Title Suffix", name: seoTitle, widget: string}
+          - {label: "Company Name", name: companyName, widget: string}
+          - {label: "Email", name: email, widget: string}
+          - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}]}
+          - {label: "Phone numbers", name: phoneNumbers, widget: list}
+          - {label: "Social links", name: socialLinks, widget: list, fields: [{label: "Type", name: type, widget: string}, {label: "Address", name: src, widget: string}]}
 
   - name: "pages"
     label: "Pages"

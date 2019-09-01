@@ -42,7 +42,7 @@ const Text = styled(P)`
   margin-top: 0;
 `
 
-export default ({schedule = []}) => (
+export default ({schedule = []}) => schedule && schedule.length && (
   <Wrapper>
     <H6>Dzień</H6>
     <Column>

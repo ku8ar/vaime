@@ -7,7 +7,7 @@ import { View } from '../Base'
 import SocialLink from './SocialLink'
 import MobileNavigation from './MobileNavigation'
 
-export default () => {
+export default ({ navigation, socialLinks, companyName }) => {
   const [menu, setMenu] = useState(false)
   const toggleMenu = useCallback(() => setMenu(!menu), [menu])
 
@@ -17,19 +17,19 @@ export default () => {
         <LayoutNavigationDesktop>
           <Nav>
             <LogoWrapper to="/" title="Logo">
-              <LogoIcon src={logo} alt="Vaime Travel" />
+              <LogoIcon src={logo} alt={companyName} />
             </LogoWrapper>
             {navigation.map(nav => (
               <NavItem key={nav.to} {...nav}>{nav.title}</NavItem>
             ))}
           </Nav>
           <NavSocialList>
-            {social.map(soc => <SocialLink key={soc.type} {...soc} />)}
+            {socialLinks.map(soc => <SocialLink key={soc.type} {...soc} />)}
           </NavSocialList>
         </LayoutNavigationDesktop>
         <LayoutNavigationMobile>
           <LogoWrapper to="/" title="Logo">
-            <LogoIcon src={logo} alt="Vaime Travel" />
+            <LogoIcon src={logo} alt={companyName} />
           </LogoWrapper>
           <BurgerIcon src={bars} onClick={toggleMenu} />
         </LayoutNavigationMobile>
@@ -38,20 +38,6 @@ export default () => {
     </>
   )
 }
-
-const navigation = [
-  { to: '/wycieczki', title: 'Wycieczki' },
-  { to: '/gruzja', title: 'Gruzja' },
-  { to: '/faq', title: 'FAQ' },
-  { to: '/wspolpraca', title: 'Współpraca' },
-  { to: '/kontakt', title: 'Kontakt' },
-]
-
-const social = [
-  { type: 'facebook', src: '' },
-  { type: 'instagram', src: '' },
-  { type: 'youtube', src: '' }
-]
 
 const Header = styled.header`
   display: flex;

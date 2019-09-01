@@ -3,6 +3,30 @@ import styled from 'styled-components'
 import logo from '../../img/logo.svg'
 import { View, H5, H6 } from '../Base'
 
+export default ({ phoneNumbers, socialLinks, email, companyName }) => (
+  <Footer>
+    <View>
+      <FooterRow>
+        <FooterList>
+          <FooterLogo src={logo} alt="Vaime Travel" />
+          {phoneNumbers.map(no => <FooterLink key={no} type='tel' href={no}>{no}</FooterLink>)}
+          <FooterLink href={`mailto: ${email}`}>{email}</FooterLink>
+        </FooterList>
+        <FooterList>
+          <SecondTitle color="colorWhite">Gruziński Po Polsku</SecondTitle>
+          {socialLinks.map(social => <FooterLink key={social.type} href={social.src}>{social.type}</FooterLink>)}
+        </FooterList>
+        <FooterList>
+          <FooterLink href=''><ThirdTitle color="colorWhite">Polityka Prywatności</ThirdTitle></FooterLink>
+        </FooterList>
+      </FooterRow>
+      <FooterRow>
+        <FooterCopyright>© Copyright 2017 {companyName}. All Rights Reserved</FooterCopyright>
+      </FooterRow>
+    </View>
+  </Footer>
+)
+
 const Footer = styled.footer`
   min-height: 4rem;
   background-color: ${p => p.theme.colorSecondary};
@@ -38,29 +62,14 @@ const FooterCopyright = styled.p`
   font-size: 0.7rem
 `
 
-export default () => (
-  <Footer>
-    <View>
-      <FooterRow>
-        <FooterList>
-          <FooterLogo src={logo} alt="Vaime Travel" />
-          <FooterLink href=''>+48 730 665 176</FooterLink>
-          <FooterLink href=''>+995 555 628 887</FooterLink>
-          <FooterLink href=''>info@vaimetravel.com</FooterLink>
-        </FooterList>
-        <FooterList>
-          <H5 color="colorWhite">Gruziński Po Polsku</H5>
-          <FooterLink href=''>Facebook</FooterLink>
-          <FooterLink href=''>Instagram</FooterLink>
-          <FooterLink href=''>Youtube</FooterLink>
-        </FooterList>
-        <FooterList>
-          <FooterLink href=''><H6 color="colorWhite">Polityka Prywatności</H6></FooterLink>
-        </FooterList>
-      </FooterRow>
-      <FooterRow>
-        <FooterCopyright>© Copyright 2017 Vaime Travel. All Rights Reserved</FooterCopyright>
-      </FooterRow>
-    </View>
-  </Footer>
-)
+const SecondTitle = styled(H5)`
+  ${p => p.theme.mobile`
+      margin-top: 1rem;
+  `}
+`
+
+const ThirdTitle = styled(H6)`
+  ${p => p.theme.mobile`
+    margin-top: 1rem;
+  `}
+`

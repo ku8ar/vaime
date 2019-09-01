@@ -51,6 +51,8 @@ export const pageQuery = graphql`
           place
           text
         }
+        priceContains
+        priceNotContains
         images {
           name
           image {

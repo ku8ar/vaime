@@ -1,5 +1,5 @@
 import React from 'react'
-import Wrapper from '../components/Layout'
+import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
 import { Page, Center, H1 } from '../components/Base'
@@ -24,9 +24,9 @@ export const StandardPageTemplate = ({title, images, html, qa, contentComponent}
 const StandardPage = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
-    <Wrapper title={title} description={description}>
+    <Layout title={title} description={description}>
       <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
-    </Wrapper>
+    </Layout>
   )
 }
 

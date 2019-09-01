@@ -5,6 +5,19 @@ title: Gruzińskie Wakacje
 description: Podróz przez niezdobytą przez rosjan, nieskazitelnie piękną Gruzję
 startDate: 2019-08-20T17:40:01.346Z
 endDate: 2019-08-23T17:40:01.392Z
+priceContains:
+  - Noclegi w hotelu*** w Tbilisi oraz Erywaniu, w agroturystyce w Wardzii/pensjonacie w Achalcyche i Kutaisi
+  - Bilety wstępu do wszystkich obiektów
+  - Przejazd kolejkami w Tbilisi
+  - Śniadania i obiadokolacje
+  - Degustację wina
+  - Usługi polskojęzycznego przewodnika
+  - Transport – komfortowy klimatyzowany bus
+  - Samochody terenowe w Kazbegi
+  - Ubezpieczenie turystyczne
+priceNotContains:
+  - Biletu lotniczego
+  - Dodatkowych posiłków i napojów nie zawartych w programie
 schedule:
   - day: 1
     place: "Kutasi"
