@@ -8,9 +8,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
 
   return (
     <HomeTemplate
-      image={data.image}
-      title={data.title}
-      description={data.description}
+      {...data}
       tours={[]}
     />
   )
