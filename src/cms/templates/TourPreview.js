@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { TourTemplate } from '../../templates/tour'
 import Theme from '../../components/style/Theme'
 import Preview from '../Preview'
@@ -27,13 +26,6 @@ const TourPagePreview = ({ entry, widgetFor }) => {
       </Theme>
     </Preview>
   )
-}
-
-TourPagePreview.propTypes = {
-  entry: PropTypes.shape({
-    getIn: PropTypes.func,
-  }),
-  widgetFor: PropTypes.func,
 }
 
 export default TourPagePreview

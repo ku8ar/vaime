@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { StandardPageTemplate } from '../../templates/page'
 import Theme from '../../components/style/Theme'
 import Preview from '../Preview'
@@ -17,13 +16,6 @@ const StandardPagePreview = ({ entry, widgetFor }) => {
       </Theme>
     </Preview>
   )
-}
-
-StandardPagePreview.propTypes = {
-  entry: PropTypes.shape({
-    getIn: PropTypes.func,
-  }),
-  getAsset: PropTypes.func,
 }
 
 export default StandardPagePreview
