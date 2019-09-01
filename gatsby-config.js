@@ -79,13 +79,13 @@ module.exports = {
         start_url: '/?homescreen=1',
         version: '1.0',
         icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
+          android: false,
+          appleIcon: false,
+          appleStartup: false,
           favicons: true,
-          firefox: true,
-          yandex: true,
-          windows: true
+          firefox: false,
+          yandex: false,
+          windows: false
         }
       }
     },

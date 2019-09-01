@@ -16,7 +16,7 @@ export const StandardPageTemplate = ({title, images, html, qa, contentComponent}
         </Center>
       </Hero>
       <Faq list={qa} />
-      {html && (<Section>{<HtmlComponent content={html} />}</Section>)}
+      <Section><HtmlComponent content={html} /></Section>
     </Page>
   )
 }

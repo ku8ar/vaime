@@ -98,6 +98,13 @@ export const pageQuery = graphql`
           name
           place
           text
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

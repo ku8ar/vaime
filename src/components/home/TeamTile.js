@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Image from '../Image'
 import {H4, H5, P} from '../Base'
 
 const Wrapper = styled.div`
@@ -10,7 +11,7 @@ const Wrapper = styled.div`
   width: 20rem;
 `
 
-const Avatar = styled.img`
+const Avatar = styled(Image)`
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
@@ -22,11 +23,11 @@ const Avatar = styled.img`
 
 export default ({ person }) => {
   const { name, place, text, image } = person
-  const src = image && image.childImageSharp ? image.childImageSharp.fluid.src : image
+  const imgData = {image, name}
 
   return (
     <Wrapper>
-      <Avatar src={src} />
+      <Avatar data={imgData} />
       <H4>{name}</H4>
       <H5>{place}</H5>
       <P>{text}</P>
