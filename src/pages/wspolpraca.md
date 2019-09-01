@@ -1,12 +1,10 @@
 ---
-templateKey: 'page'
-path: /wspolpraca
+templateKey: page
 title: Współpraca
-images:
-  - name: Batumi Bulwar
-    image: /img/batumi-bulvar.jpg
 description: Profejsonalna obsługa tour operatorów
-qa:
+images:
+  - image: /img/102.jpg
+    name: tbilisi
 ---
 
 **Biuro podróży Vaime Travel** sukcesywnie współpracuje z wieloma polskimi agentami i tour operatorami, zapewniając profesjonalną obsługę oraz najwyższą jakość usług. Oferujemy swoje usługi w organizacji wycieczek **kulturowych, pielgrzymkowych, incentive, gastronomicznych, trekkingowych po Gruzji i Armenii**, od wyjazdów indywidualnych do dużych grup (40-50 os).  Oferujemy transport o wysokim europejskim standardzie, obsługę profesjonalnych doświadczonych kierowców oraz wykwalifikowanych polsko-, angielsko- i rosyjskojęzycznych przewodników. Doskonała znajomość lokalnej bazy noclegowej oraz gastronomicznej pozwala na idealne dopasowanie wycieczek do wymagań każdej grupy turystycznej.
