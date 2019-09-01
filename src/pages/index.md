@@ -5,8 +5,6 @@ description: Podróże z Nini i Mają
 images:
   - image: /img/p1000434-1-.jpg
     name: 'Kazbek, Gergeti, Stepancminda'
-  - image: /img/narikalaa.jpg
-    name: 'Tbilisi, Narikala'
   - image: /img/108.jpg
     name: Tbilisi
   - image: /img/302.jpg
