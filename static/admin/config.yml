@@ -34,8 +34,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
           - {label: Title, name: title, widget: string}
-          - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
           - {label: Description, name: description, widget: string}
+          - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
           - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
 
   - name: "pages"
@@ -46,7 +46,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page"}
       - {label: Title, name: title, widget: string}
+      - {label: Description, name: description, widget: string}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: Description, name: description, widget: string}
       - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}

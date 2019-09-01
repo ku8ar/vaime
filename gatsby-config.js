@@ -71,6 +71,25 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./static/img/logo.png",
+        display: 'standalone',
+        orientation: 'portrait',
+        start_url: '/?homescreen=1',
+        version: '1.0',
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          favicons: true,
+          firefox: true,
+          yandex: true,
+          windows: true
+        }
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
