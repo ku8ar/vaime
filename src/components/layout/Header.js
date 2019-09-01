@@ -3,13 +3,15 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import logo from '../../img/logo.svg'
 import bars from '../../img/bars.svg'
+import phoneImg from '../../img/phone.svg'
 import { View } from '../Base'
 import SocialLink from './SocialLink'
 import MobileNavigation from './MobileNavigation'
 
-export default ({ navigation, socialLinks, companyName }) => {
+export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
   const [menu, setMenu] = useState(false)
   const toggleMenu = useCallback(() => setMenu(!menu), [menu])
+  const phone = phoneNumbers && phoneNumbers[0] || null
 
   return (
     <>
@@ -24,6 +26,7 @@ export default ({ navigation, socialLinks, companyName }) => {
             ))}
           </Nav>
           <NavSocialList>
+            <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} />{phone}</PhoneNo>
             {socialLinks.map(soc => <SocialLink key={soc.type} {...soc} />)}
           </NavSocialList>
         </LayoutNavigationDesktop>
@@ -38,6 +41,17 @@ export default ({ navigation, socialLinks, companyName }) => {
     </>
   )
 }
+
+const PhoneImg = styled.img`
+  width: .8rem;
+  margin-right: .5rem;
+`
+
+const PhoneNo = styled.a`
+  color: ${p => p.theme.colorWhite};
+  font-weight: ${p => p.theme.weightBold};
+  margin-right: 1rem;
+`
 
 const Header = styled.header`
   display: flex;

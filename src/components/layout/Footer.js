@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import SocialLink from './SocialLink'
 import logo from '../../img/logo.svg'
-import { View, H5, H6 } from '../Base'
+import { View, H6 } from '../Base'
 
 export default ({ phoneNumbers, socialLinks, email, companyName }) => (
   <Footer>
@@ -13,11 +14,11 @@ export default ({ phoneNumbers, socialLinks, email, companyName }) => (
           <FooterLink href={`mailto: ${email}`}>{email}</FooterLink>
         </FooterList>
         <FooterList>
-          <SecondTitle color="colorWhite">Gruziński Po Polsku</SecondTitle>
-          {socialLinks.map(social => <FooterLink key={social.type} href={social.src}>{social.type}</FooterLink>)}
+          <FooterLink href=''><Title color="colorWhite">Polityka Prywatności</Title></FooterLink>
         </FooterList>
-        <FooterList>
-          <FooterLink href=''><ThirdTitle color="colorWhite">Polityka Prywatności</ThirdTitle></FooterLink>
+        <FooterList row>
+          <Title color="colorWhite">Gruziński Po Polsku</Title>
+          <Row>{socialLinks.map(social => <SocialLink key={social.type} {...social} />)}</Row>
         </FooterList>
       </FooterRow>
       <FooterRow>
@@ -47,28 +48,30 @@ const FooterList = styled.div`
   flex-direction: column;
 `
 
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+`
+
 const FooterLink = styled.a`
   color: ${p => p.theme.colorGreyLight};
   text-decoration: none;
 `
 
 const FooterLogo = styled.img`
-  height: 5rem;
+  width: 5.0rem;
   margin-bottom: 1rem;
 `
 
 const FooterCopyright = styled.p`
   color: ${p => p.theme.colorGreyLight};
-  font-size: 0.7rem
+  font-size: 0.7rem;
+  margin-top: .5rem;
 `
 
-const SecondTitle = styled(H5)`
-  ${p => p.theme.mobile`
-      margin-top: 1rem;
-  `}
-`
-
-const ThirdTitle = styled(H6)`
+const Title = styled(H6)`
+  text-transform: upperacase;
   ${p => p.theme.mobile`
     margin-top: 1rem;
   `}

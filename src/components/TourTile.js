@@ -60,6 +60,10 @@ const LinkWrapper = styled(Link)`
     margin-left: 0;
     margin-right: 0;
   `}
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
 `
 
 const Top = styled.div`
@@ -71,10 +75,7 @@ const Top = styled.div`
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
 
 const BgCover = styled(Img)`
-  transition: transform 0.5s;
-  &:hover {
-    transform: scale(1.1);
-  }
+
 `
 
 const BottomLabel = styled.div`

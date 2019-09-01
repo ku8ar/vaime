@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .instafeed-item {
-    width: 33%;
+    width: 25%;
     height: auto;
     border: 1px solid white;
   }
@@ -51,7 +51,7 @@ export default () => {
     try {
       const feed = new Instafeed({
         get: 'user',
-        limit: 9,
+        limit: 16,
         accessToken: '10221529773.1677ed0.d596aafbded7483fb106dbfe6534952d',
         userId: 10221529773,
         template: '<a class="instafeed-item" href="{{link}}"><img  class="instafeed-item-image" src="{{image}}" /></a>'

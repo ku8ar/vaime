@@ -20,7 +20,6 @@ const Avatar = styled(Image)`
   height: 10rem;
   border-radius: 50%;
   margin-bottom: ${props => props.theme.marginS};
-  border: 4px solid ${props => props.theme.colorPrimary};
   background-position: center center;
   background-size: cover;
 `
