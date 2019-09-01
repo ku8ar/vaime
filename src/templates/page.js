@@ -7,6 +7,8 @@ import Content, { HTMLContent } from '../components/Content'
 import { Page, Center, H1 } from '../components/Base'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
+import { Grid, Column } from '../components/page/Grid'
+import Info from '../components/page/Info'
 
 export const StandardPageTemplate = ({title, images, html, background, qa, contentComponent}) => {
   const HtmlComponent = contentComponent || Content
@@ -18,8 +20,17 @@ export const StandardPageTemplate = ({title, images, html, background, qa, conte
           <H1 color='colorWhite'>{title}</H1>
         </Center>
       </Hero>
-      <Faq list={qa} />
-      <Section><HtmlComponent content={html} /></Section>
+      <Grid>
+        <Column size={75}>
+          <Section><Faq list={qa} /></Section>
+          <Section><HtmlComponent content={html} /></Section>
+        </Column>
+        <Column size={25}>
+          <Section>
+            <Info />
+          </Section>
+        </Column>
+      </Grid>
     </Page>
   )
 }

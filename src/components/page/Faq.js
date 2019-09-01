@@ -1,6 +1,11 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import Section from './Section'
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`
 
 const FaqItemWrapper = styled.div`
   cursor: pointer;
@@ -49,7 +54,7 @@ const FaqItem = ({ question, answer }) => {
 }
 
 export default ({ list }) => list && list.length ? (
-  <Section>
+  <Wrapper>
     {list.map((el, i) => <FaqItem key={i} {...el} />)}
-  </Section>
+  </Wrapper>
 ) : null
