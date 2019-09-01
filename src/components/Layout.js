@@ -3,8 +3,8 @@ import Seo from './custom/Seo'
 import Theme from './style/Theme'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
-import '../styles/index.sass'
 import useGlobal from '../utils/useGlobal'
+import '../styles/normalize.css'
 
 const Layout = ({ children, title = '', description = '' }) => {
   const data = useGlobal()

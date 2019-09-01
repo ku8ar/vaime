@@ -8,7 +8,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
     `gatsby-plugin-styled-components`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
