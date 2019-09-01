@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import GlobalStyle from './GlobalStyle'
-import '../../styles/index.sass'
 
 const theme = {
   // colors

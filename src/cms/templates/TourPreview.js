@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { TourTemplate } from '../../templates/tour'
 import Theme from '../../components/style/Theme'
+import Preview from '../Preview'
 
 function dateToYMD(date) {
   if (!date) return ''
@@ -15,14 +16,16 @@ const TourPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
   if (!data) return <div>Fill data first</div>
   return (
-    <Theme>
-      <TourTemplate
-        {...data}
-        startDate={dateToYMD(data.startDate)}
-        endDate={dateToYMD(data.endDate)}
-        html={widgetFor('body')}
-      />
-    </Theme>
+    <Preview>
+      <Theme>
+        <TourTemplate
+          {...data}
+          startDate={dateToYMD(data.startDate)}
+          endDate={dateToYMD(data.endDate)}
+          html={widgetFor('body')}
+        />
+      </Theme>
+    </Preview>
   )
 }
 
