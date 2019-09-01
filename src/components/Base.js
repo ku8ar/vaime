@@ -78,4 +78,5 @@ export const Button = styled.button`
   border-radius: ${p => p.theme.radiusSmall};
   margin: ${p => p.theme.marginS} 0;
   cursor: pointer;
+  max-height: 2.5rem;
 `

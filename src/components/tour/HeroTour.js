@@ -40,6 +40,9 @@ const Wrapper = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
+  ${p => p.theme.mobile`
+    flex-direction: column;
+  `}
 `
 
 const Column = styled.div`
@@ -64,6 +67,11 @@ const Info = styled.div`
   width: fit-content;
   background-color: ${p => p.theme.colorSecondaryTransparent};
   padding: ${path('theme.marginS')} ${path('theme.marginS')} ${path('theme.marginS')} 0;
+  ${p => p.theme.mobile`
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  `}
 `
 
 const Pill = styled.div`
@@ -75,6 +83,15 @@ const Pill = styled.div`
   &:last-child {
     border-right: none;
   }
+  ${p => p.theme.mobile`
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid ${path('theme.colorWhite')};
+    &:last-child {
+      border-bottom: none;
+    }
+  `}
 `
 
 const Label = styled(P)`
