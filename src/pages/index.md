@@ -7,6 +7,8 @@ images:
     name: Batumi Bulwar
   - image: /img/p1000434-1-.jpg
     name: 'Kazbek, Gergeti, Stepancminda'
+  - image: /img/img_2318jpg.jpg
+    name: 'Mtskheta, Mccheta. Svetitskhoveli, Sweticchoweli'
 team:
   - image: /img/batumi-bulvar.jpg
     name: Niniszeba
