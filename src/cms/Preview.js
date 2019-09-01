@@ -1,18 +1,20 @@
-import React, { useMemo } from "react"
+import React, { useRef, useLayoutEffect } from "react"
 import { StyleSheetManager } from "styled-components"
 
 
 export default ({ children }) => {
-  const iframeHead = useMemo(() => {
-    const iframe = document.querySelector('#nc-root iframe')
-    return iframe && iframe.contentDocument.head
-  }, [])
+	const iframeRef = useRef(null);
 
-  return iframeHead ? (
-    <StyleSheetManager target={iframeHead}>
-      <>
-        {children}
-      </>
+	useLayoutEffect(() => {
+		const iframe = document.querySelector('#nc-root iframe');
+		const iframeHeadElem = iframe && iframe.contentDocument.head;
+    iframeRef.current = iframeHeadElem;
+    console.log(iframeHeadElem)
+	});
+
+  return iframeRef && iframeRef.current ? (
+    <StyleSheetManager target={iframeRef && iframeRef.current}>
+      {children}
     </StyleSheetManager>
-  ) : children
+  ) : null
 }

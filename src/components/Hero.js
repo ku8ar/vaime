@@ -8,7 +8,7 @@ import {View} from './Base'
 const Hero = ({ images, children, small }) => {
   const imgKey = useImageKey(images)
   const imageObj = images && images.length ? images[imgKey] : {}
-  const fluid = path('image.childImageSharp.fluid', imageObj)
+  const fluid = path('image.childImageSharp.fluid', imageObj) || imageObj
   const alt = imageObj.name
 
   return (
