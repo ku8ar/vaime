@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import logo from '../../img/logo.svg'
-import times from '../../img/times.svg'
+import cross from '../../img/cross.svg'
 
 export default ({ menu, navigation, toggleMenu }) => (
   <>
@@ -20,7 +20,7 @@ export default ({ menu, navigation, toggleMenu }) => (
           </LogoWrapper>
         </Menu>
         <CloseWrapper>
-          <CloseIcon src={times} onClick={toggleMenu} />
+          <CloseIcon src={cross} onClick={toggleMenu} />
         </CloseWrapper>
       </Wrapper>
       )}
@@ -94,7 +94,7 @@ const LogoIcon = styled.img`
 `
 
 const CloseIcon = styled.img`
-  height: 3rem;
+  height: 2rem;
 `
 
 const CloseWrapper = styled.div`

@@ -8,7 +8,7 @@ const Column = styled.div`
 `
 
 const Wrapper = styled(Column)`
-  margin-top: ${p => p.theme.marginS};
+  margin-top: 2rem;
 `
 
 const Row = styled.div`
@@ -27,15 +27,17 @@ const DayCircle = styled.div`
   color: ${p => p.theme.colorWhite};
   background-color: ${p => p.theme.colorPrimary};
   margin: 0 ${p => p.theme.marginS} 0 ${p => p.theme.marginXs};
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
+  font-size: 13px;
   font-weight: ${p => p.theme.weightBold};
   border-radius: 50%;
 `
 
-const Place = styled(H4)`
+const Place = styled(H6)`
   margin-top: 0;
   margin-bottom: 0;
+  text-transform: uppercase;
 `
 
 const Text = styled(P)`
@@ -44,7 +46,6 @@ const Text = styled(P)`
 
 export default ({schedule = []}) => schedule && schedule.length && (
   <Wrapper>
-    <H6>Dzień</H6>
     <Column>
       {schedule.map(s => (
         <Row key={s.day}>

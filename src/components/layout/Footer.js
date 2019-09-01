@@ -9,7 +9,7 @@ export default ({ phoneNumbers, socialLinks, email, companyName }) => (
       <FooterRow>
         <FooterList>
           <FooterLogo src={logo} alt="Vaime Travel" />
-          {phoneNumbers.map(no => <FooterLink key={no} type='tel' href={no}>{no}</FooterLink>)}
+          {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`}>{no}</FooterLink>)}
           <FooterLink href={`mailto: ${email}`}>{email}</FooterLink>
         </FooterList>
         <FooterList>

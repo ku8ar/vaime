@@ -2,7 +2,7 @@ import React from 'react'
 import Theme from '../../components/style/Theme'
 import Preview from '../Preview'
 import Header from '../../components/layout/Header'
-import {View} from '../../components/Base'
+import {Page} from '../../components/Base'
 import Footer from '../../components/layout/Footer'
 
 export default ({ entry, getAsset }) => {
@@ -13,7 +13,7 @@ export default ({ entry, getAsset }) => {
     <Preview>
       <Theme>
         <Header {...data} />
-        <View />
+        <Page />
         <Footer {...data} />
       </Theme>
     </Preview>
