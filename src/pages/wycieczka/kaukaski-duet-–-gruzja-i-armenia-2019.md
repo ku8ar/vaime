@@ -8,7 +8,7 @@ endDate: 2019-10-15T20:45:36.422Z
 price: 535
 seats: 5
 images:
-  - image: /img/batumi-bulvar.jpg
+  - image: /img/sevan.jpg
     name: Batumi Bulwar
 schedule:
   - day: 1
