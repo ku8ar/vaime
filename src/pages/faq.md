@@ -5,6 +5,7 @@ description: Pytania i odpowiedzi
 images:
   - image: /img/map.PNG
     name: mapa gruzji
+background:
 qa:
   - answer: >
       Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to

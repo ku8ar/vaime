@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { path } from 'rambda'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
@@ -7,10 +8,11 @@ import { Page, Center, H1 } from '../components/Base'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 
-export const StandardPageTemplate = ({title, images, html, qa, contentComponent}) => {
+export const StandardPageTemplate = ({title, images, html, background, qa, contentComponent}) => {
   const HtmlComponent = contentComponent || Content
+  const bg = path('childImageSharp.fluid.src', background) || background
   return (
-    <Page>
+    <Page background={bg}>
       <Hero images={images} small>
         <Center>
           <H1 color='colorWhite'>{title}</H1>
@@ -44,6 +46,13 @@ export const pageQuery = graphql`
           question
           answer
         }
+        background {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         images {
           name
           image {

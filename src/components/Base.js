@@ -30,6 +30,7 @@ export const Page = styled.section`
   margin-top: 4rem;
   width: 100%;
   flex: 1;
+  background-image: url(${p => p.background});
 `
 
 const center = css`
