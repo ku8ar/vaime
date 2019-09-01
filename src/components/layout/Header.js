@@ -43,7 +43,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
 }
 
 const PhoneImg = styled.img`
-  width: .8rem;
+  width: 1.25rem;
   margin-right: .5rem;
 `
 
@@ -51,6 +51,7 @@ const PhoneNo = styled.a`
   color: ${p => p.theme.colorWhite};
   font-weight: ${p => p.theme.weightBold};
   margin-right: 1rem;
+  display: flex;
 `
 
 const Header = styled.header`
