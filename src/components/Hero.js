@@ -55,6 +55,9 @@ const HeroWrapper = styled.div`
   height: ${p => p.small ? 10 : 30}rem;
   background-position: center center;
   background-size: cover;
+  ${p => p.theme.mobile`
+    height: auto;
+  `}
 `
 
 const HeroContent = styled(View)`

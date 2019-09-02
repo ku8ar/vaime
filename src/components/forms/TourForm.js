@@ -100,6 +100,7 @@ const OrderInfoNo = styled(H5)`
 const OrderInfoText = styled(H5)`
   text-transform: uppercase;
   color: ${p => p.theme.colorSecondaryTransparent};
+  flex: 1;
 `
 
 const Row = styled.div`

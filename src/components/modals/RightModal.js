@@ -36,7 +36,6 @@ const ModalWrapper = styled.div`
   display: flex;
   overflow-y: auto;
   ${p => p.theme.mobile`
-    
   `}
 `
 
@@ -58,15 +57,13 @@ const CloseIcon = styled.img`
 const CloseWrapper = styled.div`
   position: fixed;
   top: 0;
+  right: 0;
   background-color: ${p => p.theme.colorGrey};
   width: 4rem;
   height: 4rem;
-  margin-left: -4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid ${p => p.theme.colorPrimary};
-  border-bottom: 1px solid ${p => p.theme.colorPrimary};
   cursor: pointer;
 `
 
