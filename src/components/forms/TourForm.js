@@ -73,6 +73,9 @@ export default () => {
 
 const Section = styled.div`
   margin-bottom: 2rem;
+  ${p => p.theme.mobile`
+    margin-bottom: 0;
+  `}
 `
 
 const OrderInfo = ({ no, title }) => (
@@ -84,6 +87,9 @@ const OrderInfo = ({ no, title }) => (
 
 const OrderInfoWrapper = styled.div`
   display: flex;
+  ${p => p.theme.mobile`
+    display: none;
+  `}
 `
 const OrderInfoNo = styled(H5)`
   background-color: transparent;
@@ -106,7 +112,11 @@ const OrderInfoText = styled(H5)`
 const Row = styled.div`
   display: flex;
   flex-direction: row;
-  margin-bottoM: .5rem;
+  margin-bottom: .5rem;
+  ${p => p.theme.mobile`
+    flex-direction: column;
+    margin-bottom: 0;
+  `}
 `
 
 const BigCell = styled.div`
@@ -123,6 +133,10 @@ const SmallCell = styled.div`
   &:last-child {
     margin-right: 0;
   }
+  ${p => p.theme.mobile`
+    margin: 0;
+    width: 100%;
+  `}
 `
 
 const initialValues = {

@@ -37,6 +37,8 @@ const ModalWrapper = styled.div`
   overflow-y: auto;
   box-shadow: ${p => p.theme.shadowDark};
   ${p => p.theme.mobile`
+    max-width: 100%;
+    width: 100%;
   `}
 `
 
