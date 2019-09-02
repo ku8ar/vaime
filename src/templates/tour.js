@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { View, Page, H2 } from '../components/Base'
 import HeroTour from '../components/tour/HeroTour'
 import Schedule from '../components/tour/Schedule'
+import Reservation from '../components/tour/Reservation'
 
 export const TourTemplate = ({description, schedule, html, contentComponent, ...props}) => {
   const HtmlComponent = contentComponent || Content
@@ -22,9 +23,24 @@ export const TourTemplate = ({description, schedule, html, contentComponent, ...
 
 const Tour = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
+
+  const [isReservation, setReservation] = useState(false)
+  const openReservation = useCallback(() => setReservation(true), [])
+  const closeReservation = useCallback(() => setReservation(false), [])
+
   return (
     <Layout title={title} description={description}>
-      <TourTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
+      <TourTemplate
+        {...data.markdownRemark.frontmatter}
+        html={data.markdownRemark.html}
+        contentComponent={HTMLContent}
+        openReservation={openReservation}
+      />
+      <Reservation
+        open={isReservation}
+        onClose={closeReservation} 
+        {...data.markdownRemark.frontmatter}
+      />
     </Layout>
   )
 }

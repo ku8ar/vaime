@@ -63,8 +63,7 @@ const FormInputWrapper = styled.div`
 `
 
 const FieldWrapper = styled.div`
-  border-radius: ${p => p.theme.radiusSmall};
-  border: 1px solid ${p => p.theme.colorGreyDark};
+  border-bottom: 1px solid ${p => p.theme.colorGreyDark};
   display: flex;
 `
 
@@ -73,9 +72,12 @@ const inputCss = css`
   width: 100%;
   padding: .5rem;
   border: none;
-  border-left: 1px solid ${p => p.theme.colorGreyDark};
+  background-color: transparent;
   &:focus {
     outline: none;
+  }
+  &::placeholder {
+    color: ${p => p.theme.colorSecondaryTransparent};
   }
 `
 
@@ -85,6 +87,7 @@ const Input = styled.input`
 
 const TextArea = styled.textarea`
   ${inputCss}
+  resize: vertical;
 `
 
 const Error = styled.p`

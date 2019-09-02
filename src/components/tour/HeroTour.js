@@ -5,7 +5,7 @@ import { path } from 'rambda'
 import Hero from '../Hero'
 import {H1, P, Button} from '../Base'
 
-export default ({ images, title, startDate, endDate, price, seats }) => (
+export default ({ images, title, startDate, endDate, price, seats, openReservation }) => (
   <Hero images={images}>
     <Wrapper>
       <FirstColumn>
@@ -30,7 +30,7 @@ export default ({ images, title, startDate, endDate, price, seats }) => (
         </Info>
       </FirstColumn>
       <LastColumn>
-        <Button>Zarezerwuj Termin</Button>
+        <Button onClick={openReservation}>Zarezerwuj Termin</Button>
       </LastColumn>
     </Wrapper>
   </Hero>

@@ -19,8 +19,8 @@ export default ({ menu, navigation, toggleMenu }) => (
             <LogoIcon src={logo} alt="Vaime Travel" />
           </LogoWrapper>
         </Menu>
-        <CloseWrapper>
-          <CloseIcon src={cross} onClick={toggleMenu} />
+        <CloseWrapper onClick={toggleMenu}>
+          <CloseIcon src={cross} />
         </CloseWrapper>
       </Wrapper>
       )}
@@ -29,37 +29,50 @@ export default ({ menu, navigation, toggleMenu }) => (
 )
 
 const cssTransitionProps = {
-  className: "hero-animated-list",
-  transitionName: "example",
+  className: "mobile-navigation",
+  transitionName: "mobile-navigation-animation",
   transitionEnterTimeout: 500,
   transitionLeaveTimeout: 300
 }
 
 
 const GlobalStyle = createGlobalStyle`
-  .hero-animated-list {
+  .mobile-navigation {
     width: 100%;
     height: 100%;
     display: flex;
     position: relative;
   }
 
-  .example-enter {
-    opacity: 0.01;
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
 
-  .example-enter.example-enter-active {
-    opacity: 1
-    transition: opacity 500ms ease-in;
+  @keyframes slide-out-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1000px);
+    }
+  }
+  
+
+  .mobile-navigation-animation-enter {}
+  .mobile-navigation-animation-leave {}
+
+  .mobile-navigation-animation-enter.mobile-navigation-animation-enter-active {
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
-  .example-leave {
-    opacity: 1;
-  }
 
-  .example-leave.example-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
+  .mobile-navigation-animation-leave.mobile-navigation-animation-leave-active {
+    animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   }
 `
 
@@ -118,6 +131,5 @@ const Wrapper = styled.div`
   bottom: 0;
   width: 100vw;
   height: 100vh;
-  background-color: ${p => p.theme.colorSecondaryTransparent};
   z-index: 2;
 `
