@@ -3,13 +3,14 @@ templateKey: tour
 active: true
 title: Gruzińska majówka
 description: długi majowy weekend w słonecznewj gruzji - co może być lepsze!
+thumb: /img/20180504_113510.jpg
 startDate: 2020-04-27T17:40:01.346Z
 endDate: 2020-05-04T17:40:01.392Z
 price: 490
 seats: 15
 images:
-  - image: /img/20180504_113510.jpg
-    name: Batumi Bulwar
+  - image: /img/108.jpg
+    name: tbilisi
 schedule:
   - day: 1
     place: 27/04 - Kutasi
