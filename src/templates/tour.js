@@ -68,6 +68,13 @@ export const pageQuery = graphql`
         }
         priceContains
         priceNotContains
+        thumb {
+          childImageSharp {
+            fluid(maxWidth: 400, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         images {
           name
           image {

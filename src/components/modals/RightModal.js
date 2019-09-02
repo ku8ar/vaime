@@ -34,6 +34,7 @@ const ModalWrapper = styled.div`
   background-color: ${p => p.theme.colorGrey};
   border-left: 1px solid ${p => p.theme.colorPrimary};
   display: flex;
+  overflow-y: auto;
   ${p => p.theme.mobile`
     
   `}
