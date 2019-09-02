@@ -3,6 +3,7 @@ templateKey: tour
 active: true
 title: Kaukaski Duet – Gruzja i Armenia 2019
 description: Odwiedź najpiękniejsze zakątki Kaukazu
+thumb: /img/sevan.jpg
 startDate: 2019-10-05T20:45:36.360Z
 endDate: 2019-10-15T20:45:36.422Z
 price: 535
