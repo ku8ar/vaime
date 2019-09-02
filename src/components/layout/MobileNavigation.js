@@ -93,6 +93,7 @@ const Menu = styled.div`
   flex-direction: column;
   padding-top: 4rem;
   border-right: 1px solid white;
+  box-shadow: ${p => p.theme.shadowDark};
 `
 
 const LogoWrapper = styled(Link)`

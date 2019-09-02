@@ -27,6 +27,8 @@ const theme = {
   spacingSmall: '.03rem',
   // radius
   radiusSmall: '.25rem',
+  // shadow
+  shadowDark: '0px 10px 18px 2px rgba(0,0,0,0.3)',
   // font
   fontNormal: '16px',
   fontFamily: '"Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"',

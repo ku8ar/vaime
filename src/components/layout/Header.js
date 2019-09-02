@@ -61,7 +61,7 @@ const Header = styled.header`
   position: fixed;
   width: 100%;
   border-bottom: 1px solid ${p => p.theme.colorWhite};
-  box-shadow: 0px 10px 18px 2px rgba(0,0,0,0.3);
+  box-shadow: ${p => p.theme.shadowDark};
   z-index: 2;
 `
 
