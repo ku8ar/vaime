@@ -72,7 +72,7 @@ const CloseWrapper = styled.div`
 const Title = styled(H4)`
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 1rem;
 `
 

@@ -13,8 +13,8 @@ const icons = {
 }
 
 export default ({name}) => {
-  const src = icons[name] || edit
-  return <InputIcon src={src} />
+  const src = icons[name]
+  return src ? <InputIcon src={src} /> : null
 }
 
 const InputIcon = styled.img`

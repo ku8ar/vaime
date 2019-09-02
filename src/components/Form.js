@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import { Button } from './Base'
 import Icon from './InputIcon'
+import Checkbox from './input/Checkbox'
 
 export default ({ fieldset, onSubmit }) => {
   const initialValues = useInitialValues(fieldset)
@@ -36,11 +37,12 @@ const validate = values =>
 const getFormComponent = (type) => {
   switch (true) {
     case type === 'textarea': return TextArea
+    case type ==='checkbox': return Checkbox
     default: return Input
   }
 }
 
-const FormInput = ({ type, name, icon, ...props }) => (
+export const FormInput = ({ type, name, icon, ...props }) => (
   <FormInputWrapper>
     <FieldWrapper>
       <Icon name={icon} />
