@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 title: Gruzińska majówka
-description: 'Podróz przez niezdobytą przez rosjan, nieskazitelnie piękną Gruzję'
+description: długi majowy weekend w słonecznewj gruzji - co może być lepsze!
 startDate: 2020-04-27T17:40:01.346Z
 endDate: 2020-05-04T17:40:01.392Z
 price: 490
