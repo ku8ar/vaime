@@ -1,7 +1,7 @@
 ---
 templateKey: tour
 active: true
-title: 'gruzia zimą -na narty '
+title: 'gruzia zimą - na narty '
 description: zimowe wakacje w gruzji? czemu nie!
 startDate: 2020-01-10T18:40:01.346Z
 endDate: 2020-01-17T18:40:01.392Z
