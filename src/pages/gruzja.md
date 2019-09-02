@@ -5,6 +5,7 @@ description: Informacje o Gruzji
 images:
   - image: /img/466.jpg
     name: Swaneti
+background: /img/tło.png
 ---
 
 **Sakartwelo** – właśnie tak brzmi nazwa Gruzji w naszym języku ojczystym. Jak możemy najlepiej ją opisać? Przecież mamy mnóstwo rzeczy do opowiadania – Gruzja to część najstarszych cywilizacji świata – pierwsze królestwa gruzińskie Kolchida i Iberia powstały jeszcze w starożytności. Gruzja jest powiązana z grecką mitologią – właśnie tutaj przypłynęły Argonauci szukając Złotego Runa. Stąd pochodzą pierwsi Europejczycy – najstarsze szczątki znaleziono właśnie tu. W roku 2017 nasz kraj oficjalnie uznano za ojczyznę wina, i bardzo słusznie, przecież możemy się pochwalić ponad 8000-letnią historią robienia wina! Nie możemy zapomnieć o fakcie, że  Gruzja stała się krajem chrześcijańskim jeszcze w IV wieku, przyjmując chrześcijaństwo jako drugi kraj na świecie.
