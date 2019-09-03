@@ -8,7 +8,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: process.env.NODE_ENV === 'development'
+      }
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
