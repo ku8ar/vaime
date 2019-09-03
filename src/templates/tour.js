@@ -6,6 +6,8 @@ import { View, Page, H2 } from '../components/Base'
 import HeroTour from '../components/tour/HeroTour'
 import Schedule from '../components/tour/Schedule'
 import Reservation from '../components/tour/Reservation'
+import { Grid, Column } from '../components/page/Grid'
+import PriceContains from '../components/tour/PriceContains'
 
 export const TourTemplate = ({description, schedule, html, contentComponent, ...props}) => {
   const HtmlComponent = contentComponent || Content
@@ -15,7 +17,14 @@ export const TourTemplate = ({description, schedule, html, contentComponent, ...
       <View>
         <H2>{description}</H2>
         <HtmlComponent content={html || ''} />
-        <Schedule schedule={schedule} />
+        <Grid>
+          <Column size={70}>
+            <Schedule schedule={schedule} />
+          </Column>
+          <Column size={30}>
+            <PriceContains {...props} />
+          </Column>
+        </Grid>
       </View>
     </Page>
   )

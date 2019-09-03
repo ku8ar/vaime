@@ -119,6 +119,10 @@ schedule:
 priceContains:
   - Bilety wstępu do wszystkich obiektów
   - Degustację wina
+  - Przewodnika
+  - Obiadokolację i śniadania
+  - Samochody terenowe
+  - Ubezpieczenie turystyczne
 priceNotContains:
   - Biletu lotniczego
 ---

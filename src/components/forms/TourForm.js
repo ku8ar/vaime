@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import styled from 'styled-components'
-import { Button, H5 } from '../Base'
+import { Button, P } from '../Base'
 import { FormInput } from '../Form'
 
 export default () => {
@@ -34,7 +34,7 @@ export default () => {
             </Row>
           </Section>
           <Section>
-            <OrderInfo no={2} title="Dane Uczestników Wyieczki" />
+            <OrderInfo no={2} title="Liczba Uczestników Wycieczki" />
             <Row>
               <SmallCell>
                 <FormInput type='number' name='adults' placeholder='Dorośli + 16' />
@@ -91,22 +91,22 @@ const OrderInfoWrapper = styled.div`
     display: none;
   `}
 `
-const OrderInfoNo = styled(H5)`
+const OrderInfoNo = styled(P)`
   background-color: transparent;
-  color: ${p => p.theme.colorSecondaryTransparent};
+  color: ${p => p.theme.colorPrimary};
   border-radius: 50%;
-  border: 2px solid ${p => p.theme.colorSecondaryTransparent};
-  width: 2rem;
-  height: 2rem;
+  border: 2px solid ${p => p.theme.colorPrimary};
+  width: 1.5rem;
+  height: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 1rem;
 `
-const OrderInfoText = styled(H5)`
+const OrderInfoText = styled(P)`
   text-transform: uppercase;
-  color: ${p => p.theme.colorSecondaryTransparent};
   flex: 1;
+  color: ${p => p.theme.colorSecondary};
 `
 
 const Row = styled.div`

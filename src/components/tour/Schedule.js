@@ -14,6 +14,7 @@ const Wrapper = styled(Column)`
 const Row = styled.div`
   display: flex;
   flex-direction: row;
+  margin-bottom: 1rem;
 `
 
 const DayColumn = styled(Column)`
@@ -24,11 +25,12 @@ const DayCircle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${p => p.theme.colorWhite};
-  background-color: ${p => p.theme.colorPrimary};
+  color: ${p => p.theme.colorPrimary};
+  background-color: ${p => p.theme.colorWhite};
   margin: 0 ${p => p.theme.marginS} 0 ${p => p.theme.marginXs};
-  width: 1rem;
-  height: 1rem;
+  border: 2px solid ${p => p.theme.colorPrimary};
+  width: 2rem;
+  height: 2rem;
   font-size: 13px;
   font-weight: ${p => p.theme.weightBold};
   border-radius: 50%;
@@ -38,6 +40,7 @@ const Place = styled(H6)`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
+  font-weight: 700;
 `
 
 const Text = styled(P)`

@@ -26,7 +26,7 @@ export default ({ open, title, onClose, children }) => (
 const ModalWrapper = styled.div`
   position: fixed;
   right: 0;
-  top: 0;
+  top: 4rem;
   height: 100%;
   width: 30rem;
   max-width: 80%;
@@ -59,7 +59,7 @@ const CloseIcon = styled.img`
 
 const CloseWrapper = styled.div`
   position: fixed;
-  top: 0;
+  top: 4rem;
   right: 0;
   background-color: ${p => p.theme.colorGrey};
   width: 4rem;

@@ -31,6 +31,7 @@ const Wrapper = styled.label`
 const Label = styled.span`
   margin-left .5rem;
   color: ${p => p.theme.colorSecondaryTransparent};
+  line-height: 1.15rem;
 `
 
 const CheckboxContainer = styled.div`
