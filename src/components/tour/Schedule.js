@@ -9,6 +9,19 @@ const Column = styled.div`
 
 const Wrapper = styled(Column)`
   margin-top: 2rem;
+
+  position: relative;
+  &:before {
+    position: absolute;
+    border: 1px solid ${p => p.theme.colorPrimary};
+    width: 0;
+    height: calc(100% - 4rem);
+    display: block;
+    content: '';
+    left: calc(1.5rem - 1px);
+    top: 1rem;
+    margin-left: 0;
+  }
 `
 
 const Row = styled.div`
@@ -34,6 +47,7 @@ const DayCircle = styled.div`
   font-size: 13px;
   font-weight: ${p => p.theme.weightBold};
   border-radius: 50%;
+  z-index: 1;
 `
 
 const Place = styled(H6)`

@@ -12,6 +12,7 @@ export const Column = styled.div`
 export const Grid = styled(View)`
   display: flex;
   flex-direction: row;
+  margin-bottom: 2rem;
   ${p => p.theme.mobile`
     flex-direction: column;
   `}
