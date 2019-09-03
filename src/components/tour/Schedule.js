@@ -55,6 +55,7 @@ const Place = styled(H6)`
   margin-bottom: 0;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: .5rem;
 `
 
 const Text = styled(P)`
