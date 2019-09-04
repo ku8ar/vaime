@@ -14,14 +14,14 @@ images:
   - image: /img/IMG_2318jpg (1).JPG
     name: 'Sweticchoweli, Mccheta'
 team:
-  - image: /img/maia.jpg
+  - image: /img/maja.jpg
     name: Maia Varshanidze
     place: Batumi
     text: >-
       Pochodzi z Batumi, jest doświadczoną przewodniczką oraz miłośniczką języka
       i kultury polskiej. Lubi gotować i jeść. Często podróżuje stopem i lubi
       poznawać ludzi na całym świecie.
-  - image: /img/nini.jpg
+  - image: /img/ja.jpg
     name: Nini Karosanidze
     place: Tbilisi
     text: >
