@@ -9,7 +9,7 @@ endDate: 2020-05-04T17:40:01.392Z
 price: 490
 seats: 15
 images:
-  - image: /img/108.jpg
+  - image: /img/batumi.jpg
     name: tbilisi
 schedule:
   - day: 1
