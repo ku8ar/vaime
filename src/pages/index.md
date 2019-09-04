@@ -13,8 +13,6 @@ images:
     name: Kanion Martwili
   - image: /img/IMG_2318jpg (1).JPG
     name: 'Sweticchoweli, Mccheta'
-aboutTitle: O Nas
-aboutImage: /img/p1000434-1-.jpg
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
@@ -29,12 +27,11 @@ team:
     text: >
       Pochodzi z Tbilisi, jest doświadczoną przewodniczką. Kocha języki obce,
       fotografię i rysowanie. Lubi odkrywać nowe miejsca, kraje i kultury.
+aboutTitle: O Nas
+aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 ---
+Mamy na imię Nini i Mają, jesteśmy z Gruzji i prowadzimy biuro podróży VAIME TRAVEL.  Organizujemy wycieczki objazdowe, trekkingowe, kulturowe, gastronomiczne, winne oraz rodzinne po Gruzji i Armenii. Różnorodność naszych programów pozwoli każdemu za znalezienie czegoś dla siebie.  \
+Zapraszamy, zwiedźcie Gruzję razem z nami! \
+Nini i Maja. 
 
-Jest setka mozliwosci czemu ty jedziesz z nami.
-
-My gruzinky znamy jazik polski. Pokazem wsjo Gruzije.
-
-### Gruzja jest krasiwy kraj
-
-My znamy Gjorgiego on ma haraszo kamaz i nas zawjozu na gory i morje
+Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/watch?v=MKAEiP9OeLQ&t=2s)
