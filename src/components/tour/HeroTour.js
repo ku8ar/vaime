@@ -67,6 +67,7 @@ const Info = styled.div`
   width: fit-content;
   background-color: ${p => p.theme.colorSecondaryTransparent};
   padding: ${path('theme.marginS')} ${path('theme.marginS')} ${path('theme.marginS')} 0;
+  backdrop-filter: blur(3px);
   ${p => p.theme.mobile`
     flex-direction: column;
     width: 100%;

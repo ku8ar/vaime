@@ -5,7 +5,7 @@ import ContactForm from '../forms/ContactForm'
 
 const Wrapper = styled.div`
   width: auto;
-  max-width: 50%;
+  max-width: 75%;
   margin-left: 2rem;
   flex: 1;
   ${p => p.theme.mobile`

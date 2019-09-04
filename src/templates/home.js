@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import TourTile from '../components/TourTile'
@@ -8,47 +9,55 @@ import Section from '../components/home/Section'
 import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
-import ContactForm from '../components/home/ContactForm'
 import DoubledSection from '../components/home/DoubledSection'
+import AboutUsSection from '../components/home/AboutUsSection'
 
-export const HomeTemplate = ({ images, tours = [], team = [] }) => (
-  <Page>
-    <Hero images={images}>
-    </Hero>
-    <InfoBelt />
-    <Section title={"Podróżuj razem z nami!"}>
-      <Grid>
-        {tours.map(({ node }) => (
-          <TourTile
-            key={node.id}
-            tour={node.frontmatter}
-            slug={node.fields.slug}
-          />
-        ))}
-      </Grid>
-    </Section>
-    <Section title={"Nasz Zespół!"} color='colorGrey'>
-      <Grid>
-        {team.map(person => (
-          <TeamTile
-            key={person.name}
-            person={person}
-          />
-        ))}
-      </Grid>
-    </Section>
-    <DoubledSection>
-      <Instagram />
-      <ContactForm />
-    </DoubledSection>
-  </Page>
-)
+export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, html, contentComponent }) => {
+  const HtmlComponent = contentComponent || Content
+  return (
+    <Page>
+      <Hero images={images}>
+      </Hero>
+      <InfoBelt />
+      <Section title={"Podróżuj razem z nami!"}>
+        <Grid>
+          {tours.map(({ node }) => (
+            <TourTile
+              key={node.id}
+              tour={node.frontmatter}
+              slug={node.fields.slug}
+            />
+          ))}
+        </Grid>
+      </Section>
+      <AboutUsSection
+        title={aboutTitle}
+        image={aboutImage}
+      >
+        <HtmlComponent content={html} />
+      </AboutUsSection>
+      <Section title={"Nasz Zespół!"} color='colorGrey'>
+        <Grid>
+          {team.map(person => (
+            <TeamTile
+              key={person.name}
+              person={person}
+            />
+          ))}
+        </Grid>
+      </Section>
+      <DoubledSection>
+        <Instagram />
+      </DoubledSection>
+    </Page>
+  )
+}
 
 export default ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
     <Layout title={title} description={description}>
-      <HomeTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} />
+      <HomeTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
 }
@@ -78,6 +87,7 @@ export const pageQuery = graphql`
       }
     }
     markdownRemark(frontmatter: { templateKey: { eq: "home" } }) {
+      html
       frontmatter {
         title
         description
@@ -88,6 +98,14 @@ export const pageQuery = graphql`
               fluid(maxWidth: 2048, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
+            }
+          }
+        }
+        aboutTitle
+        aboutImage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

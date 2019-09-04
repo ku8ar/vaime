@@ -13,6 +13,8 @@ images:
     name: Kanion Martwili
   - image: /img/IMG_2318jpg (1).JPG
     name: 'Sweticchoweli, Mccheta'
+aboutTitle: O Nas
+aboutImage: /img/p1000434-1-.jpg
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
@@ -29,3 +31,10 @@ team:
       fotografię i rysowanie. Lubi odkrywać nowe miejsca, kraje i kultury.
 ---
 
+Jest setka mozliwosci czemu ty jedziesz z nami.
+
+My gruzinky znamy jazik polski. Pokazem wsjo Gruzije.
+
+### Gruzja jest krasiwy kraj
+
+My znamy Gjorgiego on ma haraszo kamaz i nas zawjozu na gory i morje

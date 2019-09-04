@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .instafeed-item {
-    width: 25%;
+    width: 33%;
     height: auto;
     border: 1px solid white;
   }
@@ -27,9 +27,11 @@ const GlobalStyle = createGlobalStyle`
 const Wrapper = styled.div`
   width: auto;
   max-width: 50%;
-  margin-right: 2rem;
+  padding-right: 2rem;
   flex: 1;
+  filter: brightness(1.1) contrast(1.1);
   ${p => p.theme.mobile`
+    padding-right: 0;
     margin-right: 0;
     max-width: 100%;
     width: 100%;
@@ -51,7 +53,7 @@ export default () => {
     try {
       const feed = new Instafeed({
         get: 'user',
-        limit: 16,
+        limit: 9,
         accessToken: '10221529773.1677ed0.d596aafbded7483fb106dbfe6534952d',
         userId: 10221529773,
         template: '<a class="instafeed-item" href="{{link}}"><img  class="instafeed-item-image" src="{{image}}" /></a>'

@@ -39,6 +39,9 @@ collections:
           - {label: Description, name: description, widget: string}
           - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
           - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}, {label: "image", name: image, widget: image}]}
+          - {label: "About Us Title", name: "aboutTitle", widget: string}
+          - {label: "About Us Image", name: "aboutImage", widget: image}
+          - {label: "About Us Content", name: "body", widget: "markdown"}
       - file: "src/pages/static/global.md"
         label: "Global"
         name: "global"
