@@ -9,7 +9,7 @@ endDate: 2020-01-17T18:40:01.392Z
 price: 550
 seats: 20
 images:
-  - image: /img/P1000440.JPG
+  - image: /img/naty.jpg
     name: 'Kazbegi, Gergeti'
 schedule:
   - day: 1
