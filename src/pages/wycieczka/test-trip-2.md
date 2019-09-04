@@ -83,16 +83,15 @@ schedule:
     place: 04/05 - Batumi – Lotnisko Kopitnari (Kutaisi)
     text: Śniadanie. Przejazd z Batumi do Kutaisi. Wylot do Polski.
 priceContains:
-  - >-
-    Noclegi w hotelu*** w Tbilisi oraz Erywaniu, w agroturystyce w
-    Wardzii/pensjonacie w Achalcyche i Kutaisi
+  - Noclegi w hotelu*** w Tbilisi oraz Batumi
+  - W hotelu** w Kutaisi
   - Bilety wstępu do wszystkich obiektów
   - Przejazd kolejkami w Tbilisi
+  - Samochody terenowe w Kazbegi
   - Śniadania i obiadokolacje
   - Degustację wina
   - Usługi polskojęzycznego przewodnika
-  - Transport – komfortowy klimatyzowany bus
-  - Samochody terenowe w Kazbegi
+  - Transport – komfortowy klimatyzowany minibus
   - Ubezpieczenie turystyczne
 priceNotContains:
   - Biletu lotniczego
