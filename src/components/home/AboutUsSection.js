@@ -34,6 +34,7 @@ const BgWrapper = styled.div`
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   ${p => p.theme.mobile`
     display: none;
   `}
