@@ -2,12 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import {path} from 'rambda'
 import { View, H2 } from '../Base'
-import Image from '../Image'
 
 const Wrapper = styled.div`
   position: relative;
   display: flex;
   flex-direction: row;
+  background-color: ${p => p.theme.colorGrey};
   ${p => p.theme.mobile`
     
   `}
@@ -17,11 +17,12 @@ const Content = styled(View)`
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 `
 
 const ContentWrapper = styled.div`
   width: 50%;
+  padding-right: 2rem;
   ${p => p.theme.mobile`
     width: 100%;
   `}
@@ -43,7 +44,6 @@ const BgWrapper = styled.div`
 export default ({title, image, children}) => {
   if (!title || !children) return null
   const img = path('childImageSharp.fluid.src', image) || image
-  console.log(img)
   return (
     <Wrapper>
       <Content>

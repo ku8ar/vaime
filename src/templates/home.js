@@ -6,13 +6,13 @@ import Hero from '../components/Hero'
 import TourTile from '../components/TourTile'
 import {Page, Grid} from '../components/Base'
 import Section from '../components/home/Section'
-import Instagram from '../components/home/Instagram'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
-import DoubledSection from '../components/home/DoubledSection'
 import AboutUsSection from '../components/home/AboutUsSection'
+import PromoSection from '../components/home/PromoSection'
+import Instagram from '../components/home/Instagram'
 
-export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, html, contentComponent }) => {
+export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   return (
     <Page>
@@ -36,7 +36,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       >
         <HtmlComponent content={html} />
       </AboutUsSection>
-      <Section title={"Nasz Zespół!"} color='colorGrey'>
+      <Section title={"Nasz Zespół!"}>
         <Grid>
           {team.map(person => (
             <TeamTile
@@ -46,9 +46,8 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           ))}
         </Grid>
       </Section>
-      <DoubledSection>
-        <Instagram />
-      </DoubledSection>
+      <PromoSection promoImage={promoImage} />
+      <Instagram />
     </Page>
   )
 }
@@ -103,6 +102,13 @@ export const pageQuery = graphql`
         }
         aboutTitle
         aboutImage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        promoImage {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid

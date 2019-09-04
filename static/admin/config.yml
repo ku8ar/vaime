@@ -42,6 +42,7 @@ collections:
           - {label: "About Us Title", name: "aboutTitle", widget: string}
           - {label: "About Us Image", name: "aboutImage", widget: image}
           - {label: "About Us Content", name: "body", widget: "markdown"}
+          - {label: "Promo Image", name: "promoImage", widget: image}
       - file: "src/pages/static/global.md"
         label: "Global"
         name: "global"
