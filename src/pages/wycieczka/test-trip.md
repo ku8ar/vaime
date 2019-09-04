@@ -53,9 +53,16 @@ schedule:
     place: 17/01 - transfer na lotnisko
     text: 'Śniadanie. Wyjazd na lotnisko, wylot do Polski.'
 priceContains:
-  - Bilety wstępu do wszystkich obiektów
-  - Degustację wina
+  - Noclegi w hotelach w Tbilisi
+  - Gudauri i Kutaisi
+  - Wszystkie śniadania i obiadokolacje
+  - Lunch w dniu 13/01
+  - Obsługę polskojęzycznego przewodnika w dniach zwiedzania
+  - Transport – komfortowy autokar
+  - Ubezpieczenie turystyczne
 priceNotContains:
   - Biletu lotniczego
+  - Sprzętu narciarskiego
+  - Dodatkowych posiłków i napojów nie zawartych w programie
 ---
 W CELU DOKONANIA REZERWACJI PROSIMY O KONTAKT MAILOWY LUB ZGŁOSZENIE POPRZEZ FORMULARZ REZERWACJI
