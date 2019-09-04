@@ -10,7 +10,7 @@ price: 550
 seats: 20
 images:
   - image: /img/naty.jpg
-    name: 'Kazbegi, Gergeti'
+    name: Gudauri
 schedule:
   - day: 1
     place: 10/01 - Kutaisi
