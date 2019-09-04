@@ -68,7 +68,7 @@ export const pageQuery = graphql`
             price
             thumb {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 100) {
+                fluid(maxWidth: 2048, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -83,11 +83,16 @@ const inputCss = css`
   }
 `
 
-const Input = styled.input`
+const Input = ({field, ...props}) =>
+  <InputStyled {...field} {...props} />
+const TextArea = ({field, placeholder}) =>
+  <TextAreaStyled {...field} placeholder={placeholder} />
+
+const InputStyled = styled.input`
   ${inputCss}
 `
 
-const TextArea = styled.textarea`
+const TextAreaStyled = styled.textarea`
   ${inputCss}
   resize: vertical;
 `

@@ -40,6 +40,8 @@ const ModalWrapper = styled.div`
     max-width: 100%;
     width: 100%;
   `}
+  bottom: 0;
+  height: auto;
 `
 
 const ContentWrapper = styled.div`
@@ -59,7 +61,6 @@ const CloseIcon = styled.img`
 
 const CloseWrapper = styled.div`
   position: fixed;
-  top: 4rem;
   right: 0;
   background-color: ${p => p.theme.colorGrey};
   width: 4rem;
