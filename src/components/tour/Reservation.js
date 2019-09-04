@@ -28,6 +28,8 @@ const TripInfoWrapper = styled.div`
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid ${p => p.theme.colorGreyDark};
+  flex-wrap: wrap;
+  align-items: center;
   ${p => p.theme.mobile`
     border-bottom: none;
     padding-bottom: 0;
@@ -38,6 +40,7 @@ const TripInfoWrapper = styled.div`
 const Column = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
 `
 
 const InfoText = styled(H4)`
