@@ -9,7 +9,7 @@ endDate: 2019-10-15T20:45:36.422Z
 price: 535
 seats: 5
 images:
-  - image: /img/IMG_2140jpg.JPG
+  - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
 schedule:
   - day: 1
