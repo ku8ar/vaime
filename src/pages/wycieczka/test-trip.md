@@ -9,7 +9,7 @@ endDate: 2020-01-17T18:40:01.392Z
 price: 550
 seats: 20
 images:
-  - image: /img/naty.jpg
+  - image: /img/skier-1.jpg
     name: Gudauri
 schedule:
   - day: 1
