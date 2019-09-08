@@ -85,6 +85,7 @@ const inputCss = css`
 
 const Input = ({field, ...props}) =>
   <InputStyled {...field} {...props} />
+
 const TextArea = ({field, placeholder}) =>
   <TextAreaStyled {...field} placeholder={placeholder} />
 

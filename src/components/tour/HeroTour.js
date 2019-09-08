@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import moment from 'moment'
 import { path } from 'rambda'
 import Hero from '../Hero'
+import { calcDate, countDays } from '../../utils/date'
 import {H1, P, Button} from '../Base'
 
 export default ({ images, title, startDate, endDate, price, seats, openReservation }) => (
@@ -99,9 +99,3 @@ const Label = styled(P)`
   color: ${path('theme.colorWhite')};
   margin: 0;
 `
-
-const calcDate = (startDate, endDate) => startDate && endDate ?
-  `${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(startDate).format('YYYY')}`
-  : ''
-
-const countDays = (startDate, endDate) => startDate && endDate ? moment(endDate).diff(moment(startDate), 'days') : 0

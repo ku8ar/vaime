@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
 import { prop } from 'rambda'
-import { Formik, Form, Field, ErrorMessage } from 'formik'
+import { Formik } from 'formik'
 import styled from 'styled-components'
-import { Button, H2, H4, H6, P } from '../Base'
+import { Button, H2, H6, P } from '../Base'
 import { FormInput } from '../Form'
 
 export default ({startDate, endDate, price}) => {
@@ -139,18 +139,7 @@ const OrderInfoWrapper = styled.div`
     display: none;
   `}
 `
-const OrderInfoNo = styled(P)`
-  background-color: transparent;
-  color: ${p => p.theme.colorPrimary};
-  border-radius: 50%;
-  border: 2px solid ${p => p.theme.colorPrimary};
-  width: 1.5rem;
-  height: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1rem;
-`
+
 const OrderInfoText = styled(P)`
   text-transform: uppercase;
   flex: 1;

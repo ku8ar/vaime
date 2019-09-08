@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { path } from 'rambda'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import moment from 'moment'
+import { calcDate } from '../utils/date'
 import {H6, Button} from './Base'
 import heart from '../img/heart.svg'
 
@@ -11,7 +11,7 @@ export default ({ slug, tour }) => {
   if (!tour) return
 
   const { title, startDate, endDate, thumb, price } = tour
-  const subtitle = `Dostępny temin: ${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}.${moment(endDate).format('YYYY')}`
+  const subtitle = `Dostępny temin: ${calcDate(startDate, endDate)}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   return (

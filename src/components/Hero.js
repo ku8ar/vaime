@@ -18,7 +18,6 @@ const Hero = ({ images, children, small }) => {
           {children}
         </HeroContent>
       </ReactCSSTransitionGroup>
-
     </HeroWrapper >
     </>
   )

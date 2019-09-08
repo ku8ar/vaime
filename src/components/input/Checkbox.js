@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import styled from 'styled-components'
 
 export default ({ ...props }) => {
   const value = props.form.values[props.field.name]
 
-  const onChange = () => {
+  const onChange = useCallback(() => {
     props.form.setFieldValue(props.field.name, !value)
-  }
+  }, [])
+
   return (
     <Wrapper>
       <Checkbox

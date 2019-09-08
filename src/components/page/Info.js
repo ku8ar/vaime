@@ -5,7 +5,6 @@ import { H5, P } from '../Base'
 
 export default () => {
   const data = useGlobal()
-  console.log(data)
 
   const phone = data.phoneNumbers && data.phoneNumbers[0] || null
   const email = data.email
