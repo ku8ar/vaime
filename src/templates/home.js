@@ -86,7 +86,7 @@ export const pageQuery = graphql`
             price
             thumb {
               childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
+                fluid(maxWidth: 1920, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -104,7 +104,7 @@ export const pageQuery = graphql`
           name
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 1920, quality: 50) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -113,14 +113,14 @@ export const pageQuery = graphql`
         aboutTitle
         aboutImage {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 1920, quality: 50) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         promoImage {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 1920, quality: 50) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -131,7 +131,7 @@ export const pageQuery = graphql`
           text
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 1920, quality: 50) {
                 ...GatsbyImageSharpFluid
               }
             }
