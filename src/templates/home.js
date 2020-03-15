@@ -63,7 +63,15 @@ export default ({ data }) => {
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    allMarkdownRemark(filter: { frontmatter: { templateKey: { in: "tour" } } } ) {
+    allMarkdownRemark(
+      filter: {
+        frontmatter: { templateKey: { in: "tour" } }
+      }
+      sort: {
+        fields: [frontmatter___startDate]
+        order: DESC
+      }
+    ) {
       edges {
         node {
           id
@@ -73,6 +81,8 @@ export const pageQuery = graphql`
           frontmatter {
             title
             startDate
+            endDate
+            timestamp: startDate(formatString: "x")
             price
             thumb {
               childImageSharp {

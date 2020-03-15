@@ -4,15 +4,17 @@ import { path } from 'rambda'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { calcDate } from '../utils/date'
-import {H6, Button} from './Base'
+import { H6, Button } from './Base'
 import heart from '../img/heart.svg'
 
 export default ({ slug, tour }) => {
   if (!tour) return
 
-  const { title, startDate, endDate, thumb, price } = tour
+  const { title, startDate, endDate, timestamp, thumb, price } = tour
   const subtitle = `Dostępny temin: ${calcDate(startDate, endDate)}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
+
+  const expired = timestamp < + new Date()
 
   return (
     <LinkWrapper to={slug}>
@@ -21,6 +23,7 @@ export default ({ slug, tour }) => {
         <TourContent>
           <TourInfo>{subtitle}</TourInfo>
           <TourButton>Więcej</TourButton>
+          {expired && <Outdated>WYPRZEDANE</Outdated>}
         </TourContent>
       </Top>
       <BottomLabel>
@@ -41,7 +44,7 @@ const LinkWrapper = styled(Link)`
   height: 19rem;
   box-shadow: 0 2px 4px 0 rgba(23,27,30,.1);
   border-radius: ${props => props.theme.radiusSmall};
-  margin: ${ props => props.theme.marginM} ${ props => props.theme.marginS};
+  margin: ${ props => props.theme.marginM} ${props => props.theme.marginS};
   background-color: ${props => props.theme.colorWhite};
   text-decoration: none;
   transition: box-shadow .3s ease-out;
@@ -118,4 +121,18 @@ const TourColumn = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+`
+
+const Outdated = styled(H4)`
+  position: absolute;
+  font-weight: ${p => p.theme.weightBolder};
+  color: ${ path('theme.colorPrimary')};
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0.05turn);
+  border-style: dashed;
+  border-color: ${ path('theme.colorPrimary')};
+  border-radius: .5rem;
+  padding: .5rem;
+  backdrop-filter: blur(10px) brightness(200%);
 `
