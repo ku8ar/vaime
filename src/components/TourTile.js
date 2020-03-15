@@ -4,7 +4,7 @@ import { path } from 'rambda'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { calcDate } from '../utils/date'
-import { H6, Button } from './Base'
+import { H4, H6, Button } from './Base'
 import heart from '../img/heart.svg'
 
 export default ({ slug, tour }) => {
