@@ -134,5 +134,5 @@ const Outdated = styled(H4)`
   border-color: ${ path('theme.colorPrimary')};
   border-radius: .5rem;
   padding: .5rem;
-  backdrop-filter: blur(10px) brightness(200%);
+  background-color: #ffffff91;
 `
