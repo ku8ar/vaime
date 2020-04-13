@@ -68,3 +68,4 @@ collections:
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
+      - {label: "Contact", name: contact, widget: boolean}

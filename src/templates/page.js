@@ -9,8 +9,9 @@ import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
+import ContactForm from '../components/forms/ContactForm'
 
-export const StandardPageTemplate = ({title, images, html, background, qa, contentComponent}) => {
+export const StandardPageTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
   return (
@@ -24,6 +25,7 @@ export const StandardPageTemplate = ({title, images, html, background, qa, conte
         <Column size={75}>
           <Section><Faq list={qa} /></Section>
           <Section><HtmlComponent content={html} /></Section>
+          {contact ? <Section><ContactForm /></Section> : null}
         </Column>
         <Column size={25}>
           <Section>
@@ -57,6 +59,7 @@ export const pageQuery = graphql`
           question
           answer
         }
+        contact
         background {
             childImageSharp {
               fluid(maxWidth: 1920, quality: 50) {

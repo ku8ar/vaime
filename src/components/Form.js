@@ -55,6 +55,7 @@ export const FormInput = ({ type, name, icon, ...props }) => (
 const FormWrapper = styled(Form)`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `
 
 const FormInputWrapper = styled.div`
