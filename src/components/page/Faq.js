@@ -53,7 +53,6 @@ const FaqItem = ({ question, answer }) => {
 
   return (
     <FaqItemWrapper onClick={swipe}>
-      <FaqIcon open={open}>v</FaqIcon>
       <FaqColumn>
         <Hr open={open} />
         <p><strong>{question}</strong></p>
