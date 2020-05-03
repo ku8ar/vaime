@@ -43,6 +43,16 @@ collections:
           - {label: "About Us Image", name: "aboutImage", widget: image}
           - {label: "About Us Content", name: "body", widget: "markdown"}
           - {label: "Promo Image", name: "promoImage", widget: image}
+
+      - file: "src/pages/kontakt.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact"}
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
+
       - file: "src/pages/static/global.md"
         label: "Global"
         name: "global"
@@ -68,4 +78,3 @@ collections:
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
-      - {label: "Contact", name: contact, widget: boolean}

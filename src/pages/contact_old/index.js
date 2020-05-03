@@ -67,7 +67,6 @@ export default class Index extends React.Component {
                       name={'name'}
                       onChange={this.handleChange}
                       id={'name'}
-                      required={true}
                     />
                   </div>
                 </div>
@@ -82,7 +81,6 @@ export default class Index extends React.Component {
                       name={'email'}
                       onChange={this.handleChange}
                       id={'email'}
-                      required={true}
                     />
                   </div>
                 </div>
@@ -96,7 +94,6 @@ export default class Index extends React.Component {
                       name={'message'}
                       onChange={this.handleChange}
                       id={'message'}
-                      required={true}
                     />
                   </div>
                 </div>

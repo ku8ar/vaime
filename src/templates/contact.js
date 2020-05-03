@@ -1,14 +1,23 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { path } from 'rambda'
+import styled from 'styled-components'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
-import { Page, Center, H1 } from '../components/Base'
+import { Page, Center, H1, H5 } from '../components/Base'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
-import Info from '../components/page/Info'
+// import Info from '../components/page/Info'
+import ContactForm from '../components/forms/ContactForm'
+
+const RightColumn = styled(Column)`
+  padding-left: 2rem;
+  ${p => p.theme.mobile`
+    padding-left: 0;
+  `}
+`
 
 export const StandardPageTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
@@ -21,15 +30,21 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
         </Center>
       </Hero>
       <Grid>
-        <Column size={75}>
-          <Section><Faq list={qa} /></Section>
+        <Column size={50}>
           <Section><HtmlComponent content={html} /></Section>
+
         </Column>
-        <Column size={25}>
-          <Section>
-            <Info />
+        <RightColumn size={50}>
+        <Section>
+            <H5>Napisz do nas tutaj:</H5>
           </Section>
-        </Column>
+          <Section>
+            <ContactForm />
+          </Section>
+          {/*       <Section>
+            <Info />
+          </Section> */}
+        </RightColumn>
       </Grid>
     </Page>
   )
@@ -47,23 +62,12 @@ const StandardPage = ({ data }) => {
 export default StandardPage
 
 export const pageQuery = graphql`
-  query StandardPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query ContactPage {
+    markdownRemark(frontmatter: { templateKey: { eq: "contact" } }) {
       html
       frontmatter {
         title
         description
-        qa {
-          question
-          answer
-        }
-        background {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
         images {
           name
           image {
