@@ -84,7 +84,7 @@ const BottomLabel = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: ${path('theme.marginXs')} ${path('theme.marginXs')} 0 ${path('theme.marginXs')};
+  margin: ${path('theme.marginXs')} ${path('theme.marginXs')} ${path('theme.marginXs')} ${path('theme.marginXs')};
   min-height: 3.5rem;
 `
 

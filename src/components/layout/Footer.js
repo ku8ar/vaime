@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import SocialLink from './SocialLink'
 import logo from '../../img/logo.svg'
 import { View, H6 } from '../Base'
@@ -14,7 +15,7 @@ export default ({ phoneNumbers, socialLinks, email, companyName }) => (
           <FooterLink href={`mailto: ${email}`}>{email}</FooterLink>
         </FooterList>
         <FooterList>
-          <FooterLink href=''><Title color="colorWhite">Polityka Prywatności</Title></FooterLink>
+          <FooterNav to='/polityka'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
         </FooterList>
         <FooterList row>
           <Title color="colorWhite">Gruziński Po Polsku</Title>
@@ -55,6 +56,11 @@ const Row = styled.div`
 `
 
 const FooterLink = styled.a`
+  color: ${p => p.theme.colorGreyLight};
+  text-decoration: none;
+`
+
+const FooterNav = styled(Link)`
   color: ${p => p.theme.colorGreyLight};
   text-decoration: none;
 `
