@@ -4,7 +4,7 @@ active: true
 title: Kaukaski Duet – Gruzja i Armenia 2020
 description: Odwiedź najpiękniejsze zakątki Kaukazu
 thumb: /img/sevan.jpg
-startDate: 2019-10-05T20:45:36.360Z
+startDate: 2019-06-08T20:00:00.000Z
 endDate: 2019-10-15T20:45:36.422Z
 price: 535
 seats: 5
