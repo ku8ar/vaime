@@ -25,7 +25,7 @@ const Anchor = styled.a`
 
 export default () => (
   <Wrapper>
-    {useInstagram().map(({ href, src }) => (
+    {useInstagram().slice(0, 9).map(({ href, src }) => (
       <Anchor key={href} target="_blank" href={href} style={{ backgroundImage: `url("${src}")` }} />
     ))}
   </Wrapper >
