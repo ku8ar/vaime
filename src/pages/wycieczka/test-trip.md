@@ -64,15 +64,28 @@ schedule:
       kuchni i ciepłego morza. Pierwszy dzień spędzamy nic nie robiąc – w
       programie tylko plażowanie i wypoczynek. Nocleg w Batumi.
   - day: 7
-    place: 16/01 - gudauri - kutaisi
+    place: 13/07 - Batumi
     text: >-
-      Śniadanie. Wyjazd z Gudauri w kierunku Kutaisi. Dojazd do Kutaisi,
-      zwiedzanie katedry Bagrati oraz jeśli pozwoli czas, średniowiecznej
-      akademii Gelati.  Pożegnalna kolacja w restauracji. Transfer do hotelu,
-      nocleg w Kutaisi.
+      Śniadanie. Po śniadaniu czeka na nas spacer po najładniejszym ogrodzie
+      botanicznym kraju. Batumski Ogród Botaniczny już od 100 lat cieszy gości
+      Adżarii pięknem egzotycznej natury. Po spacerze wrócimy na miasto i
+      spróbujemy słynnych adżarskich chaczapuri, które jest jednym z
+      najpopularniejszych dań kuchni adżarskiej i gruzińskiej. Nocleg w Batumi.
   - day: 8
-    place: 17/01 - transfer na lotnisko
-    text: 'Śniadanie. Wyjazd na lotnisko, wylot do Polski.'
+    place: 14/07 - Batumi – Gori – Mccheta – Tbilisi
+    text: >-
+      Po śniadaniu wyjazd w kierunku Tbilisi. Nasz pierwszy przystanek to miasto
+      Gori. Tutaj zobaczymy dom, w którym się urodził i spędził kilka lat
+      swojego życia Józef Stalin. Później jedziemy do Upliscyche, do skalnego
+      miasta, które było zamieszkane jeszcze w III wieku p.n.e. Następnie
+      przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
+      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
+      jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
+      UNESCO – katedrę Sweticchoweli z XI i monastyr Dżwari z VI wieku.
+      Pożegnalna obiadokolacja i nocleg w Tbilisi.
+  - day: 9
+    place: 15/07 - Transfer na lotnisko
+    text: 'Transfer na lotnisko, wylot do Polski.'
 priceContains:
   - Noclegi w hotelach w Tbilisi
   - Gudauri i Kutaisi
