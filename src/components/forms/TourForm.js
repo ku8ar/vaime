@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { Button, H2, H6, P } from '../Base'
 import { FormInput } from '../Form'
 
-export default ({startDate, endDate, price}) => {
+export default ({startDate, endDate, price, seats}) => {
   const onSubmit = useCallback(() => { }, [])
   return (
     <Formik
@@ -40,7 +40,7 @@ export default ({startDate, endDate, price}) => {
               <OrderInfo no={2} title="Liczba Uczestników Wycieczki" />
               <Row twoRows>
                 <SmallCell>
-                  <FormInput type='number' name='adults' placeholder='Dorośli' />
+                  <FormInput type='number' name='adults' placeholder='Dorośli' max={seats} />
                 </SmallCell>
                 <SmallCell>
                   <FormInput type='number' name='children' placeholder='Dzieci (do 6 roku życia)' />

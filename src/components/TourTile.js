@@ -41,7 +41,7 @@ const LinkWrapper = styled(Link)`
   display: flex;
   flex-direction: column;
   width: 22rem;
-  height: 19rem;
+  height: 22rem;
   box-shadow: 0 2px 4px 0 rgba(23,27,30,.1);
   border-radius: ${props => props.theme.radiusSmall};
   margin: ${ props => props.theme.marginM} ${props => props.theme.marginS};
