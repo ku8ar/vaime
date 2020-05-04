@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 title: 'majówka w gruzji '
-description: długi majowy weekend w słonecznewj gruzji - co może być lepsze!
+description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
 thumb: /img/20180504_113510.jpg
 startDate: 2020-04-27T17:40:01.346Z
 endDate: 2020-05-04T17:40:01.392Z
@@ -83,18 +83,18 @@ schedule:
     place: 04/05 - Batumi – Lotnisko Kopitnari (Kutaisi)
     text: Śniadanie. Przejazd z Batumi do Kutaisi. Wylot do Polski.
 priceContains:
-  - Noclegi w hotelu*** w Tbilisi oraz Batumi
+  - '- Noclegi w hotelu*** w Tbilisi oraz Batumi'
   - W hotelu** w Kutaisi
-  - Bilety wstępu do wszystkich obiektów
-  - Przejazd kolejkami w Tbilisi
-  - Samochody terenowe w Kazbegi
-  - Śniadania i obiadokolacje
-  - Degustację wina
-  - Usługi polskojęzycznego przewodnika
-  - Transport – komfortowy klimatyzowany minibus
-  - Ubezpieczenie turystyczne
+  - '- Bilety wstępu do wszystkich obiektów'
+  - '- Przejazd kolejkami w Tbilisi'
+  - '- Samochody terenowe w Kazbegi'
+  - '- Śniadania i obiadokolacje'
+  - '- Degustację wina'
+  - '- Usługi polskojęzycznego przewodnika'
+  - '- Transport – komfortowy klimatyzowany minibus'
+  - '- Ubezpieczenie turystyczne'
 priceNotContains:
-  - Biletu lotniczego
-  - Dodatkowych posiłków i napojów nie zawartych w programie
+  - '- Biletu lotniczego'
+  - '- Dodatkowych posiłków i napojów nie zawartych w programie'
 ---
 W CELU DOKONANIA REZERWACJI PROSIMY O KONTAKT MAILOWY LUB ZGŁOSZENIE POPRZEZ FORMULARZ REZERWACJI
