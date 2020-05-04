@@ -3,38 +3,47 @@ import styled from 'styled-components'
 import { path } from 'rambda'
 import Hero from '../Hero'
 import { calcDate, countDays } from '../../utils/date'
-import {H1, P, Button} from '../Base'
+import { H1, P, Button } from '../Base'
 
-export default ({ images, title, startDate, endDate, price, seats, openReservation }) => (
-  <Hero images={images}>
-    <Wrapper>
-      <FirstColumn>
-        <H1 color='colorWhite'>{title}</H1>
-        <Info>
-          <Pill>
-            <Label>Termin</Label>
-            <Label>{calcDate(startDate, endDate)}</Label>
-          </Pill>
-          <Pill>
-            <Label>Liczba dni</Label>
-            <Label>{countDays(startDate, endDate)} dni / {(countDays(startDate, endDate) || 1) - 1} nocy</Label>
-          </Pill>
-          <Pill>
-            <Label>Wolne miejsca</Label>
-            <Label>{seats}</Label>
-          </Pill>
-          <Pill>
-            <Label>Cena</Label>
-            <Label>{price} EUR</Label>
-          </Pill>
-        </Info>
-      </FirstColumn>
-      <LastColumn>
-        <Button onClick={openReservation}>Zarezerwuj Termin</Button>
-      </LastColumn>
-    </Wrapper>
-  </Hero>
-)
+export default ({ images, title, startDate, endDate, price, seats, openReservation, timestamp }) => {
+
+  const expired = timestamp < + new Date()
+  const noSeats = seats <= 0
+  const disabled = expired || noSeats
+
+  return (
+    <Hero images={images}>
+      <Wrapper>
+        <FirstColumn>
+          <H1 color='colorWhite'>{title}</H1>
+          <Info>
+            <Pill>
+              <Label>Termin</Label>
+              <Label>{calcDate(startDate, endDate)}</Label>
+            </Pill>
+            <Pill>
+              <Label>Liczba dni</Label>
+              <Label>{countDays(startDate, endDate)} dni / {(countDays(startDate, endDate) || 1) - 1} nocy</Label>
+            </Pill>
+            <Pill>
+              <Label>Wolne miejsca</Label>
+              <Label>{seats || 'brak'}</Label>
+            </Pill>
+            <Pill>
+              <Label>Cena</Label>
+              <Label>{price} EUR</Label>
+            </Pill>
+          </Info>
+        </FirstColumn>
+        <LastColumn>
+          <Button disabled={disabled} onClick={openReservation}>
+            {disabled ? 'Wyprzedane' : 'Zarezerwuj Termin'}
+          </Button>
+        </LastColumn>
+      </Wrapper>
+    </Hero>
+  )
+}
 
 const Wrapper = styled.div`
   display: flex;
