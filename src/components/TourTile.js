@@ -97,18 +97,15 @@ const TourContent = styled.div`
 const TourDates = styled.div`
   z-index: 1;
   width: 100%;
-  margin-top: ${path('theme.marginS')};
 `
 
-const TourInfo = styled.span`
-  margin-left: ${path('theme.marginS')};
-  padding: 0.2rem ${path('theme.marginXs')};
+const TourInfo = styled.p`
   background-color: ${path('theme.colorPrimary')};
   color: ${path('theme.colorWhite')};
-  border-radius: ${path('theme.radiusSmall')};
-  width: auto;
   font-size: 12px;
   text-transform: uppercase;
+  padding: .5rem;
+  background: ${p => p.theme.colorPrimary}
 `
 
 const TourButton = styled(Button)`
