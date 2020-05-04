@@ -6,13 +6,11 @@ description: Odwiedź najpiękniejsze zakątki Kaukazu
 thumb: /img/sevan.jpg
 startDate: 2019-06-08T20:00:00.000Z
 endDate: 2019-06-18T20:45:36.422Z
-daysCount: ''
 price: 570
-seats: 10
+seats: 0
 images:
   - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
-map: /img/mapa.png
 schedule:
   - day: 1
     place: Tbilisi
