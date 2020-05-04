@@ -3,13 +3,13 @@ templateKey: tour
 active: true
 title: Gruzińskie wakacje
 description: Wakacje w gruzji? czemu nie!
-thumb: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
+thumb: /img/IMG_2318jpg (1).JPG
 startDate: 2020-07-06T20:00:00.000Z
 endDate: 2020-07-14T20:00:00.000Z
 price: 530
 seats: 0
 images:
-  - image: /img/img_1549jpg.jpg
+  - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi
 schedule:
   - day: 1
@@ -88,7 +88,7 @@ schedule:
     text: 'Transfer na lotnisko, wylot do Polski.'
 priceContains:
   - '- Noclegi w hotelu*** w Tbilisi oraz Batumi'
-  - w pensjonacie w Kutaisi i Mestii (pokoje z łazienkami)
+  - pensjonacie w Kutaisi i Mestii (pokoje z łazienkami)
   - '- Bilety wstępu do wszystkich obiektów'
   - '- Przejazd kolejkami w Tbilisi'
   - '- Śniadania i obiadokolacje'
