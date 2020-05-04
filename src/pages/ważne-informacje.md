@@ -2,7 +2,10 @@
 templateKey: page
 title: Ważne informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
-background: /img/kopitnari.jpg
+background: /img/logo.svg
+images:
+  - image: /img/kopitnari.jpg
+    name: lotnisko
 ---
 ********
 
