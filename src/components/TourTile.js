@@ -11,7 +11,7 @@ export default ({ slug, tour }) => {
   if (!tour) return
 
   const { title, startDate, endDate, timestamp, thumb, price } = tour
-  const subtitle = `Dostępny temin: ${calcDate(startDate, endDate)}`
+  const subtitle = `Dostępny termin: ${calcDate(startDate, endDate)}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   const expired = timestamp < + new Date()
@@ -21,7 +21,9 @@ export default ({ slug, tour }) => {
       <Top>
         <BgCover fluid={fluid} style={imgStyle} alt={title} />
         <TourContent>
-          <TourInfo>{subtitle}</TourInfo>
+          <TourDates>
+            <TourInfo>{subtitle}</TourInfo>
+          </TourDates>
           <TourButton>Więcej</TourButton>
           {expired && <Outdated>WYPRZEDANE</Outdated>}
         </TourContent>
@@ -51,12 +53,6 @@ const LinkWrapper = styled(Link)`
   overflow: hidden;
   &:hover {
     box-shadow: 0 4px 12px 0 rgba(23,27,30,.3);
-  }
-  &:first-child {
-    margin-left: 0;
-  }
-  &:last-child {
-    margin-right: 0;
   }
   ${p => p.theme.mobile`
     margin-left: 0;
@@ -98,17 +94,28 @@ const TourContent = styled.div`
   z-index: 1;
 `
 
-const TourInfo = styled.p`
-  padding: ${path('theme.marginXs')};
-  background-color: ${path('theme.colorSecondaryTransparent')};
-  color: ${path('theme.colorWhite')};
-  width: 100%;
+const TourDates = styled.div`
   z-index: 1;
+  width: 100%;
+  margin-top: ${path('theme.marginS')};
+`
+
+const TourInfo = styled.span`
+  margin-left: ${path('theme.marginS')};
+  padding: 0.2rem ${path('theme.marginXs')};
+  background-color: ${path('theme.colorPrimary')};
+  color: ${path('theme.colorWhite')};
+  border-radius: ${path('theme.radiusSmall')};
+  width: auto;
+  font-size: 12px;
+  text-transform: uppercase;
 `
 
 const TourButton = styled(Button)`
   z-index: 1;
   pointer-events: none;
+  position: absolute:
+  bottom: 0;
 `
 
 const HeartIcon = styled.img`
