@@ -7,8 +7,9 @@ images:
   - image: /img/kopitnari.jpg
     name: lotnisko
 ---
-– Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością
-
+**Kilka ważnych informacji odnośnie naszych wycieczek:**\
+\
+– Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością\
 \
 – Wy kupujecie bilety, spotykamy się na lotnisku w Gruzji i od tego momentu do końca wycieczki jesteśmy razem. Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z lotniska.
 
@@ -19,8 +20,6 @@ images:
 – Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
 
 # 
-
-
 
 **Gdzie znaleźć tanie połączenia do Gruzji?**
 
