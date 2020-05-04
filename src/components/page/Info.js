@@ -37,7 +37,7 @@ const Anchor = styled.a`
 
 const Wrapper = styled.div`
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   ${p => p.theme.mobile`
     margin: 0;
   `}
