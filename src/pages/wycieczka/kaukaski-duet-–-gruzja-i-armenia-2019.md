@@ -1,7 +1,7 @@
 ---
 templateKey: tour
 active: true
-title: Kaukaski Duet – Gruzja i Armenia 2019
+title: Kaukaski Duet – Gruzja i Armenia 2020
 description: Odwiedź najpiękniejsze zakątki Kaukazu
 thumb: /img/sevan.jpg
 startDate: 2019-10-05T20:45:36.360Z
