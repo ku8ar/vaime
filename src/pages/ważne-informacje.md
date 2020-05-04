@@ -19,7 +19,10 @@ images:
 
 – Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
 
-# 
+
+<br />
+<br />
+<br />
 
 **Gdzie znaleźć tanie połączenia do Gruzji?**
 
