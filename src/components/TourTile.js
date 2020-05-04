@@ -105,7 +105,8 @@ const TourInfo = styled.p`
   font-size: 12px;
   text-transform: uppercase;
   padding: .5rem;
-  background: ${p => p.theme.colorPrimary}
+  background: ${p => p.theme.colorPrimary};
+  font-weight: bold;
 `
 
 const TourButton = styled(Button)`
