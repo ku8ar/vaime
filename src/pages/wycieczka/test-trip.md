@@ -9,7 +9,7 @@ endDate: 2020-07-14T20:00:00.000Z
 price: 530
 seats: 0
 images:
-  - image: '/img/Monastyr Gergeti, Kazbegi (2).jpg'
+  - image: /img/img_1549jpg.jpg
     name: Kazbegi
 schedule:
   - day: 1
