@@ -1,11 +1,11 @@
 ---
 templateKey: page
 title: Polityka Prywatności
-description: Cookies, Polityka Prywatności
+description: 'Cookies, Polityka Prywatności'
+background: /img/logo.svg
 images:
-  - image: /img/466.jpg
-    name: Swaneti
-background:
+  - image: /img/projekt-bez-tytułu-5-.png
+    name: prywatność
 ---
 
 #### Preambuła
