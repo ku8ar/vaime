@@ -78,7 +78,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./static/img/logo.png",
+        logo: "./static/img/vaime_circle.png",
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/?homescreen=1',
