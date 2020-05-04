@@ -12,6 +12,7 @@ seats: 15
 images:
   - image: /img/country-lane-428039.jpg
     name: kacheti
+map: /img/mapa.png
 schedule:
   - day: 1
     place: 02/09 - Kutaisi – Tbilisi

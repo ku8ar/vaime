@@ -12,6 +12,7 @@ seats: 10
 images:
   - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
+map: /img/mapa.png
 schedule:
   - day: 1
     place: Tbilisi

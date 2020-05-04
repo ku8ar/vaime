@@ -12,6 +12,7 @@ seats: 15
 images:
   - image: /img/batumi.jpg
     name: tbilisi
+map: /img/mapa.png
 schedule:
   - day: 1
     place: 27/04 - Kutasi

@@ -12,6 +12,7 @@ seats: 0
 images:
   - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi
+map: /img/mapa.png
 schedule:
   - day: 1
     place: 07/07 - Tbilisi

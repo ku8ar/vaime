@@ -7,9 +7,11 @@ import HeroTour from '../components/tour/HeroTour'
 import Schedule from '../components/tour/Schedule'
 import Reservation from '../components/tour/Reservation'
 import { Grid, Column } from '../components/page/Grid'
+import Section from '../components/page/Section'
 import PriceContains from '../components/tour/PriceContains'
+import Map from '../components/tour/Map'
 
-export const TourTemplate = ({description, schedule, html, contentComponent, ...props}) => {
+export const TourTemplate = ({description, schedule, html, contentComponent, map, ...props}) => {
   const HtmlComponent = contentComponent || Content
   return (
     <Page>
@@ -19,7 +21,12 @@ export const TourTemplate = ({description, schedule, html, contentComponent, ...
         <HtmlComponent content={html || ''} />
         <Grid>
           <Column size={70}>
-            <Schedule schedule={schedule} />
+            <Section>
+              <Schedule schedule={schedule} />
+            </Section>
+            <Section>
+              <Map map={map} />
+            </Section>
           </Column>
           <Column size={30}>
             <PriceContains {...props} />
@@ -82,6 +89,13 @@ export const pageQuery = graphql`
         thumb {
           childImageSharp {
             fluid(maxWidth: 400, quality: 50) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        map {
+          childImageSharp {
+            fluid(maxWidth: 1920, quality: 50) {
               ...GatsbyImageSharpFluid
             }
           }
