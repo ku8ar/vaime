@@ -3,45 +3,66 @@ templateKey: tour
 active: true
 title: Gruzińskie wakacje
 description: Wakacje w gruzji? czemu nie!
-thumb: /img/panorama-2192454_960_720.jpg
-startDate: 2020-01-10T18:40:01.346Z
-endDate: 2020-01-17T18:40:01.392Z
-price: 550
-seats: 20
+thumb: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
+startDate: 2020-07-06T20:00:00.000Z
+endDate: 2020-07-14T20:00:00.000Z
+price: 530
+seats: 0
 images:
-  - image: /img/skier-1.jpg
-    name: Gudauri
+  - image: '/img/Monastyr Gergeti, Kazbegi (2).jpg'
+    name: Kazbegi
 schedule:
   - day: 1
-    place: 10/01 - Kutaisi
+    place: 07/07 - Tbilisi
     text: >+
-      Przylot do Kutaisi, odbiór z lotniska. Lunch w Kutaisi, przejazd do
-      Tbilisi. Zakwaterowanie. Powitalna kolacja w restauracji z pokazem
-      folklorystycznym. Nocleg w Tbilisi.
+      Przylot do Tbilisi o 04:00, odbiór z lotniska, zakwaterowanie w hotelu,
+      odpoczynek. Pośniadaniu zwiedzimy starówkę miasta, zaliczymy wszystkie
+      najważniejsze zabytki sakralne, będziemy mieli okazję podziwiać
+      fantastyczny widok na miasto z twierdzy Narikala. Powitalna kolacja w
+      restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi.
 
 
   - day: 2
-    place: 11/01 - Tbilisi – Kacheti – Tbilisi
+    place: 08/07 - Tbilisi – Kazbegi – Tbilisi
     text: >
-      Śniadanie w hotelu, wyjazd do regionu Kacheti. Zwiedzanie uroczego miasta
-      miłości Signagi. Przejazd do lokalnej domowej winnicy, gdzie odbędzie się
-      degustacja wina oraz warsztat wypiekania gruzińskiego chlebka i
-      przyrządzenia szaszłyka. Obiadokolacja, powrót do Tbilisi.
+      Śniadanie. Wyruszamy w kierunku wysokich gór kaukaskich. Naszym pierwszym
+      celem jest przepięknie położona twierdza Ananuri (XVI w). Dalej wspinając
+      się coraz wyżej po Gruzińskiej Wojennej Drodze, docieramy do monastyru
+      świętej Trójcy Gergeti, położonego na wys. 2020 m. n.p.m. To jedno z
+      najbardziej rozpoznawalnych miejsc w Gruzji. Na monastyr wjeżdżamy
+      samochodami terenowymi. Po zwiedzaniu powrót do Tbilisi, obiadokolacja,
+      nocleg w Tbilisi.
   - day: 3
-    place: 12/01 - Tbilisi - gudauri
+    place: '09/07 - Tbilisi – Kutaisi '
     text: >-
-      Śniadanie w hotelu. Zwiedzanie stolicy – twierdza Narikala, stare miasto,
-      zabytki sakralne, główny plac miasta, plac Wolności. Lunch, wyjazd do
-      Gudauri. Zakwaterowanie, kolacja w hotelu. 
+      Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
+      miasta wraz z najważniejszymi atrakcjami miasta: katedry Bagrati X w. i
+      średniowiecznej akademii Gelati, udamy się również na zwiedzanie
+      malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi.
   - day: 4
-    place: 13/01 - Gudauri
-    text: 'Pobyt w Gudauri, śniadanie i kolacja w hotelu.'
+    place: '10/07 - Kutaisi – Martwili – Mestia '
+    text: >-
+      Śniadanie. Udajemy się na zwiedzanie malowniczego kanionu Martwili, gdzie
+      oprócz spaceru wzdłuż kanionu, popływamy pontonami po rzece Abasza, gdzie
+      będziemy mogli podziwiać całe piękno okolicznych cudów natury. Z Martwili
+      udajemy się do wysokogórskiego regionu Swaneti. Ten region wpisany na
+      listę UNESCO, zadziwia niesamowitą architekturą – średniowiecznymi
+      wieżami. Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w
+      Mestii.
   - day: 5
-    place: 14/01 - gudauri
-    text: 'Pobyt w Gudauri, śniadanie i kolacja w hotelu.'
+    place: 11/07 - Mestia – Uszguli – Mestia
+    text: >-
+      Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to najwyżej
+      położona osada w Europie. Po spacerze po wiosce i podziwianiu najwyższych
+      szczytów kaukaskich, wrócimy do Mestii, gdzie odwiedzimy Muzeum
+      Etnograficzne. Obiadokolacja i nocleg w Mestii.
   - day: 6
-    place: 15/01 - gudauri
-    text: 'Pobyt w Gudauri, śniadanie i kolacja w hotelu.'
+    place: 12/07 - Mestia – Batumi
+    text: >-
+      Po śniadaniu wyjeżdżamy w kierunku wybrzeża Morza Czarnego, do
+      legendarnego kurortu Batumi. Batumi to miasto palm, pysznej adżarskiej
+      kuchni i ciepłego morza. Pierwszy dzień spędzamy nic nie robiąc – w
+      programie tylko plażowanie i wypoczynek. Nocleg w Batumi.
   - day: 7
     place: 16/01 - gudauri - kutaisi
     text: >-
