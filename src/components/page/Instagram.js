@@ -51,7 +51,7 @@ export default () => (
   <SectionWrapper>
     <TitleWrapper>
       <Insta src={instagram} alt={'instagram'} />
-      <Title>Instagram</Title>
+      <Title>vaimetravel</Title>
     </TitleWrapper>
     <Wrapper>
       {useInstagram().slice(0, 9).map(({ href, src }) => (
