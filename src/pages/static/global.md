@@ -14,11 +14,11 @@ navigation:
     title: 'Kontakt' 
 socialLinks:
   - type: facebook
-    src: ''
+    src: 'https://www.facebook.com/VaimeTravelgpp/'
   - type: instagram
-    src: ''
+    src: 'https://www.instagram.com/vaimetravel/'
   - type: youtube
-    src: ''
+    src: 'https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg'
 phoneNumbers:
   - +995 558 206 038
   - +48 730 665 176

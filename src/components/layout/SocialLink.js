@@ -21,7 +21,7 @@ const SocialLinkImage = styled.img`
 `
 
 export default ({type, src}) => (
-  <SocialLink href={src} >
+  <SocialLink href={src} target="_blank" >
     <SocialLinkImage src={icons[type]} alt={type} />
   </SocialLink>
 )
