@@ -6,6 +6,7 @@ description: Święto winobrania w krainie wina
 thumb: /img/grapes-2576705.jpg
 startDate: 2020-09-02T14:24:50.666Z
 endDate: 2020-09-09T14:24:50.688Z
+daysCount: ''
 price: 525
 seats: 15
 images:

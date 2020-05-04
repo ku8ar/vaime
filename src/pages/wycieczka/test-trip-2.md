@@ -6,6 +6,7 @@ description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
 thumb: /img/20180504_113510.jpg
 startDate: 2020-04-27T17:40:01.346Z
 endDate: 2020-05-04T17:40:01.392Z
+daysCount: ''
 price: 490
 seats: 15
 images:

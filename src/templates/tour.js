@@ -68,6 +68,7 @@ export const pageQuery = graphql`
         startDate(formatString: "YYYY-MM-DD")
         endDate(formatString: "YYYY-MM-DD")
         timestamp: startDate(formatString: "x")
+        daysCount
         price
         seats
         description

@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { path } from 'rambda'
 import Hero from '../Hero'
-import { calcDate, countDays } from '../../utils/date'
+import { calcDate } from '../../utils/date'
 import { H1, P, Button } from '../Base'
 
-export default ({ images, title, startDate, endDate, price, seats, openReservation, timestamp }) => {
+export default ({ images, title, startDate, endDate, price, seats, openReservation, timestamp, daysCount }) => {
 
   const expired = timestamp < + new Date()
   const noSeats = seats <= 0
@@ -23,7 +23,7 @@ export default ({ images, title, startDate, endDate, price, seats, openReservati
             </Pill>
             <Pill>
               <Label>Liczba dni</Label>
-              <Label>{countDays(startDate, endDate)} dni / {(countDays(startDate, endDate) || 1) - 1} nocy</Label>
+              <Label>{daysCount}</Label>
             </Pill>
             <Pill>
               <Label>Wolne miejsca</Label>

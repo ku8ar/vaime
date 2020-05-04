@@ -6,6 +6,7 @@ description: Odwiedź najpiękniejsze zakątki Kaukazu
 thumb: /img/sevan.jpg
 startDate: 2019-06-08T20:00:00.000Z
 endDate: 2019-06-18T20:45:36.422Z
+daysCount: ''
 price: 570
 seats: 10
 images:
