@@ -9,6 +9,7 @@ import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
+import Instagram from '../components/page/Instagram'
 
 export const StandardPageTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
@@ -28,6 +29,9 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
         <Column size={25}>
           <Section>
             <Info />
+          </Section>
+          <Section>
+            <Instagram />
           </Section>
         </Column>
       </Grid>

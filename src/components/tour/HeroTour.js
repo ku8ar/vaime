@@ -27,7 +27,7 @@ export default ({ images, title, startDate, endDate, price, seats, openReservati
             </Pill>
             <Pill>
               <Label>Wolne miejsca</Label>
-              <Label>{seats || 'brak'}</Label>
+              <Label>{seats || 'BRAK'}</Label>
             </Pill>
             <Pill>
               <Label>Cena</Label>
