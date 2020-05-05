@@ -8,7 +8,7 @@ startDate: 2019-06-08T20:00:00.000Z
 endDate: 2019-06-18T20:45:36.422Z
 daysCount: 9 DNI/10 NOCY
 price: 570
-seats: 0
+seats: 10
 images:
   - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
