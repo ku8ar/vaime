@@ -11,6 +11,7 @@ import MobileNavigation from './MobileNavigation'
 export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
   const [menu, setMenu] = useState(false)
   const toggleMenu = useCallback(() => setMenu(!menu), [menu])
+  const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
 
   return (
@@ -18,7 +19,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
       <Header>
         <LayoutNavigationDesktop>
           <Nav>
-            <LogoWrapper to="/" title="Logo">
+            <LogoWrapper to="/" title="Logo" onClick={onClick}>
               <LogoIcon src={logo} alt={companyName} />
             </LogoWrapper>
             {navigation.map(nav => (
