@@ -4,7 +4,7 @@ title: Współpraca
 description: Profejsonalna obsługa tour operatorów
 background: /img/logo.svg
 images:
-  - image: /img/gory (2).jpg
+  - image: /img/102.jpg
     name: tbilisi
 ---
 
