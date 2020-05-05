@@ -12,8 +12,6 @@ navigation:
     to: /wspolpraca
   - title: Kontakt
     to: /kontakt
-  - title: lol
-    to: /lol
 phoneNumbers:
   - +995 558 206 038
   - +48 730 665 176
