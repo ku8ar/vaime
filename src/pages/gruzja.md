@@ -4,7 +4,7 @@ title: O gruzji
 description: Informacje o Gruzji
 background: /img/bg.png
 images:
-  - image: /img/466.jpg
+  - image: /img/451.jpg
     name: Swaneti
 ---
 
