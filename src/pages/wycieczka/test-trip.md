@@ -6,7 +6,7 @@ description: Wakacje w gruzji? czemu nie!
 thumb: /img/IMG_2318jpg (1).JPG
 startDate: 2020-07-06T20:00:00.000Z
 endDate: 2020-07-14T20:00:00.000Z
-daysCount: ''
+daysCount: 8 DNI/9 NOCY
 price: 530
 seats: 0
 images:
