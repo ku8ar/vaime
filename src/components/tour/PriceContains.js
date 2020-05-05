@@ -29,8 +29,8 @@ const Wrapper = styled.div`
   &:before, &:after {
     display: block;
     content: "";
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 3rem;
     position: absolute;
   }
 
@@ -39,6 +39,7 @@ const Wrapper = styled.div`
     left: -10px;
     border-top: 2px solid ${p => p.theme.colorPrimary};
     border-left: 2px solid  ${p => p.theme.colorPrimary};
+    border-top-left-radius: ${p => p.theme.radiusSmall};
   }
 
   &:after {
@@ -46,6 +47,7 @@ const Wrapper = styled.div`
     right: -10px;
     border-bottom: 2px solid  ${p => p.theme.colorPrimary};
     border-right: 2px solid  ${p => p.theme.colorPrimary};
+    border-bottom-right-radius: ${p => p.theme.radiusSmall};
 }
 
 `
@@ -63,11 +65,13 @@ const Item = ({ text }) => (
 
 const ItemWrapper = styled.div`
   display: flex;
+  margin-bottom: .5rem;
 `
 const Text = styled.p``
 
 const Title = styled(H5)`
   margin-top: 1rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   color ${p => p.theme.colorPrimary};
 `
