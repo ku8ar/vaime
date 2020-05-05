@@ -4,7 +4,7 @@ seoTitle: '| Gruzja, Armenia, Kaukaz, wycieczki, wczasy'
 companyName: Vaime Travel
 email: info@vaimetravel.com
 navigation:
-  - title: Gruzja
+  - title: O Gruzji
     to: /gruzja
   - title: Ważne informacje
     to: /ważne-informacje
