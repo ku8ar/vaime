@@ -26,8 +26,8 @@ collections:
       - {label: "Map", name: map, widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-      - {label: "Price contains", name: "priceContains", widget: "list"}
-      - {label: "Price not contains", name: "priceNotContains", widget: "list"}
+      - {label: "Price contains", name: "priceContains", widget: "list", field: "string"}
+      - {label: "Price not contains", name: "priceNotContains", widget: "list", field: "string"}
 
   - name: "static"
     label: "Static"
