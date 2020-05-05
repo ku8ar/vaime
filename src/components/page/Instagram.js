@@ -8,6 +8,7 @@ const SectionWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
   margin-left: 2rem;
 `
 

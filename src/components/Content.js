@@ -1,7 +1,12 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const StyledDiv = styled.div`
+  text-align: justify;
+`
 
 export const HTMLContent = ({ content, className }) => (
-  <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
+  <StyledDiv className={className} dangerouslySetInnerHTML={{ __html: content }} />
 )
 
 const Content = ({ content, className }) => (

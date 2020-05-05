@@ -45,6 +45,10 @@ const Hr = styled.div`
   margin-bottom: 1rem;
 `
 
+const Answer = styled.p`
+  text-align: justify;
+`
+
 const FaqItem = ({ question, answer }) => {
 
   const [open, setOpen] = useState(false)
@@ -56,7 +60,7 @@ const FaqItem = ({ question, answer }) => {
       <FaqColumn>
         <Hr open={open} />
         <p><strong>{question}</strong></p>
-        {open && <p>{answer}</p>}
+        {open && <Answer>{answer}</Answer>}
       </FaqColumn>
     </FaqItemWrapper>
   )

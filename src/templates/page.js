@@ -22,11 +22,11 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
         </Center>
       </Hero>
       <Grid>
-        <Column size={75}>
+        <Column size={70}>
           <Section><Faq list={qa} /></Section>
           <Section><HtmlComponent content={html} /></Section>
         </Column>
-        <Column size={25}>
+        <Column size={30}>
           <Section>
             <Info />
           </Section>
