@@ -1,7 +1,7 @@
 ---
 templateKey: tour
 active: true
-title: 'majówka w gruzji '
+title: 'Majówka w gruzji '
 description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
 thumb: /img/20180504_113510.jpg
 startDate: 2020-04-27T17:40:01.346Z
