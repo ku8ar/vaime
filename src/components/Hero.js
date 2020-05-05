@@ -23,6 +23,8 @@ const Hero = ({ images, children, small }) => {
   )
 }
 
+const transitionTime = 600
+
 const GlobalStyle = createGlobalStyle`
   .hero-animated-list {
     width: 100%;
@@ -37,7 +39,6 @@ const GlobalStyle = createGlobalStyle`
 
   .example-enter.example-enter-active {
     opacity: 1
-    transition: opacity 500ms ease-in;
   }
 
   .example-leave {
@@ -46,7 +47,7 @@ const GlobalStyle = createGlobalStyle`
 
   .example-leave.example-leave-active {
     opacity: 0.01;
-    transition: opacity 300ms ease-in;
+    transition: opacity ${transitionTime}ms linear;
   }
 `
 
@@ -70,8 +71,8 @@ const HeroContent = styled(View)`
 const cssTransitionProps = {
   className: "hero-animated-list",
   transitionName: "example",
-  transitionEnterTimeout: 500,
-  transitionLeaveTimeout: 300
+  transitionEnterTimeout: transitionTime / 2,
+  transitionLeaveTimeout: transitionTime
 }
 
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }

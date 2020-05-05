@@ -5,8 +5,14 @@ const StyledDiv = styled.div`
   text-align: justify;
 `
 
+const replaceAll = (str, find, replace) =>
+  str.replace(new RegExp(find, 'g'), replace)
+
 export const HTMLContent = ({ content, className }) => (
-  <StyledDiv className={className} dangerouslySetInnerHTML={{ __html: content }} />
+  <StyledDiv
+    className={className}
+    dangerouslySetInnerHTML={{ __html: replaceAll(content, '<a href=', '<a target="blank" href=') }}
+  />
 )
 
 const Content = ({ content, className }) => (
