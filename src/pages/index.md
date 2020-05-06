@@ -19,8 +19,6 @@ images:
     name: david gareja
   - image: /img/IMG_2505jpg (2).JPG
     name: signagi
-  - image: /img/p1010942.jpg
-    name: TATEV
   - image: /img/IMG_2202jpg.JPG
     name: XERTVISI
 team:
