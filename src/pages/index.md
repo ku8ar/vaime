@@ -13,6 +13,10 @@ images:
     name: Kanion Martwili
   - image: /img/IMG_2318jpg (1).JPG
     name: 'Sweticchoweli, Mccheta'
+  - image: /img/287907_270686586280237_100000166945688_1293937_2568758_o.jpg
+    name: david gareja
+  - image: /img/armenia-3721463.jpg
+    name: garni
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
