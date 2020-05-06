@@ -20,7 +20,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       <Hero images={images}>
       </Hero>
       <InfoBelt />
-      <Section title={"Podróżuj razem z nami!"}>
+      <Section title={"Nasze oferty"}>
         <Grid>
           {tours.sort((a, b) => a.node.frontmatter.timestamp > b.node.frontmatter.timestamp).map(({ node }) => (
             <TourTile
@@ -37,7 +37,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       >
         <HtmlComponent content={html} />
       </AboutUsSection>
-      <Section title={"Nasz Zespół!"}>
+      <Section title={"Nasz Zespół"}>
         <Grid>
           {team.map(person => (
             <TeamTile
