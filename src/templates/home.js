@@ -1,4 +1,5 @@
 import React from 'react'
+import { path, sortBy, reverse, pipe } from 'rambda'
 import { graphql } from 'gatsby'
 import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
@@ -13,6 +14,11 @@ import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
 
+const sortTours = pipe(
+  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp'])),
+  reverse
+)
+
 export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   return (
@@ -22,7 +28,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       <InfoBelt />
       <Section title={"Nasze oferty"}>
         <Grid>
-          {tours.sort((a, b) => a.node.frontmatter.timestamp > b.node.frontmatter.timestamp).map(({ node }) => (
+          {sortTours(tours).map(({ node }) => (
             <TourTile
               key={node.id}
               tour={node.frontmatter}
@@ -69,10 +75,6 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: { templateKey: { in: "tour" } }
       }
-      sort: {
-        fields: [frontmatter___startDate]
-        order: DESC
-      }
     ) {
       edges {
         node {
@@ -82,11 +84,13 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            startDate
-            endDate
-            timestamp: startDate(formatString: "x")
-            price
-            seats
+            terms {
+              startDate
+              timestamp: startDate(formatString: "x")
+              endDate
+              price
+              seats
+            }
             active
             thumb {
               childImageSharp {

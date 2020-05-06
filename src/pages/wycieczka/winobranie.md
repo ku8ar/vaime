@@ -4,11 +4,12 @@ active: true
 title: Winobranie
 description: Święto winobrania w krainie wina
 thumb: /img/grapes-2576705.jpg
-startDate: 2020-09-02T14:24:50.666Z
-endDate: 2020-09-09T14:24:50.688Z
-daysCount: 7 DNI/8 NOCY
-price: 525
-seats: 15
+terms:
+  - price: 525
+    seats: 15
+    daysCount: 7 DNI/8 NOCY
+    startDate: 2020-09-02T14:24:50.666Z
+    endDate: 2020-09-09T14:24:50.688Z
 images:
   - image: /img/country-lane-428039.jpg
     name: kacheti

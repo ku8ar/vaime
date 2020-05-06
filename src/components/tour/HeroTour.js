@@ -1,11 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
-import { path } from 'rambda'
+import { path, sort, prop, head, pipe } from 'rambda'
 import Hero from '../Hero'
 import { calcDate } from '../../utils/date'
 import { H1, P, Button } from '../Base'
 
-export default ({ images, title, startDate, endDate, price, seats, openReservation, timestamp, daysCount, active }) => {
+const getOldestTs = pipe(
+  sort((a, b) => a.timestamp > b.timestmap),
+  head,
+  prop('timestamp')
+)
+
+const getBiggestSeats = pipe(
+  sort((a, b) => a.seats > b.seats),
+  head,
+  prop('seats')
+)
+
+export default ({ images, title, openReservation, active, terms }) => {
+  if (!terms) {
+    return null
+  }
+
+  const timestamp = getOldestTs(terms)
+  const seats = getBiggestSeats(terms)
 
   const expired = timestamp < + new Date()
   const noSeats = seats <= 0
@@ -19,19 +37,23 @@ export default ({ images, title, startDate, endDate, price, seats, openReservati
           <Info>
             <Pill>
               <Label>Termin</Label>
-              <Label>{calcDate(startDate, endDate)}</Label>
+              {terms.map(({ startDate, endDate }, index) =>
+                <Label key={index}>{calcDate(startDate, endDate)}</Label>)}
             </Pill>
             <Pill>
               <Label>Liczba dni</Label>
-              <Label>{daysCount}</Label>
+              {terms.map(({ daysCount }, index) =>
+                <Label key={index}>{daysCount}</Label>)}
             </Pill>
             <Pill>
               <Label>Wolne miejsca</Label>
-              <Label>{seats || 'BRAK'}</Label>
+              {terms.map(({ seats }, index) =>
+                <Label key={index}>{seats || 'BRAK'}</Label>)}
             </Pill>
             <Pill>
               <Label>Cena</Label>
-              <Label>{price} EUR</Label>
+              {terms.map(({ price }, index) =>
+                <Label key={index}>{price} EUR</Label>)}
             </Pill>
           </Info>
         </FirstColumn>

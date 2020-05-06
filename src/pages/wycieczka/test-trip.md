@@ -4,11 +4,12 @@ active: true
 title: Gruzińskie wakacje
 description: Wakacje w gruzji? czemu nie!
 thumb: /img/IMG_2318jpg (1).JPG
-startDate: 2020-07-06T20:00:00.000Z
-endDate: 2020-07-14T20:00:00.000Z
-daysCount: 8 DNI/9 NOCY
-price: 530
-seats: 0
+terms:
+  - price: 530
+    seats: 0
+    daysCount: 8 DNI/9 NOCY
+    startDate: 2020-07-06T20:00:00.000Z
+    endDate: 2020-07-14T20:00:00.000Z
 images:
   - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi

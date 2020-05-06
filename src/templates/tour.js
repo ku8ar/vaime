@@ -76,12 +76,14 @@ export const pageQuery = graphql`
         active
         title
         description
-        startDate(formatString: "YYYY-MM-DD")
-        endDate(formatString: "YYYY-MM-DD")
-        timestamp: startDate(formatString: "x")
-        daysCount
-        price
-        seats
+        terms {
+          startDate(formatString: "YYYY-MM-DD")
+          endDate(formatString: "YYYY-MM-DD")
+          timestamp: startDate(formatString: "x")
+          daysCount
+          price
+          seats
+        }
         description
         schedule {
           day

@@ -1,18 +1,64 @@
 import React from 'react'
 import styled from 'styled-components'
-import { path } from 'rambda'
+import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { calcDate } from '../utils/date'
+import { calcDate, calcYear } from '../utils/date'
 import { H4, H6, Button } from './Base'
 import heart from '../img/heart.svg'
 
-export default ({ slug, tour }) => {
-  if (!tour) return
+const getOldestTs = pipe(
+  sort((a, b) => a.timestamp > b.timestmap),
+  head,
+  prop('timestamp')
+)
 
-  const { title, startDate, endDate, timestamp, thumb, price, seats, active } = tour
-  const subtitle = `Dostępny termin: ${calcDate(startDate, endDate)}`
+const getBiggestSeats = pipe(
+  sort((a, b) => a.seats > b.seats),
+  head,
+  prop('seats')
+)
+
+const getSmallestPrice = pipe(
+  sort((a, b) => a.price < b.price),
+  head,
+  prop('price')
+)
+
+const getDatesFormatted = pipe(
+  map(({ startDate, endDate }) => calcDate(startDate, endDate, false)),
+  join(', ')
+)
+
+const getSubtitle = pipe(
+  length,
+  n => n > 1 ? 'Dostępne terminy' : 'Dostępny termin'
+)
+
+const getYear = pipe(
+  head,
+  prop('startDate'),
+  calcYear
+)
+
+export default ({ slug, tour }) => {
+  if (!tour) return null
+
+  const { title, thumb, active, terms } = tour
+
+  if (!terms) {
+    return null
+  }
+
+  const dates = getDatesFormatted(terms)
+  const available = getSubtitle(terms)
+  const year = getYear(terms)
+  const subtitle = `${available}: ${dates}${year}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
+
+  const timestamp = getOldestTs(terms)
+  const seats = getBiggestSeats(terms)
+  const price = getSmallestPrice(terms)
 
   const expired = timestamp < + new Date()
   const noSeats = seats <= 0
