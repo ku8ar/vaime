@@ -19,8 +19,8 @@ images:
     name: david gareja
   - image: /img/IMG_2505jpg (2).JPG
     name: signagi
-  - image: /img/IMG_2202jpg.JPG
-    name: XERTVISI
+  - image: /img/anaklia.jpg
+    name: anaklia
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
