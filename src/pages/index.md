@@ -11,12 +11,18 @@ images:
     name: Batumi
   - image: /img/560.jpg
     name: Kanion Martwili
-  - image: /img/IMG_2318jpg (1).JPG
-    name: 'Sweticchoweli, Mccheta'
-  - image: /img/287907_270686586280237_100000166945688_1293937_2568758_o.jpg
-    name: david gareja
   - image: /img/armenia-3721463.jpg
     name: garni
+  - image: /img/IMG_2318jpg (1).JPG
+    name: 'Sweticchoweli, Mccheta'
+  - image: /img/armenia-3721463.jpg
+    name: david gareja
+  - image: /img/IMG_2505jpg (2).JPG
+    name: signagi
+  - image: /img/p1010942.jpg
+    name: TATEV
+  - image: /img/IMG_2202jpg.JPG
+    name: XERTVISI
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
