@@ -10,11 +10,13 @@ import heart from '../img/heart.svg'
 export default ({ slug, tour }) => {
   if (!tour) return
 
-  const { title, startDate, endDate, timestamp, thumb, price } = tour
+  const { title, startDate, endDate, timestamp, thumb, price, seats, active } = tour
   const subtitle = `Dostępny termin: ${calcDate(startDate, endDate)}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   const expired = timestamp < + new Date()
+  const noSeats = seats <= 0
+  const disabled = expired || noSeats || !active
 
   return (
     <LinkWrapper to={slug}>
@@ -25,7 +27,7 @@ export default ({ slug, tour }) => {
             <TourInfo>{subtitle}</TourInfo>
           </TourDates>
           <TourButton>Więcej</TourButton>
-          {expired && <Outdated>WYPRZEDANE</Outdated>}
+          {disabled && <Outdated>WYPRZEDANE</Outdated>}
         </TourContent>
       </Top>
       <BottomLabel>

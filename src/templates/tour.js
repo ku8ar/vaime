@@ -11,14 +11,13 @@ import Section from '../components/page/Section'
 import PriceContains from '../components/tour/PriceContains'
 import Map from '../components/tour/Map'
 
-export const TourTemplate = ({description, schedule, html, contentComponent, map, ...props}) => {
+export const TourTemplate = ({ description, schedule, html, contentComponent, map, ...props }) => {
   const HtmlComponent = contentComponent || Content
   return (
     <Page>
       <HeroTour {...props} />
       <View>
         <H2>{description}</H2>
-        <HtmlComponent content={html || ''} />
         <Grid>
           <Column size={70}>
             <Section>
@@ -26,6 +25,9 @@ export const TourTemplate = ({description, schedule, html, contentComponent, map
             </Section>
             <Section>
               <Map map={map} />
+            </Section>
+            <Section>
+              <HtmlComponent content={html || ''} />
             </Section>
           </Column>
           <Column size={30}>
@@ -54,7 +56,7 @@ const Tour = ({ data }) => {
       />
       <Reservation
         open={isReservation}
-        onClose={closeReservation} 
+        onClose={closeReservation}
         {...data.markdownRemark.frontmatter}
       />
     </Layout>

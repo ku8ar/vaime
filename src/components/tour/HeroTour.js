@@ -5,11 +5,11 @@ import Hero from '../Hero'
 import { calcDate } from '../../utils/date'
 import { H1, P, Button } from '../Base'
 
-export default ({ images, title, startDate, endDate, price, seats, openReservation, timestamp, daysCount }) => {
+export default ({ images, title, startDate, endDate, price, seats, openReservation, timestamp, daysCount, active }) => {
 
   const expired = timestamp < + new Date()
   const noSeats = seats <= 0
-  const disabled = expired || noSeats
+  const disabled = expired || noSeats || !active
 
   return (
     <Hero images={images}>

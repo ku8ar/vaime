@@ -4,7 +4,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import TourTile from '../components/TourTile'
-import {Page, Grid} from '../components/Base'
+import { Page, Grid } from '../components/Base'
 import Section from '../components/home/Section'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
@@ -21,7 +21,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       <InfoBelt />
       <Section title={"Podróżuj razem z nami!"}>
         <Grid>
-          {tours.map(({ node }) => (
+          {tours.sort((a, b) => a.node.frontmatter.timestamp > b.node.frontmatter.timestamp).map(({ node }) => (
             <TourTile
               key={node.id}
               tour={node.frontmatter}
@@ -84,6 +84,8 @@ export const pageQuery = graphql`
             endDate
             timestamp: startDate(formatString: "x")
             price
+            seats
+            active
             thumb {
               childImageSharp {
                 fluid(maxWidth: 1920, quality: 50) {

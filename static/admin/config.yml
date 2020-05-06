@@ -24,10 +24,10 @@ collections:
       - {label: "No of seats", name: "seats", widget: "number"}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Map", name: map, widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
       - {label: "Price contains", name: "priceContains", widget: "list", field: "string"}
       - {label: "Price not contains", name: "priceNotContains", widget: "list", field: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "static"
     label: "Static"
