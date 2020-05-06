@@ -95,6 +95,9 @@ const NavItem = styled(Link)`
 
 const NavSocialList = styled.div`
   display: flex;
+  ${p => p.theme.smallScreen`
+    display: none;
+  `}
 `
 
 const LayoutNavigationDesktop = styled(View)`

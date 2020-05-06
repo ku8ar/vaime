@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
@@ -48,6 +49,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       </Section>
       <PromoSection promoImage={promoImage} />
       <Instagram />
+      <Cookies />
     </Page>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { graphql } from 'gatsby'
+import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { View, Page, H2 } from '../components/Base'
@@ -35,6 +36,7 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
           </Column>
         </Grid>
       </View>
+      <Cookies />
     </Page>
   )
 }

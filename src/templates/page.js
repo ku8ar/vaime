@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { path } from 'rambda'
+import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
@@ -35,6 +36,7 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
           </Section>
         </Column>
       </Grid>
+      <Cookies />
     </Page>
   )
 }
