@@ -19,6 +19,8 @@ images:
     name: gori
   - image: /img/20180504_113510.jpg
     name: signagi
+  - image: /img/ararat-zdjęcie.jpg
+    name: ararat
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
