@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {H4, H6, P} from '../Base'
+import {H6, P} from '../Base'
 
 const Column = styled.div`
   display: flex;
