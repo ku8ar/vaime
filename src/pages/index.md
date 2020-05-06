@@ -13,12 +13,12 @@ images:
     name: Kanion Martwili
   - image: /img/IMG_2318jpg (1).JPG
     name: 'Sweticchoweli, Mccheta'
-  - image: /img/287907_270686586280237_100000166945688_1293937_2568758_o.jpg
-    name: david gareja
-  - image: /img/IMG_2505jpg (2).JPG
-    name: signagi
   - image: /img/cathedral-1781012-1-.jpg
     name: ზვართნოც
+  - image: /img/img_20191001_174049.jpg
+    name: gori
+  - image: /img/20180504_113510.jpg
+    name: signagi
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
