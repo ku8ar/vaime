@@ -25,16 +25,13 @@ team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
     place: Batumi
-    text: >-
-      Pochodzi z Batumi, jest doświadczoną przewodniczką oraz miłośniczką języka
-      i kultury polskiej. Lubi gotować i jeść. Często podróżuje stopem i lubi
-      poznawać ludzi na całym świecie.
+    text: .
   - image: /img/ja.jpg
     name: Nini Karosanidze
     place: Tbilisi
-    text: >
-      Pochodzi z Tbilisi, jest doświadczoną przewodniczką. Kocha języki obce,
-      fotografię i rysowanie. Lubi odkrywać nowe miejsca, kraje i kultury.
+    text: |-
+
+      .
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 promoImage: /img/ulotka-druga-mapka-.png
