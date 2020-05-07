@@ -3,13 +3,13 @@ templateKey: tour
 active: true
 title: 'Majówka w gruzji '
 description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
-thumb: /img/20180504_113510.jpg
 terms:
-  - price: 490
-    seats: 0
-    daysCount: 8 DNI/7 NOCY
-    startDate: 2020-04-27T17:40:01.346Z
+  - daysCount: 8 DNI/7 NOCY
     endDate: 2020-05-04T17:40:01.392Z
+    price: 490
+    seats: 0
+    startDate: 2020-04-27T17:40:01.346Z
+thumb: /img/20180504_113510.jpg
 images:
   - image: /img/batumi.jpg
     name: tbilisi
