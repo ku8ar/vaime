@@ -9,9 +9,9 @@ terms:
     price: 490
     seats: 0
     startDate: 2020-04-27T17:40:01.346Z
-thumb: /img/20180504_113510.jpg
+thumb: /img/batumi-kolo.jpg
 images:
-  - image: /img/batumi.jpg
+  - image: /img/108.jpg
     name: tbilisi
 map: /img/ulotka-druga-mapka-.png
 schedule:
