@@ -1,7 +1,7 @@
 ---
 templateKey: tour
 active: true
-title: 'Majówka w gruzji '
+title: "Majówka w Gruzji "
 description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
 terms:
   - daysCount: 8 DNI/7 NOCY
@@ -61,8 +61,7 @@ schedule:
 
   - day: 5
     place: 01/05 - Tbilisi – Bodbe – Signagi – Tbilisi
-    text: >-
-      Śniadanie. Wyjazd w kierunku Gruzji Wschodniej, do regionu Kacheti znanego
+    text: Śniadanie. Wyjazd w kierunku Gruzji Wschodniej, do regionu Kacheti znanego
       z produkcji wina. Po drodze zwiedzanie jednej z najważniejszych świątyń
       Bodbe, gdzie pochowana jest apostolka i patronka Gruzji, św Nino. Dalej
       czeka na nas wizyta w uroczym miasteczku miłości Signagi, tutaj udamy się
@@ -70,8 +69,7 @@ schedule:
       Tbilisi
   - day: 6
     place: 02/05 -  Tbilisi – Jaskinia Prometeusza – Kanion Martwili – Kutaisi
-    text: >-
-      Śniadanie. Przejazd do Gruzji Zachodniej, gdzie odwiedzimy takie cuda
+    text: Śniadanie. Przejazd do Gruzji Zachodniej, gdzie odwiedzimy takie cuda
       natury, jak jaskinia Prometeusza oraz kanion Martwili w okolicach Kutaisi.
       Nocleg i obiadokolacja w Kutaisi.
   - day: 7
@@ -86,18 +84,18 @@ schedule:
     place: 04/05 - Batumi – Lotnisko Kopitnari (Kutaisi)
     text: Śniadanie. Przejazd z Batumi do Kutaisi. Wylot do Polski.
 priceContains:
-  - '- Noclegi w hotelu*** w Tbilisi oraz Batumi'
+  - "- Noclegi w hotelu*** w Tbilisi oraz Batumi"
   - W hotelu** w Kutaisi
-  - '- Bilety wstępu do wszystkich obiektów'
-  - '- Przejazd kolejkami w Tbilisi'
-  - '- Samochody terenowe w Kazbegi'
-  - '- Śniadania i obiadokolacje'
-  - '- Degustację wina'
-  - '- Usługi polskojęzycznego przewodnika'
-  - '- Transport – komfortowy klimatyzowany minibus'
-  - '- Ubezpieczenie turystyczne'
+  - "- Bilety wstępu do wszystkich obiektów"
+  - "- Przejazd kolejkami w Tbilisi"
+  - "- Samochody terenowe w Kazbegi"
+  - "- Śniadania i obiadokolacje"
+  - "- Degustację wina"
+  - "- Usługi polskojęzycznego przewodnika"
+  - "- Transport – komfortowy klimatyzowany minibus"
+  - "- Ubezpieczenie turystyczne"
 priceNotContains:
-  - '- Biletu lotniczego'
-  - '- Dodatkowych posiłków i napojów nie zawartych w programie'
+  - "- Biletu lotniczego"
+  - "- Dodatkowych posiłków i napojów nie zawartych w programie"
 ---
 W CELU DOKONANIA REZERWACJI PROSIMY O KONTAKT MAILOWY LUB ZGŁOSZENIE POPRZEZ FORMULARZ REZERWACJI
