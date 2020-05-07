@@ -1,10 +1,10 @@
 ---
 templateKey: home
-title: 'Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy'
+title: "Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
 description: Podróże z Nini i Mają
 images:
   - image: /img/p1000434-1-.jpg
-    name: 'Kazbek, Gergeti, Stepancminda'
+    name: Kazbek, Gergeti, Stepancminda
   - image: /img/108.jpg
     name: Tbilisi
   - image: /img/302.jpg
@@ -12,7 +12,7 @@ images:
   - image: /img/560.jpg
     name: Kanion Martwili
   - image: /img/IMG_2318jpg (1).JPG
-    name: 'Sweticchoweli, Mccheta'
+    name: Sweticchoweli, Mccheta
   - image: /img/cathedral-1781012-1-.jpg
     name: ზვართნოც
   - image: /img/img_20191001_174049.jpg
@@ -21,15 +21,19 @@ images:
     name: signagi
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
+  - image: /img/orthodox-4994172-1-.jpg
+    name: tbilisi
+  - image: /img/georgia-3609803.jpg
+    name: kazbegi
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
     place: Batumi
-    text: ''
+    text: ""
   - image: /img/ja.jpg
     name: Nini Karosanidze
     place: Tbilisi
-    text: ''
+    text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 promoImage: /img/ulotka-druga-mapka-.png
