@@ -1,6 +1,6 @@
 ---
 templateKey: page
-title: O gruzji
+title: O Gruzji
 description: Informacje o Gruzji
 background: /img/bg.png
 images:
