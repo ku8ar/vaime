@@ -3,13 +3,18 @@ templateKey: tour
 active: true
 title: Kaukaski Duet – Gruzja i Armenia 2020
 description: Odwiedź najpiękniejsze zakątki Kaukazu
-thumb: /img/sevan.jpg
 terms:
-  - price: 570
-    seats: 10
-    daysCount: 9 DNI/10 NOCY
-    startDate: 2019-06-08T20:00:00.000Z
+  - daysCount: 9 DNI/10 NOCY
     endDate: 2019-06-18T20:45:36.422Z
+    price: 570
+    seats: 10
+    startDate: 2019-06-08T20:00:00.000Z
+  - daysCount: 10 DNI/11 NOCY
+    endDate: 2020-10-13T18:43:00.578Z
+    price: 570
+    seats: 8
+    startDate: 2020-10-03T18:43:00.496Z
+thumb: /img/sevan.jpg
 images:
   - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
