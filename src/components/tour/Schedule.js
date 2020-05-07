@@ -60,6 +60,7 @@ const Place = styled(H6)`
 
 const Text = styled(P)`
   margin-top: 0;
+  text-align: justify;
 `
 
 export default ({schedule = []}) => schedule && schedule.length && (
