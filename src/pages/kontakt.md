@@ -7,7 +7,7 @@ images:
     name: tbilisi
 ---
 
-##### Zadzwoń do nas:
+###### Zadzwoń do nas:
 
 Tel, Whatsapp, Viber:
 
@@ -16,6 +16,6 @@ Tel, Whatsapp, Viber:
 +995 558 206 038
 
 # 
-##### Napisz na Facebook’u:
+###### Napisz na Facebook’u:
 
 [Vaime Travel](https://www.facebook.com/VaimeTravelgpp/)
