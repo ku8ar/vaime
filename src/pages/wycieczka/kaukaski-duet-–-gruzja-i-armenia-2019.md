@@ -1,7 +1,7 @@
 ---
 templateKey: tour
 active: true
-title: Kaukaski Duet – Gruzja i Armenia 2020
+title: Kaukaski Duet – Gruzja i Armenia
 description: Odwiedź najpiękniejsze zakątki Kaukazu
 terms:
   - daysCount: 10 DNI/11 NOCY
