@@ -31,7 +31,7 @@ schedule:
     place: 28/04 - Kutaisi – Gori – Mccheta – Tbilisi
     text: >+
       Po śniadaniu wyjazd w kierunku Tbilisi. Nasz pierwszy przystanek to miasto
-      Gori. Tutaj zobaczymy dom , w którym się urodził i spędził kilka lat
+      Gori. Tutaj zobaczymy dom, w którym się urodził i spędził kilka lat
       swojego życia Józef Stalin. Później jedziemy do Upliscyche, do skalnego
       miasta, które było zamieszkane jeszcze w III wieku p.n.e. Następnie
       przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
