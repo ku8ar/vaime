@@ -53,7 +53,7 @@ export default ({ slug, tour }) => {
   const dates = getDatesFormatted(terms)
   const available = getSubtitle(terms)
   const year = getYear(terms)
-  const subtitle = `${available}: ${dates}${year}`
+  const subtitle = `${available}: ${dates}.${year}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   const timestamp = getOldestTs(terms)

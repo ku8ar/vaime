@@ -1,6 +1,7 @@
 import React from 'react'
-import { path, sortBy, reverse, pipe } from 'rambda'
+import { path, sortBy, pipe, filter, head, prop, reverse } from 'rambda'
 import { graphql } from 'gatsby'
+import { calcYear } from '../utils/date'
 import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -14,29 +15,44 @@ import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
 
+const isTourInSameYear = pipe(
+  path(['node', 'frontmatter', 'terms']),
+  sortBy(prop('timestamp')),
+  reverse,
+  head,
+  prop('startDate'),
+  calcYear,
+  year => year >= calcYear(+ new Date())
+)
+
 const sortTours = pipe(
-  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp'])),
-  reverse
+  filter(isTourInSameYear),
+  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp']))
 )
 
 export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
+
+  const _tours = sortTours(tours)
+
   return (
     <Page>
       <Hero images={images}>
       </Hero>
       <InfoBelt />
-      <Section title={"Nasze oferty"}>
-        <Grid>
-          {sortTours(tours).map(({ node }) => (
-            <TourTile
-              key={node.id}
-              tour={node.frontmatter}
-              slug={node.fields.slug}
-            />
-          ))}
-        </Grid>
-      </Section>
+      {_tours.length ? (
+        <Section title={"Nasze oferty"}>
+          <Grid>
+            {_tours.map(({ node }) => (
+              <TourTile
+                key={node.id}
+                tour={node.frontmatter}
+                slug={node.fields.slug}
+              />
+            ))}
+          </Grid>
+        </Section>
+      ) : null}
       <AboutUsSection
         title={aboutTitle}
         image={aboutImage}
