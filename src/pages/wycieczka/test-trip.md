@@ -3,13 +3,13 @@ templateKey: tour
 active: true
 title: Gruzińskie wakacje
 description: Wakacje w gruzji? czemu nie!
-thumb: /img/IMG_2318jpg (1).JPG
 terms:
   - price: 530
     seats: 0
     daysCount: 8 DNI/9 NOCY
     startDate: 2020-07-06T20:00:00.000Z
     endDate: 2020-07-14T20:00:00.000Z
+thumb: /img/IMG_2318jpg (1).JPG
 images:
   - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi
@@ -36,16 +36,14 @@ schedule:
       samochodami terenowymi. Po zwiedzaniu powrót do Tbilisi, obiadokolacja,
       nocleg w Tbilisi.
   - day: 3
-    place: '09/07 - Tbilisi – Kutaisi '
-    text: >-
-      Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
+    place: "09/07 - Tbilisi – Kutaisi "
+    text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
       miasta wraz z najważniejszymi atrakcjami miasta: katedry Bagrati X w. i
       średniowiecznej akademii Gelati, udamy się również na zwiedzanie
-      malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi.
+      malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi."
   - day: 4
-    place: '10/07 - Kutaisi – Martwili – Mestia '
-    text: >-
-      Śniadanie. Udajemy się na zwiedzanie malowniczego kanionu Martwili, gdzie
+    place: "10/07 - Kutaisi – Martwili – Mestia "
+    text: Śniadanie. Udajemy się na zwiedzanie malowniczego kanionu Martwili, gdzie
       oprócz spaceru wzdłuż kanionu, popływamy pontonami po rzece Abasza, gdzie
       będziemy mogli podziwiać całe piękno okolicznych cudów natury. Z Martwili
       udajemy się do wysokogórskiego regionu Swaneti. Ten region wpisany na
@@ -54,53 +52,49 @@ schedule:
       Mestii.
   - day: 5
     place: 11/07 - Mestia – Uszguli – Mestia
-    text: >-
-      Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to najwyżej
+    text: Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to najwyżej
       położona osada w Europie. Po spacerze po wiosce i podziwianiu najwyższych
       szczytów kaukaskich, wrócimy do Mestii, gdzie odwiedzimy Muzeum
       Etnograficzne. Obiadokolacja i nocleg w Mestii.
   - day: 6
     place: 12/07 - Mestia – Batumi
-    text: >-
-      Po śniadaniu wyjeżdżamy w kierunku wybrzeża Morza Czarnego, do
+    text: Po śniadaniu wyjeżdżamy w kierunku wybrzeża Morza Czarnego, do
       legendarnego kurortu Batumi. Batumi to miasto palm, pysznej adżarskiej
       kuchni i ciepłego morza. Pierwszy dzień spędzamy nic nie robiąc – w
       programie tylko plażowanie i wypoczynek. Nocleg w Batumi.
   - day: 7
     place: 13/07 - Batumi
-    text: >-
-      Śniadanie. Po śniadaniu czeka na nas spacer po najładniejszym ogrodzie
+    text: Śniadanie. Po śniadaniu czeka na nas spacer po najładniejszym ogrodzie
       botanicznym kraju. Batumski Ogród Botaniczny już od 100 lat cieszy gości
       Adżarii pięknem egzotycznej natury. Po spacerze wrócimy na miasto i
       spróbujemy słynnych adżarskich chaczapuri, które jest jednym z
       najpopularniejszych dań kuchni adżarskiej i gruzińskiej. Nocleg w Batumi.
   - day: 8
     place: 14/07 - Batumi – Gori – Mccheta – Tbilisi
-    text: >-
-      Po śniadaniu wyjazd w kierunku Tbilisi. Nasz pierwszy przystanek to miasto
+    text: Po śniadaniu wyjazd w kierunku Tbilisi. Nasz pierwszy przystanek to miasto
       Gori. Tutaj zobaczymy dom, w którym się urodził i spędził kilka lat
       swojego życia Józef Stalin. Później jedziemy do Upliscyche, do skalnego
       miasta, które było zamieszkane jeszcze w III wieku p.n.e. Następnie
       przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
-      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
+      chrześcijaństwa w Gruzji. Właśnie tu w IV wieku przyjęto chrześcijaństwo
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
       UNESCO – katedrę Sweticchoweli z XI i monastyr Dżwari z VI wieku.
       Pożegnalna obiadokolacja i nocleg w Tbilisi.
   - day: 9
     place: 15/07 - Transfer na lotnisko
-    text: 'Transfer na lotnisko, wylot do Polski.'
+    text: Transfer na lotnisko, wylot do Polski.
 priceContains:
-  - '- Noclegi w hotelu*** w Tbilisi oraz Batumi'
+  - "- Noclegi w hotelu*** w Tbilisi oraz Batumi"
   - pensjonacie w Kutaisi i Mestii (pokoje z łazienkami)
-  - '- Bilety wstępu do wszystkich obiektów'
-  - '- Przejazd kolejkami w Tbilisi'
-  - '- Śniadania i obiadokolacje'
-  - '- Transport 4×4 w Kazbegi i Swaneti'
-  - '- Usługi polskojęzycznego przewodnika'
-  - '- Transport – komfortowy klimatyzowany minibus'
-  - '-  Ubezpieczenie turystyczne'
+  - "- Bilety wstępu do wszystkich obiektów"
+  - "- Przejazd kolejkami w Tbilisi"
+  - "- Śniadania i obiadokolacje"
+  - "- Transport 4×4 w Kazbegi i Swaneti"
+  - "- Usługi polskojęzycznego przewodnika"
+  - "- Transport – komfortowy klimatyzowany minibus"
+  - "-  Ubezpieczenie turystyczne"
 priceNotContains:
-  - '- Biletu lotniczego'
-  - '- Dodatkowych posiłków i napojów nie zawartych w programie'
+  - "- Biletu lotniczego"
+  - "- Dodatkowych posiłków i napojów nie zawartych w programie"
 ---
 W CELU DOKONANIA REZERWACJI PROSIMY O KONTAKT MAILOWY LUB ZGŁOSZENIE POPRZEZ FORMULARZ REZERWACJI
