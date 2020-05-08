@@ -19,10 +19,6 @@ images:
     name: signagi
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
-  - image: /img/orthodox-4994172-1-.jpg
-    name: tbilisi
-  - image: /img/georgia-3609803.jpg
-    name: kazbegi
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
