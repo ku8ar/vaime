@@ -34,7 +34,13 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        defaultQuality: 100,
+      },
+    },
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
@@ -68,7 +74,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `lato\:400, 500, 700` // you can also specify font weights and styles
+          "lato\\:400, 500, 700" // you can also specify font weights and styles
         ],
         display: 'swap'
       }
