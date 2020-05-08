@@ -5,10 +5,19 @@ import { View } from '../Base'
 
 const Carousel = ({ images }) => {
   if (!images) return null
-  const imgs = useMemo(() => images.map(data => data.image.childImageSharp.fluid.src), [images])
+  console.log(images)
+  const imgs = useMemo(() => images.map(data => ({
+    name: data.name,
+    src: data.image.childImageSharp.fluid.src
+  })), [images])
 
-  const slides = useMemo(() => imgs.map((data, index) => <Slide key={index} src={data} />), [imgs])
-  const thumbnails = useMemo(() => imgs.map((data, index) => <Thumbnail key={index} src={data} />), [imgs])
+  const slides = useMemo(() => imgs.map(({name, src}, index) => (
+    <SlideWrapper key={index}>
+      <Slide src={src} />
+      <Title>{name}</Title>
+    </SlideWrapper>
+  )), [imgs])
+  const thumbnails = useMemo(() => imgs.map(({name, src}, index) => <Thumbnail key={index} src={src} />), [imgs])
 
   const [value, onChange] = useState(0)
 
@@ -48,7 +57,7 @@ const Arrow = styled.div`
   cursor: pointer;
   top: 0;
   bottom: calc(4rem + 2px);
-  font-weight: 300;
+  font-weight: 400;
   user-select: none;
   opacity: .3;
 
@@ -66,6 +75,24 @@ const ArrowLeft = styled(Arrow)`
 
 const ArrowRight = styled(Arrow)`
   right: 0;
+`
+
+const SlideWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+`
+
+const Title = styled.div`
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 4rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: .25rem 2rem 0rem 2rem;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
 `
 
 const Slide = styled.img`
