@@ -1,44 +1,77 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback, useMemo } from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import ReactCarousel, { Dots } from '@brainhubeu/react-carousel'
-import Image from '../Image'
 import { View } from '../Base'
 
 const Carousel = ({ images }) => {
   if (!images) return null
-  // const data = images[0]
-  // <Image style={imgStyle} data={data} />
-  const imgs = images.map(data => data.image.childImageSharp.fluid.src)
+  const imgs = useMemo(() => images.map(data => data.image.childImageSharp.fluid.src), [images])
 
-  const slides = imgs.map((data, index) => <Slide key={index} src={data} />)
-  const thumbnails = imgs.map((data, index) => <Thumbnail key={index} src={data} />)
+  const slides = useMemo(() => imgs.map((data, index) => <Slide key={index} src={data} />), [imgs])
+  const thumbnails = useMemo(() => imgs.map((data, index) => <Thumbnail key={index} src={data} />), [imgs])
 
-  const [value, onchange] = useState(0)
+  const [value, onChange] = useState(0)
 
-  console.log()
+  const goPrev = useCallback(() => onChange(value === 0 ? imgs.length - 1 : value - 1), [value, imgs.length])
+  const goNext = useCallback(() => onChange(value === imgs.length - 1 ? 0 : value + 1), [value, imgs.length])
 
   return (
     <Wrapper>
       <GlobalStyle />
+      <ArrowLeft onClick={goPrev}>{`<`}</ArrowLeft>
+      <ArrowRight onClick={goNext}>{`>`}</ArrowRight>
       <ReactCarousel
         value={value}
         slides={slides}
-        onChange={onchange}
+        onChange={onChange}
       />
       <Dots
         number={thumbnails.length}
         thumbnails={thumbnails}
         value={value}
-        onChange={onchange}
+        onChange={onChange}
       />
     </Wrapper>
   )
 }
 
+const Wrapper = styled(View)`
+  display: block;
+  padding: 0;
+  position: relative;
+`
+
+const Arrow = styled.div`
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  cursor: pointer;
+  top: 0;
+  bottom: calc(4rem + 2px);
+  font-weight: 300;
+  user-select: none;
+  opacity: .3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  width: 4rem;
+  color: white;
+`
+
+const ArrowLeft = styled(Arrow)`
+  left: 0;
+`
+
+const ArrowRight = styled(Arrow)`
+  right: 0;
+`
+
 const Slide = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: none;
+  object-fit: cover;
 `
 
 const Thumbnail = styled.img`
@@ -48,11 +81,6 @@ const Thumbnail = styled.img`
   ${p => p.theme.mobile`
     height: 2rem;
   `}
-`
-
-const Wrapper = styled(View)`
-  display: block;
-  padding: 0;
 `
 
 const GlobalStyle = createGlobalStyle`
