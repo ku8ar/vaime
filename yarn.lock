@@ -934,6 +934,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@brainhubeu/react-carousel@^1.13.44":
+  version "1.13.44"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-1.13.44.tgz#94d9a54415d8b7cfc8156a855458ace9108dfbb3"
+  integrity sha512-qjElOkLtsVctiJQ/13u/jVOVuws13cCWKkCsVJQ4maWuQk4VyTpKhPwSztaNzFoGub+PC42+BXIE7QazQmdoOg==
+
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
   resolved "https://registry.yarnpkg.com/@emotion/babel-utils/-/babel-utils-0.6.10.tgz#83dbf3dfa933fae9fc566e54fbb45f14674c6ccc"

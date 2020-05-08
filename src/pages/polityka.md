@@ -6,6 +6,7 @@ background: /img/logo.svg
 images:
   - image: /img/projekt-bez-tytułu-5-.png
     name: prywatność
+carousel:
 ---
 
 #### Preambuła

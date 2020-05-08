@@ -11,8 +11,9 @@ import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
 import Instagram from '../components/page/Instagram'
+import Carousel from '../components/page/Carousel'
 
-export const StandardPageTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
+export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
   return (
@@ -26,6 +27,7 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
         <Column size={70}>
           <Section><Faq list={qa} /></Section>
           <Section><HtmlComponent content={html} /></Section>
+          <Section><Carousel images={carousel} /></Section>
         </Column>
         <Column size={30}>
           <Section>
@@ -65,6 +67,10 @@ export const pageQuery = graphql`
         }
         background { ...imageFullWidth }
         images {
+          name
+          image { ...imageFullWidth }
+        }
+        carousel {
           name
           image { ...imageFullWidth }
         }

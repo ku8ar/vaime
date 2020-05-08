@@ -6,6 +6,7 @@ background: /img/logo.svg
 images:
   - image: /img/kopitnari.jpg
     name: lotnisko
+carousel:
 ---
 **Kilka ważnych informacji odnośnie naszych wycieczek:**\
 \
