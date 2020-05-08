@@ -13,7 +13,7 @@ thumb: /img/batumi-kolo.jpg
 images:
   - image: /img/108.jpg
     name: tbilisi
-map: /img/ulotka-druga-mapka-.png
+map: /img/kutaisi.png
 schedule:
   - day: 1
     place: 27/04 - Kutasi
