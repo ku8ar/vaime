@@ -108,13 +108,7 @@ export const pageQuery = graphql`
               seats
             }
             active
-            thumb {
-              childImageSharp {
-                fluid(maxWidth: 1920, quality: 50) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            thumb { ...imageThumb }
           }
         }
       }
@@ -126,40 +120,16 @@ export const pageQuery = graphql`
         description
         images {
           name
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image { ...imageFullWidth }
         }
         aboutTitle
-        aboutImage {
-          childImageSharp {
-            fluid(maxWidth: 1920, quality: 50) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        promoImage {
-          childImageSharp {
-            fluid(maxWidth: 1920, quality: 50) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        aboutImage { ...imagHalfWidth }
+        promoImage { ...imageFullWidth }
         team {
           name
           place
           text
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image { ...imageThumb }
         }
       }
     }

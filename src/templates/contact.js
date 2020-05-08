@@ -71,13 +71,7 @@ export const pageQuery = graphql`
         description
         images {
           name
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image { ...imageFullWidth }
         }
       }
     }

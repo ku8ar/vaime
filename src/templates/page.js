@@ -63,22 +63,10 @@ export const pageQuery = graphql`
           question
           answer
         }
-        background {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+        background { ...imageFullWidth }
         images {
           name
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image { ...imageFullWidth }
         }
       }
     }
