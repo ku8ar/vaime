@@ -58,14 +58,18 @@ export default ({ images, title, openReservation, active, terms }) => {
           </Info>
         </FirstColumn>
         <LastColumn>
-          <Button disabled={disabled} onClick={openReservation}>
+          <TourButton disabled={disabled} onClick={openReservation}>
             {disabled ? 'Wyprzedane' : 'Zarezerwuj Termin'}
-          </Button>
+          </TourButton>
         </LastColumn>
       </Wrapper>
     </Hero>
   )
 }
+
+const TourButton = styled(Button)`
+  min-width: 50%;
+`
 
 const Wrapper = styled.div`
   display: flex;

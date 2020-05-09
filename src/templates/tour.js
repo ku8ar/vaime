@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
 import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
@@ -12,10 +13,14 @@ import Section from '../components/page/Section'
 import PriceContains from '../components/tour/PriceContains'
 import Map from '../components/tour/Map'
 
+const TourPage = styled(Page)`
+  background-color: ${p => p.theme.colorGreyNew}
+`
+
 export const TourTemplate = ({ description, schedule, html, contentComponent, map, ...props }) => {
   const HtmlComponent = contentComponent || Content
   return (
-    <Page>
+    <TourPage>
       <HeroTour {...props} />
       <View>
         <H2>{description}</H2>
@@ -24,6 +29,13 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
             <Section>
               <Schedule schedule={schedule} />
             </Section>
+          </Column>
+          <Column size={30}>
+            <PriceContains {...props} />
+          </Column>
+        </Grid>
+        <Grid>
+          <Column size={70}>
             <Section>
               <Map map={map} />
             </Section>
@@ -32,12 +44,11 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
             </Section>
           </Column>
           <Column size={30}>
-            <PriceContains {...props} />
           </Column>
         </Grid>
       </View>
       <Cookies />
-    </Page>
+    </TourPage>
   )
 }
 

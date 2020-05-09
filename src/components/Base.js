@@ -22,7 +22,6 @@ export const View = styled.div`
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1rem;
 `
 
 // @see header height
@@ -80,4 +79,15 @@ export const Button = styled.button`
   margin: ${p => p.theme.marginS} 0;
   cursor: ${p => p.disabled ? 'default' : 'pointer'};
   max-height: 2.5rem;
+`
+
+export const boxStyle = css`
+  background: white;
+  padding: .5rem .5rem 1rem 1rem;
+  box-shadow: 0 4px 12px 0 rgba(23,27,30,.3);
+  border-radius: .25rem;
+`
+
+export const Box = styled.div`
+  ${boxStyle}
 `

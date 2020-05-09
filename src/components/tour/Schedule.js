@@ -38,8 +38,8 @@ const DayCircle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${p => p.theme.colorPrimary};
-  background-color: ${p => p.theme.colorWhite};
+  color: ${p => p.theme.colorWhite};
+  background-color: ${p => p.theme.colorPrimary};
   margin: 0 ${p => p.theme.marginS} 0 ${p => p.theme.marginXs};
   border: 2px solid ${p => p.theme.colorPrimary};
   width: 2rem;

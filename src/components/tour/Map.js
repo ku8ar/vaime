@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from '../Image'
+import { boxStyle } from '../Base'
 
 const Map = styled(Image)`
+  ${boxStyle}
   width: 100%;
 `
 

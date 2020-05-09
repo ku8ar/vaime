@@ -12,6 +12,7 @@ const theme = {
   colorGreyDark: '#E3E3E3',
   colorGreyLight: 'rgba(255,255,255,0.8)',
   colorSecondaryTransparent: 'rgba(27, 34, 44, 0.4)',
+  colorGreyNew: '#F2F3F4',
   // margin
   marginM: '2rem',
   marginS: '1rem',
