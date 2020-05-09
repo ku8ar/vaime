@@ -133,4 +133,4 @@ priceNotContains:
   - "- Biletu lotniczego"
   - "- Dodatkowych posiłków i napojów nie zawartych w programie"
 ---
-W CELU DOKONANIA REZERWACJI PROSIMY O KONTAKT MAILOWY LUB ZGŁOSZENIE POPRZEZ FORMULARZ REZERWACJI
+Trasa wycieczki – ok. 1500 km
