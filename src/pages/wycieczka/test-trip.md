@@ -13,7 +13,7 @@ thumb: /img/IMG_2318jpg (1).JPG
 images:
   - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi
-map: /img/mapa.png
+map: /img/majówka-5-.png
 schedule:
   - day: 1
     place: 07/07 - Tbilisi
@@ -97,4 +97,6 @@ priceNotContains:
   - "- Biletu lotniczego"
   - "- Dodatkowych posiłków i napojów nie zawartych w programie"
 ---
-W CELU DOKONANIA REZERWACJI PROSIMY O KONTAKT MAILOWY LUB ZGŁOSZENIE POPRZEZ FORMULARZ REZERWACJI
+Trasa wycieczki – ok. 1500 km
+
+
