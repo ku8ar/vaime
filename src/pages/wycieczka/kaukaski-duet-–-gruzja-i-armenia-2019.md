@@ -18,7 +18,7 @@ thumb: /img/sevan.jpg
 images:
   - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
-map: /img/kaukasi-duet-2-.png
+map: /img/kaukasi-duet-3-.png
 schedule:
   - day: 1
     place: Tbilisi
