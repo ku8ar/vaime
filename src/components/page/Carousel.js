@@ -124,7 +124,12 @@ const GlobalStyle = createGlobalStyle`
   `}
 }
 
+.BrainhubCarousel__dots {
+  display: flex;
+}
+
 .BrainhubCarousel__dots > li {
+  flex: 1;
   margin: 2px 2px 0 0;
   &:last-child {
     margin-right: 0;
