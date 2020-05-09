@@ -21,8 +21,8 @@ collections:
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Map", name: map, widget: image}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-      - {label: "Price contains", name: "priceContains", widget: "list"}
-      - {label: "Price not contains", name: "priceNotContains", widget: "list"}
+      - {label: "Price contains", name: "priceContains", widget: "list", field: {label: Text, name: text, widget: string}}
+      - {label: "Price not contains", name: "priceNotContains", widget: "list", field: {label: Text, name: text, widget: string}}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "static"
@@ -36,7 +36,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
-          - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text, required: false}, {label: "image", name: image, widget: image}]}
+          - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string, required: false}, {label: "text", name: text, widget: text, required: false}, {label: "image", name: image, widget: image}]}
           - {label: "About Us Title", name: "aboutTitle", widget: string}
           - {label: "About Us Image", name: "aboutImage", widget: image}
           - {label: "About Us Content", name: "body", widget: "markdown"}

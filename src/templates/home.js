@@ -53,13 +53,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           </Grid>
         </Section>
       ) : null}
-      <AboutUsSection
-        title={aboutTitle}
-        image={aboutImage}
-      >
-        <HtmlComponent content={html} />
-      </AboutUsSection>
-      <Section title={"Nasz Zespół"}>
+      <Section title={"O Nas"}>
         <Grid>
           {team.map(person => (
             <TeamTile
@@ -69,6 +63,13 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           ))}
         </Grid>
       </Section>
+      <AboutUsSection
+        title={aboutTitle}
+        image={aboutImage}
+      >
+        <HtmlComponent content={html} />
+      </AboutUsSection>
+      <Section />
       <PromoSection promoImage={promoImage} />
       <Instagram />
       <Cookies />

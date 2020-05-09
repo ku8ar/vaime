@@ -8,15 +8,12 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   background-color: ${p => p.theme.colorGrey};
-  ${p => p.theme.mobile`
-    
-  `}
 `
 
 const Content = styled(View)`
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2.5rem;
 `
 
@@ -41,14 +38,13 @@ const BgWrapper = styled.div`
   `}
 `
 
-export default ({title, image, children}) => {
-  if (!title || !children) return null
+export default ({image, children}) => {
+  if (!children) return null
   const img = path('childImageSharp.fluid.src', image) || image
   return (
     <Wrapper>
       <Content>
         <ContentWrapper>
-          <H2 color='colorPrimary'>{title}</H2>
           {children}
         </ContentWrapper>
       </Content>

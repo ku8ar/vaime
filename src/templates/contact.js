@@ -11,6 +11,7 @@ import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 // import Info from '../components/page/Info'
 import ContactForm from '../components/forms/ContactForm'
+import Instagram from '../components/home/Instagram'
 
 const RightColumn = styled(Column)`
   padding-left: 2rem;
@@ -46,6 +47,7 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
           </Section> */}
         </RightColumn>
       </Grid>
+      <Instagram />
       <Cookies />
     </Page>
   )

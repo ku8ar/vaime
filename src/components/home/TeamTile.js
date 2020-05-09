@@ -32,8 +32,8 @@ export default ({ person }) => {
     <Wrapper>
       <Avatar data={imgData} />
       <H4>{name}</H4>
-      <H5>{place}</H5>
-      <P>{text}</P>
+      {place && <H5>{place}</H5>}
+      {text && <P>{text}</P>}
     </Wrapper>
   )
 }
