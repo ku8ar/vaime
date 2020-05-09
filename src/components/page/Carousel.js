@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useMemo } from 'react'
+import {path} from 'rambda'
 import styled, { createGlobalStyle } from 'styled-components'
 import ReactCarousel, { Dots } from '@brainhubeu/react-carousel'
 import { View } from '../Base'
@@ -8,7 +9,7 @@ const Carousel = ({ images }) => {
   console.log(images)
   const imgs = useMemo(() => images.map(data => ({
     name: data.name,
-    src: data.image.childImageSharp.fluid.src
+    src: path('image.childImageSharp.fluid.src', data) || path('image', data)
   })), [images])
 
   const slides = useMemo(() => imgs.map(({name, src}, index) => (
