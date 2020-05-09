@@ -84,18 +84,18 @@ schedule:
     place: 04/05 - Batumi – Lotnisko Kopitnari (Kutaisi)
     text: Śniadanie. Przejazd z Batumi do Kutaisi. Wylot do Polski.
 priceContains:
-  - "- Noclegi w hotelu*** w Tbilisi oraz Batumi"
+  - Noclegi w hotelu*** w Tbilisi oraz Batumi
   - W hotelu** w Kutaisi
-  - "- Bilety wstępu do wszystkich obiektów"
-  - "- Przejazd kolejkami w Tbilisi"
-  - "- Samochody terenowe w Kazbegi"
-  - "- Śniadania i obiadokolacje"
-  - "- Degustację wina"
-  - "- Usługi polskojęzycznego przewodnika"
-  - "- Transport – komfortowy klimatyzowany minibus"
-  - "- Ubezpieczenie turystyczne"
+  - Bilety wstępu do wszystkich obiektów
+  - Przejazd kolejkami w Tbilisi
+  - Samochody terenowe w Kazbegi
+  - Śniadania i obiadokolacje
+  - Degustację wina
+  - Usługi polskojęzycznego przewodnika
+  - Transport – komfortowy klimatyzowany minibus
+  - Ubezpieczenie turystyczne
 priceNotContains:
-  - "- Biletu lotniczego"
-  - "- Dodatkowych posiłków i napojów nie zawartych w programie"
+  - Biletu lotniczego
+  - Dodatkowych posiłków i napojów nie zawartych w programie
 ---
 Trasa wycieczki – łącznie ok. 1300 km
