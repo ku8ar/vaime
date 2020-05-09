@@ -6,7 +6,6 @@ import { View } from '../Base'
 
 const Carousel = ({ images }) => {
   if (!images) return null
-  console.log(images)
   const imgs = useMemo(() => images.map(data => ({
     name: data.name,
     src: path('image.childImageSharp.fluid.src', data) || path('image', data)
