@@ -6,7 +6,7 @@ background: /img/logo.svg
 images:
   - image: /img/kopitnari.jpg
     name: lotnisko
-carousel:
+carousel: null
 ---
 **Kilka ważnych informacji odnośnie naszych wycieczek:**\
 \
@@ -22,8 +22,7 @@ carousel:
 
 
 <br />
-<br />
-<br />
+
 
 **Gdzie znaleźć tanie połączenia do Gruzji?**
 
