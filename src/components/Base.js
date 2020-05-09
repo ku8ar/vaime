@@ -22,6 +22,9 @@ export const View = styled.div`
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+  ${p => p.theme.smallScreen`
+    padding: 0 1rem;
+  `}
 `
 
 // @see header height

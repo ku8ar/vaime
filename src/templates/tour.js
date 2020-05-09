@@ -12,6 +12,7 @@ import { Grid, Column } from '../components/page/Grid'
 import Section from '../components/page/Section'
 import PriceContains from '../components/tour/PriceContains'
 import Map from '../components/tour/Map'
+import Instagram from '../components/home/Instagram'
 
 const TourPage = styled(Page)`
   background-color: ${p => p.theme.colorGreyNew}
@@ -47,6 +48,7 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
           </Column>
         </Grid>
       </View>
+      <Instagram />
       <Cookies />
     </TourPage>
   )
