@@ -68,6 +68,9 @@ const Arrow = styled.div`
   font-size: 5rem;
   width: 4rem;
   color: white;
+  ${p => p.theme.mobile`
+    display: none;
+  `}
 `
 
 const ArrowLeft = styled(Arrow)`
@@ -94,6 +97,9 @@ const Title = styled.div`
   padding: .25rem 2rem 0rem 2rem;
   border-bottom-left-radius: .25rem;
   border-bottom-right-radius: .25rem;
+  ${p => p.theme.mobile`
+    display: none;
+  `}
 `
 
 const Slide = styled.img`
@@ -126,6 +132,9 @@ const GlobalStyle = createGlobalStyle`
 
 .BrainhubCarousel__dots {
   display: flex;
+  ${p => p.theme.mobile`
+    display: none;
+  `}
 }
 
 .BrainhubCarousel__dots > li {

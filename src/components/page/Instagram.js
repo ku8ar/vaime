@@ -10,6 +10,9 @@ const SectionWrapper = styled.div`
   flex-direction: column;
   margin-top: 2rem;
   margin-left: 2rem;
+  ${p => p.theme.mobile`
+    margin-left: 0;
+  `}
 `
 
 const Wrapper = styled.div`
