@@ -120,11 +120,11 @@ schedule:
     text: Transfer na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
-    text: Noclegi w hotelu*** w Tbilisi oraz Erywaniu
+    text: Noclegi w hotelu*** w Tbilisi, Erywaniu
   - icon: home
-    text: Nocleg w agroturystyce w Wardzii/pensjonacie w Achalcyche i Kutaisi
+    text: Nocleg w pensjonacie w Wardzii, Achalcyche, Kutaisi
   - icon: cinemaTicket
-    text: Bilety wstępu do wszystkich obiektów
+    text: "Bilety wstępu "
   - icon: cableCar
     text: Przejazd kolejkami w Tbilisi
   - icon: restaurant
