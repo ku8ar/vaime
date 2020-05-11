@@ -17,8 +17,8 @@ import ticket from './ticket'
 import wine from './wine'
 
 const IconWrapper = styled.div`
-  height: 1rem;
-  width: 1rem;
+  height: 2rem;
+  width: 2rem;
 `
 
 const types = {
@@ -27,7 +27,7 @@ const types = {
   beach: beach,
   boat: boat,
   bus: bus,
-  cable: cableCar,
+  cableCar: cableCar,
   catamaran: catamaran,
   food: food,
   guide: guide,
@@ -39,12 +39,12 @@ const types = {
   wine: wine
 }
 
-const Icon = ({ icon, className, fill }) => {
+const Icon = ({ icon, className, fill, size }) => {
   const Component = types[icon]
 
   return Component ? (
     <IconWrapper className={className} fill={fill}>
-      <Component />
+      <Component size={size} />
     </IconWrapper>
   ) : null
 }

@@ -1,12 +1,12 @@
 import * as React from "react"
 
-function SvgComponent(props) {
+function SvgComponent({ size, ...props }) {
   return (
     <svg
       viewBox="0 0 512 512"
       xmlSpace="preserve"
-      width="1em"
-      height="1em"
+      height={size}
+      width={size}
       {...props}
     >
       <circle cx={259.7} cy={68.1} r={45.6} />

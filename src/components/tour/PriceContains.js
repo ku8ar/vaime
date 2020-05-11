@@ -42,7 +42,7 @@ const TourIcon = styled(Icon)`
 
 const Item = ({ text, ok, icon }) => (
 <ItemWrapper>
-  <TourIcon icon={icon || (ok ? 'good' : 'bad')} fill={ok ? colorGreen : colorPrimary} />
+  <TourIcon icon={icon || (ok ? 'good' : 'bad')} fill={ok ? colorGreen : colorPrimary} size='2rem' />
   <Text>{text}</Text>
 </ItemWrapper>
 )
@@ -51,6 +51,7 @@ const ItemWrapper = styled.div`
   display: flex;
 `
 const Text = styled.span`
+  align-self: center;
 `
 
 const Title = styled(H6)`

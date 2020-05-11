@@ -1,15 +1,11 @@
 import * as React from "react"
 
-function SvgComponent(props) {
+function SvgComponent({ size, ...props }) {
   return (
     <svg
-      aria-hidden="true"
-      data-prefix="far"
-      data-icon="times-circle"
-      className="prefix__svg-inline--fa prefix__fa-times-circle prefix__fa-w-16"
       viewBox="0 0 512 512"
-      width="1em"
-      height="1em"
+      height={size}
+      width={size}
       {...props}
     >
       <path
