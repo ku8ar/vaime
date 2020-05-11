@@ -1,6 +1,6 @@
 ---
 templateKey: page
-title: Ważne informacje
+title: Informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
 background: /img/logo.svg
 images:
