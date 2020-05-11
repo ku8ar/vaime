@@ -136,7 +136,7 @@ priceContains:
   - icon: bus
     text: Transport – komfortowy klimatyzowany bus
   - icon: offroad
-    text: Samochody terenowe w Kazbegi
+    text: Transport 4×4 w Kazbegi
   - icon: healthcare
     text: Ubezpieczenie turystyczne
 priceNotContains:
