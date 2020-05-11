@@ -1,18 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
+import Icon from '../../icons'
 import { H6, Box } from '../Base'
-import good from '../../img/good_circle.svg'
-import bad from '../../img/bad_circle.svg'
+import { colorPrimary, colorGreen } from '../style/Theme'
 
 export default ({ priceContains = [], priceNotContains = [] }) => (
   <Wrapper>
     <Row>
       <Title>Cena zawiera</Title>
-      {priceContains.map((text, i) => <Item key={i} text={text} ok />)}
+      {priceContains.map(({text, icon}, i) => <Item key={i} text={text} type={icon} ok />)}
     </Row>
     <Row>
       <Title>Cena nie zawiera</Title>
-      {priceNotContains.map((text, i) => <Item key={i} text={text} />)}
+      {priceNotContains.map(({text, icon}, i) => <Item key={i} type={icon} text={text} />)}
     </Row>
   </Wrapper>
 )
@@ -34,15 +34,15 @@ const Row = styled(Box)`
   margin-bottom: 1rem;
 `
 
-const Icon = styled.img`
-  height: 1rem;
+const TourIcon = styled(Icon)`
   margin-top: 0.25rem;
   margin-right: 1rem;
+  fill: ${p => p.fill};
 `
 
-const Item = ({ text, ok }) => (
+const Item = ({ text, ok, type }) => (
   <ItemWrapper>
-    <Icon src={ok ? good : bad} />
+    <TourIcon type={type || ok ? 'good' : 'bad'} fill={ok ? colorGreen : colorPrimary} />
     <Text>{text}</Text>
   </ItemWrapper>
 )

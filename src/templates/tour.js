@@ -103,8 +103,14 @@ export const pageQuery = graphql`
           place
           text
         }
-        priceContains
-        priceNotContains
+        priceContains {
+          text
+          icon
+        }
+        priceNotContains {
+          text
+          icon
+        }
         thumb { ...imageThumb }
         map { ...imageFullWidth }
         images {

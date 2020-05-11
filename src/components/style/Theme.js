@@ -3,9 +3,12 @@ import styled, { ThemeProvider } from 'styled-components'
 import GlobalStyle from './GlobalStyle'
 import media from '../../utils/media'
 
+export const colorPrimary = '#DE261D' // 221, 51, 51
+export const colorGreen = '#2DB324'
+
 const theme = {
   // colors
-  colorPrimary: '#DE261D', // 221, 51, 51
+  colorPrimary,
   colorSecondary: '#1B222C', // 27, 34, 44
   colorWhite: '#fff',
   colorGrey: '#FAF9F9',
@@ -13,6 +16,7 @@ const theme = {
   colorGreyLight: 'rgba(255,255,255,0.8)',
   colorSecondaryTransparent: 'rgba(27, 34, 44, 0.4)',
   colorGreyNew: '#F2F3F4',
+  colorGreen,
   // margin
   marginM: '2rem',
   marginS: '1rem',

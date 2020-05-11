@@ -4,8 +4,11 @@ import RightModal from '../modals/RightModal'
 import TourForm from '../forms/TourForm'
 import Image from '../Image'
 import { H4, H5, P } from '../Base'
+import { FormInput } from '../Form'
 
 export default ({ open, onClose, title, thumb, ...props }) => {
+  const { startDate, endDate, price, seats } = props
+
   return (
     <RightModal open={open} onClose={onClose}>
       <TripInfoWrapper>
@@ -16,7 +19,7 @@ export default ({ open, onClose, title, thumb, ...props }) => {
           <Subtitle>Termin 01.12.2012</Subtitle>
         </Column>
       </TripInfoWrapper>
-      <TourForm {...props} />
+      <TourForm startDate={startDate} endDate={endDate} price={price} seats={seats} />
     </RightModal>
   )
 }

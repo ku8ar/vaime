@@ -21,8 +21,8 @@ collections:
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Map", name: map, widget: image}
       - {label: "Schedule", name: schedule, widget: list, fields: [{label: "Day", name: day, widget: number}, {label: "Place", name: place, widget: string}, {label: "text", name: text, widget: text}]}
-      - {label: "Price contains", name: "priceContains", widget: "list", field: {label: Text, name: text, widget: string}}
-      - {label: "Price not contains", name: "priceNotContains", widget: "list", field: {label: Text, name: text, widget: string}}
+      - {label: "Price contains", name: "priceContains", widget: "list", fields: [{label: Text, name: text, widget: string}, {label: Icon, name: icon, widget: select, required: false, options: ['beach', 'boat', 'bus', 'cableCar', 'catamaran', 'food', 'guide', 'hotel', 'map', 'offroad', 'plane', 'ticket', 'wine']}]}
+      - {label: "Price not contains", name: "priceNotContains", widget: "list", fields: [{label: Text, name: text, widget: string}, {label: Icon, name: icon, widget: select, required: false, options: ['beach', 'boat', 'bus', 'cableCar', 'catamaran', 'food', 'guide', 'hotel', 'map', 'offroad', 'plane', 'ticket', 'wine']}]}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "static"

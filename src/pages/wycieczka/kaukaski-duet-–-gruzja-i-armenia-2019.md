@@ -119,18 +119,30 @@ schedule:
     place: Transfer na lotnisko
     text: Transfer na lotnisko, wylot do Polski.
 priceContains:
-  - Noclegi w hotelu*** w Tbilisi oraz Erywaniu
-  - w agroturystyce w Wardzii/pensjonacie w Achalcyche i Kutaisi
-  - Bilety wstępu do wszystkich obiektów
-  - Przejazd kolejkami w Tbilisi
-  - Śniadania i obiadokolacje
-  - Degustację wina
-  - Usługi polskojęzycznego przewodnika
-  - Transport – komfortowy klimatyzowany bus
-  - Samochody terenowe w Kazbegi
-  - Ubezpieczenie turystyczne
+  - icon: ''
+    text: Noclegi w hotelu*** w Tbilisi oraz Erywaniu
+  - icon: ''
+    text: w agroturystyce w Wardzii/pensjonacie w Achalcyche i Kutaisi
+  - icon: ''
+    text: Bilety wstępu do wszystkich obiektów
+  - icon: ''
+    text: Przejazd kolejkami w Tbilisi
+  - icon: ''
+    text: Śniadania i obiadokolacje
+  - icon: ''
+    text: Degustację wina
+  - icon: ''
+    text: Usługi polskojęzycznego przewodnika
+  - icon: ''
+    text: Transport – komfortowy klimatyzowany bus
+  - icon: ''
+    text: Samochody terenowe w Kazbegi
+  - icon: ''
+    text: Ubezpieczenie turystyczne
 priceNotContains:
-  - Biletu lotniczego
-  - Dodatkowych posiłków i napojów nie zawartych w programie
+  - icon: ''
+    text: Biletu lotniczego
+  - icon: ''
+    text: Dodatkowych posiłków i napojów nie zawartych w programie
 ---
 Trasa wycieczki – ok. 1500 km
