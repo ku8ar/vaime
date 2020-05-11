@@ -15,6 +15,13 @@ import offroad from './offroad'
 import plane from './plane'
 import ticket from './ticket'
 import wine from './wine'
+import home from './home'
+import alcohol from './alcohol'
+import cinemaTicket from './cinemaTicket'
+import grapes from './grapes'
+import healthcare from './healthcare'
+import coffee from './coffee'
+import restaurant from './restaurant'
 
 const IconWrapper = styled.div`
   height: 2rem;
@@ -36,7 +43,14 @@ const types = {
   offroad: offroad,
   plane: plane,
   ticket: ticket,
-  wine: wine
+  wine: wine,
+  home,
+  alcohol,
+  cinemaTicket,
+  grapes,
+  healthcare,
+  coffee,
+  restaurant
 }
 
 const Icon = ({ icon, className, fill, size }) => {
