@@ -20,7 +20,7 @@ export default ({ priceContains = [], priceNotContains = [] }) => (
 const Wrapper = styled.div`
   position: sticky;
   top: 5rem;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   margin-left: 4rem;
   width: auto;
   ${p => p.theme.mobile`
@@ -49,6 +49,7 @@ const Item = ({ text, ok, icon }) => (
 
 const ItemWrapper = styled.div`
   display: flex;
+  margin-bottom: .5rem;
 `
 const Text = styled.span`
   align-self: center;
@@ -58,5 +59,4 @@ const Title = styled(H6)`
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0;
 `
