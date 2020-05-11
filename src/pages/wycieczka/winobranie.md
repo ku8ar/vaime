@@ -98,28 +98,28 @@ schedule:
     place: 09/09 - transfer na lotnisko
     text: Śniadanie. Wyjazd na lotnisko, wylot do Polski.
 priceContains:
-  - icon: ''
-    text: Noclegi w hotelach w Tbilisi/Telawi/Kutaisi
-  - icon: ''
-    text: Wszystkie śniadania i obfite obiadokolacje z winem
-  - icon: ''
+  - icon: hotel
+    text: Noclegi w hotelach w Tbilisi,Telawi, Kutaisi
+  - icon: restaurant
+    text: Śniadania i obfite obiadokolacje z winem
+  - icon: alcohol
     text: Degustacje wina
-  - icon: ''
+  - icon: grapes
     text: Winobranie
-  - icon: ''
+  - icon: coffee
     text: Warsztaty kulinarne
-  - icon: ''
-    text: Samochody terenowe w Kazbegi
-  - icon: ''
+  - icon: offroad
+    text: Transport 4×4 w Kazbegi
+  - icon: guide
     text: Obsługę polskojęzycznego przewodnika
-  - icon: ''
+  - icon: bus
     text: Transport – komfortowy minibus
-  - icon: ''
+  - icon: healthcare
     text: Ubezpieczenie turystyczne
 priceNotContains:
-  - icon: ''
+  - icon: ticket
     text: Biletu lotniczego
-  - icon: ''
+  - icon: food
     text: Dodatkowych posiłków i napojów nie zawartych w programie
 ---
 Trasa wycieczki – ok. 1400 km
