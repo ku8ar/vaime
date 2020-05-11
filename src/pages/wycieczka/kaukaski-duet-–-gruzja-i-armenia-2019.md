@@ -121,15 +121,15 @@ schedule:
 priceContains:
   - icon: hotel
     text: Noclegi w hotelu*** w Tbilisi oraz Erywaniu
-  - icon: null
+  - icon: home
     text: Nocleg w agroturystyce w Wardzii/pensjonacie w Achalcyche i Kutaisi
-  - icon: null
+  - icon: cinemaTicket
     text: Bilety wstępu do wszystkich obiektów
   - icon: cableCar
     text: Przejazd kolejkami w Tbilisi
-  - icon: food
+  - icon: restaurant
     text: Śniadania i obiadokolacje
-  - icon: ""
+  - icon: alcohol
     text: Degustację wina
   - icon: guide
     text: Usługi polskojęzycznego przewodnika
@@ -137,7 +137,7 @@ priceContains:
     text: Transport – komfortowy klimatyzowany bus
   - icon: offroad
     text: Samochody terenowe w Kazbegi
-  - icon: ""
+  - icon: healthcare
     text: Ubezpieczenie turystyczne
 priceNotContains:
   - icon: ticket
