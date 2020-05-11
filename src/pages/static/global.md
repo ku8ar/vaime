@@ -1,12 +1,12 @@
 ---
 templateKey: global
-seoTitle: '| Gruzja, Armenia, Kaukaz, wycieczki, wczasy'
+seoTitle: "| Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
 companyName: Vaime Travel
 email: info@vaimetravel.com
 navigation:
   - title: O Gruzji
     to: /gruzja
-  - title: Ważne informacje
+  - title: Informacje
     to: /ważne-informacje
   - title: FAQ
     to: /faq
@@ -19,11 +19,10 @@ phoneNumbers:
   - +48 730 665 176
   - +995 555 628 887
 socialLinks:
-  - src: 'https://www.facebook.com/VaimeTravelgpp/'
+  - src: https://www.facebook.com/VaimeTravelgpp/
     type: facebook
-  - src: 'https://www.instagram.com/vaimetravel/'
+  - src: https://www.instagram.com/vaimetravel/
     type: instagram
-  - src: 'https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg'
+  - src: https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg
     type: youtube
 ---
-
