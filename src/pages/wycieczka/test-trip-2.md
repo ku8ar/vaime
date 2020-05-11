@@ -91,7 +91,7 @@ priceContains:
   - icon: cableCar
     text: Przejazd kolejkami w Tbilisi
   - icon: offroad
-    text: Samochody terenowe w Kazbegi
+    text: Transport 4x4 w Kazbegi
   - icon: restaurant
     text: Śniadania i obiadokolacje
   - icon: alcohol
