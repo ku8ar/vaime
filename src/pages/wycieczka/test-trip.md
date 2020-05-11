@@ -84,28 +84,28 @@ schedule:
     place: 15/07 - Transfer na lotnisko
     text: Transfer na lotnisko, wylot do Polski.
 priceContains:
-  - icon: ''
+  - icon: hotel
     text: Noclegi w hotelu*** w Tbilisi oraz Batumi
-  - icon: ''
-    text: pensjonacie w Kutaisi i Mestii (pokoje z łazienkami)
-  - icon: ''
-    text: Bilety wstępu do wszystkich obiektów
-  - icon: ''
+  - icon: home
+    text: "Noclegi w pensjonacie w Kutaisi i Mestii "
+  - icon: cinemaTicket
+    text: "Bilety wstępu "
+  - icon: cableCar
     text: Przejazd kolejkami w Tbilisi
-  - icon: ''
+  - icon: restaurant
     text: Śniadania i obiadokolacje
-  - icon: ''
+  - icon: offroad
     text: Transport 4×4 w Kazbegi i Swaneti
-  - icon: ''
+  - icon: guide
     text: Usługi polskojęzycznego przewodnika
-  - icon: ''
+  - icon: bus
     text: Transport – komfortowy klimatyzowany minibus
-  - icon: ''
+  - icon: healthcare
     text: Ubezpieczenie turystyczne
 priceNotContains:
-  - icon: ''
+  - icon: ticket
     text: Biletu lotniczego
-  - icon: ''
+  - icon: food
     text: Dodatkowych posiłków i napojów nie zawartych w programie
 ---
 Trasa wycieczki – ok. 1500 km
