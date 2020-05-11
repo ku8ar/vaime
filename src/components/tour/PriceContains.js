@@ -8,11 +8,11 @@ export default ({ priceContains = [], priceNotContains = [] }) => (
   <Wrapper>
     <Row>
       <Title>Cena zawiera</Title>
-      {priceContains.map(({text, icon}, i) => <Item key={i} text={text} type={icon} ok />)}
+      {priceContains.map(({ text, icon }, i) => <Item key={i} text={text} icon={icon} ok />)}
     </Row>
     <Row>
       <Title>Cena nie zawiera</Title>
-      {priceNotContains.map(({text, icon}, i) => <Item key={i} type={icon} text={text} />)}
+      {priceNotContains.map(({ text, icon }, i) => <Item key={i} icon={icon} text={text} />)}
     </Row>
   </Wrapper>
 )
@@ -40,13 +40,12 @@ const TourIcon = styled(Icon)`
   fill: ${p => p.fill};
 `
 
-const Item = ({ text, ok, type }) => (
-  <ItemWrapper>
-    <TourIcon type={type || ok ? 'good' : 'bad'} fill={ok ? colorGreen : colorPrimary} />
-    <Text>{text}</Text>
-  </ItemWrapper>
+const Item = ({ text, ok, icon }) => (
+<ItemWrapper>
+  <TourIcon icon={icon || (ok ? 'good' : 'bad')} fill={ok ? colorGreen : colorPrimary} />
+  <Text>{text}</Text>
+</ItemWrapper>
 )
-
 
 const ItemWrapper = styled.div`
   display: flex;

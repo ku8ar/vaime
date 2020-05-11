@@ -24,26 +24,26 @@ const IconWrapper = styled.div`
 const types = {
   good: Good,
   bad: Bad,
-  beach,
-  boat,
-  bus,
-  cableCar,
-  catamaran,
-  food,
-  guide,
-  hotel,
-  map,
-  offroad,
-  plane,
-  ticket,
-  wine
+  beach: beach,
+  boat: boat,
+  bus: bus,
+  cable: cableCar,
+  catamaran: catamaran,
+  food: food,
+  guide: guide,
+  hotel: hotel,
+  map: map,
+  offroad: offroad,
+  plane: plane,
+  ticket: ticket,
+  wine: wine
 }
 
-const Icon = ({ type, className, fill }) => {
-  const Component = types[type]
+const Icon = ({ icon, className, fill }) => {
+  const Component = types[icon]
 
   return Component ? (
-    <IconWrapper type={type} className={className} fill={fill}>
+    <IconWrapper className={className} fill={fill}>
       <Component />
     </IconWrapper>
   ) : null
