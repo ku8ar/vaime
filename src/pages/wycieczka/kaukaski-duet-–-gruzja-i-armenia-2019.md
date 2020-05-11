@@ -131,7 +131,7 @@ priceContains:
     text: Śniadania i obiadokolacje
   - icon: ""
     text: Degustację wina
-  - icon: ""
+  - icon: guide
     text: Usługi polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy klimatyzowany bus
@@ -140,7 +140,7 @@ priceContains:
   - icon: ""
     text: Ubezpieczenie turystyczne
 priceNotContains:
-  - icon: plane
+  - icon: ticket
     text: Biletu lotniczego
   - icon: food
     text: Dodatkowych posiłków i napojów nie zawartych w programie
