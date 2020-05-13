@@ -24,9 +24,9 @@ const theme = {
   marginXxs: '.25rem',
   // font weight
   weightBolder: 900,
-  weightBold: 700,
+  weightBold: 800,
   weightNormal: 500,
-  weightThin: 400,
+  weightThin: 300,
   // font spacing
   spacingBig: '.2rem',
   spacingSmall: '.03rem',
@@ -35,8 +35,8 @@ const theme = {
   // shadow
   shadowDark: '0px 10px 18px 2px rgba(0,0,0,0.3)',
   // font
-  fontNormal: '16px',
-  fontFamily: '"Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"',
+  fontNormal: '14px',
+  fontFamily: '"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"',
   ...media
 }
 

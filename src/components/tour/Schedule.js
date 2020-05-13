@@ -54,7 +54,7 @@ const Place = styled(H6)`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: ${p => p.theme.weightBold};
   margin-top: .5rem;
 `
 

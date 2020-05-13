@@ -27,7 +27,7 @@ const FaqIcon = styled.div`
   margin-right: .5rem;
   margin-top: 1.8rem;
   font-size: .7rem;
-  font-weight: bolder;
+  font-weight: ${p => p.theme.weightBolder};
   transform: rotate(${p => p.open ? 360 : 270}deg);
   transition: transform 0.3s;
 `

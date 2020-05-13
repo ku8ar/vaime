@@ -73,7 +73,7 @@ const Arrow = styled.div`
   cursor: pointer;
   top: 0;
   bottom: calc(4rem + 2px);
-  font-weight: 400;
+  font-weight: ${p => p.theme.weightThin};
   user-select: none;
   opacity: .3;
 
