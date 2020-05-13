@@ -13,7 +13,7 @@ thumb: /img/IMG_2318jpg (1).JPG
 images:
   - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi
-map: /img/majówka-5-.png
+map: /img/majówka_gruz.wakacje_winobranie-3-.png
 schedule:
   - day: 1
     place: 07/07 - Tbilisi
