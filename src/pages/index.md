@@ -22,11 +22,11 @@ images:
 team:
   - image: /img/maja.jpg
     name: Maia Varshanidze
-    place: .
+    place: ""
     text: ""
   - image: /img/ja.jpg
     name: Nini Karosanidze
-    place: .
+    place: ""
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg

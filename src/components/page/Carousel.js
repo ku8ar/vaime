@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react'
+import React, { useState, useCallback, useMemo, useEffect } from 'react'
 import {path} from 'rambda'
 import styled, { createGlobalStyle } from 'styled-components'
 import ReactCarousel, { Dots } from '@brainhubeu/react-carousel'
@@ -24,11 +24,27 @@ const Carousel = ({ images }) => {
   const goPrev = useCallback(() => onChange(value === 0 ? imgs.length - 1 : value - 1), [value, imgs.length])
   const goNext = useCallback(() => onChange(value === imgs.length - 1 ? 0 : value + 1), [value, imgs.length])
 
+  useEffect(() => {
+    const keyboardEvent = (event) => {
+      const keyName = event.key
+      if (keyName === 'ArrowLeft') {
+        onChange(value => value === 0 ? imgs.length - 1 : value - 1)
+      }
+      if (keyName === 'ArrowRight') {
+        onChange(value => value === imgs.length - 1 ? 0 : value + 1)
+      }
+    }
+
+    document.addEventListener('keydown', keyboardEvent)
+
+    return () => document.removeEventListener('keydown', keyboardEvent)
+  }, [imgs])
+
   return (
     <Wrapper>
       <GlobalStyle />
-      <ArrowLeft onClick={goPrev}>{`<`}</ArrowLeft>
-      <ArrowRight onClick={goNext}>{`>`}</ArrowRight>
+      <ArrowLeft onClick={goPrev}>{`◀`}</ArrowLeft>
+      <ArrowRight onClick={goNext}>{`▶`}</ArrowRight>
       <ReactCarousel
         value={value}
         slides={slides}
@@ -64,7 +80,7 @@ const Arrow = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 5rem;
+  font-size: 3rem;
   width: 4rem;
   color: white;
   ${p => p.theme.mobile`

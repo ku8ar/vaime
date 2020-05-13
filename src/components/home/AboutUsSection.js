@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {path} from 'rambda'
+import { path } from 'rambda'
 import { View, H2 } from '../Base'
 
 const Wrapper = styled.div`
@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 const Content = styled(View)`
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2.5rem;
 `
 
@@ -38,17 +38,18 @@ const BgWrapper = styled.div`
   `}
 `
 
-export default ({image, children}) => {
+export default ({title, image, children }) => {
   if (!children) return null
   const img = path('childImageSharp.fluid.src', image) || image
   return (
     <Wrapper>
       <Content>
         <ContentWrapper>
+          <H2 color='colorPrimary'>{title}</H2>
           {children}
         </ContentWrapper>
       </Content>
-      <BgWrapper style={{backgroundImage: `url(${img})`}} />
+      <BgWrapper style={{ backgroundImage: `url(${img})` }} />
     </Wrapper>
   )
 }

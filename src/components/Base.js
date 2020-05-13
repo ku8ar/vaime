@@ -17,7 +17,7 @@ export const Grid = styled.div`
 
 export const View = styled.div`
   width: 100%;
-  max-width: 1240px;
+  max-width: 1140px;
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;

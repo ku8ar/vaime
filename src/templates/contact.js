@@ -20,7 +20,7 @@ const RightColumn = styled(Column)`
   `}
 `
 
-export const StandardPageTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
+export const StandardContactTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
   return (
@@ -33,7 +33,6 @@ export const StandardPageTemplate = ({ title, images, html, background, qa, cont
       <Grid>
         <Column size={50}>
           <Section><HtmlComponent content={html} /></Section>
-
         </Column>
         <RightColumn size={50}>
         <Section>
@@ -57,7 +56,7 @@ const StandardPage = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
     <Layout title={title} description={description}>
-      <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
+      <StandardContactTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
 }
