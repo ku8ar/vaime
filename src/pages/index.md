@@ -24,7 +24,7 @@ team:
     name: Maia Varshanidze
     place: ""
     text: ""
-  - image: /img/ja.jpg
+  - image: /img/97186449_253732709078042_8827046031171518464_n.jpg
     name: Nini Karosanidze
     place: ""
     text: ""
