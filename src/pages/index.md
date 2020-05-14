@@ -30,7 +30,7 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
-promoImage: /img/ulotka-druga-mapka-1-.png
+promoImage: /img/samegrelo-სამეგრელო-gdzie-jechać_-anaklia-martwili-lebarde-co-zjeść_-ser-sulguni-elardżi-gebżalia.png
 ---
 Witamy w naszym biurze!  \
 Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróżowania. Studiowałyśmy turystykę w Polsce, Poznaniu, a po powrocie do Gruzji założyłyśmy własne biuro podróży.  
