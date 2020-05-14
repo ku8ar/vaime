@@ -33,10 +33,9 @@ aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 promoImage: /img/ulotka-druga-mapka-1-.png
 ---
 Witamy w naszym biurze!  \
-Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróżowania. Studiowałyśmy turystykę na uczelniach wyższych w Polsce, Poznaniu, a po powrocie do Gruzji założyłyśmy własne biuro podróży.  
+Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróżowania. Studiowałyśmy turystykę w Polsce, Poznaniu, a po powrocie do Gruzji założyłyśmy własne biuro podróży.  
 
-Vaime Travel to nasze lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze sraramy się dostosować się do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też indywidualne, na życzenie.
-\
+Vaime Travel to nasze lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze sraramy się dostosować się do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też indywidualne, na życzenie. \
 Zapraszamy , zwiedźcie Gruzję razem z nami!
 
 Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg?view_as=subscriber)
