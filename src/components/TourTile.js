@@ -148,7 +148,7 @@ const TourDates = styled.div`
 `
 
 const TourInfo = styled.p`
-  background-color: ${p => p.disabled ? p.theme.colorGreyDark : p.theme.colorPrimary};
+  background-color: ${p => p.disabled ? p.theme.colorSecondaryTransparent : p.theme.colorPrimary};
   color: ${path('theme.colorWhite')};
   font-size: 12px;
   text-transform: uppercase;
