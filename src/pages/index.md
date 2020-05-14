@@ -32,10 +32,11 @@ aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 promoImage: /img/ulotka-druga-mapka-1-.png
 ---
-Mamy na imię Nini i Mają, jesteśmy z Gruzji i prowadzimy biuro podróży VAIME TRAVEL.  Organizujemy wycieczki objazdowe, trekkingowe, kulturowe, gastronomiczne, winne oraz rodzinne po Gruzji i Armenii. Różnorodność naszych programów pozwoli każdemu za znalezienie czegoś dla siebie.\
+Witamy w naszym biurze!  \
+Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróżowania. Studiowałyśmy turystykę na uczelniach wyższych w Polsce, Poznaniu, a po powrocie do Gruzji założyłyśmy własne biuro podróży.  
+
+Vaime Travel to nasze lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze sraramy się dostosować się do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też indywidualne, na życzenie.
 \
-Zapraszamy, zwiedźcie Gruzję razem z nami! 
-\
-Nini i Maja. 
+Zapraszamy , zwiedźcie Gruzję razem z nami!
 
 Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg?view_as=subscriber)
