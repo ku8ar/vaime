@@ -36,6 +36,6 @@ Witamy w naszym biurze!  \
 Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróży, historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, w Poznaniu, a po powrocie do Gruzji założyłyśmy własne biuro podróży.  
 
 Vaime Travel to nasze lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze staramy się dostosować się do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też indywidualne, na życzenie. \
-Zapraszamy , zwiedźcie Gruzję razem z nami!
+Zapraszamy, zwiedźcie Gruzję razem z nami!
 
 Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg?view_as=subscriber)
