@@ -20,7 +20,7 @@ images:
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
 team:
-  - image: /img/maja.jpg
+  - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maia Varshanidze
     place: ""
     text: ""
