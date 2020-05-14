@@ -80,12 +80,16 @@ export default ({ slug, tour }) => {
         <H6>{title}</H6>
         <TourColumn>
           <HeartIcon src={heart} />
-          <H6 color='colorPrimary'>{price} EUR</H6>
+          <Price color='colorPrimary'>{price} EUR</Price>
         </TourColumn>
       </BottomLabel>
     </LinkWrapper>
   )
 }
+
+const Price = styled(H6)`
+  font-weight: ${p => p.theme.weightBolder};
+`
 
 const LinkWrapper = styled(Link)`
   display: flex;
