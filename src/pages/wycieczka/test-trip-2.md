@@ -13,7 +13,7 @@ thumb: /img/batumi-kolo.jpg
 images:
   - image: /img/108.jpg
     name: tbilisi
-map: /img/majówka_gruz.wakacje_winobranie-2-.png
+map: /img/majowka.png
 schedule:
   - day: 1
     place: 27/04 - Kutasi
