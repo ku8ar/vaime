@@ -4,7 +4,7 @@ import Image from '../Image'
 import { boxStyle } from '../Base'
 
 const Map = styled(Image)`
-  ${boxStyle}
+  background: transparent;
   width: 100%;
 `
 
