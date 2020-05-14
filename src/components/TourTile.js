@@ -70,7 +70,7 @@ export default ({ slug, tour }) => {
         <BgCover fluid={fluid} style={imgStyle} alt={title} />
         <TourContent>
           <TourDates>
-            <TourInfo>{subtitle}</TourInfo>
+            <TourInfo disabled={disabled}>{subtitle}</TourInfo>
           </TourDates>
           <TourButton>Więcej</TourButton>
           {disabled && <Outdated>WYPRZEDANE</Outdated>}
@@ -94,7 +94,7 @@ const LinkWrapper = styled(Link)`
   height: 22rem;
   box-shadow: 0 2px 4px 0 rgba(23,27,30,.1);
   border-radius: ${props => props.theme.radiusSmall};
-  margin: ${ props => props.theme.marginM} ${props => props.theme.marginS};
+  margin: 2rem 1rem 1rem 2rem;
   background-color: ${props => props.theme.colorWhite};
   text-decoration: none;
   transition: box-shadow .3s ease-out;
@@ -148,12 +148,11 @@ const TourDates = styled.div`
 `
 
 const TourInfo = styled.p`
-  background-color: ${path('theme.colorPrimary')};
+  background-color: ${p => p.disabled ? p.theme.colorGreyDark : p.theme.colorPrimary};
   color: ${path('theme.colorWhite')};
   font-size: 12px;
   text-transform: uppercase;
   padding: .5rem;
-  background: ${p => p.theme.colorPrimary};
   font-weight: ${p => p.theme.weightBold};
 `
 

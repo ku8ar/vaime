@@ -6,7 +6,6 @@ import Image from '../Image'
 const Promo = styled(Image)`
   width: 100%;
   height: 100%;
-  max-width: 1000px;
   margin: auto;
   ${p => p.theme.mobile`
     
