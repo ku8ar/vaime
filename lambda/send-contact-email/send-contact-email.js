@@ -2,16 +2,15 @@
 const sgMail = require('@sendgrid/mail')
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
-const CONTACT_EMAIL = 'juszczykjakub@gmail.com'
 
 exports.handler = (event, context, callback) => {
 
   try {
-    const { description, adults, children, email, name, surname, phone, accomodation, extraPayment } = JSON.parse(event.body)
+    const { description, adults, children, email, name, surname, phone, accomodation, extraPayment, startDate, endDate } = JSON.parse(event.body)
 
     const msg = {
-      to: CONTACT_EMAIL,
-      from: 'juszczykjakub@gmail.com',
+      to: process.env.TO_EMAIL,
+      from: process.env.FROM_EMAIL,
       subject: 'New tour',
       text: 'New tour',
       html: `
@@ -23,6 +22,8 @@ exports.handler = (event, context, callback) => {
         <p>phone: ${phone}</p>
         <p>accomodation: ${accomodation ? 'yes' : 'no'}</p>
         <p>extraPayment: ${extraPayment ? 'yes' : 'no'}</p>
+        <p>startDate: ${startDate}</p>
+        <p>endDate: ${endDate}</p>
         <p>description: ${description}</p>
       `,
     };
