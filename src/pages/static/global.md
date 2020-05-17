@@ -16,7 +16,6 @@ navigation:
     to: /kontakt
 phoneNumbers:
   - +995 558 206 038
-  - +48 730 665 176
   - +995 555 628 887
 socialLinks:
   - src: https://www.facebook.com/VaimeTravelgpp/
