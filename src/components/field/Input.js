@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { useField } from './hooks'
+import { useField, useError } from './hooks'
 import Field from './Field'
 
 const inputCss = css`
@@ -26,18 +26,26 @@ const TextAreaStyled = styled.textarea`
   resize: vertical;
 `
 
-export const Input = ({ field, icon, error, ...props }) => {
-  const [value, onChange] = useField(field)
+export const Input = ({ field, icon, type, ...props }) => {
+  const [value, , setValue] = useField(field)
+  const error = useError(field)
+
+  const onChange = e => {
+    const value = e.target.value
+
+    setValue(type === 'number' ? Number(value) : value)
+  }
 
   return (
     <Field icon={icon} error={error}>
-      <InputStyled {...props} value={value} onChange={onChange} />
+      <InputStyled type={type} {...props} value={value} onChange={onChange} />
     </Field>
   )
 }
 
-export const TextArea = ({ field, icon, error, ...props }) => {
+export const TextArea = ({ field, icon, ...props }) => {
   const [value, onChange] = useField(field)
+  const error = useError(field)
 
   return (
     <Field icon={icon} error={error}>

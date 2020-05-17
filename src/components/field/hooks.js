@@ -9,3 +9,8 @@ export const useField = field => {
 
   return [value, setInputValue, setValue]
 }
+
+export const useError = field => {
+  const { errors } = useContext(FormContext)
+  return errors[field]
+}

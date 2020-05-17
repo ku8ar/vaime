@@ -1,22 +1,68 @@
-import React, { useState } from 'react'
-import { prop } from 'rambda'
+import React, { useState, useEffect, useCallback } from 'react'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
 import { Input, TextArea } from '../field/Input'
 import Checkbox from '../field/Checkbox'
+import Select from '../field/Select'
 import Form from '../field/Form'
 import FieldSection from '../field/FieldSection'
 import PriceSummary from '../field/PriceSummary'
+import TourInfo from '../field/TourInfo'
+import { calcDate } from '../../utils/date'
 
-export default ({ startDate, endDate, seats }) => {
-  const [values, setValues] = useState({})
+export default ({ title, thumb, terms }) => {
+  const [values, setValues] = useState({
+    date: 0
+  })
   const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const price = 0
-  const adults = Number(prop('adults', values)) || 1
+  const tour = terms[values.date]
+  const { seats, price } = tour
+  const adults = Number(values.adults) || 1
+  const options = terms.map(({ startDate, endDate }) => calcDate(startDate, endDate))
+
+  const [errors, setErrors] = useState({})
+  const [sender, setSender] = useState(0)
+
+  useEffect(() => {
+    if (values.email) setErrors({...errors, email: null})
+  }, [values.email])
+
+  useEffect(() => {
+    if (values.approve) setErrors({ ...errors, approve: null })
+  }, [values.approve])
+
+  useEffect(() => {
+    if (values.accomodation || values.extraPayment) setErrors({ ...errors, extraPayment: null })
+  }, [values.accomodation, values.extraPayment])
+
+  useEffect(() => {
+    if (values.adults) setErrors({ ...errors, adults: null })
+  }, [values.adults])
+
+  const send = useCallback(() => {
+    setErrors({
+      email: !values.email && 'Wprowadź dane',
+      approve: !values.approve && 'Potrzebujemy Twojej zgody',
+      extraPayment: values.adults === 1 && !values.accomodation && !values.extraPayment && 'Zaznacz przynajmniej jedną z opcji',
+      adults: !values.adults && 'Wprowadź dane'
+    })
+    setSender(s => s + 1)
+  }, [values, errors])
+
+  useEffect(() => {
+    if (sender && !Object.values(errors).filter(Boolean).length) {
+      alert('SEND')
+    }
+  }, [sender])
+
+  const alone = values.adults === 1
 
   return (
-    <Form values={values} setValues={setValues}>
+    <Form values={values} errors={errors} setValues={setValues}>
+      <TourInfo title={title} thumb={thumb}>
+        <Select field="date" options={options} />
+      </TourInfo>
       <FieldSection title="Dane Osoby Rezerwującej">
         <Row>
           <SmallCell><Input field='name' type='text' placeholder='Imię' /></SmallCell>
@@ -29,10 +75,16 @@ export default ({ startDate, endDate, seats }) => {
       </FieldSection>
       <FieldSection title="Liczba Uczestników Wycieczki">
         <Row>
-          <SmallCell><Input field='adults' type='number' placeholder='Dorośli' max={seats} /></SmallCell>
-          <SmallCell><Input field='children' type='number' placeholder='Dzieci (do 6 roku życia)' /></SmallCell>
+          <SmallCell><Input field='adults' type='number' placeholder='Dorośli' min={0} max={seats} /></SmallCell>
+          <SmallCell><Input field='children' type='number' placeholder='Dzieci (do 6 roku życia)' min={0} max={2} /></SmallCell>
         </Row>
       </FieldSection>
+      {alone && (
+        <FieldSection title="Podrózuję sam, zgadzam się na">
+          <Row><BigCell><Checkbox field='accomodation' label='Dokwaterowanie do drugiej osoby' /></BigCell></Row>
+          <Row><BigCell><Checkbox field='extraPayment' label='Dopłatę w wys. 100 EUR za pokój jednoosobowy' /></BigCell></Row>
+        </FieldSection>
+      )}
       <FieldSection title="Preferencje" info="termin, dieta, choroby, preferencje co do pokoju hotelowego, itd...">
         <Row>
           <BigCell><TextArea field='description' placeholder='Dodatkowe informacje' rows={1} /></BigCell>
@@ -48,7 +100,7 @@ export default ({ startDate, endDate, seats }) => {
       <FieldSection last title="Podsumowanie">
         <PriceSummary price={price} adults={adults} />
       </FieldSection>
-      <Row><Button type="submit" disabled={isSubmitting}>Rezerwuj Online*</Button></Row>
+      <Row><Button type="submit" onClick={send}>Rezerwuj Online*</Button></Row>
       <Row><SmallText>*Po dokonaniu rezerwacji skontaktujemy się w ciągu 72h!</SmallText></Row>
     </Form>
   )

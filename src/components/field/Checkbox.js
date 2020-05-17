@@ -1,14 +1,15 @@
 import React, { useCallback } from 'react'
 import styled from 'styled-components'
 import Field from './Field'
-import { useField } from './hooks'
+import { useField, useError } from './hooks'
 
 export default ({ field, ...props }) => {
   const [value, , onChangeValue] = useField(field)
-  const onChange = useCallback(() => { onChangeValue(!value) }, [value])
+  const error = useError(field)
+  const onChange = useCallback(() => { onChangeValue(!value) }, [onChangeValue, value])
 
   return (
-    <Field>
+    <Field error={error}>
       <Wrapper>
         <Checkbox
           checked={value}

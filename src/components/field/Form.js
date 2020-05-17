@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 export const FormContext = React.createContext()
 
-export default ({ values, setValues, children }) => (
-  <FormContext.Provider value={{ values, setValues }} setValues={setValues}>
+export default ({ values, errors, setValues, children }) => (
+  <FormContext.Provider value={{ values, errors, setValues }} setValues={setValues}>
     <FormWrapper>
       {children}
     </FormWrapper>
