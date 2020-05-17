@@ -65,8 +65,13 @@ export default ({ title, thumb, terms }) => {
         },
         body: JSON.stringify(body)
       })
-        .then(() => {
-          setIsSended(true)
+        .then(response => {
+          if (response.ok) {
+            setIsSended(true)
+          } else {
+            setIsSubmitting(false)
+            alert('Wystąpił błąd.')
+          }
         })
         .catch(() => {
           setIsSubmitting(false)

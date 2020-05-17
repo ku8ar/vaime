@@ -13,10 +13,10 @@ exports.handler = (event, context, callback) => {
       to: CONTACT_EMAIL,
       from: 'juszczykjakub@gmail.com',
       subject: 'New tour',
-      text: '',
+      text: 'New tour',
       html: `
         <p>adults: ${adults}</p>
-        <p>children: ${children}</p>
+        <p>children: ${children || 0}</p>
         <p>email: ${email}</p>
         <p>name: ${name}</p>
         <p>surname: ${surname}</p>
