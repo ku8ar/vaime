@@ -9,7 +9,7 @@ exports.handler = (event, context, callback) => {
 
   const msg = {
     to: CONTACT_EMAIL,
-    from: body.email,
+    from: 'juszczykjakub@gmail.com',
     subject: 'sendgrid',
     text: 'and easy to do anywhere, even with Node.js',
     html: event.body,
