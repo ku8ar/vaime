@@ -12,5 +12,5 @@ export const useField = field => {
 
 export const useError = field => {
   const { errors } = useContext(FormContext)
-  return errors[field]
+  return (errors || {})[field]
 }
