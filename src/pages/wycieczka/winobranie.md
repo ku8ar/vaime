@@ -127,6 +127,6 @@ priceNotContains:
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić z bankomatu
-* Ubiór: Lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń), wygodnia odzież do pracy w winnicy (zbieranie winogron)
+* Ubiór: Lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy w winnicy (zbieranie winogron)
 * Lekki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
 * Internet: Wi Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z internetem (ok. 15 GEL)
