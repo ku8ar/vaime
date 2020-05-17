@@ -15,6 +15,7 @@ export default ({ title, thumb, terms }) => {
     date: 0
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSended, setIsSended] = useState(false)
 
   const tour = terms[values.date]
   const { seats, price } = tour
@@ -52,23 +53,31 @@ export default ({ title, thumb, terms }) => {
 
   useEffect(() => {
     if (sender && !Object.values(errors).filter(Boolean).length) {
+      setIsSubmitting(true)
+      const { date, ...tourDetails } = values
+      const { startDate, endDate } = terms[date]
+      const body = { ...tourDetails, startDate, endDate }
       fetch("/.netlify/functions/send-contact-email", {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(values)
+        body: JSON.stringify(body)
       })
-        .then(response => response.json())
-        .then(alert)
-        .catch(alert)
+        .then(() => {
+          setIsSended(true)
+        })
+        .catch(() => {
+          setIsSubmitting(false)
+          alert('Wystąpił błąd.')
+        })
     }
   }, [sender])
 
   const alone = values.adults === 1
 
-  return (
+  return !isSended ? (
     <Form values={values} errors={errors} setValues={setValues}>
       <TourInfo title={title} thumb={thumb}>
         <Select field="date" options={options} />
@@ -110,9 +119,15 @@ export default ({ title, thumb, terms }) => {
       <FieldSection last title="Podsumowanie">
         <PriceSummary price={price} adults={adults} />
       </FieldSection>
-      <Row><Button type="submit" onClick={send}>Rezerwuj Online*</Button></Row>
+      <Row><Button type="submit" onClick={send} disabled={isSubmitting}>Rezerwuj Online*</Button></Row>
       <Row><SmallText>*Po dokonaniu rezerwacji skontaktujemy się w ciągu 72h!</SmallText></Row>
     </Form>
+  ) : (
+    <SendedWrapper>
+      <SendedTitle>
+        Rezerwacja została zgłoszona
+      </SendedTitle>
+    </SendedWrapper>
   )
 }
 
@@ -145,3 +160,13 @@ const SmallCell = styled.div`
     width: 100%;
   `}
 `
+
+const SendedWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+`
+
+const SendedTitle = styled.h4``

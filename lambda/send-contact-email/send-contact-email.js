@@ -5,23 +5,42 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 const CONTACT_EMAIL = 'juszczykjakub@gmail.com'
 
 exports.handler = (event, context, callback) => {
-  const body = JSON.parse(event.body)
 
-  const msg = {
-    to: CONTACT_EMAIL,
-    from: 'juszczykjakub@gmail.com',
-    subject: 'sendgrid',
-    text: 'and easy to do anywhere, even with Node.js',
-    html: event.body,
-  };
-  sgMail.send(msg).then(
-    () =>       callback(null, {
-      statusCode: 200,
-      body: ''
-    }),
-    error => callback(null, {
-      statusCode: 500,
-      body: JSON.stringify(error)
+  try {
+    const { description, adults, children, email, name, surname, phone, accomodation, extraPayment } = JSON.parse(event.body)
+
+    const msg = {
+      to: CONTACT_EMAIL,
+      from: 'juszczykjakub@gmail.com',
+      subject: 'New tour',
+      text: '',
+      html: `
+        <p>adults: ${adults}</p>
+        <p>children: ${children}</p>
+        <p>email: ${email}</p>
+        <p>name: ${name}</p>
+        <p>surname: ${surname}</p>
+        <p>phone: ${phone}</p>
+        <p>accomodation: ${accomodation ? 'yes' : 'no'}</p>
+        <p>extraPayment: ${extraPayment ? 'yes' : 'no'}</p>
+        <p>description: ${description}</p>
+      `,
+    };
+    sgMail.send(msg).then(
+      () =>       callback(null, {
+        statusCode: 200,
+        body: ''
+      }),
+      error => callback(null, {
+        statusCode: 500,
+        body: JSON.stringify(error)
+      })
+    )
+  } catch (e) {
+    callback(null, {
+      statusCode: 400,
+      body: JSON.stringify(e)
     })
-  )
+  }
+
 }
