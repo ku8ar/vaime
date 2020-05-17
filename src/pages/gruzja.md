@@ -2,7 +2,6 @@
 templateKey: page
 title: O Gruzji
 description: Informacje o Gruzji
-background: ""
 images:
   - image: /img/451.jpg
     name: Swaneti
