@@ -111,7 +111,7 @@ priceNotContains:
 * Trasa wycieczki: ok. 1300 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: dowód osobisty lub paszport
-* Warunki pogodowe: w terenach górskich ok. +15°C, w terenac nizinnych ok. +25°C
+* Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +25°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić z bankomatu
 * Ubiór: Lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzanie świątyń)
 * Internet: Wi Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z internetem (ok. 15 GEL)
