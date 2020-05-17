@@ -145,4 +145,17 @@ priceNotContains:
   - icon: food
     text: Dodatkowych posiłków i napojów nie zawartych w programie
 ---
-Trasa wycieczki – ok. 1500 km
+* Trasa wycieczki: ok. 2000 km
+* Stopień trudności: łatwy
+* Potrzebne dokumenty: paszport 
+* Warunki pogodowe: 
+
+  * w sezonie letnim - w terenach górskich ok. +20°C, w terenach nizinnych ok. +35°C;
+  * w sezonie jesiennym - w terenach górskich ok. +15°C, w terenach nizinnych ok. +30°C
+* Waluta: 
+
+  * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić z bankomatu;  
+  * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić z bankomatu
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz (można kupic też na miejscu)
+* Internet: Wi Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)
