@@ -108,4 +108,10 @@ priceNotContains:
   - icon: food
     text: Dodatkowych posiłków i napojów nie zawartych w programie
 ---
-Trasa wycieczki – łącznie ok. 1300 km
+Trasa wycieczki: ok. 1300 km\
+Stopień trudności: łatwy\
+Potrzebne dokumenty: dowód osobisty lub paszport\
+Warunki pogodowe: w terenach górskich ok. +15°C, w terenac nizinnych ok. +25°C\
+Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić z bankomatu\
+Ubiór: Lekki, wygodne obuwie do chodzenia, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzanie świątyń)\
+Internet: Wi Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z internetem (ok. 15 GEL)
