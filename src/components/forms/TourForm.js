@@ -25,7 +25,7 @@ export default ({ title, thumb, terms }) => {
   const [sender, setSender] = useState(0)
 
   useEffect(() => {
-    if (values.email) setErrors({...errors, email: null})
+    if (values.email) setErrors({ ...errors, email: null })
   }, [values.email])
 
   useEffect(() => {
@@ -52,7 +52,17 @@ export default ({ title, thumb, terms }) => {
 
   useEffect(() => {
     if (sender && !Object.values(errors).filter(Boolean).length) {
-      alert('SEND')
+      fetch("/.netlify/functions/send-contact-email", {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(values)
+      })
+        .then(response => response.json())
+        .then(alert)
+        .catch(alert)
     }
   }, [sender])
 
