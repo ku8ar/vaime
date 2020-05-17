@@ -14,7 +14,7 @@ terms:
     price: 570
     seats: 8
     startDate: 2020-10-03T18:43:00.496Z
-thumb: /img/sevan.jpg
+thumb: /img/khor-virap-1781518.jpg
 images:
   - image: /img/img_2140jpg-1-.jpg
     name: Wardzia
