@@ -158,4 +158,4 @@ priceNotContains:
   * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić z bankomatu
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można kupic też na miejscu)
-* Internet: Wi Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)
+* Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)
