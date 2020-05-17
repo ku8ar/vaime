@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import comment from '../img/comment.svg'
-import person from '../img/person.svg'
-import edit from '../img/edit.svg'
-import envelope from '../img/envelope.svg'
+import comment from '../../img/comment.svg'
+import person from '../../img/person.svg'
+import edit from '../../img/edit.svg'
+import envelope from '../../img/envelope.svg'
 
 const icons = {
   comment,

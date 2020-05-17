@@ -1,23 +1,24 @@
 import React, { useCallback } from 'react'
 import styled from 'styled-components'
+import Field from './Field'
+import { useField } from './hooks'
 
-export default ({ ...props }) => {
-  const value = props.form.values[props.field.name]
-
-  const onChange = useCallback(() => {
-    props.form.setFieldValue(props.field.name, !value)
-  }, [])
+export default ({ field, ...props }) => {
+  const [value, , onChangeValue] = useField(field)
+  const onChange = useCallback(() => { onChangeValue(!value) }, [value])
 
   return (
-    <Wrapper>
-      <Checkbox
-        checked={value}
-        {...props}
-        {...props.field}
-        onChange={onChange}
-      />
-      <Label>{props.label}</Label>
-    </Wrapper>
+    <Field>
+      <Wrapper>
+        <Checkbox
+          checked={value}
+          {...props}
+          onChange={onChange}
+        />
+        <Label>{props.label}</Label>
+      </Wrapper>
+    </Field>
+
   )
 }
 
@@ -38,7 +39,6 @@ const Label = styled.span`
 const CheckboxContainer = styled.div`
   display: inline-block;
   vertical-align: middle;
-  padding-left: .5rem;
 `
 
 const Icon = styled.svg`

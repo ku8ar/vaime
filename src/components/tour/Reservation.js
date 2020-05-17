@@ -4,7 +4,6 @@ import RightModal from '../modals/RightModal'
 import TourForm from '../forms/TourForm'
 import Image from '../Image'
 import { H4, H5, P } from '../Base'
-import { FormInput } from '../Form'
 
 export default ({ open, onClose, title, thumb, ...props }) => {
   const { startDate, endDate, price, seats } = props

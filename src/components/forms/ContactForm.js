@@ -1,14 +1,18 @@
-import React, { useCallback } from 'react'
-import Form from '../Form'
-
-const fieldset = [
-  {type: 'text', name:'name', placeholder: 'Imię, nazwisko', icon: 'person'},
-  {type: 'email', name:'email', placeholder: 'Twój e-mail', icon: 'envelope'},
-  {type: 'text', name:'title', placeholder: 'Temat', icon: 'comment'},
-  {type: 'textarea', name:'description', placeholder: 'Twoja wiadomość', rows: 20}
-]
+import React, { useState } from 'react'
+import Form from '../field/Form'
+import { Input, TextArea } from '../field/Input'
+import { Button } from '../Base'
 
 export default () => {
-  const onSubmit = useCallback(() => {}, [])
-  return <Form fieldset={fieldset} onSubmit={onSubmit} />
+  const [values, setValues] = useState({})
+
+  return (
+    <Form values={values} setValues={setValues}>
+      <Input field='name' type='text' placeholder='Imię, nazwisko' icon='person' />
+      <Input field='email' type='text' placeholder='Twój e-mail' icon='envelope' />
+      <Input field='title' type='text' placeholder='Temat' icon='comment' />
+      <TextArea field='surname' placeholder='Twoja wiadomość' icon='Twoja wiadomość' />
+      <Button>Wyślij</Button>
+    </Form>
+  )
 }
