@@ -18,7 +18,7 @@ const Wrapper = styled(Column)`
     height: calc(100% - 4rem);
     display: block;
     content: '';
-    left: calc(1.5rem - 1px);
+    left: calc(1rem - 1px);
     top: 1rem;
     margin-left: 0;
   }
@@ -40,7 +40,7 @@ const DayCircle = styled.div`
   align-items: center;
   color: ${p => p.theme.colorWhite};
   background-color: ${p => p.theme.colorPrimary};
-  margin: 0 ${p => p.theme.marginS} 0 ${p => p.theme.marginXs};
+  margin: 0 ${p => p.theme.marginS} 0 0;
   border: 2px solid ${p => p.theme.colorPrimary};
   width: 2rem;
   height: 2rem;
