@@ -9,7 +9,7 @@ terms:
     daysCount: 8 DNI/9 NOCY
     startDate: 2020-07-06T20:00:00.000Z
     endDate: 2020-07-14T20:00:00.000Z
-thumb: /img/IMG_2318jpg (1).JPG
+thumb: /img/img_1549jpg.jpg
 images:
   - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
     name: Kazbegi
