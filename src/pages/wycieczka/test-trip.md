@@ -114,5 +114,5 @@ priceNotContains:
 * Warunki pogodowe: w terenach górskich ok. +20°C, w terenach nizinnych ok. +32°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić z bankomatu
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń)
-* Lekki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
