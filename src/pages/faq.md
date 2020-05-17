@@ -2,11 +2,10 @@
 templateKey: page
 title: FAQ
 description: Pytania i odpowiedzi
+background: null
 images:
   - image: /img/map.PNG
     name: mapa gruzji
-background:
-carousel:
 qa:
   - answer: >
       Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to
@@ -62,20 +61,17 @@ qa:
       mając przy sobie jedynie dowód osobisty, ważny przez co najmniej 3 mies.
       od daty przekroczenia granicy gruzińskiej. Oczywiście miłośnicy
       podróżniczych pieczątek mogą wziąć paszport.
-    question: 'Jakie dokumenty są wymagane przy przekroczeniu granicy? '
+    question: "Jakie dokumenty są wymagane przy przekroczeniu granicy? "
   - answer: >
       Wizzair Z Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku
       już z Krakowa i Poznania, kilka razy w tygodniu są loty do Kutaisi, do
-      zachodniej części kraju. Wizzair lata również z Berlina do Kutaisi.
-      Sprawdź tu
+      zachodniej części kraju. Wizzair lata również z Berlina do Kutaisi. 
 
-      Polskie Linie Lotnicze Latem LOT z Warszawy do Tbilisi lata prawie
-      codziennie! Sprawdź tu
+      Polskie Linie Lotnicze Latem LOT z Warszawy do Tbilisi lata prawie codziennie! 
 
-      Ukraińskie Linie Lotnicze Lot codziennie, z Warszawy do Tbilisi z
-      przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć
-      również z Krakowa do Tbilisi. Sprawdź tu
+      Ukraińskie Linie Lotnicze Lot codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
     question: Gdzie znaleźć tanie połączenia do Gruzji?
+carousel: null
 ---
 
 **Masz inne pytania?** [Napisz do nas!](/kontakt)
