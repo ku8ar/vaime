@@ -27,7 +27,6 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         <Column size={70}>
           <Section><Faq list={qa} /></Section>
           <Section><HtmlComponent content={html} /></Section>
-          <Section><Carousel images={carousel} /></Section>
         </Column>
         <Column size={30}>
           <Section>
@@ -36,6 +35,11 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
           <Section>
             <Instagram />
           </Section>
+        </Column>
+      </Grid>
+      <Grid>
+        <Column size={100}>
+          <Section><Carousel images={carousel} /></Section>
         </Column>
       </Grid>
       <Cookies />
