@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { View, P } from '../Base'
-import marker from '../../img/marker.svg'
-import car from '../../img/car.svg'
-import user from '../../img/user.svg'
+import Compass from '../../icons/compass'
+import User from '../../icons/user'
+import BusCircle from '../../icons/busCircle'
 
 const data = [
-  {img: marker, label: 'Zwiedzanie', description: 'Najlepsze atrakcje Gruzji i Armenii'},
-  {img: user, label: 'Zespół', description: 'Wykwalifikowani przewodnicy i kierowcy'},
-  {img: car, label: 'Komfortowa podróż', description: 'Kameralne grupy'}
+  {Icon: Compass, label: 'Zwiedzanie', description: 'Najlepsze atrakcje Gruzji i Armenii'},
+  {Icon: User, label: 'Zespół', description: 'Wykwalifikowani przewodnicy i kierowcy'},
+  {Icon: BusCircle, label: 'Komfortowa podróż', description: 'Kameralne grupy'}
 ]
 
 const Wrapper = styled.div`
@@ -28,7 +28,7 @@ const InfoWrapper = styled.div`
   align-items: flex-start;
 `
 
-const Icon = styled.img`
+const IconWrapper = styled.div`
   height: 3rem;
   margin-right: 1rem;
 `
@@ -36,7 +36,7 @@ const Icon = styled.img`
 const Column = styled.div``
 
 const Title = styled(P)`
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0;
   color: ${p => p.theme.colorSecondary}
 `
@@ -45,9 +45,11 @@ const Description = styled(P)`
   margin-bottom: 0;
 `
 
-const InfoItem = ({img, label, description}) => (
+const InfoItem = ({Icon, label, description}) => (
   <InfoWrapper>
-    <Icon src={img} />
+    <IconWrapper>
+      <Icon />
+    </IconWrapper>
     <Column>
       <Title>{label}</Title>
       <Description>{description}</Description>

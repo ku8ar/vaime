@@ -51,6 +51,7 @@ const PhoneImg = styled.img`
 const PhoneNo = styled.a`
   color: ${p => p.theme.colorWhite};
   font-weight: ${p => p.theme.weightBold};
+  font-size: ${p => p.theme.fontBig};
   margin-right: 1rem;
   display: flex;
 `
@@ -86,7 +87,7 @@ const NavItem = styled(Link)`
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 1rem;
-  line-height: 2.3;
+  line-height: 2.75;
   &:hover {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
