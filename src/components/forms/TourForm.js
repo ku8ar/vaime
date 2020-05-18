@@ -41,6 +41,14 @@ export default ({ title, thumb, terms }) => {
     if (values.adults) setErrors({ ...errors, adults: null })
   }, [values.adults])
 
+  useEffect(() => {
+    if (values.accomodation && values.extraPayment) setValues({...values, extraPayment: false})
+  }, [values.accomodation])
+
+  useEffect(() => {
+    if (values.accomodation && values.extraPayment) setValues({...values, accomodation: false})
+  }, [values.extraPayment])
+
   const send = useCallback(() => {
     setErrors({
       email: !values.email && 'Wprowadź dane',
@@ -120,9 +128,6 @@ export default ({ title, thumb, terms }) => {
             <Checkbox field='approve' label='Zgadzam się na przetwarzanie danych osobowych' />
           </BigCell>
         </Row>
-      </FieldSection>
-      <FieldSection last title="Podsumowanie">
-        <PriceSummary price={price} adults={adults} />
       </FieldSection>
       <Row><Button type="submit" onClick={send} disabled={isSubmitting}>Rezerwuj Online*</Button></Row>
       <Row><SmallText>*Po dokonaniu rezerwacji skontaktujemy się w ciągu 72h!</SmallText></Row>

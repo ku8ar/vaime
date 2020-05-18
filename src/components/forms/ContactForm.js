@@ -8,10 +8,10 @@ export default () => {
 
   return (
     <Form values={values} setValues={setValues}>
-      <Input field='name' type='text' placeholder='Imię, nazwisko' icon='person' />
-      <Input field='email' type='text' placeholder='Twój e-mail' icon='envelope' />
-      <Input field='title' type='text' placeholder='Temat' icon='comment' />
-      <TextArea field='surname' placeholder='Twoja wiadomość' icon='Twoja wiadomość' />
+      <Input field='name' type='text' placeholder='Imię, nazwisko' />
+      <Input field='email' type='text' placeholder='Twój e-mail' />
+      <Input field='title' type='text' placeholder='Temat' />
+      <TextArea field='surname' placeholder='Twoja wiadomość' />
       <Button>Wyślij</Button>
     </Form>
   )
