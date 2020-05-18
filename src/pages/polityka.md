@@ -2,7 +2,6 @@
 templateKey: page
 title: Polityka Prywatności
 description: 'Cookies, Polityka Prywatności'
-background: /img/logo.svg
 images:
   - image: /img/projekt-bez-tytułu-5-.png
     name: prywatność

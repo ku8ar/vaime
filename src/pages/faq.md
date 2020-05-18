@@ -2,7 +2,6 @@
 templateKey: page
 title: FAQ
 description: Pytania i odpowiedzi
-background: null
 images:
   - image: /img/map.PNG
     name: mapa gruzji

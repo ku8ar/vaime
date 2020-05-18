@@ -69,7 +69,6 @@ export const pageQuery = graphql`
           question
           answer
         }
-        background { ...imageFullWidth }
         images {
           name
           image { ...imageFullWidth }
