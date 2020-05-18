@@ -22,33 +22,41 @@ map: /img/kaukasi-duet-5-.png
 schedule:
   - day: 1
     place: Tbilisi
-    text: Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek. Śniadanie.
-      Po śniadaniu zwiedzanie Tbilisi, zaliczymy wszystkie najważniejsze
-      zabytki, będziemy mieli okazję podziwiać fantastyczny widok na miasto z
-      twierdzy Narikala. Kolacja w restauracji z pokazem tańców gruzińskich.
-      Nocleg w Tbilisi.
+    text: "Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek.
+      Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
+      – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli nam na
+      podziwianie panoramy miasta, z twierdzy natomiast otwiera się przepiękny
+      widok na całą stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte
+      uliczki starego Tbilisi, najważniejsze świątynie miasta: katedra Sioni
+      (XVII w), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w).  Kolacja
+      w restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi."
   - day: 2
     place: Tbilisi - Kazbegi - Tbilisi
-    text: Śniadanie. Wyruszamy w kierunku wysokich gór kaukaskich. Naszym pierwszym
-      celem jest przepięknie położona twierdza Ananuri XVI w. Dalej wspinając
-      się coraz wyżej po Gruzińskiej Wojennej Drodze, docieramy do monastyru
-      świętej Trójcy Gergeti, położonego na wys. 2020 m. n.p.m. To jedno z
-      najbardziej rozpoznawalnych miejsc w Gruzji. Na monastyr wjeżdżamy
-      samochodami terenowymi. Po zwiedzaniu powrót do Tbilisi, obiadokolacja,
-      nocleg w Tbilisi.
+    text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
+      Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
+      każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
+      zwiedzanie malowniczej twierdzy Ananuri, która znajduje się nad jeziorem
+      Żinwali oraz przerwa na zdjęcia przy zabytkowym punkcie widokowym w
+      ośrodku narciarskim Gudauri. Dojazd do miejscowości Kazbegi, wjazd
+      samochodami terenowymi na kościół św. Trójcy Gergeti, który jest wizytówką
+      regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
+      można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
+      powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: 3
     place: Tbilisi - Erywań
     text: Po śniadaniu przejazd do Armenii. Na trasie zawitamy do klasztoru Hachpat
-      X w. wpisany na listę UNESCO. Następnie jedziemy nad jezioro Sewan – czeka
-      nas spacer na półwyspie i zwiedzanie monastyru Sewanawank (IX w.).
-      Odpoczynek nad jeziorem. Obiadokolacja. Przejazd do Erywania. Nocleg w
-      hotelu.
+      (X w), który jest wpisany na listę UNESCO i łączy kilka budynków, w tym
+      kościoły, sale muzyczne, bibliotekę itd. Następnie jedziemy nad jezioro
+      Sewan, położone na wys. 1900 m n.p.m. Jest to największe jezioro Armenii,
+      tutaj czeka nas spacer na półwyspie i zwiedzanie monastyru Sewanawank (IX
+      w.). Odpoczynek nad jeziorem. Obiadokolacja. Przejazd do Erywania. Nocleg
+      w hotelu.
   - day: 4
     place: Erywań - Chor Wirap - Eczmiadzyn - Erywań
     text: Śniadanie. Udajemy sie do monastyru Chor Wirap (VII w.), miejsce licznych
       pielgrzymek, z przepiękną panoramą na górę Ararat (5165 m n.p.m.). Legenda
-      głosi, że na terenie monastyru w głębokiej studni przez 13 lat był
-      więziony św. Grzegorz Oświeciciel za szerzenie wiary chrześcijańskiej.
+      głosi, że na terenie monastyru, za szerzenie wiary chrześcijańskiej, w
+      głębokiej studni przez 13 lat był więziony św. Grzegorz Oświeciciel .
       Później odwiedzimy ruiny katedry Zwartnoc (VII w.), wpisanej na listę
       światowego dziedzictwa kulturowego UNESCO, wzniesionej z typowego dla
       regionu kamienia wulkanicznego. Po powrocie wyprawa do muzeum Matenadaran,
@@ -61,13 +69,13 @@ schedule:
       Eczmiadzyn znany jest jako centrum religijne Armenii, właśnie tu została
       zbudowana pierwsza chrześcijańska katedra na świecie – kościół o tej samej
       nazwie. Według źródeł historycznych, budowanie kościoła zakończyło się w
-      303 r. i mimo licznych zniszczeń, katedra pozostaje zachowana, wpisana
-      jest na listę UNESCO. Wagharszapat jest równiez miejscem siedziby
-      Katolikosa – głowy Apostolskiego Kościoła Ormiańskiego. Dalej odwiedzamy
-      kościół św. Rypsymy,  zbudowany w miejscu, gdzie św. Rypsyma zginęła i
-      została pochowana. Przejazd do Erywania, zwiedzanie stolicy, odwiedzimy
-      również Muzeum Ludobójstwa Ormian. Obiadokolacja, nocleg w hotelu w
-      Erywaniu.
+      303 r. i mimo licznych zniszczeń, katedra pozostała zachowana w niemal
+      oryginalnym stani, wpisana jest na listę UNESCO. Wagharszapat jest równiez
+      miejscem siedziby Katolikosa – głowy Apostolskiego Kościoła Ormiańskiego.
+      Odwiedzimy również kościół św. Rypsyme,  zbudowany w miejscu, gdzie św.
+      Rypsyme zginęła i została pochowana. Przejazd do Erywania, zwiedzanie
+      stolicy, odwiedzimy również Muzeum Ludobójstwa Ormian. Obiadokolacja,
+      nocleg w hotelu w Erywaniu.
   - day: 6
     place: Erywań - Geghard - Garni - Erywań
     text: Śniadanie. Zwiedzanie jednej z najważniejszych świątyń Armenii – klasztoru
@@ -87,7 +95,7 @@ schedule:
       lub Achalcyche.
   - day: 8
     place: Achalcyche - Kutaisi
-    text: Śniadanie. Wyjazd w kierunku zachodniej Gruzji. Zakwaterowanie. wyruszamy
+    text: Śniadanie. Wyjazd w kierunku zachodniej Gruzji. Zakwaterowanie. Wyruszamy
       zobaczyć jedno z najstarszych miast nie tylko Gruzji, lecz całego świata –
       Kutaisi. Miasto to jest związane z grecką mitologią, Argonauci szukając
       złotego runa dotarli właśnie tutaj. Dalej zobaczymy położony niedaleko
@@ -95,7 +103,7 @@ schedule:
       wieku. Zobaczymy akademię Gelati, gdzie jeszcze w XI-XII wieku tłumaczyli
       największe dzieła filozofii greckiej i na sam koniec odwiedzamy grób
       Dawida Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy
-      również katedrę Bagrati. Obiadokolacja i nocleg w Kutaisi.
+      również katedrę Bagrati (XI w). Obiadokolacja i nocleg w Kutaisi.
   - day: 9
     place: Kutaisi – Jaskinia Prometeusza – Upliscyche – Tbilisi
     text: Śniadanie. Od rana zwiedzimy malowniczą jaskinię Prometeusza położoną w
@@ -107,36 +115,37 @@ schedule:
   - day: 10
     place: Tbilisi – Mccheta – Tbilisi
     text: Śniadanie. Przejeżdżamy na zwiedzanie religijnego centrum Gruzji, starej
-      stolicy Mcchety. Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w
-      IV wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
-      najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli z XI
-      i monastyr Dżwari z VI wieku. Tutaj czeka na nas również degustacja wina w
-      lokalnej winiarni, gdzie zobaczymy jak wygląda proces robienia
+      stolicy Mcchety. Miasto to jest kolebką chrześcijaństwa w Gruzji, właśnie
+      tu w IV wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
+      najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
+      w.) i monastyr Dżwari (VI w.)wi. Tutaj czeka na nas również degustacja
+      wina w lokalnej winiarni, gdzie zobaczymy jak wygląda proces robienia
       gruzińskiego tradycyjnego wina. Powrót do Tbilisi, czas wolny w stolicy,
       dla chętnych wizyta w łaźniach siarkowych. Pożegnalna obiadokolacja i
       nocleg w Tbilisi.
   - day: 11
     place: Transfer na lotnisko
-    text: Transfer na lotnisko, wylot do Polski.
+    text: Śniadanie w postaci paczek śniadaniowych, transfer na lotnisko, wylot do
+      Polski.
 priceContains:
   - icon: hotel
     text: Noclegi w hotelu*** w Tbilisi, Erywaniu
   - icon: home
-    text: Nocleg w pensjonacie w Wardzii, Achalcyche, Kutaisi
+    text: Noclegi w pensjonacie w Wardzii, Achalcyche, Kutaisi
   - icon: cinemaTicket
     text: "Bilety wstępu "
   - icon: cableCar
-    text: Przejazd kolejkami w Tbilisi
+    text: Przejazd kolejką w Tbilisi
   - icon: restaurant
     text: Śniadania i obiadokolacje
   - icon: alcohol
     text: Degustację wina
+  - icon: offroad
+    text: Transport 4×4 w Kazbegi
   - icon: guide
     text: Usługi polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy klimatyzowany bus
-  - icon: offroad
-    text: Transport 4×4 w Kazbegi
   - icon: healthcare
     text: Ubezpieczenie turystyczne
 priceNotContains:
@@ -154,8 +163,8 @@ priceNotContains:
   * w sezonie jesiennym - w terenach górskich ok. +15°C, w terenach nizinnych ok. +30°C
 * Waluta: 
 
-  * w Gruzji - GEL (gruzińskie lari),  1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić z bankomatu;  
-  * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić z bankomatu
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń)
+  * w Gruzji - GEL (gruzińskie lari),  1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;  
+  * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AMD z bankomatu
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można kupic też na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)
