@@ -13,22 +13,18 @@ images:
     name: Sweticchoweli, Mccheta
   - image: /img/cathedral-1781012-1-.jpg
     name: zvartnoc
-  - image: /img/img_20191001_174049.jpg
+  - image: /img/uflistsikhe-uplistsikhe-3.jpg
     name: gori
   - image: /img/houses-4994218.jpg
     name: tbilisi
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
-  - image: /img/georgia-4758712.jpg
-    name: batumi
   - image: /img/caucasus-3110386.jpg
     name: kaukaz
   - image: /img/biore_4.jpg
     name: rabati
   - image: /img/mountains-4919849.jpg
     name: gory
-  - image: /img/davidgareja.jpg
-    name: gareja
   - image: /img/georgia-5139384.jpg
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
