@@ -15,14 +15,14 @@ qa:
       niż mieszka w Gruzji.
     question: Czy w Gruzji jest bezpiecznie?
   - answer: >
-      Sezon turystyczny w Gruzji zaczyna się pod koniec kwietnia i trwa do
+      Sezon turystyczny w Gruzji zaczyna się na początku kwietnia i trwa do
       października – oczywiście nie biorąc pod uwagę sezon narciarski od grudnia
       do marca. Lato w Gruzji jest bardziej gorące niż w Polsce. Średnia
       temperatura latem 30°C, a w sierpniu temperatura czasami nawet przekracza
       35°C. Należy również pamiętać, że klimat jest zróżnicowany – w zachodniej
-      części kraju jest subtropikalny, we wschodniej suchy i umiarkowany. Oprócz
-      tego, Gruzja jest otoczona górami, gdzie, wiadomo temperatura jest niższą,
-      niż w regionach znajdujących się niżej.
+      części kraju jest klimat subtropikalny, we wschodniej suchy i umiarkowany.
+      Oprócz tego, Gruzja jest otoczona górami, gdzie, wiadomo temperatura jest
+      niższą, niż w regionach znajdujących się niżej.
     question: Kiedy najlepiej przyjechać do Gruzji?
   - answer: >
       Weź wygodnie ubrania, zapomnij o wszystkich bzdurnych blogach, które
@@ -38,16 +38,17 @@ qa:
       gruzińskie lari w Polsce, w Gruzji jest dużo lepszy kurs. Pamiętaj
       również, że jak już bierzesz dolary, weź te nowsze – w Gruzji we
       większości kantorów nie wymienisz dolarów starszego wydania, niż rok 2011.
-    question: Lepiej zabierać euro czy dolary?
+    question: Lepiej zabierać EUR czy USD?
   - answer: >
       Ceny są porównywalne do Polski. Przelicznik wygląda następująco, 1 lari
-      (nasza waluta) to 1,44 zł. Cena pamiątek wariują od jednego lari do
+      (nasza waluta) to 1,32 zł. Cena pamiątek wariują od jednego lari do
       kilkunastu. Butelkę dobrego wina kupimy jakoś za 15-20 lari i wyżej.
-      Piwa/kawy w mieście napijemy się za 6-7 lari. W naszych wycieczkach,
-      wszystkie obiadokolacje, śniadania i wejście do wszystkich obiektów
-      zwiedzania są wliczone w cenę.
+      Piwa/kawy w mieście napijemy się za 6-7 lari. W większości miejsc można
+      płacić kartą, bankomaty są szeroko dostępne. 
+
+      W naszych wycieczkach, wszystkie obiadokolacje, śniadania i wejście do wszystkich obiektów zwiedzania są wliczone w cenę.
     question: Ile pieniędzy zabierać ze sobą? Czy Gruzja to tani kraj?
-  - answer: >
+  - answer: >-
       Pamiętaj, że w Gruzji jest inna flora bakteryjna i każdy żołądek reaguje
       na nią inaczej, więc weź ze sobą jakiś lek na ewentualne problemy
       żołądkowe. Jak zapomnisz, nie martw się, apteki są wszędzie, a większość
@@ -55,21 +56,25 @@ qa:
       sprawdź czy w Twojej apteczce nie ma leków, zawierających kodeinę. Kodeina
       jest zaliczana w Gruzji do środków narkotycznych i jej wwóz do kraju, w
       dowolnej postaci, jest zakazany.
+
+      Przyda się również krem przeciwsłoneczny, gdyż gruzińskie słońce czasem bywa za ostre, i nie tylko na plaży.
     question: Czy wziąć jakieś leki?
   - answer: >
-      Od trzech lat obywatele krajów strefy Schengen mogą wjeżdżać do Gruzji
-      mając przy sobie jedynie dowód osobisty, ważny przez co najmniej 3 mies.
-      od daty przekroczenia granicy gruzińskiej. Oczywiście miłośnicy
-      podróżniczych pieczątek mogą wziąć paszport.
+      Od 5 lat obywatele krajów strefy Schengen mogą wjeżdżać do Gruzji mając
+      przy sobie jedynie dowód osobisty, ważny przez co najmniej 3 mies. od daty
+      przekroczenia granicy gruzińskiej. Pamiętak, że w przypadku, gdy
+      zapisujesz się na wycieczkę zawierającą zwiedzanie Armenii lub
+      Azerbejdżanu, przylecieć trzeba na paszport, gdyż polskie dowody osobiste
+      akceptuje tylko Gruzja, ale nie inne kaukaskie kraje. 
     question: "Jakie dokumenty są wymagane przy przekroczeniu granicy? "
   - answer: >
-      Wizzair Z Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku
-      już z Krakowa i Poznania, kilka razy w tygodniu są loty do Kutaisi, do
-      zachodniej części kraju. Wizzair lata również z Berlina do Kutaisi. 
+      - Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi
+      z: Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku już z
+      Krakowa i Poznania. Wizzair lata również z Berlina do Kutaisi. 
 
-      Polskie Linie Lotnicze Latem LOT z Warszawy do Tbilisi lata prawie codziennie! 
+      - Polskie Linie Lotnicze LOT - w sezonie letnim LOT lata z Warszawy do Tbilisi prawie codziennie! 
 
-      Ukraińskie Linie Lotnicze Lot codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
+      - Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
     question: Gdzie znaleźć tanie połączenia do Gruzji?
 carousel: null
 ---
