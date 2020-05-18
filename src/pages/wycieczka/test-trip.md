@@ -11,7 +11,7 @@ terms:
     endDate: 2020-07-14T20:00:00.000Z
 thumb: /img/img_1549jpg.jpg
 images:
-  - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o.jpg
+  - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o-1-.jpg
     name: Kazbegi
 map: /img/majówka_gruz.wakacje_winobranie-5-.png
 schedule:
