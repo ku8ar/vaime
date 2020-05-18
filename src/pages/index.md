@@ -12,7 +12,7 @@ images:
   - image: /img/IMG_2318jpg (1).JPG
     name: Sweticchoweli, Mccheta
   - image: /img/cathedral-1781012-1-.jpg
-    name: ზვართნოც
+    name: zvartnoc
   - image: /img/img_20191001_174049.jpg
     name: gori
   - image: /img/houses-4994218.jpg
@@ -21,13 +21,13 @@ images:
     name: ararat
   - image: /img/kakheti-4452432.jpg
     name: alaverdi
-  - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o-1-.jpg
-    name: ananuri
-  - image: /img/georgia-3609803.jpg
-    name: kazbegi
-  - image: /img/khor-virap-1781518.jpg
-    name: khor virap
-  - image: /img/bodbe.jpg
+  - image: /img/armenia-3716853.jpg
+    name: hahgpat
+  - image: /img/biore_4.jpg
+    name: rabati
+  - image: /img/georgia-4708367_1920.jpg
+    name: batumi
+  - image: /img/georgia-4514141.jpg
     name: bodbe
   - image: /img/signagi.jpg
     name: signagi
