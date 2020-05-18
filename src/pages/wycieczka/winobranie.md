@@ -27,12 +27,12 @@ schedule:
       nam na podziwianie panoramy miasta, z twierdzy natomiast otwiera się
       przepiękny widok na całą stolicę; Abanotubani (dzielnica łaźni
       siarkowych), kręte uliczki starego Tbilisi, najważniejsze świątynie
-      miasta: katedra Sioni (XVII w), oraz najstarsza cerkiew Tbilisi –
+      miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi –
       Anczischati VII w. Następnie przejedziemy do miejscowości Mccheta
       (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w IV
       wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
-      w) i monastyr Dżwari (VI w).  Powrót do Tbilisi, obiadokolacja, nocleg."
+      w.) i monastyr Dżwari (VI w.).  Powrót do Tbilisi, obiadokolacja, nocleg."
   - day: 3
     place: 04.09 - Tbilisi – Kacheti
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
@@ -61,7 +61,7 @@ schedule:
   - day: 5
     place: 06.09 - Kacheti – Tbilisi
     text: Śniadanie. Zwiedzanie największej katedry regionu – katedry Alawerdi (XII
-      w). Wyjazd do rozlewni wina Kindzmarauli, gdzie zobaczymy jak wygląda
+      w.). Wyjazd do rozlewni wina Kindzmarauli, gdzie zobaczymy jak wygląda
       produkcja wina na większą skalę od zewnątrz, oczywiście czeka na nas
       również degustacja firmowych win, oraz możliwość zakupu alkoholi w
       firmowym sklepie. Następnie czeka na nas degustacja wina oraz bimbru
@@ -86,14 +86,14 @@ schedule:
     text: Śniadanie, wyjazd z Tbilisi w kierunku zachodniej części kraju. Po drodze
       zwiedzanie skalnego miasta Upliscyche w mieście Gori, jest to najstarszy
       zabytek i najstarsze skalne miasto na terytorium Gruzji, według źródeł
-      historycznych, pierwsze osady tutaj pojawiły się aż w II tys p.n.e.!
-      Miasto powala rozwiniętą, jak na tamte czasy, infrastrukturą oraz
+      historycznych, pierwsze osady tutaj pojawiły się aż w II tysiącleciu
+      p.n.e.! Miasto powala rozwiniętą, jak na tamte czasy, infrastrukturą oraz
       różnorodnością jaskiń i pomieszczeń mieszkalnych. Po zwiedzaniu
       Upliscyche, udajemy się do centrum miasta Gori, gdzie zobaczymy z zewnątrz
       dom-muzeum oraz pancerny wagon J. Stalina, który urodził się i spędził
       pierwsze lata swojego życia właśnie w Gori.  Dojazd do Kutaisi, zwiedzanie
-      miasta – monastyr i akademia Gelati (XII w), oraz katedrę Bagrati (XI w).
-      Pożegnalna obiadokolacja, nocleg w Kutaisi.
+      miasta – monastyr i akademia Gelati (XII w.), oraz katedrę Bagrati (XI
+      w.). Pożegnalna obiadokolacja, nocleg w Kutaisi.
   - day: 8
     place: 09.09 - transfer na lotnisko
     text: Śniadanie. Transfer na lotnisko, wylot do Polski.
