@@ -16,7 +16,7 @@ terms:
     startDate: 2020-10-03T18:43:00.496Z
 thumb: /img/armenia-3721463.jpg
 images:
-  - image: /img/img_2140jpg-1-.jpg
+  - image: /img/vardziaa.jpg
     name: Wardzia
 map: /img/kaukasi-duet-5-.png
 schedule:
