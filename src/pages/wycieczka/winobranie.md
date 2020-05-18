@@ -16,12 +16,12 @@ images:
 map: /img/majówka_gruz.wakacje_winobranie-6-.png
 schedule:
   - day: 1
-    place: 02/09 - Kutaisi – Tbilisi
+    place: 02.09 - Kutaisi – Tbilisi
     text: Przylot do Kutaisi, odbiór z lotniska, przejazd do Tbilisi.
       Zakwaterowanie. Powitalna kolacja w restauracji z pokazem
       folklorystycznym. Nocleg w Tbilisi.
   - day: 2
-    place: 03/09 - Tbilisi
+    place: 03.09 - Tbilisi
     text: "Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków
       stolicy – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli
       nam na podziwianie panoramy miasta, z twierdzy natomiast otwiera się
@@ -34,7 +34,7 @@ schedule:
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
       w) i monastyr Dżwari (VI w).  Powrót do Tbilisi, obiadokolacja, nocleg."
   - day: 3
-    place: 04/09 - Tbilisi – Kacheti
+    place: 04.09 - Tbilisi – Kacheti
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
       jest św. Nino – apostolka gruzińskiej, która przyniosła chrześcijaństwo do
@@ -46,7 +46,7 @@ schedule:
       gdzie zobaczyć można, jak robi się gruzińskie domowe wino, degustacja wina
       i czaczy (bimber gruziński) połączona z obiadokolacją. Nocleg w Telawi.
   - day: 4
-    place: 05/09 - Kacheti
+    place: 05.09 - Kacheti
     text: "Śniadanie. Czas na winobranie! Winobranie, inaczej rtveli, jest
       zdecydowanie najważniejszym wydarzeniem w Gruzji i, szczególnie, w
       Kacheti. My będziemy mieć okazję brać udział w tym święcie zbiorów
@@ -59,7 +59,7 @@ schedule:
       oraz przygotowania czurczcheli (słodycze gruzińskie). Zakończymy wszystko
       chojną suprą (biesiada), nocleg w Telawi lub okolicach."
   - day: 5
-    place: 06/09 - Kacheti – Tbilisi
+    place: 06.09 - Kacheti – Tbilisi
     text: Śniadanie. Zwiedzanie największej katedry regionu – katedry Alawerdi (XII
       w). Wyjazd do rozlewni wina Kindzmarauli, gdzie zobaczymy jak wygląda
       produkcja wina na większą skalę od zewnątrz, oczywiście czeka na nas
@@ -70,7 +70,7 @@ schedule:
       skale kilkukilometrowych tunelach i robi imponujące wrażenie. Po
       degustacji wyjazd do Tbilisi, obiadokolacja, nocleg.
   - day: 6
-    place: 07/09 - Tbilisi – Kazbegi – Tbilisi
+    place: 07.09 - Tbilisi – Kazbegi – Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
       każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
@@ -82,7 +82,7 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: 7
-    place: "08/09 -Tbilisi – Gori – Kutaisi "
+    place: "08.09 -Tbilisi – Gori – Kutaisi "
     text: Śniadanie, wyjazd z Tbilisi w kierunku zachodniej części kraju. Po drodze
       zwiedzanie skalnego miasta Upliscyche w mieście Gori, jest to najstarszy
       zabytek i najstarsze skalne miasto na terytorium Gruzji, według źródeł
@@ -95,7 +95,7 @@ schedule:
       miasta – monastyr i akademia Gelati (XII w), oraz katedrę Bagrati (XI w).
       Pożegnalna obiadokolacja, nocleg w Kutaisi.
   - day: 8
-    place: 09/09 - transfer na lotnisko
+    place: 09.09 - transfer na lotnisko
     text: Śniadanie. Transfer na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
