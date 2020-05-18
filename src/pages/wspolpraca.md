@@ -23,7 +23,8 @@ GE: +995 558 206 038\
 
 **Lub mailowy:**
 
-info@vaimetravel.com
+info@vaimetravel.com\
+kontakt@vaimetravel.com
 
 \
 **Zapraszamy do współpracy!**
