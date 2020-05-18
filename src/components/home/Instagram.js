@@ -2,6 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import useInstagram from '../../hooks/instagram'
 
+export default () => (
+  <Wrapper>
+    {useInstagram().map(({ href, src }, key) => (
+      <Anchor key={href} target="_blank" rel="noopener noreferrer" href={href} style={{ backgroundImage: `url("${src}")` }} aria-label={`instagram link ${key}`} />
+    ))}
+  </Wrapper >
+)
+
 const Wrapper = styled.div`
   width: auto;
   max-width: 100%;
@@ -33,11 +41,3 @@ const Anchor = styled.a`
     opacity: 0.8;
   }
 `
-
-export default () => (
-  <Wrapper>
-    {useInstagram().map(({ href, src }) => (
-      <Anchor key={href} target="_blank" href={href} style={{ backgroundImage: `url("${src}")` }} />
-    ))}
-  </Wrapper >
-)

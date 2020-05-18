@@ -27,7 +27,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
             ))}
           </Nav>
           <NavSocialList>
-            <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} />{phone}</PhoneNo>
+            <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
             {socialLinks.map(soc => <SocialLink key={soc.type} {...soc} />)}
           </NavSocialList>
         </LayoutNavigationDesktop>
