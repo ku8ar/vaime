@@ -19,8 +19,6 @@ images:
     name: tbilisi
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
-  - image: /img/caucasus-3110386.jpg
-    name: kaukaz
   - image: /img/biore_4.jpg
     name: rabati
   - image: /img/mountains-4919849.jpg
@@ -29,7 +27,7 @@ images:
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
     name: tbilisi
-  - image: /img/uzhba-1613745.jpg
+  - image: /img/ushba.jpg
     name: ushba
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
