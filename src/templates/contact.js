@@ -35,7 +35,7 @@ export const StandardContactTemplate = ({ title, images, html, background, qa, c
           <Section><HtmlComponent content={html} /></Section>
         </Column>
         <RightColumn size={50}>
-        <Section>
+          <Section>
             <H5>Napisz do nas tutaj:</H5>
           </Section>
           <Section>

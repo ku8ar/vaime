@@ -6,7 +6,6 @@ import HomePreview from './templates/HomePreview'
 import TourPreview from './templates/TourPreview'
 import PagePreview from './templates/PagePreview'
 import GlobalPreview from './templates/GlobalPreview'
-import ContactPreview from './templates/ContactPreview'
 
 // CMS.registerMediaLibrary(uploadcare);
 // CMS.registerMediaLibrary(cloudinary);
@@ -15,4 +14,3 @@ CMS.registerPreviewTemplate('index', HomePreview)
 CMS.registerPreviewTemplate('global', GlobalPreview)
 CMS.registerPreviewTemplate('tour', TourPreview)
 CMS.registerPreviewTemplate('pages', PagePreview)
-CMS.registerPreviewTemplate('contact', ContactPreview)

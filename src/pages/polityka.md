@@ -6,6 +6,7 @@ images:
   - image: /img/projekt-bez-tytułu-5-.png
     name: prywatność
 carousel:
+contact: false
 ---
 
 #### Preambuła

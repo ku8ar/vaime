@@ -77,3 +77,4 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - {label: Carousel, name: carousel, widget: list, required: false, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
+      - {label: "Contact", name: "contact", widget: "boolean", default: false}

@@ -5,13 +5,14 @@ import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
-import { Page, Center, H1 } from '../components/Base'
+import { Page, Center, H1, H5 } from '../components/Base'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
 import Instagram from '../components/page/Instagram'
 import Carousel from '../components/page/Carousel'
+import ContactForm from '../components/forms/ContactForm'
 
 export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
@@ -27,6 +28,16 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         <Column size={70}>
           <Section><Faq list={qa} /></Section>
           <Section><HtmlComponent content={html} /></Section>
+          {contact && (
+            <>
+              <Section>
+                <H5>Napisz do nas tutaj:</H5>
+              </Section>
+              <Section>
+                <ContactForm />
+              </Section>
+            </>
+          )}
         </Column>
         <Column size={30}>
           <Section>
@@ -77,6 +88,7 @@ export const pageQuery = graphql`
           name
           image { ...imageFullWidth }
         }
+        contact
       }
     }
   }

@@ -5,7 +5,8 @@ description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:
   - image: /img/kopitnari.jpg
     name: lotnisko
-carousel: null
+carousel: 
+contact: false
 ---
 **Kilka ważnych informacji odnośnie naszych wycieczek:**\
 \
