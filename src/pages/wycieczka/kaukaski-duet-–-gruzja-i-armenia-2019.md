@@ -18,7 +18,7 @@ thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/tbilisi-4680560.jpg
     name: Wardzia
-map: /img/kaukasi-duet-5-.png
+map: /img/ტბილიუსი.jpg
 schedule:
   - day: 1
     place: Tbilisi
