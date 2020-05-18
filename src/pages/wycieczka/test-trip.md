@@ -16,72 +16,80 @@ images:
 map: /img/majówka_gruz.wakacje_winobranie-5-.png
 schedule:
   - day: 1
-    place: 07/07 - Tbilisi
+    place: 07.07 - Tbilisi
     text: >+
       Przylot do Tbilisi o 04:00, odbiór z lotniska, zakwaterowanie w hotelu,
-      odpoczynek. Pośniadaniu zwiedzimy starówkę miasta, zaliczymy wszystkie
-      najważniejsze zabytki sakralne, będziemy mieli okazję podziwiać
-      fantastyczny widok na miasto z twierdzy Narikala. Powitalna kolacja w
-      restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi.
+      odpoczynek. Po śniadaniu rozpoczynamy zwiedzanie starego miasta oraz
+      najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
+      kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
+      natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
+      (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi, najważniejsze
+      świątynie miasta: katedra Sioni (XVII w), oraz najstarsza cerkiew Tbilisi
+      – Anczischati VII w. Następnie przejedziemy do miejscowości Mccheta
+      (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w IV
+      wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
+      najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
+      w) i monastyr Dżwari (VI w). Powrót do Tbilisi, obiadokolacja w
+      restauracji z pokazem folklorystycznym. Nocleg w Tbilisi.
 
 
   - day: 2
-    place: 08/07 - Tbilisi – Kazbegi – Tbilisi
+    place: 08.07 - Tbilisi – Kazbegi – Tbilisi
     text: >
       Śniadanie. Wyruszamy w kierunku wysokich gór kaukaskich. Naszym pierwszym
       celem jest przepięknie położona twierdza Ananuri (XVI w). Dalej wspinając
       się coraz wyżej po Gruzińskiej Wojennej Drodze, docieramy do monastyru
-      świętej Trójcy Gergeti, położonego na wys. 2020 m. n.p.m. To jedno z
+      świętej Trójcy Gergeti, położonego na wys. 2020 m. n.p.m., to jedno z
       najbardziej rozpoznawalnych miejsc w Gruzji. Na monastyr wjeżdżamy
-      samochodami terenowymi. Po zwiedzaniu powrót do Tbilisi, obiadokolacja,
-      nocleg w Tbilisi.
+      samochodami terenowymi, z Gergeti w warunkach dobrej widoczności, zobaczyć
+      można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
+      powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi. 
   - day: 3
-    place: "09/07 - Tbilisi – Kutaisi "
+    place: "09.07 - Tbilisi – Kutaisi "
     text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
-      miasta wraz z najważniejszymi atrakcjami miasta: katedry Bagrati X w. i
-      średniowiecznej akademii Gelati, udamy się również na zwiedzanie
+      miasta wraz z najważniejszymi atrakcjami: katedry Bagrati (X w). i
+      średniowiecznej akademii Gelati (XII w), udamy się również na zwiedzanie
       malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi."
   - day: 4
-    place: "10/07 - Kutaisi – Martwili – Mestia "
-    text: Śniadanie. Udajemy się na zwiedzanie malowniczego kanionu Martwili, gdzie
-      oprócz spaceru wzdłuż kanionu, popływamy pontonami po rzece Abasza, gdzie
+    place: "10.07 - Kutaisi – Martwili – Mestia "
+    text: Śniadanie. Udajemy się na zwiedzanie przepięknego kanionu Martwili, gdzie
+      oprócz spaceru wzdłuż kanionu, popływamy pontonami po rzece Abasza i
       będziemy mogli podziwiać całe piękno okolicznych cudów natury. Z Martwili
       udajemy się do wysokogórskiego regionu Swaneti. Ten region wpisany na
-      listę UNESCO, zadziwia niesamowitą architekturą – średniowiecznymi
-      wieżami. Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w
-      Mestii.
+      listę UNESCO zadziwia niesamowitą architekturą – średniowiecznymi wieżami.
+      Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w Mestii.
   - day: 5
-    place: 11/07 - Mestia – Uszguli – Mestia
+    place: 11.07 - Mestia – Uszguli – Mestia
     text: Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to najwyżej
-      położona osada w Europie. Po spacerze po wiosce i podziwianiu najwyższych
-      szczytów kaukaskich, wrócimy do Mestii, gdzie odwiedzimy Muzeum
-      Etnograficzne. Obiadokolacja i nocleg w Mestii.
+      położona osada w Europie (2200 m n.p.m.). Po spacerze po wiosce i
+      podziwianiu najwyższych szczytów kaukaskich, wrócimy do Mestii, gdzie
+      odwiedzimy Muzeum Etnograficzne. Obiadokolacja i nocleg w Mestii.
   - day: 6
-    place: 12/07 - Mestia – Batumi
+    place: 12.07 - Mestia – Batumi
     text: Po śniadaniu wyjeżdżamy w kierunku wybrzeża Morza Czarnego, do
       legendarnego kurortu Batumi. Batumi to miasto palm, pysznej adżarskiej
       kuchni i ciepłego morza. Pierwszy dzień spędzamy nic nie robiąc – w
       programie tylko plażowanie i wypoczynek. Nocleg w Batumi.
   - day: 7
-    place: 13/07 - Batumi
+    place: 13.07 - Batumi
     text: Śniadanie. Po śniadaniu czeka na nas spacer po najładniejszym ogrodzie
       botanicznym kraju. Batumski Ogród Botaniczny już od 100 lat cieszy gości
       Adżarii pięknem egzotycznej natury. Po spacerze wrócimy na miasto i
       spróbujemy słynnych adżarskich chaczapuri, które jest jednym z
       najpopularniejszych dań kuchni adżarskiej i gruzińskiej. Nocleg w Batumi.
   - day: 8
-    place: 14/07 - Batumi – Gori – Mccheta – Tbilisi
+    place: 14.07 - Batumi – Gori – Mccheta – Tbilisi
     text: Po śniadaniu wyjazd w kierunku Tbilisi. Nasz pierwszy przystanek to miasto
       Gori. Tutaj zobaczymy dom, w którym się urodził i spędził kilka lat
-      swojego życia Józef Stalin. Później jedziemy do Upliscyche, do skalnego
+      swojego życia J. Stalin. Później jedziemy do Upliscyche, do skalnego
       miasta, które było zamieszkane jeszcze w III wieku p.n.e. Następnie
       przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
       chrześcijaństwa w Gruzji. Właśnie tu w IV wieku przyjęto chrześcijaństwo
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
-      UNESCO – katedrę Sweticchoweli z XI i monastyr Dżwari z VI wieku.
-      Pożegnalna obiadokolacja i nocleg w Tbilisi.
+      UNESCO – katedrę Sweticchoweli (XI w) i monastyr Dżwari (VI w). Pożegnalna
+      obiadokolacja i nocleg w Tbilisi.
   - day: 9
-    place: 15/07 - Transfer na lotnisko
+    place: 15.07 - Transfer na lotnisko
     text: Transfer na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
@@ -91,9 +99,9 @@ priceContains:
   - icon: cinemaTicket
     text: "Bilety wstępu "
   - icon: cableCar
-    text: Przejazd kolejkami w Tbilisi
+    text: Przejazd kolejką w Tbilisi
   - icon: restaurant
-    text: Śniadania i obiadokolacje
+    text: Śniadania i obiadokolacje z winem
   - icon: offroad
     text: Transport 4×4 w Kazbegi i Swaneti
   - icon: guide
@@ -112,7 +120,7 @@ priceNotContains:
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +20°C, w terenach nizinnych ok. +32°C
-* Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić z bankomatu
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (nakrycie głowy do odwiedzania świątyń)
+* Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić z bankomatu  (USD, EUR, ale nie PLN)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
