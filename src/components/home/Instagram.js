@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import styled from 'styled-components'
 import useInstagram from '../../hooks/instagram'
+import useIntersectionObserver from '../../hooks/useIntersectionObserver'
 
-export default () => (
-  <Wrapper>
-    {useInstagram().map(({ href, src }, key) => (
-      <Anchor key={href} target="_blank" rel="noopener noreferrer" href={href} style={{ backgroundImage: `url("${src}")` }} aria-label={`instagram link ${key}`} />
-    ))}
-  </Wrapper >
-)
+export default () => {
+  const [isVisible, setIsVisible] = useState(false)
+  const target = useRef()
+
+  useIntersectionObserver({
+    target,
+    onIntersect: ([{ isIntersecting }]) => isIntersecting && setIsVisible(isIntersecting)
+  })
+
+  const instagramPhotos = useInstagram()
+
+  return (
+    <Wrapper ref={target}>
+      {(isVisible ? instagramPhotos : []).map(({ href, src }, key) => (
+        <Anchor key={href} target="_blank" rel="noopener noreferrer" href={href} style={{ backgroundImage: `url("${src}")` }} aria-label={`instagram link ${key}`} />
+      ))}
+    </Wrapper >
+  )
+}
 
 const Wrapper = styled.div`
   width: auto;

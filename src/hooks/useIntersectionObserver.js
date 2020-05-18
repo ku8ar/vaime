@@ -4,7 +4,7 @@ export default ({ root, target, onIntersect, threshold = 1.0, rootMargin = "0px"
   useEffect(
     () => {
       const observer = new IntersectionObserver(onIntersect, {
-        root: root.current,
+        root,
         rootMargin,
         threshold,
       })
