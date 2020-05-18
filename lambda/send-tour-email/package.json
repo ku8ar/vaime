@@ -1,5 +1,5 @@
 {
-  "name": "send-contact-email",
+  "name": "send-tour-email",
   "version": "1.0.0",
   "description": "netlify functions:create - Send email with no SMTP server via 'sendmail' pkg",
   "main": "send-email.js",

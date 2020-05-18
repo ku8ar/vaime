@@ -65,7 +65,7 @@ export default ({ title, thumb, terms }) => {
       const { date, ...tourDetails } = values
       const { startDate, endDate } = terms[date]
       const body = { ...tourDetails, startDate, endDate }
-      fetch("/.netlify/functions/send-contact-email", {
+      fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
