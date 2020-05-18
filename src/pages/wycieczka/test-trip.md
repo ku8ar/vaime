@@ -24,22 +24,18 @@ schedule:
       kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
       natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
       (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi, najważniejsze
-      świątynie miasta: katedra Sioni (XVII w), oraz najstarsza cerkiew Tbilisi
-      – Anczischati VII w. Następnie przejedziemy do miejscowości Mccheta
-      (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w IV
-      wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
-      najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
-      w) i monastyr Dżwari (VI w). Powrót do Tbilisi, obiadokolacja w
-      restauracji z pokazem folklorystycznym. Nocleg w Tbilisi.
+      świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi
+      – Anczischati (VII w.). Wolny czas, obiadokolacja w restauracji z pokazem
+      folklorystycznym. Nocleg w Tbilisi.
 
 
   - day: 2
     place: 08.07 - Tbilisi – Kazbegi – Tbilisi
     text: >
       Śniadanie. Wyruszamy w kierunku wysokich gór kaukaskich. Naszym pierwszym
-      celem jest przepięknie położona twierdza Ananuri (XVI w). Dalej wspinając
+      celem jest przepięknie położona twierdza Ananuri (XVI w.). Dalej wspinając
       się coraz wyżej po Gruzińskiej Wojennej Drodze, docieramy do monastyru
-      świętej Trójcy Gergeti, położonego na wys. 2020 m. n.p.m., to jedno z
+      świętej Trójcy Gergeti, położonego na wys. 2020 m n.p.m., to jedno z
       najbardziej rozpoznawalnych miejsc w Gruzji. Na monastyr wjeżdżamy
       samochodami terenowymi, z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
@@ -47,8 +43,8 @@ schedule:
   - day: 3
     place: "09.07 - Tbilisi – Kutaisi "
     text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
-      miasta wraz z najważniejszymi atrakcjami: katedry Bagrati (X w). i
-      średniowiecznej akademii Gelati (XII w), udamy się również na zwiedzanie
+      miasta wraz z najważniejszymi atrakcjami: katedry Bagrati (X w.). i
+      średniowiecznej akademii Gelati (XII w.), udamy się również na zwiedzanie
       malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi."
   - day: 4
     place: "10.07 - Kutaisi – Martwili – Mestia "
@@ -86,8 +82,8 @@ schedule:
       przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
       chrześcijaństwa w Gruzji. Właśnie tu w IV wieku przyjęto chrześcijaństwo
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
-      UNESCO – katedrę Sweticchoweli (XI w) i monastyr Dżwari (VI w). Pożegnalna
-      obiadokolacja i nocleg w Tbilisi.
+      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.).
+      Pożegnalna obiadokolacja i nocleg w Tbilisi.
   - day: 9
     place: 15.07 - Transfer na lotnisko
     text: Transfer na lotnisko, wylot do Polski.
