@@ -11,7 +11,7 @@ terms:
     endDate: 2020-07-14T20:00:00.000Z
 thumb: /img/georgia-4514141.jpg
 images:
-  - image: /img/batumi-bulvar.jpg
+  - image: /img/batumi-4905161.jpg
     name: Kazbegi
 map: /img/majówka_gruz.wakacje_winobranie-5-.png
 schedule:
