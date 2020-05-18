@@ -2,7 +2,7 @@
 templateKey: page
 title: Współpraca
 description: Profejsonalna obsługa tour operatorów
-background: /img/logo.svg
+background: ""
 images:
   - image: /img/108.jpg
     name: tbilisi
@@ -15,17 +15,15 @@ Zespół Vaime Travel dokona wszystkich starań, aby pobyt w Gruzji stał się n
 \
 **W celu omówienia bliższych szczegółów współpracy, prosimy o kontakt telefoniczny:**
 
-PL: +48 730 665 176
+GE: +995 555 628 887\
+(WhatsApp, VIber)
 
-GE: +995 555 628 887
-
-GE: +995 558 206 038
+GE: +995 558 206 038\
+(WhatsApp, VIber)
 
 **Lub mailowy:**
 
 info@vaimetravel.com
-
-kontakt@vaimetravel.com
 
 \
 **Zapraszamy do współpracy!**
