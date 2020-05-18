@@ -44,7 +44,7 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
-promoImage: /img/samegrelo-სამეგრელო-gdzie-jechać_-anaklia-martwili-lebarde-co-zjeść_-ser-sulguni-elardżi-gebżalia.png
+promoImage: /img/mapka_glowna.png
 ---
 Witamy w naszym biurze!  \
 Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
