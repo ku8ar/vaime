@@ -11,7 +11,7 @@ terms:
     startDate: 2020-04-27T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
-  - image: /img/IMG_2318jpg (1).JPG
+  - image: /img/ტბილიუსი.jpg
     name: tbilisi
 map: /img/majówka_gruz.wakacje_winobranie-2-.png
 schedule:
