@@ -28,8 +28,9 @@ schedule:
       podziwianie panoramy miasta, z twierdzy natomiast otwiera się przepiękny
       widok na całą stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte
       uliczki starego Tbilisi, najważniejsze świątynie miasta: katedra Sioni
-      (XVII w), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w).  Kolacja
-      w restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi."
+      (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII
+      w.).  Kolacja w restauracji z pokazem tańców gruzińskich. Nocleg w
+      Tbilisi."
   - day: 2
     place: Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
@@ -82,8 +83,9 @@ schedule:
       Geghard, część której jest wykuta w skale. Następnie jedziemy do
       miejscowości Garni.  Na jej terytorium znajduje się bardzo ciekawy pomnik
       ormiańskiej architektury – jedyna pogańska świątynia, zbudowana w stylu
-      klasycznym, do dziś w całości zachowana. Świątynia o nazwie Garni
-      poświęcona była bóstwu słońca Mitrze.  Obiadokolacja i nocleg w Erywaniu.
+      klasycznym I w. n.e., do dziś w całości zachowana. Świątynia o nazwie
+      Garni poświęcona była bóstwu słońca Mitrze.  Obiadokolacja i nocleg w
+      Erywaniu.
   - day: 7
     place: "Erywań - Wardzia - Achalcyche "
     text: Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra. Zwiedzanie
@@ -103,7 +105,7 @@ schedule:
       wieku. Zobaczymy akademię Gelati, gdzie jeszcze w XI-XII wieku tłumaczyli
       największe dzieła filozofii greckiej i na sam koniec odwiedzamy grób
       Dawida Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy
-      również katedrę Bagrati (XI w). Obiadokolacja i nocleg w Kutaisi.
+      również katedrę Bagrati (XI w.). Obiadokolacja i nocleg w Kutaisi.
   - day: 9
     place: Kutaisi – Jaskinia Prometeusza – Upliscyche – Tbilisi
     text: Śniadanie. Od rana zwiedzimy malowniczą jaskinię Prometeusza położoną w
@@ -118,14 +120,14 @@ schedule:
       stolicy Mcchety. Miasto to jest kolebką chrześcijaństwa w Gruzji, właśnie
       tu w IV wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
-      w.) i monastyr Dżwari (VI w.)wi. Tutaj czeka na nas również degustacja
-      wina w lokalnej winiarni, gdzie zobaczymy jak wygląda proces robienia
+      w.) i monastyr Dżwari (VI w.). Tutaj czeka na nas również degustacja wina
+      w lokalnej winiarni, gdzie zobaczymy jak wygląda proces robienia
       gruzińskiego tradycyjnego wina. Powrót do Tbilisi, czas wolny w stolicy,
       dla chętnych wizyta w łaźniach siarkowych. Pożegnalna obiadokolacja i
       nocleg w Tbilisi.
   - day: 11
     place: Transfer na lotnisko
-    text: Śniadanie w postaci paczek śniadaniowych, transfer na lotnisko, wylot do
+    text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
       Polski.
 priceContains:
   - icon: hotel
