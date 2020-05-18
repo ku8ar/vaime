@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { calcDate, calcYear } from '../utils/date'
 import { H4, H6, Button } from './Base'
-import heart from '../img/heart.svg'
+import Heart from './home/Heart'
 
 const getOldestTs = pipe(
   sort((a, b) => a.timestamp > b.timestmap),
@@ -79,7 +79,7 @@ export default ({ slug, tour }) => {
       <BottomLabel>
         <H6>{title}</H6>
         <TourColumn>
-          <HeartIcon src={heart} />
+          <Heart slug={slug} />
           <Price color='colorPrimary'>{price} EUR</Price>
         </TourColumn>
       </BottomLabel>
@@ -165,10 +165,6 @@ const TourButton = styled(Button)`
   pointer-events: none;
   position: absolute:
   bottom: 0;
-`
-
-const HeartIcon = styled.img`
-  width: 1rem;
 `
 
 const TourColumn = styled.div`

@@ -13,6 +13,7 @@ import Section from '../components/page/Section'
 import PriceContains from '../components/tour/PriceContains'
 import Map from '../components/tour/Map'
 import Instagram from '../components/home/Instagram'
+import { useSetSeen } from '../hooks/useSeen'
 
 const TourPage = styled(Page)`
   background-color: ${p => p.theme.colorGreyNew}
@@ -61,6 +62,8 @@ const Tour = ({ data }) => {
   const openReservation = useCallback(() => setReservation(true), [])
   const closeReservation = useCallback(() => setReservation(false), [])
 
+  useSetSeen(data.markdownRemark.fields.slug)
+
   return (
     <Layout title={title} description={description}>
       <TourTemplate
@@ -85,6 +88,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         active
         title

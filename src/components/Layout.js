@@ -8,9 +8,10 @@ import '../styles/normalize.css'
 
 const Layout = ({ children, title = '', description = '' }) => {
   const data = useGlobal()
+
   return (
     <Theme>
-      <Seo title={title} description={description} />
+      <Seo title={title} description={description} seoTitle={data.seoTitle} />
       <Header {...data} />
       {children}
       <Footer {...data} />
