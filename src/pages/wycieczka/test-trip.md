@@ -9,9 +9,9 @@ terms:
     daysCount: 8 DNI/9 NOCY
     startDate: 2020-07-06T20:00:00.000Z
     endDate: 2020-07-14T20:00:00.000Z
-thumb: /img/img_1549jpg.jpg
+thumb: /img/georgia-4514141.jpg
 images:
-  - image: /img/290188_270689139613315_100000166945688_1294005_7810089_o-1-.jpg
+  - image: /img/batumi-bulvar.jpg
     name: Kazbegi
 map: /img/majówka_gruz.wakacje_winobranie-5-.png
 schedule:
