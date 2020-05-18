@@ -19,17 +19,17 @@ images:
     name: tbilisi
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
-  - image: /img/kakheti-4452432.jpg
+  - image: /img/kakheti-4452432-1-.jpg
     name: alaverdi
-  - image: /img/armenia-3716853.jpg
-    name: hahgpat
+  - image: /img/p1010936.jpg
+    name: tatev
   - image: /img/biore_4.jpg
     name: rabati
-  - image: /img/georgia-4708367_1920.jpg
-    name: batumi
-  - image: /img/georgia-4514141.jpg
-    name: bodbe
-  - image: /img/signagi.jpg
+  - image: /img/georgia-3716274.jpg
+    name: mkinvarcveri
+  - image: /img/georgia-3702447.jpg
+    name: ananuri
+  - image: /img/georgia-5139384.jpg
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
     name: tbilisi
