@@ -11,7 +11,7 @@ terms:
     endDate: 2020-09-09T14:24:50.688Z
 thumb: /img/grapes-2576705.jpg
 images:
-  - image: /img/kakheti-4452432.jpg
+  - image: /img/country-lane-428039.jpg
     name: kacheti
 map: /img/majówka_gruz.wakacje_winobranie-6-.png
 schedule:
