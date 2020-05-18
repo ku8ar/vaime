@@ -16,7 +16,7 @@ terms:
     startDate: 2020-10-03T18:43:00.496Z
 thumb: /img/armenia-3721463.jpg
 images:
-  - image: /img/IMG_2398jpg (1).JPG
+  - image: /img/tbilisi-4680560.jpg
     name: Wardzia
 map: /img/kaukasi-duet-5-.png
 schedule:
