@@ -19,20 +19,22 @@ images:
     name: tbilisi
   - image: /img/ararat-zdjęcie.jpg
     name: ararat
-  - image: /img/kakheti-4452432-1-.jpg
-    name: alaverdi
-  - image: /img/p1010936.jpg
-    name: tatev
+  - image: /img/georgia-4758712.jpg
+    name: batumi
+  - image: /img/caucasus-3110386.jpg
+    name: kaukaz
   - image: /img/biore_4.jpg
     name: rabati
-  - image: /img/georgia-3716274.jpg
-    name: mkinvarcveri
-  - image: /img/georgia-3702447.jpg
-    name: ananuri
+  - image: /img/mountains-4919849.jpg
+    name: gory
+  - image: /img/davidgareja.jpg
+    name: gareja
   - image: /img/georgia-5139384.jpg
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
     name: tbilisi
+  - image: /img/uzhba-1613745.jpg
+    name: ushba
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maia Varshanidze
