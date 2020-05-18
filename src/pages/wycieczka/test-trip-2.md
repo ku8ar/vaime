@@ -26,23 +26,23 @@ schedule:
       akademię Gelati, gdzie jeszcze  w XI-XII wieku tłumaczyli największe
       dzieła filozofii greckiej i na sam koniec odwiedzamy grób Dawida
       Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
-      katedrę Bagrati (XI w). Obiadokolacja i nocleg w Kutaisi.
+      katedrę Bagrati (XI w.). Obiadokolacja i nocleg w Kutaisi.
   - day: 2
     place: 28.04 - Kutaisi – Gori – Mccheta – Tbilisi
     text: >+
       Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie skalnego
       miasta Upliscyche w mieście Gori, jest to najstarszy zabytek i najstarsze
       skalne miasto na terytorium Gruzji, według źródeł historycznych, pierwsze
-      osady tutaj pojawiły się aż w II tys p.n.e.! Miasto powala rozwiniętą, jak
-      na tamte czasy, infrastrukturą oraz różnorodnością jaskiń i pomieszczeń
-      mieszkalnych. Po zwiedzaniu Upliscyche, udajemy się do centrum miasta
-      Gori, gdzie zobaczymy z zewnątrz dom-muzeum oraz pancerny wagon J.
-      Stalina, który urodził się i spędził pierwsze lata swojego życia właśnie w
-      Gori. Następnie przejedziemy do miejscowości Mccheta (UNESCO). Miasto to
-      kolebka chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto
+      osady tutaj pojawiły się aż w II tysiącleciu p.n.e.! Miasto powala
+      rozwiniętą, jak na tamte czasy, infrastrukturą oraz różnorodnością jaskiń
+      i pomieszczeń mieszkalnych. Po zwiedzaniu Upliscyche, udajemy się do
+      centrum miasta Gori, gdzie zobaczymy z zewnątrz dom-muzeum oraz pancerny
+      wagon J. Stalina, który urodził się i spędził pierwsze lata swojego życia
+      właśnie w Gori. Następnie przejedziemy do miejscowości Mccheta (UNESCO).
+      Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto
       chrześcijaństwo, jako państwową religię. Odwiedzimy najważniejsze obiekty
-      sakralne z listy UNESCO – katedrę Sweticchoweli (XI w) i monastyr Dżwari
-      (VI w) wieku. Obiadokolacja, nocleg w Tbilisi.
+      sakralne z listy UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari
+      (VI w.) wieku. Obiadokolacja, nocleg w Tbilisi.
 
   - day: 3
     place: 29.04 - Tbilisi
@@ -52,12 +52,12 @@ schedule:
       podziwianie panoramy miasta, z twierdzy natomiast otwiera się przepiękny
       widok na całą stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte
       uliczki starego Tbilisi, najważniejsze świątynie miasta: katedra Sioni
-      (XVII w), oraz najstarsza cerkiew Tbilisi – Anczischati VII w. Następnie
-      przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
+      (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w.).
+      Następnie przejedziemy do miejscowości Mccheta (UNESCO). Miasto to kolebka
       chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
-      UNESCO – katedrę Sweticchoweli (XI w) i monastyr Dżwari (VI w). Powrót do
-      Tbilisi, obiadokolacja z pokazem folklorystycznym, nocleg.
+      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.). Powrót
+      do Tbilisi, obiadokolacja z pokazem folklorystycznym, nocleg.
 
   - day: 4
     place: 30.04 - Tbilisi – Kazbegi – Tbilisi
