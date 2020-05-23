@@ -15,7 +15,7 @@ images:
     name: tbilisi
 map: /img/majówka_gruz.wakacje_winobranie-2-.png
 schedule:
-  - day: 1
+  - day: "1"
     place: 27.04 - Kutasi
     text: >
       Przylot do Kutaisi. Zakwaterowanie. wyruszamy zobaczyć jedno z
@@ -27,7 +27,7 @@ schedule:
       dzieła filozofii greckiej i na sam koniec odwiedzamy grób Dawida
       Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
       katedrę Bagrati (XI w.). Obiadokolacja i nocleg w Kutaisi.
-  - day: 2
+  - day: "2"
     place: 28.04 - Kutaisi – Gori – Mccheta – Tbilisi
     text: >+
       Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie skalnego
@@ -43,8 +43,7 @@ schedule:
       chrześcijaństwo, jako państwową religię. Odwiedzimy najważniejsze obiekty
       sakralne z listy UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari
       (VI w.) wieku. Obiadokolacja, nocleg w Tbilisi.
-
-  - day: 3
+  - day: "3"
     place: 29.04 - Tbilisi
     text: >+
       Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
@@ -58,8 +57,7 @@ schedule:
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
       UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.). Powrót
       do Tbilisi, obiadokolacja z pokazem folklorystycznym, nocleg.
-
-  - day: 4
+  - day: "4"
     place: 30.04 - Tbilisi – Kazbegi – Tbilisi
     text: >+
       Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
@@ -72,8 +70,7 @@ schedule:
       regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
-
-  - day: 5
+  - day: "5"
     place: 01.05 - Tbilisi – Bodbe – Signagi – Tbilisi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
@@ -86,20 +83,19 @@ schedule:
       gdzie zobaczyć można, jak robi się gruzińskie domowe wino, degustacja wina
       i czaczy (bimber gruziński) połączona z obiadokolacją. Powrót do Tbilisi,
       nocleg.
-  - day: 6
+  - day: "6"
     place: 02.05 -  Tbilisi – Jaskinia Prometeusza – Kanion Martwili – Kutaisi
     text: Śniadanie. Przejazd do Gruzji Zachodniej, gdzie odwiedzimy takie cuda
       natury, jak jaskinia Prometeusza oraz kanion Martwili w okolicach Kutaisi.
       Nocleg i obiadokolacja w Kutaisi.
-  - day: 7
+  - day: "7"
     place: 03.05 - Kutaisi – Batumi
     text: >+
       Śniadanie. Przejazd nad morze Czarne, bo słynnego kurortu Batumi. Batumi
       to miasto palm, pysznej adżarskiej kuchni i ciepłego morza. Dzień spędzamy
       nic nie robiąc – w programie tylko plażowanie i wypoczynek. Obiadokolacja
       i nocleg w Batumi.
-
-  - day: 8
+  - day: "8"
     place: 04.05 - Batumi – Lotnisko Kopitnari (Kutaisi)
     text: Śniadanie. Przejazd z Batumi do Kutaisi. Wylot do Polski.
 priceContains:

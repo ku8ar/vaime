@@ -15,7 +15,7 @@ images:
     name: Kazbegi
 map: /img/majówka_gruz.wakacje_winobranie-5-.png
 schedule:
-  - day: 1
+  - day: "1"
     place: 07.07 - Tbilisi
     text: >+
       Przylot do Tbilisi o 04:00, odbiór z lotniska, zakwaterowanie w hotelu,
@@ -27,9 +27,7 @@ schedule:
       świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi
       – Anczischati (VII w.). Wolny czas, obiadokolacja w restauracji z pokazem
       folklorystycznym. Nocleg w Tbilisi.
-
-
-  - day: 2
+  - day: "2"
     place: 08.07 - Tbilisi – Kazbegi – Tbilisi
     text: >
       Śniadanie. Wyruszamy w kierunku wysokich gór kaukaskich. Naszym pierwszym
@@ -40,13 +38,13 @@ schedule:
       samochodami terenowymi, z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi. 
-  - day: 3
+  - day: "3"
     place: "09.07 - Tbilisi – Kutaisi "
     text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
       miasta wraz z najważniejszymi atrakcjami: katedry Bagrati (X w.). i
       średniowiecznej akademii Gelati (XII w.), udamy się również na zwiedzanie
       malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi."
-  - day: 4
+  - day: "4"
     place: "10.07 - Kutaisi – Martwili – Mestia "
     text: Śniadanie. Udajemy się na zwiedzanie przepięknego kanionu Martwili, gdzie
       oprócz spaceru wzdłuż kanionu, popływamy pontonami po rzece Abasza i
@@ -54,26 +52,26 @@ schedule:
       udajemy się do wysokogórskiego regionu Swaneti. Ten region wpisany na
       listę UNESCO zadziwia niesamowitą architekturą – średniowiecznymi wieżami.
       Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w Mestii.
-  - day: 5
+  - day: "5"
     place: 11.07 - Mestia – Uszguli – Mestia
     text: Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to najwyżej
       położona osada w Europie (2200 m n.p.m.). Po spacerze po wiosce i
       podziwianiu najwyższych szczytów kaukaskich, wrócimy do Mestii, gdzie
       odwiedzimy Muzeum Etnograficzne. Obiadokolacja i nocleg w Mestii.
-  - day: 6
+  - day: "6"
     place: 12.07 - Mestia – Batumi
     text: Po śniadaniu wyjeżdżamy w kierunku wybrzeża Morza Czarnego, do
       legendarnego kurortu Batumi. Batumi to miasto palm, pysznej adżarskiej
       kuchni i ciepłego morza. Pierwszy dzień spędzamy nic nie robiąc – w
       programie tylko plażowanie i wypoczynek. Nocleg w Batumi.
-  - day: 7
+  - day: "7"
     place: 13.07 - Batumi
     text: Śniadanie. Po śniadaniu czeka na nas spacer po najładniejszym ogrodzie
       botanicznym kraju. Batumski Ogród Botaniczny już od 100 lat cieszy gości
       Adżarii pięknem egzotycznej natury. Po spacerze wrócimy na miasto i
       spróbujemy słynnych adżarskich chaczapuri, które jest jednym z
       najpopularniejszych dań kuchni adżarskiej i gruzińskiej. Nocleg w Batumi.
-  - day: 8
+  - day: "8"
     place: 14.07 - Batumi – Gori – Mccheta – Tbilisi
     text: Po śniadaniu wyjazd w kierunku Tbilisi. Nasz pierwszy przystanek to miasto
       Gori. Tutaj zobaczymy dom, w którym się urodził i spędził kilka lat
@@ -84,7 +82,7 @@ schedule:
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
       UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.).
       Pożegnalna obiadokolacja i nocleg w Tbilisi.
-  - day: 9
+  - day: "9"
     place: 15.07 - Transfer na lotnisko
     text: Transfer na lotnisko, wylot do Polski.
 priceContains:

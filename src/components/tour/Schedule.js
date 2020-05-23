@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {H6, P} from '../Base'
+import { H6, P } from '../Base'
 
 const Column = styled.div`
   display: flex;
@@ -63,13 +63,25 @@ const Text = styled(P)`
   text-align: justify;
 `
 
-export default ({schedule = []}) => schedule && schedule.length && (
+const Sup = styled.sup`
+  font-size: 8px;
+`
+
+const DayText = ({ children }) => {
+  if (children && children.includes(':')) {
+    const date = children.split(':')
+    return <>{date[0]}<Sup>{date[1]}</Sup></>
+  }
+  return children
+}
+
+export default ({ schedule = [] }) => schedule && schedule.length && (
   <Wrapper>
     <Column>
       {schedule.map(s => (
         <Row key={s.day}>
           <DayColumn>
-            <DayCircle>{s.day}</DayCircle>
+            <DayCircle><DayText>{s.day}</DayText></DayCircle>
           </DayColumn>
           <Column>
             <Place>{s.place}</Place>

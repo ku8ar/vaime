@@ -20,7 +20,7 @@ images:
     name: Wardzia
 map: /img/kaukasi-duet-5-.png
 schedule:
-  - day: 1
+  - day: "1"
     place: Tbilisi
     text: "Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek.
       Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
@@ -31,7 +31,7 @@ schedule:
       (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII
       w.).  Kolacja w restauracji z pokazem tańców gruzińskich. Nocleg w
       Tbilisi."
-  - day: 2
+  - day: "2"
     place: Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
@@ -43,7 +43,7 @@ schedule:
       regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
-  - day: 3
+  - day: "3"
     place: Tbilisi - Erywań
     text: Po śniadaniu przejazd do Armenii. Na trasie zawitamy do klasztoru Hachpat
       (X w), który jest wpisany na listę UNESCO i łączy kilka budynków, w tym
@@ -52,7 +52,7 @@ schedule:
       tutaj czeka nas spacer na półwyspie i zwiedzanie monastyru Sewanawank (IX
       w.). Odpoczynek nad jeziorem. Obiadokolacja. Przejazd do Erywania. Nocleg
       w hotelu.
-  - day: 4
+  - day: "4"
     place: Erywań - Chor Wirap - Eczmiadzyn - Erywań
     text: Śniadanie. Udajemy sie do monastyru Chor Wirap (VII w.), miejsce licznych
       pielgrzymek, z przepiękną panoramą na górę Ararat (5165 m n.p.m.). Legenda
@@ -64,7 +64,7 @@ schedule:
       w którym przechowywane są manuskrypty (V–XV w.) w wielu językach,
       znajdziemy tu m.in starą historię Gruzji oraz XVII-wieczny manuskrypt w
       języku polskim. Obiadokolacja i nocleg w Erywaniu.
-  - day: 5
+  - day: "5"
     place: Erywań - Eczmiadzyn - Erywań
     text: Śniadanie, po śniadaniu udajemy się do miasta Wagharszapat (Eczmiadzyn).
       Eczmiadzyn znany jest jako centrum religijne Armenii, właśnie tu została
@@ -77,7 +77,7 @@ schedule:
       Rypsyme zginęła i została pochowana. Przejazd do Erywania, zwiedzanie
       stolicy, odwiedzimy również Muzeum Ludobójstwa Ormian. Obiadokolacja,
       nocleg w hotelu w Erywaniu.
-  - day: 6
+  - day: "6"
     place: Erywań - Geghard - Garni - Erywań
     text: Śniadanie. Zwiedzanie jednej z najważniejszych świątyń Armenii – klasztoru
       Geghard, część której jest wykuta w skale. Następnie jedziemy do
@@ -86,7 +86,7 @@ schedule:
       klasycznym I w. n.e., do dziś w całości zachowana. Świątynia o nazwie
       Garni poświęcona była bóstwu słońca Mitrze.  Obiadokolacja i nocleg w
       Erywaniu.
-  - day: 7
+  - day: "7"
     place: "Erywań - Wardzia - Achalcyche "
     text: Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra. Zwiedzanie
       skalnego miasta Wardzii. Jest to miasto wykute w skałach jeszcze w XII
@@ -95,7 +95,7 @@ schedule:
       wąskich komnatach i się przemieszczać przez małe tunele, dzięki czemu
       poczujemy klimat tego magicznego miejsca. Nocleg i obiadokolacja w Wardzii
       lub Achalcyche.
-  - day: 8
+  - day: "8"
     place: Achalcyche - Kutaisi
     text: Śniadanie. Wyjazd w kierunku zachodniej Gruzji. Zakwaterowanie. Wyruszamy
       zobaczyć jedno z najstarszych miast nie tylko Gruzji, lecz całego świata –
@@ -106,7 +106,7 @@ schedule:
       największe dzieła filozofii greckiej i na sam koniec odwiedzamy grób
       Dawida Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy
       również katedrę Bagrati (XI w.). Obiadokolacja i nocleg w Kutaisi.
-  - day: 9
+  - day: "9"
     place: Kutaisi – Jaskinia Prometeusza – Upliscyche – Tbilisi
     text: Śniadanie. Od rana zwiedzimy malowniczą jaskinię Prometeusza położoną w
       znanym uzdrowisku Ckaltubo. Po zwiedzaniu wyjazd w kierunku Tbilisi. Po
@@ -114,7 +114,7 @@ schedule:
       urodził i spędził kilka lat swojego życia Józef Stalin. Później jedziemy
       do Upliscyche, najstarszego skalnego miasta Gruzji, które było zamieszkane
       jeszcze w III wieku p.n.e. Obiadokolacja i nocleg w Tbilisi.
-  - day: 10
+  - day: "10"
     place: Tbilisi – Mccheta – Tbilisi
     text: Śniadanie. Przejeżdżamy na zwiedzanie religijnego centrum Gruzji, starej
       stolicy Mcchety. Miasto to jest kolebką chrześcijaństwa w Gruzji, właśnie
@@ -125,7 +125,7 @@ schedule:
       gruzińskiego tradycyjnego wina. Powrót do Tbilisi, czas wolny w stolicy,
       dla chętnych wizyta w łaźniach siarkowych. Pożegnalna obiadokolacja i
       nocleg w Tbilisi.
-  - day: 11
+  - day: "11"
     place: Transfer na lotnisko
     text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
       Polski.
