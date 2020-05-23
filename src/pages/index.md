@@ -23,7 +23,7 @@ images:
     name: rabati
   - image: /img/mountains-4919849.jpg
     name: gory
-  - image: /img/georgia-5139384.jpg
+  - image: /img/panorama-3363874.jpg
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
     name: tbilisi
