@@ -30,20 +30,51 @@ const sortTours = pipe(
   sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp']))
 )
 
+const filterMultiDayTours = filter(
+  pipe(
+    path(['node', 'frontmatter', 'terms']),
+    head,
+    term => prop('startDate', term) !== prop('endDate', term)
+  )
+)
+
+const filterOneDayTours = filter(
+  pipe(
+    path(['node', 'frontmatter', 'terms']),
+    head,
+    term => prop('startDate', term) === prop('endDate', term)
+  )
+)
+
 export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
 
   const _tours = sortTours(tours)
+  const _multiDayTours = filterMultiDayTours(_tours)
+  const _oneDayTours = filterOneDayTours(_tours)
 
   return (
     <Page>
       <Hero images={images}>
       </Hero>
       <InfoBelt />
-      {_tours.length ? (
+      {_multiDayTours.length ? (
         <Section title={"Nasze oferty"}>
           <Grid>
-            {_tours.map(({ node }) => (
+            {_multiDayTours.map(({ node }) => (
+              <TourTile
+                key={node.id}
+                tour={node.frontmatter}
+                slug={node.fields.slug}
+              />
+            ))}
+          </Grid>
+        </Section>
+      ) : null}
+      {_oneDayTours.length ? (
+        <Section title={"Wycieczki jednodniowe"}>
+          <Grid>
+            {_oneDayTours.map(({ node }) => (
               <TourTile
                 key={node.id}
                 tour={node.frontmatter}
@@ -101,9 +132,9 @@ export const pageQuery = graphql`
           frontmatter {
             title
             terms {
-              startDate
+              startDate(formatString: "YYYY-MM-DD")
               timestamp: startDate(formatString: "x")
-              endDate
+              endDate(formatString: "YYYY-MM-DD")
               price
               seats
             }
