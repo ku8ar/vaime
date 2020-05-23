@@ -5,14 +5,14 @@ description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:
   - image: /img/kopitnari.jpg
     name: lotnisko
-carousel: 
+carousel: null
 contact: false
 ---
 **Kilka ważnych informacji odnośnie naszych wycieczek:**\
 \
 – Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością\
 \
-– Wy kupujecie bilety, spotykamy się na lotnisku w Gruzji i od tego momentu do końca wycieczki jesteśmy razem. Najczęściej oprowadzamy same, ale w przypadku nieplanowanych zmian, oprowadzać będą nasi zaprzyjaźnieni przewodnicy, o czym oczywiście wcześniej poinformujemy. \
+– Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką. \
 Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z lotniska.
 
 \- Oprócz programów podanych na stronie, możliwe jest zorganizowanie wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś specjalnie dla Was.
@@ -30,17 +30,15 @@ Wizzair:
 
 Z Warszawy, Wrocławia, Katowic, Gdańska, Krakowa, Poznania kilka razy w tygodniu są loty do Kutaisi, do zachodniej części kraju.
 
-Berlin bliżej niż Warszawę? Nie ma problemu, bo z Berlina też dolecicie do Kutaisi.
+Berlin bliżej niż Warszawa? Nie ma problemu, bo z Berlina też dolecicie do Kutaisi.
 
-[ Sprawdź tu
-](https://wizzair.com/#/)
+[ Sprawdź tu ](https://wizzair.com/#/)
 
 Polskie Linie Lotnicze
 
 Latem LOT z Warszawy do Tbilisi lata prawie codziennie!
 
-[ Sprawdź tu
-](https://www.lot.com/pl/pl/)
+[ Sprawdź tu ](https://www.lot.com/pl/pl/)
 
 Ukraińskie Linie Lotnicze
 
