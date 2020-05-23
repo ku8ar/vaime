@@ -6,17 +6,17 @@ import { H5, P } from '../Base'
 export default () => {
   const data = useGlobal()
 
-  const phone = data.phoneNumbers && data.phoneNumbers[0] || null
+  const phones = data.phoneNumbers || []
   const email = data.email
 
   return (
     <Wrapper>
       <Section>
-        <Title>Sktontaktuj się z nami</Title>
+        <Title>Skontaktuj się z nami</Title>
         <Subtitle>Adres e-mail:</Subtitle>
         <Anchor href={`mailto: ${email}`}>{email}</Anchor>
         <Subtitle>Numer telefonu:</Subtitle>
-        <Anchor href={`tel: ${phone}`}>{phone}</Anchor>
+        {phones.map(phone => <Anchor key={phone} href={`tel: ${phone}`}>{phone}</Anchor>)}
       </Section>
     </Wrapper>
   )

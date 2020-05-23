@@ -70,7 +70,7 @@ export const H6 = styled.h6`
 export const P = styled.p``
 
 export const Button = styled.button`
-  background-color: ${p => p.disabled ? p.theme.colorSecondaryTransparent : p.theme.colorPrimary};
+  background-color: ${p => p.disabled ? (p.green ? p.theme.colorGreen : p.theme.colorSecondaryTransparent) : p.theme.colorPrimary};
   border-color: ${p => p.disabled ? p.theme.colorWhite : p.theme.colorPrimary};
   color: ${p => p.theme.colorWhite};
   text-transform: uppercase;

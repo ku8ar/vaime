@@ -6,11 +6,25 @@ import Checkbox from '../field/Checkbox'
 import Select from '../field/Select'
 import Form from '../field/Form'
 import FieldSection from '../field/FieldSection'
-import PriceSummary from '../field/PriceSummary'
 import TourInfo from '../field/TourInfo'
 import { calcDate } from '../../utils/date'
 
-export default ({ title, thumb, terms }) => {
+const validateEmail = email => {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  return !re.test(String(email).toLowerCase()) ? 'Wprowadź poprawny adres e-mail' : null
+}
+
+const validateAdults = (adults, seats) => {
+  if (!adults || adults < 0) return 'Wprowadź dane'
+  if (adults > seats) return 'Niepoprawna liczba miejsc'
+}
+
+const validateChildren = (children) => {
+  if (children > 4) return 'Niepoprawna liczba miejsc'
+}
+
+// @TODO: this form looks like shit. Refactor it
+export default ({ title, thumb, terms, onClose }) => {
   const [values, setValues] = useState({
     date: 0
   })
@@ -24,6 +38,14 @@ export default ({ title, thumb, terms }) => {
 
   const [errors, setErrors] = useState({})
   const [sender, setSender] = useState(0)
+
+  useEffect(() => {
+    if (values.name) setErrors({ ...errors, name: null })
+  }, [values.name])
+
+  useEffect(() => {
+    if (values.surname) setErrors({ ...errors, surname: null })
+  }, [values.surname])
 
   useEffect(() => {
     if (values.email) setErrors({ ...errors, email: null })
@@ -42,19 +64,26 @@ export default ({ title, thumb, terms }) => {
   }, [values.adults])
 
   useEffect(() => {
-    if (values.accomodation && values.extraPayment) setValues({...values, extraPayment: false})
+    if (values.children) setErrors({ ...errors, children: null })
+  }, [values.children])
+
+  useEffect(() => {
+    if (values.accomodation && values.extraPayment) setValues({ ...values, extraPayment: false })
   }, [values.accomodation])
 
   useEffect(() => {
-    if (values.accomodation && values.extraPayment) setValues({...values, accomodation: false})
+    if (values.accomodation && values.extraPayment) setValues({ ...values, accomodation: false })
   }, [values.extraPayment])
 
   const send = useCallback(() => {
     setErrors({
-      email: !values.email && 'Wprowadź dane',
+      name: !values.name && 'Wprowadź dane',
+      surname: !values.surname && 'Wprowadź dane',
+      email: validateEmail(values.email),
       approve: !values.approve && 'Potrzebujemy Twojej zgody',
       extraPayment: values.adults === 1 && !values.accomodation && !values.extraPayment && 'Zaznacz przynajmniej jedną z opcji',
-      adults: !values.adults && 'Wprowadź dane'
+      adults: validateAdults(values.adults, seats),
+      children: validateChildren(values.children)
     })
     setSender(s => s + 1)
   }, [values, errors])
@@ -88,9 +117,15 @@ export default ({ title, thumb, terms }) => {
     }
   }, [sender])
 
+  useEffect(() => {
+    if (isSended) {
+      setTimeout(onClose, 3000)
+    }
+  }, [isSended])
+
   const alone = values.adults === 1
 
-  return !isSended ? (
+  return (
     <Form values={values} errors={errors} setValues={setValues}>
       <TourInfo title={title} thumb={thumb}>
         <Select field="date" options={options} />
@@ -108,7 +143,7 @@ export default ({ title, thumb, terms }) => {
       <FieldSection title="Liczba Uczestników Wycieczki">
         <Row>
           <SmallCell><Input field='adults' type='number' placeholder='Dorośli' min={0} max={seats} /></SmallCell>
-          <SmallCell><Input field='children' type='number' placeholder='Dzieci (do 6 roku życia)' min={0} max={2} /></SmallCell>
+          <SmallCell><Input field='children' type='number' placeholder='Dzieci (do 6 roku życia)' min={0} max={4} /></SmallCell>
         </Row>
       </FieldSection>
       {alone && (
@@ -129,15 +164,9 @@ export default ({ title, thumb, terms }) => {
           </BigCell>
         </Row>
       </FieldSection>
-      <Row><Button type="submit" onClick={send} disabled={isSubmitting}>Rezerwuj Online*</Button></Row>
+      <Row><Button type="submit" onClick={send} green={isSended} disabled={isSubmitting || isSended}>{isSended ? 'Rezerwacja zgłoszona' : 'Rezerwuj Online*'}</Button></Row>
       <Row><SmallText>*Po dokonaniu rezerwacji skontaktujemy się w ciągu 72h!</SmallText></Row>
     </Form>
-  ) : (
-    <SendedWrapper>
-      <SendedTitle>
-        Rezerwacja została zgłoszona
-      </SendedTitle>
-    </SendedWrapper>
   )
 }
 

@@ -4,6 +4,6 @@ import TourForm from '../forms/TourForm'
 
 export default ({ open, onClose, ...props }) => (
   <RightModal open={open} onClose={onClose}>
-    <TourForm {...props} />
+    <TourForm {...props} onClose={onClose} />
   </RightModal>
 )

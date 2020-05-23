@@ -33,7 +33,7 @@ export const Input = ({ field, icon, type, ...props }) => {
   const onChange = e => {
     const value = e.target.value
 
-    setValue(type === 'number' ? Number(value) : value)
+    setValue(type === 'number' ? (value !== '' ? Number(value) : null) : value)
   }
 
   return (

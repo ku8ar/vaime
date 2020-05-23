@@ -27,11 +27,11 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
       <Grid>
         <Column size={70}>
           <Section><Faq list={qa} /></Section>
-          <Section><HtmlComponent content={html} /></Section>
+          {html && (<Section><HtmlComponent content={html} /></Section>)}
           {contact && (
             <>
               <Section>
-                <H5>Napisz do nas tutaj:</H5>
+                <H5>Napisz do nas</H5>
               </Section>
               <Section>
                 <ContactForm />

@@ -20,7 +20,6 @@ const TripInfoWrapper = styled.div`
   justify-content: left;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid ${p => p.theme.colorGreyDark};
   flex-wrap: wrap;
   align-items: center;
   ${p => p.theme.mobile`

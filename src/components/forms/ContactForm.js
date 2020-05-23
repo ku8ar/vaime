@@ -4,6 +4,11 @@ import Form from '../field/Form'
 import { Input, TextArea } from '../field/Input'
 import { Button } from '../Base'
 
+const validateEmail = email => {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  return !re.test(String(email).toLowerCase()) ? 'Wprowadź poprawny adres e-mail' : null
+}
+
 export default () => {
   const [values, setValues] = useState({})
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -13,7 +18,9 @@ export default () => {
 
   const send = useCallback(() => {
     setErrors({
-      email: !values.email && 'Wprowadź dane',
+      name: !values.name && 'Wprowadź dane',
+      surname: !values.surname && 'Wprowadź dane',
+      email: validateEmail(values.email),
       description: !values.description && 'Wprowadź dane',
     })
     setSender(s => s + 1)
@@ -45,29 +52,38 @@ export default () => {
     }
   }, [sender])
 
-  return !isSended ? (
+  return (
     <Form values={values} errors={errors} setValues={setValues}>
-      <Input field='name' type='text' placeholder='Imię, nazwisko' />
+      <Row>
+        <SmallCell><Input field='name' type='text' placeholder='Imię' /></SmallCell>
+        <SmallCell><Input field='surname' type='text' placeholder='Nazwisko' /></SmallCell>
+      </Row>
       <Input field='email' type='text' placeholder='Twój e-mail' />
       <Input field='title' type='text' placeholder='Temat' />
       <TextArea field='description' placeholder='Twoja wiadomość' />
-      <Button type="submit" onClick={send} disabled={isSubmitting}>Wyślij</Button>
+      <Button type="submit" onClick={send} green={isSended} disabled={isSubmitting || isSended}>{isSended ? 'Wysłano' : 'Wyślij'}</Button>
     </Form>
-  ) : (
-      <SendedWrapper>
-        <SendedTitle>
-          Zgłoszenie zostało wysłane
-        </SendedTitle>
-      </SendedWrapper>
-    )
+  )
 }
 
-const SendedWrapper = styled.div`
+const Row = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+  flex-direction: row;
+  margin-bottom: .5rem;
+  ${p => p.theme.mobile`
+    flex-direction: column;
+    margin-bottom: 0;
+  `}
 `
 
-const SendedTitle = styled.h4``
+const SmallCell = styled.div`
+  width: 50%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  &:first-child { margin-left: 0; }
+  &:last-child { margin-right: 0; }
+  ${p => p.theme.mobile`
+    margin: 0;
+    width: 100%;
+  `}
+`
