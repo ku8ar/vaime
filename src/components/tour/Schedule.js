@@ -68,8 +68,8 @@ const Sup = styled.sup`
 `
 
 const DayText = ({ children }) => {
-  if (children && children.includes(':')) {
-    const date = children.split(':')
+  if (children && children?.includes(' ')) {
+    const date = children.split(' ')
     return <>{date[0]}<Sup>{date[1]}</Sup></>
   }
   return children
