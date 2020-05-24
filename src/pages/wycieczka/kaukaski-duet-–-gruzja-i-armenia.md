@@ -17,7 +17,7 @@ terms:
 thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/bilisisisisis.jpg
-    name: Wardzia
+    name: tbilisi
 map: /img/kaukasi-duet-5-.png
 schedule:
   - day: "1"
