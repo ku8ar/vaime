@@ -58,3 +58,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemarkFrontmatterSchedule implements Node {
+      day: String
+    }
+  `
+  createTypes(typeDefs)
+}
