@@ -32,8 +32,7 @@ export default ({ title, thumb, terms, onClose }) => {
   const [isSended, setIsSended] = useState(false)
 
   const tour = terms[values.date]
-  const { seats, price } = tour
-  const adults = Number(values.adults) || 1
+  const { seats } = tour
   const options = terms.map(({ startDate, endDate }) => calcDate(startDate, endDate))
 
   const [errors, setErrors] = useState({})
@@ -93,7 +92,7 @@ export default ({ title, thumb, terms, onClose }) => {
       setIsSubmitting(true)
       const { date, ...tourDetails } = values
       const { startDate, endDate } = terms[date]
-      const body = { ...tourDetails, startDate, endDate }
+      const body = { ...tourDetails, startDate, endDate, title }
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
@@ -199,13 +198,3 @@ const SmallCell = styled.div`
     width: 100%;
   `}
 `
-
-const SendedWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-`
-
-const SendedTitle = styled.h4``
