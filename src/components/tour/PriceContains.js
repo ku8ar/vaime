@@ -6,14 +6,18 @@ import { colorPrimary, colorGreen } from '../style/Theme'
 
 export default ({ priceContains = [], priceNotContains = [] }) => (
   <Wrapper>
-    <Row>
-      <Title>Cena zawiera</Title>
-      {priceContains.map(({ text, icon }, i) => <Item key={i} text={text} icon={icon} ok />)}
-    </Row>
-    <Row>
-      <Title>Cena nie zawiera</Title>
-      {priceNotContains.map(({ text, icon }, i) => <Item key={i} icon={icon} text={text} />)}
-    </Row>
+    {priceContains.length ? (
+      <Row>
+        <Title>Cena zawiera</Title>
+        {priceContains.map(({ text, icon }, i) => <Item key={i} text={text} icon={icon} ok />)}
+      </Row>
+    ) : null}
+    {priceNotContains.length ? (
+      <Row>
+        <Title>Cena nie zawiera</Title>
+        {priceNotContains.map(({ text, icon }, i) => <Item key={i} icon={icon} text={text} />)}
+      </Row>
+    ) : null}
   </Wrapper>
 )
 
@@ -41,10 +45,10 @@ const TourIcon = styled(Icon)`
 `
 
 const Item = ({ text, ok, icon }) => (
-<ItemWrapper>
-  <TourIcon icon={icon || (ok ? 'good' : 'bad')} fill={ok ? colorGreen : colorPrimary} size='2rem' />
-  <Text>{text}</Text>
-</ItemWrapper>
+  <ItemWrapper>
+    <TourIcon icon={icon || (ok ? 'good' : 'bad')} fill={ok ? colorGreen : colorPrimary} size='2rem' />
+    <Text>{text}</Text>
+  </ItemWrapper>
 )
 
 const ItemWrapper = styled.div`

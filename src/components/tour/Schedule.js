@@ -77,7 +77,7 @@ const DayText = ({ text }) => {
   return text || ''
 }
 
-export default ({ schedule = [] }) => schedule && schedule.length && (
+export default ({ schedule = [] }) => schedule && schedule.length ? (
   <Wrapper>
     <Column>
       {schedule.map(s => (
@@ -93,4 +93,4 @@ export default ({ schedule = [] }) => schedule && schedule.length && (
       ))}
     </Column>
   </Wrapper>
-)
+) : null

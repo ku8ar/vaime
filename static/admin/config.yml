@@ -57,6 +57,7 @@ collections:
         name: "global"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "global"}
+          - {label: "Logo", name: logo, widget: image}
           - {label: "SEO Title Suffix", name: seoTitle, widget: string}
           - {label: "Company Name", name: companyName, widget: string}
           - {label: "Email", name: email, widget: string}

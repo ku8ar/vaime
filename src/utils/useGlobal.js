@@ -7,6 +7,7 @@ export const useGlobal = () => {
         markdownRemark(frontmatter: { templateKey: { eq: "global" } }) {
           frontmatter {
             seoTitle
+            logo { ...imageSeo }
             companyName
             email
             navigation {

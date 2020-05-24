@@ -6,12 +6,12 @@ import Footer from './layout/Footer'
 import useGlobal from '../utils/useGlobal'
 import '../styles/normalize.css'
 
-const Layout = ({ children, title = '', description = '' }) => {
+const Layout = ({ children, title = '', description = '', seoImage }) => {
   const data = useGlobal()
 
   return (
     <Theme>
-      <Seo title={title} description={description} seoTitle={data.seoTitle} />
+      <Seo title={title} description={description} seoTitle={data.seoTitle} seoImage={seoImage || data.logo} />
       <Header {...data} />
       {children}
       <Footer {...data} />

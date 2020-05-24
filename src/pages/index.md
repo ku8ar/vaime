@@ -1,6 +1,6 @@
 ---
 templateKey: home
-title: "Vaime Travel: Wakacje w Gruzji | Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
+title: "Vaime Travel: Wakacje w Gruzji"
 description: Podróże z Nini i Mają
 images:
   - image: /img/302.jpg

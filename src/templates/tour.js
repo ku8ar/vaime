@@ -56,7 +56,7 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
 }
 
 const Tour = ({ data }) => {
-  const { title, description } = data.markdownRemark.frontmatter
+  const { title, description, seoImage } = data.markdownRemark.frontmatter
 
   const [isReservation, setReservation] = useState(false)
   const openReservation = useCallback(() => setReservation(true), [])
@@ -65,7 +65,7 @@ const Tour = ({ data }) => {
   useSetSeen(data.markdownRemark.fields.slug)
 
   return (
-    <Layout title={title} description={description}>
+    <Layout title={title} description={description} seoImage={seoImage}>
       <TourTemplate
         {...data.markdownRemark.frontmatter}
         html={data.markdownRemark.html}
@@ -118,6 +118,7 @@ export const pageQuery = graphql`
           icon
         }
         thumb { ...imageThumb }
+        seoImage: thumb { ...imageSeo }
         map { ...imageFullWidth }
         images {
           name
