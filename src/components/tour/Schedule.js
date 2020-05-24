@@ -67,14 +67,14 @@ const Sup = styled.sup`
   font-size: 8px;
 `
 
-const DayText = ({ children }) => {
-  if (typeof children === 'string' && children.includes(' ')) {
-    const date = children.split(' ')
+const DayText = ({ text }) => {
+  if (text && text.includes(' ')) {
+    const date = text.split(' ')
     if (date.length === 2) {
       return <>{date[0] || ''}<Sup>{date[1] || ''}</Sup></>
     }
   }
-  return children
+  return text || ''
 }
 
 export default ({ schedule = [] }) => schedule && schedule.length && (
@@ -83,7 +83,7 @@ export default ({ schedule = [] }) => schedule && schedule.length && (
       {schedule.map(s => (
         <Row key={s.day}>
           <DayColumn>
-            <DayCircle><DayText>{s.day}</DayText></DayCircle>
+            <DayCircle><DayText text={s.day} /></DayCircle>
           </DayColumn>
           <Column>
             <Place>{s.place}</Place>
