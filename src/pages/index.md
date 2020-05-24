@@ -9,8 +9,6 @@ images:
     name: Kanion Martwili
   - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
-  - image: /img/IMG_2318jpg (1).JPG
-    name: Sweticchoweli, Mccheta
   - image: /img/cathedral-1781012-1-.jpg
     name: zvartnoc
   - image: /img/uflistsikhe-uplistsikhe-3.jpg
