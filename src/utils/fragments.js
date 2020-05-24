@@ -27,7 +27,7 @@ export const bannerImage = graphql`
 
   fragment imageSeo on File {
     childImageSharp {
-      fixed(width: 90, quality: 90) {
+      fixed(width: 800, quality: 90) {
         ...GatsbyImageSharpFixed_noBase64
       }
     }
