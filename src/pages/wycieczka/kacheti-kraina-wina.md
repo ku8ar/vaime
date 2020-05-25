@@ -69,7 +69,7 @@ priceContains:
   - text: Transport
     icon: offroad
   - text: Degustacja wina
-    icon: wine
+    icon: alcohol
 priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
