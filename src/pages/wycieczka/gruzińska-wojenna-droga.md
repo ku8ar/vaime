@@ -17,12 +17,12 @@ map: /img/kazbegi-mapa.png
 schedule:
   - day: 09 00
     place: Wyjazd z Tbilisi
-    text: Spotkanie z kierowcą w ustalonych miesjscu, wyjazd z Tbilisi.
+    text: Spotkanie z kierowcą w ustalonych miejscu, wyjazd z Tbilisi.
   - day: 09 30
     place: "Mccheta "
     text: >-
-      Dojazd do miejscowości Mccheta (UNESCO). Miasto to kolebka chrześcijaństwa
-      w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo jako państwową
+      Dojazd do miejscowości Mccheta. Miasto to kolebka chrześcijaństwa w
+      Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo jako państwową
       religię. Odwiedzimy jeden z najważniejszych obiektów sakralnych z listy
       UNESCO – monastyr Dżwari (VI w.). Dżwari leży na wzgórzu, skąd podziwiać
       można wspaniały widok na Mcchetę i okoliczne pasma górskie. 
@@ -33,7 +33,7 @@ schedule:
     text: >-
       Dojazd do malowniczo położonej twierdzy Ananuri, która znajduje się na
       nizinnym fragmencie Gruzińskiej Wojennej Drogi. Twierdza zbudowana jest
-      nad sztucznym jeziorem Żinwali, co daje nam możliwość podziwiać wspaniały
+      nad sztucznym jeziorem Żinwali, co daje nam możliwość podziwiać przepiękny
       widok na okoliczną naturę. 
 
       Zwiedzanie Ananuri - kompleksu architektonicznego, w skład którego wchodzą: główny kościół, mniejszy nieczynny kościół, wieża obronna oraz mur obronny twierdzy, cały kompleks należy do XVII w. 
@@ -42,7 +42,7 @@ schedule:
   - day: 13 00
     place: Gudauri
     text: Dojazd do słynnego ośrodka narciarskiego Gudauri, gdzie zatrzymamy się
-      przy historycznym punkcie widokowym, które zadziwia bardzo ciekawą
+      przy historycznym punkcie widokowym, który zadziwia bardzo ciekawą
       mozaiką. Wykonany jeszcze w latach radzieckich, kolorowa fasada pomnika
       opowiada nam o ważnych wydarzeniach w gruzińskiej historii. Przerwa na
       zdjęcia, wyjazd z Gudauri o ok. 13:30.
@@ -50,20 +50,20 @@ schedule:
     place: Mineralne wody kaukazu
     text: Wyjzad z Gudauri, przystanek przy źródle mineralnej wody. Ten punkt jest
       znany wszystkim podróżnikom, jako miejsce, gdzie można się napić
-      naturalnej żelazowej wodej prosto z ujęcia. Wyjazd z punktu o ok. 14:15
+      naturalnej żelazowej wody prosto z ujęcia. Wyjazd z punktu o ok. 14:15
   - day: 15 00
     place: Kazbegi/Stepancminda
     text: >-
-      Dojazd do miejscowości Kazbegi, wjazd samochodami terenowymi na kościół
-      św. Trójcy Gergeti, który jest wizytówką regionu i całego kraju. Z Gergeti
-      w warunkach dobrej widoczności, zobaczyć można szczyt Kazbek (5054 m),
-      drugi najwyższy szczyt kraju. Po zwiedzaniu monastyru oraz przerw na
-      zdjęcia, powrót do centrum Kazbegi. 
+      Dojazd do miejscowości Kazbegi, wjazd samochodem terenowym na kościół św.
+      Trójcy Gergeti, który jest wizytówką regionu i całego kraju. Z Gergeti w
+      warunkach dobrej widoczności, zobaczyć można szczyt Kazbek (5054 m), drugi
+      najwyższy szczyt kraju. Po zwiedzaniu monastyru oraz przerwy na zdjęcia,
+      powrót do centrum Kazbegi. 
 
       Wolny czas na zakupy i lunch. 
   - day: 17 30
     place: Powrót
-    text: "Po zwiedzanie powrót do Tbilisi tą samą drogą. Dojazd do miasta za ok.
+    text: "Po zwiedzaniu powrót do Tbilisi tą samą drogą. Dojazd do miasta za ok.
       3-3,5 godziny. "
 priceContains:
   - text: Usługi doświadczonego kierowcy
