@@ -13,12 +13,12 @@ thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
     name: Kazbegi
-map: /img/kazbegi-mapa.png
+map: /img/kazbegi-mapa.png.png
 schedule:
-  - day: 09 00
+  - day: 9 00
     place: Wyjazd z Tbilisi
     text: Spotkanie z kierowcą w ustalonych miejscu, wyjazd z Tbilisi.
-  - day: 09 30
+  - day: 9 30
     place: "Mccheta "
     text: >-
       Dojazd do miejscowości Mccheta. Miasto to kolebka chrześcijaństwa w
