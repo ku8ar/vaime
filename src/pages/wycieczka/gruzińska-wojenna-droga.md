@@ -13,7 +13,7 @@ thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
     name: Kazbegi
-map: /img/majówka_gruz.wakacje_winobranie-7-.png
+map: /img/kazbegi-mapa.png
 schedule:
   - day: 09 00
     place: Wyjazd z Tbilisi
