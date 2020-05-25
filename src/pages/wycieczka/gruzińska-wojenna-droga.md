@@ -74,4 +74,8 @@ priceNotContains:
   - text: Posiłków i napojów nie zawartych w programie
     icon: food
 ---
-Długość trasy - 250 km
+* Długość trasy wycieczki: ok. 300 km (trasa w obie strony) 
+* Stopień trudności: łatwy
+* Warunki pogodowe: 18-20°C
+* Ubiór: lekki, wygodne obuwie do chodzenia, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
