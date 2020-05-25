@@ -13,7 +13,7 @@ thumb: /img/georgia-5139384.jpg
 images:
   - image: /img/img_2511jpg.jpg
     name: bazar
-map: /img/kazbegi-mapa.png
+map: /img/kacheti-mapa.png
 schedule:
   - day: 09 00
     place: Start
@@ -74,4 +74,8 @@ priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
 ---
-Długość trasy: ok. 350 km
+* Długość trasy: ok. 350 km
+* Stopień trudności: łatwy
+* Warunki pogodowe: 25-30°C
+* Ubiór: lekki, wygodne obuwie do chodzenia, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
