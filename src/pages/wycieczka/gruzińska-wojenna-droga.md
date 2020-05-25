@@ -66,7 +66,7 @@ schedule:
     text: "Po zwiedzanie powrót do Tbilisi tą samą drogą. Dojazd do miasta za ok.
       3-3,5 godziny. "
 priceContains:
-  - text: Usługi polskojęzycznego przewodnika
+  - text: Usługi doświadczonego kierowcy
     icon: guide
   - text: Transport
     icon: offroad
