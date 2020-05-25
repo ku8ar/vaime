@@ -15,7 +15,7 @@ images:
     name: bazar
 map: /img/kacheti-mapa.png
 schedule:
-  - day: 09 00
+  - day: 9 00
     place: Start
     text: >-
       Spotkanie z kierowcą, wyjazd z Tbilisi w kierunku miasta Telawi, przez
