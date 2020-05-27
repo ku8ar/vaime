@@ -2,7 +2,7 @@
   "name": "send-contact-email",
   "version": "1.0.0",
   "description": "netlify functions:create - Send email with no SMTP server via 'sendmail' pkg",
-  "main": "send-email.js",
+  "main": "send-contact-email.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,6 @@
   "author": "Netlify",
   "license": "MIT",
   "dependencies": {
-    "@sendgrid/mail": "^7.1.1",
-    "sendmail": "1.4.1"
+    "@sendgrid/mail": "^7.1.1"
   }
 }
