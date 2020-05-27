@@ -64,6 +64,7 @@ const Wrapper = styled(View)`
   display: block;
   padding: 0;
   position: relative;
+  width: 100%;
 `
 
 const Arrow = styled.div`

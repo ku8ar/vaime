@@ -34,7 +34,7 @@ const Section = styled.div`
 const OrderInfoWrapper = styled.div`
   display: flex;
   ${p => p.theme.mobile`
-    display: none;
+    margin-top: 1.5rem;
   `}
 `
 

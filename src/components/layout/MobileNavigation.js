@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import logo from '../../img/logo.svg'
-import cross from '../../img/cross.svg'
 
 export default ({ menu, navigation, toggleMenu }) => (
   <>
@@ -19,9 +18,6 @@ export default ({ menu, navigation, toggleMenu }) => (
             <LogoIcon src={logo} alt="Vaime Travel" />
           </LogoWrapper>
         </Menu>
-        <CloseWrapper onClick={toggleMenu}>
-          <CloseIcon src={cross} />
-        </CloseWrapper>
       </Wrapper>
       )}
     </ReactCSSTransitionGroup>
@@ -86,7 +82,7 @@ const NavItem = styled(Link)`
 `
 
 const Menu = styled.div`
-  width: 85%;
+  width: 65%;
   height: 100%;
   background-color: ${p => p.theme.colorPrimary};
   display: flex;
@@ -105,23 +101,6 @@ const LogoWrapper = styled(Link)`
 
 const LogoIcon = styled.img`
   width: 50%;
-`
-
-const CloseIcon = styled.img`
-  height: 2rem;
-`
-
-const CloseWrapper = styled.div`
-  position: fixed;
-  right: 0;
-  top: 0;
-  background-color: ${p => p.theme.colorPrimary};
-  width: calc(15% + 1px);
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid white;
 `
 
 const Wrapper = styled.div`

@@ -48,11 +48,7 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
           </Section>
         </Column>
       </Grid>
-      <Grid>
-        <Column size={100}>
           <Section><Carousel images={carousel} /></Section>
-        </Column>
-      </Grid>
       <Cookies />
     </Page>
   )

@@ -15,6 +15,7 @@ import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
 
+// @TODO: put into graphql
 const isTourInSameYear = pipe(
   path(['node', 'frontmatter', 'terms']),
   sortBy(prop('timestamp')),
@@ -120,7 +121,10 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     allMarkdownRemark(
       filter: {
-        frontmatter: { templateKey: { in: "tour" } }
+        frontmatter: {
+          templateKey: { in: "tour" }
+          active: { eq: true }
+        }
       }
     ) {
       edges {

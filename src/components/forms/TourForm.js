@@ -179,7 +179,7 @@ const Row = styled.div`
   margin-bottom: .5rem;
   ${p => p.theme.mobile`
     flex-direction: column;
-    margin-bottom: 0;
+    margin-bottom: .25rem;
   `}
 `
 
@@ -196,5 +196,6 @@ const SmallCell = styled.div`
   ${p => p.theme.mobile`
     margin: 0;
     width: 100%;
+    margin-top: .25rem;
   `}
 `

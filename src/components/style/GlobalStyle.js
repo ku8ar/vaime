@@ -67,6 +67,18 @@ export default createGlobalStyle`
     color: ${p => p.theme.colorSecondary};
   }
 
+  ul {
+    ${p => p.theme.mobile`
+      padding-left: 1rem;
+    `}
+  }
+
+  ul > li > ul {
+    ${p => p.theme.mobile`
+      padding-left: 1rem;
+    `}
+  }
+
   li {
     margin-bottom: 1rem;
     &:last-child {

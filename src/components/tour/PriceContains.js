@@ -29,7 +29,9 @@ const Wrapper = styled.div`
   width: auto;
   ${p => p.theme.mobile`
     width: 100%;
+    top: 0;
     margin-left: 0;
+    margin-top: 0;
     position: relative;
   `}
 `

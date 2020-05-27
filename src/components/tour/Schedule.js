@@ -21,6 +21,10 @@ const Wrapper = styled(Column)`
     left: calc(1rem - 1px);
     top: 1rem;
     margin-left: 0;
+
+    ${p => p.theme.mobile`
+      height: calc(100% - 7rem);
+    `}
   }
 `
 

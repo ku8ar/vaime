@@ -85,5 +85,6 @@ const SmallCell = styled.div`
   ${p => p.theme.mobile`
     margin: 0;
     width: 100%;
+    margin-top: .5rem;
   `}
 `

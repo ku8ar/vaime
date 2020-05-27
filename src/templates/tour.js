@@ -38,14 +38,10 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
         </Grid>
         <Grid>
           <Column size={30}>
-            <Section>
-              <HtmlComponent content={html || ''} />
-            </Section>
+            <HtmlComponent content={html || ''} />
           </Column>
           <Column size={70}>
-            <Section>
-              <Map map={map} />
-            </Section>
+            <Map map={map} />
           </Column>
         </Grid>
       </View>
