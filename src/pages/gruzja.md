@@ -20,8 +20,6 @@ carousel:
     name: Katedra Bagrati, Kutaisi
   - image: /img/biore_4.jpg
     name: Twierdza Rabati, Achalcyche
-  - image: /img/orthodox-4994172-1-.jpg
-    name: Starówka miasta Tbilisi
   - image: /img/IMG_2162jpg.JPG
     name: Skalne miasto Wardzia
   - image: /img/jvari-swieczki.jpg
