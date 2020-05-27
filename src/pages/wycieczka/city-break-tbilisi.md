@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 title: City-break Tbilisi
 description: City tour po tbilisi
 terms:
