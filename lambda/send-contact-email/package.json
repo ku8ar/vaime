@@ -2,7 +2,7 @@
   "name": "send-contact-email",
   "version": "1.0.0",
   "description": "netlify functions:create - Send email with no SMTP server via 'sendmail' pkg",
-  "main": "send-contact-email.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
