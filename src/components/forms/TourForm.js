@@ -92,7 +92,7 @@ export default ({ title, thumb, terms, onClose }) => {
       setIsSubmitting(true)
       const { date, ...tourDetails } = values
       const { startDate, endDate, price } = terms[date]
-      const body = { ...tourDetails, startDate, endDate, title, price }
+      const body = { ...tourDetails, startDate, endDate, title, price, date: calcDate(startDate, endDate) }
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
