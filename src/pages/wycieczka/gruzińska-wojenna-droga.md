@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 title: Gruzińska Wojenna Droga
 description: Podróż wśród szczytów Wielkiego Kaukazu
 terms:
