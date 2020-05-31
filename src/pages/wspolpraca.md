@@ -5,7 +5,11 @@ description: Profejsonalna obsługa tour operatorów
 images:
   - image: /img/108.jpg
     name: tbilisi
-carousel: 
+carousel:
+  - image: /img/1.png
+    name: IVERIA INN
+  - image: /img/2.png
+    name: "PROMETHEUS PALACE "
 contact: false
 ---
 **Biuro podróży Vaime Travel** sukcesywnie współpracuje z wieloma polskimi agentami i tour operatorami, zapewniając profesjonalną obsługę oraz najwyższą jakość usług. Oferujemy swoje usługi w organizacji wycieczek **kulturowych, pielgrzymkowych, incentive, gastronomicznych, trekkingowych po Gruzji i Armenii**, od wyjazdów indywidualnych do dużych grup (40-50 os).  Oferujemy transport o wysokim europejskim standardzie, obsługę profesjonalnych doświadczonych kierowców oraz wykwalifikowanych polsko-, angielsko- i rosyjskojęzycznych przewodników. Doskonała znajomość lokalnej bazy noclegowej oraz gastronomicznej pozwala na idealne dopasowanie wycieczek do wymagań każdej grupy turystycznej.
