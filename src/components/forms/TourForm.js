@@ -91,8 +91,8 @@ export default ({ title, thumb, terms, onClose }) => {
     if (sender && !Object.values(errors).filter(Boolean).length) {
       setIsSubmitting(true)
       const { date, ...tourDetails } = values
-      const { startDate, endDate } = terms[date]
-      const body = { ...tourDetails, startDate, endDate, title }
+      const { startDate, endDate, price } = terms[date]
+      const body = { ...tourDetails, startDate, endDate, title, price }
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
