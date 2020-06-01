@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: false
+active: true
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 terms:
