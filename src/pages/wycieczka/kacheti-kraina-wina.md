@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 oneDay: true
 minSeats: 2
 title: "Kacheti - Kraina Wina "
