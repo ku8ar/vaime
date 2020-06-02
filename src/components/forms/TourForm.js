@@ -82,7 +82,7 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
 
   const send = useCallback(() => {
     setErrors({
-      date: !values.date && 'Wprowadź dane',
+      date: oneDay ? !values.date && 'Wprowadź dane' : null,
       name: !values.name && 'Wprowadź dane',
       surname: !values.surname && 'Wprowadź dane',
       email: validateEmail(values.email),
