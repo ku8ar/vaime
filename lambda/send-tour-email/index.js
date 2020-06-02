@@ -9,6 +9,17 @@ sgMail.setApiKey(apiKey)
 
 exports.handler = (event, context, callback) => {
   const body = JSON.parse(event.body)
+ 
+  // dont send email when one day tour
+  const to = body.oneDay ? [] : [{
+    email: body.email,
+    name: `${body.name} ${body.surname}`
+  }]
+
+  const bcc = [{
+    email: toEmail,
+    name: `new reservation`
+  }]
 
   try {
     const msg = {
@@ -21,18 +32,8 @@ exports.handler = (event, context, callback) => {
       category: [ "Tour" ],
       personalizations: [
         {
-          to: [
-            {
-              email: body.email,
-              name: `${body.name} ${body.surname}`
-            }
-          ],
-          bcc: [
-            {
-              email: toEmail,
-              name: `new reservation`
-            }
-          ],
+          to,
+          bcc,
           dynamic_template_data: body
         }
       ],

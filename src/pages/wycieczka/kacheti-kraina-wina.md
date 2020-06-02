@@ -1,6 +1,8 @@
 ---
 templateKey: tour
 active: true
+oneDay: true
+minSeats: 2
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 terms:

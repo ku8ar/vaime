@@ -14,6 +14,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tour"}
       - {label: "Active", name: "active", widget: "boolean", default: true}
+      - {label: "One Day", name: "oneDay", widget: "boolean", default: false}
+      - {label: "Min seats (one day tour)", name: "minSeats", widget: "number", default: 1}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: Terms, name: terms, widget: list, fields: [{label: "Start Date", name: "startDate", widget: "date"}, {label: "End Date", name: "endDate", widget: "date"}, {label: "Count of days", name: "daysCount", widget: "string"}, {label: "No of seats", name: "seats", widget: "number"}, {label: "Price", name: "price", widget: "number"}]}

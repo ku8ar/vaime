@@ -89,6 +89,8 @@ export const pageQuery = graphql`
       }
       frontmatter {
         active
+        oneDay
+        minSeats
         title
         description
         terms {
