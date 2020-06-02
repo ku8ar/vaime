@@ -11,12 +11,12 @@ exports.handler = (event, context, callback) => {
   const body = JSON.parse(event.body)
  
   // dont send email when one day tour
-  const to = body.oneDay ? [] : [{
-    email: body.email,
+  const to = [{
+    email: body.oneDay ? toEmail : body.email,
     name: `${body.name} ${body.surname}`
   }]
 
-  const bcc = [{
+  const bcc = body.oneDay ? [] : [{
     email: toEmail,
     name: `new reservation`
   }]
