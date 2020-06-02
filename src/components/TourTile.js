@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { calcDate, calcYear } from '../utils/date'
+import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
 import { H4, H6, Button } from './Base'
 import Heart from './home/Heart'
 
@@ -30,6 +30,11 @@ const getDatesFormatted = pipe(
   join(', ')
 )
 
+const getMonthsDatesFormatted = pipe(
+  map(({ startDate, endDate }) => calcMonthsDate(startDate, endDate, false)),
+  join(', ')
+)
+
 const getSubtitle = pipe(
   length,
   n => n > 1 ? 'Dostępne terminy' : 'Dostępny termin'
@@ -44,16 +49,16 @@ const getYear = pipe(
 export default ({ slug, tour }) => {
   if (!tour) return null
 
-  const { title, thumb, active, terms } = tour
+  const { title, thumb, active, terms, oneDay } = tour
 
   if (!terms) {
     return null
   }
 
-  const dates = getDatesFormatted(terms)
+  const dates = oneDay ? getMonthsDatesFormatted(terms) : getDatesFormatted(terms)
   const available = getSubtitle(terms)
   const year = getYear(terms)
-  const subtitle = `${available}: ${dates}.${year}`
+  const subtitle = `${available}: ${dates}${oneDay ? ' ' : '.'}${year}`
   const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   const timestamp = getOldestTs(terms)

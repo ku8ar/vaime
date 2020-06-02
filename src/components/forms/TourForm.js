@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useCallback } from 'react'
+import { path } from 'rambda'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
 import { Input, TextArea } from '../field/Input'
 import Checkbox from '../field/Checkbox'
 import Select from '../field/Select'
+import Calendar from '../field/Calendar'
 import Form from '../field/Form'
 import FieldSection from '../field/FieldSection'
 import TourInfo from '../field/TourInfo'
@@ -14,9 +16,10 @@ const validateEmail = email => {
   return !re.test(String(email).toLowerCase()) ? 'Wprowadź poprawny adres e-mail' : null
 }
 
-const validateAdults = (adults, seats) => {
+const validateAdults = (adults, seats, minSeats) => {
   if (!adults || adults < 0) return 'Wprowadź dane'
-  if (adults > seats) return 'Niepoprawna liczba miejsc'
+  if (seats && adults > seats) return 'Niepoprawna liczba miejsc'
+  if (minSeats && adults < minSeats) return 'Niepoprawna liczba miejsc'
 }
 
 const validateChildren = (children) => {
@@ -24,19 +27,22 @@ const validateChildren = (children) => {
 }
 
 // @TODO: this form looks like shit. Refactor it
-export default ({ title, thumb, terms, onClose }) => {
+export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
   const [values, setValues] = useState({
     date: 0
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSended, setIsSended] = useState(false)
 
-  const tour = terms[values.date]
-  const { seats } = tour
+  const seats = path([values.date, 'seats'], terms)
   const options = terms.map(({ startDate, endDate }) => calcDate(startDate, endDate))
 
   const [errors, setErrors] = useState({})
   const [sender, setSender] = useState(0)
+
+  useEffect(() => {
+    if (values.date) setErrors({ ...errors, date: null })
+  }, [values.date])
 
   useEffect(() => {
     if (values.name) setErrors({ ...errors, name: null })
@@ -76,12 +82,13 @@ export default ({ title, thumb, terms, onClose }) => {
 
   const send = useCallback(() => {
     setErrors({
+      date: oneDay ? !values.date && 'Wprowadź dane' : null,
       name: !values.name && 'Wprowadź dane',
       surname: !values.surname && 'Wprowadź dane',
       email: validateEmail(values.email),
       approve: !values.approve && 'Potrzebujemy Twojej zgody',
       extraPayment: values.adults === 1 && !values.accomodation && !values.extraPayment && 'Zaznacz przynajmniej jedną z opcji',
-      adults: validateAdults(values.adults, seats),
+      adults: validateAdults(values.adults, seats, minSeats),
       children: validateChildren(values.children)
     })
     setSender(s => s + 1)
@@ -91,8 +98,8 @@ export default ({ title, thumb, terms, onClose }) => {
     if (sender && !Object.values(errors).filter(Boolean).length) {
       setIsSubmitting(true)
       const { date, ...tourDetails } = values
-      const { startDate, endDate, price } = terms[date]
-      const body = { ...tourDetails, startDate, endDate, title, price, date: calcDate(startDate, endDate) }
+      const { startDate, endDate, price } = terms[date] || {}
+      const body = { ...tourDetails, startDate, endDate, title, price, date: startDate ? calcDate(startDate, endDate) : date, oneDay }
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
@@ -127,7 +134,7 @@ export default ({ title, thumb, terms, onClose }) => {
   return (
     <Form values={values} errors={errors} setValues={setValues}>
       <TourInfo title={title} thumb={thumb}>
-        <Select field="date" options={options} />
+        {oneDay ? <Calendar field="date" /> : <Select field="date" options={options} />}
       </TourInfo>
       <FieldSection title="Dane Osoby Rezerwującej">
         <Row>
@@ -141,7 +148,7 @@ export default ({ title, thumb, terms, onClose }) => {
       </FieldSection>
       <FieldSection title="Liczba Uczestników Wycieczki">
         <Row>
-          <SmallCell><Input field='adults' type='number' placeholder='Dorośli' min={0} max={seats} /></SmallCell>
+          <SmallCell><Input field='adults' type='number' placeholder='Dorośli' min={minSeats} max={seats} /></SmallCell>
           <SmallCell><Input field='children' type='number' placeholder='Dzieci (do 6 roku życia)' min={0} max={4} /></SmallCell>
         </Row>
       </FieldSection>

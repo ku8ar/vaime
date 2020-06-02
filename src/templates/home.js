@@ -143,6 +143,7 @@ export const pageQuery = graphql`
               seats
             }
             active
+            oneDay
             thumb { ...imageThumb }
           }
         }
