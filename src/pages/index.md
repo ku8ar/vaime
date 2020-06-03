@@ -38,7 +38,7 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
-promoImage: /img/mapka_glowna.png
+promoImage: /img/mapka_glowna.jpg
 ---
 Witamy w naszym biurze!  \
 Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
