@@ -4,7 +4,7 @@ active: true
 oneDay: true
 minSeats: 1
 title: Stare Tbilisi - historia w nazwach
-description: Odkrywanie starego Tbilisi za pomocą starych fotografii
+description: Podróż po nieznanych zakątkach starego Tbilisi
 terms:
   - startDate: 2020-07-23T18:59:13.091Z
     endDate: 2020-11-01T18:59:13.133Z
