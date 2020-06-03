@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Vaime Travel',
     description: 'Ecommerce',
+    siteUrl: `https://vaimetravel.com`,
   },
   plugins: [
     'gatsby-plugin-netlify-cache',
