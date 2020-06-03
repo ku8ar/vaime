@@ -20,7 +20,7 @@ schedule:
   - day: "1"
     text: >
       Spotkanie na placu Wolności. Stąd zaczniemy nasz spacer po zakątkach
-      starego miasta Tbilisi, a towarzyszyć nam będą stare fotogragfie miasta. 
+      starego Tbilisi, a towarzyszyć nam będą stare fotogragfie miasta. 
 
       Zanim ruszymy dalej, przypatrzymy się ciekawym XIX-wiecznym budynkom, takim, jak np. stary ratusz miejski, oraz poznamy historię tego placu - serca miasta. 
     place: Plac wolności
@@ -148,7 +148,7 @@ schedule:
   - day: "14"
     text: W dzielnicy łaźni zakończymy naszą półwirtualną, półrealną podróź po
       starym Tbilisi.
-    place: "Koniec "
+    place: Zakończenie zwiedzania
 priceContains:
   - icon: guide
     text: Polskojęzyczny przewodnik po Tbilisi
