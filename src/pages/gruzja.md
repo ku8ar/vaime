@@ -10,8 +10,6 @@ carousel:
     name: Region Swaneti, Wielki Kaukaz
   - image: /img/IMG_2202jpg.JPG
     name: Twierdza Chertwisi
-  - image: /img/IMG_2511jpg.JPG
-    name: Bazar
   - image: /img/P1000428.JPG
     name: Freski w głównym kościele monastyru Gelati, Kutaisi
   - image: /img/P1000438.JPG
