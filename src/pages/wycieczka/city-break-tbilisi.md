@@ -15,7 +15,7 @@ thumb: /img/georgia-4708365.jpg
 images:
   - image: /img/აკ.jpg
     name: tbilisi
-map: /img/tbilisi-mapa.png
+map: /img/tbilisii.png
 schedule:
   - day: "1"
     text: >
