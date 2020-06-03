@@ -22,6 +22,7 @@ const ContentWrapper = styled.div`
   padding-right: 2rem;
   ${p => p.theme.mobile`
     width: 100%;
+    padding-right: 0;
   `}
 `
 

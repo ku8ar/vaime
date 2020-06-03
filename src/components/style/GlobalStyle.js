@@ -39,23 +39,27 @@ export default createGlobalStyle`
 
   h1 {
     font-size: 3rem;
+    ${p => p.theme.mobile` font-size: 2rem; margin-top: .5rem; `}
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     font-weight: ${p => p.theme.weightBolder};
   }
 
   h2 {
     font-size: 2rem;
+    ${p => p.theme.mobile` font-size: 1.5rem; `}
     margin-top: 1.5rem;
     font-weight: ${p => p.theme.weightBolder};
   }
 
   h3 {
     font-size: 1.75rem;
+    ${p => p.theme.mobile` font-size: 1.25rem; `}
     font-weight: ${p => p.theme.weightBold};
   }
 
   h4 {
     font-size: 1.5rem;
+    ${p => p.theme.mobile` font-size: 1.25rem; `}
   }
 
   h5 {

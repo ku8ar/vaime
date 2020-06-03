@@ -1,5 +1,5 @@
 import React from 'react'
-import { path, sortBy, pipe, filter, head, prop, reverse } from 'rambda'
+import { path, sortBy, pipe, filter, head, prop, reverse, not } from 'rambda'
 import { graphql } from 'gatsby'
 import { calcYear } from '../utils/date'
 import Cookies from '../components/Cookies'
@@ -33,17 +33,14 @@ const sortTours = pipe(
 
 const filterMultiDayTours = filter(
   pipe(
-    path(['node', 'frontmatter', 'terms']),
-    head,
-    term => prop('startDate', term) !== prop('endDate', term)
+    path(['node', 'frontmatter', 'oneDay']),
+    not
   )
 )
 
 const filterOneDayTours = filter(
   pipe(
-    path(['node', 'frontmatter', 'terms']),
-    head,
-    term => prop('startDate', term) === prop('endDate', term)
+    path(['node', 'frontmatter', 'oneDay']),
   )
 )
 
