@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { path, pipe, defaultTo, head, propOr, toLower, includes } from 'rambda'
+import { path, pipe, defaultTo, head, propOr, toLower, includes, prop } from 'rambda'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
 import { Input, TextArea } from '../field/Input'
@@ -34,6 +34,18 @@ const getIsFromTbilisi = pipe(
   includes('tbilisi')
 )
 
+const getOneDayStartDate = pipe(
+  defaultTo([]),
+  head,
+  prop('startDate')
+)
+
+const getOneDayEndDate = pipe(
+  defaultTo([]),
+  head,
+  prop('endDate')
+)
+
 // @TODO: this form looks like shit. Refactor it
 export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) => {
   const [values, setValues] = useState({
@@ -49,6 +61,9 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) =>
   const [sender, setSender] = useState(0)
 
   const fromTbilisi = getIsFromTbilisi(schedule)
+
+  const oneDayStartDate = getOneDayStartDate(terms)
+  const oneDayEndDate = getOneDayEndDate(terms)
 
   useEffect(() => {
     if (values.date) setErrors({ ...errors, date: null })
@@ -144,7 +159,7 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) =>
   return (
     <Form values={values} errors={errors} setValues={setValues}>
       <TourInfo title={title} thumb={thumb}>
-        {oneDay ? <Calendar field="date" /> : <Select field="date" options={options} />}
+        {oneDay ? <Calendar field="date" min={oneDayStartDate} max={oneDayEndDate} /> : <Select field="date" options={options} />}
       </TourInfo>
       <FieldSection title="Dane Osoby Rezerwującej">
         <Row>

@@ -65,6 +65,9 @@ const Wrapper = styled(View)`
   padding: 0;
   position: relative;
   width: 100%;
+    ${p => p.theme.mobile`
+    display: none;
+  `}
 `
 
 const Arrow = styled.div`

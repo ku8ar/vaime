@@ -9,6 +9,7 @@ const Column = styled.div`
 
 const Wrapper = styled(Column)`
   margin-top: 2rem;
+  ${p => p.theme.mobile` margin-top: 0; `}
 
   position: relative;
   &:before {

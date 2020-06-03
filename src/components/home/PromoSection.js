@@ -8,7 +8,7 @@ const Promo = styled(Image)`
   height: 100%;
   margin: auto;
   ${p => p.theme.mobile`
-    
+    display: none;
   `}
 `
 

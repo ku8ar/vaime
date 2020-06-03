@@ -86,8 +86,8 @@ export const Button = styled.button`
 
 export const boxStyle = css`
   background: white;
-  padding: .5rem .5rem 1rem 1rem;
-  box-shadow: 0 4px 12px 0 rgba(23,27,30,.3);
+  padding: 1rem 1rem 1rem 1rem;
+  box-shadow: ${p => p.theme.shadowLight};
   border-radius: .25rem;
 `
 

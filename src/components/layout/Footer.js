@@ -14,10 +14,10 @@ export default ({ phoneNumbers, socialLinks, email, companyName }) => (
           {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`}>{no}</FooterLink>)}
           <FooterLink href={`mailto: ${email}`}>{email}</FooterLink>
         </FooterList>
-        <FooterList>
+        <MiddleFooterList>
           <FooterNav to='/polityka'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
-        </FooterList>
-        <FooterList row>
+        </MiddleFooterList>
+        <FooterList>
           <Title color="colorWhite">Gruziński Po Polsku</Title>
           <Row>{socialLinks.map(social => <SocialLink key={social.type} {...social} />)}</Row>
         </FooterList>
@@ -49,10 +49,19 @@ const FooterList = styled.div`
   flex-direction: column;
 `
 
+const MiddleFooterList = styled(FooterList)`
+  ${p => p.theme.mobile`
+    margin-top: .5rem;
+  `}
+`
+
 const Row = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  ${p => p.theme.mobile`
+    justify-content: flex-start;
+  `}
 `
 
 const FooterLink = styled.a`
@@ -74,11 +83,13 @@ const FooterCopyright = styled.p`
   color: ${p => p.theme.colorGreyLight};
   font-size: 0.7rem;
   margin-top: .5rem;
+  ${p => p.theme.mobile`
+    margin-top: 2rem;
+    text-align: center;
+    flex: 1;
+  `}
 `
 
 const Title = styled(H6)`
   text-transform: upperacase;
-  ${p => p.theme.mobile`
-    margin-top: 1rem;
-  `}
 `

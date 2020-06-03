@@ -34,6 +34,7 @@ const theme = {
   radiusSmall: '.25rem',
   // shadow
   shadowDark: '0px 10px 18px 2px rgba(0,0,0,0.3)',
+  shadowLight: '0 2px 4px 0 rgba(23,27,30,.1)',
   // font
   fontNormal: '14px',
   fontBig: '16px',

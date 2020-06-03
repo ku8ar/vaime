@@ -27,7 +27,7 @@ const Wrapper = styled.div`
   width: auto;
   max-width: 100%;
   flex: 1;
-  filter: brightness(1.1) contrast(1.1);
+  filter: contrast(1.1);
   ${p => p.theme.mobile`
     padding-right: 0;
     margin-right: 0;
@@ -45,6 +45,13 @@ const Anchor = styled.a`
   ${p => p.theme.mobile`
     width: 20%;
     height: calc(100vw / 5);
+
+    &:nth-child(11) {
+      display: none;
+    }
+    &:nth-child(12) {
+      display: none;
+    }
   `}
   border: 1px solid white;
   background-size: cover;
