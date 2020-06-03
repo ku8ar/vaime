@@ -14,7 +14,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tour"}
       - {label: "Active", name: "active", widget: "boolean", default: true}
-      - {label: "One Day", name: "oneDay", widget: "boolean", default: false}
+      - {label: "One Day", name: "oneDay", widget: "boolean", default: false, required: false}
       - {label: "Min seats (one day tour)", name: "minSeats", widget: "number", default: 1}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
@@ -80,4 +80,4 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - {label: Carousel, name: carousel, widget: list, required: false, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
-      - {label: "Contact", name: "contact", widget: "boolean", default: false}
+      - {label: "Contact", name: "contact", widget: "boolean", default: false, required: false}

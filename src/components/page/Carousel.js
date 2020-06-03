@@ -1,11 +1,11 @@
 import React, { useState, useCallback, useMemo, useEffect } from 'react'
-import {path} from 'rambda'
+import {path, isEmpty} from 'rambda'
 import styled, { createGlobalStyle } from 'styled-components'
 import ReactCarousel, { Dots } from '@brainhubeu/react-carousel'
 import { View } from '../Base'
 
 const Carousel = ({ images }) => {
-  if (!images) return null
+  if (!images || isEmpty(images)) return null
   const imgs = useMemo(() => images.map(data => ({
     name: data.name,
     src: path('image.childImageSharp.fluid.src', data) || path('image', data)

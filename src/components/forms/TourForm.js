@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { path } from 'rambda'
+import { path, pipe, defaultTo, head, propOr, toLower, includes } from 'rambda'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
 import { Input, TextArea } from '../field/Input'
@@ -26,8 +26,16 @@ const validateChildren = (children) => {
   if (children > 4) return 'Niepoprawna liczba miejsc'
 }
 
+const getIsFromTbilisi = pipe(
+  defaultTo([]),
+  head,
+  propOr('', 'place'),
+  toLower,
+  includes('tbilisi')
+)
+
 // @TODO: this form looks like shit. Refactor it
-export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
+export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) => {
   const [values, setValues] = useState({
     date: 0
   })
@@ -39,6 +47,8 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
 
   const [errors, setErrors] = useState({})
   const [sender, setSender] = useState(0)
+
+  const fromTbilisi = getIsFromTbilisi(schedule)
 
   useEffect(() => {
     if (values.date) setErrors({ ...errors, date: null })
@@ -80,6 +90,8 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
     if (values.accomodation && values.extraPayment) setValues({ ...values, accomodation: false })
   }, [values.extraPayment])
 
+  const alone = values.adults === 1 && !oneDay
+
   const send = useCallback(() => {
     setErrors({
       date: oneDay ? !values.date && 'Wprowadź dane' : null,
@@ -87,19 +99,19 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
       surname: !values.surname && 'Wprowadź dane',
       email: validateEmail(values.email),
       approve: !values.approve && 'Potrzebujemy Twojej zgody',
-      extraPayment: values.adults === 1 && !values.accomodation && !values.extraPayment && 'Zaznacz przynajmniej jedną z opcji',
+      extraPayment: alone && !values.accomodation && !values.extraPayment && 'Zaznacz przynajmniej jedną z opcji',
       adults: validateAdults(values.adults, seats, minSeats),
       children: validateChildren(values.children)
     })
     setSender(s => s + 1)
-  }, [values, errors])
+  }, [values, errors, alone])
 
   useEffect(() => {
     if (sender && !Object.values(errors).filter(Boolean).length) {
       setIsSubmitting(true)
       const { date, ...tourDetails } = values
       const { startDate, endDate, price } = terms[date] || {}
-      const body = { ...tourDetails, startDate, endDate, title, price, date: startDate ? calcDate(startDate, endDate) : date, oneDay }
+      const body = { ...tourDetails, startDate, endDate, title, price, date: startDate ? calcDate(startDate, endDate) : date, oneDay, fromTbilisi }
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
@@ -128,8 +140,6 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose }) => {
       setTimeout(onClose, 3000)
     }
   }, [isSended])
-
-  const alone = values.adults === 1
 
   return (
     <Form values={values} errors={errors} setValues={setValues}>
