@@ -13,7 +13,7 @@ terms:
     price: 50
 thumb: /img/georgia-4708365.jpg
 images:
-  - image: /img/church-4580349.jpg
+  - image: /img/231125758.jpg
     name: tbilisi
 map: /img/tb.png
 schedule:
