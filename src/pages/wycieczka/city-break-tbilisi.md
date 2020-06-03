@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: true
 minSeats: 1
-title: Stare Tbilisi - kiedyś i dziś
+title: Stare Tbilisi - historia w nazwach
 description: Odkrywanie starego Tbilisi za pomocą starych fotografii
 terms:
   - startDate: 2020-07-23T18:59:13.091Z
@@ -152,14 +152,18 @@ schedule:
 priceContains:
   - icon: guide
     text: Polskojęzyczny przewodnik po Tbilisi
-  - icon: cinemaTicket
-    text: Bilet wstępu do Muzeum Narodowego
   - text: Przejazd kolejką linową
     icon: cableCar
-  - text: Obiadokolacja z pokazem tańców ludowych
-    icon: restaurant
 priceNotContains:
   - icon: food
-    text: Dodatkowych posiłków i napojów nie zawartych w programie
+    text: Posiłków i napojów nie zawartych w programie
+  - text: Biletu wstępu do muzeum
+    icon: cinemaTicket
 ---
-Do przejścia - ok. 15 km
+
+
+* Trasa do przejścia: ok. 5 km 
+* Długość wycieczki: ok. 4-5 godzin 
+* Stopień trudności: łatwy 
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, paniom zalecane jest mieć przy sobie nakrycie głowy na przypadek odwiedzania świątyń 
+* Koszt wycieczki jest jednakowy dla 1 osoby do grupy max. 15 osób
