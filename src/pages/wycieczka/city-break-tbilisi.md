@@ -4,7 +4,7 @@ active: true
 oneDay: true
 minSeats: 1
 title: Stare Tbilisi - kiedyś i dziś
-description: Podróż po nieznanych zakątkach starego miasta Tbilisi
+description: Odkrywanie starego Tbilisi za pomocą starych fotografii
 terms:
   - startDate: 2020-07-23T18:59:13.091Z
     endDate: 2020-11-01T18:59:13.133Z
@@ -18,10 +18,11 @@ images:
 map: /img/tb.png
 schedule:
   - day: "1"
-    text: "Spotkanie na placu Wolności. Stąd zaczniemy nasz spacer po zakątkach
-      starego miasta Tbilisi, ale zanim ruszymy dalej, przypatrzymy się ciekawym
-      XIX-wiecznym budynkom, takim, jak np. stary ratusz miejski, oraz poznamy
-      historię tego placu - serca miasta. "
+    text: >
+      Spotkanie na placu Wolności. Stąd zaczniemy nasz spacer po zakątkach
+      starego miasta Tbilisi, a towarzyszyć nam będą stare fotogragfie miasta. 
+
+      Zanim ruszymy dalej, przypatrzymy się ciekawym XIX-wiecznym budynkom, takim, jak np. stary ratusz miejski, oraz poznamy historię tego placu - serca miasta. 
     place: Plac wolności
   - day: "2"
     place: "Baratashvili i mury miejskie "
