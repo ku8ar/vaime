@@ -1,7 +1,7 @@
 import React from 'react'
 import { path, sortBy, pipe, filter, head, prop, reverse, not } from 'rambda'
 import { graphql } from 'gatsby'
-import { calcYear } from '../utils/date'
+import { calcYear, getCurrentYear } from '../utils/date'
 import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -57,7 +57,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       </Hero>
       <InfoBelt />
       {_multiDayTours.length ? (
-        <Section title={"Nasze oferty"}>
+        <Section title={`Oferty ${getCurrentYear()}`}>
           <Grid>
             {_multiDayTours.map(({ node }) => (
               <TourTile

@@ -6,7 +6,7 @@ import User from '../../icons/user'
 import BusCircle from '../../icons/busCircle'
 
 const data = [
-  {Icon: Compass, label: 'Zwiedzanie', description: 'Najlepsze atrakcje Gruzji i Armenii'},
+  {Icon: Compass, label: 'Zwiedzanie', description: 'Gruzja i Armenia: najlepsze atrakcje'},
   {Icon: User, label: 'Zespół', description: 'Wykwalifikowani przewodnicy i kierowcy'},
   {Icon: BusCircle, label: 'Komfortowa podróż', description: 'Kameralne grupy'}
 ]

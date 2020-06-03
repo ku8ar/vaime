@@ -47,6 +47,7 @@ const Hr = styled.div`
 
 const Answer = styled.p`
   text-align: justify;
+  display: ${p => p.open ? 'visible': 'none'}
 `
 
 const FaqItem = ({ question, answer }) => {
@@ -60,7 +61,7 @@ const FaqItem = ({ question, answer }) => {
       <FaqColumn>
         <Hr open={open} />
         <p><strong>{question}</strong></p>
-        {open && <Answer>{answer}</Answer>}
+        <Answer open={open}>{answer}</Answer>
       </FaqColumn>
     </FaqItemWrapper>
   )

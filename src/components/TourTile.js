@@ -85,7 +85,7 @@ export default ({ slug, tour }) => {
         <H6>{title}</H6>
         <TourColumn>
           <Heart slug={slug} />
-          <Price color='colorPrimary'>{price} EUR</Price>
+          <Price color='colorPrimary'>cena {price} EUR</Price>
         </TourColumn>
       </BottomLabel>
     </LinkWrapper>
