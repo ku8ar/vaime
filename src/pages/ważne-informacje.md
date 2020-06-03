@@ -17,7 +17,7 @@ Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześ
 
 \- Oprócz programów podanych na stronie, możliwe jest zorganizowanie wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś specjalnie dla Was.
 
-–  Nasze wyprawy często zawierają noclegi  w pensjonatach rodzinnych, prowadzonych przez lokalnych mieszkańców. Dzięki czemu, cały czas mamy kontakt z miejscowymi, lepiej poznamy ich kulturę, życie codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj nocujemy w hotelach 3*.\
+–  Nasze wyprawy często zawierają noclegi  w pensjonatach rodzinnych, prowadzonych przez lokalnych mieszkańców. Dzięki czemu, cały czas mamy kontakt z miejscowymi, lepiej poznajemy ich kulturę, życie codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj nocujemy w hotelach 3*.\
 Śpimy w pokojach dwuosobowych. Pokój jednoosobowy dostępny jest w przypadku dopłaty.
 
 – Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
@@ -30,7 +30,7 @@ Wizzair:
 
 Z Warszawy, Wrocławia, Katowic, Gdańska, Krakowa, Poznania kilka razy w tygodniu są loty do Kutaisi, do zachodniej części kraju.
 
-Berlin bliżej niż Warszawa? Nie ma problemu, bo z Berlina też dolecicie do Kutaisi.
+Berlin bliżej niż Warszawa? Nie ma problemu, bo z Berlina też można dolecieć do Kutaisi.
 
 [ Sprawdź tu ](https://wizzair.com/#/)
 

@@ -1,11 +1,11 @@
 ---
 templateKey: page
 title: Polityka Prywatności
-description: 'Cookies, Polityka Prywatności'
+description: Cookies, Polityka Prywatności
 images:
-  - image: /img/projekt-bez-tytułu-5-.png
+  - image: /img/hacker-1944688.jpg
     name: prywatność
-carousel:
+carousel: null
 contact: false
 ---
 

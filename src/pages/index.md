@@ -1,7 +1,7 @@
 ---
 templateKey: home
 title: "Vaime Travel: Wakacje w Gruzji"
-description: Podróże z Nini i Mają
+description: Podróże z Nini i Maią
 images:
   - image: /img/302.jpg
     name: Batumi
@@ -43,7 +43,7 @@ promoImage: /img/mapka_glowna.png
 Witamy w naszym biurze!  \
 Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
 
-Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze staramy się dostosować się do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
+Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze staramy się dostosować programy do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
 Zapraszamy, zwiedźcie Gruzję razem z nami!
 
 Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg?view_as=subscriber)
