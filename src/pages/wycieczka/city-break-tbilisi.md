@@ -20,9 +20,9 @@ schedule:
   - day: "1"
     text: >
       Spotkanie na placu Wolności. Stąd zaczniemy nasz spacer po zakątkach
-      starego Tbilisi, a towarzyszyć nam będą stare fotogragfie miasta. 
+      starego Tbilisi, a towarzyszyć nam będą stare fotografie miasta. 
 
-      Zanim ruszymy dalej, przypatrzymy się ciekawym XIX-wiecznym budynkom, takim, jak np. stary ratusz miejski, oraz poznamy historię tego placu - serca miasta. 
+      Zanim ruszymy dalej, przypatrzymy się ciekawym XIX-wiecznym budynkom, takim, jak np. stary ratusz miejski, oraz poznamy historię tego placu, serca miasta. 
     place: Plac wolności
   - day: "2"
     place: "Baratashvili i mury miejskie "
@@ -38,17 +38,17 @@ schedule:
       Srebrna (Wercchlis kucza) oraz Złotnika (Okromczedlis kucza) były kiedyś
       centrami tbilisskiego przemysłyu jubilerskiego, znajdowały się tutaj też
       rzędy sprzedawców srebra i złota. Stare zdjęcia Tbilisi dobrze pokazują,
-      jak te uliczki były pełne życia, były tloczne, gwarne.. Patrząć na
-      zachowane do dziś kamienice z zabytkowych zdjęć, możemy jeszcze lepiej
-      wyobrazić sobie te targowiska.
+      jak te uliczki były pełne życia, były tloczne i gwarne. Na miejscu dowiemy
+      się kim byli "hamkarzy", dlaczego nosili przy sobie srebrny pasek i jak
+      doszło do konfliktu z Niemcami.
   - day: "4"
     place: Ulica Kote Apkhazi (Leselidze)
     text: >-
       Wychodzimy na ulice Kote Apkhazi, albo inaczej ulicę Leselidze. Jest to
       jedna z najbardziej znanych uliczek starego miasta, znależć można tutaj
       wszelkie pamiątki, sklepy z gruzińskimi winami, które oferują darmowe
-      degustacje oraz stragany z słodyczami i przyprawami. Ulica ta łączy Plan
-      Wolności z Meidani, czyli t.z. rynkiem miasta Tbilisi. Ulica Kote Apkhazi
+      degustacje oraz stragany z słodyczami i przyprawami. Ulica ta łączy Plac
+      Wolności z Meidani, czyli tz. rynkiem miasta Tbilisi. Ulica Kote Apkhazi
       kilka razy zmieniała swoją nazwę - w XIX w. to miejsce znane było, jako
       Ormiański Bazar, gdzie nabyć można było wszelką broń i futra, w I połowie
       XX w. wprowadzona została nazwa Leselidze, na cześć gruzińskiego generała
@@ -67,29 +67,30 @@ schedule:
       obecnie mieści się muzeum, kiedyś pełnił funkcję karawanseraju, czyli
       zajezdnego domu dla kupców i ich karawan z dalekiego wschodu. 
 
-      Odwiedzimy muzeum, aby dowiedzieć się więcej o stolicy.
+      Odwiedzimy muzeum*, aby dowiedzieć się więcej o stolicy. 
+
+      *Bilety dodatkowo płatne - 5 GEL
   - day: "6"
     place: Bawełniane i Żelazne rzędy
     text: >-
-      Wychodząc z Muzeum, mijając posąg Tamady, znajdujemy się przed imprezowymi
-      uliczkami z wieloma restaracjami, barami i klubami. Ulice Chardina i
-      "Bawełniane Rzędy" nigdy nie śpią - zawsze jest pełno ludzi. W starym
-      Tbilisi te miejsca również nie narzekały na brak klientów, ale z innego
-      powodu - otóż uliczki te również były miejscami do handlu, kupić można
-      było tutaj bawełnę, wełnę i inne materiały. 
+      Wychodząc z Muzeum znajdujemy się przed imprezowymi uliczkami z wieloma
+      restaracjami, barami i klubami. Ulice Chardina i "Bawełniane Rzędy" nigdy
+      nie śpią - zawsze jest pełno ludzi. W starym Tbilisi te miejsca również
+      nie narzekały na brak klientów, ale z innego powodu - otóż uliczki te
+      również były miejscami do handlu, kupić można było tutaj bawełnę, wełnę i
+      inne materiały. 
 
       Tuż obok znajduje się ulica Żelazne Rzędy, na której, jak sama nazwa wskazuje, postawały warsztaty metalowe oraz trwała sprzedaż sprzętu metalowego lub surowców żelaza. 
   - day: "7"
     place: Meidani
     text: Wychodzimy na rynek Meidani. Meidani to obecnie najlepiej zachowany plac
       starego Tbilisi, z którego możemy zobaczyć twierdzę Narikala, cerkiew
-      Metechi po drugiej stronie rzeki Mtkwai oraz ruiny twierdzy-pałacu
+      Metechi po drugiej stronie rzeki Mtkwari oraz ruiny twierdzy-pałacu
       królowej Daredżan. Meidani było głównym targowiskiem miasta, liczne
       stragany z przeróżnymi towarami rozstawione były po calym placu. Stara
       nazwa placu brzmi, jako Plac Więzienny, co związane było z istniejiem
-      więzienia przy cerkwi Metechi, lub Plac Twierdzy, co z kolei wskazywało na
-      miejską twierdzę Narikala. Ostateczna nazwa Meidani zakorzeniła się w 1800
-      roku.
+      więzienia przy cerkwi Metechi. Ostateczna nazwa Meidani zakorzeniła się w
+      1800 roku.
   - day: "8"
     place: Ulica malarzy i mistrzów farb
     text: Z Meidani przemieszczamy się na ulicę Samghebro, w tłumaczeniu na polski -
@@ -111,16 +112,15 @@ schedule:
       Obecna cerkiew Metechi pochodzi z XII wieku, a obok możemy zobaczyć pomnik założyciela miasta Tbilisi, króla Vachatanga Gorgasali.
   - day: "10"
     place: "Ulica Wina "
-    text: "Po zwiedzaniu Metechi schodzimy w okolice placu Europejskiego. Tutaj
+    text: Po zwiedzaniu Metechi schodzimy w okolice placu Europejskiego. Tutaj
       znajdujemy się na rozwidleniu dróg. Szczególnie ciekawi nas jedna ulica,
       która prowadzi pod górkę, do historycznej dzielnicy Awlabari. Nazywa się
-      ulica (podjazd) Wina. Nazwa ulicy nie wzięła się z nikąd, było to miejsce
-      dostawy i rozładunku winogron, które sprowadzały z regionu Kacheti. Z
-      racji tego, że dzielnica ta znajduje się na wschodzie miasta, czyli w
-      kierunku Kacheti, było to bardzo wygodne miejsce na zatrzymanie się z
-      wozami. Aby nie tracić czasu, winogrona były przygotowywane do produkcji
-      wina na miejscu, sprzedawali również już gotowe wino, które też przywozili
-      z Kacheti. "
+      ulica (podjazd) Wina. Nazwa ulicy nie wzięła się znikąd, było to miejsce
+      dostawy i rozładunku wina, które sprowadzały z regionu Kacheti. Z racji
+      tego, że dzielnica ta znajduje się na wschodzie miasta, czyli w kierunku
+      Kacheti, było to bardzo wygodne miejsce na zatrzymanie się z wozami.
+      Dowiemy się jaką rolę odegrali Niemcy w polepszeniu smaku gruzińskiego
+      wina.
   - day: "11"
     place: Plac Bukszpanu lub Targ Słomy
     text: Dziś zwany placem Europejskim, kiedyś był placem, gdzie zatrzymywali się
