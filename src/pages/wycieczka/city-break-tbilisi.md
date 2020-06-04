@@ -36,11 +36,11 @@ schedule:
     text: Wkraczamy w sam środek starego miasta, który dzisiaj nie jest częstym
       punktem zwiedzania, ale mimo wszystko kryje bardzo ciekawe historie. Ulice
       Srebrna (Wercchlis kucza) oraz Złotnika (Okromczedlis kucza) były kiedyś
-      centrami tbiliskiego przemysłyu jubilerskiego, znajdowały się tutaj też
-      rzędy sprzedawców srebra i złota. Stare zdjęcia Tbilisi dobrze pokazują,
-      jak te uliczki były pełne życia, były tloczne i gwarne. Na miejscu dowiemy
-      się kim byli "hamkarzy", dlaczego nosili przy sobie srebrny pasek i jak
-      doszło do konfliktu z Niemcami.
+      centrami tbiliskiego przemysłyu jubilerskiego, znajdowały się tutaj rzędy
+      sprzedawców srebra i złota. Stare zdjęcia Tbilisi dobrze pokazują, jak te
+      uliczki były pełne życia, były tloczne i gwarne. Na miejscu dowiemy się
+      kim byli "hamkarzy", dlaczego nosili przy sobie srebrny pasek i jak doszło
+      do konfliktu z Niemcami.
   - day: "4"
     place: Ulica Kote Apkhazi (Leselidze)
     text: Wychodzimy na ulicę Kote Apkhazi, albo inaczej ulicę Leselidze. Jest to
@@ -52,7 +52,7 @@ schedule:
       Ormiański Bazar, gdzie nabyć można było wszelką broń i futra, w I połowie
       XX w. wprowadzona została nazwa Leselidze, na cześć gruzińskiego generała
       radzieckiej armii Konstantine Leselidze, a w 2006 roku ulica przyjęła
-      swoją aktualną nazwę - Kote Apkhazi. Na ulicy Kote Apkhazi. wraz z
+      swoją aktualną nazwę - Kote Apkhazi. Na ulicy Kote Apkhazi wraz z
       gruzińskimi cerkwiami, znajdują się kościół katolicki oraz synagoga.
   - day: "5"
     place: Karawanseraj
@@ -112,7 +112,7 @@ schedule:
       znajdujemy się na rozwidleniu dróg. Szczególnie ciekawi nas jedna ulica,
       która prowadzi pod górkę, do historycznej dzielnicy Awlabari. Nazywa się
       ulica "podjazdem" Wina. Nazwa ulicy nie wzięła się znikąd, było to miejsce
-      dostawy i rozładunku wina, które sprowadzane z regionu Kacheti. Z racji
+      dostawy i rozładunku wina, które sprowadzano z regionu Kacheti. Z racji
       tego, że dzielnica ta znajduje się na wschodzie miasta, czyli w kierunku
       Kacheti, było to bardzo wygodne miejsce na zatrzymanie się z wozami.
       Dowiemy się jaką rolę odegrali Niemcy w polepszeniu smaku gruzińskiego
