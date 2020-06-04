@@ -150,14 +150,14 @@ schedule:
     place: Zakończenie zwiedzania
 priceContains:
   - icon: guide
-    text: Polskojęzyczny przewodnik po Tbilisi
-  - text: Przejazd kolejką linową
-    icon: cableCar
+    text: Obslugę polskojęzyczny przewodnik po Tbilisi
 priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
   - text: Biletu wstępu do Muzeum Historii Tbilisi - 5 GEL
     icon: cinemaTicket
+  - text: Biletu na przejazd kolejką linową
+    icon: cableCar
 ---
 * Trasa do przejścia: ok. 5 km 
 * Długość wycieczki: ok. 4-5 godzin 
