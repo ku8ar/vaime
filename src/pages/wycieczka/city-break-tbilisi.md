@@ -1,16 +1,16 @@
 ---
 templateKey: tour
-active: false
+active: true
 oneDay: true
 minSeats: 1
-title: Stare Tbilisi - historia w nazwach
+title: "Stare Tbilisi - historia w nazwach "
 description: Spacer po nieznanych zakątkach starego Tbilisi
 terms:
-  - startDate: 2020-07-23T18:59:13.091Z
-    endDate: 2020-11-01T18:59:13.133Z
+  - startDate: 2020-07-01T18:59:13.091Z
+    endDate: 2020-12-01T18:59:13.133Z
     daysCount: "1"
     seats: 5
-    price: 50
+    price: 60
 thumb: /img/georgia-4708365.jpg
 images:
   - image: /img/აკ.jpg
@@ -26,30 +26,27 @@ schedule:
     place: Plac wolności
   - day: "2"
     place: "Baratashvili i mury miejskie "
-    text: Wkraczamy w sam środek starego miasta, który dzisiaj nie jest najczęstszym
-      punktem zwiedzania, ale mimo wszystko kryje bardzo ciekawe historie. Ulice
-      Srebrna (Wercchlis kucza) oraz Złotnika (Okromczedlis kucza) były kiedyś
-      centrami tbiliskiego przemysłu jubilerskiego, znajdowały się tutaj też
-      rzędy sprzedawców srebra i złota. Stare zdjęcia Tbilisi dobrze pokazują,
-      jak te uliczki były pełne życia, były tłoczne i gwarne. Na miejscu dowiemy
-      się kim byli "hamkarzy", dlaczego nosili przy sobie srebrny pasek i jak
-      doszło do konfliktu z Niemcami.
+    text: Spacer kontynuujemy ulicą Puszkina aż do szerokiej ulicy Baratashvili. Są
+      to już obrzeża starego miasta, gdyż tutaj zobaczyć możemy fragmenty murów
+      miejskich z XVI wieku, które kiedyś otaczały sporą część starego Tbilisi.
+      Zatrzymamy się, aby poznać historię tej ulicy, zabytkowych domków oraz
+      opowieści, jak ta część miasta zmieniła się na przestrzeni wieków.
   - day: "3"
     place: Ulice Srebrna i Złotnika
-    text: Wkraczamy w sam środek starego miasta, który dzisiaj nie jest najczęstym
-      punktem zwiedzania, ale mimo wszystko kryje bardzo ciekawe historię. Ulice
+    text: Wkraczamy w sam środek starego miasta, który dzisiaj nie jest częstym
+      punktem zwiedzania, ale mimo wszystko kryje bardzo ciekawe historie. Ulice
       Srebrna (Wercchlis kucza) oraz Złotnika (Okromczedlis kucza) były kiedyś
-      centrami tbilisskiego przemysłyu jubilerskiego, znajdowały się tutaj też
+      centrami tbiliskiego przemysłyu jubilerskiego, znajdowały się tutaj też
       rzędy sprzedawców srebra i złota. Stare zdjęcia Tbilisi dobrze pokazują,
       jak te uliczki były pełne życia, były tloczne i gwarne. Na miejscu dowiemy
       się kim byli "hamkarzy", dlaczego nosili przy sobie srebrny pasek i jak
       doszło do konfliktu z Niemcami.
   - day: "4"
     place: Ulica Kote Apkhazi (Leselidze)
-    text: Wychodzimy na ulice Kote Apkhazi, albo inaczej ulicę Leselidze. Jest to
+    text: Wychodzimy na ulicę Kote Apkhazi, albo inaczej ulicę Leselidze. Jest to
       jedna z najbardziej znanych uliczek starego miasta, znaleźć można tutaj
       wszelkie pamiątki, sklepy z gruzińskimi winami, które oferują darmowe
-      degustacje oraz stragany z słodyczami i przyprawami. Ulica ta łączy Plac
+      degustacje oraz stragany ze słodyczami i przyprawami. Ulica ta łączy Plac
       Wolności z Meidani, czyli tz. rynkiem miasta Tbilisi. Ulica Kote Apkhazi
       kilka razy zmieniała swoją nazwę - w XIX w. to miejsce znane było, jako
       Ormiański Bazar, gdzie nabyć można było wszelką broń i futra, w I połowie
@@ -106,16 +103,16 @@ schedule:
       miasta, ale kiedyś Metechi pełniło też inną funkcję. Do początku XX wieku,
       obok cerkwi znajdowało się więzienie, otoczone potężnym murem. Ani
       więzienia, ani muru dziś już nie ma, ale stare fotografie pomogą nam
-      lepiej narysować obraz tego miejsca. 
+      lepiej przedstawić obraz tego miejsca. 
 
-      Obecna cerkiew Metechi pochodzi z XII wieku, a obok możemy zobaczyć pomnik założyciela miasta Tbilisi, króla Vachatanga Gorgasali.
+      Obecna cerkiew Metechi pochodzi z XIII wieku, a obok możemy zobaczyć pomnik założyciela miasta Tbilisi, króla Vachtanga Gorgasali.
   - day: "10"
     place: "Ulica Wina "
     text: Po zwiedzaniu Metechi schodzimy w okolice placu Europejskiego. Tutaj
       znajdujemy się na rozwidleniu dróg. Szczególnie ciekawi nas jedna ulica,
       która prowadzi pod górkę, do historycznej dzielnicy Awlabari. Nazywa się
-      ulica (podjazd) Wina. Nazwa ulicy nie wzięła się znikąd, było to miejsce
-      dostawy i rozładunku wina, które sprowadzały z regionu Kacheti. Z racji
+      ulica "podjazdem" Wina. Nazwa ulicy nie wzięła się znikąd, było to miejsce
+      dostawy i rozładunku wina, które sprowadzane z regionu Kacheti. Z racji
       tego, że dzielnica ta znajduje się na wschodzie miasta, czyli w kierunku
       Kacheti, było to bardzo wygodne miejsce na zatrzymanie się z wozami.
       Dowiemy się jaką rolę odegrali Niemcy w polepszeniu smaku gruzińskiego
@@ -123,7 +120,7 @@ schedule:
   - day: "11"
     place: Plac Bukszpanu lub Targ Słomy
     text: Dziś zwany placem Europejskim, kiedyś był placem, gdzie zatrzymywali się
-      kupcy, handlarze tbiliscy i przyjezdni, w tym podróżujący z wschodu.
+      kupcy, handlarze tbiliscy i przyjezdni, w tym podróżujący ze wschodu.
       Często środkiem lokomocji takich handlarzy były wielbłądy, i wtedy, kiedy
       właściciele zwierząt udawały się na noclegi do pobliskich karawanserajów,
       wielbłądy przywiązywane i zostawiane były właśnie tutaj, a z racji tego,
@@ -134,7 +131,7 @@ schedule:
     place: Twierdza Narikala
     text: Na chwilę zapominamy stare Tbilisi i korzystając z nowoczesnych
       technologii, czyli kolejki linowej, wjeżdżamy na twierdzę Narikala.
-      Twierdza Narikala od początków historii miasta, była najważniejszym
+      Twierdza Narikala od początków historii miasta była najważniejszym
       obronnym punktem Tbilisi, wiele razy niszczona i odbudowywana. Z Narikali
       zobaczyć można całe stare Tbilisi i nie tylko.
   - day: "13"
@@ -150,17 +147,18 @@ schedule:
     place: Zakończenie zwiedzania
 priceContains:
   - icon: guide
-    text: Obslugę polskojęzyczny przewodnik po Tbilisi
+    text: Obslugę polskojęzycznego przewodnika po Tbilisi
 priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
-  - text: Biletu wstępu do Muzeum Historii Tbilisi - 5 GEL
+  - text: Biletu wstępu do Muzeum Historii Tbilisi - ok. 2 EUR
     icon: cinemaTicket
-  - text: Biletu na przejazd kolejką linową
+  - text: Biletu na przejazd kolejką linową - ok. 1 EUR
     icon: cableCar
 ---
 * Trasa do przejścia: ok. 5 km 
 * Długość wycieczki: ok. 4-5 godzin 
 * Stopień trudności: łatwy 
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, paniom zalecane jest mieć przy sobie nakrycie głowy na przypadek odwiedzania świątyń 
-* Koszt wycieczki jest jednakowy dla 1 osoby, do grupy max. 15 osób
+* Koszt wycieczki jest jednakowy dla następującej liczby osób: min. 1 osoba - max. 10 osób
+* Cena wycieczki rozkłada się równomiernie na liczbę osób w grupie (np. przy grupie 10 os. - 6 EUR/os, przy grupie 5 os. - 12 EUR/os, przy 2 os. - 30 EUR/os.)
