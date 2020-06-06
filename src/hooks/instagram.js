@@ -9,7 +9,7 @@ export default () => {
   useEffect(() => {
     if (!photos.length) {
       const instagramParser = new Nanogram()
-      instagramParser.getMediaByUsername('vaimetravel').then((media) => {
+      instagramParser.getMediaByUsername('vaimetravel/').then((media) => {
         setPhotos(media.profile.edge_owner_to_timeline_media.edges.map(({ node }) => ({
           href: `https://www.instagram.com/p/${node.shortcode}`,
           src: node.display_url
