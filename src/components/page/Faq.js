@@ -14,24 +14,6 @@ const FaqItemWrapper = styled.div`
   width: 100%;
 `
 
-const FaqIcon = styled.div`
-  background-color: ${p => p.theme.colorPrimary};
-  margin-top: .25rem;
-  border-radius: 50%;
-  width: 1rem;
-  height: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  margin-right: .5rem;
-  margin-top: 1.8rem;
-  font-size: .7rem;
-  font-weight: ${p => p.theme.weightBolder};
-  transform: rotate(${p => p.open ? 360 : 270}deg);
-  transition: transform 0.3s;
-`
-
 const FaqColumn = styled.div`
   flex: 1;
   padding-top: .5rem;
