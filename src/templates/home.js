@@ -141,7 +141,7 @@ export const pageQuery = graphql`
             }
             active
             oneDay
-            thumb { ...imageThumb }
+            thumb { ...imageTile }
           }
         }
       }
@@ -156,13 +156,13 @@ export const pageQuery = graphql`
           image { ...imageFullWidth }
         }
         aboutTitle
-        aboutImage { ...imagHalfWidth }
-        promoImage { ...imageFullWidth }
+        aboutImage { ...imageHalfWidth }
+        promoImage { ...imageViewWidth }
         team {
           name
           place
           text
-          image { ...imageThumb }
+          image { ...imageAvatar }
         }
       }
     }

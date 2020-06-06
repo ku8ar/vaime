@@ -115,7 +115,7 @@ export const pageQuery = graphql`
           text
           icon
         }
-        thumb { ...imageThumb }
+        thumb { ...imageTile }
         seoImage: thumb { ...imageSeo }
         map { ...imageFullWidth }
         images {
