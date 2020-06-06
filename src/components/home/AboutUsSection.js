@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { path } from 'rambda'
 import { View, H2 } from '../Base'
+import Image from '../Image'
 
 const Wrapper = styled.div`
   position: relative;
@@ -26,22 +27,20 @@ const ContentWrapper = styled.div`
   `}
 `
 
-const BgWrapper = styled.div`
+const AboutUsImage = styled(Image)`
   position: absolute;
   right: 0;
   width: 50%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
   ${p => p.theme.mobile`
     display: none;
   `}
 `
 
+const imgStyle = { position: 'absolute', width: '50%', height: '100%' }
+
 export default ({title, image, children }) => {
   if (!children) return null
-  const img = path('childImageSharp.fluid.src', image) || image
   return (
     <Wrapper>
       <Content>
@@ -50,7 +49,7 @@ export default ({title, image, children }) => {
           {children}
         </ContentWrapper>
       </Content>
-      <BgWrapper style={{ backgroundImage: `url(${img})` }} />
+      <AboutUsImage style={imgStyle} data={{image, title: 'O nas'}} />
     </Wrapper>
   )
 }
