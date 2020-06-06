@@ -4,7 +4,7 @@ export const bannerImage = graphql`
   fragment imageFullWidth on File {
     childImageSharp {
       fluid(maxWidth: 1920, quality: 90) {
-        ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluid_withWebp
       }
     }
   }
@@ -12,7 +12,7 @@ export const bannerImage = graphql`
   fragment imagHalfWidth on File {
     childImageSharp {
       fluid(maxWidth: 960, quality: 90) {
-        ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluid_withWebp
       }
     }
   }
@@ -20,7 +20,7 @@ export const bannerImage = graphql`
   fragment imageThumb on File {
     childImageSharp {
       fluid(maxWidth: 400, quality: 90) {
-        ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluid_withWebp
       }
     }
   }
