@@ -1,7 +1,7 @@
 ---
 templateKey: home
-title: "Wycieczki po Gruzji z Nini i Mają"
-description: "Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja 🏝 Armenia 🏰 Kaukaz ⛰"
+title: "Wycieczki po Gruzji z Nini i Maia"
+description: "Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja, Armenia, Kaukaz"
 images:
   - image: /img/302.jpg
     name: Batumi
