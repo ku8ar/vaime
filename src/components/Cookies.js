@@ -29,7 +29,7 @@ const Cookies = () => {
 const Wrapper = styled.div`
   position: fixed;
   bottom: 0;
-  z-index: 1;
+  z-index: 3;
   left: 0;
   right: 0;
   background-color: ${props => props.theme.colorPrimary};
@@ -39,6 +39,11 @@ const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  ${p => p.theme.mobile`
+    height: 4rem;
+    top: 0;
+    bottom: inherit;
+  `}
 `
 
 const Agree = styled(Button)`

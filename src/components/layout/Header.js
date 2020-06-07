@@ -32,6 +32,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, location }
           <LogoWrapper to="/" title="Logo">
             <LogoIcon src={logo} alt={companyName} />
           </LogoWrapper>
+          <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
         </LayoutNavigationMobile>
       </Header>
       <MobileNavigation navigation={navigation} location={location} />
@@ -115,8 +116,4 @@ const LayoutNavigationMobile = styled(View)`
     justify-content: space-between;
     align-items: center;
   `}
-`
-
-const BurgerIcon = styled.img`
-  height: 2.5rem;
 `
