@@ -7,10 +7,11 @@ import {View} from './Base'
 const Hero = ({ images, children, small }) => {
   const imgKey = useImageKey(images)
   const imgData = images && images.length && images[imgKey]
+  const multiple = images && !!images.length
 
   return (
     <>
-    <GlobalStyle/>
+    {multiple && <GlobalStyle/>}
     <HeroWrapper small={small}>
       <ReactCSSTransitionGroup {...cssTransitionProps}>
         <Image key={imgKey} style={imgStyle} data={imgData} loading={imgKey === 0 ? 'eager' : 'lazy'} />
