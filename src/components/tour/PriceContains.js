@@ -64,5 +64,5 @@ const Text = styled.span`
 const Title = styled(H6)`
   margin-top: 0;
   text-transform: uppercase;
-  font-weight: ${p => p.theme.weightBold};
+  font-weight: ${p => p.theme.weightNormal};
 `

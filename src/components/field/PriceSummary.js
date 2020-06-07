@@ -24,18 +24,18 @@ const PriceWrapper = styled.div`
 `
 const PriceText = styled(H6)`
   margin: 0;
-  font-weight: ${p => p.theme.weightBolder};
+  font-weight: ${p => p.theme.weightNormal};
   color: ${p => p.theme.colorPrimary};
 `
 const PriceAmount = styled(H2)`
   margin: 0;
-  font-weight: ${p => p.theme.weightBolder};
+  font-weight: ${p => p.theme.weightNormal};
   margin: 0 .5rem;
   color: ${p => p.theme.colorPrimary};
 `
 const PriceCurrency = styled(P)`
   margin: 0;
-  font-weight: ${p => p.theme.weightBolder};
+  font-weight: ${p => p.theme.weightNormal};
   color: ${p => p.theme.colorPrimary};
 `
 

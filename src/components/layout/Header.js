@@ -47,7 +47,7 @@ const PhoneImg = styled.img`
 
 const PhoneNo = styled.a`
   color: ${p => p.theme.colorWhite};
-  font-weight: ${p => p.theme.weightBold};
+  font-weight: ${p => p.theme.weightNormal};
   font-size: ${p => p.theme.fontBig};
   margin-right: 1rem;
   display: flex;

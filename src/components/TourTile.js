@@ -93,7 +93,7 @@ export default ({ slug, tour }) => {
 }
 
 const Price = styled(H6)`
-  font-weight: ${p => p.theme.weightBolder};
+  font-weight: ${p => p.theme.weightNormal};
 `
 
 const LinkWrapper = styled(Link)`
@@ -162,7 +162,7 @@ const TourInfo = styled.p`
   font-size: 12px;
   text-transform: uppercase;
   padding: .5rem;
-  font-weight: ${p => p.theme.weightBold};
+  font-weight: ${p => p.theme.weightNormal};
 `
 
 const TourButton = styled(Button)`
@@ -182,7 +182,7 @@ const TourColumn = styled.div`
 
 const Outdated = styled(H4)`
   position: absolute;
-  font-weight: ${p => p.theme.weightBolder};
+  font-weight: ${p => p.theme.weightNormal};
   color: ${ path('theme.colorPrimary')};
   top: 50%;
   left: 50%;
