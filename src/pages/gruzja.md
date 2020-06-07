@@ -74,5 +74,6 @@ carousel:
     name: Nadmorski bulwar w Batumi
 contact: false
 hideInstagram: true
+hideContact: true
 ---
 **Sakartwelo** – właśnie tak brzmi nazwa Gruzji w naszym języku ojczystym. Jak możemy najlepiej ją opisać? Przecież mamy mnóstwo rzeczy do powiedzenia  – Gruzja to jedna z najstarszych cywilizacji świata – pierwsze królestwa gruzińskie, Kolchida i Iberia, powstały jeszcze w starożytności. Gruzja jest związana z grecką mitologią – właśnie tutaj przypłynęły legendarni Argonauci szukając Złotego Runa. Stąd pochodzą pierwsi Europejczycy – najstarsze szczątki w Europie znaleziono właśnie tu. W roku 2017 nasz kraj oficjalnie uznano za ojczyznę wina, i bardzo słusznie, przecież możemy się pochwalić ponad 8000-letnią tradycją robienia wina! Nie możemy zapomnieć o fakcie, że Gruzja stała się krajem chrześcijańskim jeszcze w IV wieku, przyjmując chrześcijaństwo, jako drugi kraj na świecie.

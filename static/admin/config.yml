@@ -84,3 +84,4 @@ collections:
       - {label: Carousel, name: carousel, widget: list, required: false, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: Contact, name: "contact", widget: "boolean", default: false, required: false}
       - {label: Hide Instagram, name: "hideInstagram", widget: "boolean", default: false, required: false}
+      - {label: Hide Contact, name: "hideContact", widget: "boolean", default: false, required: false}
