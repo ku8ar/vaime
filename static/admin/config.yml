@@ -63,7 +63,7 @@ collections:
           - {label: "SEO Title Suffix", name: seoTitle, widget: string}
           - {label: "Company Name", name: companyName, widget: string}
           - {label: "Email", name: email, widget: string}
-          - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}]}
+          - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}]{label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}}
           - {label: "Phone numbers", name: phoneNumbers, widget: list}
           - {label: "Social links", name: socialLinks, widget: list, fields: [{label: "Type", name: type, widget: string}, {label: "Address", name: src, widget: string}]}
 
@@ -79,5 +79,9 @@ collections:
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
+      - {label: Grid, name: grid, widget: list, required: false, fields: [{label: "Title", name: title, widget: string}, {label: "Text", name: text, widget: text}, {label: "Image (1)", name: image0, widget: image}, {label: "Image (2)", name: image1, widget: image}]}
+      - {label: "Text", name: "text", widget: "text", required: false}
       - {label: Carousel, name: carousel, widget: list, required: false, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
-      - {label: "Contact", name: "contact", widget: "boolean", default: false, required: false}
+      - {label: Contact, name: "contact", widget: "boolean", default: false, required: false}
+      - {label: Hide Instagram, name: "hideInstagram", widget: "boolean", default: false, required: false}
+      - {label: Hide Contact, name: "hideContact", widget: "boolean", default: false, required: false}

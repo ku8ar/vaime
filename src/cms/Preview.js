@@ -17,7 +17,7 @@ export default ({ children }) => {
     const iframeHeadElem = iframe.contentDocument.head
 
     const link = document.createElement('link')
-    link.href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap'
+    link.href='https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&amp;display=swap'
     link.rel='stylesheet'
 
     iframeHeadElem.appendChild(link)

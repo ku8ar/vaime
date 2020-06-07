@@ -70,15 +70,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `montserrat\:300, 500, 800, 900`
-        ],
-        display: 'swap'
-      }
-    },
-    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./static/img/vaime_circle.png",

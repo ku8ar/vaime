@@ -22,6 +22,7 @@ const Header = ({ title = '', description = '', seoTitle, seoImage }) => (
     {path('childImageSharp.fixed', seoImage) ? (
       <meta property="og:image:height" content={path('childImageSharp.fixed.height', seoImage)} />
     ) : null}
+    <link href="https://www.instagram.com" rel="preconnect" crossOrigin />
   </Helmet>
 )
 

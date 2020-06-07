@@ -105,10 +105,10 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
   )
 }
 
-export default ({ data }) => {
+export default ({ data, location }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
-    <Layout title={title} description={description}>
+    <Layout title={title} description={description} location={location}>
       <HomeTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
@@ -141,7 +141,7 @@ export const pageQuery = graphql`
             }
             active
             oneDay
-            thumb { ...imageThumb }
+            thumb { ...imageTile }
           }
         }
       }
@@ -156,13 +156,13 @@ export const pageQuery = graphql`
           image { ...imageFullWidth }
         }
         aboutTitle
-        aboutImage { ...imagHalfWidth }
-        promoImage { ...imageFullWidth }
+        aboutImage { ...imageHalfWidth }
+        promoImage { ...imageViewWidth }
         team {
           name
           place
           text
-          image { ...imageThumb }
+          image { ...imageAvatar }
         }
       }
     }

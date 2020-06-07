@@ -1,115 +1,67 @@
 import React from 'react'
+import { prop } from 'rambda'
 import { Link } from 'gatsby'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-import styled, { createGlobalStyle } from 'styled-components'
-import logo from '../../img/logo.svg'
+import styled from 'styled-components'
+import { colorPrimary } from '../../components/style/Theme'
+import MenuIcon from '../../icons/menu'
 
-export default ({ menu, navigation, toggleMenu }) => (
-  <>
-    <GlobalStyle/>
-    <ReactCSSTransitionGroup {...cssTransitionProps}>
-      {menu && (
-      <Wrapper key={0} onClick={toggleMenu}>
-        <Menu>
-          {navigation.map(nav => (
-            <NavItem key={nav.to} {...nav}>{nav.title}</NavItem>
-          ))}
-          <LogoWrapper to="/" title="Logo">
-            <LogoIcon src={logo} alt="Vaime Travel" />
-          </LogoWrapper>
-        </Menu>
-      </Wrapper>
-      )}
-    </ReactCSSTransitionGroup>
-  </>
+export default ({ menu, navigation, location }) => {
+  const pathName = prop('pathname', location)
+
+  return (
+  <Wrapper>
+      <NavItem to="/" title="Logo">
+        <Icon icon={'home'} fill={pathName === '/' ? colorPrimary : 'white'} />
+        Vaime
+      </NavItem>
+      {navigation.map(nav => (
+        <NavItem key={nav.to} {...nav}>
+          <Icon icon={nav.icon} fill={pathName === nav.to ? colorPrimary : 'white'} />
+          {nav.title}
+        </NavItem>
+      ))}
+  </Wrapper>
 )
-
-const cssTransitionProps = {
-  className: "mobile-navigation",
-  transitionName: "mobile-navigation-animation",
-  transitionEnterTimeout: 500,
-  transitionLeaveTimeout: 300
 }
-
-
-const GlobalStyle = createGlobalStyle`
-  .mobile-navigation {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
-  }
-
-  @keyframes slide-in-left {
-    0% {
-      transform: translateX(-1000px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes slide-out-left {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-1000px);
-    }
-  }
-  
-
-  .mobile-navigation-animation-enter {}
-  .mobile-navigation-animation-leave {}
-
-  .mobile-navigation-animation-enter.mobile-navigation-animation-enter-active {
-    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }
-
-
-  .mobile-navigation-animation-leave.mobile-navigation-animation-leave-active {
-    animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  }
-`
-
-const NavItem = styled(Link)`
-  color: ${p => p.theme.colorWhite};
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: .5rem;
-  border-bottom: 1px solid white;
-  line-height: 2.3;
-`
-
-const Menu = styled.div`
-  width: 65%;
-  height: 100%;
-  background-color: ${p => p.theme.colorPrimary};
-  display: flex;
-  flex-direction: column;
-  padding-top: 4rem;
-  border-right: 1px solid white;
-  box-shadow: ${p => p.theme.shadowDark};
-`
-
-const LogoWrapper = styled(Link)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 5rem;
-`
-
-const LogoIcon = styled.img`
-  width: 50%;
-`
 
 const Wrapper = styled.div`
   position: fixed;
-  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100vw;
-  height: 100vh;
+  height: 4.5rem;
   z-index: 2;
+  background-color: rgba(27, 34, 44, 0.85);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: stretch;
+  border-top: 1px solid white;
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+
+  display: none;
+  ${p => p.theme.mobile`
+    display: flex;
+  `}
 `
+
+const NavItem = styled(Link)`
+  font-size: 11px;
+  color: ${p => p.theme.colorWhite};
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+`
+
+const Icon = styled(MenuIcon)`
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  margin-bottom: .25rem;
+`
+

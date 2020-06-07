@@ -12,11 +12,15 @@ import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
 import Instagram from '../components/page/Instagram'
 import Carousel from '../components/page/Carousel'
+import GridSection from '../components/page/GridSection'
 import ContactForm from '../components/forms/ContactForm'
+import TextSection from '../components/page/TextSection'
 
-export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, contentComponent }) => {
+export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, text, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
+  const hideInfo = hideContact && hideInstagram
+
   return (
     <Page background={bg}>
       <Hero images={images} small>
@@ -25,8 +29,7 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         </Center>
       </Hero>
       <Grid>
-        <Column size={70}>
-          <Section><Faq list={qa} /></Section>
+        <Column size={hideInfo ? 100 : 70}>
           {html && (<Section><HtmlComponent content={html} /></Section>)}
           {contact && (
             <>
@@ -39,14 +42,23 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
             </>
           )}
         </Column>
-        <Column size={30}>
-          <Section>
-            <Info />
-          </Section>
-          <Section>
-            <Instagram />
-          </Section>
-        </Column>
+        {!hideInfo && (
+          <Column size={30}>
+            {!hideContact && (
+              <Section>
+                <Info />
+              </Section>
+            )}
+            {!hideInstagram && (
+              <Section>
+                <Instagram />
+              </Section>
+            )}
+          </Column>
+        )}
+        <Faq list={qa} />
+        <GridSection data={grid} />
+        <TextSection text={text} />
       </Grid>
           <Section><Carousel images={carousel} /></Section>
       <Cookies />
@@ -54,10 +66,10 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
   )
 }
 
-const StandardPage = ({ data }) => {
+const StandardPage = ({ data, location }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
-    <Layout title={title} description={description}>
+    <Layout title={title} description={description} location={location}>
       <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
@@ -85,6 +97,15 @@ export const pageQuery = graphql`
           image { ...imageFullWidth }
         }
         contact
+        hideInstagram
+        hideContact
+        text
+        grid {
+          image0 { ...imageTile }
+          image1 { ...imageTile }
+          title
+          text
+        }
       }
     }
   }

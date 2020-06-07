@@ -50,7 +50,7 @@ const DayCircle = styled.div`
   width: 2rem;
   height: 2rem;
   font-size: 13px;
-  font-weight: ${p => p.theme.weightBold};
+  font-weight: ${p => p.theme.weightNormal};
   border-radius: 50%;
   z-index: 1;
 `
@@ -59,7 +59,7 @@ const Place = styled(H6)`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
-  font-weight: ${p => p.theme.weightBold};
+  font-weight: ${p => p.theme.weightNormal};
   margin-top: .5rem;
 `
 

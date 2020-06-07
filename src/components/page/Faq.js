@@ -1,5 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
+import Section from './Section'
+import { H5 } from '../Base'
 
 const Wrapper = styled.div`
   display: flex;
@@ -12,24 +14,6 @@ const FaqItemWrapper = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-`
-
-const FaqIcon = styled.div`
-  background-color: ${p => p.theme.colorPrimary};
-  margin-top: .25rem;
-  border-radius: 50%;
-  width: 1rem;
-  height: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  margin-right: .5rem;
-  margin-top: 1.8rem;
-  font-size: .7rem;
-  font-weight: ${p => p.theme.weightBolder};
-  transform: rotate(${p => p.open ? 360 : 270}deg);
-  transition: transform 0.3s;
 `
 
 const FaqColumn = styled.div`
@@ -50,6 +34,10 @@ const Answer = styled.p`
   display: ${p => p.open ? 'visible': 'none'}
 `
 
+const FaqWrapper = styled(Section)`
+  flex-direction: column;
+`
+
 const FaqItem = ({ question, answer }) => {
 
   const [open, setOpen] = useState(false)
@@ -68,7 +56,10 @@ const FaqItem = ({ question, answer }) => {
 }
 
 export default ({ list }) => list && list.length ? (
-  <Wrapper>
-    {list.map((el, i) => <FaqItem key={i} {...el} />)}
-  </Wrapper>
+  <FaqWrapper>
+    <H5>FAQ</H5>
+    <Wrapper>
+      {list.map((el, i) => <FaqItem key={i} {...el} />)}
+    </Wrapper>
+  </FaqWrapper>
 ) : null

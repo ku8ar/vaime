@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from '../Image'
-import { H6, H5, P } from '../Base'
+import { H6, H5 } from '../Base'
 
 export default ({ title, thumb, children }) => (
   <TripInfoWrapper>
@@ -44,11 +44,6 @@ const Title = styled(H5)`
   text-transform: uppercase;
   margin: 0;
   line-height: 1;
-`
-
-const Subtitle = styled(P)`
-  color: ${p => p.theme.colorSecondaryTransparent};
-  margin: 0;
 `
 
 const Thumbnail = styled(Image)`

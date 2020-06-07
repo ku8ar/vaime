@@ -26,7 +26,7 @@ export default ({ open, title, onClose, children }) => (
 const ModalWrapper = styled.div`
   position: fixed;
   right: 0;
-  top: 4rem;
+  top: 0;
   height: 100%;
   width: 30rem;
   max-width: 80%;
