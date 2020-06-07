@@ -33,6 +33,9 @@ const Footer = styled.footer`
   min-height: 4rem;
   background-color: ${p => p.theme.colorSecondary};
   padding: 3rem 0;
+  ${p => p.theme.mobile`
+    margin-bottom: 2rem;
+  `}
 `
 
 const FooterRow = styled.div`

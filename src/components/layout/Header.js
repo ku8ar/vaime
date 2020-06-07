@@ -1,16 +1,13 @@
-import React, { useState, useCallback } from 'react'
+import React, { useCallback } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import logo from '../../img/logo.svg'
-import bars from '../../img/bars.svg'
 import phoneImg from '../../img/phone.svg'
 import { View } from '../Base'
 import SocialLink from './SocialLink'
 import MobileNavigation from './MobileNavigation'
 
-export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
-  const [menu, setMenu] = useState(false)
-  const toggleMenu = useCallback(() => setMenu(!menu), [menu])
+export default ({ navigation, socialLinks, companyName, phoneNumbers, location }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
 
@@ -35,10 +32,9 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers }) => {
           <LogoWrapper to="/" title="Logo">
             <LogoIcon src={logo} alt={companyName} />
           </LogoWrapper>
-          <BurgerIcon src={bars} onClick={toggleMenu} />
         </LayoutNavigationMobile>
       </Header>
-      <MobileNavigation navigation={navigation} menu={menu} toggleMenu={toggleMenu} />
+      <MobileNavigation navigation={navigation} location={location} />
     </>
   )
 }
@@ -65,6 +61,9 @@ const Header = styled.header`
   border-bottom: 1px solid ${p => p.theme.colorWhite};
   box-shadow: ${p => p.theme.shadowLight};
   z-index: 2;
+  ${p => p.theme.mobile`
+    position: absolute;
+  `}
 `
 
 const Nav = styled.nav`
@@ -115,7 +114,6 @@ const LayoutNavigationMobile = styled(View)`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row-reverse;
   `}
 `
 

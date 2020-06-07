@@ -60,10 +60,10 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
   )
 }
 
-const StandardPage = ({ data }) => {
+const StandardPage = ({ data, location }) => {
   const { title, description } = data.markdownRemark.frontmatter
   return (
-    <Layout title={title} description={description}>
+    <Layout title={title} description={description} location={location}>
       <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
