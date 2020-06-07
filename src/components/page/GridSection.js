@@ -97,7 +97,6 @@ const Row = styled.div`
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
   ${p => p.theme.mobile`
     margin-top: 0;
   `}

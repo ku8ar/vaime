@@ -14,8 +14,9 @@ import Instagram from '../components/page/Instagram'
 import Carousel from '../components/page/Carousel'
 import GridSection from '../components/page/GridSection'
 import ContactForm from '../components/forms/ContactForm'
+import TextSection from '../components/page/TextSection'
 
-export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, contentComponent }) => {
+export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, text, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
   return (
@@ -26,7 +27,6 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         </Center>
       </Hero>
       <Grid>
-        <GridSection data={grid} />
         <Column size={70}>
           <Section><Faq list={qa} /></Section>
           {html && (<Section><HtmlComponent content={html} /></Section>)}
@@ -51,6 +51,8 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
             </Section>
           )}
         </Column>
+        <GridSection data={grid} />
+        <TextSection text={text} />
       </Grid>
           <Section><Carousel images={carousel} /></Section>
       <Cookies />
@@ -90,6 +92,7 @@ export const pageQuery = graphql`
         }
         contact
         hideInstagram
+        text
         grid {
           image0 { ...imageTile }
           image1 { ...imageTile }
