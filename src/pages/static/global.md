@@ -1,6 +1,6 @@
 ---
 templateKey: global
-seoTitle: "| Gruzja, Armenia, Kaukaz, wycieczki, wczasy"
+seoTitle: "| Vaime Travel"
 logo: /img/vaime_circle.png
 companyName: Vaime Travel
 email: info@vaimetravel.com

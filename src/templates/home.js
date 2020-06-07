@@ -7,13 +7,14 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import TourTile from '../components/TourTile'
-import { Page, Grid } from '../components/Base'
+import { Page, Grid, H1 } from '../components/Base'
 import Section from '../components/home/Section'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
 import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
+import styled from 'styled-components'
 
 // @TODO: put into graphql
 const isTourInSameYear = pipe(
@@ -44,7 +45,11 @@ const filterOneDayTours = filter(
   )
 )
 
-export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, contentComponent }) => {
+const Title = styled(H1)`
+  opacity: 0;
+`
+
+export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
 
   const _tours = sortTours(tours)
@@ -54,6 +59,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
   return (
     <Page>
       <Hero images={images}>
+        <Title>{title}</Title>
       </Hero>
       <InfoBelt />
       {_multiDayTours.length ? (
