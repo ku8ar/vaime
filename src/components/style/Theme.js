@@ -23,6 +23,7 @@ const theme = {
   marginXs: '.5rem',
   marginXxs: '.25rem',
   // font weight
+  weightBold: 500,
   weightNormal: 400,
   weightThin: 300,
   // font spacing
