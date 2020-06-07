@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://vaimetravel.com/sitemap.xml
