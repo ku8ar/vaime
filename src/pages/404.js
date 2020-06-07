@@ -1,14 +1,10 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import {Center, Page} from '../components/Base'
+import NotFoundPageStyled from '../components/NotFoundPage'
 
 const NotFoundPage = () => (
-  <Layout>
-    <Page>
-      <Center>
-        <h1>404 - nie znaleziono strony</h1>
-      </Center>
-    </Page>
+  <Layout title='404 - Nie znaleziono strony'>
+    <NotFoundPageStyled />
   </Layout>
 )
 

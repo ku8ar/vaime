@@ -69,7 +69,7 @@ export const H6 = styled.h6`
 
 export const P = styled.p``
 
-export const Button = styled.button`
+export const buttonStyle = css`
   background-color: ${p => p.disabled ? (p.green ? p.theme.colorGreen : p.theme.colorSecondaryTransparent) : p.theme.colorPrimary};
   border-color: ${p => p.disabled ? p.theme.colorWhite : p.theme.colorPrimary};
   color: ${p => p.theme.colorWhite};
@@ -82,6 +82,10 @@ export const Button = styled.button`
   margin: ${p => p.theme.marginS} 0;
   cursor: ${p => p.disabled ? 'default' : 'pointer'};
   max-height: 2.5rem;
+`
+
+export const Button = styled.button`
+  ${buttonStyle}
 `
 
 export const boxStyle = css`

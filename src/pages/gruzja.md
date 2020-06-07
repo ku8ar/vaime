@@ -35,7 +35,7 @@ grid:
     text: >
       Gruzja jest krajem górzystym, na północy otoczona górami Wielkiego Kaukazu. Stosunkowo małą Gruzję cechuje różnorodność – zachodnią granicę wyznacza wybrzeże Morza Czarnego, na południu są góry małego Kaukazu, a na wschodzie podziwiać można rozległe doliny i stepy.
   - image0: /img/acharuli Chalupka.jpg
-    image1: /img/ojaxuri Żaneta Samolej.jpg
+    image1: /img/ojaxuri.jpg
     title: Kraj pysznego jedzenia
     text: >
       Łagodny i zróżnicowany klimat Gruzji zapewnia obfitość i różnorodność płodów rolnych oraz aromatycznych przypraw. Charakterystyczne składniki używane w naszej kuchni dodają jej niepowtarzalnego i wyjątkowego smaku.
