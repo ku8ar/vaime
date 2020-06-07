@@ -70,6 +70,10 @@ const Row = styled.div`
 const FooterLink = styled.a`
   color: ${p => p.theme.colorGreyLight};
   text-decoration: none;
+  ${p => p.theme.mobile`
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  `}
 `
 
 const FooterNav = styled(Link)`
