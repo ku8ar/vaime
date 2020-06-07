@@ -9,10 +9,7 @@ navigation:
     to: /gruzja
     icon: georgia
   - title: Informacje
-    to: /wazne-informacje
-    icon: info
-  - title: FAQ
-    to: /faq
+    to: /informacje
     icon: faq
   - title: Współpraca
     to: /wspolpraca

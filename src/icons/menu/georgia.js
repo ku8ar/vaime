@@ -11,6 +11,14 @@ function SvgComponent({ size, fill = 'white', ...props }) {
       {...props}
     >
       <style>{`.prefix__st3{fill:transparent}.prefix__st24{fill:${fill}}`}</style>
+      <circle
+        cx={65}
+        cy={65}
+        fill="none"
+        r={52}
+        stroke={fill}
+        strokeWidth={4}
+      />
       <path
         className="prefix__st3"
         d="M57.8 14.4v43.4H14.4c.8-6.8 3-13.1 6.3-18.8 7.7-13.2 21.2-22.6 37.1-24.6zM113.6 57.8H70.3V14.4c15.9 2 29.4 11.4 37.1 24.6 3.2 5.6 5.4 12 6.2 18.8zM113.6 70.3c-.8 6.8-3 13.1-6.3 18.8-7.7 13.2-21.2 22.6-37.1 24.6V70.3h43.4zM57.8 70.3v43.4c-15.9-2-29.4-11.4-37.1-24.6-3.3-5.6-5.5-12-6.3-18.8h43.4z"

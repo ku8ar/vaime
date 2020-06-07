@@ -55,6 +55,7 @@ const NavItem = styled(Link)`
   justify-content: center;
   align-items: center;
   height: 100%;
+  overflow: hidden;
 `
 
 const Icon = styled(MenuIcon)`

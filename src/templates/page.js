@@ -28,7 +28,6 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
       </Hero>
       <Grid>
         <Column size={70}>
-          <Section><Faq list={qa} /></Section>
           {html && (<Section><HtmlComponent content={html} /></Section>)}
           {contact && (
             <>
@@ -51,6 +50,7 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
             </Section>
           )}
         </Column>
+        <Faq list={qa} />
         <GridSection data={grid} />
         <TextSection text={text} />
       </Grid>
