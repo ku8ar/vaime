@@ -12,6 +12,8 @@ const Header = ({ title = '', description = '', seoTitle, seoImage }) => (
     <meta name="theme-color" content={colorPrimary} />
     <meta property="og:type" content="business.business" />
     <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={'Vaime Travel'} />
     <meta property="og:url" content="/" />
     {path('childImageSharp.fixed', seoImage) ? (
       <meta property="og:image" content={path('childImageSharp.fixed.src', seoImage)} />

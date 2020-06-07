@@ -44,8 +44,8 @@ export default ({ data }) => {
               <Title>{title}</Title>
               <Text>{text}</Text>
             </TextWrapper>
-            <ImageWrapper order={getImage1Order(index)}><RowImage data={{image: image0, title: `Zdjęcie 1, ${title}`}} /></ImageWrapper>
-            <ImageWrapper order={getImage2Order(index)}><RowImage data={{image: image1, title: `Zdjęcie 2, ${title}`}} /></ImageWrapper>
+            <ImageWrapper order={getImage1Order(index)}><RowImage data={{image: image0, name: `Zdjęcie 1, ${title}`}} /></ImageWrapper>
+            <ImageWrapper order={getImage2Order(index)}><RowImage data={{image: image1, name: `Zdjęcie 2, ${title}`}} /></ImageWrapper>
           </Row>
         ))}
       </Wrapper>

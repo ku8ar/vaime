@@ -25,7 +25,7 @@ const Wrapper = styled(View)`
 export default ({ promoImage }) => (
   <Bg>
     <Wrapper>
-      <Promo data={{image: promoImage, title: 'Promo'}} />
+      <Promo data={{image: promoImage, name: 'Grafika Promocyjna'}} />
     </Wrapper>
   </Bg>
 )

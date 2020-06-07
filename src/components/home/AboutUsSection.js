@@ -49,7 +49,7 @@ export default ({title, image, children }) => {
           {children}
         </ContentWrapper>
       </Content>
-      <AboutUsImage style={imgStyle} data={{image, title: 'O nas'}} />
+      <AboutUsImage style={imgStyle} data={{image, name: 'O nas'}} />
     </Wrapper>
   )
 }
