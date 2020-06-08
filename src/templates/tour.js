@@ -51,7 +51,7 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
   )
 }
 
-const Tour = ({ data }) => {
+const Tour = ({ data, location }) => {
   const { title, description, seoImage } = data.markdownRemark.frontmatter
 
   const [isReservation, setReservation] = useState(false)
@@ -61,7 +61,7 @@ const Tour = ({ data }) => {
   useSetSeen(data.markdownRemark.fields.slug)
 
   return (
-    <Layout title={title} description={description} seoImage={seoImage}>
+    <Layout title={title} description={description} seoImage={seoImage} location={location}>
       <TourTemplate
         {...data.markdownRemark.frontmatter}
         html={data.markdownRemark.html}
