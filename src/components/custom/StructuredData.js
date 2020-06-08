@@ -1,11 +1,12 @@
 import React from 'react'
-import { path } from 'rambda'
+import { path, propOr } from 'rambda'
 import JsonLd, { siteUrl } from './JsonLd'
 
 export default ({ seoTitle, logo, companyName, email, navigation, socialLinks, phoneNumbers, location}) => {
   const logoWidth = path(['childImageSharp', 'fixed', 'width'], logo)
   const logoHeight = path(['childImageSharp', 'fixed', 'height'], logo)
   const logoUrl = path(['childImageSharp', 'fixed', 'src'], logo)
+  const pathName = propOr('', 'pathname', location)
 
   const phone = phoneNumbers && phoneNumbers[0] || null
 
@@ -14,14 +15,14 @@ export default ({ seoTitle, logo, companyName, email, navigation, socialLinks, p
       {
         "@context": "http://schema.org/",
         "@type": "WPHeader",
-        "url": `${siteUrl}${location.pathname}`,
+        "url": `${siteUrl}${pathName}`,
         "headline": companyName,
         "description": "Wycieczki po Gruzji z Nini i Mają"
       },
       {
         "@context": "http://schema.org/",
         "@type": "WPFooter",
-        "url": `${siteUrl}${location.pathname}`,
+        "url": `${siteUrl}${pathName}`,
         "headline": companyName,
         "description": "Wycieczki po Gruzji z Nini i Mają",
         "copyrightYear": "2017"
