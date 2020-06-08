@@ -136,7 +136,7 @@ export default ({ data, location }) => {
       <JsonLd>
         {{
           '@context': 'https://schema.org',
-          '@type': 'Organization',
+          '@type': 'ItemList',
           'itemListElement': getStructuredTours(tours),
         }}
       </JsonLd>
