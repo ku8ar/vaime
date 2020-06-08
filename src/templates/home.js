@@ -1,5 +1,5 @@
 import React from 'react'
-import { path, sortBy, pipe, filter, head, prop, reverse, not } from 'rambda'
+import { path, sortBy, pipe, filter, head, prop, reverse, not, map } from 'rambda'
 import { graphql } from 'gatsby'
 import { calcYear, getCurrentYear } from '../utils/date'
 import Cookies from '../components/Cookies'
@@ -15,6 +15,7 @@ import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
 import styled from 'styled-components'
+import JsonLd, { siteUrl } from '../components/custom/JsonLd'
 
 // @TODO: put into graphql
 const isTourInSameYear = pipe(
@@ -111,11 +112,35 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
   )
 }
 
+const getStructuredTours = pipe(
+  map((tour, index) => {
+    const slug = path(['node', 'fields', 'slug'], tour)
+    const title = path(['node', 'frontmatter', 'title'], tour)
+    const image = path(['node', 'frontmatter', 'thumb', 'childImageSharp', 'fluid', 'src'], tour)
+    return {
+      "@type": "ListItem",
+      "name": title,
+      "position": index + 1,
+      "image": `${siteUrl}${image}`,
+      "url": `${siteUrl}${slug}`
+    }
+  })
+)
+
 export default ({ data, location }) => {
   const { title, description } = data.markdownRemark.frontmatter
+  const tours = data.allMarkdownRemark.edges
+
   return (
     <Layout title={title} description={description} location={location}>
-      <HomeTemplate {...data.markdownRemark.frontmatter} tours={data.allMarkdownRemark.edges} html={data.markdownRemark.html} contentComponent={HTMLContent} />
+      <JsonLd>
+        {{
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          'itemListElement': getStructuredTours(tours),
+        }}
+      </JsonLd>
+      <HomeTemplate {...data.markdownRemark.frontmatter} tours={tours} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
 }

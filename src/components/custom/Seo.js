@@ -2,9 +2,8 @@ import React from 'react'
 import { path } from 'rambda'
 import { Helmet } from 'react-helmet'
 import { colorPrimary } from '../../components/style/Theme'
-// import { withPrefix } from "gatsby"
 
-const Header = ({ title = '', description = '', seoTitle, seoImage }) => (
+const Seo = ({ title = '', description = '', seoTitle, seoImage }) => (
   <Helmet>
     <html lang="pl-PL" />
     <title>{`${title} ${seoTitle}`}</title>
@@ -28,4 +27,4 @@ const Header = ({ title = '', description = '', seoTitle, seoImage }) => (
   </Helmet>
 )
 
-export default Header
+export default Seo
