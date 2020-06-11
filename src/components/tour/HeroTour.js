@@ -106,6 +106,7 @@ const FirstColumn = styled(Column)`
 const LastColumn = styled(Column)`
   display: flex;
   justify-content: flex-end;
+  ${p => p.theme.print` display: none; `}
 `
 
 const Info = styled.div`
@@ -119,6 +120,12 @@ const Info = styled.div`
     flex-direction: column;
     width: 100%;
     padding: 0;
+  `}
+  ${p => p.theme.print`
+    flex-direction: row;
+    width: fit-content;
+    background-color: white;
+    border: 1px solid black;
   `}
 `
 
@@ -145,4 +152,10 @@ const Pill = styled.div`
 const Label = styled(P)`
   color: ${path('theme.colorWhite')};
   margin: 0;
+  ${p => p.theme.print`
+    color: black;
+    &:first-child {
+      border-bottom: 1px dotted black;
+    }
+  `}
 `

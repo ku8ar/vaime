@@ -60,6 +60,10 @@ const fonts = css`
 export default createGlobalStyle`
   * {
     box-sizing: border-box;
+    ::selection {
+      background: ${p => p.theme.colorPrimary};
+      color: white;
+    }
   }
 
   html {
@@ -88,16 +92,24 @@ export default createGlobalStyle`
     color: ${p => p.theme.colorSecondary};
   }
 
+  @media print {
+    h1, h2, h3, h4, h5, h6, p, div, span {
+      color: ${p => p.theme.colorSecondary} !important;
+    }
+  }
+
   h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: .5rem;
     font-weight: ${p => p.theme.weightNormal};
+
   }
 
   h1 {
     font-size: 3rem;
     ${p => p.theme.mobile` font-size: 2rem; margin-top: .5rem; `}
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    ${p => p.theme.print` text-shadow: none; `}
     font-weight: ${p => p.theme.weightBold};
   }
 
@@ -145,6 +157,7 @@ export default createGlobalStyle`
     &:last-child {
       margin-bottom: none;
     }
+    ${p => p.theme.print` margin-bottom: .5rem; `}
   }
 
   strong {
@@ -154,6 +167,12 @@ export default createGlobalStyle`
   a {
     text-decoration: none;
     color: ${p => p.theme.colorPrimary};
+  }
+
+  button {
+    :focus {
+      outline-color: ${p => p.theme.colorPrimary};
+    }
   }
 
   ${fonts}

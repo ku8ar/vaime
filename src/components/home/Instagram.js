@@ -37,6 +37,7 @@ const Wrapper = styled.div`
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  ${p => p.theme.print` display: none; `}
 `
 
 const Anchor = styled.a`

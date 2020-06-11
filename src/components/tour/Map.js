@@ -5,6 +5,7 @@ import Image from '../Image'
 const Map = styled(Image)`
   background: transparent;
   width: 100%;
+  ${p => p.theme.print` break-before: page; `}
 `
 
 export default ({ map }) => {

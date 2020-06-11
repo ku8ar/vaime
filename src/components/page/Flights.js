@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Grid } from './Grid'
-import { H5, P, H6 } from '../Base'
+import { H5, P } from '../Base'
 import Image from '../Image'
 import uia from '../../img/flights/uia.png'
 import lot from '../../img/flights/lot.png'

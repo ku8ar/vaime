@@ -17,10 +17,10 @@ export default ({ phoneNumbers, socialLinks, email, companyName }) => (
         <MiddleFooterList>
           <FooterNav to='/polityka'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
         </MiddleFooterList>
-        <FooterList>
+        <LastFooterList>
           <Title color="colorWhite">Gruziński Po Polsku</Title>
           <Row>{socialLinks.map(social => <SocialLink key={social.type} {...social} />)}</Row>
-        </FooterList>
+        </LastFooterList>
       </FooterRow>
       <FooterRow>
         <FooterCopyright>© Copyright 2017 {companyName}. All Rights Reserved</FooterCopyright>
@@ -35,6 +35,11 @@ const Footer = styled.footer`
   padding: 3rem 0;
   ${p => p.theme.mobile`
     margin-bottom: 2rem;
+  `}
+  ${p => p.theme.print`
+    background-color: white;
+    padding: 0;
+    margin: 0;
   `}
 `
 
@@ -56,6 +61,11 @@ const MiddleFooterList = styled(FooterList)`
   ${p => p.theme.mobile`
     margin-top: .5rem;
   `}
+  ${p => p.theme.print` display: none; `}
+`
+
+const LastFooterList = styled(FooterList)`
+  ${p => p.theme.print` display: none; `}
 `
 
 const Row = styled.div`
@@ -74,6 +84,7 @@ const FooterLink = styled.a`
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   `}
+  ${p => p.theme.print` color: black; `}
 `
 
 const FooterNav = styled(Link)`
@@ -84,6 +95,7 @@ const FooterNav = styled(Link)`
 const FooterLogo = styled.img`
   width: 5.0rem;
   margin-bottom: 1rem;
+  ${p => p.theme.print` display: none; `}
 `
 
 const FooterCopyright = styled.p`

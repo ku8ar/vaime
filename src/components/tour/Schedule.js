@@ -27,6 +27,11 @@ const Wrapper = styled(Column)`
       height: calc(100% - 7rem);
     `}
   }
+  ${p => p.theme.print`
+    &:before {
+      border: none;
+    }
+  `}
 `
 
 const Row = styled.div`
@@ -53,6 +58,10 @@ const DayCircle = styled.div`
   font-weight: ${p => p.theme.weightNormal};
   border-radius: 50%;
   z-index: 1;
+  ${p => p.theme.print`
+    background-color: white;
+    border: 1px solid black;
+  `}
 `
 
 const Place = styled(H6)`

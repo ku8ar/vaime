@@ -9,18 +9,18 @@ export default ({ menu, navigation, location }) => {
   const pathName = prop('pathname', location)
 
   return (
-  <Wrapper>
-      <NavItem to="/" title="Logo">
-        <Icon icon={'home'} fill={pathName === '/' ? colorPrimary : 'white'} />
-        Vaime
-      </NavItem>
-      {navigation.map(nav => (
-        <NavItem key={nav.to} {...nav}>
-          <Icon icon={nav.icon} fill={pathName === nav.to ? colorPrimary : 'white'} />
-          {nav.title}
+    <Wrapper>
+        <NavItem to="/" title="Logo">
+          <Icon icon={'home'} fill={pathName === '/' ? colorPrimary : 'white'} />
+          Vaime
         </NavItem>
-      ))}
-  </Wrapper>
+        {navigation.map(nav => (
+          <NavItem key={nav.to} {...nav}>
+            <Icon icon={nav.icon} fill={pathName === nav.to ? colorPrimary : 'white'} />
+            {nav.title}
+          </NavItem>
+        ))}
+    </Wrapper>
 )
 }
 
@@ -44,6 +44,7 @@ const Wrapper = styled.div`
   ${p => p.theme.mobile`
     display: flex;
   `}
+  ${p => p.theme.print` display: none; `}
 `
 
 const NavItem = styled(Link)`
