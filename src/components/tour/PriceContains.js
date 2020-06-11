@@ -34,6 +34,9 @@ const Wrapper = styled.div`
     margin-top: 0;
     position: relative;
   `}
+  ${p => p.theme.print`
+    break-before: page;
+  `}
 `
 
 const Row = styled(Box)`
@@ -56,6 +59,7 @@ const Item = ({ text, ok, icon }) => (
 const ItemWrapper = styled.div`
   display: flex;
   margin-bottom: .5rem;
+  ${p => p.theme.print` margin-bottom: 0; `}
 `
 const Text = styled.span`
   align-self: center;

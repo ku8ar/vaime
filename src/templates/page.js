@@ -15,11 +15,12 @@ import Carousel from '../components/page/Carousel'
 import GridSection from '../components/page/GridSection'
 import ContactForm from '../components/forms/ContactForm'
 import TextSection from '../components/page/TextSection'
+import Flights from '../components/page/Flights'
 
-export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, text, contentComponent }) => {
+export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, showFlights, text, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
-  const hideInfo = hideContact && hideInstagram
+  const hideInfo = hideContact && hideInstagram && !showFlights
 
   return (
     <Page background={bg}>
@@ -31,6 +32,7 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
       <Grid>
         <Column size={hideInfo ? 100 : 70}>
           {html && (<Section><HtmlComponent content={html} /></Section>)}
+          <Faq list={qa} />
           {contact && (
             <>
               <Section>
@@ -44,6 +46,7 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         </Column>
         {!hideInfo && (
           <Column size={30}>
+            {showFlights && <Flights />}
             {!hideContact && (
               <Section>
                 <Info />
@@ -56,7 +59,6 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
             )}
           </Column>
         )}
-        <Faq list={qa} />
         <GridSection data={grid} />
         <TextSection text={text} />
       </Grid>
@@ -99,6 +101,7 @@ export const pageQuery = graphql`
         contact
         hideInstagram
         hideContact
+        showFlights
         text
         grid {
           image0 { ...imageTile }

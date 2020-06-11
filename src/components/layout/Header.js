@@ -65,6 +65,7 @@ const Header = styled.header`
   ${p => p.theme.mobile`
     position: absolute;
   `}
+  ${p => p.theme.print` display: none; `}
 `
 
 const Nav = styled.nav`

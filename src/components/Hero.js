@@ -14,7 +14,7 @@ const Hero = ({ images, children, small }) => {
     {multiple && <GlobalStyle/>}
     <HeroWrapper small={small}>
       <ReactCSSTransitionGroup {...cssTransitionProps}>
-        <Image key={imgKey} style={imgStyle} data={imgData} loading={imgKey === 0 ? 'eager' : 'lazy'} />
+        <Img key={imgKey} style={imgStyle} data={imgData} loading={imgKey === 0 ? 'eager' : 'lazy'} />
         <HeroContent>
           {children}
         </HeroContent>
@@ -23,6 +23,10 @@ const Hero = ({ images, children, small }) => {
     </>
   )
 }
+
+const Img = styled(Image)`
+  ${p => p.theme.print` display: none; `}
+`
 
 const transitionTime = 600
 
@@ -59,6 +63,7 @@ const HeroWrapper = styled.div`
   ${p => p.theme.mobile`
     height: auto;
   `}
+  ${p => p.theme.print` height: auto; `}
 `
 
 const HeroContent = styled(View)`

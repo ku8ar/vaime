@@ -85,3 +85,4 @@ collections:
       - {label: Contact, name: "contact", widget: "boolean", default: false, required: false}
       - {label: Hide Instagram, name: "hideInstagram", widget: "boolean", default: false, required: false}
       - {label: Hide Contact, name: "hideContact", widget: "boolean", default: false, required: false}
+      - {label: Show Flights, name: "showFlights", widget: "boolean", default: false, required: false}

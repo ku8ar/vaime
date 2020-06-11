@@ -25,6 +25,7 @@ export const View = styled.div`
   ${p => p.theme.smallScreen`
     padding: 0 1rem;
   `}
+  ${p => p.theme.print` display: block; `}
 `
 
 // @see header height
@@ -33,6 +34,7 @@ export const Page = styled.section`
   width: 100%;
   flex: 1;
   background-image: url(${p => p.background});
+  ${p => p.theme.print` margin-top: 0; `}
 `
 
 const center = css`
@@ -93,6 +95,10 @@ export const boxStyle = css`
   padding: 1rem 1rem 1rem 1rem;
   box-shadow: ${p => p.theme.shadowLight};
   border-radius: .25rem;
+  ${p => p.theme.print`
+    padding: 0;
+    box-shadow: none;
+  `}
 `
 
 export const Box = styled.div`

@@ -12,11 +12,13 @@ import { Grid, Column } from '../components/page/Grid'
 import Section from '../components/page/Section'
 import PriceContains from '../components/tour/PriceContains'
 import Map from '../components/tour/Map'
+import TourTopInfo from '../components/tour/TourTopInfo'
 import Instagram from '../components/home/Instagram'
 import { useSetSeen } from '../hooks/useSeen'
 
 const TourPage = styled(Page)`
-  background-color: ${p => p.theme.colorGreyNew}
+  background-color: ${p => p.theme.colorGreyNew};
+  ${p => p.theme.print` background-color: white; `}
 `
 
 export const TourTemplate = ({ description, schedule, html, contentComponent, map, ...props }) => {
@@ -25,7 +27,7 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
     <TourPage>
       <HeroTour {...props} />
       <View>
-        <H2>{description}</H2>
+        <TourTopInfo description={description} />
         <Grid>
           <Column size={70}>
             <Section>
