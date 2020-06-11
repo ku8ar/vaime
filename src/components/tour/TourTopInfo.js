@@ -3,13 +3,15 @@ import styled from 'styled-components'
 import Print from '../../icons/buttons/print'
 import { H2 } from '../Base'
 
+const windowGlobal = typeof window !== 'undefined' && window || {}
+
 export default ({ description }) => {
 
   return (
     <Wrapper>
       <H2>{description}</H2>
       <Buttons>
-        <Button onClick={window.print}><Print /></Button>
+        <Button onClick={windowGlobal.print}><Print /></Button>
       </Buttons>
     </Wrapper>
   )
