@@ -7,6 +7,7 @@ images:
     name: lotnisko
 carousel: null
 contact: false
+showFlights: true
 qa:
   - answer: >
       Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to
@@ -90,27 +91,3 @@ Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześ
 Śpimy w pokojach dwuosobowych. Pokój jednoosobowy dostępny jest w przypadku dopłaty.
 
 – Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
-
-<br />
-
-**Gdzie znaleźć tanie połączenia do Gruzji?**
-
-Wizzair:
-
-Z Warszawy, Wrocławia, Katowic, Gdańska, Krakowa, Poznania kilka razy w tygodniu są loty do Kutaisi, do zachodniej części kraju.
-
-Berlin bliżej niż Warszawa? Nie ma problemu, bo z Berlina też można dolecieć do Kutaisi.
-
-[ Sprawdź tu ](https://wizzair.com/#/)
-
-Polskie Linie Lotnicze
-
-Latem LOT z Warszawy do Tbilisi lata prawie codziennie!
-
-[ Sprawdź tu ](https://www.lot.com/pl/pl/)
-
-Ukraińskie Linie Lotnicze
-
-Lot codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi.
-
-[ Sprawdź tu](https://www.flyuia.com/ua/en/home)
