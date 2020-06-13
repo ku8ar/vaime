@@ -1,21 +1,35 @@
 import React from 'react'
 import styled from 'styled-components'
 import Print from '../../icons/buttons/print'
-import { H2 } from '../Base'
+import { H2, H3 } from '../Base'
 
 const windowGlobal = typeof window !== 'undefined' && window || {}
 
-export default ({ description }) => {
+export default ({ description, informations }) => {
 
   return (
-    <Wrapper>
-      <H2>{description}</H2>
-      <Buttons>
-        <Button onClick={windowGlobal.print}><Print /></Button>
-      </Buttons>
-    </Wrapper>
+    <Container>
+      <Wrapper>
+        <H2>{description}</H2>
+        <Buttons>
+          <Button onClick={windowGlobal.print}><Print /></Button>
+        </Buttons>
+      </Wrapper>
+      {informations && <Info>{informations}</Info>}
+    </Container>
   )
 }
+
+const Info = styled(H3)`
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-transform: none;
+  text-align: justify;
+`
+
+const Container = styled.div`
+  width: 100%;
+`
 
 const Wrapper = styled.div`
   display: flex;
@@ -27,6 +41,7 @@ const Wrapper = styled.div`
 `
 
 const Buttons = styled.div`
+  margin-left: 1rem;
   ${p => p.theme.print` display: none; `}
 `
 

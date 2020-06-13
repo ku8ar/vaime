@@ -4,7 +4,7 @@ import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
-import { H4, H6, Button } from './Base'
+import { H4, H6, buttonStyle } from './Base'
 import Heart from './home/Heart'
 
 const getOldestTs = pipe(
@@ -165,7 +165,8 @@ const TourInfo = styled.p`
   font-weight: ${p => p.theme.weightNormal};
 `
 
-const TourButton = styled(Button)`
+const TourButton = styled.div`
+  ${buttonStyle}
   z-index: 1;
   pointer-events: none;
   position: absolute:

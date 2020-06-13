@@ -7,7 +7,7 @@ import { View } from '../Base'
 import SocialLink from './SocialLink'
 import MobileNavigation from './MobileNavigation'
 
-export default ({ navigation, socialLinks, companyName, phoneNumbers, location }) => {
+export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
 
@@ -35,7 +35,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, location }
           <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
         </LayoutNavigationMobile>
       </Header>
-      <MobileNavigation navigation={navigation} location={location} />
+      <MobileNavigation navigation={navigation} slug={slug} />
     </>
   )
 }

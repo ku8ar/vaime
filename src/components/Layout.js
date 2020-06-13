@@ -7,14 +7,14 @@ import Footer from './layout/Footer'
 import useGlobal from '../utils/useGlobal'
 import '../styles/normalize.css'
 
-const Layout = ({ children, title = '', description = '', seoImage, location }) => {
+const Layout = ({ children, title = '', description = '', seoImage, slug }) => {
   const data = useGlobal()
 
   return (
     <Theme>
-      <Seo title={title} description={description} seoTitle={data.seoTitle} seoImage={seoImage || data.logo} />
-      <StructuredData {...data} location={location} />
-      <Header {...data} location={location} />
+      <Seo title={title} description={description} seoTitle={data.seoTitle} seoImage={seoImage || data.logo} slug={slug} />
+      <StructuredData {...data} slug={slug} />
+      <Header {...data} slug={slug} />
       {children}
       <Footer {...data} />
     </Theme>

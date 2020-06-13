@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import { View, Page, H2 } from '../components/Base'
+import { View, Page } from '../components/Base'
 import HeroTour from '../components/tour/HeroTour'
 import Schedule from '../components/tour/Schedule'
 import Reservation from '../components/tour/Reservation'
@@ -21,13 +21,13 @@ const TourPage = styled(Page)`
   ${p => p.theme.print` background-color: white; `}
 `
 
-export const TourTemplate = ({ description, schedule, html, contentComponent, map, ...props }) => {
+export const TourTemplate = ({ description, informations, schedule, html, contentComponent, map, ...props }) => {
   const HtmlComponent = contentComponent || Content
   return (
     <TourPage>
       <HeroTour {...props} />
       <View>
-        <TourTopInfo description={description} />
+        <TourTopInfo description={description} informations={informations} />
         <Grid>
           <Column size={70}>
             <Section>
@@ -53,8 +53,9 @@ export const TourTemplate = ({ description, schedule, html, contentComponent, ma
   )
 }
 
-const Tour = ({ data, location }) => {
+const Tour = ({ data }) => {
   const { title, description, seoImage } = data.markdownRemark.frontmatter
+  const slug = data.markdownRemark.fields.slug
 
   const [isReservation, setReservation] = useState(false)
   const openReservation = useCallback(() => setReservation(true), [])
@@ -63,7 +64,7 @@ const Tour = ({ data, location }) => {
   useSetSeen(data.markdownRemark.fields.slug)
 
   return (
-    <Layout title={title} description={description} seoImage={seoImage} location={location}>
+    <Layout title={title} description={description} seoImage={seoImage} slug={slug}>
       <TourTemplate
         {...data.markdownRemark.frontmatter}
         html={data.markdownRemark.html}
