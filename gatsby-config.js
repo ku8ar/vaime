@@ -75,11 +75,14 @@ module.exports = {
         logo: "./static/img/vaime_circle.png",
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/?homescreen=1',
+        start_url: '/',
         version: '1.0',
+        background: '#DE261D',
+        theme_color: '#fff',
+        appName: 'Vaime Travel',
         icons: {
-          android: false,
-          appleIcon: false,
+          android: true,
+          appleIcon: true,
           appleStartup: false,
           favicons: true,
           firefox: false,
@@ -88,6 +91,7 @@ module.exports = {
         }
       }
     },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
