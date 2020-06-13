@@ -77,6 +77,7 @@ module.exports = {
         orientation: 'portrait',
         start_url: '/',
         version: '1.0',
+        lang: "pl-PL",
         background: '#DE261D',
         theme_color: '#fff',
         appName: 'Vaime Travel',
