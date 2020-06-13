@@ -21,13 +21,13 @@ const TourPage = styled(Page)`
   ${p => p.theme.print` background-color: white; `}
 `
 
-export const TourTemplate = ({ description, informations, schedule, html, contentComponent, map, ...props }) => {
+export const TourTemplate = ({ description, informations, schedule, html, contentComponent, map, slug, ...props }) => {
   const HtmlComponent = contentComponent || Content
   return (
     <TourPage>
       <HeroTour {...props} />
       <View>
-        <TourTopInfo description={description} informations={informations} />
+        <TourTopInfo description={description} informations={informations} slug={slug} />
         <Grid>
           <Column size={70}>
             <Section>
@@ -70,6 +70,7 @@ const Tour = ({ data }) => {
         html={data.markdownRemark.html}
         contentComponent={HTMLContent}
         openReservation={openReservation}
+        slug={slug}
       />
       <Reservation
         open={isReservation}

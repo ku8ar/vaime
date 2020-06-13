@@ -1,8 +1,8 @@
 import * as React from "react"
 
-function SvgComponent(props) {
+function SvgComponent({size}) {
   return (
-    <svg height={25} viewBox="0 0 50 50" width={25} {...props}>
+    <svg height={size} viewBox="0 0 50 50" width={size}>
       <path fill="none" d="M0 0h50v50H0z" />
       <circle cx={43} cy={21} r={2} />
       <path

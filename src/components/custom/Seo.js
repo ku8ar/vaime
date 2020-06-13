@@ -12,8 +12,6 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
   const width = absoluteUrl(path('childImageSharp.fixed.width', seoImage))
   const height = absoluteUrl(path('childImageSharp.fixed.height', seoImage))
 
-  console.log(seoImage, image)
-
   return (
     <Helmet>
       <html lang="pl-PL" />

@@ -1,18 +1,23 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import Fb from '../../icons/buttons/fb'
 import Print from '../../icons/buttons/print'
 import { H2, H3 } from '../Base'
+import { siteUrl } from '../custom/JsonLd'
 
 const windowGlobal = typeof window !== 'undefined' && window || {}
 
-export default ({ description, informations }) => {
+const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u='
+
+export default ({ description, informations, slug }) => {
 
   return (
     <Container>
       <Wrapper>
         <H2>{description}</H2>
         <Buttons>
-          <Button onClick={windowGlobal.print}><Print /></Button>
+          <Link href={`${fbShareUrl}${siteUrl}${slug}`} target="_blank" rel="noopener noreferrer"><Fb size={20} /></Link>
+          <Button onClick={windowGlobal.print}><Print size={20} /></Button>
         </Buttons>
       </Wrapper>
       {informations && <Info>{informations}</Info>}
@@ -42,17 +47,30 @@ const Wrapper = styled.div`
 
 const Buttons = styled.div`
   margin-left: 1rem;
+  display: flex;
   ${p => p.theme.print` display: none; `}
 `
 
-const Button = styled.button`
+const buttonStyle = css`
   border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   border: 1px solid ${p => p.theme.colorSecondary};
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+`
+
+const Link = styled.a`
+  ${buttonStyle}
+  margin-right: .5rem;
+`
+
+const Button = styled.button`
+  ${buttonStyle}
+  &:hover {
+    cursor: pointer;
+  }
 `
