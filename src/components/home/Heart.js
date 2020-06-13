@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import Heart from '../../icons/heart'
+import HeartFilled from '../../icons/heart_filled'
 import { useGetSeen } from '../../hooks/useSeen'
 import { colorPrimary } from '../../components/style/Theme'
 
 export default ({ slug }) => {
   const isSeen = useGetSeen(slug)
+  const Icon = isSeen ? HeartFilled : Heart
 
   return (
-    <HeartWrapper><Heart color={isSeen ? colorPrimary : 'black'} /></HeartWrapper>
+    <HeartWrapper><Icon color={isSeen ? colorPrimary : 'black'} /></HeartWrapper>
   )
 }
 

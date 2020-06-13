@@ -127,12 +127,13 @@ const getStructuredTours = pipe(
   })
 )
 
-export default ({ data, location }) => {
+export default ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
   const tours = data.allMarkdownRemark.edges
+  const slug = data.markdownRemark.fields.slug
 
   return (
-    <Layout title={title} description={description} location={location}>
+    <Layout title={title} description={description} slug={slug}>
       <JsonLd>
         {{
           '@context': 'https://schema.org',
@@ -179,6 +180,9 @@ export const pageQuery = graphql`
     }
     markdownRemark(frontmatter: { templateKey: { eq: "home" } }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         description

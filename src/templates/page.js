@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { path } from 'rambda'
+import { path, prop } from 'rambda'
 import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
@@ -68,10 +68,13 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
   )
 }
 
-const StandardPage = ({ data, location }) => {
+const StandardPage = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter
+  const slug = data.markdownRemark.fields.slug
+  const seoImage = prop('image', data.markdownRemark.frontmatter.images[0])
+
   return (
-    <Layout title={title} description={description} location={location}>
+    <Layout title={title} description={description} slug={slug} seoImage={seoImage}>
       <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
     </Layout>
   )
@@ -83,6 +86,9 @@ export const pageQuery = graphql`
   query StandardPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         description

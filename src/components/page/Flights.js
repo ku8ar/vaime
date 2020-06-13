@@ -14,7 +14,7 @@ const data = [
       image: wizz,
       name: 'Logo Wizzair'
     },
-    url: 'https://wizzair.com/'
+    url: 'www.wizzair.com'
   },
   {
     to: 'Tbilisi',
@@ -23,7 +23,7 @@ const data = [
       image: lot,
       name: 'Logo Lot'
     },
-    url: 'https://lot.pl'
+    url: 'www.lot.pl'
   },
   {
     to: 'Tbilisi',
@@ -33,7 +33,7 @@ const data = [
       image: uia,
       name: 'Logo UIA'
     },
-    url: 'https://www.flyuia.com/'
+    url: 'www.flyuia.com'
   }
 ]
 
@@ -42,7 +42,7 @@ export default () => {
     <Wrapper>
       <H5>Połączenia lotnicze do Gruzji</H5>
       {data.map(({ to, from, imageData, url, info }) => (
-        <CompanyWrapper key={url} href={url} target="_blank" rel="noopener noreferrer">
+        <CompanyWrapper key={url} href={`https://${url}`} target="_blank" rel="noopener noreferrer">
           <LeftColumn>
             <Subtitle> {to}</Subtitle>
             {from.map(city => <City key={city}>{city}</City>)}
@@ -51,6 +51,7 @@ export default () => {
           <RightColumn>
             <SubtitleCentered>Sprawdź tu</SubtitleCentered>
             <Logo data={imageData} />
+            <Link>{url}</Link>
           </RightColumn>
         </CompanyWrapper>
       ))}
@@ -58,9 +59,17 @@ export default () => {
   )
 }
 
+const Link = styled.p`
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: ${p => p.theme.weightBold};
+`
+
 const Logo = styled(Image)`
   width: 100%;
-  padding: .5rem;
+  padding: .5rem .5rem 0 .5rem;
 `
 
 const Subtitle = styled(P)`

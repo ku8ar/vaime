@@ -1,22 +1,21 @@
 import React from 'react'
-import { prop } from 'rambda'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { colorPrimary } from '../../components/style/Theme'
 import MenuIcon from '../../icons/menu'
 
-export default ({ menu, navigation, location }) => {
-  const pathName = prop('pathname', location)
+export default ({ menu, navigation, slug }) => {
+  const path = slug.slice(0, -1) // remove slash
 
   return (
     <Wrapper>
         <NavItem to="/" title="Logo">
-          <Icon icon={'home'} fill={pathName === '/' ? colorPrimary : 'white'} />
+          <Icon icon={'home'} fill={path === '' ? colorPrimary : 'white'} />
           Vaime
         </NavItem>
         {navigation.map(nav => (
           <NavItem key={nav.to} {...nav}>
-            <Icon icon={nav.icon} fill={pathName === nav.to ? colorPrimary : 'white'} />
+            <Icon icon={nav.icon} fill={path === nav.to ? colorPrimary : 'white'} />
             {nav.title}
           </NavItem>
         ))}
