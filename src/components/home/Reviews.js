@@ -66,10 +66,10 @@ const Wrapper = styled.div`
   height: 33rem;
   border-bottom: 7rem solid ${p => p.theme.colorGrey};
   position: relative;
-  overflow: hidden;
   ${p => p.theme.mobile`
     height: auto;
     border-bottom: none;
+    overflow: hidden;
   `}
 `
 
