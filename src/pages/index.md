@@ -42,7 +42,7 @@ reviewImage: /img/georgia-4514143.jpg
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE?modestbranding=1&iv_load_policy=3&rel=0
 reviews:
   - author: Adrian
-    place: '"Gruzińska Wojenna Droga". 2018'
+    place: '"Gruzińska Wojenna Droga", 2018'
     stars: 5
     text: >
       Jednym słowem - super! A tak obszerniej, to tak: Wycieczka zorganizowana
@@ -50,7 +50,7 @@ reviews:
       żadnego problemu ze zorganizowaniem 2-dniowej objazdówki wedle naszych
       życzeń. Podróżowaliśmy grupą 8-osobową.
 
-      Zajmowała się nami Nini, która była bardzo cierpliwa i odpowiadała na wszystkie pytania. Szkoda, że to tylko 2 dni :( Ale... niezapomniana przygoda :) Może jeszcze się uda zorganizować z Wami coś dłuższego, jak uzbieram grupę :D
+      Zajmowała się nami Nini, która była bardzo cierpliwa i odpowiadała na wszystkie pytania. Szkoda, że to tylko 2 dni :( Ale... niezapomniana przygoda :)
 
       Dzięki, dziewczyny!
   - author: Kasia
@@ -61,8 +61,7 @@ reviews:
       Wszystko doskonale przemyślane. Nini i Maja to najlepsze przewodniczki i
       towarzyszki podróży jakie kiedykolwiek spotkałam. kompetentne, troskliwe i
       przeurocze. Gruzja z Vaime to wielka przyjemność podróży, spotkań z ludźmi
-      i wspaniałą gruzińską przyrodą (trekkingi w dolinach Kaukazu z Mają -
-      rewelacja), kuchnią i historią.
+      i wspaniałą gruzińską przyrodą , kuchnią i historią.
   - author: Wojciech
     place: Trekking w Tuszeti, 2018
     text: >
@@ -79,18 +78,15 @@ reviews:
       gruzińskiego i zaraziły miłością do muzyki i kultury różnych gruzińskich
       regionów😊
     author: Anna
-    place: '"Góry, morze wino", 2018'
+    place: '"Góry, morze, wino", 2018'
     stars: 5
   - text: Maia i Nini to fantastyczne organizatorki. Odzew od nich jest
       natychmiastowy a współpraca znakomita. Zorganizowały nam wyjazd rodzinny,
       dodając swoje trafne modyfikacje i propozycje programu. Noclegi przez nie
       zaproponowane okazały się strzałem w dziesiątkę, zawsze klimatyczne,
       pozwalające spotkać się z prawdziwą gruzińską gościnnością i pyszną
-      kuchnią z domowych produktów. Ewentualne problemy rozwiązują bezwłocznie.
-      Kiedy poinformowaliśmy je wieczorem, że samochód jest dla nas zbyt ciasny,
-      mimo, że same z grupą były na wyjeździe, natychmiast zajęły się tą sprawą
-      i rano czekał na nas inny, większy samochód. Dziewczyny serdeczne i
-      naturalne. Gorąco polecam.
+      kuchnią z domowych produktów.  Dziewczyny serdeczne i naturalne. Gorąco
+      polecam.
     author: Kamila
     place: Wyjazd indywidualny, 2018
     stars: 5
@@ -98,29 +94,25 @@ reviews:
     place: '"Kaukaski Duet - Gruzja i Armenia", 2019'
     text: Uczestniczyłam w czerwcowej wycieczce po Gruzji i Armenii organizowanej
       przez VAIME i śmiało mogę powiedzieć, że wycieczka przerosła moje
-      najśmielsze oczekiwania. Zwiedzaliśmy w małej 11 osobowej grupie, w bardzo
-      miłym towarzystwie z przewodniczkami, które dokładały wszelkich starań aby
-      ten wyjazd był dla nas niezapomniany i odwiedziliśmy na życzenie nawet
-      miejsca których nie było w planie. Dziewczyny niewiarygodnie dobrze mówią
-      po polsku i są w 100% profesjonalne a jednocześnie z pasją potrafią
-      opowiadać o historii, zabytkach czy sytuacji geopolitycznej regionu.
-      Krajobrazy przepiękne a zabytki absolutnie warte odwiedzenia. Po
-      całodniowym zwiedzaniu wieczorami byliśmy zabierani do najlepszych
-      restauracji na biesiady przy rewelacyjnych potrawach i wspaniałym winie.
-      Jednym słowem długo będę pamiętać tą wycieczkę i polecam wybrać się
-      właśnie z tym biurem aby zobaczyć Gruzję oczami ludzi którzy ją kochają.
+      najśmielsze oczekiwania.  Dziewczyny są w 100% profesjonalne a
+      jednocześnie z pasją potrafią opowiadać o historii, zabytkach czy sytuacji
+      geopolitycznej regionu. Po całodniowym zwiedzaniu wieczorami byliśmy
+      zabierani do najlepszych restauracji na biesiady przy rewelacyjnych
+      potrawach i wspaniałym winie. Długo będę pamiętać tą wycieczkę i polecam
+      wybrać się właśnie z tym biurem aby zobaczyć Gruzję oczami ludzi którzy ją
+      kochają.
     stars: 5
   - author: Ireneusz
     text: >-
-      Nie da się opowiedzieć to trzeba przeżyć ,fantastyczna organizacja
-      wycieczki, pełny profesjonalizm po prostu dziewczyny wiedzą co robią
-      ,przemiła atmosfera wręcz rodzinna. Codziennie nowe atrakcje i wyzwania
-      brak nudy ,fantastyczna kuchnia przemili ludzie ,fantastyczny przekaz o
+      Nie da się opowiedzieć to trzeba przeżyć, fantastyczna organizacja
+      wycieczki, pełny profesjonalizm po prostu dziewczyny wiedzą co robią,
+      przemiła atmosfera wręcz rodzinna. Codziennie nowe atrakcje i wyzwania
+      brak nudy, fantastyczna kuchnia przemili ludzie ,fantastyczny przekaz o
       historii Gruzji przez dziewczyny wiedzą jak przekazać historię w ciekawy
       sposób ,sprawiły że chce się wrócić i na pewno będę powracał nie jeden raz
-      wspaniała Gruzja dziękuję.
+      wspaniała Gruzja, dziękuję.
 
-      Irek Góry,Morze,Wino 2018
+      Irek, Góry,Morze,Wino 2018
     place: '"Góry, morze, wino", 2018'
     stars: 5
   - author: Barbara
@@ -128,14 +120,11 @@ reviews:
     text: Pomysł zwiedzania Gruzji z Vaime Travel to strzał w samo sedno gruzińskich
       krajobrazów, zabytków, gruzińskiej kuchni no i oczywiście wina.
       Podziwialiśmy gory Wielkiego Kaukazu i smakowaliśmy chachapuri, chinkali i
-      nie tylko. Codzienna degustacja wina i to najlepszego. Winnice Kaheti,
-      miasto miłości z wizytą w winiarni z obowiązkowym próbowaniem wina z
-      glinianej czarki. Każdy dzień zorganizowany i mega ciekawy. Zwiedzanie
-      skalnych miast Vardzia i St David Garajeli ( na granicy z Azerbejdżanem)
+      nie tylko. Codzienna degustacja wina i to najlepszego. Zwiedzanie skalnych
+      miast Vardzia i St David Garajeli ( na granicy z Azerbejdżanem)
       niesamowite wrażenia i widoki. Nocleg w stepie szerokim, którego okiem nie
       zmierzysz😉Maja i Nini super dziewczyny zadbały o wszystko. Plan wykonany.
-      Były górskie wędrówki i extremalna jazda. Dzięki Lado(nasz gruziński
-      kierowca) mieliśmy dodatkowe emocje. დიდი მადლობა😀
+      Były górskie wędrówki i extremalna jazda. დიდი მადლობა😀
     stars: 5
   - author: Karol
     place: '"Kaukaski Duet" - Gruzja i Armenia, 2019'
@@ -148,6 +137,16 @@ reviews:
       Jeżeli Gruzja, Armenia czy okolice to tylko z vaime Travel. 
 
       Zwiedzałem Gruzję także z konkurencją więc mam porównanie.
+    stars: 5
+  - text: >-
+      Wspaniałe i pełne energii dziewczyny ! Jeśli chcesz poznać prawdziwą
+      Gruzję nie masz wyboru - musisz wybrać ich wycieczki :)
+
+      ---------------------------------------------------------------
+
+      Wonderful and full of energy girls! If you want to get to know real Georgia, you have no choice but to choose their trips 
+    author: Sławek
+    place: Majówka, 2018
     stars: 5
 promoImage: /img/mapka_glowna.jpg
 ---
