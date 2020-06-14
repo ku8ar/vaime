@@ -92,18 +92,16 @@ reviews:
     stars: 5
   - author: Monika
     place: '"Kaukaski Duet - Gruzja i Armenia", 2019'
-    text: Uczestniczyłam w czerwcowej wycieczce po Gruzji i Armenii organizowanej
-      przez VAIME i śmiało mogę powiedzieć, że wycieczka przerosła moje
-      najśmielsze oczekiwania.  Dziewczyny są w 100% profesjonalne a
-      jednocześnie z pasją potrafią opowiadać o historii, zabytkach czy sytuacji
-      geopolitycznej regionu. Po całodniowym zwiedzaniu wieczorami byliśmy
-      zabierani do najlepszych restauracji na biesiady przy rewelacyjnych
-      potrawach i wspaniałym winie. Długo będę pamiętać tą wycieczkę i polecam
-      wybrać się właśnie z tym biurem aby zobaczyć Gruzję oczami ludzi którzy ją
-      kochają.
+    text: Uczestniczyłam w wycieczce po Gruzji i Armenii  i śmiało mogę powiedzieć,
+      że wycieczka przerosła moje najśmielsze oczekiwania.  Dziewczyny z pasją
+      potrafią opowiadać o historii, zabytkach czy sytuacji geopolitycznej
+      regionu. Po zwiedzaniu byliśmy zabierani do najlepszych restauracji na
+      biesiady przy rewelacyjnych potrawach i wspaniałym winie. Długo będę
+      pamiętać tą wycieczkę i polecam wybrać się właśnie z tym biurem aby
+      zobaczyć Gruzję oczami ludzi którzy ją kochają.
     stars: 5
   - author: Ireneusz
-    text: >-
+    text: >
       Nie da się opowiedzieć to trzeba przeżyć, fantastyczna organizacja
       wycieczki, pełny profesjonalizm po prostu dziewczyny wiedzą co robią,
       przemiła atmosfera wręcz rodzinna. Codziennie nowe atrakcje i wyzwania
@@ -111,20 +109,17 @@ reviews:
       historii Gruzji przez dziewczyny wiedzą jak przekazać historię w ciekawy
       sposób ,sprawiły że chce się wrócić i na pewno będę powracał nie jeden raz
       wspaniała Gruzja, dziękuję.
-
-      Irek, Góry,Morze,Wino 2018
     place: '"Góry, morze, wino", 2018'
     stars: 5
   - author: Barbara
     place: '"Gruzińskie Wakacje", 2018'
     text: Pomysł zwiedzania Gruzji z Vaime Travel to strzał w samo sedno gruzińskich
-      krajobrazów, zabytków, gruzińskiej kuchni no i oczywiście wina.
-      Podziwialiśmy gory Wielkiego Kaukazu i smakowaliśmy chachapuri, chinkali i
-      nie tylko. Codzienna degustacja wina i to najlepszego. Zwiedzanie skalnych
-      miast Vardzia i St David Garajeli ( na granicy z Azerbejdżanem)
-      niesamowite wrażenia i widoki. Nocleg w stepie szerokim, którego okiem nie
-      zmierzysz😉Maja i Nini super dziewczyny zadbały o wszystko. Plan wykonany.
-      Były górskie wędrówki i extremalna jazda. დიდი მადლობა😀
+      krajobrazów, zabytków, gruzińskiej kuchni i wina. Podziwialiśmy gory
+      Wielkiego Kaukazu i smakowaliśmy chachapuri, chinkali. Codzienna
+      degustacja wina i to najlepszego. Zwiedzanie skalnych miast Vardzia i
+      David Gareji niesamowite wrażenia i widoki. Nocleg w stepie szerokim,
+      którego okiem nie zmierzysz😉Maja i Nini super dziewczyny zadbały o
+      wszystko. Były górskie wędrówki i extremalna jazda. დიდი მადლობა😀
     stars: 5
   - author: Karol
     place: '"Kaukaski Duet" - Gruzja i Armenia, 2019'
@@ -142,7 +137,6 @@ reviews:
       Wspaniałe i pełne energii dziewczyny ! Jeśli chcesz poznać prawdziwą
       Gruzję nie masz wyboru - musisz wybrać ich wycieczki :)
 
-      ---------------------------------------------------------------
 
       Wonderful and full of energy girls! If you want to get to know real Georgia, you have no choice but to choose their trips 
     author: Sławek
