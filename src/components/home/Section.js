@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 export default ({color, title, children}) => (
   <Wrapper color={color}>
     <View>
-      <H2 color='colorPrimary' center>{title}</H2>
+      {title && <H2 color='colorPrimary' center>{title}</H2>}
       {children}
     </View>
   </Wrapper>
