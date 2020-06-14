@@ -38,7 +38,7 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
-reviewImage: /img/georgia-4514143.jpg
+reviewImage: /img/caucasus-3110386.jpg
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE?modestbranding=1&iv_load_policy=3&rel=0
 reviews:
   - author: Adrian
