@@ -11,7 +11,7 @@ const replaceAll = (str, find, replace) =>
 export const HTMLContent = ({ content, className }) => (
   <StyledDiv
     className={className}
-    dangerouslySetInnerHTML={{ __html: replaceAll(content, '<a href=', '<a target="blank" href=') }}
+    dangerouslySetInnerHTML={{ __html: replaceAll(content, '<a href=', '<a target="blank" rel="noopener noreferrer" title="link" href=') }}
   />
 )
 
