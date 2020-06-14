@@ -41,6 +41,16 @@ aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 reviewImage: /img/gergeti.jpg
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE
 reviews:
+  - author: Barbara
+    place: '"Gruzińskie Wakacje", 2018'
+    text: Pomysł zwiedzania Gruzji z Vaime Travel to strzał w samo sedno gruzińskich
+      krajobrazów, zabytków, gruzińskiej kuchni i wina. Podziwialiśmy gory
+      Wielkiego Kaukazu i smakowaliśmy chaczapuri, chinkali. Codzienna
+      degustacja wina i to najlepszego. Zwiedzanie skalnych miast Wardzia i
+      Dawid Garedzi niesamowite wrażenia i widoki. Nocleg w stepie szerokim,
+      którego okiem nie zmierzysz😉Maja i Nini super dziewczyny zadbały o
+      wszystko. Były górskie wędrówki i extremalna jazda. დიდი მადლობა😀
+    stars: 5
   - author: Adrian
     place: '"Gruzińska Wojenna Droga", 2018'
     stars: 5
@@ -110,16 +120,6 @@ reviews:
       sposób ,sprawiły że chce się wrócić i na pewno będę powracał nie jeden raz
       wspaniała Gruzja, dziękuję.
     place: '"Góry, morze, wino", 2018'
-    stars: 5
-  - author: Barbara
-    place: '"Gruzińskie Wakacje", 2018'
-    text: Pomysł zwiedzania Gruzji z Vaime Travel to strzał w samo sedno gruzińskich
-      krajobrazów, zabytków, gruzińskiej kuchni i wina. Podziwialiśmy gory
-      Wielkiego Kaukazu i smakowaliśmy chachapuri, chinkali. Codzienna
-      degustacja wina i to najlepszego. Zwiedzanie skalnych miast Vardzia i
-      David Gareji niesamowite wrażenia i widoki. Nocleg w stepie szerokim,
-      którego okiem nie zmierzysz😉Maja i Nini super dziewczyny zadbały o
-      wszystko. Były górskie wędrówki i extremalna jazda. დიდი მადლობა😀
     stars: 5
   - author: Karol
     place: '"Kaukaski Duet" - Gruzja i Armenia, 2019'
