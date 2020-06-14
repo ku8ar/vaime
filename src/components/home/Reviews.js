@@ -25,7 +25,7 @@ export default ({ reviews, reviewImage, reviewVideo }) => {
       <Img data={{image: reviewImage, name: 'Opinie'}} style={imgStyle} />
       <View>
         <ReviewsGrid>
-          <YoutubeIframe height={height} src={reviewVideo} />
+          <YoutubeIframe height={height} src={reviewVideo} title='youtube' />
           <ReviewsBox>
               <Rows key={revKey}>
                 <H2 color='colorPrimary'>Opinie</H2>
@@ -69,6 +69,7 @@ const Wrapper = styled.div`
   ${p => p.theme.mobile`
     height: auto;
     border-bottom: none;
+    overflow: hidden;
   `}
 `
 
@@ -78,6 +79,7 @@ const Review = styled(P)`
 
 const Place = styled(H4)`
   margin-bottom: 0;
+  font-size: 1.25rem;
 `
 
 const Author = styled(P)`
@@ -98,7 +100,9 @@ const Right = styled(RightIcon)`
   ${controlStyle}
 `
 
-const Rows = styled.div``
+const Rows = styled.div`
+  padding: 0 2rem;
+`
 
 const Controls = styled.div`
   margin-bottom: 1.5rem;
@@ -107,7 +111,10 @@ const Controls = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-right: 4rem;
+  padding-right: 2rem;
+  ${p => p.theme.mobile`
+    margin-bottom: 0;
+  `}
 `
 
 const YoutubeIframe = styled.iframe`
@@ -126,7 +133,6 @@ const ReviewsBox = styled.div`
   height: ${height}px;
   margin-top: 5rem;
   margin-left: 0rem;
-  padding: 0 2rem;
   background-color: white;
   display: flex;
   flex-direction: column;
