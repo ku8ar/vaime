@@ -11,11 +11,12 @@ const height = 400
 
 export default ({ reviews, reviewImage, reviewVideo }) => {
   const [revKey, setRevKey] = useState(0)
+  const length = reviews && reviews.length
 
-  const goPrev = useCallback(() => setRevKey(revKey === 0 ? reviews.length - 1 : revKey - 1), [revKey, reviews.length])
-  const goNext = useCallback(() => setRevKey(revKey === reviews.length - 1 ? 0 : revKey + 1), [revKey, reviews.length])
+  const goPrev = useCallback(() => setRevKey(revKey === 0 ? length - 1 : revKey - 1), [revKey, length])
+  const goNext = useCallback(() => setRevKey(revKey === length - 1 ? 0 : revKey + 1), [revKey, length])
 
-  if (!reviews || !reviews.length) return null
+  if (!reviews || !length) return null
   
   const { place, text, author, stars } = reviews[revKey] || {}
 

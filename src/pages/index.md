@@ -43,7 +43,7 @@ reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE?modestbranding=1&iv_load_
 reviews:
   - author: Kasia
     place: "Kaukaski Duet"
-    stars: 3
+    stars: 5
     text: "Jeśli do Gruzji to tylko z VAIME !!!! Wspaniale zorganizowany wyjazd. Wszystko doskonale przemyślane. Nini i Maja to najlepsze przewodniczki i towarzyszki podróży jakie kiedykolwiek spotkałam. kompetentne, troskliwe i przeurocze.
 Gruzja z Vaime to wielka przyjemność podróży, spotkań z ludźmi i wspaniałą gruzińską przyrodą ( trekkingi w dolinach Kaukazu z Mają - rewelacja), kuchnią i historią."
   - author: Adam
