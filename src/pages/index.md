@@ -38,6 +38,19 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
+reviewImage: /img/georgia-4514143.jpg
+reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE?modestbranding=1&iv_load_policy=3&rel=0
+reviews:
+  - author: Kasia
+    place: "Kaukaski Duet"
+    stars: 5
+    text: >
+      Jeśli do Gruzji to tylko z VAIME !!!! Wspaniale zorganizowany wyjazd. Wszystko doskonale przemyślane. Nini i Maja to najlepsze przewodniczki i towarzyszki podróży jakie kiedykolwiek spotkałam. kompetentne, troskliwe i przeurocze. Gruzja z Vaime to wielka przyjemność podróży, spotkań z ludźmi i wspaniałą gruzińską przyrodą ( trekkingi w dolinach Kaukazu z Mają - rewelacja), kuchnią i historią.
+  - author: Adam
+    place: "Winobranie"
+    stars: 5
+    text: >
+      To był strzał w 10tkę ! Maia powinna zostać ministrem turystyki Gruzji bo świetnie promuje swój kraj i pokazuje co Gruzja ma najlepszego. Tydzień spędzony w tym kraju to za mało ale jeśli kolejny raz to tylko z Vaime Travel ! Tak trzymajcie 👍 Powodzenia 🍀
 promoImage: /img/mapka_glowna.jpg
 ---
 Witamy w naszym biurze!  \

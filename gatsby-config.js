@@ -1,8 +1,16 @@
+var siteUrl = `https://vaimetravel.com`
+
+if (process.env.NODE_ENV === 'development') {
+  siteUrl = 'localhost:8000'
+} else if (process.env.SITE_URL) {
+  siteUrl = process.env.SITE_URL
+}
+
 module.exports = {
   siteMetadata: {
     title: 'Vaime Travel',
     description: 'Ecommerce',
-    siteUrl: `https://vaimetravel.com`,
+    siteUrl,
   },
   plugins: [
     'gatsby-plugin-netlify-cache',
@@ -78,8 +86,8 @@ module.exports = {
         start_url: '/',
         version: '1.0',
         lang: "pl-PL",
-        background: '#DE261D',
-        theme_color: '#fff',
+        background: '#fff',
+        theme_color: '#DE261D',
         appName: 'Vaime Travel',
         icons: {
           android: true,
@@ -92,7 +100,32 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        debug: false,
+        workboxConfig: {
+          runtimeCaching: [
+            {
+              urlPattern: /(\.js$|\.css$|static\/)/,
+              handler: `NetworkFirst`,
+            },
+            {
+              urlPattern: /^https?:.*\page-data\/.*\/page-data\.json/,
+              handler: `NetworkFirst`,
+            },
+            {
+              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+              handler: `StaleWhileRevalidate`,
+            },
+            {
+              urlPattern: /^https?:\/\/fonts\.googleapis\.com\/css/,
+              handler: `StaleWhileRevalidate`,
+            },
+          ],
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

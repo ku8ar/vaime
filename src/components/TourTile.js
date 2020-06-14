@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import Image from './Image'
 import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
 import { H4, H6, buttonStyle } from './Base'
 import Heart from './home/Heart'
@@ -59,7 +59,6 @@ export default ({ slug, tour }) => {
   const available = getSubtitle(terms)
   const year = getYear(terms)
   const subtitle = `${available}: ${dates}${oneDay ? ' ' : '.'}${year}`
-  const fluid = path('childImageSharp.fluid', thumb) || thumb
 
   const timestamp = getOldestTs(terms)
   const seats = getBiggestSeats(terms)
@@ -70,9 +69,9 @@ export default ({ slug, tour }) => {
   const disabled = expired || noSeats || !active
 
   return (
-    <LinkWrapper to={slug}>
+    <LinkWrapper to={slug} title={title}>
       <Top>
-        <BgCover fluid={fluid} style={imgStyle} alt={title} />
+        <Image data={{image: thumb, name: title}} style={imgStyle} />
         <TourContent>
           <TourDates>
             <TourInfo disabled={disabled}>{subtitle}</TourInfo>
@@ -91,6 +90,8 @@ export default ({ slug, tour }) => {
     </LinkWrapper>
   )
 }
+
+const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
 
 const Price = styled(H6)`
   font-weight: ${p => p.theme.weightNormal};
@@ -125,12 +126,6 @@ const Top = styled.div`
   flex: 1;
   overflow: hidden;
   position: relative;
-`
-
-const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
-
-const BgCover = styled(Img)`
-
 `
 
 const BottomLabel = styled.div`

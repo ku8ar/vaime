@@ -14,6 +14,7 @@ import InfoBelt from '../components/home/InfoBelt'
 import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
+import Reviews from '../components/home/Reviews'
 import styled from 'styled-components'
 import JsonLd, { siteUrl } from '../components/custom/JsonLd'
 
@@ -50,7 +51,7 @@ const Title = styled(H1)`
   opacity: 0;
 `
 
-export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent }) => {
+export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent, reviews, reviewImage, reviewVideo }) => {
   const HtmlComponent = contentComponent || Content
 
   const _tours = sortTours(tours)
@@ -105,6 +106,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           ))}
         </Grid>
       </Section>
+      <Reviews reviews={reviews} reviewImage={reviewImage} reviewVideo={reviewVideo} />
       <PromoSection promoImage={promoImage} />
       <Instagram />
       <Cookies />
@@ -198,6 +200,14 @@ export const pageQuery = graphql`
           place
           text
           image { ...imageAvatar }
+        }
+        reviewVideo
+        reviewImage { ...imageFullWidth }
+        reviews {
+          author
+          place
+          text
+          stars
         }
       }
     }

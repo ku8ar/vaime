@@ -18,11 +18,18 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
       <title>{`${title} ${seoTitle}`}</title>
       <meta name="description" content={description} />
       <meta name="theme-color" content={colorPrimary} />
+
       <meta property="og:type" content="business.business" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content={'Vaime Travel'} />
       <meta property="og:url" content={pageUrl} />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+
       <link rel="canonical" href={pageUrl} />
       {image ? <meta property="og:image" content={image} /> : null}
       {width ? <meta property="og:image:width" content={width} /> : null}

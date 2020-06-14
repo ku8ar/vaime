@@ -11,11 +11,11 @@ export default ({ phoneNumbers, socialLinks, email, companyName }) => (
       <FooterRow>
         <FooterList>
           <FooterLogo src={logo} alt="Vaime Travel" />
-          {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`}>{no}</FooterLink>)}
-          <FooterLink href={`mailto: ${email}`}>{email}</FooterLink>
+          {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
+          <FooterLink href={`mailto: ${email}`} title='email'>{email}</FooterLink>
         </FooterList>
         <MiddleFooterList>
-          <FooterNav to='/polityka'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
+          <FooterNav to='/polityka' title='Polityka Prywatności'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
         </MiddleFooterList>
         <LastFooterList>
           <Title color="colorWhite">Gruziński Po Polsku</Title>
