@@ -39,7 +39,7 @@ team:
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 reviewImage: /img/ა-ბ-გ-დ-ე-ვ-ზ-თ-ი-კ-ლ-მ-ნ-ო-პ-ჟ-რ-ს-ტ-უ-ფ-ქ-ღ-ყ-შ-ჩ-ძ-ც-წ-ჭ-ხ-ჯ-ჰ.png
-reviewVideo: https://youtu.be/UKfAO_QNexE
+reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE
 reviews:
   - author: Adrian
     place: '"Gruzińska Wojenna Droga", 2018'
