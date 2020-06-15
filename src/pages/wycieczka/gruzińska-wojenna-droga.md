@@ -11,7 +11,7 @@ terms:
     endDate: 2020-10-31T22:18:04.729Z
     daysCount: "1"
     seats: 1
-    price: 75
+    price: 50
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
@@ -57,11 +57,12 @@ schedule:
   - day: 15 00
     place: Kazbegi/Stepancminda
     text: >-
-      Dojazd do miejscowości Kazbegi, wjazd samochodem terenowym na kościół św.
-      Trójcy Gergeti, który jest wizytówką regionu i całego kraju. Z Gergeti w
-      warunkach dobrej widoczności, zobaczyć można szczyt Kazbek (5054 m), drugi
-      najwyższy szczyt kraju. Po zwiedzaniu monastyru oraz przerwy na zdjęcia,
-      powrót do centrum Kazbegi. 
+      Dojazd do miejscowości Kazbegi, wejście pieszo lub wjazd samochodem
+      terenowym (dodatkowa opłata ok. 8 eur/os) na kościół św. Trójcy Gergeti,
+      który jest wizytówką regionu i całego kraju. Z Gergeti w warunkach dobrej
+      widoczności, zobaczyć można szczyt Kazbek (5054 m), drugi najwyższy szczyt
+      kraju. Po zwiedzaniu monastyru oraz przerwy na zdjęcia, powrót do centrum
+      Kazbegi. 
 
       Wolny czas na zakupy i lunch. 
   - day: 17 30
@@ -77,15 +78,13 @@ priceNotContains:
   - text: Posiłków i napojów nie zawartych w programie
     icon: food
 ---
-**CENA**
+**CENNIK**
 
 1-3 os. - 75 eur/grupa + 8 eur/os samochód terenowy w Kazbegi 
 
 4-7 os. - 90 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
 
 8-15 os. - 120 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
-
-
 
 * Długość trasy wycieczki: ok. 300 km (trasa w obie strony) 
 * Stopień trudności: łatwy
