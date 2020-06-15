@@ -1,6 +1,8 @@
 ---
 templateKey: tour
 active: false
+oneDay: true
+minSeats: 3
 title: Gruzińska Wojenna Droga
 description: Podróż wśród szczytów Wielkiego Kaukazu
 terms:
@@ -79,3 +81,4 @@ priceNotContains:
 * Warunki pogodowe: 18-20°C
 * Ubiór: lekki, wygodne obuwie do chodzenia, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
+* Godziny podane w programie mogą nieznacznie się różnić, w zależności od warunków pogodowych i tempa zwiedzania
