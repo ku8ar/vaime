@@ -2,15 +2,16 @@
 templateKey: tour
 active: false
 oneDay: true
-minSeats: 3
+minSeats: 1
 title: Gruzińska Wojenna Droga
 description: Podróż wśród szczytów Wielkiego Kaukazu
+informations: ""
 terms:
-  - startDate: 2020-08-17T22:18:04.673Z
-    endDate: 2020-08-17T22:18:04.729Z
+  - startDate: 2020-06-30T22:18:04.673Z
+    endDate: 2020-10-31T22:18:04.729Z
     daysCount: "1"
-    seats: 5
-    price: 95
+    seats: 1
+    price: 75
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
@@ -76,9 +77,19 @@ priceNotContains:
   - text: Posiłków i napojów nie zawartych w programie
     icon: food
 ---
+**CENA**
+
+1-3 os. - 75 eur/grupa + 8 eur/os samochód terenowy w Kazbegi 
+
+4-7 os. - 90 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
+
+8-15 os. - 120 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
+
+
+
 * Długość trasy wycieczki: ok. 300 km (trasa w obie strony) 
 * Stopień trudności: łatwy
 * Warunki pogodowe: 18-20°C
 * Ubiór: lekki, wygodne obuwie do chodzenia, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
-* Godziny podane w programie mogą nieznacznie się różnić, w zależności od warunków pogodowych i tempa zwiedzania
+* Podane godziny zwiedzania mogą nieznacznie się różnić od zrealizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania
