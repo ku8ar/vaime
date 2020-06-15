@@ -6,11 +6,11 @@ minSeats: 1
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 terms:
-  - startDate: 2020-09-20T16:50:54.599Z
-    endDate: 2020-09-20T16:50:54.627Z
+  - startDate: 2020-07-01T16:50:54.599Z
+    endDate: 2020-12-01T16:50:54.627Z
     daysCount: "1"
-    seats: 5
-    price: 110
+    seats: 1
+    price: 50
 thumb: /img/georgia-5139384.jpg
 images:
   - image: /img/img_2511jpg.jpg
@@ -77,19 +77,16 @@ priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
 ---
-
-
 **CENNIK**
 
-1-3 os. - 80 eur/grupa + 10 eur/os degustacja i drobny poczęstunek
+1-3 os. - 80 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
-4-7 os. - 95 eur/grupa + 10 eur/os degustacja i drobny poczęstunek
+4-7 os. - 95 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
-8-15 os. - 130 eur/grupa + 10 eur/os degustacja i drobny poczęstunek
+8-15 os. - 130 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
 * Długość trasy: ok. 350 km
 * Stopień trudności: łatwy
-* Warunki pogodowe: 25-30°C
 * Ubiór: lekki, wygodne obuwie do chodzenia, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
-*
+* Podane godziny zwiedzania mogą nieznacznie się różnić od zrealizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania
