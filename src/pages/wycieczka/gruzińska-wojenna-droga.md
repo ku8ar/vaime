@@ -7,8 +7,8 @@ title: Gruzińska Wojenna Droga
 description: Podróż wśród szczytów Wielkiego Kaukazu
 informations: ""
 terms:
-  - startDate: 2020-06-30T22:18:04.673Z
-    endDate: 2020-10-31T22:18:04.729Z
+  - startDate: 2020-07-01T22:18:04.673Z
+    endDate: 2020-11-01T22:18:04.729Z
     daysCount: "1"
     seats: 1
     price: 40
