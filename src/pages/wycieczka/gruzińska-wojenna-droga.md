@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: false
+active: true
 oneDay: true
 minSeats: 1
 title: Gruzińska Wojenna Droga
@@ -11,7 +11,7 @@ terms:
     endDate: 2020-10-31T22:18:04.729Z
     daysCount: "1"
     seats: 1
-    price: 50
+    price: 40
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
