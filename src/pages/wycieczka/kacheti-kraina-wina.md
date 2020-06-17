@@ -6,8 +6,8 @@ minSeats: 1
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 terms:
-  - startDate: 2020-07-01T16:50:54.599Z
-    endDate: 2020-12-01T16:50:54.627Z
+  - startDate: 2020-07-02T16:50:54.599Z
+    endDate: 2020-11-29T16:50:54.627Z
     daysCount: "1"
     seats: 1
     price: 50
