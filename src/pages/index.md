@@ -38,7 +38,7 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
-reviewImage: /img/projekt-bez-tytułu-2-.png
+reviewImage: /img/projekt-bez-tytułu-3-.png
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE?modestbranding=1&iv_load_policy=3&rel=0
 reviews:
   - author: Adrian
