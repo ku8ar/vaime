@@ -80,10 +80,15 @@ showFlights: true
 ---
 ### **Ważne informacje**
 
-* Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością
-* Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką
-* Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z lotniska.
-* Oprócz programów podanych na stronie, możliwe jest zorganizowanie wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś specjalnie dla Was.
-* Nasze wyprawy często zawierają noclegi  w pensjonatach rodzinnych, prowadzonych przez lokalnych mieszkańców. Dzięki czemu, cały czas mamy kontakt z miejscowymi, lepiej poznajemy ich kulturę, życie codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj nocujemy w hotelach 3*.\
-  Śpimy w pokojach dwuosobowych. Pokój jednoosobowy dostępny jest w przypadku dopłaty.
-* Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
+Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością
+
+Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką
+
+Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z lotniska.
+
+Oprócz programów podanych na stronie, możliwe jest zorganizowanie wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś specjalnie dla Was.
+
+Nasze wyprawy często zawierają noclegi  w pensjonatach rodzinnych, prowadzonych przez lokalnych mieszkańców. Dzięki czemu, cały czas mamy kontakt z miejscowymi, lepiej poznajemy ich kulturę, życie codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj nocujemy w hotelach 3*.\
+Śpimy w pokojach dwuosobowych. Pokój jednoosobowy dostępny jest w przypadku dopłaty.
+
+Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
