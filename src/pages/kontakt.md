@@ -3,7 +3,7 @@ templateKey: page
 title: Kontakt
 description: Profejsonalna obsługa tour operatorów
 images:
-  - image: /img/contact-us-1908763_1920.png
+  - image: /img/102.jpg
     name: tbilisi
 carousel: null
 contact: true

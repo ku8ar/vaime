@@ -3,7 +3,7 @@ templateKey: page
 title: Informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:
-  - image: /img/map.PNG
+  - image: /img/kopitnari.jpg
     name: lotnisko
 qa:
   - answer: >
