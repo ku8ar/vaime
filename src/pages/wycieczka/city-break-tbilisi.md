@@ -156,12 +156,14 @@ priceNotContains:
   - text: Biletu na przejazd kolejką linową - ok. 1 EUR
     icon: cableCar
 ---
+**CENNIK**\
+Cena wycieczki rozkłada się równomiernie na liczbę osób w grupie (np. przy grupie 10 os. - 6 EUR/os, przy grupie 5 os. - 12 EUR/os, przy 2 os. - 30 EUR/os.)
+
 * Trasa do przejścia: ok. 5 km 
 * Długość wycieczki: ok. 4-5 godzin 
 * Stopień trudności: łatwy 
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, paniom zalecane jest mieć przy sobie nakrycie głowy na przypadek odwiedzania świątyń 
 * Koszt wycieczki jest jednakowy dla następującej liczby osób: min. 1 osoba - max. 10 osób
-* Cena wycieczki rozkłada się równomiernie na liczbę osób w grupie (np. przy grupie 10 os. - 6 EUR/os, przy grupie 5 os. - 12 EUR/os, przy 2 os. - 30 EUR/os.)
 
 
 
