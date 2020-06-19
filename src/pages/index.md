@@ -1,6 +1,6 @@
 ---
 templateKey: home
-title: Wycieczki po Gruzji z Nini i Maia
+title: Wycieczki po Gruzji z Nini i Maja
 description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja, Armenia, Kaukaz
 images:
   - image: /img/302.jpg
