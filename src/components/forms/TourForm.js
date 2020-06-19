@@ -124,9 +124,10 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) =>
   useEffect(() => {
     if (sender && !Object.values(errors).filter(Boolean).length) {
       setIsSubmitting(true)
-      const { date, ...tourDetails } = values
+      const { date, adults, ...tourDetails } = values
       const { startDate, endDate, price } = terms[date] || {}
-      const body = { ...tourDetails, startDate, endDate, title, price, date: startDate ? calcDate(startDate, endDate) : date, oneDay, fromTbilisi }
+      const priceForAll = price * adults
+      const body = { ...tourDetails, adults, startDate, endDate, title, price: priceForAll, date: startDate ? calcDate(startDate, endDate) : date, oneDay, fromTbilisi }
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
