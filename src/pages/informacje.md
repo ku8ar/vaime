@@ -80,9 +80,9 @@ showFlights: true
 ---
 ### **Ważne informacje**
 
-Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością
+Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością.
 
-Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką
+Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką.
 
 Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z lotniska.
 
