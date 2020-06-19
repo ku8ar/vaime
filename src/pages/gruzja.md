@@ -3,7 +3,7 @@ templateKey: page
 title: O Gruzji
 description: Informacje o Gruzji
 images:
-  - image: /img/georgia-3699446_1920.jpg
+  - image: /img/caucasus-3110386.jpg
     name: Swaneti
 grid:
   - image0: /img/georgia-3702447.jpg
