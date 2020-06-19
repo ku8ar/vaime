@@ -3,11 +3,8 @@ templateKey: page
 title: Informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:
-  - image: /img/kopitnari.jpg
+  - image: /img/d78462689df6419757f430689686fa86.jpg
     name: lotnisko
-carousel: null
-contact: false
-showFlights: true
 qa:
   - answer: >
       Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to
@@ -77,6 +74,9 @@ qa:
 
       - Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
     question: Gdzie znaleźć tanie połączenia do Gruzji?
+carousel: null
+contact: false
+showFlights: true
 ---
 **Kilka ważnych informacji odnośnie naszych wycieczek:**\
 \
