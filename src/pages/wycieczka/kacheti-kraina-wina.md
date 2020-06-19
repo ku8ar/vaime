@@ -1,16 +1,16 @@
 ---
 templateKey: tour
-active: false
+active: true
 oneDay: true
-minSeats: 2
+minSeats: 1
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 terms:
-  - startDate: 2020-09-20T16:50:54.599Z
-    endDate: 2020-09-20T16:50:54.627Z
+  - startDate: 2020-07-02T16:50:54.599Z
+    endDate: 2020-11-29T16:50:54.627Z
     daysCount: "1"
-    seats: 5
-    price: 110
+    seats: 1
+    price: 50
 thumb: /img/georgia-5139384.jpg
 images:
   - image: /img/img_2511jpg.jpg
@@ -40,9 +40,10 @@ schedule:
   - day: 12 40
     place: "degustacja "
     text: >-
-      Przejazd na degustację domowego wina do lokalnej winiarni, gdzie zobaczyć
+      Przejazd na degustację domowego wina do domowej winiarni, gdzie zobaczyć
       można, jak się robi gruzińskie wino oraz na czym polega 8000-letnia
-      gruzińska tradycja robienia wina, która wpisana jest na listę UNESCO. 
+      gruzińska tradycja robienia wina, która wpisana jest na listę UNESCO.
+      Degustacja wina wraz z drobym poczęstunkiem.
 
       Wyjazd w kierunku miasteczka miłości Signagi ok. godziny 13:30
   - day: 15 00
@@ -76,8 +77,16 @@ priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
 ---
+**CENNIK**
+
+1-3 os. - 80 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
+
+4-7 os. - 95 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
+
+8-15 os. - 130 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
+
 * Długość trasy: ok. 350 km
 * Stopień trudności: łatwy
-* Warunki pogodowe: 25-30°C
 * Ubiór: lekki, wygodne obuwie do chodzenia, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
+* Podane godziny zwiedzania mogą nieznacznie się różnić od zrealizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania

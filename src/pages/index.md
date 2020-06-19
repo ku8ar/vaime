@@ -1,6 +1,6 @@
 ---
 templateKey: home
-title: Wycieczki po Gruzji z Nini i Maia
+title: Wycieczki po Gruzji z Nini i Mają
 description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja, Armenia, Kaukaz
 images:
   - image: /img/302.jpg
@@ -29,7 +29,7 @@ images:
     name: ushba
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
-    name: Maia Varshanidze
+    name: Maja Varshanidze
     place: ""
     text: ""
   - image: /img/97911474_288737142151121_4665474479445508096_n.jpg
@@ -38,9 +38,19 @@ team:
     text: ""
 aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
-reviewImage: /img/projekt-bez-tytułu-3-.png
-reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE?modestbranding=1&iv_load_policy=3&rel=0
+reviewImage: /img/projekt-bez-tytułu-2-.png
+reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE
 reviews:
+  - author: Barbara
+    place: '"Gruzińskie Wakacje", 2018'
+    text: Pomysł zwiedzania Gruzji z Vaime Travel to strzał w samo sedno gruzińskich
+      krajobrazów, zabytków, gruzińskiej kuchni i wina. Podziwialiśmy gory
+      Wielkiego Kaukazu i smakowaliśmy chaczapuri, chinkali. Codzienna
+      degustacja wina i to najlepszego. Zwiedzanie skalnych miast Wardzia i
+      Dawid Garedzi niesamowite wrażenia i widoki. Nocleg w stepie szerokim,
+      którego okiem nie zmierzysz. Maja i Nini super dziewczyny zadbały o
+      wszystko. Były górskie wędrówki i extremalna jazda. დიდი მადლობა!
+    stars: 5
   - author: Adrian
     place: '"Gruzińska Wojenna Droga", 2018'
     stars: 5
@@ -72,11 +82,11 @@ reviews:
       krajobrazem i gościnnością, wędrówkami i wspólnymi biesiadami a wschody
       słońca pod Kazbekiem i w Omalo ... bezcenne. Serdecznie każdemu polecam
     stars: 5
-  - text: Entuzjazm, profesjonalizm, wiedza i znajomość pięknego języka polskiego
-      😊wycieczka zorganizowana perfekcyjnie 😊opieka jak w domu😚klimaty miejsc
-      gdzie byliśmy niezapomniane😚nawet nauczyły nas kilku liter alfabetu
+  - text: Entuzjazm, profesjonalizm, wiedza i znajomość pięknego języka polskiego :)
+      Wycieczka zorganizowana perfekcyjnie, opieka jak w domu, klimaty miejsc
+      gdzie byliśmy niezapomniane, nawet nauczyły nas kilku liter alfabetu
       gruzińskiego i zaraziły miłością do muzyki i kultury różnych gruzińskich
-      regionów😊
+      regionów :)
     author: Anna
     place: '"Góry, morze, wino", 2018'
     stars: 5
@@ -111,16 +121,6 @@ reviews:
       wspaniała Gruzja, dziękuję.
     place: '"Góry, morze, wino", 2018'
     stars: 5
-  - author: Barbara
-    place: '"Gruzińskie Wakacje", 2018'
-    text: Pomysł zwiedzania Gruzji z Vaime Travel to strzał w samo sedno gruzińskich
-      krajobrazów, zabytków, gruzińskiej kuchni i wina. Podziwialiśmy gory
-      Wielkiego Kaukazu i smakowaliśmy chachapuri, chinkali. Codzienna
-      degustacja wina i to najlepszego. Zwiedzanie skalnych miast Vardzia i
-      David Gareji niesamowite wrażenia i widoki. Nocleg w stepie szerokim,
-      którego okiem nie zmierzysz😉Maja i Nini super dziewczyny zadbały o
-      wszystko. Były górskie wędrówki i extremalna jazda. დიდი მადლობა😀
-    stars: 5
   - author: Karol
     place: '"Kaukaski Duet" - Gruzja i Armenia, 2019'
     text: >-
@@ -129,7 +129,7 @@ reviews:
       Świetne hotele, perfykcjnie zaplanowane atrakcje, ciekawe opowieści o Gruzji i kaukazie, fantastyczne kolacje a po nich wieczorne dyskusje przy lampce wina.
 
 
-      Jeżeli Gruzja, Armenia czy okolice to tylko z vaime Travel. 
+      Jeżeli Gruzja, Armenia czy okolice to tylko z Vaime Travel. 
 
       Zwiedzałem Gruzję także z konkurencją więc mam porównanie.
     stars: 5
@@ -145,7 +145,7 @@ reviews:
 promoImage: /img/mapka_glowna.jpg
 ---
 Witamy w naszym biurze!  \
-Nazywamy się Nini i Maia, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
+Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
 
 Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze staramy się dostosować programy do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
 Zapraszamy, zwiedźcie Gruzję razem z nami!
