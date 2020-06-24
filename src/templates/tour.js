@@ -21,6 +21,13 @@ const TourPage = styled(Page)`
   ${p => p.theme.print` background-color: white; `}
 `
 
+const LeftColumn = styled(Column)`
+  padding-right: 2rem;
+  ${p => p.theme.mobile`
+    padding-right: 0rem;
+  `}
+`
+
 export const TourTemplate = ({ description, informations, schedule, html, contentComponent, map, slug, ...props }) => {
   const HtmlComponent = contentComponent || Content
   return (
@@ -39,10 +46,10 @@ export const TourTemplate = ({ description, informations, schedule, html, conten
           </Column>
         </Grid>
         <Grid>
-          <Column size={30}>
+          <LeftColumn size={35}>
             <HtmlComponent content={html || ''} />
-          </Column>
-          <Column size={70}>
+          </LeftColumn>
+          <Column size={65}>
             <Map map={map} />
           </Column>
         </Grid>
