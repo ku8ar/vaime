@@ -33,16 +33,7 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         <Column size={hideInfo ? 100 : 70}>
           {html && (<Section><HtmlComponent content={html} /></Section>)}
           <Faq list={qa} />
-          {contact && (
-            <>
-              <Section>
-                <H5>Napisz do nas</H5>
-              </Section>
-              <Section>
-                <ContactForm />
-              </Section>
-            </>
-          )}
+          {contact && <ContactForm />}
         </Column>
         {!hideInfo && (
           <Column size={30}>
