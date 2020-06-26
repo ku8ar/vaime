@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import useInstagram from '../../hooks/instagram'
 import useIntersectionObserver from '../../hooks/useIntersectionObserver'
+
+const placeholders = [...Array(12).keys()]
 
 export default () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -16,9 +18,16 @@ export default () => {
 
   return (
     <Wrapper ref={target}>
-      {(isVisible ? instagramPhotos : []).map(({ href, src }, key) => (
-        <Anchor key={href} target="_blank" rel="noopener noreferrer" href={href} style={{ backgroundImage: `url("${src}")` }} aria-label={`instagram link ${key}`} />
-      ))}
+      {isVisible ? instagramPhotos.map(({ href, src }, key) => (
+        <Anchor
+          key={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          href={href}
+          style={{ backgroundImage: `url("${src}")` }}
+          aria-label={`instagram link ${key}`}
+        />
+      )) : placeholders.map(i => <Placeholder key={i} />)}
     </Wrapper >
   )
 }
@@ -40,7 +49,7 @@ const Wrapper = styled.div`
   ${p => p.theme.print` display: none; `}
 `
 
-const Anchor = styled.a`
+const itemStyle = css`
   width: calc(100% / 12);
   height: calc(100vw / 12 - 5px);
   ${p => p.theme.mobile`
@@ -61,4 +70,12 @@ const Anchor = styled.a`
   &:hover {
     opacity: 0.8;
   }
+`
+
+const Placeholder = styled.div`
+  ${itemStyle}
+`
+
+const Anchor = styled.a`
+  ${itemStyle}
 `
