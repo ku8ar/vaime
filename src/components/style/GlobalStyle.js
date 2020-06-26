@@ -171,7 +171,7 @@ export default createGlobalStyle`
 
   button {
     :focus {
-      outline-color: ${p => p.theme.colorPrimary};
+      outline: none;
     }
   }
 
