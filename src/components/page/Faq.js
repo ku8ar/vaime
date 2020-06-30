@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
 import Section from './Section'
-import { H5 } from '../Base'
+import { H3 } from '../Base'
 
 const Wrapper = styled.div`
   display: flex;
@@ -57,7 +57,7 @@ const FaqItem = ({ question, answer }) => {
 
 export default ({ list }) => list && list.length ? (
   <FaqWrapper>
-    <H5>FAQ</H5>
+    <H3>FAQ</H3>
     <Wrapper>
       {list.map((el, i) => <FaqItem key={i} {...el} />)}
     </Wrapper>
