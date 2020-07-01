@@ -7,22 +7,42 @@ images:
     name: lotnisko
 services:
   - title: Vaime Travel
-    text: Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną Odpowiedzialnością
+    text: Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną
+      Odpowiedzialnością, która zajmuje się organizacją różnego rodzaju
+      wycieczek obiazdowych po Gruzji i Armeni, a wkrótce również po
+      Azerbejdżanie.
     icon: logo
-  - title: Zakup biletów
-    text: Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką.
+  - title: Bilety lotnicze
+    text: "Zakup biletów lotniczych pozostawiamy Wam, ale od momentu przylotu aż do
+      ostatniego dnia wycieczki będziecie w całości pod naszą opieką.
+      Oczywiście, jeśli będzie potrzebna nasza asysta przy poszukiwaniu i kupnie
+      biletów, służymy pomocą. "
     icon: ticket
-  - title: Platność
-    text: Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
+  - title: Płatność
+    text: Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje
+      przedpłata w wys. 30% całkowitej kwoty. Płatność może być uregulowana
+      przelewem lub gotowką na miejscu, wystawiamy także faktury VAT w j.
+      polskim.
     icon: money
-  - title: Wycieczki Indywidualne
-    text: Oprócz programów podanych na stronie, możliwe jest zorganizowanie wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś specjalnie dla Was.
+  - title: Dopasowane programy
+    text: Oprócz programów podanych na stronie, możliwe jest zorganizowanie
+      wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie
+      chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś
+      specjalnie dla Was.
     icon: map
   - title: Terminy
-    text: Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z lotniska.
+    text: Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać
+      wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam
+      znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z
+      lotniska.
     icon: calendar
   - title: Noclegi
-    text: Nasze wyprawy często zawierają noclegi w pensjonatach rodzinnych, prowadzonych przez lokalnych mieszkańców. Dzięki czemu, cały czas mamy kontakt z miejscowymi, lepiej poznajemy ich kulturę, życie codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj nocujemy w hotelach 3*. Śpimy w pokojach dwuosobowych. Pokój jednoosobowy dostępny jest w przypadku dopłaty.
+    text: Nasze wyprawy mogą zawierać noclegi w pensjonatach rodzinnych,
+      prowadzonych przez lokalnych mieszkańców (wg. programu). Dzięki temu, cały
+      czas mamy kontakt z miejscowymi, lepiej poznajemy ich kulturę, życie
+      codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj
+      nocujemy w hotelach 3*. Śpimy w pokojach dwuosobowych, pokój jednoosobowy
+      dostępny jest w przypadku dopłaty.
     icon: bed
 qa:
   - answer: >
@@ -97,5 +117,4 @@ carousel: null
 contact: false
 showFlights: true
 ---
-
-### **Ważne informacje**
+### **Nasza działalność**
