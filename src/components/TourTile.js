@@ -64,7 +64,7 @@ export default ({ slug, tour }) => {
   const seats = getBiggestSeats(terms)
   const price = getSmallestPrice(terms)
 
-  const expired = timestamp < + new Date()
+  const expired = oneDay ? false : timestamp < + new Date()
   const noSeats = seats <= 0
   const disabled = expired || noSeats || !active
 

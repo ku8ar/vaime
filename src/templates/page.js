@@ -5,7 +5,8 @@ import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
-import { Page, Center, H1, H5 } from '../components/Base'
+import { Page, Center, H1 } from '../components/Base'
+import Services from '../components/page/Services'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
@@ -17,7 +18,7 @@ import ContactForm from '../components/forms/ContactForm'
 import TextSection from '../components/page/TextSection'
 import Flights from '../components/page/Flights'
 
-export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, showFlights, text, contentComponent }) => {
+export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, showFlights, text, contentComponent, services }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
   const hideInfo = hideContact && hideInstagram && !showFlights
@@ -32,17 +33,9 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
       <Grid>
         <Column size={hideInfo ? 100 : 70}>
           {html && (<Section><HtmlComponent content={html} /></Section>)}
+          <Services services={services} />
           <Faq list={qa} />
-          {contact && (
-            <>
-              <Section>
-                <H5>Napisz do nas</H5>
-              </Section>
-              <Section>
-                <ContactForm />
-              </Section>
-            </>
-          )}
+          {contact && <ContactForm />}
         </Column>
         {!hideInfo && (
           <Column size={30}>
@@ -92,6 +85,11 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        services {
+          title
+          text
+          icon
+        }
         qa {
           question
           answer

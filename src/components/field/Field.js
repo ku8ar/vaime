@@ -10,8 +10,12 @@ const FormInputWrapper = styled.div`
 `
 
 const FieldWrapper = styled.div`
-  border-bottom: 1px solid ${p => p.theme.colorGreyDark};
+  border-bottom: ${p => p.filled ? '0px' : '1px'} solid ${p => p.theme.colorGreyDark};
   display: flex;
+
+  background-color: ${p => p.filled ? p.theme.colorGreyNew : 'none'};
+  border-radius: ${p => p.filled ? '.25rem' : 'none'};
+  padding: ${p => p.filled ? '.25rem 0' : 'none'};
 `
 
 const Error = styled.p`
@@ -19,9 +23,9 @@ const Error = styled.p`
   margin: 0;
 `
 
-export default ({ icon, error, children }) => (
+export default ({ icon, error, filled, children }) => (
   <FormInputWrapper>
-    <FieldWrapper>
+    <FieldWrapper filled={filled}>
       <Icon name={icon} />
       {children}
     </FieldWrapper>

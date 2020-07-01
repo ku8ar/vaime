@@ -20,6 +20,7 @@ const RightColumn = styled(Column)`
   `}
 `
 
+// @TODO: remove, not used
 export const StandardContactTemplate = ({ title, images, html, background, qa, contact, contentComponent }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
@@ -35,9 +36,6 @@ export const StandardContactTemplate = ({ title, images, html, background, qa, c
           <Section><HtmlComponent content={html} /></Section>
         </Column>
         <RightColumn size={50}>
-          <Section>
-            <H5>Napisz do nas tutaj:</H5>
-          </Section>
           <Section>
             <ContactForm />
           </Section>

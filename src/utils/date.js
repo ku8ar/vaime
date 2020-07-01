@@ -38,5 +38,3 @@ export const calcMonthsDate = (startDate, endDate, withYear = true) => {
 export const countDays = (startDate, endDate) => startDate && endDate ? moment(endDate).diff(moment(startDate), 'days') : 0
 
 export const calcYear = (date) => date ? moment(date).format('YYYY') : ''
-
-export const getCurrentYear = () => moment().format('YYYY')

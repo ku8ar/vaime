@@ -1,7 +1,7 @@
 import React from 'react'
-import { path, sortBy, pipe, filter, head, prop, reverse, not, map } from 'rambda'
+import { path, sortBy, pipe, filter, head, prop, reverse, not, map, uniq, join } from 'rambda'
 import { graphql } from 'gatsby'
-import { calcYear, getCurrentYear } from '../utils/date'
+import { calcYear } from '../utils/date'
 import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -31,7 +31,8 @@ const isTourInSameYear = pipe(
 
 const sortTours = pipe(
   filter(isTourInSameYear),
-  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp']))
+  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp'])),
+  reverse
 )
 
 const filterMultiDayTours = filter(
@@ -39,6 +40,13 @@ const filterMultiDayTours = filter(
     path(['node', 'frontmatter', 'oneDay']),
     not
   )
+)
+
+const getTourYears = pipe(
+  map(path(['node', 'frontmatter', 'terms', 0, 'startDate'])),
+  map(calcYear),
+  uniq,
+  join(' / ')
 )
 
 const filterOneDayTours = filter(
@@ -58,6 +66,9 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
   const _multiDayTours = filterMultiDayTours(_tours)
   const _oneDayTours = filterOneDayTours(_tours)
 
+  const tourYears = getTourYears(_tours)
+  const tourTitle = tourYears ? `Oferty ${tourYears}` : 'Brak ofert'
+
   return (
     <Page>
       <Hero images={images}>
@@ -65,7 +76,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
       </Hero>
       <InfoBelt />
       {_multiDayTours.length ? (
-        <Section title={`Oferty ${getCurrentYear()}`}>
+        <Section title={tourTitle}>
           <Grid>
             {_multiDayTours.map(({ node }) => (
               <TourTile

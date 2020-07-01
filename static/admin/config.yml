@@ -81,8 +81,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: string}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Q&A", name: qa, widget: list, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Our Services", name: services, widget: list, required: false, fields: [{label: "Title", name: title, widget: string}, {label: "Text", name: text, widget: text}, {label: Icon, name: icon, widget: select, options: ['bed', 'calendar', 'map', 'money', 'ticket', 'vaime']}]}
+      - {label: "Q&A", name: qa, widget: list, required: false, fields: [{label: "Question", name: question, widget: string}, {label: "Answer", name: answer, widget: text}]}
       - {label: Grid, name: grid, widget: list, required: false, fields: [{label: "Title", name: title, widget: string}, {label: "Text", name: text, widget: text}, {label: "Image (1)", name: image0, widget: image}, {label: "Image (2)", name: image1, widget: image}]}
       - {label: "Text", name: "text", widget: "text", required: false}
       - {label: Carousel, name: carousel, widget: list, required: false, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}

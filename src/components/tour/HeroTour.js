@@ -25,7 +25,7 @@ export default ({ images, title, openReservation, active, terms, oneDay, minSeat
   const timestamp = getOldestTs(terms)
   const seats = getBiggestSeats(terms)
 
-  const expired = timestamp < + new Date()
+  const expired = oneDay ? false : timestamp < + new Date()
   const noSeats = seats <= 0
   const disabled = expired || noSeats || !active
 
@@ -116,6 +116,10 @@ const Info = styled.div`
   background-color: ${p => p.theme.colorSecondaryTransparent};
   padding: ${path('theme.marginS')} ${path('theme.marginS')} ${path('theme.marginS')} 0;
   backdrop-filter: blur(3px);
+
+  border-top-left-radius: ${p => p.theme.radiusSmall};
+  border-top-right-radius: ${p => p.theme.radiusSmall};
+
   ${p => p.theme.mobile`
     flex-direction: column;
     width: 100%;

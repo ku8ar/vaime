@@ -54,13 +54,15 @@ export default () => {
 
   return (
     <Form values={values} errors={errors} setValues={setValues}>
+      <FirstRow>
+        <SmallCell><Input field='name' type='text' placeholder='Imię' filled /></SmallCell>
+        <SmallCell><Input field='surname' type='text' placeholder='Nazwisko' filled /></SmallCell>
+      </FirstRow>
       <Row>
-        <SmallCell><Input field='name' type='text' placeholder='Imię' /></SmallCell>
-        <SmallCell><Input field='surname' type='text' placeholder='Nazwisko' /></SmallCell>
+        <SmallCell><Input field='email' type='text' placeholder='Twój e-mail' filled /></SmallCell>
+        <SmallCell><Input field='title' type='text' placeholder='Temat' filled /></SmallCell>
       </Row>
-      <Input field='email' type='text' placeholder='Twój e-mail' />
-      <Input field='title' type='text' placeholder='Temat' />
-      <TextArea field='description' placeholder='Twoja wiadomość' />
+      <TextArea field='description' placeholder='Twoja wiadomość' filled />
       <Button type="submit" onClick={send} green={isSended} disabled={isSubmitting || isSended}>{isSended ? 'Wysłano' : 'Wyślij'}</Button>
     </Form>
   )
@@ -69,17 +71,20 @@ export default () => {
 const Row = styled.div`
   display: flex;
   flex-direction: row;
-  margin-bottom: .5rem;
   ${p => p.theme.mobile`
     flex-direction: column;
     margin-bottom: 0;
   `}
 `
 
+const FirstRow = styled(Row)`
+  margin-bottom: 1rem;
+`
+
 const SmallCell = styled.div`
   width: 50%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
   &:first-child { margin-left: 0; }
   &:last-child { margin-right: 0; }
   ${p => p.theme.mobile`

@@ -26,7 +26,7 @@ const TextAreaStyled = styled.textarea`
   resize: vertical;
 `
 
-export const Input = ({ field, icon, type, ...props }) => {
+export const Input = ({ field, icon, type, filled, ...props }) => {
   const [value, , setValue] = useField(field)
   const error = useError(field)
 
@@ -37,18 +37,18 @@ export const Input = ({ field, icon, type, ...props }) => {
   }
 
   return (
-    <Field icon={icon} error={error}>
+    <Field icon={icon} error={error} filled={filled}>
       <InputStyled type={type} {...props} value={value} onChange={onChange} />
     </Field>
   )
 }
 
-export const TextArea = ({ field, icon, ...props }) => {
+export const TextArea = ({ field, icon, filled, ...props }) => {
   const [value, onChange] = useField(field)
   const error = useError(field)
 
   return (
-    <Field icon={icon} error={error}>
+    <Field icon={icon} error={error} filled={filled}>
       <TextAreaStyled {...props} value={value} onChange={onChange} />
     </Field>
   )
