@@ -12,7 +12,7 @@ services:
   - title: Zakup biletów
     text: Zakup biletów pozostawiamy Wam, ale od momentu przylotu, aż do ostatniego dnia wycieczki będziecie w całości pod naszą opieką.
     icon: ticket
-  - title: Platność
+  - title: Płatność
     text: Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje przedpłata w wys. 30% całkowitej kwoty.
     icon: money
   - title: Wycieczki Indywidualne
