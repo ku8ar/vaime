@@ -34,7 +34,7 @@ export const TourTemplate = ({ description, informations, schedule, html, conten
     <TourPage>
       <HeroTour {...props} />
       <View>
-        <TourTopInfo description={description} informations={informations} slug={slug} />
+        <TourTopInfo description={description} informations={informations} thumb={props.thumb} slug={slug} />
         <Grid>
           <Column size={70}>
             <Section>

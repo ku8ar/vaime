@@ -2,14 +2,20 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 import Fb from '../../icons/buttons/fb'
 import Print from '../../icons/buttons/print'
-import { H2, H3 } from '../Base'
+import { H2, H6, boxStyle } from '../Base'
 import { siteUrl } from '../custom/JsonLd'
+import Image from '../Image'
 
 const windowGlobal = typeof window !== 'undefined' && window || {}
 
 const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u='
 
-export default ({ description, informations, slug }) => {
+export default ({ description, informations, thumb, slug }) => {
+
+  const thumbData = {
+    name: 'miniature',
+    image: thumb
+  }
 
   return (
     <Container>
@@ -20,16 +26,36 @@ export default ({ description, informations, slug }) => {
           <Button onClick={windowGlobal.print}><Print size={20} /></Button>
         </Buttons>
       </Wrapper>
-      {informations && <Info>{informations}</Info>}
+      {informations && (
+        <SubInfoWrapper>
+          <Thumb data={thumbData} />
+          <Info>{informations}</Info>
+        </SubInfoWrapper>
+      )}
     </Container>
   )
 }
 
-const Info = styled(H3)`
-  font-size: 1rem;
+const Thumb = styled(Image)`
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  ${p => p.theme.print` display: none; `}
+`
+
+const SubInfoWrapper = styled.div`
+  display: flex;
+  align-items: center;
   margin-top: 1rem;
+  ${p => p.theme.mobile` align-items: flex-start; `}
+  ${boxStyle}
+`
+
+const Info = styled(H6)`
   text-transform: none;
-  text-align: justify;
+  flex: 1;
+  margin: 0 1rem;
+  ${p => p.theme.print` margin: 0; `}
 `
 
 const Container = styled.div`
