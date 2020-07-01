@@ -28,9 +28,9 @@ qa:
   - answer: >
       Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to
       wszystko było bardzo dawno temu. W Gruzji teraz jest bardzo bezpiecznie i
-      jest to kraj bardzo turystyczny. Statystyki pokazują, że w roku 2017
-      Gruzję odwiedziło 7 mln. osób, czyli przyjechało dwa razy więcej ludzi,
-      niż mieszka w Gruzji.
+      jest to kraj bardzo turystyczny. Statystyki pokazują, że od roku 2017
+      Gruzję odwiedza 7-9 mln. osób rocznie, czyli dwa razy więcej ludzi, niż
+      mieszka w Gruzji! 
     question: Czy w Gruzji jest bezpiecznie?
   - answer: >
       Sezon turystyczny w Gruzji zaczyna się na początku kwietnia i trwa do
@@ -45,7 +45,7 @@ qa:
   - answer: >
       Weź wygodnie ubrania, zapomnij o wszystkich bzdurnych blogach, które
       mówią, że masz zakrywać ramiona czy kolana, ubierz tak, jak będzie Ci
-      wygodnie. Tylko pamiętaj, że często będziemy w górach, więc jakieś ciepłe
+      wygodnie. Tylko pamiętaj, że będziemy też w górach, więc jakieś ciepłe
       ubrania też się przydadzą, a do tego wygodne buty. Na wszelki wypadek miej
       przy sobie płaszcz przeciwdeszczowy. Paniom warto mieć przy sobie chustę
       do nakrycia główy, aby wejść do gruzińskich cerkwi. Najczęściej przy
@@ -79,22 +79,23 @@ qa:
   - answer: >
       Od 5 lat obywatele krajów strefy Schengen mogą wjeżdżać do Gruzji mając
       przy sobie jedynie dowód osobisty, ważny przez co najmniej 3 mies. od daty
-      przekroczenia granicy gruzińskiej. Pamiętak, że w przypadku, gdy
+      przekroczenia granicy gruzińskiej. Pamiętaj, że w przypadku, gdy
       zapisujesz się na wycieczkę zawierającą zwiedzanie Armenii lub
       Azerbejdżanu, przylecieć trzeba na paszport, gdyż polskie dowody osobiste
       akceptuje tylko Gruzja, ale nie inne kaukaskie kraje. 
     question: "Jakie dokumenty są wymagane przy przekroczeniu granicy? "
   - answer: >
-      - Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi
+      Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi
       z: Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku już z
       Krakowa i Poznania. Wizzair lata również z Berlina do Kutaisi. 
 
-      - Polskie Linie Lotnicze LOT - w sezonie letnim LOT lata z Warszawy do Tbilisi prawie codziennie! 
+      Polskie Linie Lotnicze LOT - w sezonie letnim LOT lata z Warszawy do Tbilisi prawie codziennie! 
 
-      - Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
+      Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
     question: Gdzie znaleźć tanie połączenia do Gruzji?
 carousel: null
 contact: false
 showFlights: true
 ---
+
 ### **Ważne informacje**
