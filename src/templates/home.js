@@ -31,7 +31,8 @@ const isTourInSameYear = pipe(
 
 const sortTours = pipe(
   filter(isTourInSameYear),
-  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp']))
+  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp'])),
+  reverse
 )
 
 const filterMultiDayTours = filter(

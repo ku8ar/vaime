@@ -90,7 +90,7 @@ export const Button = styled.button`
   ${buttonStyle}
   border: 2px solid ${p => p.green ? p.theme.colorGreen : p.theme.colorPrimary};
   &:disabled {
-    border: 2px solid ${p => p.theme.colorSecondaryTransparent};
+    border: 2px solid transparent;
     backdrop-filter: blur(3px);
   }
   transition: transform 150ms ease;
