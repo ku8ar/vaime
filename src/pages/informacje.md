@@ -117,4 +117,4 @@ carousel: null
 contact: false
 showFlights: true
 ---
-### **Nasza działalność**
+### **Jak działamy**
