@@ -21,7 +21,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
               <LogoIcon src={logo} alt={companyName} />
             </LogoWrapper>
             {navigation.map(nav => (
-              <NavItem active={path === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
+              <NavItem data-active={path === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
             ))}
           </Nav>
         <SocialListContainer phone={phone} socialLinks={socialLinks} />
@@ -98,8 +98,8 @@ const NavItem = styled(Link)`
   text-transform: uppercase;
   margin-left: 1rem;
   line-height: 2.75;
-  border-top: ${p => p.active ? '1px solid white' : 'none'};
-  border-bottom: ${p => p.active ? '1px solid white' : 'none'};
+  border-top: ${p => p['data-active'] ? '1px solid white' : 'none'};
+  border-bottom: ${p => p['data-active'] ? '1px solid white' : 'none'};
   &:hover {
     border-top: 1px solid white;
     border-bottom: 1px solid white;

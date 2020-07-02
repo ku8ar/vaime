@@ -1,7 +1,6 @@
 import React from 'react'
 import Seo from './custom/Seo'
 import useGlobal from '../utils/useGlobal'
-import '../styles/normalize.css'
 
 const Layout = ({ children, title = '', description = '', seoImage, slug }) => {
   const data = useGlobal()

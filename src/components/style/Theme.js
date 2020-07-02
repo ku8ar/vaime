@@ -2,6 +2,7 @@ import React, { memo } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import GlobalStyle from './GlobalStyle'
 import media from '../../utils/media'
+import '../../styles/normalize.css'
 
 export const colorPrimary = '#DE261D' // 221, 51, 51
 export const colorGreen = '#2DB324'
