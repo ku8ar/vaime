@@ -65,13 +65,14 @@ const Main = styled.main`
 
 export const Content = styled.div`
   flex: 1;
-  min-height: 50vh;
+  min-height: 100vh;
 `
 
 const PlaceholderWrapper = styled.div`
   position: absolute;
-  margin-top: 6rem;
-  margin-left: calc(50% - 8rem);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -1;
   border: 3px solid ${colorPrimary};
   border-radius: 50%;
@@ -82,7 +83,7 @@ const PlaceholderWrapper = styled.div`
 
 export const Placeholder = memo(() => (
   <PlaceholderWrapper>
-    <Logo size='15rem' fill={'#fff'} />
+    <Logo size='5rem' fill={'#fff'} />
   </PlaceholderWrapper>
 ))
 
