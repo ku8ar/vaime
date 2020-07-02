@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, memo } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import logo from '../../img/logo.svg'
@@ -10,6 +10,7 @@ import MobileNavigation from './MobileNavigation'
 export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
+  const path = (slug || '').slice(0, -1) // remove slash
 
   return (
     <>
@@ -20,25 +21,33 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
               <LogoIcon src={logo} alt={companyName} />
             </LogoWrapper>
             {navigation.map(nav => (
-              <NavItem key={nav.to} {...nav}>{nav.title}</NavItem>
+              <NavItem active={path === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
             ))}
           </Nav>
-          <NavSocialList>
-            <PhoneNo href={`tel: ${phone}`} title="telefon"><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
-            {socialLinks.map(soc => <SocialLink key={soc.type} {...soc} />)}
-          </NavSocialList>
+        <SocialListContainer phone={phone} socialLinks={socialLinks} />
         </LayoutNavigationDesktop>
-        <LayoutNavigationMobile>
-          <LogoWrapper to="/" title="Logo">
-            <LogoIcon src={logo} alt={companyName} />
-          </LogoWrapper>
-          <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
-        </LayoutNavigationMobile>
+        <LayoutNavigationMobileContainer companyName={companyName} phone={phone} />
       </Header>
       <MobileNavigation navigation={navigation} slug={slug} />
     </>
   )
 }
+
+const SocialListContainer = memo(({phone, socialLinks}) => (
+  <NavSocialList>
+    <PhoneNo href={`tel: ${phone}`} title="telefon"><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
+    {socialLinks.map(soc => <SocialLink key={soc.type} {...soc} />)}
+  </NavSocialList>
+))
+
+const LayoutNavigationMobileContainer = memo(({ companyName, phone }) => (
+  <LayoutNavigationMobile>
+    <LogoWrapper to="/" title="Logo">
+      <LogoIcon src={logo} alt={companyName} />
+    </LogoWrapper>
+    <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
+  </LayoutNavigationMobile>
+))
 
 const PhoneImg = styled.img`
   width: 1.25rem;
@@ -89,6 +98,8 @@ const NavItem = styled(Link)`
   text-transform: uppercase;
   margin-left: 1rem;
   line-height: 2.75;
+  border-top: ${p => p.active ? '1px solid white' : 'none'};
+  border-bottom: ${p => p.active ? '1px solid white' : 'none'};
   &:hover {
     border-top: 1px solid white;
     border-bottom: 1px solid white;

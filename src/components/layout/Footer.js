@@ -1,33 +1,37 @@
-import React from 'react'
+import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import SocialLink from './SocialLink'
 import logo from '../../img/logo.svg'
 import { View, H6 } from '../Base'
 
-export default ({ phoneNumbers, socialLinks, email, companyName }) => (
-  <Footer>
-    <View>
-      <FooterRow>
-        <FooterList>
-          <FooterLogo src={logo} alt="Vaime Travel" />
-          {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
-          <FooterLink href={`mailto: ${email}`} title='email'>{email}</FooterLink>
-        </FooterList>
-        <MiddleFooterList>
-          <FooterNav to='/polityka' title='Polityka Prywatności'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
-        </MiddleFooterList>
-        <LastFooterList>
-          <Title color="colorWhite">Gruziński Po Polsku</Title>
-          <Row>{socialLinks.map(social => <SocialLink key={social.type} {...social} />)}</Row>
-        </LastFooterList>
-      </FooterRow>
-      <FooterRow>
-        <FooterCopyright>© Copyright 2017 {companyName}. All Rights Reserved</FooterCopyright>
-      </FooterRow>
-    </View>
-  </Footer>
-)
+export default memo(({ data }) => {
+  const { phoneNumbers, socialLinks, email, companyName } = data
+
+  return (
+    <Footer>
+      <View>
+        <FooterRow>
+          <FooterList>
+            <FooterLogo src={logo} alt="Vaime Travel" />
+            {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
+            <FooterLink href={`mailto: ${email}`} title='email'>{email}</FooterLink>
+          </FooterList>
+          <MiddleFooterList>
+            <FooterNav to='/polityka' title='Polityka Prywatności'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
+          </MiddleFooterList>
+          <LastFooterList>
+            <Title color="colorWhite">Gruziński Po Polsku</Title>
+            <Row>{socialLinks.map(social => <SocialLink key={social.type} {...social} />)}</Row>
+          </LastFooterList>
+        </FooterRow>
+        <FooterRow>
+          <FooterCopyright>© Copyright 2017 {companyName}. All Rights Reserved</FooterCopyright>
+        </FooterRow>
+      </View>
+    </Footer>
+  )
+})
 
 const Footer = styled.footer`
   min-height: 4rem;

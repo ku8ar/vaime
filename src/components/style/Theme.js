@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import GlobalStyle from './GlobalStyle'
 import media from '../../utils/media'
@@ -41,10 +41,12 @@ const theme = {
   ...media
 }
 
+const GlobalStyleMemo = memo(GlobalStyle)
+
 const Theme = ({ children }) => (
   <ThemeProvider theme={theme}>
     <Main>
-      <GlobalStyle />
+      <GlobalStyleMemo />
       {children}
     </Main>
   </ThemeProvider>
