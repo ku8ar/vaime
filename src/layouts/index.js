@@ -5,8 +5,10 @@ import StructuredData from '../components/custom/StructuredData'
 import Header from '../components/layout/Header'
 import useGlobal from '../utils/useGlobal'
 
-const Layout = ({ children, path }) => {
+const Layout = ({ children, path, ...props }) => {
   const data = useGlobal()
+
+  console.log('render !', path, props, children)
 
   return (
     <Theme>
