@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { memo } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import GlobalStyle from './GlobalStyle'
 import media from '../../utils/media'
+import Logo from '../../icons/base/logo'
+import '../../styles/normalize.css'
 
 export const colorPrimary = '#DE261D' // 221, 51, 51
 export const colorGreen = '#2DB324'
+const colorGreyDark = '#E3E3E3'
 
 const theme = {
   // colors
@@ -12,7 +15,7 @@ const theme = {
   colorSecondary: '#1B222C', // 27, 34, 44
   colorWhite: '#fff',
   colorGrey: '#FAF9F9',
-  colorGreyDark: '#E3E3E3',
+  colorGreyDark: colorGreyDark,
   colorGreyLight: 'rgba(255,255,255,0.8)',
   colorSecondaryTransparent: 'rgba(27, 34, 44, 0.4)',
   colorGreyNew: '#F2F3F4',
@@ -41,10 +44,12 @@ const theme = {
   ...media
 }
 
+const GlobalStyleMemo = memo(GlobalStyle)
+
 const Theme = ({ children }) => (
   <ThemeProvider theme={theme}>
     <Main>
-      <GlobalStyle />
+      <GlobalStyleMemo />
       {children}
     </Main>
   </ThemeProvider>
@@ -57,5 +62,29 @@ const Main = styled.main`
   display: flex;
   flex-direction: column;
 `
+
+export const Content = styled.div`
+  flex: 1;
+  min-height: 100vh;
+`
+
+const PlaceholderWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border: 3px solid ${colorPrimary};
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  background-color: ${colorPrimary};
+`
+
+export const Placeholder = memo(() => (
+  <PlaceholderWrapper>
+    <Logo size='5rem' fill={'#fff'} />
+  </PlaceholderWrapper>
+))
 
 export default Theme

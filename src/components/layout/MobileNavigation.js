@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { colorPrimary } from '../../components/style/Theme'
@@ -13,15 +13,17 @@ export default ({ menu, navigation, slug }) => {
           <Icon icon={'home'} fill={path === '' ? colorPrimary : 'white'} />
           Vaime
         </NavItem>
-        {navigation.map(nav => (
-          <NavItem key={nav.to} {...nav}>
-            <Icon icon={nav.icon} fill={path === nav.to ? colorPrimary : 'white'} />
-            {nav.title}
-          </NavItem>
-        ))}
+        {navigation.map(nav => <Item key={nav.to} nav={nav} active={path === nav.to} />)}
     </Wrapper>
-)
+  )
 }
+
+const Item = memo(({nav, active }) => (
+  <NavItem {...nav}>
+    <Icon icon={nav.icon} fill={active ? colorPrimary : 'white'} />
+    {nav.title}
+  </NavItem>
+))
 
 const Wrapper = styled.div`
   position: fixed;

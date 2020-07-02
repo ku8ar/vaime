@@ -15,6 +15,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-layout',
     'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-plugin-styled-components`,
