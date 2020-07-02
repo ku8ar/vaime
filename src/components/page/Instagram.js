@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import useInstagram from '../../hooks/instagram'
-import instagram from '../../img/instagram.svg'
-import { H5 } from '../Base'
+import Icon from '../../icons/info'
+import { P } from '../Base'
 
 const SectionWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
   margin-left: 2rem;
   ${p => p.theme.mobile`
     margin-left: 0;
@@ -29,12 +28,8 @@ const TitleWrapper = styled.div`
   align-items: center;
 `
 
-const Insta = styled.img`
-  height: 2rem;
-  margin-right: 0.5rem;
-`
-
-const Title = styled(H5)`
+const Title = styled(P)`
+  margin-left: .5rem;
   margin-bottom: 0;
 `
 
@@ -54,7 +49,7 @@ const Anchor = styled.a`
 export default () => (
   <SectionWrapper>
     <TitleWrapper>
-      <Insta src={instagram} alt={'instagram'} />
+      <Icon icon='instagram' />
       <Title>vaimetravel</Title>
     </TitleWrapper>
     <Wrapper>

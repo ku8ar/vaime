@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import useGlobal from '../../utils/useGlobal'
-import { H5, P } from '../Base'
+import Icon from '../../icons/info'
 
 export default () => {
   const data = useGlobal()
@@ -12,32 +12,42 @@ export default () => {
   return (
     <Wrapper>
       <Section>
-        <Title>Skontaktuj się z nami</Title>
-        <Subtitle>Adres e-mail:</Subtitle>
+        <Icon icon='mail' />
         <Anchor href={`mailto: ${email}`}>{email}</Anchor>
-        <Subtitle>Numer telefonu:</Subtitle>
-        {phones.map(phone => <Anchor key={phone} href={`tel: ${phone}`}>{phone}</Anchor>)}
+      </Section>
+      <Section>
+        <Icon icon='smartphone' />
+        <PhoneNumbers>
+          {phones.map(phone => <Anchor key={phone} href={`tel: ${phone}`}>{phone}</Anchor>)}
+        </PhoneNumbers>
       </Section>
     </Wrapper>
   )
 }
 
-const Section = styled.div`
+const PhoneNumbers = styled.div`
   display: flex;
   flex-direction: column;
 `
 
-const Title = styled(H5)``
-
-const Subtitle = styled(P)``
-
-const Anchor = styled.a`
-  margin-bottom: .75rem;
+const Section = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
 `
 
 const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   margin-left: 2rem;
-  ${p => p.theme.mobile`
-    margin: 0;
-  `}
+  margin-top: .5rem;
+  ${p => p.theme.mobile` margin: 0; `}
+`
+
+const Anchor = styled.a`
+  margin-left: .5rem;
+  color: black;
 `
