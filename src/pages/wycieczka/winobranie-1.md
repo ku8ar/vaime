@@ -2,8 +2,8 @@
 templateKey: tour
 active: true
 minSeats: 1
-title: Winobranie 2021
-description: Święto winobrania w krainie wina
+title: Święto winobrania
+description: Zapraszamy na rtweli, czyli winobranie w Kacheti, krainie wina
 terms:
   - price: 525
     seats: 15
@@ -48,7 +48,7 @@ schedule:
       i czaczy (bimber gruziński) połączona z obiadokolacją. Nocleg w Telawi.
   - day: "4"
     place: 11.09 - Kacheti
-    text: "Śniadanie. Czas na winobranie! Winobranie, inaczej rtveli, jest
+    text: "Śniadanie. Czas na winobranie! Winobranie, inaczej rtweli, jest
       zdecydowanie najważniejszym wydarzeniem w Gruzji i, szczególnie, w
       Kacheti. My będziemy mieć okazję brać udział w tym święcie zbiorów
       winogron. Czeka na nas zbieranie winogron oraz nauka całego procesu
@@ -126,8 +126,8 @@ priceNotContains:
 * Trasa wycieczki: ok. 1400 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: dowód osobisty lub paszport
-* Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30°C
+* Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +27°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu 
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy w winnicy (zbieranie winogron)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienią florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
