@@ -103,8 +103,6 @@ priceContains:
     text: Usługi polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy klimatyzowany minibus
-  - icon: healthcare
-    text: Ubezpieczenie turystyczne
 priceNotContains:
   - icon: ticket
     text: Biletu lotniczego
