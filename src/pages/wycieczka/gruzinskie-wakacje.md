@@ -43,8 +43,8 @@ schedule:
     place: "07.07 - Tbilisi – Kutaisi "
     text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
       miasta wraz z najważniejszymi atrakcjami: katedry Bagrati (X w.). i
-      średniowiecznej akademii Gelati (XII w.), udamy się również na zwiedzanie
-      malowniczej jaskini Prometeusza. Obiadokolacja i nocleg w Kutaisi."
+      średniowiecznej akademii Gelati (XII w.. Obiadokolacja i nocleg w
+      Kutaisi."
   - day: "4"
     place: "08.07 - Kutaisi – Martwili – Mestia "
     text: Śniadanie. Udajemy się na zwiedzanie przepięknego kanionu Martwili, gdzie
