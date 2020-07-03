@@ -41,10 +41,13 @@ schedule:
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi. 
   - day: "3"
     place: "07.07 - Tbilisi – Kutaisi "
-    text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Zwiedzanie
-      miasta wraz z najważniejszymi atrakcjami: katedry Bagrati (X w.). i
-      średniowiecznej akademii Gelati (XII w.. Obiadokolacja i nocleg w
-      Kutaisi."
+    text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Udajemy się na
+      zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy akademię
+      Gelati, gdzie jeszcze w XI-XII wieku tłumaczyli największe dzieła
+      filozofii greckiej, główną cerkiew pw. Matki Boskiej, która słynna jest z
+      przepięknych kolorowych fresków, a na koniec odwiedzimy grób Dawida
+      Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
+      katedrę Bagrati (XI w.). Obiadokolacja, nocleg. "
   - day: "4"
     place: "08.07 - Kutaisi – Martwili – Mestia "
     text: Śniadanie. Udajemy się na zwiedzanie przepięknego kanionu Martwili, gdzie
