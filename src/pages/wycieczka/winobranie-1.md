@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 minSeats: 1
-title: Winobranie
+title: Winobranie 2021
 description: Święto winobrania w krainie wina
 terms:
   - price: 525
