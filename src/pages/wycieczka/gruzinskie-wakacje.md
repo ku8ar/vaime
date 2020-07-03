@@ -14,7 +14,7 @@ thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
     name: Kazbegi
-map: /img/majówka_gruz.wakacje_winobranie-5-.png
+map: /img/gruzinskie-wakacje-2021.png
 schedule:
   - day: "1"
     place: 05.07 - Tbilisi
