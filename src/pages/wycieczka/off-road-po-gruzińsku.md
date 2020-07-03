@@ -11,7 +11,7 @@ terms:
     daysCount: 10 DNI/9 NOCY
     seats: 15
     price: 550
-thumb: /img/img_20180718_135553.jpg
+thumb: /img/img_20180718_153050.jpg
 images:
   - image: /img/img_20180709_182231.jpg
     name: Ghebi
