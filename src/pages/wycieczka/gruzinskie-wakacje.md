@@ -8,7 +8,7 @@ terms:
   - price: 530
     seats: 15
     daysCount: 8 DNI/9 NOCY
-    startDate: 2021-07-06T20:00:00.000Z
+    startDate: 2021-07-04T20:00:00.000Z
     endDate: 2021-07-12T20:00:00.000Z
 thumb: /img/georgia-4514141.jpg
 images:
