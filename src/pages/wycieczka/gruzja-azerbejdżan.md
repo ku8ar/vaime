@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Gruzja-Azerbejdżan
+title: KRAJE WINA I OGNIA - Gruzja I Azerbejdżan
 description: Gruzja i Azerbejdżan - dwa kraje obok siebie, ale bardzo różne.
   zapraszamy na poznanie ich różnic i podobieństw
 terms:
@@ -12,9 +12,9 @@ terms:
     daysCount: 10 DNI/11 NOCY
     seats: 15
     price: 650
-thumb: /img/p1020264.jpg
+thumb: /img/p1020318.jpg
 images:
-  - image: /img/20180504_113510.jpg
+  - image: /img/p1020332.jpg
     name: Signagi
 map: /img/majówka_gruz.wakacje_winobranie-1-.png
 schedule:
