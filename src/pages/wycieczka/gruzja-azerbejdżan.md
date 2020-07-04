@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: KRAJE WINA I OGNIA - Gruzja I Azerbejdżan
+title: Gruzja I Azerbejdżan
 description: Gruzja i Azerbejdżan - dwa kraje obok siebie, ale bardzo różne.
   zapraszamy na poznanie ich różnic i podobieństw
 terms:
