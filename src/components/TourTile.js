@@ -4,7 +4,7 @@ import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
 import Image from './Image'
 import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
-import { H4, H6, buttonStyle } from './Base'
+import { H4, H6, P, buttonStyle } from './Base'
 import Heart from './home/Heart'
 
 const getOldestTs = pipe(
@@ -49,7 +49,7 @@ const getYear = pipe(
 export default ({ slug, tour }) => {
   if (!tour) return null
 
-  const { title, thumb, active, terms, oneDay } = tour
+  const { title, thumb, active, discount, discountTitle, terms, oneDay } = tour
 
   if (!terms) {
     return null
@@ -98,10 +98,11 @@ const Price = styled(H6)`
 `
 
 const LinkWrapper = styled(Link)`
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 22rem;
-  height: 22rem;
+  width: 20rem;
+  height: 20rem;
   box-shadow: 0 2px 4px 0 rgba(23,27,30,.1);
   border-radius: ${props => props.theme.radiusSmall};
   margin: 2rem 1rem 1rem 2rem;
