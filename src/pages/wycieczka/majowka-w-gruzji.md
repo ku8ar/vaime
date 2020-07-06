@@ -32,20 +32,19 @@ schedule:
       Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
       katedrę Bagrati (XI w.). Powitalna obiadokolacja i nocleg w Kutaisi.
   - day: "2"
-    place: 29.04 - Kutaisi - Gori - Mccheta - Tbilisi
+    place: 29.04 - Kutaisi - Mccheta - Tbilisi
     text: >
-      Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie starej
-      stolicy Mcchety. Miasto to jest kolebką chrześcijaństwa w Gruzji, właśnie
-      tu w IV wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
-      najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
-      w.) i monastyr Dżwari (VI w.). Dojazd do Tbilisi, zakwaterowanie, chwila
-      na odpoczynek i wyruszamy na zwiedzanie stolicy: starego miasta oraz
-      najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
-      kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
-      natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
-      (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi, najważniejsze
-      świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi
-      – Anczischati (VII w.). obiadokolacja, nocleg.
+      Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie jednego z
+      najważniejszych obiektów sakralnych z listy UNESCO – monastyr Dżwari (VI
+      w.), który znajduje się przy starej stolicy Gruzji, Mcchecie i
+      reprezentuje wczesny przyklad architektury sakralnej. Dojazd do Tbilisi,
+      zakwaterowanie, chwila na odpoczynek i wyruszamy na zwiedzanie stolicy:
+      starego miasta oraz najważniejszych zabytków stolicy – twierdzy Narikala,
+      na którą wjedziemy kolejką linową, co pozwoli nam na podziwianie panoramy
+      miasta, z twierdzy natomiast otwiera się przepiękny widok na całą stolicę;
+      Abanotubani (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi,
+      najważniejsze świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza
+      cerkiew Tbilisi – Anczischati (VII w.). obiadokolacja, nocleg.
   - day: "3"
     place: 30.04 - Tbilisi - Kazbegi - Tbilisi
     text: >+
@@ -96,7 +95,7 @@ schedule:
       przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
       dojazd. Pożegnalna biadokolacja i nocleg w Kutaisi.
   - day: "8"
-    place: 04.05 - Transfer na lotnisko
+    place: 05.05 - Transfer na lotnisko
     text: Śniadanie, przejazd na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
