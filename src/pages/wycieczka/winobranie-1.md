@@ -4,6 +4,7 @@ active: true
 minSeats: 1
 title: Święto winobrania
 description: Zapraszamy na rtweli, czyli winobranie w Kacheti, krainie wina
+discount: 10
 terms:
   - price: 525
     seats: 15
@@ -12,7 +13,7 @@ terms:
     endDate: 2021-09-15T14:24:50.688Z
 thumb: /img/mevenaxe.jpg
 images:
-  - image: /img/country-lane-428039.jpg
+  - image: /img/field-1835938_1920.jpg
     name: kacheti
 map: /img/majówka_gruz.wakacje_winobranie-6-.png
 schedule:
