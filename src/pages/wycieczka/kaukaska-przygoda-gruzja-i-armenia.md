@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Kaukaska Przygoda - Gruzja i Armenia
+title: Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
 discount: 10
 terms:
