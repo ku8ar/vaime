@@ -67,17 +67,18 @@ schedule:
 
       Dzień zakończymy degustacją prawdziwego ormiańskiego koniaku oraz obiadokolacją. Nocleg w Erywaniu.
   - day: "5"
-    place: Erywań - przełęcz Selim - Tatew - Goris
-    text: 09.10 - Śniadanie, wyjazd z Erywania w kierunku prowincji Sjunik. Po
-      drodze przejeżdżamy przełęcz Selim (2410 m), gdzie zatrzymamy się, aby
-      zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących
-      wzdłuż Jedwabnego Szlaku kupcó i handlarzy. Po krótkiej przerwie
-      kontunuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na
-      miejsce, dostaniemy się do klasztoru zapomocą kolejki linowej, zwanej
-      "Skrzydła Tatewa", która jest najdłuższą kolejką świata! Podróż kolejką
-      potrwa ok. 20 minut. Klasztor Tatev to jeden z najbardziej majestatycznych
-      zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu
-      przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
+    place: Erywań - Eczmiadzyn - przełęcz Selim - Tatew - Goris
+    text: >-
+      09.10 - Śniadanie, udajemy się do miasta Wagharszapat (Eczmiadzyn).
+      Eczmiadzyn znany jest jako centrum religijne Armenii, właśnie tu została
+      zbudowana pierwsza chrześcijańska katedra na świecie – kościół o tej samej
+      nazwie. Według źródeł historycznych, budowanie kościoła zakończyło się w
+      303 r. i mimo licznych zniszczeń, katedra pozostała zachowana w niemal
+      oryginalnym stani, wpisana jest na listę UNESCO. W miasteczku Wagharszapat
+      odwiedzimy również rruiny katedry Zwartnoc (VII w.), wpisanej na listę
+      światowego dziedzictwa kulturowego UNESCO. 
+
+      Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupcó i handlarzy. Po krótkiej przerwie kontunuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru zapomocą kolejki linowej, zwanej "Skrzydła Tatewa", która jest najdłuższą kolejką świata! Podróż kolejką potrwa ok. 20 minut. Klasztor Tatev to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
     place: Goris - Geghard - Garni - Erywań
     text: "10.10 - Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania
