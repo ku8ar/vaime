@@ -15,8 +15,8 @@ terms:
 thumb: /img/armenia-3716853-1-.jpg
 images:
   - image: /img/cathedral-1781012-1-.jpg
-    name: Chor Virap
-map: /img/kaukasi-duet-4-.png
+    name: ZVARTNOC
+map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"
     place: Tbilisi
