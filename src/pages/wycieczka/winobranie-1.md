@@ -13,7 +13,7 @@ terms:
     endDate: 2021-09-15T14:24:50.688Z
 thumb: /img/mevenaxe.jpg
 images:
-  - image: /img/field-1835938_1920.jpg
+  - image: /img/venaxi.jpg
     name: kacheti
 map: /img/majówka_gruz.wakacje_winobranie-6-.png
 schedule:
