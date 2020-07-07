@@ -6,6 +6,7 @@ minSeats: 1
 title: Gruzja I Azerbejdżan
 description: Gruzja i Azerbejdżan - dwa kraje obok siebie, ale bardzo różne.
   zapraszamy na poznanie ich różnic i podobieństw
+discount: 15
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
     endDate: 2021-09-26T20:45:50.302Z
@@ -14,7 +15,7 @@ terms:
     price: 650
 thumb: /img/p1020264.jpg
 images:
-  - image: /img/p1020327.jpg
+  - image: /img/p1020327-1-.jpg
     name: Signagi
 map: /img/majówka_gruz.wakacje_winobranie-1-.png
 schedule:
