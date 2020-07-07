@@ -18,7 +18,7 @@ thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
     name: Signagi
-map: /img/majówka_gruz.wakacje_winobranie-1-.png
+map: /img/kaukasi-duet.png
 schedule:
   - day: "1"
     place: Kutaisi - Tbilisi
