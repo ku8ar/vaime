@@ -6,7 +6,7 @@ minSeats: 1
 title: Gruzja I Azerbejdżan
 description: Gruzja i Azerbejdżan - super kraje
 discount: 15
-discountTitle: "10"
+discountTitle: "0"
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
     endDate: 2021-09-26T20:45:50.302Z
@@ -17,7 +17,7 @@ thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
     name: Baku
-map: /img/kaukasi-duet.png
+map: /img/kaukasi-duet-7-.png
 schedule:
   - day: "1"
     place: Kutaisi - Tbilisi
@@ -62,43 +62,46 @@ schedule:
     place: "Baku - Apszeroński półwysep - Gobustan - Baku "
     text: >
       21.09 - Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej
-      góry Janar Dag, znajdują się tu naturalne, płonące od wieków ognie, w
-      miejscach wyjścia gazu ziemnego na powierzchnię ziemi. Dalej zwiedzanie
-      świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom ognia”. Teren na
-      którym znajduje się świątynia, przez wiele wieków było znane, jako miejsce
-      wyjścia na powierzchnię ziemi gazu ziemnego, gdzie płonęły „wieczne
-      ognie”. Na tym miejscu we wczesnym średniowieczu znajdowała się
-      zoroastriańska świątynia ognia.
+      góry Janar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
+      zwiedzanie świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom ognia”,
+      teren na którym znajduje się świątynia, przez wiele wieków było znane,
+      jako miejsce wydobycia się na powierzchnię ziemi gazu ziemnego, gdzie
+      płonęły „wieczne ognie”. Na tym miejscu we wczesnym średniowieczu
+      znajdowała się zoroastriańska świątynia ognia.
 
-      Po lunchu jedziemy do Narodowego Parku Gobustan, gdzie zwiedzimy miejsce, znane pod nazwą Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
+      Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane pod nazwą Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
     place: Baku - wioska Chinalug - Baku
     text: >+
       22.09 - Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy
-      kraju. Przejeżdżając przez wioskę Red Village, dojeżdżamy do zabytkowej
-      wioski Hinalug, która znajduje się na wys. 2000 m. Jest to jedna z
-      najstarszych osad w kraju, gdzie ludzie żyją już od 5000 lat. Po drodze
-      towarzyszyć będa nam niesamowite widoki górskie. Powrót do Baku, po drodze
-      postój przy masowej mogile w Quba. Powrót do Baku, obiadokolacja, nocleg w
-      Baku. 
+      kraju. Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś),
+      dojeżdżamy do zabytkowej wioski Hinalug, która znajduje się na wys. 2000
+      m. Jest to jedna z najstarszych osad w kraju, gdzie ludzie żyją już od
+      5000 lat. Po drodze towarzyszyć będa nam niesamowite widoki górskie.
+      Powrót do Baku, po drodze postój przy zbiorowej mogile ofiar
+      bolszewickiego ludobójstwa, znanego jako "Marcowe Dni" (1918 r.) w
+      miejscowości Quba. Powrót do Baku, obiadokolacja, nocleg w Baku. 
 
   - day: "7"
     place: "Baku - Maraza - Szamachi - Szeki "
     text: >
-      23.09 - Śniadanie.  Wykwaterowanie z hotelu, wyjazd do miejscowości Sheki.
+      23.09 - Śniadanie.  Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki.
       Po drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd
-      na zwiedzanie historycznego Meczetu Juma w miejscowości Shamakhi.
+      na zwiedzanie historycznego Meczetu Juma w miejscowości Szamachi.
       Zwiedzanie mauzoleum Jeddi Gumbaz - miejsce pochowku szyrwańskich szachów.
-      Dojeżdżamy do Sheki, średniowieczne miasteczko, idealne na spacery,
-      szczególnie znane z przepysznej baklavy. Zwiedzanie albańskiego kościoła z
-      I w. Nocleg i obiadokolacja w Sheki. 
+      Dojeżdżamy do Szeki, uroczego średniowiecznego miasteczka, które idealnie
+      nadaje się na samodzielne odkrywanie lokalnej kultury; Szeki szczególnie
+      znane z przepysznej baklawy, więc dla miłośników tego wschodniego
+      przysmaku będzie to punk doskonały. Zwiedzanie albańskiego kościoła z I w.
+      Nocleg i obiadokolacja w Szeki. 
   - day: "8"
     place: Szeki - Lagodechi - Telawi
     text: >
-      24.09 - Śniadanie, od rana wizyta na lokalnym bazarze. Wyjazd malowniczą
-      drogą górską do granicy gruzińskiej, przekroczenie granicy w Lagodekhi,
-      zmiana transportu na gruziński bus, przejazd do Telawi, obiadokolacja,
-      nocleg.  
+      24.09 - Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość
+      zakupów lokalnych smakołyków. Powoli żegnamy się z Azerbajdżanem - wyjazd
+      malowniczą drogą górską do granicy gruzińskiej, przekroczenie granicy w
+      Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
+      do Telawi, obiadokolacja, nocleg.  
   - day: "9"
     place: Telawi - Alawerdi - Gremi - Tbilisi
     text: 25.09 - Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie
@@ -144,6 +147,8 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
+  - text: Bilet na pociąg relacji Tbilisi - Baku
+    icon: null
 priceNotContains:
   - text: Biletów lotniczych
     icon: plane
@@ -155,11 +160,11 @@ priceNotContains:
 * Trasa wycieczki: ok. 3000 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: paszport oraz e-visa (<https://evisa.gov.az/>)
-* Warunki pogodowe: w terenach górskich ok. +20°C, w terenach nizinnych ok. +30-35°C
+* Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30-35°C
 * Waluta:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Azerbejdżanie - AZN (azerskie manaty), 1 AZN = 2,33 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AZN z bankomatu
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 20 AZN w Azerbejdżanie)
