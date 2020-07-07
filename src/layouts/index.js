@@ -12,7 +12,6 @@ const Layout = ({ children, path, ...props }) => {
     <Theme>
       <StructuredData {...data} slug={path} />
       <Header {...data} slug={path} />
-      <Placeholder />
       <Content>
         {children}
       </Content>

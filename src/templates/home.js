@@ -59,12 +59,6 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
   const _multiDayToursMap = getMutliDayTourMap(_tours)
   const _oneDayTours = filterOneDayTours(_tours)
 
-  console.log(_multiDayToursMap)
-
-  console.log(
-
-  )
-
   return (
     <Page>
       <Hero images={images}>
