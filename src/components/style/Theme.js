@@ -6,20 +6,23 @@ import Logo from '../../icons/base/logo'
 import '../../styles/normalize.css'
 
 export const colorPrimary = '#DE261D' // 221, 51, 51
+export const colorSecondary = '#1B222C' // 27, 34, 44
 export const colorGreen = '#2DB324'
 const colorGreyDark = '#E3E3E3'
 
 const theme = {
   // colors
   colorPrimary,
-  colorSecondary: '#1B222C', // 27, 34, 44
+  colorSecondary,
   colorWhite: '#fff',
   colorGrey: '#FAF9F9',
-  colorGreyDark: colorGreyDark,
+  colorGreyDark,
   colorGreyLight: 'rgba(255,255,255,0.8)',
   colorSecondaryTransparent: 'rgba(27, 34, 44, 0.4)',
   colorGreyNew: '#F2F3F4',
   colorGreen,
+  colorYellow: '#F0E453',
+  colorOrange: '#F0A307',
   // margin
   marginM: '2rem',
   marginS: '1rem',

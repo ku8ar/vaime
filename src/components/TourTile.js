@@ -6,6 +6,8 @@ import Image from './Image'
 import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
 import { H4, H6, P, buttonStyle } from './Base'
 import Heart from './home/Heart'
+import Discount from './tour/Discount'
+import { getDiscountPrice } from '../utils/selectors'
 
 const getOldestTs = pipe(
   sort((a, b) => a.timestamp > b.timestmap),
@@ -49,7 +51,7 @@ const getYear = pipe(
 export default ({ slug, tour }) => {
   if (!tour) return null
 
-  const { title, thumb, active, discount, discountTitle, terms, oneDay } = tour
+  const { title, thumb, active, discount, terms, oneDay } = tour
 
   if (!terms) {
     return null
@@ -68,6 +70,9 @@ export default ({ slug, tour }) => {
   const noSeats = seats <= 0
   const disabled = expired || noSeats || !active
 
+  const hasDiscount = !disabled && !!discount
+  const discountPrice = getDiscountPrice(tour, price)
+
   return (
     <LinkWrapper to={slug} title={title}>
       <Top>
@@ -78,22 +83,35 @@ export default ({ slug, tour }) => {
           </TourDates>
           <TourButton>Więcej</TourButton>
           {disabled && <Outdated>WYPRZEDANE</Outdated>}
+          <Discount tour={tour} />
         </TourContent>
       </Top>
       <BottomLabel>
         <H6>{title}</H6>
         <TourColumn>
           <Heart slug={slug} />
-          <Price color='colorPrimary'>cena {price} EUR</Price>
+          <Price color='colorPrimary'>cena <RegularPrice hasDiscount={hasDiscount}>{price} EUR</RegularPrice></Price>
+          {hasDiscount && <DiscountPrice color='colorPrimary'>{discountPrice} EUR</DiscountPrice>}
         </TourColumn>
       </BottomLabel>
     </LinkWrapper>
   )
 }
 
+
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
 
 const Price = styled(H6)`
+  font-weight: ${p => p.theme.weightNormal};
+  margin: 0;
+`
+
+const RegularPrice = styled.span`
+  color: ${p => p.theme.colorPrimary};
+  text-decoration: ${p => p.hasDiscount ? 'line-through' : 'none'};
+`
+
+const DiscountPrice = styled(H6)`
   font-weight: ${p => p.theme.weightNormal};
 `
 

@@ -5,12 +5,14 @@ import Print from '../../icons/buttons/print'
 import { H2, H6, boxStyle } from '../Base'
 import { siteUrl } from '../custom/JsonLd'
 import Image from '../Image'
+import Discount from './Discount'
 
 const windowGlobal = typeof window !== 'undefined' && window || {}
 
 const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u='
 
-export default ({ description, informations, thumb, slug }) => {
+export default (tour) => {
+  const { description, informations, thumb, slug } = tour
 
   const thumbData = {
     name: 'miniature',
@@ -30,11 +32,18 @@ export default ({ description, informations, thumb, slug }) => {
         <SubInfoWrapper>
           <Thumb data={thumbData} />
           <Info>{informations}</Info>
+          <DiscountStyled tour={tour} />
         </SubInfoWrapper>
       )}
     </Container>
   )
 }
+
+const DiscountStyled = styled(Discount)`
+  position: relative;
+  right: auto;
+  top: auto;
+`
 
 const Thumb = styled(Image)`
   width: 4rem;
