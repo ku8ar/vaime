@@ -14,8 +14,8 @@ terms:
     price: 640
 thumb: /img/armenia-3716853-1-.jpg
 images:
-  - image: /img/cathedral-1781012-1-.jpg
-    name: ZVARTNOC
+  - image: /img/lake-sevan-2021712.jpg
+    name: sevan
 map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"
