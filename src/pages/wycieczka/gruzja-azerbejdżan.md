@@ -4,9 +4,10 @@ active: true
 oneDay: false
 minSeats: 1
 title: Gruzja I Azerbejdżan
-description: Gruzja i Azerbejdżan - dwa kraje obok siebie, ale bardzo różne.
-  zapraszamy na poznanie ich różnic i podobieństw
+description: Gruzja i Azerbejdżan - kraje podobne, ale jednocześnie bardzo
+  różne. zapraszamy na poznanie ich różnic i podobieństw
 discount: 15
+discountTitle: "10"
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
     endDate: 2021-09-26T20:45:50.302Z
@@ -23,46 +24,143 @@ schedule:
     place: Kutaisi - Tbilisi
     text: 17.09 - Przylot, transfer do Tbilisi, obiadokolacja, nocleg.
   - day: "2"
-    place: Tbilisi
-    text: 18.09 - Tbilisi, Mccheta. Kolacja.
+    place: Tbilisi - Kazbegi - Tbilisi
+    text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
+      Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
+      każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
+      zwiedzanie malowniczej twierdzy Ananuri, która znajduje się nad jeziorem
+      Żinwali oraz przerwa na zdjęcia przy zabytkowym punkcie widokowym w
+      ośrodku narciarskim Gudauri. Dojazd do miejscowości Kazbegi, wjazd
+      samochodami terenowymi na kościół św. Trójcy Gergeti, który jest wizytówką
+      regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
+      można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
+      powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: 19.09 - Tbilisi - Kazbegi - Tbilisi
-    text: Gruzińska Wojenna Droga. transfer na dworzec kolejowy, przejazd nocnym
-      pociągiem do Baku
+    place: 19.09 - Tbilisi - Mccheta - Tbilisi
+    text: >-
+      18.09 - Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
+      najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
+      kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
+      natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
+      (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi, najważniejsze
+      świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi
+      – Anczischati (VII w.). Dalej przejeżdżamy na zwiedzanie religijnego
+      centrum Gruzji, starej stolicy Mcchety. Miasto to jest kolebką
+      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
+      jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
+      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.). Powrót
+      do Tbilisi, obiadokolacja. 
+
+      Wykwaterowanie z hotelu i dojazd na dworzec kolejowy, przejazd nocnym pociągiem relacji Tbilisi - Baku. 
   - day: "4"
     place: Baku
-    text: 20.09 - Dojazd do Baku, transfer do hotelu, wypoczynek. Zwiedzanie Baku.
+    text: "20.09 - Dojazd do Baku, transfer do hotelu, wypoczynek. Po śniadaniu
+      zwiedzanie Baku: Icheri Sheher - stara część miasta, pałac Szirwan Szacha,
+      Karawanserai, Wieża Dziewicza. Spacer po centralnej ulicy Nizami oraz
+      placu Fontann. Zwiedzamy zakończymy wizytą w centrum Heydara Aliyeva.
+      Nocleg w Baku."
   - day: "5"
     place: "Baku - Apszeroński półwysep - Gobustan - Baku "
-    text: 21.09 - Śniadanie, zwiedzanie świątyni ognia Ateshgah, pzejazd do
-      Gogustanu, powrót do Baku.
+    text: >
+      21.09 - Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej
+      góry Janar Dag, znajdują się tu naturalne, płonące od wieków ognie, w
+      miejscach wyjścia gazu ziemnego na powierzchnię ziemi. Dalej zwiedzanie
+      świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom ognia”. Teren na
+      którym znajduje się świątynia, przez wiele wieków było znane, jako miejsce
+      wyjścia na powierzchnię ziemi gazu ziemnego, gdzie płonęły „wieczne
+      ognie”. Na tym miejscu we wczesnym średniowieczu znajdowała się
+      zoroastriańska świątynia ognia.
+
+      Po lunchu jedziemy do Narodowego Parku Gobustan, gdzie zwiedzimy miejsce, znane pod nazwą Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
     place: Baku - wioska Chinalug - Baku
-    text: 22.09 - Zwiedzanie zabytkowej wioski Chinalug, powrót do Baku.
+    text: >+
+      22.09 - Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy
+      kraju. Przejeżdżając przez wioskę Red Village, dojeżdżamy do zabytkowej
+      wioski Hinalug, która znajduje się na wys. 2000 m. Jest to jedna z
+      najstarszych osad w kraju, gdzie ludzie żyją już od 5000 lat. Po drodze
+      towarzyszyć będa nam niesamowite widoki górskie. Powrót do Baku, po drodze
+      postój przy masowej mogile w Quba. Powrót do Baku, obiadokolacja, nocleg w
+      Baku. 
+
   - day: "7"
     place: "Baku - Maraza - Szamachi - Szeki "
-    text: 23.09 - Wyjazd do Szeki, zwiedzanie meczetów w wsiach Maraza i Szamachi,
-      Nocleg w Szeki.
+    text: >
+      23.09 - Śniadanie.  Wykwaterowanie z hotelu, wyjazd do miejscowości Sheki.
+      Po drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd
+      na zwiedzanie historycznego Meczetu Juma w miejscowości Shamakhi.
+      Zwiedzanie mauzoleum Jeddi Gumbaz - miejsce pochowku szyrwańskich szachów.
+      Dojeżdżamy do Sheki, średniowieczne miasteczko, idealne na spacery,
+      szczególnie znane z przepysznej baklavy. Zwiedzanie albańskiego kościoła z
+      I w. Nocleg i obiadokolacja w Sheki. 
   - day: "8"
     place: Szeki - Lagodechi - Telawi
-    text: 24.09 - Śniadanie, wizyta na bazarze, przejazd na granicę. Przekrocznie
-      granicy w Lagodechi, nocleg w Telawi.
+    text: >
+      24.09 - Śniadanie, od rana wizyta na lokalnym bazarze. Wyjazd malowniczą
+      drogą górską do granicy gruzińskiej, przekroczenie granicy w Lagodekhi,
+      zmiana transportu na gruziński bus, przejazd do Telawi, obiadokolacja,
+      nocleg.  
   - day: "9"
     place: Telawi - Alawerdi - Gremi - Tbilisi
-    text: 25.09 - Zwiedzanie katedry Alawerdi, twierdzy Gremi, degustacja wina,
-      przejazd do Tbilisi, nocleg.
+    text: 25.09 - Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie
+      okolicznych zabytków - katedry Alawerdi oraz twierdzy Gremi. Katedra
+      Alawerdi jest najważniejszym zabytkiem regionu Kacheti, zbudowana w XII
+      wieku, w okresie rozkwitu Królestwa Gruzińskiego, do dziś robi niesamowite
+      wrażenie. Przy katedrze zobaczyć można winnice, gdyś mnisi mieszkający na
+      terenie świątyni, produkują wino. Dalej odwiedzimy twierdzę Gremi,
+      miejsce, gdzie kiedyś znajdowała się stolica Królestwa Kacheti, i gdzie do
+      dziś można znaleźć pozostałości po mieście. Przepiękny późnośredniowieczny
+      kościół oraz wieża obserwacyjna stanowią najlepiej zachowane obiekty
+      kompleksu. Po zwiedzaniu udamy się na degustację wina w lokalnej winiarni.
+      Przejazd do Tbilisi, obiadokolacja, nocleg.
   - day: "10"
     place: Tbilisi - Kutaisi
-    text: 26.09 - Transfer do Kutaisi, Gelati, Bagrati, pożegnalna supra. Nocleg w
-      Kutaisi.
+    text: 26.09 - Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po
+      krótkim wypoczynku udajemy się na zwiedzanie najważniejszych zabytków
+      miasta Kutaisi. Zobaczymy akademię Gelati, gdzie jeszcze w XI-XII wieku
+      tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw. Matki
+      Boskiej, która słynna jest z przepięknych kolorowych fresków, a na koniec
+      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
+      Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna obiadokolacja i
+      nocleg w Kutaisi.
   - day: "11"
     place: Transfer na lotnisko
     text: 27.09 - Śniadanie, transfer na lotnisko, wylot.
 priceContains:
+  - text: Noclegi w hotelach 3* w Tbilisi, Baku, Kutaisi
+    icon: hotel
+  - text: Nocleg w pensjonacie/agroturystyce w Szeki, Telawi (pokoje z łazienkami)
+    icon: home
+  - text: Śniadania i obiadokolacje
+    icon: restaurant
+  - text: Bilety wstępu
+    icon: cinemaTicket
+  - text: Transport 4x4 w Kazbegi i parku narodowym Gobustan (jeśli pozwoli pogoda)
+    icon: offroad
+  - text: Przejazd kolejką w Tbilisi
+    icon: cableCar
+  - text: Degustację wina
+    icon: alcohol
   - text: Usługi polskojęzycznego przewodnika
     icon: guide
+  - text: Transport – komfortowy klimatyzowany minibus
+    icon: bus
 priceNotContains:
   - text: Biletów lotniczych
-    icon: cinemaTicket
+    icon: plane
+  - text: Opłat za wizę do Azerbejdżanu (koszt ok. 20 eur)
+    icon: ticket
+  - text: Dodatkowych posiłków i napojów nie zawartych w programie
+    icon: food
 ---
-Długość trasy: 1500 km
+* Trasa wycieczki: ok. 3000 km
+* Stopień trudności: łatwy
+* Potrzebne dokumenty: paszport oraz e-visa (<https://evisa.gov.az/>)
+* Warunki pogodowe: w terenach górskich ok. +20°C, w terenach nizinnych ok. +30-35°C
+* Waluta:
+
+  * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
+  * w Azerbejdżanie - AZN (azerskie manaty), 1 AZN = 2,33 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AZN z bankomatu
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 20 AZN w Azerbejdżanie)
