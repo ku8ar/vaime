@@ -4,8 +4,7 @@ active: true
 oneDay: false
 minSeats: 1
 title: Gruzja I Azerbejdżan
-description: Gruzja i Azerbejdżan - kraje podobne, ale jednocześnie bardzo
-  różne. zapraszamy na poznanie ich różnic i podobieństw
+description: Gruzja i Azerbejdżan - super kraje
 discount: 15
 discountTitle: "10"
 terms:
@@ -13,11 +12,11 @@ terms:
     endDate: 2021-09-26T20:45:50.302Z
     daysCount: 10 DNI/11 NOCY
     seats: 15
-    price: 650
+    price: 740
 thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
-    name: Signagi
+    name: Baku
 map: /img/kaukasi-duet.png
 schedule:
   - day: "1"
@@ -25,18 +24,18 @@ schedule:
     text: 17.09 - Przylot, transfer do Tbilisi, obiadokolacja, nocleg.
   - day: "2"
     place: Tbilisi - Kazbegi - Tbilisi
-    text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
-      Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
-      każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
-      zwiedzanie malowniczej twierdzy Ananuri, która znajduje się nad jeziorem
-      Żinwali oraz przerwa na zdjęcia przy zabytkowym punkcie widokowym w
-      ośrodku narciarskim Gudauri. Dojazd do miejscowości Kazbegi, wjazd
+    text: 18.09 - Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną
+      Gruzińską Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która
+      zachwyci każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po
+      drodze zwiedzanie malowniczej twierdzy Ananuri, która znajduje się nad
+      jeziorem Żinwali oraz przerwa na zdjęcia przy zabytkowym punkcie widokowym
+      w ośrodku narciarskim Gudauri. Dojazd do miejscowości Kazbegi, wjazd
       samochodami terenowymi na kościół św. Trójcy Gergeti, który jest wizytówką
       regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: 19.09 - Tbilisi - Mccheta - Tbilisi
+    place: Tbilisi - Mccheta - Tbilisi
     text: >-
       18.09 - Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
       najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
