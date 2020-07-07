@@ -5,8 +5,8 @@ oneDay: false
 minSeats: 1
 title: Gruzja I Azerbejdżan
 description: Gruzja i Azerbejdżan - super kraje
-discount: 15
-discountTitle: "0"
+discount: 0
+discountTitle: ""
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
     endDate: 2021-09-26T20:45:50.302Z

@@ -5,7 +5,7 @@ oneDay: false
 minSeats: 1
 title: Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
-discount: 10
+discount: 0
 terms:
   - startDate: 2021-10-05T17:44:13.572Z
     endDate: 2021-10-15T17:44:13.632Z
