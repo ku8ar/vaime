@@ -13,7 +13,7 @@ terms:
     endDate: 2021-09-15T14:24:50.688Z
 thumb: /img/mevenaxe.jpg
 images:
-  - image: /img/georgia-4856786_1920-1-.jpg
+  - image: /img/georgia-4856786_1920-2-.jpg
     name: kacheti
 map: /img/majówka_gruz.wakacje_winobranie-6-.png
 schedule:
