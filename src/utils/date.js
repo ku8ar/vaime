@@ -18,23 +18,23 @@ const monthLabels = {
 export const calcDate = (startDate, endDate, withYear = true) => {
   if (startDate && endDate) {
     if (startDate === endDate) {
-      return `${moment(startDate).format('DD.MM')}${withYear ? '.' : ''}${withYear ? moment(startDate).format('YYYY') : ''}`
+      return `${moment.utc(startDate).format('DD.MM')}${withYear ? '.' : ''}${withYear ? moment.utc(startDate).format('YYYY') : ''}`
     }
 
-    return `${moment(startDate).format('DD.MM')}-${moment(endDate).format('DD.MM')}${withYear ? '.' : ''}${withYear ? moment(startDate).format('YYYY') : ''}`
+    return `${moment.utc(startDate).format('DD.MM')}-${moment.utc(endDate).format('DD.MM')}${withYear ? '.' : ''}${withYear ? moment.utc(startDate).format('YYYY') : ''}`
   }
   return ''
 }
 
 export const calcMonthsDate = (startDate, endDate, withYear = true) => {
   if (!startDate || !endDate) return ''
-  const startMonth = monthLabels[moment(startDate).format('M')]
-  const endMonth = monthLabels[moment(endDate).format('M')]
-  const year = moment(startDate).format('YYYY')
+  const startMonth = monthLabels[moment.utc(startDate).format('M')]
+  const endMonth = monthLabels[moment.utc(endDate).format('M')]
+  const year = moment.utc(startDate).format('YYYY')
 
   return withYear ? `${startMonth} - ${endMonth} ${year}` : `${startMonth} - ${endMonth}`
 }
 
-export const countDays = (startDate, endDate) => startDate && endDate ? moment(endDate).diff(moment(startDate), 'days') : 0
+export const countDays = (startDate, endDate) => startDate && endDate ? moment.utc(endDate).diff(moment.utc(startDate), 'days') : 0
 
-export const calcYear = (date) => date ? moment(date).format('YYYY') : ''
+export const calcYear = (date) => date ? moment.utc(date).format('YYYY') : ''

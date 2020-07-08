@@ -21,7 +21,7 @@ collections:
       - {label: "Informations", name: "informations", widget: "text", required: false}
       - {label: "Discount", name: "discount", widget: "number"}
       - {label: "Discount Title", name: "discountTitle", widget: "string", required: false}
-      - {label: Terms, name: terms, widget: list, fields: [{label: "Start Date", name: "startDate", widget: "date"}, {label: "End Date", name: "endDate", widget: "date"}, {label: "Count of days", name: "daysCount", widget: "string"}, {label: "No of seats", name: "seats", widget: "number"}, {label: "Price", name: "price", widget: "number"}]}
+      - {label: Terms, name: terms, widget: list, fields: [{label: "Start Date", name: "startDate", widget: "datetime", pickerUtc: true}, {label: "End Date", name: "endDate", widget: "datetime", pickerUtc: true}, {label: "Count of days", name: "daysCount", widget: "string"}, {label: "No of seats", name: "seats", widget: "number"}, {label: "Price", name: "price", widget: "number"}]}
       - {label: "Thumbnail", name: thumb, widget: image}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
       - {label: "Map", name: map, widget: image}
