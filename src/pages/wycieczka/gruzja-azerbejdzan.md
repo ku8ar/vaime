@@ -17,7 +17,7 @@ thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
     name: Baku
-map: /img/kaukasi-duet-7-.png
+map: /img/projekt-bez-tytułu-5-.png
 schedule:
   - day: "1"
     place: Kutaisi - Tbilisi
