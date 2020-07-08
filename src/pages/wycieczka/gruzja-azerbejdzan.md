@@ -15,7 +15,7 @@ terms:
     endDate: 2021-09-26T20:45:50.302Z
     daysCount: 10 DNI/11 NOCY
     seats: 15
-    price: 745
+    price: 735
 thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
@@ -23,24 +23,24 @@ images:
 map: /img/azerbejdzan.png
 schedule:
   - day: "1"
-    place: Kutaisi - Tbilisi
-    text: 17.09 - Przylot, transfer do Tbilisi, obiadokolacja, nocleg.
+    place: 17.09 - Kutaisi - Tbilisi
+    text: Przylot, transfer do Tbilisi, obiadokolacja, nocleg.
   - day: "2"
-    place: Tbilisi - Kazbegi - Tbilisi
-    text: 18.09 - Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną
-      Gruzińską Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która
-      zachwyci każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po
-      drodze zwiedzanie malowniczej twierdzy Ananuri, która znajduje się nad
-      jeziorem Żinwali oraz przerwa na zdjęcia przy zabytkowym punkcie widokowym
-      w ośrodku narciarskim Gudauri. Dojazd do miejscowości Kazbegi, wjazd
+    place: 18.09 - Tbilisi - Kazbegi - Tbilisi
+    text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
+      Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
+      każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
+      zwiedzanie malowniczej twierdzy Ananuri, która znajduje się nad jeziorem
+      Żinwali oraz przerwa na zdjęcia przy zabytkowym punkcie widokowym w
+      ośrodku narciarskim Gudauri. Dojazd do miejscowości Kazbegi, wjazd
       samochodami terenowymi na kościół św. Trójcy Gergeti, który jest wizytówką
       regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: Tbilisi - Mccheta - Tbilisi
+    place: 18.09 - Tbilisi - Mccheta - Tbilisi
     text: >-
-      18.09 - Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
+      Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
       najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
       kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
       natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
@@ -55,17 +55,17 @@ schedule:
 
       Wykwaterowanie z hotelu i dojazd na dworzec kolejowy, przejazd nocnym pociągiem relacji Tbilisi - Baku. 
   - day: "4"
-    place: Baku
-    text: "20.09 - Dojazd do Baku, transfer do hotelu, wypoczynek. Po śniadaniu
-      zwiedzanie Baku: Icheri Sheher - stara część miasta, pałac Szirwan Szacha,
+    place: 20.09 - Baku
+    text: "Dojazd do Baku, transfer do hotelu, wypoczynek. Po śniadaniu zwiedzanie
+      Baku: Icheri Sheher - stara część miasta, pałac Szirwan Szacha,
       Karawanserai, Wieża Dziewicza. Spacer po centralnej ulicy Nizami oraz
       placu Fontann. Zwiedzamy zakończymy wizytą w centrum Heydara Aliyeva.
       Nocleg w Baku."
   - day: "5"
-    place: "Baku - Apszeroński półwysep - Gobustan - Baku "
+    place: "21.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
     text: >
-      21.09 - Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej
-      góry Janar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
+      Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej góry
+      Janar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
       zwiedzanie świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom ognia”,
       teren na którym znajduje się świątynia, przez wiele wieków było znane,
       jako miejsce wydobycia się na powierzchnię ziemi gazu ziemnego, gdzie
@@ -74,63 +74,63 @@ schedule:
 
       Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane pod nazwą Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
-    place: Baku - wioska Chinalug - Baku
+    place: 22.09 - Baku - wioska Chinalug - Baku
     text: >+
-      22.09 - Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy
-      kraju. Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś),
-      dojeżdżamy do zabytkowej wioski Chinalug, która znajduje się na wys. 2000
-      m. Jest to jedna z najstarszych osad na Kaukazie, stale zamieszkała od
-      5000 lat. Po drodze towarzyszyć będa nam niesamowite widoki górskie.
-      Powrót do Baku, po drodze postój przy zbiorowej mogile ofiar
-      bolszewickiego ludobójstwa, znanego jako "Marcowe Dni" (1918 r.) w
-      miejscowości Quba. Powrót do Baku, obiadokolacja, nocleg w Baku. 
+      Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy kraju.
+      Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś), dojeżdżamy do
+      zabytkowej wioski Chinalug, która znajduje się na wys. 2000 m. Jest to
+      jedna z najstarszych osad na Kaukazie, stale zamieszkała od 5000 lat. Po
+      drodze towarzyszyć będa nam niesamowite widoki górskie. Powrót do Baku, po
+      drodze postój przy zbiorowej mogile ofiar bolszewickiego ludobójstwa,
+      znanego jako "Marcowe Dni" (1918 r.) w miejscowości Quba. Powrót do Baku,
+      obiadokolacja, nocleg w Baku. 
 
   - day: "7"
-    place: "Baku - Maraza - Szamachi - Szeki "
+    place: "23.09 - Baku - Maraza - Szamachi - Szeki "
     text: >
-      23.09 - Śniadanie.  Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki.
-      Po drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd
-      na zwiedzanie historycznego Meczetu Juma w miejscowości Szamachi.
-      Zwiedzanie mauzoleum Jeddi Gumbaz - miejsce pochowku szyrwańskich szachów.
-      Dojeżdżamy do Szeki, uroczego średniowiecznego miasteczka, które idealnie
-      nadaje się na samodzielne odkrywanie lokalnej kultury; Szeki szczególnie
-      znane z przepysznej baklawy, więc dla miłośników tego wschodniego
-      przysmaku będzie to punkt doskonały. Zwiedzanie albańskiego kościoła z I
-      w. Nocleg i obiadokolacja w Szeki. 
+      Śniadanie.  Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki. Po
+      drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd na
+      zwiedzanie historycznego Meczetu Juma w miejscowości Szamachi. Zwiedzanie
+      mauzoleum Jeddi Gumbaz - miejsce pochowku szyrwańskich szachów. Dojeżdżamy
+      do Szeki, uroczego średniowiecznego miasteczka, które idealnie nadaje się
+      na samodzielne odkrywanie lokalnej kultury; Szeki szczególnie znane z
+      przepysznej baklawy, więc dla miłośników tego wschodniego przysmaku będzie
+      to punkt doskonały. Zwiedzanie albańskiego kościoła z I w. Nocleg i
+      obiadokolacja w Szeki. 
   - day: "8"
-    place: Szeki - Lagodechi - Telawi
+    place: 24.09 - Szeki - Lagodechi - Telawi
     text: >
-      24.09 - Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość
-      zakupów lokalnych przysmaków. Powoli żegnamy się z Azerbajdżanem - wyjazd
+      Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość zakupów
+      lokalnych przysmaków. Powoli żegnamy się z Azerbajdżanem - wyjazd
       malowniczą drogą górską do granicy gruzińskiej, przekroczenie granicy w
       Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
       do Telawi, obiadokolacja, nocleg.  
   - day: "9"
-    place: Telawi - Alawerdi - Gremi - Tbilisi
-    text: 25.09 - Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie
-      okolicznych zabytków - katedry Alawerdi oraz twierdzy Gremi. Katedra
-      Alawerdi jest najważniejszym zabytkiem regionu Kacheti, zbudowana w XII
-      wieku, w okresie rozkwitu Królestwa Gruzińskiego, do dziś robi niesamowite
-      wrażenie. Przy katedrze zobaczyć można winnice, gdyś mnisi mieszkający na
-      terenie świątyni, produkują wino. Dalej odwiedzimy twierdzę Gremi,
-      miejsce, gdzie kiedyś znajdowała się stolica Królestwa Kacheti, i gdzie do
-      dziś można znaleźć pozostałości po mieście. Przepiękny późnośredniowieczny
-      kościół oraz wieża obserwacyjna stanowią najlepiej zachowane obiekty
-      kompleksu. Po zwiedzaniu udamy się na degustację wina w lokalnej winiarni.
-      Przejazd do Tbilisi, obiadokolacja, nocleg.
+    place: 25.09 - Telawi - Alawerdi - Gremi - Tbilisi
+    text: Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie okolicznych
+      zabytków - katedry Alawerdi oraz twierdzy Gremi. Katedra Alawerdi jest
+      najważniejszym zabytkiem regionu Kacheti, zbudowana w XII wieku, w okresie
+      rozkwitu Królestwa Gruzińskiego, do dziś robi niesamowite wrażenie. Przy
+      katedrze zobaczyć można winnice, gdyś mnisi mieszkający na terenie
+      świątyni, produkują wino. Dalej odwiedzimy twierdzę Gremi, miejsce, gdzie
+      kiedyś znajdowała się stolica Królestwa Kacheti, i gdzie do dziś można
+      znaleźć pozostałości po mieście. Przepiękny późnośredniowieczny kościół
+      oraz wieża obserwacyjna stanowią najlepiej zachowane obiekty kompleksu. Po
+      zwiedzaniu udamy się na degustację wina w lokalnej winiarni. Przejazd do
+      Tbilisi, obiadokolacja, nocleg.
   - day: "10"
-    place: Tbilisi - Kutaisi
-    text: 26.09 - Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po
-      krótkim wypoczynku udajemy się na zwiedzanie najważniejszych zabytków
-      miasta Kutaisi. Zobaczymy akademię Gelati (UNESCO), gdzie jeszcze w XI-XII
-      wieku tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw.
-      Matki Boskiej, która słynna jest z przepięknych kolorowych fresków, a na
-      koniec odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla
-      Gruzji. Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna
-      obiadokolacja i nocleg w Kutaisi.
+    place: 26.09 - Tbilisi - Kutaisi
+    text: Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po krótkim
+      wypoczynku udajemy się na zwiedzanie najważniejszych zabytków miasta
+      Kutaisi. Zobaczymy akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku
+      tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw. Matki
+      Boskiej, która słynna jest z przepięknych kolorowych fresków, a na koniec
+      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
+      Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna obiadokolacja i
+      nocleg w Kutaisi.
   - day: "11"
-    place: Transfer na lotnisko
-    text: 27.09 - Śniadanie, transfer na lotnisko, wylot.
+    place: 27.09 - Transfer na lotnisko
+    text: Śniadanie, transfer na lotnisko, wylot.
 priceContains:
   - text: Noclegi w hotelach 3* w Tbilisi, Baku, Kutaisi
     icon: hotel
