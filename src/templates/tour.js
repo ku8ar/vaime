@@ -30,6 +30,7 @@ const LeftColumn = styled(Column)`
 
 export const TourTemplate = ({ schedule, html, contentComponent, map, ...props }) => {
   const HtmlComponent = contentComponent || Content
+
   return (
     <TourPage>
       <HeroTour {...props} />

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
+import * as Sentry from '@sentry/react'
 import { path, pipe, defaultTo, head, propOr, toLower, includes, prop } from 'rambda'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
@@ -128,6 +129,7 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) =>
       const { startDate, endDate, price } = terms[date] || {}
       const priceForAll = price * adults
       const body = { ...tourDetails, adults, startDate, endDate, title, price: priceForAll, date: startDate ? calcDate(startDate, endDate) : date, oneDay, fromTbilisi }
+      Sentry.captureException(body)
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {
