@@ -3,8 +3,14 @@ templateKey: tour
 active: true
 minSeats: 1
 title: Święto winobrania
-description: Zapraszamy na rtweli, czyli winobranie w Kacheti, krainie wina
-discount: 0
+description: rtweli, święto winobrania - najlepsze winogrona, wino, kuchnia
+informations: Rtweli to najważnieszy okres w życiu regionu Kacheti. Udział w
+  zbieraniu winogron, przygotowanie się do robienia pierwszego młodego wina,
+  poznanie tajemnic gruzińskiej kuchni i winiarstwa to niezapomniane przeżycia.
+  Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję zniżka -15% od
+  podanej ceny na osobę. Zapraszamy!
+discount: 15
+discountTitle: first minute zniżka
 terms:
   - price: 525
     seats: 15
@@ -23,7 +29,7 @@ schedule:
       Zakwaterowanie. Powitalna kolacja w restauracji z pokazem
       folklorystycznym. Nocleg w Tbilisi.
   - day: "2"
-    place: 09.09 - Tbilisi
+    place: "09.09 - Tbilisi - Mccheta - Tbilisi "
     text: "Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków
       stolicy – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli
       nam na podziwianie panoramy miasta, z twierdzy natomiast otwiera się
@@ -36,24 +42,25 @@ schedule:
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
       w.) i monastyr Dżwari (VI w.).  Powrót do Tbilisi, obiadokolacja, nocleg."
   - day: "3"
-    place: 10.09 - Tbilisi – Kacheti
+    place: 10.09 - Tbilisi – Signagi - Telawi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
-      jest św. Nino – apostolka gruzińskiej, która przyniosła chrześcijaństwo do
-      Gruzji już w IV wieku. Z monastyru rozciera się oszałamiający widok na
-      dolinę Alazanską, gdzie uprawiane są najlepsze szczepy winogron. Dojazd do
-      miasta miłości Signagi, które idealne zachowane zostało od wieków
-      XVII-XVIII. Spacer po miasteczku-muzeum, wizyta na lokalnym bazarku, gdzie
-      kupić można domowe wina i gruzińskie smakołyki. Wizyta w  domowej winnicy,
-      gdzie zobaczyć można, jak robi się gruzińskie domowe wino, degustacja wina
-      i czaczy (bimber gruziński) połączona z obiadokolacją. Nocleg w Telawi.
+      jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
+      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
+      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
+      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
+      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
+      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
+      smakołyki. Wizyta w  domowej winnicy, gdzie zobaczyć można, jak robi się
+      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
+      połączona z obiadokolacją. Nocleg w Telawi.
   - day: "4"
     place: 11.09 - Kacheti
     text: "Śniadanie. Czas na winobranie! Winobranie, inaczej rtweli, jest
       zdecydowanie najważniejszym wydarzeniem w Gruzji i, szczególnie, w
       Kacheti. My będziemy mieć okazję brać udział w tym święcie zbiorów
       winogron. Czeka na nas zbieranie winogron oraz nauka całego procesu
-      robienia wina gruzińskiego: ugniatania winogron, wlewania soku do kvevri,
+      robienia wina gruzińskiego: ugniatania winogron, wlewania soku do kwewri,
       amfor, w których gruzińskie wino się fermentuje i dojrzewa. Doświadczony
       lokalny winiarz odkryje nam tajemnice unikatowej gruzińskiej metody
       robienia wina, która wpisana jest na listę UNESCO. Zajmiemy się również
@@ -64,7 +71,7 @@ schedule:
     place: 12.09 - Kacheti – Tbilisi
     text: Śniadanie. Zwiedzanie największej katedry regionu – katedry Alawerdi (XII
       w.). Wyjazd do rozlewni wina Kindzmarauli, gdzie zobaczymy jak wygląda
-      produkcja wina na większą skalę od zewnątrz, oczywiście czeka na nas
+      produkcja wina na większą skalę od wewnątrz, oczywiście czeka na nas
       również degustacja firmowych win, oraz możliwość zakupu alkoholi w
       firmowym sklepie. Następnie czeka na nas degustacja wina oraz bimbru
       gruzińskiego, czaczy, która odbędzie się podczas wizyty w jednej z
@@ -94,14 +101,16 @@ schedule:
       Upliscyche, udajemy się do centrum miasta Gori, gdzie zobaczymy z zewnątrz
       dom-muzeum oraz pancerny wagon J. Stalina, który urodził się i spędził
       pierwsze lata swojego życia właśnie w Gori.  Dojazd do Kutaisi, zwiedzanie
-      miasta – monastyr i akademia Gelati (XII w.), oraz katedrę Bagrati (XI
-      w.). Pożegnalna obiadokolacja, nocleg w Kutaisi.
+      miasta – monastyr i akademia Gelati (UNESCO, XII w.), oraz katedrę Bagrati
+      (XI w.). Pożegnalna obiadokolacja, nocleg w Kutaisi.
   - day: "8"
     place: 15.09 - transfer na lotnisko
     text: Śniadanie. Transfer na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
-    text: Noclegi w hotelach w Tbilisi,Telawi, Kutaisi
+    text: Noclegi w hotelach 3* w Tbilisi, Kutaisi
+  - text: Nocleg w agroturystyce w Telawi (pokoje z łazienkami)
+    icon: home
   - icon: restaurant
     text: Śniadania i obfite obiadokolacje z winem
   - icon: alcohol
@@ -116,8 +125,6 @@ priceContains:
     text: Obsługę polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy minibus
-  - icon: healthcare
-    text: Ubezpieczenie turystyczne
 priceNotContains:
   - icon: ticket
     text: Biletu lotniczego
@@ -130,5 +137,5 @@ priceNotContains:
 * Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +27°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu 
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy w winnicy (zbieranie winogron)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienią florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienią florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
