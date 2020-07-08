@@ -4,10 +4,11 @@ active: true
 minSeats: 1
 title: "Majówka w Gruzji "
 description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
-informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
+informations: Nasza majówka to doskonałe połączenie najbardziej popularnych
   atrakcji turystycznych Gruzji z nieodkrytymi miejscówkami. Wystarczy tylko
   trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki - widoki,
-  kuchnię, gościnność. "
+  kuchnię, gościnność. Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję
+  zniżka -15% od podanej ceny na osobę. Zapraszamy!
 discount: 15
 discountTitle: First Minute Zniżka
 terms:
@@ -26,11 +27,12 @@ schedule:
     place: 28.04 - Kutasi
     text: Przylot do Kutaisi, zakwaterowanie w hotelu. Po krótkim wypoczynku udajemy
       się na zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy
-      akademię Gelati, gdzie jeszcze w XI-XII wieku tłumaczyli największe dzieła
-      filozofii greckiej, główną cerkiew pw. Matki Boskiej, która słynna jest z
-      przepięknych kolorowych fresków, a na koniec odwiedzimy grób Dawida
-      Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
-      katedrę Bagrati (XI w.). Powitalna obiadokolacja i nocleg w Kutaisi.
+      akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku tłumaczyli
+      największe dzieła filozofii greckiej, główną cerkiew pw. Matki Boskiej,
+      która słynna jest z przepięknych kolorowych fresków, a na koniec
+      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
+      Odwiedzimy również katedrę Bagrati (XI w.). Powitalna obiadokolacja i
+      nocleg w Kutaisi.
   - day: "2"
     place: 29.04 - Kutaisi - Mccheta - Tbilisi
     text: >
@@ -63,15 +65,15 @@ schedule:
     place: 01.05 - Tbilisi – Bodbe - Signagi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
-      jest św. Nino – apostolka gruzińskiej, która przyniosła chrześcijaństwo do
-      Gruzji już w IV wieku. Z monastyru rozciera się oszałamiający widok na
-      dolinę Alazanską, gdzie uprawiane są najlepsze szczepy winogron. Dojazd do
-      miasta miłości Signagi, które idealne zachowane zostało od wieków
-      XVII-XVIII. Spacer po miasteczku-muzeum, wizyta na lokalnym bazarku, gdzie
-      kupić można domowe wina i gruzińskie smakołyki. Wizyta w domowej winnicy,
-      gdzie zobaczyć można, jak robi się gruzińskie domowe wino, degustacja wina
-      i czaczy (bimber gruziński) połączona z obiadokolacją. Powrót do Tbilisi,
-      nocleg.
+      jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
+      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
+      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
+      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
+      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
+      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
+      smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
+      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
+      połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "5"
     place: 02.05 - Tbilisi - Gori - Batumi
     text: Śniadanie, wykwaterowanie z hotelu. Wyruszamy do słynnego kurortu
@@ -128,5 +130,5 @@ priceNotContains:
 * Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +25°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić GEL z bankomatu 
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się do mieć przy sobie nakrycie głowy do odwiedzania świątyń)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
