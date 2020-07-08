@@ -8,7 +8,7 @@ informations: Nasza lipcowa objazdówka pomoże Wam odkryć najpopularniejsze
   miejscówki w Gruzji i może zainspirować się na odkrycie kolejnych regionów i
   zabytków. Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję zniżka -15%
   od podanej ceny na osobę. Zapraszamy!
-discount: 15
+discount: 0
 discountTitle: first minute zniżka
 terms:
   - price: 530

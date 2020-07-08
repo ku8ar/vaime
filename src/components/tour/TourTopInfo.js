@@ -56,6 +56,7 @@ const SubInfoWrapper = styled.div`
   display: flex;
   align-items: center;
   margin-top: 1rem;
+  overflow: hidden;
   ${p => p.theme.mobile` align-items: flex-start; `}
   ${boxStyle}
 `

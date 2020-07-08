@@ -10,10 +10,13 @@ export default ({ className, tour }) => {
 
   return hasDiscount ? (
     <DiscountWrapper className={className}>
-      <DiscountCircle>
-        <Megaphone size="1.5rem" fill={'#fff'} />
-      </DiscountCircle>
-      <DiscountText>{`${discountTitle || ''} -${discount}%`}</DiscountText>
+      <Triangle />
+      <DiscountContent>
+        <DiscountText>{`${discountTitle || ''} -${discount}%`}</DiscountText>
+        <DiscountCircle>
+          <Megaphone size="1.5rem" fill={'#fff'} />
+        </DiscountCircle>
+      </DiscountContent>
     </DiscountWrapper>
   ) : null
 }
@@ -41,8 +44,10 @@ const DiscountText = styled(P)`
   color: ${p => p.theme.colorSecondary};
   margin: 0;
   max-width: 8rem;
-  margin-left: 1rem;
   text-transform: uppercase;
+  text-align: end;
+  margin-bottom: .5rem;
+  font-size: 12px;
 `
 
 const DiscountWrapper = styled.div`
@@ -50,10 +55,28 @@ const DiscountWrapper = styled.div`
   right: 1rem;
   top: 3rem;
   display: flex;
-  align-items: center;
   border-radius: .5rem;
-  background-color: ${p => p.theme.colorYellow};
-  padding: .5rem .5rem;
-  box-shadow: 5px 5px 0px 0px ${p => p.theme.colorOrange};
-  border: 1px solid ${p => p.theme.colorSecondaryTransparent};
+`
+
+const DiscountContent = styled.div`
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+`
+
+const triangleSize = '8rem'
+
+const Triangle = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0; 
+  height: 0; 
+  top: -3rem;
+  right: -7rem;
+  border-left: ${triangleSize} solid transparent;
+  border-right: ${triangleSize} solid transparent;
+  border-top: ${triangleSize} solid ${p => p.theme.colorYellow};
+  transform: rotate(-135deg);
 `

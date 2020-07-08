@@ -9,7 +9,7 @@ informations: Rtweli to najważnieszy okres w życiu regionu Kacheti. Udział w
   poznanie tajemnic gruzińskiej kuchni i winiarstwa to niezapomniane przeżycia.
   Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję zniżka -15% od
   podanej ceny na osobę. Zapraszamy!
-discount: 15
+discount: 0
 discountTitle: first minute zniżka
 terms:
   - price: 525
