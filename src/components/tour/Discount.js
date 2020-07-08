@@ -37,7 +37,7 @@ const DiscountCircle = styled.div`
    height: 2rem;
    border-radius: 50%;
    border: 1px solid white;
-}
+  }
 `
 
 const DiscountText = styled(P)`
@@ -47,7 +47,7 @@ const DiscountText = styled(P)`
   text-transform: uppercase;
   text-align: end;
   margin-bottom: .5rem;
-  font-size: 12px;
+  font-size: 13px;
 `
 
 const DiscountWrapper = styled.div`
@@ -65,7 +65,7 @@ const DiscountContent = styled.div`
   align-items: flex-end;
 `
 
-const triangleSize = '8rem'
+const triangleSize = '8.5rem'
 
 const Triangle = styled.div`
   position: absolute;
