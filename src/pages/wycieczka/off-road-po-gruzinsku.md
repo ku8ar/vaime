@@ -5,6 +5,11 @@ oneDay: false
 minSeats: 1
 title: Off-road po gruzińsku
 description: Przejażdżka po najpięknieszych górskich regionach - Racza i Chewi
+informations: W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
+  możecie przekonać się w tym sami! Przy rezerwacji do 31 lipca 2020 r.
+  włącznie, obowiązuję zniżka -15% od podanej ceny na osobę. Zapraszamy!
+discount: 15
+discountTitle: first minute zniżka
 terms:
   - startDate: 2021-06-09T12:08:25.411Z
     endDate: 2021-06-18T12:08:25.446Z
@@ -21,11 +26,12 @@ schedule:
     place: 09.06 - Kutaisi
     text: Przylot do Kutaisi, zakwaterowanie w hotelu. Po krótkim wypoczynku udajemy
       się na zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy
-      akademię Gelati, gdzie jeszcze w XI-XII wieku tłumaczyli największe dzieła
-      filozofii greckiej, główną cerkiew pw. Matki Boskiej, która słynna jest z
-      przepięknych kolorowych fresków, a na koniec odwiedzimy grób Dawida
-      Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
-      katedrę Bagrati (XI w.). Powitalna obiadokolacja i nocleg w Kutaisi.
+      akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku tłumaczyli
+      największe dzieła filozofii greckiej, główną cerkiew pw. Matki Boskiej,
+      która słynna jest z przepięknych kolorowych fresków, a na koniec
+      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
+      Odwiedzimy również katedrę Bagrati (XI w.). Powitalna obiadokolacja i
+      nocleg w Kutaisi.
   - day: "2"
     place: 10.06 - Kutaisi - Ambrolauri
     text: Śniadanie, wykwaterowanie z hotelu. Wyjeżdżamy w kierunku jednego z
@@ -34,13 +40,13 @@ schedule:
       zatrzymamy się na przełęczy Cchradżwari (gruz. Dziewięć Krzyży) Aby dojść
       na samą górę, udamy się na krótki trekking (ok. 20-25 min) i ostatecznie
       znajdziemy się przy dziewięciu rozstawionych na skale krzyżach. Na miejscy
-      dowiemy się, jaką legendę kryje to miejsce i oczywiście nacieszymy się
-      cudownymi widokami.  Nasza dalsza droga prowadzi wzdłuż malowniczego
-      jeziora Szaori (1132 m). Po drodze zwiedzanie dwóch perełek gruzińskiej
-      architektury sakralnej - katedry Nikorcminda XI. w, która znana jest ze
-      swoich bogato ozdobnych płaskorzeźb na fasadach i fresków wewnątrz
-      katedry; oraz cerkwi Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka
-      Ambrolauri, obiadokolacja, nocleg.
+      dowiemy się, jaką legendę kryje to miejsce i nacieszymy się cudownymi
+      widokami.  Nasza dalsza droga prowadzi wzdłuż malowniczego jeziora Szaori
+      (1132 m). Po drodze zwiedzanie dwóch perełek gruzińskiej architektury
+      sakralnej - katedry Nikorcminda XI. w, która znana jest ze swoich bogato
+      ozdobnych płaskorzeźb na fasadach i fresków wewnątrz katedry; oraz cerkwi
+      Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka Ambrolauri,
+      obiadokolacja, nocleg.
   - day: "3"
     place: 11.06 - Ambrolauri - Utsera - Ghebi - Oni
     text: Śniadanie, wykwaterowanie z hotelu. Nasz off-road kontynuujemy w kierunku
@@ -54,7 +60,7 @@ schedule:
     place: 12.06 - Oni - Kutaisi
     text: Śniadanie, wykwaterowanie. Zanim opuścimy miasteczko Oni, udamy się na
       zwiedzanie cudownej synagogi, która ozdabia centrum miasta. Synagoga w Oni
-      jest trzecia największą świątynią żydowskiej mniejszości w Gruzji, tuż po
+      jest trzecią największą świątynią żydowskiej mniejszości w Gruzji, tuż po
       tbiliskiej i kutaiskiej sygagogach. Obecnie nieczynna, ale dostępna do
       zwiedzania. Dalej wracamy do okolic miasteczka Ambrolauri, aby udać się ma
       degustację unikatowego wina Chwanczkara (ხვანჭკარა). Szczep Chwanczkara
@@ -80,7 +86,7 @@ schedule:
     text: >
       Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Zwiedzanie starej stolicy
-      Mcchety. Miasto to jest kolebką chrześcijaństwa w Gruzji, właśnie tu w IV
+      Mcchety. Mccheta jest kolebką chrześcijaństwa w Gruzji, właśnie tu w IV
       wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
       w.) i monastyr Dżwari (VI w.). Po drodze zwiedzanie malowniczej twierdzy
@@ -160,5 +166,5 @@ priceNotContains:
 * Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +28°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić GEL z bankomatu
 * Ubiór: lekki, sportowe buty na ewentualny trekking, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, płaszcz przeciwdeszczowy, chusta (panie obowiązują się do mieć przy sobie nakrycie głowy do odwiedzania świątyń)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
