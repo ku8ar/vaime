@@ -3,10 +3,10 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Objazdówka po Kaukazie - Gruzja I Azerbejdżan
+title: Objazdówka - Gruzja I Azerbejdżan
 description: kraje gór, morza, wina i ognia
 informations: Najlepsza objazdówka w najlepszej cenie! Poznajcie skarby Gruzji i
-  Azerbejdżanu razem z nami. Przy rezerwacji do 31 lipca 2020 r. włącznie,
+  Azerbejdżanu razem z nami. Przy rezerwacji do 15 sierpnia 2020 r. włącznie,
   obowiązuję zniżka -10% od podanej ceny na osobę.  Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
@@ -20,7 +20,7 @@ thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
     name: Baku
-map: /img/azerbejdzan.png
+map: /img/xinaliq-hinalug-.png
 schedule:
   - day: "1"
     place: 17.09 - Kutaisi - Tbilisi
@@ -74,11 +74,11 @@ schedule:
 
       Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane pod nazwą Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
-    place: 22.09 - Baku - wioska Chinalug - Baku
+    place: 22.09 - Baku - wioska Hinalug - Baku
     text: >+
       Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy kraju.
       Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś), dojeżdżamy do
-      zabytkowej wioski Chinalug, która znajduje się na wys. 2000 m. Jest to
+      zabytkowej wioski Hinalug, która znajduje się na wys. 2000 m. Jest to
       jedna z najstarszych osad na Kaukazie, stale zamieszkała od 5000 lat. Po
       drodze towarzyszyć będa nam niesamowite widoki górskie. Powrót do Baku, po
       drodze postój przy zbiorowej mogile ofiar bolszewickiego ludobójstwa,
