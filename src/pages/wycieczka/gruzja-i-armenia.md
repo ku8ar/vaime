@@ -5,7 +5,7 @@ oneDay: false
 minSeats: 1
 title: Objazdówka po Kaukazie - Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
-informations: Dwa najstarsze chrześnijąńskie kraje, pełne niesamowitych widoków,
+informations: Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków,
   pysznego jedzenia i życzliwych ludzi czekają na Was! Przy rezerwacji do 31
   lipca 2020 r. włącznie, obowiązuję zniżka -10% od podanej ceny na osobę.
   Zapraszamy!
@@ -24,8 +24,8 @@ images:
 map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"
-    place: Tbilisi
-    text: "05.10 - Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek.
+    place: 05.10 - Tbilisi
+    text: "Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek.
       Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
       – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli nam na
       podziwianie panoramy miasta, z twierdzy natomiast otwiera się przepiękny
@@ -34,7 +34,7 @@ schedule:
       (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w.). Kolacja
       w restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi."
   - day: "2"
-    place: Tbilisi - Kazbegi - Tbilisi
+    place: 06.10 - Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
       każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
@@ -46,79 +46,78 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: Tbilisi - Sewan
-    text: "07.10 - Po śniadaniu przejazd na granicę ormiańską, przekroczenie
-      granicy. Na trasie zawitamy do klasztoru Hachpat (X w), który jest wpisany
-      na listę UNESCO i łączy kilka budynków, w tym kościoły, sale muzyczne,
-      bibliotekę itd. Następnie jedziemy nad jezioro Sewan, położone na wys.
-      1900 m n.p.m. Jest to największe jezioro Armenii, tutaj czeka nas spacer
-      na półwyspie i zwiedzanie monastyru Sewanawank (IX w.). Odpoczynek,
-      obiadokolacja, nocleg nad jeziorem. "
+    place: 07.10 - Tbilisi - Sewan
+    text: "Po śniadaniu przejazd na granicę ormiańską, przekroczenie granicy. Na
+      trasie zawitamy do klasztoru Hachpat (X w), który jest wpisany na listę
+      UNESCO i łączy kilka budynków, w tym kościoły, sale muzyczne, bibliotekę
+      itd. Następnie jedziemy nad jezioro Sewan, położone na wys. 1900 m n.p.m.
+      Jest to największe jezioro Armenii, tutaj czeka nas spacer na półwyspie i
+      zwiedzanie monastyru Sewanawank (IX w.). Odpoczynek, obiadokolacja, nocleg
+      nad jeziorem. "
   - day: "4"
-    place: Sewan - Erywań
+    place: 08.10 - Sewan - Erywań
     text: >-
-      08.10 - Śniadanie, wyjazd do Erywania. zakwaterowanie. Zwiedzanie stolicy
-      Armenii. Erywań to jedno z najstarszych miast Kaukazu i całego świata,
-      założone w 782 roku p.n.e, do dziś pełni funkcję stolicy i największego
-      miasta Armenii. Warty uwagi jest centalny plac miasta, Plac Republiki, na
-      którym znajdują się ministerwsta i inne rządowe budynki. Idąc dalej
-      zobaczymy piękny gmach Opery oraz Kaskady. Erewańskie Kaskady liczą 572
-      schodów, na pomocą których można wejść na samą górę i nacieszyć się
-      pięknem miasta. Na górę wjechać można również windą, znajdującą się
-      wewnątrz budynku. Wnętrza Kaskad służą miejscem ekspozycji sztuki
-      współczesnej, urzędują tu Muzeum Sztuki Cafesjiana. Po zwiedzaniu centrum
-      miasta udamy się do Muzeum Ludobójstwa, miesjca upamiętniającego ofiar
-      rzezi Ormian na początku XX wieku. 
+      Śniadanie, wyjazd do Erywania. zakwaterowanie. Zwiedzanie stolicy Armenii.
+      Erywań to jedno z najstarszych miast Kaukazu i całego świata, założone w
+      782 roku p.n.e, do dziś pełni funkcję stolicy i największego miasta
+      Armenii. Warty uwagi jest centalny plac miasta, Plac Republiki, na którym
+      znajdują się ministerwsta i inne rządowe budynki. Idąc dalej zobaczymy
+      piękny gmach Opery oraz Kaskady. Erewańskie Kaskady liczą 572 schodów, na
+      pomocą których można wejść na samą górę i nacieszyć się pięknem miasta. Na
+      górę wjechać można również windą, znajdującą się wewnątrz budynku. Wnętrza
+      Kaskad służą miejscem ekspozycji sztuki współczesnej, urzędują tu Muzeum
+      Sztuki Cafesjiana. Po zwiedzaniu centrum miasta udamy się do Muzeum
+      Ludobójstwa, miesjca upamiętniającego ofiar rzezi Ormian na początku XX
+      wieku. 
 
       Dzień zakończymy degustacją prawdziwego ormiańskiego koniaku oraz obiadokolacją. Nocleg w Erywaniu.
   - day: "5"
-    place: Erywań - Eczmiadzyn - przełęcz Selim - Tatew - Goris
+    place: 09.10 - Erywań - Eczmiadzyn - przełęcz Selim - Tatew - Goris
     text: >-
-      09.10 - Śniadanie, udajemy się do miasta Wagharszapat (Eczmiadzyn).
-      Eczmiadzyn znany jest jako centrum religijne Armenii, właśnie tu została
-      zbudowana pierwsza chrześcijańska katedra na świecie – kościół o tej samej
-      nazwie. Według źródeł historycznych, budowanie kościoła zakończyło się w
-      303 r. i mimo licznych zniszczeń, katedra pozostała zachowana w niemal
-      oryginalnym stanie, wpisana jest na listę UNESCO. W miasteczku
-      Wagharszapat odwiedzimy również ruiny katedry Zwartnoc (VII w.), wpisanej
-      na listę światowego dziedzictwa kulturowego UNESCO. 
+      Śniadanie, udajemy się do miasta Wagharszapat (Eczmiadzyn). Eczmiadzyn
+      znany jest jako centrum religijne Armenii, właśnie tu została zbudowana
+      pierwsza chrześcijańska katedra na świecie – kościół o tej samej nazwie.
+      Według źródeł historycznych, budowanie kościoła zakończyło się w 303 r. i
+      mimo licznych zniszczeń, katedra pozostała zachowana w niemal oryginalnym
+      stanie, wpisana jest na listę UNESCO. W miasteczku Wagharszapat odwiedzimy
+      również ruiny katedry Zwartnoc (VII w.), wpisanej na listę światowego
+      dziedzictwa kulturowego UNESCO. 
 
       Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
-    place: Goris - Geghard - Garni - Erywań
-    text: "10.10 - Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania
-      zwiedzamy dwa unikatowe zabytki: klasztoru Geghard, część którego jest
-      wykuta w skale, a sam kościół zadziwią płaskorzeźbami i kamiennymi
-      ozdobami, oraz pogańską świątynię Garni. Jest to bardzo ciekawy pomnik
-      ormiańskiej architektury – jedyna pogańska świątynia, zbudowana w stylu
-      klasycznym w I w. n.e., do dziś w całości zachowana. Świątynia o nazwie
-      Garni poświęcona była bóstwu słońca Mitrze. Obiadokolacja i nocleg w
-      Erywaniu."
+    place: 10.10 - Goris - Geghard - Garni - Erywań
+    text: "Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania zwiedzamy dwa
+      unikatowe zabytki: klasztoru Geghard, część którego jest wykuta w skale, a
+      sam kościół zadziwią płaskorzeźbami i kamiennymi ozdobami, oraz pogańską
+      świątynię Garni. Jest to bardzo ciekawy pomnik ormiańskiej architektury –
+      jedyna pogańska świątynia, zbudowana w stylu klasycznym w I w. n.e., do
+      dziś w całości zachowana. Świątynia o nazwie Garni poświęcona była bóstwu
+      słońca Mitrze. Obiadokolacja i nocleg w Erywaniu."
   - day: "7"
-    place: Erywań - Wardzia - Achalcyche
-    text: 11.10 - Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra.
-      Zwiedzanie skalnego miasta Wardzii. Jest to miasto wykute w skałach
-      jeszcze w XII wieku. Kompleks składa się z około 3 tys. komnat, gdzie
-      podczas najazdów Mongołów mogło się zmieścić około 60 tys. osób. Będziemy
-      chodzić po małych, wąskich komnatach i przemieszczać się przez małe
-      tunele, dzięki czemu poczujemy klimat tego magicznego miejsca. Nocleg i
-      obiadokolacja w Wardzii lub Achalcyche.
+    place: 11.10 - Erywań - Wardzia - Achalcyche
+    text: Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra. Zwiedzanie
+      skalnego miasta Wardzii. Jest to miasto wykute w skałach jeszcze w XII
+      wieku. Kompleks składa się z około 3 tys. komnat, gdzie podczas najazdów
+      Mongołów mogło się zmieścić około 60 tys. osób. Będziemy chodzić po
+      małych, wąskich komnatach i przemieszczać się przez małe tunele, dzięki
+      czemu poczujemy klimat tego magicznego miejsca. Nocleg i obiadokolacja w
+      Wardzii lub Achalcyche.
   - day: "8"
-    place: Achalcyche - Bordżomi - Tbilisi
-    text: 12.10 - Śniadanie, przejazd do legendarnego uzdrowiska Bordżomi. Z
-      miejscowości pochodzi słynna woda o tej samej nazwie, której będziemy
-      mogli się napić prosto ze źródła podczas spaceru po bordżomskim parku
-      zdrojowym. Po zwiedzaniu Bordżomi, ruszamy do stolicy. Po drodze zawitamy
-      do religijnego centrum Gruzji, starej stolicy Mcchety. Mccheta jest
-      kolebką chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto
-      chrześcijaństwo jako państwową religię. Odwiedzimy najważniejsze obiekty
-      sakralne z listy UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari
-      (VI w.).  Dojazd do Tbilisi, obiadokolacja, nocleg.
+    place: 12.10 - Achalcyche - Bordżomi - Tbilisi
+    text: Śniadanie, przejazd do legendarnego uzdrowiska Bordżomi. Z miejscowości
+      pochodzi słynna woda o tej samej nazwie, której będziemy mogli się napić
+      prosto ze źródła podczas spaceru po bordżomskim parku zdrojowym. Po
+      zwiedzaniu Bordżomi, ruszamy do stolicy. Po drodze zawitamy do religijnego
+      centrum Gruzji, starej stolicy Mcchety. Mccheta jest kolebką
+      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
+      jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
+      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.).  Dojazd
+      do Tbilisi, obiadokolacja, nocleg.
   - day: "9"
-    place: Tbilisi - Bodbe - Signagi
-    text: 13.10 - Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany
-      jest “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie
-      pochowana jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
+    place: 13.10 - Tbilisi - Bodbe - Signagi
+    text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
+      “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
+      jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
       chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
       oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
       szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
@@ -128,14 +127,14 @@ schedule:
       gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
       połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "10"
-    place: Tbilisi
-    text: 14.10 - Śniadanie w hotelu. Wolny dzień w Tbilisi, czas na spacery, zakupy
+    place: 14.10 - Tbilisi
+    text: Śniadanie w hotelu. Wolny dzień w Tbilisi, czas na spacery, zakupy
       pamiątek itd. Wieczorem pożegnalna obiadokolacja w restauracji z pokazem
       folklorystyczynym. Nocleg w Tbilisi.
   - day: "11"
-    place: Transfer na lotnisko
-    text: 15.10 - Śniadanie w formie paczek śniadaniowych, transfer na lotnisko,
-      wylot do Polski.
+    place: 15.10 - Transfer na lotnisko
+    text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
+      Polski.
 priceContains:
   - text: Noclegi w hotelu*** w Tbilisi, Erywaniu
     icon: hotel
