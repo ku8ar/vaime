@@ -3,10 +3,13 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Gruzja I Azerbejdżan
-description: Gruzja i Azerbejdżan - super kraje
-discount: 0
-discountTitle: ""
+title: Objazdówka po Kaukazie - Gruzja I Azerbejdżan
+description: kraje gór, morza, wina i ognia
+informations: Najlepsza objazdówka w najlepszej cenie! Poznajcie skarby Gruzji i
+  Azerbejdżanu razem z nami. Przy rezerwacji do 31 lipca 2020 r. włącznie,
+  obowiązuję zniżka -10% od podanej ceny na osobę.  Zapraszamy!
+discount: 10
+discountTitle: first minute zniżka
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
     endDate: 2021-09-26T20:45:50.302Z
@@ -17,7 +20,7 @@ thumb: /img/p1020264.jpg
 images:
   - image: /img/p1020327-1-.jpg
     name: Baku
-map: /img/projekt-bez-tytułu-5-.png
+map: /img/azerbejdzan.png
 schedule:
   - day: "1"
     place: Kutaisi - Tbilisi
@@ -76,7 +79,7 @@ schedule:
       22.09 - Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy
       kraju. Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś),
       dojeżdżamy do zabytkowej wioski Hinalug, która znajduje się na wys. 2000
-      m. Jest to jedna z najstarszych osad w kraju, gdzie ludzie żyją już od
+      m. Jest to jedna z najstarszych osad na Kaukazie, stale zamieszkała od
       5000 lat. Po drodze towarzyszyć będa nam niesamowite widoki górskie.
       Powrót do Baku, po drodze postój przy zbiorowej mogile ofiar
       bolszewickiego ludobójstwa, znanego jako "Marcowe Dni" (1918 r.) w
@@ -92,13 +95,13 @@ schedule:
       Dojeżdżamy do Szeki, uroczego średniowiecznego miasteczka, które idealnie
       nadaje się na samodzielne odkrywanie lokalnej kultury; Szeki szczególnie
       znane z przepysznej baklawy, więc dla miłośników tego wschodniego
-      przysmaku będzie to punk doskonały. Zwiedzanie albańskiego kościoła z I w.
-      Nocleg i obiadokolacja w Szeki. 
+      przysmaku będzie to punkt doskonały. Zwiedzanie albańskiego kościoła z I
+      w. Nocleg i obiadokolacja w Szeki. 
   - day: "8"
     place: Szeki - Lagodechi - Telawi
     text: >
       24.09 - Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość
-      zakupów lokalnych smakołyków. Powoli żegnamy się z Azerbajdżanem - wyjazd
+      zakupów lokalnych przysmaków. Powoli żegnamy się z Azerbajdżanem - wyjazd
       malowniczą drogą górską do granicy gruzińskiej, przekroczenie granicy w
       Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
       do Telawi, obiadokolacja, nocleg.  
@@ -119,12 +122,12 @@ schedule:
     place: Tbilisi - Kutaisi
     text: 26.09 - Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po
       krótkim wypoczynku udajemy się na zwiedzanie najważniejszych zabytków
-      miasta Kutaisi. Zobaczymy akademię Gelati, gdzie jeszcze w XI-XII wieku
-      tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw. Matki
-      Boskiej, która słynna jest z przepięknych kolorowych fresków, a na koniec
-      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
-      Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna obiadokolacja i
-      nocleg w Kutaisi.
+      miasta Kutaisi. Zobaczymy akademię Gelati (UNESCO), gdzie jeszcze w XI-XII
+      wieku tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw.
+      Matki Boskiej, która słynna jest z przepięknych kolorowych fresków, a na
+      koniec odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla
+      Gruzji. Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna
+      obiadokolacja i nocleg w Kutaisi.
   - day: "11"
     place: Transfer na lotnisko
     text: 27.09 - Śniadanie, transfer na lotnisko, wylot.
@@ -136,7 +139,7 @@ priceContains:
   - text: Śniadania i obiadokolacje
     icon: restaurant
   - text: Bilety wstępu
-    icon: cinemaTicket
+    icon: ticket
   - text: Transport 4x4 w Kazbegi i parku narodowym Gobustan (jeśli pozwoli pogoda)
     icon: offroad
   - text: Przejazd kolejką w Tbilisi
@@ -148,7 +151,7 @@ priceContains:
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
   - text: Bilet na pociąg relacji Tbilisi - Baku
-    icon: null
+    icon: map
 priceNotContains:
   - text: Biletów lotniczych
     icon: plane
@@ -166,5 +169,5 @@ priceNotContains:
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Azerbejdżanie - AZN (azerskie manaty), 1 AZN = 2,33 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AZN z bankomatu
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 20 AZN w Azerbejdżanie)
