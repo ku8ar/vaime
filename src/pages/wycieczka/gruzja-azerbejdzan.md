@@ -78,7 +78,7 @@ schedule:
     text: >+
       22.09 - Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy
       kraju. Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś),
-      dojeżdżamy do zabytkowej wioski Hinalug, która znajduje się na wys. 2000
+      dojeżdżamy do zabytkowej wioski Chinalug, która znajduje się na wys. 2000
       m. Jest to jedna z najstarszych osad na Kaukazie, stale zamieszkała od
       5000 lat. Po drodze towarzyszyć będa nam niesamowite widoki górskie.
       Powrót do Baku, po drodze postój przy zbiorowej mogile ofiar
