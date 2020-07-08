@@ -4,6 +4,12 @@ active: true
 minSeats: 1
 title: Gruzińskie wakacje
 description: Wakacje w gruzji? czemu nie!
+informations: Nasza lipcowa objazdówka pomoże Wam odkryć najpopularniejsze
+  miejscówki w Gruzji i może zainspirować się na odkrycie kolejnych regionów i
+  zabytków. Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję zniżka -15%
+  od podanej ceny na osobę. Zapraszamy!
+discount: 15
+discountTitle: first minute zniżka
 terms:
   - price: 530
     seats: 15
@@ -43,7 +49,7 @@ schedule:
     place: "07.07 - Tbilisi – Kutaisi "
     text: "Śniadanie. Wyjazd do Gruzji Zachodniej, do miasta Kutaisi. Udajemy się na
       zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy akademię
-      Gelati, gdzie jeszcze w XI-XII wieku tłumaczyli największe dzieła
+      Gelat (UNESCO)i, gdzie jeszcze w XI-XII wieku tłumaczyli największe dzieła
       filozofii greckiej, główną cerkiew pw. Matki Boskiej, która słynna jest z
       przepięknych kolorowych fresków, a na koniec odwiedzimy grób Dawida
       Budowniczego – najbardziej wybitnego króla Gruzji. Odwiedzimy również
@@ -58,10 +64,11 @@ schedule:
       Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w Mestii.
   - day: "5"
     place: 09.07 - Mestia – Uszguli – Mestia
-    text: Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to najwyżej
-      położona osada w Europie (2200 m n.p.m.). Po spacerze po wiosce i
-      podziwianiu najwyższych szczytów kaukaskich, wrócimy do Mestii, gdzie
-      odwiedzimy Muzeum Etnograficzne. Obiadokolacja i nocleg w Mestii.
+    text: Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to jedna z
+      najwyżej położonych stale zamieszkałych osad w Europie (2200 m n.p.m.). Po
+      spacerze po wiosce i podziwianiu najwyższych szczytów kaukaskich, wrócimy
+      do Mestii, gdzie odwiedzimy Muzeum Etnograficzne. Obiadokolacja i nocleg w
+      Mestii.
   - day: "6"
     place: 10.07 - Mestia – Batumi
     text: Po śniadaniu wyjeżdżamy w kierunku wybrzeża Morza Czarnego, do
@@ -91,9 +98,9 @@ schedule:
     text: Transfer na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
-    text: Noclegi w hotelu*** w Tbilisi oraz Batumi
+    text: Noclegi w hotelu 3* w Tbilisi, Kutaisi, Batumi
   - icon: home
-    text: "Noclegi w pensjonacie w Kutaisi i Mestii "
+    text: Noclegi w pensjonacie/agroturystyce w Mestii (pokoje z łazienkami)
   - icon: cinemaTicket
     text: "Bilety wstępu "
   - icon: cableCar
@@ -118,5 +125,5 @@ priceNotContains:
 * Warunki pogodowe: w terenach górskich ok. +20°C, w terenach nizinnych ok. +32°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu  
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
