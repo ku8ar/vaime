@@ -3,9 +3,14 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Gruzja i Armenia
+title: Objazdówka po Kaukazie - Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
-discount: 0
+informations: Dwa najstarsze chrześnijąńskie kraje, pełne niesamowitych widoków,
+  pysznego jedzenia i życzliwych ludzi czekają na Was! Przy rezerwacji do 31
+  lipca 2020 r. włącznie, obowiązuję zniżka -10% od podanej ceny na osobę.
+  Zapraszamy!
+discount: 10
+discountTitle: first minute zniżka
 terms:
   - startDate: 2021-10-05T17:44:13.572Z
     endDate: 2021-10-15T17:44:13.632Z
@@ -59,7 +64,7 @@ schedule:
       którym znajdują się ministerwsta i inne rządowe budynki. Idąc dalej
       zobaczymy piękny gmach Opery oraz Kaskady. Erewańskie Kaskady liczą 572
       schodów, na pomocą których można wejść na samą górę i nacieszyć się
-      pięknem miasta. Na górę wjechać można również windą, znajdującą się w
+      pięknem miasta. Na górę wjechać można również windą, znajdującą się
       wewnątrz budynku. Wnętrza Kaskad służą miejscem ekspozycji sztuki
       współczesnej, urzędują tu Muzeum Sztuki Cafesjiana. Po zwiedzaniu centrum
       miasta udamy się do Muzeum Ludobójstwa, miesjca upamiętniającego ofiar
@@ -74,19 +79,19 @@ schedule:
       zbudowana pierwsza chrześcijańska katedra na świecie – kościół o tej samej
       nazwie. Według źródeł historycznych, budowanie kościoła zakończyło się w
       303 r. i mimo licznych zniszczeń, katedra pozostała zachowana w niemal
-      oryginalnym stani, wpisana jest na listę UNESCO. W miasteczku Wagharszapat
-      odwiedzimy również rruiny katedry Zwartnoc (VII w.), wpisanej na listę
-      światowego dziedzictwa kulturowego UNESCO. 
+      oryginalnym stanie, wpisana jest na listę UNESCO. W miasteczku
+      Wagharszapat odwiedzimy również ruiny katedry Zwartnoc (VII w.), wpisanej
+      na listę światowego dziedzictwa kulturowego UNESCO. 
 
-      Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupcó i handlarzy. Po krótkiej przerwie kontunuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru zapomocą kolejki linowej, zwanej "Skrzydła Tatewa", która jest najdłuższą kolejką świata! Podróż kolejką potrwa ok. 20 minut. Klasztor Tatev to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
+      Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
     place: Goris - Geghard - Garni - Erywań
     text: "10.10 - Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania
-      zwiedzanie dwa unikatowe zabytki: klasztoru Geghard, część którego jest
+      zwiedzamy dwa unikatowe zabytki: klasztoru Geghard, część którego jest
       wykuta w skale, a sam kościół zadziwią płaskorzeźbami i kamiennymi
       ozdobami, oraz pogańską świątynię Garni. Jest to bardzo ciekawy pomnik
       ormiańskiej architektury – jedyna pogańska świątynia, zbudowana w stylu
-      klasycznym I w. n.e., do dziś w całości zachowana. Świątynia o nazwie
+      klasycznym w I w. n.e., do dziś w całości zachowana. Świątynia o nazwie
       Garni poświęcona była bóstwu słońca Mitrze. Obiadokolacja i nocleg w
       Erywaniu."
   - day: "7"
@@ -94,8 +99,8 @@ schedule:
     text: 11.10 - Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra.
       Zwiedzanie skalnego miasta Wardzii. Jest to miasto wykute w skałach
       jeszcze w XII wieku. Kompleks składa się z około 3 tys. komnat, gdzie
-      podczas najazdów Mongołów mogło się mieścić około 60 tys. osób. Będziemy
-      chodzić po małych, wąskich komnatach i się przemieszczać przez małe
+      podczas najazdów Mongołów mogło się zmieścić około 60 tys. osób. Będziemy
+      chodzić po małych, wąskich komnatach i przemieszczać się przez małe
       tunele, dzięki czemu poczujemy klimat tego magicznego miejsca. Nocleg i
       obiadokolacja w Wardzii lub Achalcyche.
   - day: "8"
@@ -103,17 +108,17 @@ schedule:
     text: 12.10 - Śniadanie, przejazd do legendarnego uzdrowiska Bordżomi. Z
       miejscowości pochodzi słynna woda o tej samej nazwie, której będziemy
       mogli się napić prosto ze źródła podczas spaceru po bordżomskim parku
-      zdrojowym. Po zwiedzaniu Bordżomi, ruszamy do stolicy. Po drodze
-      religijnego centrum Gruzji, starej stolicy Mcchety. Miasto to jest kolebką
-      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
-      jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
-      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.).  Dojazd
-      do Tbilisi, obiadokolacja, nocleg.
+      zdrojowym. Po zwiedzaniu Bordżomi, ruszamy do stolicy. Po drodze zawitamy
+      do religijnego centrum Gruzji, starej stolicy Mcchety. Mccheta jest
+      kolebką chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto
+      chrześcijaństwo jako państwową religię. Odwiedzimy najważniejsze obiekty
+      sakralne z listy UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari
+      (VI w.).  Dojazd do Tbilisi, obiadokolacja, nocleg.
   - day: "9"
     place: Tbilisi - Bodbe - Signagi
     text: 13.10 - Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany
       jest “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie
-      pochowana jest św. Nino – apostolka gruzińskiej, która przyniosła
+      pochowana jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
       chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
       oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
       szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
@@ -129,7 +134,7 @@ schedule:
       folklorystyczynym. Nocleg w Tbilisi.
   - day: "11"
     place: Transfer na lotnisko
-    text: 15.10 -Śniadanie w formie paczek śniadaniowych, transfer na lotnisko,
+    text: 15.10 - Śniadanie w formie paczek śniadaniowych, transfer na lotnisko,
       wylot do Polski.
 priceContains:
   - text: Noclegi w hotelu*** w Tbilisi, Erywaniu
@@ -161,11 +166,11 @@ priceNotContains:
 * Trasa wycieczki: ok. 2500 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: paszport
-* Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +30°C
+* Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +28°C
 * Waluta:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AMD z bankomatu
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względy na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)
