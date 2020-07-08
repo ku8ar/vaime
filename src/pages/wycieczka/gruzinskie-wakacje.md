@@ -6,8 +6,8 @@ title: Gruzińskie wakacje
 description: Wakacje w gruzji? czemu nie!
 informations: Nasza lipcowa objazdówka pomoże Wam odkryć najpopularniejsze
   miejscówki w Gruzji i może zainspirować się na odkrycie kolejnych regionów i
-  zabytków. Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję zniżka -15%
-  od podanej ceny na osobę. Zapraszamy!
+  zabytków. Przy rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuję zniżka
+  -15% od podanej ceny na osobę. Zapraszamy!
 discount: 15
 discountTitle: first minute zniżka
 terms:
