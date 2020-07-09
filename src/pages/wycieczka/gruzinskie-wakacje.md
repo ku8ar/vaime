@@ -13,8 +13,8 @@ terms:
   - price: 530
     seats: 15
     daysCount: 8 DNI/9 NOCY
-    startDate: 2021-07-04T20:00:00.000Z
-    endDate: 2021-07-12T20:00:00.000Z
+    startDate: 2021-07-05T20:00:00.000Z
+    endDate: 2021-07-13T20:00:00.000Z
 thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
@@ -58,9 +58,10 @@ schedule:
     text: Śniadanie. Udajemy się na zwiedzanie przepięknego kanionu Martwili, gdzie
       oprócz spaceru wzdłuż kanionu, popływamy pontonami po rzece Abasza i
       będziemy mogli podziwiać całe piękno okolicznych cudów natury. Z Martwili
-      udajemy się do wysokogórskiego regionu Swaneti. Ten region wpisany na
-      listę UNESCO zadziwia niesamowitą architekturą – średniowiecznymi wieżami.
-      Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w Mestii.
+      udajemy się do wysokogórskiego regionu Swaneti. Ten region, wpisany na
+      listę UNESCO, zadziwia niesamowitą architekturą – średniowiecznymi
+      wieżami. Wieczorem spacer po miasteczku Mestia. Obiadokolacja i nocleg w
+      Mestii.
   - day: "5"
     place: 09.07 - Mestia – Uszguli – Mestia
     text: Śniadanie. Wyruszamy w kierunku magicznej wioski Uszguli, jest to jedna z
@@ -118,7 +119,7 @@ priceNotContains:
   - icon: food
     text: Dodatkowych posiłków i napojów nie zawartych w programie
 ---
-* Trasa wycieczki: ok. 1500 km
+* Trasa wycieczki: ok. 1600 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +20°C, w terenach nizinnych ok. +32°C
