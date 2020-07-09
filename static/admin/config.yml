@@ -5,6 +5,12 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dnuknsr4f
+    api_key: 722488273398413
+
 collections:
   - name: "tour"
     label: "Tour"
