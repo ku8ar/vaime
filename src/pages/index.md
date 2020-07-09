@@ -28,10 +28,6 @@ images:
     name: tbilisi
   - image: /img/ushba.jpg
     name: ushba
-  - image: /img/azerbaijan-3699442_1920.jpg
-    name: shamakhi
-  - image: /img/ancient-1997162_1920.jpg
-    name: baku
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maja Varshanidze
