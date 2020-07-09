@@ -3,12 +3,12 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Objazdówka po Kaukazie - Gruzja i Armenia
+title: Objazdówka - Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
 informations: Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków,
-  pysznego jedzenia i życzliwych ludzi czekają na Was! Przy rezerwacji do 31
-  lipca 2020 r. włącznie, obowiązuję zniżka -10% od podanej ceny na osobę.
-  Zapraszamy!
+  pysznego jedzenia i życzliwych ludzi czekają na Was! Przy rezerwacji do 15
+  sierpnia lipca 2020 r. włącznie, obowiązuję zniżka -10% od podanej ceny na
+  osobę. Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
 terms:
@@ -61,14 +61,14 @@ schedule:
       Erywań to jedno z najstarszych miast Kaukazu i całego świata, założone w
       782 roku p.n.e, do dziś pełni funkcję stolicy i największego miasta
       Armenii. Warty uwagi jest centalny plac miasta, Plac Republiki, na którym
-      znajdują się ministerwsta i inne rządowe budynki. Idąc dalej zobaczymy
-      piękny gmach Opery oraz Kaskady. Erewańskie Kaskady liczą 572 schodów, na
-      pomocą których można wejść na samą górę i nacieszyć się pięknem miasta. Na
-      górę wjechać można również windą, znajdującą się wewnątrz budynku. Wnętrza
-      Kaskad służą miejscem ekspozycji sztuki współczesnej, urzędują tu Muzeum
-      Sztuki Cafesjiana. Po zwiedzaniu centrum miasta udamy się do Muzeum
-      Ludobójstwa, miesjca upamiętniającego ofiar rzezi Ormian na początku XX
-      wieku. 
+      znajdują się ministerstwa i inne rządowe budynki. Spacerując dalej,
+      zobaczymy piękny gmach Opery oraz Kaskady. Erewańskie Kaskady liczą 572
+      schodów, na pomocą których można wejść na samą górę i nacieszyć się
+      pięknem miasta. Na górę wjechać można również schodami ruchomymi,
+      znajdującymi się wewnątrz budynku. Wnętrza Kaskad służą miejscem
+      ekspozycji sztuki współczesnej, urzęduje tu Muzeum Sztuki Cafesjiana. Po
+      zwiedzaniu centrum miasta udamy się do Muzeum Ludobójstwa, miesjca
+      upamiętniającego ofiary rzezi Ormian na początku XX wieku. 
 
       Dzień zakończymy degustacją prawdziwego ormiańskiego koniaku oraz obiadokolacją. Nocleg w Erywaniu.
   - day: "5"
@@ -80,14 +80,14 @@ schedule:
       Według źródeł historycznych, budowanie kościoła zakończyło się w 303 r. i
       mimo licznych zniszczeń, katedra pozostała zachowana w niemal oryginalnym
       stanie, wpisana jest na listę UNESCO. W miasteczku Wagharszapat odwiedzimy
-      również ruiny katedry Zwartnoc (VII w.), wpisanej na listę światowego
-      dziedzictwa kulturowego UNESCO. 
+      również ruiny katedry Zwartnoc (VII w.), również wpisanej na listę
+      UNESCO. 
 
-      Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
+      Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
     place: 10.10 - Goris - Geghard - Garni - Erywań
     text: "Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania zwiedzamy dwa
-      unikatowe zabytki: klasztoru Geghard, część którego jest wykuta w skale, a
+      unikatowe zabytki: klasztor Geghard, część którego jest wykuta w skale, a
       sam kościół zadziwią płaskorzeźbami i kamiennymi ozdobami, oraz pogańską
       świątynię Garni. Jest to bardzo ciekawy pomnik ormiańskiej architektury –
       jedyna pogańska świątynia, zbudowana w stylu klasycznym w I w. n.e., do
@@ -136,7 +136,7 @@ schedule:
     text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
       Polski.
 priceContains:
-  - text: Noclegi w hotelu*** w Tbilisi, Erywaniu
+  - text: Noclegi w hotelu 3* w Tbilisi, Erywaniu
     icon: hotel
   - text: Noclegi w agroturystyce w Wardzii/Achalcyche (pokoje z łazienkami)
     icon: home
@@ -147,7 +147,7 @@ priceContains:
   - text: Degustację wina w Kacheti
     icon: alcohol
   - text: Zwiedzanie rozlewni koniaku i degustacja w Erywaniu
-    icon: wine
+    icon: whisky
   - text: Przejazd kolejką w Tbilisi i Tatewie
     icon: cableCar
   - text: Transport 4×4 w Kazbegi
@@ -162,7 +162,7 @@ priceNotContains:
   - text: Dodatkowych posiłków i napojów nie zawartych w programie
     icon: food
 ---
-* Trasa wycieczki: ok. 2500 km
+* Trasa wycieczki: ok. 2400 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: paszport
 * Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +28°C
