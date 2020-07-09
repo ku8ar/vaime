@@ -3,13 +3,13 @@ templateKey: tour
 active: true
 minSeats: 1
 title: Święto winobrania
-description: rtweli, święto winobrania - najlepsze winogrona, wino, kuchnia
-informations: Rtweli to najważnieszy okres w życiu regionu Kacheti. Udział w
-  zbieraniu winogron, przygotowanie się do robienia pierwszego młodego wina,
-  poznanie tajemnic gruzińskiej kuchni i winiarstwa to niezapomniane przeżycia.
-  Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję zniżka -15% od
-  podanej ceny na osobę. Zapraszamy!
-discount: 0
+description: "rtweli w gruzji - winogrona, kuchnia, wino "
+informations: Rtweli, czyli winobranie, to najważnieszy okres w życiu regionu
+  Kacheti. Udział w zbieraniu winogron, przygotowanie się do robienia pierwszego
+  młodego wina, poznanie tajemnic gruzińskiej kuchni i winiarstwa to
+  niezapomniane przeżycia. Przy rezerwacji do 15 sierpnia 2020 r. włącznie,
+  obowiązuję zniżka -15% od podanej ceny na osobę. Zapraszamy!
+discount: 15
 discountTitle: first minute zniżka
 terms:
   - price: 525
@@ -75,9 +75,9 @@ schedule:
       również degustacja firmowych win, oraz możliwość zakupu alkoholi w
       firmowym sklepie. Następnie czeka na nas degustacja wina oraz bimbru
       gruzińskiego, czaczy, która odbędzie się podczas wizyty w jednej z
-      najciekawszych winnic regionu – Khareba, która ukryta w wydrążonych w
-      skale kilkukilometrowych tunelach i robi imponujące wrażenie. Po
-      degustacji wyjazd do Tbilisi, obiadokolacja, nocleg.
+      najciekawszych winnic regionu – Chareba (ხარება), która ukryta w
+      wydrążonych w skale kilkukilometrowych tunelach i robi imponujące
+      wrażenie. Po degustacji wyjazd do Tbilisi, obiadokolacja, nocleg.
   - day: "6"
     place: 13.09 - Tbilisi – Kazbegi – Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
@@ -116,7 +116,7 @@ priceContains:
   - icon: alcohol
     text: Degustacje wina
   - icon: grapes
-    text: Winobranie
+    text: Udzial w winobraniu
   - icon: coffee
     text: Warsztaty kulinarne
   - icon: offroad
