@@ -6,9 +6,10 @@ minSeats: 1
 title: Off-road po gruzińsku
 description: Przejażdżka po najpięknieszych górskich regionach - Racza i Chewi
 informations: W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
-  możecie przekonać się w tym sami! Przy rezerwacji do 31 lipca 2020 r.
-  włącznie, obowiązuję zniżka -15% od podanej ceny na osobę. Zapraszamy!
-discount: 15
+  możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
+  szczytów wiosek, rozległych dolin, świątyń w górach., wszysko połączone z
+  kosztowaniem pysznej gruzińskiej kuchni i wina.
+discount: 0
 discountTitle: first minute zniżka
 terms:
   - startDate: 2021-06-09T12:08:25.411Z
@@ -39,14 +40,14 @@ schedule:
       wjedziemy na grzbiet Nakerala, który oddziela regiony Imereti i Racza i
       zatrzymamy się na przełęczy Cchradżwari (gruz. Dziewięć Krzyży) Aby dojść
       na samą górę, udamy się na krótki trekking (ok. 20-25 min) i ostatecznie
-      znajdziemy się przy dziewięciu rozstawionych na skale krzyżach. Na miejscy
+      znajdziemy się przy dziewięciu rozstawionych na skale krzyżach. Na miejscu
       dowiemy się, jaką legendę kryje to miejsce i nacieszymy się cudownymi
       widokami.  Nasza dalsza droga prowadzi wzdłuż malowniczego jeziora Szaori
-      (1132 m). Po drodze zwiedzanie dwóch perełek gruzińskiej architektury
-      sakralnej - katedry Nikorcminda XI. w, która znana jest ze swoich bogato
-      ozdobnych płaskorzeźb na fasadach i fresków wewnątrz katedry; oraz cerkwi
-      Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka Ambrolauri,
-      obiadokolacja, nocleg.
+      (1132 m n.p.m.). Po drodze zwiedzanie dwóch perełek gruzińskiej
+      architektury sakralnej - katedry Nikorcminda XI. w, która znana jest ze
+      swoich bogato ozdobnych płaskorzeźb na fasadach i fresków wewnątrz
+      katedry; oraz cerkwi Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka
+      Ambrolauri, obiadokolacja, nocleg.
   - day: "3"
     place: 11.06 - Ambrolauri - Utsera - Ghebi - Oni
     text: Śniadanie, wykwaterowanie z hotelu. Nasz off-road kontynuujemy w kierunku
@@ -136,7 +137,7 @@ schedule:
     place: 18.06 - Transfer na lotnisko
     text: Śniadanie, transfer na lotnisko, wylot do Polski.
 priceContains:
-  - text: Nocleg w hotelach *** w Tbilisi, Kutaisi
+  - text: Nocleg w hotelach 3* w Tbilisi, Kutaisi
     icon: hotel
   - text: "Nocleg w agroturystykach w regionie Racza i Kazbegi "
     icon: home
