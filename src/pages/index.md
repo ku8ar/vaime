@@ -32,10 +32,6 @@ images:
     name: ateshga
   - image: /img/p1020211.jpg
     name: baku
-  - image: /img/p1020266.jpg
-    name: baku meczet
-  - image: /img/p1020332-1-.jpg
-    name: bulwar baku
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maja Varshanidze
