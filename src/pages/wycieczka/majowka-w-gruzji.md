@@ -2,13 +2,12 @@
 templateKey: tour
 active: true
 minSeats: 1
-title: "Majówka w Gruzji"
+title: Majówka w Gruzji
 description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
-informations: Nasza majówka to doskonałe połączenie najbardziej popularnych
+informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
   atrakcji turystycznych Gruzji z nieodkrytymi miejscówkami. Wystarczy tylko
   trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki - widoki,
-  kuchnię, gościnność. Przy rezerwacji do 31 lipca 2020 r. włącznie, obowiązuję
-  zniżka -15% od podanej ceny na osobę. Zapraszamy!
+  kuchnię, gościnność. "
 discount: 0
 discountTitle: First Minute Zniżka
 terms:
@@ -101,7 +100,7 @@ schedule:
     text: Śniadanie, przejazd na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
-    text: Noclegi w hotelu*** w Tbilisi, Batumi, Kutaisi
+    text: Noclegi w hotelu 3* w Tbilisi, Batumi, Kutaisi
   - icon: home
     text: Nocleg w agroturystyce w miejscowości Keda (wspólne łazienki)
   - icon: cinemaTicket
