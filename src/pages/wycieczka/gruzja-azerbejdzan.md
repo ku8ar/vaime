@@ -4,15 +4,17 @@ active: true
 oneDay: false
 minSeats: 1
 title: Objazdówka - Gruzja I Azerbejdżan
-description: kraje gór, morza, wina i ognia
-informations: Najlepsza objazdówka w najlepszej cenie! Poznajcie skarby Gruzji i
-  Azerbejdżanu razem z nami. Przy rezerwacji do 15 sierpnia 2020 r. włącznie,
-  obowiązuję zniżka -10% od podanej ceny na osobę.  Zapraszamy!
+description: kraje gór, morza, wina i pysznej kuchni
+informations: Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze
+  więcej różnic - kulturowych , religijnych czy gastronimicznych. Nasza
+  objazówka pozwoli na bliższe poznanie skarbów Gruzji i Azerbejdżanu. Przy
+  rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuję zniżka -10% od podanej
+  ceny na osobę.  Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
 terms:
-  - startDate: 2021-09-16T20:45:50.268Z
-    endDate: 2021-09-26T20:45:50.302Z
+  - startDate: 2021-09-17T20:45:50.268Z
+    endDate: 2021-09-27T20:45:50.302Z
     daysCount: 10 DNI/11 NOCY
     seats: 15
     price: 735
@@ -58,21 +60,21 @@ schedule:
     place: 20.09 - Baku
     text: "Dojazd do Baku, transfer do hotelu, wypoczynek. Po śniadaniu zwiedzanie
       Baku: Icheri Sheher - stara część miasta, pałac Szirwan Szacha,
-      Karawanserai, Wieża Dziewicza. Spacer po centralnej ulicy Nizami oraz
-      placu Fontann. Zwiedzamy zakończymy wizytą w centrum Heydara Aliyeva.
+      Karawanseraj, Wieża Dziewicza. Spacer po centralnej ulicy Nizami oraz
+      placu Fontann. Zwiedzanie zakończymy wizytą w centrum Heydara Aliyeva.
       Nocleg w Baku."
   - day: "5"
     place: "21.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
     text: >
       Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej góry
       Janar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
-      zwiedzanie świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom ognia”,
+      zwiedzanie świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom Ognia”,
       teren na którym znajduje się świątynia, przez wiele wieków było znane,
       jako miejsce wydobycia się na powierzchnię ziemi gazu ziemnego, gdzie
       płonęły „wieczne ognie”. Na tym miejscu we wczesnym średniowieczu
       znajdowała się zoroastriańska świątynia ognia.
 
-      Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane pod nazwą Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
+      Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane jako Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
     place: 22.09 - Baku - wioska Hinalug - Baku
     text: >+
@@ -132,14 +134,14 @@ schedule:
     place: 27.09 - Transfer na lotnisko
     text: Śniadanie, transfer na lotnisko, wylot.
 priceContains:
-  - text: Noclegi w hotelach 3* w Tbilisi, Baku, Kutaisi
+  - text: Noclegi w hotelach 3* w Tbilisi, Baku, Szeki, Kutaisi
     icon: hotel
-  - text: Nocleg w pensjonacie/agroturystyce w Szeki, Telawi (pokoje z łazienkami)
+  - text: Nocleg w pensjonacie/agroturystyce w Telawi (pokoje z łazienkami)
     icon: home
   - text: Śniadania i obiadokolacje
     icon: restaurant
   - text: Bilety wstępu
-    icon: ticket
+    icon: cinemaTicket
   - text: Transport 4x4 w Kazbegi i parku narodowym Gobustan (jeśli pozwoli pogoda)
     icon: offroad
   - text: Przejazd kolejką w Tbilisi
@@ -151,7 +153,7 @@ priceContains:
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
   - text: Bilet na pociąg relacji Tbilisi - Baku
-    icon: map
+    icon: train
 priceNotContains:
   - text: Biletów lotniczych
     icon: plane
@@ -163,7 +165,7 @@ priceNotContains:
 * Trasa wycieczki: ok. 3000 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: paszport oraz e-visa (<https://evisa.gov.az/>)
-* Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30-35°C
+* Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30-32°C
 * Waluta:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
