@@ -16,7 +16,7 @@ terms:
     endDate: 2021-06-18T12:08:25.446Z
     daysCount: 10 DNI/9 NOCY
     seats: 15
-    price: 500
+    price: 510
 thumb: /img/img_20180718_135553.jpg
 images:
   - image: /img/img_20180709_182231.jpg
