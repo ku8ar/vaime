@@ -65,7 +65,7 @@ const DiscountContent = styled.div`
   align-items: flex-end;
 `
 
-const triangleSize = '8.5rem'
+const triangleSize = '9rem'
 
 const Triangle = styled.div`
   position: absolute;
@@ -73,7 +73,7 @@ const Triangle = styled.div`
   right: 0;
   width: 0; 
   height: 0; 
-  top: -3rem;
+  top: -4rem;
   right: -7rem;
   border-left: ${triangleSize} solid transparent;
   border-right: ${triangleSize} solid transparent;

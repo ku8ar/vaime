@@ -1,26 +1,10 @@
 import * as React from "react"
 
-function SvgComponent({size}) {
+function SvgComponent({size, ...props}) {
   return (
-    <svg height={size} viewBox="0 0 50 50" width={size}>
-      <path fill="none" d="M0 0h50v50H0z" />
-      <circle cx={43} cy={21} r={2} />
-      <path
-        d="M40 15V1H10v14M40 29v20H10V29h30z"
-        fill="none"
-        stroke="#000"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={2}
-      />
-      <path
-        d="M10 40H3a2 2 0 01-2-2V17a2 2 0 012-2h44a2 2 0 012 2v21a2 2 0 01-2 2h-7M35 35H15M31 39H15M35 43H15"
-        fill="none"
-        stroke="#000"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={2}
-      />
+    <svg height={size} viewBox="0 0 32 32" width={size} {...props}>
+      <path d="M10 24h10v2H10v-2zM8 2h16v4h2V2c0-1.103-.896-2-2-2H8a2 2 0 00-2 2v4h2V2zM10 20h12v2H10v-2z" />
+      <path d="M30 8H2a2 2 0 00-2 2v12a2 2 0 002 2h4v6a2 2 0 002 2h16a2 2 0 002-2v-6h4a2 2 0 002-2V10c0-1.104-.897-2-2-2zm-6 22H8V18h16v12zm4-16a2 2 0 110-4 2 2 0 010 4z" />
     </svg>
   )
 }

@@ -5,8 +5,11 @@ oneDay: false
 minSeats: 1
 title: Objazdówka - Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
-informations: Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków,
-  pysznego jedzenia i życzliwych ludzi czekają na Was! Przy rezerwacji do 15
+informations: >
+  Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków,
+  pysznego jedzenia i życzliwych ludzi czekają na Was!
+
+  Przy rezerwacji do 15
   sierpnia lipca 2020 r. włącznie, obowiązuję zniżka -10% od podanej ceny na
   osobę. Zapraszamy!
 discount: 10

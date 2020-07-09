@@ -4,10 +4,13 @@ active: true
 minSeats: 1
 title: Święto winobrania
 description: "rtweli w gruzji - winogrona, kuchnia, wino "
-informations: Rtweli, czyli winobranie, to najważnieszy okres w życiu regionu
+informations: >
+  Rtweli, czyli winobranie, to najważnieszy okres w życiu regionu
   Kacheti. Udział w zbieraniu winogron, przygotowanie się do robienia pierwszego
   młodego wina, poznanie tajemnic gruzińskiej kuchni i winiarstwa to
-  niezapomniane przeżycia. Przy rezerwacji do 15 sierpnia 2020 r. włącznie,
+  niezapomniane przeżycia.
+
+  Przy rezerwacji do 15 sierpnia 2020 r. włącznie,
   obowiązuję zniżka -15% od podanej ceny na osobę. Zapraszamy!
 discount: 15
 discountTitle: first minute zniżka

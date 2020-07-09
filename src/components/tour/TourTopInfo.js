@@ -31,7 +31,9 @@ export default (tour) => {
       {informations && (
         <SubInfoWrapper>
           <Thumb data={thumbData} />
-          <Info>{informations}</Info>
+          <InfoWrapper>
+            {(informations || '').split("\n").map((line, i) => <Info key={i}>{line}</Info>)}
+          </InfoWrapper>
           <DiscountStyled tour={tour} />
         </SubInfoWrapper>
       )}
@@ -61,10 +63,17 @@ const SubInfoWrapper = styled.div`
   ${boxStyle}
 `
 
+const InfoWrapper = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+`
+
 const Info = styled(H6)`
   text-transform: none;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0;
   ${p => p.theme.print` margin: 0; `}
 `
 
@@ -88,6 +97,7 @@ const Buttons = styled.div`
 `
 
 const buttonStyle = css`
+  background-color: white;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
