@@ -7,7 +7,7 @@ title: Off-road po gruzińsku
 description: Przejażdżka po najpięknieszych górskich regionach - Racza i Chewi
 informations: W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
   możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
-  szczytów wiosek, rozległych dolin, świątyń w górach., wszysko połączone z
+  szczytów wiosek, rozległych dolin i świątyń w górach. Wszysko połączone z
   kosztowaniem pysznej gruzińskiej kuchni i wina.
 discount: 0
 discountTitle: first minute zniżka

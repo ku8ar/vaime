@@ -11,7 +11,7 @@ informations: >
   niezapomniane przeżycia.
 
   Przy rezerwacji do 15 sierpnia 2020 r. włącznie,
-  obowiązuję zniżka -15% od podanej ceny na osobę. Zapraszamy!
+  obowiązuje zniżka -15% od podanej ceny na osobę. Zapraszamy!
 discount: 15
 discountTitle: first minute zniżka
 terms:

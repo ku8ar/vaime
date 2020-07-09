@@ -10,7 +10,7 @@ informations: >
   pysznego jedzenia i życzliwych ludzi czekają na Was!
 
   Przy rezerwacji do 15
-  sierpnia lipca 2020 r. włącznie, obowiązuję zniżka -10% od podanej ceny na
+  sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na
   osobę. Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
