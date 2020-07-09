@@ -6,17 +6,6 @@ import { siteUrl } from './JsonLd'
 
 const absoluteUrl = url => url ? `${siteUrl}${url}` : url
 
-const hotJar = `
-(function(h,o,t,j,a,r){
-              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-              h._hjSettings={hjid:1856509,hjsv:6};
-              a=o.getElementsByTagName('head')[0];
-              r=o.createElement('script');r.async=1;
-              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-              a.appendChild(r);
-          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-`
-
 const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
   const pageUrl = absoluteUrl(slug)
   const image = absoluteUrl(path('childImageSharp.fixed.src', seoImage))
@@ -24,13 +13,7 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
   const height = absoluteUrl(path('childImageSharp.fixed.height', seoImage))
 
   return (
-    <Helmet script={[
-      {
-        type: 'text/javascript', 
-        async: true,
-        innerHTML: hotJar
-      }
-    ]}>
+    <Helmet>
       <html lang="pl-PL" />
       <title>{`${title} ${seoTitle}`}</title>
       <meta name="description" content={description} />

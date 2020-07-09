@@ -47,7 +47,7 @@ const DiscountText = styled(P)`
   text-transform: uppercase;
   text-align: end;
   margin-bottom: .5rem;
-  font-size: 13px;
+  font-size: 14px;
 `
 
 const DiscountWrapper = styled.div`

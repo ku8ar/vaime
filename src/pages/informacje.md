@@ -9,8 +9,7 @@ services:
   - title: Vaime Travel
     text: Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną
       Odpowiedzialnością, która zajmuje się organizacją różnego rodzaju
-      wycieczek obiazdowych po Gruzji i Armeni, a wkrótce również po
-      Azerbejdżanie.
+      wycieczek obiazdowych po Gruzji, Armenii i Azerbejdżanie.
     icon: logo
   - title: Bilety lotnicze
     text: "Zakup biletów lotniczych pozostawiamy Wam, ale od momentu przylotu aż do
