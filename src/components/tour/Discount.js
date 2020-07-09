@@ -56,6 +56,7 @@ const DiscountWrapper = styled.div`
   top: 3rem;
   display: flex;
   border-radius: .5rem;
+  ${p => p.theme.print` display: none; `}
 `
 
 const DiscountContent = styled.div`
