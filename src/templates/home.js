@@ -1,5 +1,5 @@
 import React from 'react'
-import { path, sortBy, pipe, filter, head, prop, reverse, not, map, uniq, join } from 'rambda'
+import { path, sortBy, pipe, filter, head, prop, reverse, not, map, uniq, join, groupBy } from 'rambda'
 import { graphql } from 'gatsby'
 import { calcYear } from '../utils/date'
 import Cookies from '../components/Cookies'
@@ -18,6 +18,13 @@ import Reviews from '../components/home/Reviews'
 import styled from 'styled-components'
 import JsonLd, { siteUrl } from '../components/custom/JsonLd'
 
+const getIsOneDay = path(['node', 'frontmatter', 'oneDay'])
+const getIsMultiDay = pipe(getIsOneDay, not)
+const getTourYear = pipe(
+  path(['node', 'frontmatter', 'terms', 0, 'startDate']),
+  calcYear
+)
+
 // @TODO: put into graphql
 const isTourInSameYear = pipe(
   path(['node', 'frontmatter', 'terms']),
@@ -31,29 +38,15 @@ const isTourInSameYear = pipe(
 
 const sortTours = pipe(
   filter(isTourInSameYear),
-  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp'])),
-  reverse
+  sortBy(path(['node', 'frontmatter', 'terms', 0, 'timestamp']))
 )
 
-const filterMultiDayTours = filter(
-  pipe(
-    path(['node', 'frontmatter', 'oneDay']),
-    not
-  )
+const getMutliDayTourMap = pipe(
+  filter(getIsMultiDay),
+  groupBy(getTourYear)
 )
 
-const getTourYears = pipe(
-  map(path(['node', 'frontmatter', 'terms', 0, 'startDate'])),
-  map(calcYear),
-  uniq,
-  join(' / ')
-)
-
-const filterOneDayTours = filter(
-  pipe(
-    path(['node', 'frontmatter', 'oneDay']),
-  )
-)
+const filterOneDayTours = filter(getIsOneDay)
 
 const Title = styled(H1)`
   opacity: 0;
@@ -63,11 +56,8 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
   const HtmlComponent = contentComponent || Content
 
   const _tours = sortTours(tours)
-  const _multiDayTours = filterMultiDayTours(_tours)
+  const _multiDayToursMap = getMutliDayTourMap(_tours)
   const _oneDayTours = filterOneDayTours(_tours)
-
-  const tourYears = getTourYears(_tours)
-  const tourTitle = tourYears ? `Oferty ${tourYears}` : 'Brak ofert'
 
   return (
     <Page>
@@ -75,19 +65,23 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
         <Title>{title}</Title>
       </Hero>
       <InfoBelt />
-      {_multiDayTours.length ? (
-        <Section title={tourTitle}>
-          <Grid>
-            {_multiDayTours.map(({ node }) => (
-              <TourTile
-                key={node.id}
-                tour={node.frontmatter}
-                slug={node.fields.slug}
-              />
-            ))}
-          </Grid>
-        </Section>
-      ) : null}
+      {
+        Object.entries(_multiDayToursMap || {}).map(
+          ([year, list]) => (
+            <Section key={year} title={`Oferty ${year}`}>
+              <Grid>
+                {(list || []).map(({ node }) => (
+                  <TourTile
+                    key={node.id}
+                    tour={node.frontmatter}
+                    slug={node.fields.slug}
+                  />
+                ))}
+              </Grid>
+            </Section>
+          )
+        )
+      }
       {_oneDayTours.length ? (
         <Section title={"Wycieczki jednodniowe"}>
           <Grid>
@@ -177,6 +171,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            discount
+            discountTitle
             terms {
               startDate(formatString: "YYYY-MM-DD")
               timestamp: startDate(formatString: "x")

@@ -28,13 +28,14 @@ const LeftColumn = styled(Column)`
   `}
 `
 
-export const TourTemplate = ({ description, informations, schedule, html, contentComponent, map, slug, ...props }) => {
+export const TourTemplate = ({ schedule, html, contentComponent, map, ...props }) => {
   const HtmlComponent = contentComponent || Content
+
   return (
     <TourPage>
       <HeroTour {...props} />
       <View>
-        <TourTopInfo description={description} informations={informations} thumb={props.thumb} slug={slug} />
+        <TourTopInfo {...props} />
         <Grid>
           <Column size={70}>
             <Section>
@@ -104,6 +105,9 @@ export const pageQuery = graphql`
         minSeats
         title
         description
+        discount
+        discountTitle
+        informations
         terms {
           startDate(formatString: "YYYY-MM-DD")
           endDate(formatString: "YYYY-MM-DD")
@@ -112,7 +116,6 @@ export const pageQuery = graphql`
           price
           seats
         }
-        description
         schedule {
           day
           place

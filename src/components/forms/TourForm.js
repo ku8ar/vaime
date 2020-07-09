@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
+import * as Sentry from '@sentry/react'
 import { path, pipe, defaultTo, head, propOr, toLower, includes, prop } from 'rambda'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
@@ -10,6 +11,7 @@ import Form from '../field/Form'
 import FieldSection from '../field/FieldSection'
 import TourInfo from '../field/TourInfo'
 import { calcDate } from '../../utils/date'
+import { getDiscountPrice } from '../../utils/selectors'
 
 const validateEmail = email => {
   var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
@@ -47,7 +49,8 @@ const getOneDayEndDate = pipe(
 )
 
 // @TODO: this form looks like shit. Refactor it
-export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) => {
+export default tour => {
+  const { title, thumb, oneDay, minSeats, terms, onClose, schedule } = tour
   const [values, setValues] = useState({
     date: 0
   })
@@ -126,8 +129,10 @@ export default ({ title, thumb, oneDay, minSeats, terms, onClose, schedule }) =>
       setIsSubmitting(true)
       const { date, adults, ...tourDetails } = values
       const { startDate, endDate, price } = terms[date] || {}
-      const priceForAll = price * adults
+      const discountPrice = getDiscountPrice(tour, price)
+      const priceForAll = discountPrice * adults
       const body = { ...tourDetails, adults, startDate, endDate, title, price: priceForAll, date: startDate ? calcDate(startDate, endDate) : date, oneDay, fromTbilisi }
+      Sentry.captureException(body)
       fetch("/.netlify/functions/send-tour-email", {
         method: 'POST',
         headers: {

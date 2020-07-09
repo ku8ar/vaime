@@ -101,12 +101,7 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        debug: false,
-      },
-    },
+    `gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

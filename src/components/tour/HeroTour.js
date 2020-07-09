@@ -1,33 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
-import { path, sort, prop, head, pipe } from 'rambda'
+import { path } from 'rambda'
 import Hero from '../Hero'
 import { calcDate, calcMonthsDate } from '../../utils/date'
 import { H1, P, Button } from '../Base'
+import { getIsTourDisabled, hasTourDiscount, getDiscountPrice } from '../../utils/selectors'
 
-const getOldestTs = pipe(
-  sort((a, b) => a.timestamp > b.timestmap),
-  head,
-  prop('timestamp')
-)
+export default (tour) => {
+  const { images, title, openReservation, terms, oneDay, minSeats } = tour
 
-const getBiggestSeats = pipe(
-  sort((a, b) => a.seats > b.seats),
-  head,
-  prop('seats')
-)
-
-export default ({ images, title, openReservation, active, terms, oneDay, minSeats }) => {
   if (!terms) {
     return null
   }
 
-  const timestamp = getOldestTs(terms)
-  const seats = getBiggestSeats(terms)
-
-  const expired = oneDay ? false : timestamp < + new Date()
-  const noSeats = seats <= 0
-  const disabled = expired || noSeats || !active
+  const disabled = getIsTourDisabled(tour)
+  const hasDiscount = hasTourDiscount(tour)
 
   return (
     <Hero images={images}>

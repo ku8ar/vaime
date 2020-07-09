@@ -4,8 +4,10 @@ import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
 import Image from './Image'
 import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
-import { H4, H6, buttonStyle } from './Base'
+import { H4, H6, P, buttonStyle } from './Base'
 import Heart from './home/Heart'
+import Discount from './tour/Discount'
+import { getDiscountPrice } from '../utils/selectors'
 
 const getOldestTs = pipe(
   sort((a, b) => a.timestamp > b.timestmap),
@@ -49,7 +51,7 @@ const getYear = pipe(
 export default ({ slug, tour }) => {
   if (!tour) return null
 
-  const { title, thumb, active, terms, oneDay } = tour
+  const { title, thumb, active, discount, terms, oneDay } = tour
 
   if (!terms) {
     return null
@@ -68,6 +70,9 @@ export default ({ slug, tour }) => {
   const noSeats = seats <= 0
   const disabled = expired || noSeats || !active
 
+  const hasDiscount = !disabled && !!discount
+  const discountPrice = getDiscountPrice(tour, price)
+
   return (
     <LinkWrapper to={slug} title={title}>
       <Top>
@@ -78,30 +83,44 @@ export default ({ slug, tour }) => {
           </TourDates>
           <TourButton>Więcej</TourButton>
           {disabled && <Outdated>WYPRZEDANE</Outdated>}
+          <Discount tour={tour} />
         </TourContent>
       </Top>
       <BottomLabel>
         <H6>{title}</H6>
         <TourColumn>
           <Heart slug={slug} />
-          <Price color='colorPrimary'>cena {price} EUR</Price>
+          <Price color='colorPrimary'>cena <RegularPrice hasDiscount={hasDiscount}>{price} EUR</RegularPrice></Price>
+          {hasDiscount && <DiscountPrice color='colorPrimary'>{discountPrice} EUR</DiscountPrice>}
         </TourColumn>
       </BottomLabel>
     </LinkWrapper>
   )
 }
 
+
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
 
 const Price = styled(H6)`
   font-weight: ${p => p.theme.weightNormal};
+  margin: 0;
+`
+
+const RegularPrice = styled.span`
+  color: ${p => p.theme.colorPrimary};
+  text-decoration: ${p => p.hasDiscount ? 'line-through' : 'none'};
+`
+
+const DiscountPrice = styled(H6)`
+  font-weight: ${p => p.theme.weightNormal};
 `
 
 const LinkWrapper = styled(Link)`
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 22rem;
-  height: 22rem;
+  width: 20rem;
+  height: 20rem;
   box-shadow: 0 2px 4px 0 rgba(23,27,30,.1);
   border-radius: ${props => props.theme.radiusSmall};
   margin: 2rem 1rem 1rem 2rem;

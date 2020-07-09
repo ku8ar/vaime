@@ -22,6 +22,8 @@ import grapes from './grapes'
 import healthcare from './healthcare'
 import coffee from './coffee'
 import restaurant from './restaurant'
+import train from './train'
+import whisky from './whisky'
 
 const IconWrapper = styled.div`
   height: 2rem;
@@ -50,7 +52,9 @@ const types = {
   grapes,
   healthcare,
   coffee,
-  restaurant
+  restaurant,
+  train,
+  whisky
 }
 
 const Icon = ({ icon, className, fill, size }) => {

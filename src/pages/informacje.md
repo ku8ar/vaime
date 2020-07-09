@@ -9,8 +9,7 @@ services:
   - title: Vaime Travel
     text: Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną
       Odpowiedzialnością, która zajmuje się organizacją różnego rodzaju
-      wycieczek obiazdowych po Gruzji i Armeni, a wkrótce również po
-      Azerbejdżanie.
+      wycieczek obiazdowych po Gruzji, Armenii i Azerbejdżanie.
     icon: logo
   - title: Bilety lotnicze
     text: "Zakup biletów lotniczych pozostawiamy Wam, ale od momentu przylotu aż do
@@ -104,6 +103,12 @@ qa:
       Azerbejdżanu, przylecieć trzeba na paszport, gdyż polskie dowody osobiste
       akceptuje tylko Gruzja, ale nie inne kaukaskie kraje. 
     question: "Jakie dokumenty są wymagane przy przekroczeniu granicy? "
+  - answer: >-
+      Obywatele UE mogą wjeżdżać i przebywać w Gruzji i Armenii w celach
+      turystycznych bez jakiejkolwiek wizy. 
+
+      Azerbejdżan natomiast wynaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet, płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
+    question: Czy jest potrzebna wiza?
   - answer: >
       Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi
       z: Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku już z
@@ -113,6 +118,7 @@ qa:
 
       Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
     question: Gdzie znaleźć tanie połączenia do Gruzji?
+grid: []
 carousel: null
 contact: false
 showFlights: true

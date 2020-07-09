@@ -5,12 +5,14 @@ import Print from '../../icons/buttons/print'
 import { H2, H6, boxStyle } from '../Base'
 import { siteUrl } from '../custom/JsonLd'
 import Image from '../Image'
+import Discount from './Discount'
 
 const windowGlobal = typeof window !== 'undefined' && window || {}
 
 const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u='
 
-export default ({ description, informations, thumb, slug }) => {
+export default (tour) => {
+  const { description, informations, thumb, slug } = tour
 
   const thumbData = {
     name: 'miniature',
@@ -29,12 +31,21 @@ export default ({ description, informations, thumb, slug }) => {
       {informations && (
         <SubInfoWrapper>
           <Thumb data={thumbData} />
-          <Info>{informations}</Info>
+          <InfoWrapper>
+            {(informations || '').split("\n").map((line, i) => <Info key={i}>{line}</Info>)}
+          </InfoWrapper>
+          <DiscountStyled tour={tour} />
         </SubInfoWrapper>
       )}
     </Container>
   )
 }
+
+const DiscountStyled = styled(Discount)`
+  position: relative;
+  right: auto;
+  top: auto;
+`
 
 const Thumb = styled(Image)`
   width: 4rem;
@@ -47,14 +58,22 @@ const SubInfoWrapper = styled.div`
   display: flex;
   align-items: center;
   margin-top: 1rem;
+  overflow: hidden;
   ${p => p.theme.mobile` align-items: flex-start; `}
   ${boxStyle}
+`
+
+const InfoWrapper = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
 `
 
 const Info = styled(H6)`
   text-transform: none;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0;
   ${p => p.theme.print` margin: 0; `}
 `
 
@@ -78,6 +97,7 @@ const Buttons = styled.div`
 `
 
 const buttonStyle = css`
+  background-color: white;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
