@@ -15,7 +15,7 @@ informations: >
 discount: 15
 discountTitle: first minute zniżka
 terms:
-  - price: 525
+  - price: 530
     seats: 15
     daysCount: 7 DNI/8 NOCY
     startDate: 2021-09-08T14:24:50.666Z

@@ -29,4 +29,4 @@ export const hasTourDiscount = ({ discount, ...tour }) => {
   return !disabled && !!discount
 }
 
-export const getDiscountPrice = ({ discount }, price) =>  (100 - discount) / 100 * price
+export const getDiscountPrice = ({ discount }, price) => ~~((100 - discount) / 100 * price)
