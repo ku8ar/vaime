@@ -8,6 +8,8 @@ images:
     name: Batumi
   - image: /img/560.jpg
     name: Kanion Martwili
+  - image: /img/p1020327-1-.jpg
+    name: baku
   - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
   - image: /img/cathedral-1781012-1-.jpg
@@ -28,6 +30,8 @@ images:
     name: tbilisi
   - image: /img/ushba.jpg
     name: ushba
+  - image: /img/p1020264.jpg
+    name: baku
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maja Varshanidze
