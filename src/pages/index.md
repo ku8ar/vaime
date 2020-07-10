@@ -24,6 +24,8 @@ images:
     name: rabati
   - image: /img/mountains-4919849.jpg
     name: gory
+  - image: /img/azerbaijan-3699444_1920-1-.jpg
+    name: shamakhi
   - image: /img/panorama-3363874.jpg
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
