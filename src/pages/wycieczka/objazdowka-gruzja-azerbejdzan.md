@@ -21,7 +21,7 @@ terms:
     price: 745
 thumb: /img/p1020318.jpg
 images:
-  - image: /img/jhjh.jpg
+  - image: /img/ancient-1997162_1920-1-.jpg
     name: Baku
 map: /img/xinaliq-hinalug-.png
 schedule:
