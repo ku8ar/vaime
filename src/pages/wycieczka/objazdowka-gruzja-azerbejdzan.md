@@ -6,12 +6,11 @@ minSeats: 1
 title: Objazdówka - Gruzja I Azerbejdżan
 description: kraje gór, morza, wina i pysznej kuchni
 informations: >
-  Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze
-  więcej różnic - kulturowych, religijnych czy gastronimicznych. Nasza
-  objazówka pozwoli na bliższe poznanie skarbów Gruzji i Azerbejdżanu.
+  Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze więcej różnic -
+  kulturowych, religijnych czy gastronimicznych. Nasza objazówka pozwoli na
+  bliższe poznanie skarbów Gruzji i Azerbejdżanu.
 
-  Przy rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej
-  ceny na osobę.  Zapraszamy!
+  Przy rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
 terms:
@@ -20,9 +19,9 @@ terms:
     daysCount: 10 DNI/11 NOCY
     seats: 15
     price: 745
-thumb: /img/p1020264.jpg
+thumb: /img/p1020318.jpg
 images:
-  - image: /img/p1020327-1-.jpg
+  - image: /img/ancient-1997162_1920-1-.jpg
     name: Baku
 map: /img/xinaliq-hinalug-.png
 schedule:

@@ -6,15 +6,18 @@ minSeats: 1
 title: Objazdówka - Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
 informations: >
-  Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków,
-  pysznego jedzenia i życzliwych ludzi czekają na Was!
+  Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków, pysznego
+  jedzenia i życzliwych ludzi czekają na Was!
 
-  Przy rezerwacji do 15
-  sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na
-  osobę. Zapraszamy!
+  Przy rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę. Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
 terms:
+  - startDate: 2021-06-08T14:29:18.146Z
+    endDate: 2020-06-18T14:29:18.670Z
+    daysCount: 10 DNI/11 NOCY
+    seats: 15
+    price: 640
   - startDate: 2021-10-05T17:44:13.572Z
     endDate: 2021-10-15T17:44:13.632Z
     daysCount: 10 DNI/11 NOCY
@@ -27,7 +30,7 @@ images:
 map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"
-    place: 05.10 - Tbilisi
+    place: Tbilisi
     text: "Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek.
       Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
       – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli nam na
@@ -37,7 +40,7 @@ schedule:
       (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w.). Kolacja
       w restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi."
   - day: "2"
-    place: 06.10 - Tbilisi - Kazbegi - Tbilisi
+    place: Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
       każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
@@ -49,7 +52,7 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: 07.10 - Tbilisi - Sewan
+    place: Tbilisi - Sewan
     text: "Po śniadaniu przejazd na granicę ormiańską, przekroczenie granicy. Na
       trasie zawitamy do klasztoru Hachpat (X w), który jest wpisany na listę
       UNESCO i łączy kilka budynków, w tym kościoły, sale muzyczne, bibliotekę
@@ -58,7 +61,7 @@ schedule:
       zwiedzanie monastyru Sewanawank (IX w.). Odpoczynek, obiadokolacja, nocleg
       nad jeziorem. "
   - day: "4"
-    place: 08.10 - Sewan - Erywań
+    place: Sewan - Erywań
     text: >-
       Śniadanie, wyjazd do Erywania. zakwaterowanie. Zwiedzanie stolicy Armenii.
       Erywań to jedno z najstarszych miast Kaukazu i całego świata, założone w
@@ -75,7 +78,7 @@ schedule:
 
       Dzień zakończymy degustacją prawdziwego ormiańskiego koniaku oraz obiadokolacją. Nocleg w Erywaniu.
   - day: "5"
-    place: 09.10 - Erywań - Eczmiadzyn - przełęcz Selim - Tatew - Goris
+    place: Erywań - Eczmiadzyn - przełęcz Selim - Tatew - Goris
     text: >-
       Śniadanie, udajemy się do miasta Wagharszapat (Eczmiadzyn). Eczmiadzyn
       znany jest jako centrum religijne Armenii, właśnie tu została zbudowana
@@ -88,7 +91,7 @@ schedule:
 
       Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
-    place: 10.10 - Goris - Geghard - Garni - Erywań
+    place: Goris - Geghard - Garni - Erywań
     text: "Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania zwiedzamy dwa
       unikatowe zabytki: klasztor Geghard, część którego jest wykuta w skale, a
       sam kościół zadziwią płaskorzeźbami i kamiennymi ozdobami, oraz pogańską
@@ -97,7 +100,7 @@ schedule:
       dziś w całości zachowana. Świątynia o nazwie Garni poświęcona była bóstwu
       słońca Mitrze. Obiadokolacja i nocleg w Erywaniu."
   - day: "7"
-    place: 11.10 - Erywań - Wardzia - Achalcyche
+    place: Erywań - Wardzia - Achalcyche
     text: Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra. Zwiedzanie
       skalnego miasta Wardzii. Jest to miasto wykute w skałach jeszcze w XII
       wieku. Kompleks składa się z około 3 tys. komnat, gdzie podczas najazdów
@@ -106,7 +109,7 @@ schedule:
       czemu poczujemy klimat tego magicznego miejsca. Nocleg i obiadokolacja w
       Wardzii lub Achalcyche.
   - day: "8"
-    place: 12.10 - Achalcyche - Bordżomi - Tbilisi
+    place: Achalcyche - Bordżomi - Tbilisi
     text: Śniadanie, przejazd do legendarnego uzdrowiska Bordżomi. Z miejscowości
       pochodzi słynna woda o tej samej nazwie, której będziemy mogli się napić
       prosto ze źródła podczas spaceru po bordżomskim parku zdrojowym. Po
@@ -117,7 +120,7 @@ schedule:
       UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.).  Dojazd
       do Tbilisi, obiadokolacja, nocleg.
   - day: "9"
-    place: 13.10 - Tbilisi - Bodbe - Signagi
+    place: Tbilisi - Bodbe - Signagi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
       jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
@@ -130,12 +133,12 @@ schedule:
       gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
       połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "10"
-    place: 14.10 - Tbilisi
+    place: Tbilisi
     text: Śniadanie w hotelu. Wolny dzień w Tbilisi, czas na spacery, zakupy
       pamiątek itd. Wieczorem pożegnalna obiadokolacja w restauracji z pokazem
       folklorystyczynym. Nocleg w Tbilisi.
   - day: "11"
-    place: 15.10 - Transfer na lotnisko
+    place: Transfer na lotnisko
     text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
       Polski.
 priceContains:
@@ -168,7 +171,10 @@ priceNotContains:
 * Trasa wycieczki: ok. 2400 km
 * Stopień trudności: łatwy
 * Potrzebne dokumenty: paszport
-* Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +28°C
+* Warunki pogodowe:
+
+  * w sezonie letnim - w terenach górskich ok. +20°C, w terenach nizinnych ok. +35°C;
+  * w sezonie jesiennym - w terenach górskich ok. +15°C, w terenach nizinnych ok. +30°C
 * Waluta:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;

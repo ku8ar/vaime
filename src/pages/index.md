@@ -1,12 +1,15 @@
 ---
 templateKey: home
 title: Wycieczki po Gruzji z Nini i Mają
-description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja, Armenia, Azerbejdżan, Kaukaz
+description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja,
+  Armenia, Azerbejdżan, Kaukaz
 images:
   - image: /img/302.jpg
     name: Batumi
   - image: /img/560.jpg
     name: Kanion Martwili
+  - image: /img/p1020327-1-.jpg
+    name: baku
   - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
   - image: /img/cathedral-1781012-1-.jpg
@@ -21,12 +24,16 @@ images:
     name: rabati
   - image: /img/mountains-4919849.jpg
     name: gory
+  - image: /img/azerbaijan-3699444_1920-1-.jpg
+    name: shamakhi
   - image: /img/panorama-3363874.jpg
     name: signagi
   - image: /img/tbilisi-2386965_1920.jpg
     name: tbilisi
   - image: /img/ushba.jpg
     name: ushba
+  - image: /img/p1020264.jpg
+    name: baku
 team:
   - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maja Varshanidze

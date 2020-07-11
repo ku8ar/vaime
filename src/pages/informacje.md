@@ -61,6 +61,20 @@ qa:
       umiarkowany. Oprócz tego, Gruzja jest otoczona górami, gdzie, wiadomo
       temperatura jest niższa, niż w regionach znajdujących się niżej.
     question: Kiedy najlepiej przyjechać do Gruzji?
+  - question: Jaki jest klimat w Gruzji?
+    answer: >-
+      Ze względu na wysoki poziom zróżnicowania terenu, klimat w Gruzji jest
+      bardzo różnorodny. W zachodniej części kraju, bliżej wybrzeża Morza
+      Czarnego występuję klimat subtropikalny, co powoduje największy w kraju
+      poziom opadów rocznie (4000 mm), natomiast wschodnia częśc kraju
+      charakteryzuje się suchycm umiarkowanym klimatem z małą ilością opadów
+      (200 mm). Temperatura w upalne lata może sięgać +35°C lub wyżej. Zimy są
+      łagodne, w nizinnych częściach Gruzji temperatura nie spada poniżej -8°C ,
+      natomiast w górach Wielkiego Kaukazu występują surowe zimy z mrozami do
+      -20°C i dużą ilością śniegu, co pozwala na funkcjonowanie w Gruzji
+      ośrodków narciarskich.
+
+      Roślinność również bardzo się różni: na zachodzie rosną figi, palmy, laury, oliwki, cytrusy, kiwi i inne rośliny śródziemnomorskie; na wschodzie natomiast uprawiane są winogrona na większą skalę. 
   - answer: >
       Weź wygodnie ubrania, zapomnij o wszystkich bzdurnych blogach, które
       mówią, że masz zakrywać ramiona czy kolana, ubierz tak, jak będzie Ci
@@ -74,17 +88,27 @@ qa:
       Nie ma znaczenia, ale pamiętaj, żeby nie wymieniać złotówek/dolarów/euro
       na gruzińskie lari w Polsce, w Gruzji jest dużo lepszy kurs. Pamiętaj
       również, że jak już bierzesz dolary, weź te nowsze – w Gruzji we
-      większości kantorów nie wymienisz dolarów starszego wydania, niż rok 2011.
+      większości kantorów nie wymienisz dolarów starszego wydania, niż rok
+      2011. 
     question: Lepiej zabierać EUR czy USD?
-  - answer: >
-      Ceny są porównywalne do Polski. Przelicznik wygląda następująco, 1 lari
-      (nasza waluta) to 1,32 zł. Cena pamiątek wariują od jednego lari do
+  - answer: >+
+      Ceny są porównywalne do Polski. Przelicznik wygląda następująco, 1 gel
+      (gruzińskie lari) to 1,32 zł. Cena pamiątek wariują od jednego lari do
       kilkunastu. Butelkę dobrego wina kupimy jakoś za 15-20 lari i wyżej.
       Piwa/kawy w mieście napijemy się za 6-7 lari. W większości miejsc można
       płacić kartą, bankomaty są szeroko dostępne. 
 
-      W naszych wycieczkach, wszystkie obiadokolacje, śniadania i bilety wstępu do wszystkich obiektów zwiedzania są wliczone w cenę.
+      Należy pamiętać, że w Gruzji nie akceptuje się innej waluty - płaci się tylko w lari (w gotówce) lub kartą. 
+
     question: Ile pieniędzy zabierać ze sobą? Czy Gruzja to tani kraj?
+  - question: Czy na miejscu można płacić kartą?
+    answer: >-
+      W dużych miastach i miejscowościach płatność karta akceptuje większość
+      obiektów gastronomicznych, noclegowych i handlowych. Kartą nie zaplacimy
+      na bazarach spożywczych, na otwartych straganach z pamiątkami, w małych
+      knajpkach przy trasie, w górskich wioskach itd.  
+
+      Większość bankomatów w Gruzji akceptuje karty polskich banków, możliwe jest wypłacenie GEL (gruzińskich lari).
   - answer: >-
       Pamiętaj, że w Gruzji jest inna flora bakteryjna i każdy żołądek reaguje
       na nią inaczej, więc weź ze sobą jakiś lek na ewentualne problemy
@@ -107,7 +131,7 @@ qa:
       Obywatele UE mogą wjeżdżać i przebywać w Gruzji i Armenii w celach
       turystycznych bez jakiejkolwiek wizy. 
 
-      Azerbejdżan natomiast wynaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet, płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
+      Azerbejdżan natomiast wymaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet, płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
     question: Czy jest potrzebna wiza?
   - answer: >
       Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi
@@ -123,4 +147,4 @@ carousel: null
 contact: false
 showFlights: true
 ---
-### **Nasza działalność**
+### **Jak działamy**
