@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { path, sort, prop, head, pipe, map, join, length } from 'rambda'
 import { Link } from 'gatsby'
 import Image from './Image'
-import { calcDate, calcYear, calcMonthsDate } from '../utils/date'
+import { calcDate, calcYearShort, calcMonthsDate } from '../utils/date'
 import { H4, H6, P, buttonStyle } from './Base'
 import Heart from './home/Heart'
 import Discount from './tour/Discount'
@@ -45,7 +45,7 @@ const getSubtitle = pipe(
 const getYear = pipe(
   head,
   prop('startDate'),
-  calcYear
+  calcYearShort
 )
 
 export default ({ slug, tour }) => {
