@@ -180,4 +180,8 @@ export default createGlobalStyle`
   .fb_dialog_mobile > .fb_dialog_content > iframe {
     margin-bottom: 4rem !important;
   }
+
+  .fb_dialog_content {
+    ${p => p.theme.print` display: none !important; `}
+  }
 `

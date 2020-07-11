@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, memo } from 'react'
 
-export default () => {
+export default memo(() => {
   useEffect(() => {
     window.fbAsyncInit = () => {
       window.FB.init({
@@ -33,4 +33,4 @@ export default () => {
         </div>
       </>
   )
-}
+})
