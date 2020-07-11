@@ -1,45 +1,44 @@
 ---
 templateKey: home
 title: Wycieczki po Gruzji z Nini i Mają
-description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja,
-  Armenia, Azerbejdżan, Kaukaz
+description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja, Armenia, Azerbejdżan, Kaukaz
 images:
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327539/302_f7c4kv.jpg
+  - image: /img/302.jpg
     name: Batumi
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327537/560_jq6lsc.jpg
+  - image: /img/560.jpg
     name: Kanion Martwili
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327610/p1000434-1-_zvhiyw.jpg
+  - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327633/cathedral-1781012-1-_j3fj7x.jpg
+  - image: /img/cathedral-1781012-1-.jpg
     name: zvartnoc
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327640/uflistsikhe-uplistsikhe-3_v1u0ew.jpg
+  - image: /img/uflistsikhe-uplistsikhe-3.jpg
     name: gori
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327652/houses-4994218_ixbehx.jpg
+  - image: /img/houses-4994218.jpg
     name: tbilisi
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327661/ararat-zdje%CC%A8cie_goeos9.jpg
+  - image: /img/ararat-zdjęcie.jpg
     name: ararat
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327670/biore_4_w4tfjt.jpg
+  - image: /img/biore_4.jpg
     name: rabati
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327678/mountains-4919849_z2ckqs.jpg
+  - image: /img/mountains-4919849.jpg
     name: gory
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327686/panorama-3363874_vlcsvf.jpg
+  - image: /img/panorama-3363874.jpg
     name: signagi
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327699/tbilisi-2386965_1920_ysik1h.jpg
+  - image: /img/tbilisi-2386965_1920.jpg
     name: tbilisi
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327708/ushba_h7zfdx.jpg
+  - image: /img/ushba.jpg
     name: ushba
 team:
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327720/97861210_842471446261339_8552919936777846784_n_elejop.jpg
+  - image: /img/97861210_842471446261339_8552919936777846784_n.jpg
     name: Maja Varshanidze
     place: ""
     text: ""
-  - image: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327727/97911474_288737142151121_4665474479445508096_n_zlvrrh.jpg
+  - image: /img/97911474_288737142151121_4665474479445508096_n.jpg
     name: Nini Karosanidze
     place: ""
     text: ""
 aboutTitle: O Nas
-aboutImage: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327740/20368762_1655758084434695_1529628163071709205_o_giduqw.jpg
-reviewImage: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327759/projekt-bez-tytu%C5%82u-2-_er1jgq.png
+aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
+reviewImage: /img/projekt-bez-tytułu-2-.png
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE
 reviews:
   - author: Barbara
@@ -143,7 +142,7 @@ reviews:
     author: Sławek
     place: Majówka, 2018
     stars: 5
-promoImage: https://res.cloudinary.com/dnuknsr4f/image/upload/v1594327772/mapka_glowna_z3lq9b.jpg
+promoImage: /img/mapka_glowna.jpg
 ---
 Witamy w naszym biurze!  \
 Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
