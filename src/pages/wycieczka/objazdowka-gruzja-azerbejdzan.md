@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 1
-title: Objazdówka - Gruzja I Azerbejdżan
+title: Gruzja I Azerbejdżan
 description: kraje gór, morza, wina i pysznej kuchni
 informations: >
   Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze więcej różnic -

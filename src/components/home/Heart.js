@@ -16,4 +16,8 @@ export default ({ slug }) => {
 
 const HeartWrapper = styled.div`
   width: 1rem;
+  height: 1rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
 `
