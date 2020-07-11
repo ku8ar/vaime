@@ -27,6 +27,7 @@ export default () => {
           attribution='setup_tool'
           page_id="329782944198629"
           theme_color="#DE261D"
+          greeting_dialog_display="hide"
           logged_in_greeting="Dzień dobry! W czym możemy pomóc? "
           logged_out_greeting="Dzień dobry! W czym możemy pomóc? ">
         </div>
