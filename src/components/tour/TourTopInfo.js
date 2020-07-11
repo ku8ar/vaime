@@ -51,6 +51,7 @@ const Thumb = styled(Image)`
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  ${p => p.theme.mobile ` display: none; `}
   ${p => p.theme.print` display: none; `}
 `
 

@@ -38,3 +38,5 @@ export const calcMonthsDate = (startDate, endDate, withYear = true) => {
 export const countDays = (startDate, endDate) => startDate && endDate ? moment.utc(endDate).diff(moment.utc(startDate), 'days') : 0
 
 export const calcYear = (date) => date ? moment.utc(date).format('YYYY') : ''
+
+export const calcYearShort = (date) => date ? moment.utc(date).format('YY') : ''
