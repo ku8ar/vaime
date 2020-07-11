@@ -176,4 +176,8 @@ export default createGlobalStyle`
   }
 
   ${fonts}
+
+  .fb_dialog_mobile > .fb_dialog_content > iframe {
+    margin-bottom: 4rem !important;
+  }
 `
