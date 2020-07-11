@@ -85,11 +85,11 @@ export default ({ slug, tour }) => {
           {disabled && <Outdated>WYPRZEDANE</Outdated>}
           <Discount tour={tour} />
         </TourContent>
+        <Heart slug={slug} />
       </Top>
       <BottomLabel>
         <H6>{title}</H6>
         <TourColumn>
-          <Heart slug={slug} />
           <Price color='colorPrimary'>cena <RegularPrice hasDiscount={hasDiscount}>{price} EUR</RegularPrice></Price>
           {hasDiscount && <DiscountPrice color='colorPrimary'>{discountPrice} EUR</DiscountPrice>}
         </TourColumn>
@@ -153,6 +153,7 @@ const BottomLabel = styled.div`
   justify-content: space-between;
   margin: ${path('theme.marginXs')} ${path('theme.marginXs')} ${path('theme.marginXs')} ${path('theme.marginXs')};
   min-height: 3.5rem;
+  align-items: baseline;
 `
 
 const TourContent = styled.div`

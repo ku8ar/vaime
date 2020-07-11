@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: true
 minSeats: 1
-title: "Stare Tbilisi - historia w nazwach "
+title: "Tbilisi - historia w nazwach "
 description: Spacer po nieznanych zakątkach starego Tbilisi
 terms:
   - startDate: 2020-07-01T18:59:13.091Z
