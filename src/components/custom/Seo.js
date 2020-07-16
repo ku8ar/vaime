@@ -39,7 +39,6 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
       <link href="https://static.doubleclick.net" rel="preconnect" crossOrigin />
       <link href="https://connect.facebook.net" rel="dns-prefetch" crossOrigin />
       <link href="https://www.google-analytics.com" rel="dns-prefetch" crossOrigin />
-      <link href="https://i.ytimg.com" rel="dns-prefetch" crossOrigin />
       <link href="https://www.instagram.com" rel="dns-prefetch" crossOrigin />
     </Helmet>
   )

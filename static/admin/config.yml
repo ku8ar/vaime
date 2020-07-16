@@ -47,6 +47,7 @@ collections:
           - {label: "About Us Content", name: "body", widget: "markdown"}
           - {label: "Review Image", name: "reviewImage", widget: image}
           - {label: "Review Video", name: "reviewVideo", widget: string}
+          - {label: "Review Video Preview", name: "reviewPreview", widget: image}
           - {label: Reviews, name: reviews, widget: list, required: false, fields: [{label: "Author", name: author, widget: string}, {label: "Place", name: place, widget: string}, {label: "Text", name: text, widget: text}, {label: "Stars", name: stars, widget: number}]}
           - {label: "Promo Image", name: "promoImage", widget: image}
 
