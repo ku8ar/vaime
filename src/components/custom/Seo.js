@@ -34,7 +34,13 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
       {image ? <meta property="og:image" content={image} /> : null}
       {width ? <meta property="og:image:width" content={width} /> : null}
       {height ? <meta property="og:image:height" content={height} /> : null}
-      <link href="https://www.instagram.com" rel="preconnect" crossOrigin />
+
+      <link href="https://googleads.g.doubleclick.net" rel="preconnect" crossOrigin />
+      <link href="https://static.doubleclick.net" rel="preconnect" crossOrigin />
+      <link href="https://connect.facebook.net" rel="dns-prefetch" crossOrigin />
+      <link href="https://www.google-analytics.com" rel="dns-prefetch" crossOrigin />
+      <link href="https://i.ytimg.com" rel="dns-prefetch" crossOrigin />
+      <link href="https://www.instagram.com" rel="dns-prefetch" crossOrigin />
     </Helmet>
   )
 }
