@@ -3,7 +3,7 @@ templateKey: page
 title: Informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:
-  - image: /img/projekt-bez-tytułu-4-.png
+  - image: /img/projekt-bez-tytułu-4-.jpg
     name: lotnisko
 services:
   - title: Vaime Travel
