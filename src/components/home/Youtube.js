@@ -1,27 +1,14 @@
 import React, { useState, useCallback } from 'react'
 import styled, { css } from 'styled-components'
+import ReactPlayer from 'react-player/youtube'
 import Image from '../Image'
 import Play from '../../icons/buttons/play'
 
 export default ({ height, reviewVideo, reviewPreview }) => {
-  const [show, onShow] = useState(false)
-  const setShow = useCallback(() => onShow(true), [])
-
-  return show ? (
-    <YoutubeIframe height={height} src={`${reviewVideo}?autoplay=1`} title='youtube' />
-  ) : (
-    <PreviewWrapper height={height} onClick={setShow}>
-      <Preview data={{image: reviewPreview, name: 'youtube'}} />
-      <PlayButton size={'8rem'} />
-    </PreviewWrapper>
-  )
+  return <Youtube height={height} url={reviewVideo} title='youtube' playing controls light={reviewPreview} playIcon={<PlayButton size={'8rem'} />} />
 }
 
 const PlayButton = styled(Play)`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   transition: all 0.3s;
 
   &:hover {
@@ -52,6 +39,6 @@ const Preview = styled(Image)`
   width: 100%;
 `
 
-const YoutubeIframe = styled.iframe`
+const Youtube = styled(ReactPlayer)`
   ${viewStyle}
 `
