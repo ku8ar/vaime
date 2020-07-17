@@ -1,2 +1,0 @@
-- remove moment
-- remove lodash 
