@@ -108,6 +108,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: 'UA-168279785-1',
         pageTransitionDelay: 100,
+        defer: true
       },
     },
     // {

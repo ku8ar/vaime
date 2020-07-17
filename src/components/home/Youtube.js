@@ -1,7 +1,6 @@
-import React, { useState, useCallback } from 'react'
+import React from 'react'
 import styled, { css } from 'styled-components'
 import ReactPlayer from 'react-player/youtube'
-import Image from '../Image'
 import Play from '../../icons/buttons/play'
 
 export default ({ height, reviewVideo, reviewPreview }) => {
@@ -25,18 +24,6 @@ const viewStyle = css`
     margin-top: 0rem;
     margin-right: 0;
   `}
-`
-
-const PreviewWrapper = styled.div`
-  height: ${p => p.height}px;
-  ${viewStyle}
-  position: relative;
-  cursor: pointer;
-`
-
-const Preview = styled(Image)`
-  height: 100%;
-  width: 100%;
 `
 
 const Youtube = styled(ReactPlayer)`
