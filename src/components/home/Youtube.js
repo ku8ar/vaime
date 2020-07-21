@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player/youtube'
 import Play from '../../icons/buttons/play'
 
 export default ({ height, reviewVideo, reviewPreview }) => {
-  return <Youtube height={height} url={reviewVideo} title='youtube' playing controls light={reviewPreview} playIcon={<PlayButton size={'8rem'} />} />
+  return <Youtube height={height} width={'100%'} url={reviewVideo} title='youtube' playing controls light={reviewPreview} playIcon={<PlayButton size={'8rem'} />} />
 }
 
 const PlayButton = styled(Play)`
