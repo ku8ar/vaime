@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Zoom from 'react-medium-image-zoom'
+import Zoom from 'react-medium-image-zoom/dist/cjs/react-medium-image-zoom.min.js'
 import 'react-medium-image-zoom/dist/styles.css'
 import Image from '../Image'
 

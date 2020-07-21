@@ -3,7 +3,7 @@ import {graphql} from 'gatsby'
 export const bannerImage = graphql`
   fragment imageFullWidth on File {
     childImageSharp {
-      fluid(maxWidth: 1920, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
+      fluid(maxWidth: 1920, quality: 90) { ...GatsbyImageSharpFluid_withWebp_noBase64 }
     }
   }
 

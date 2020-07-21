@@ -14,7 +14,7 @@ const Hero = ({ images, children, small }) => {
     {multiple && <GlobalStyle/>}
     <HeroWrapper small={small}>
       <ReactCSSTransitionGroup {...cssTransitionProps}>
-        <Img key={imgKey} style={imgStyle} data={imgData} loading={imgKey === 0 ? 'eager' : 'lazy'} />
+        <Img key={imgKey} style={imgStyle} data={imgData} loading={'eager'} fadeIn={false} />
         <HeroContent>
           {children}
         </HeroContent>
