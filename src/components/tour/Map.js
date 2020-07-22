@@ -24,7 +24,7 @@ export default ({ map }) => {
   } : null
   return (
     <Zoom wrapStyle={wrapStyle}>
-      <Map data={data} style={imgStyle} />
+      <Map data={data} style={imgStyle} loading={'eager'} />
     </Zoom>
   )
 }
