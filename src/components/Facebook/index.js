@@ -4,7 +4,7 @@ import FacebookIcon from './FacebookIcon'
 
 const Wrapper = styled.div`
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   bottom: 24px;
   right: 24px;
   height: 60px;
@@ -42,13 +42,9 @@ export default memo(() => {
 
   }, [visible])
 
-
-  if (!visible) {
-    return <Wrapper onClick={onClick}> <FacebookIcon /> </Wrapper>
-  }
-
   return (
       <>
+        {!visible && <Wrapper onClick={onClick}> <FacebookIcon /> </Wrapper>}
         <div id="fb-root"></div>
         <div className="fb-customerchat"
           attribution='setup_tool'
