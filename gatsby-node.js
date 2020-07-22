@@ -2,6 +2,14 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  if (stage === 'build-javascript') {
+    actions.setWebpackConfig({
+      devtool: false
+    })
+  }
+};
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 

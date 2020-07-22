@@ -1,9 +1,27 @@
-import React, { useEffect, memo } from 'react'
+import React, { useState, useEffect, useCallback, memo } from 'react'
+import styled from 'styled-components'
+import FacebookIcon from './FacebookIcon'
+
+const Wrapper = styled.div`
+  position: fixed;
+  z-index: 3;
+  bottom: 24px;
+  right: 24px;
+  height: 60px;
+  width: 60px;
+  border-radius: 29px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+  background: none;
+  ${p => p.theme.mobile` margin-bottom: 4rem; `}
+  ${p => p.theme.print` display: none; `}
+`
 
 export default memo(() => {
-  useEffect(() => {
-    setTimeout(() => {
+  const [visible, setVisible] = useState(false)
+  const onClick = useCallback(() => setVisible(true), [])
 
+  useEffect(() => {
+    if (visible) {
       window.fbAsyncInit = () => {
         window.FB.init({
           xfbml: true,
@@ -20,20 +38,20 @@ export default memo(() => {
         fjs.parentNode.insertBefore(js, fjs)
       }(document, 'script', 'facebook-jssdk'))
       /* eslint-enable */
+    }
 
-    }, 2000)
-
-
-  }, [])
+  }, [visible])
 
   return (
       <>
+        {!visible && <Wrapper onClick={onClick}> <FacebookIcon /> </Wrapper>}
         <div id="fb-root"></div>
         <div className="fb-customerchat"
           attribution='setup_tool'
           page_id="329782944198629"
           theme_color="#DE261D"
-          greeting_dialog_display="hide"
+          greeting_dialog_display="show"
+          greeting_dialog_delay="0"
           logged_in_greeting="Dzień dobry! W czym możemy pomóc? "
           logged_out_greeting="Dzień dobry! W czym możemy pomóc? ">
         </div>
