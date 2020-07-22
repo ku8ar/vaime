@@ -3,18 +3,25 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import Image from './Image'
 import {View} from './Base'
+import PreloadImage from './custom/PreloadImage'
 
 const Hero = ({ images, children, small }) => {
   const imgKey = useImageKey(images)
   const imgData = images && images.length && images[imgKey]
+  const nextImage = images && images.length && images[imgKey + 1]
   const multiple = images && !!images.length
 
   return (
     <>
-    {multiple && <GlobalStyle/>}
+    {multiple && (
+      <>
+        <GlobalStyle/>
+        <PreloadImage image={nextImage} />
+      </>
+    )}
     <HeroWrapper small={small}>
       <ReactCSSTransitionGroup {...cssTransitionProps}>
-        <Img key={imgKey} style={imgStyle} data={imgData} loading={imgKey === 0 ? 'eager' : 'lazy'} />
+        <Img key={imgKey} style={imgStyle} data={imgData} loading={'eager'} />
         <HeroContent>
           {children}
         </HeroContent>

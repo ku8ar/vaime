@@ -1,4 +1,5 @@
-import moment from 'moment'
+import format from 'date-fns/format'
+import parseISO from 'date-fns/parseISO'
 
 const monthLabels = {
   1: 'Styczeń',
@@ -15,28 +16,38 @@ const monthLabels = {
   12: 'Grudzień'
 }
 
+const parseDate = date => {
+  if (!date) return ''
+  const isTs = typeof date === 'number'
+  return isTs ? date : parseISO(date)
+}
+
+const formatDate = (date, type) => {
+  if (!date) return ''
+  return format(parseDate(date), type)
+}
+
 export const calcDate = (startDate, endDate, withYear = true) => {
   if (startDate && endDate) {
     if (startDate === endDate) {
-      return `${moment.utc(startDate).format('DD.MM')}${withYear ? '.' : ''}${withYear ? moment.utc(startDate).format('YYYY') : ''}`
+      return `${formatDate(startDate, 'dd.MM')}${withYear ? '.' : ''}${withYear ? formatDate(startDate, 'yyyy') : ''}`
     }
 
-    return `${moment.utc(startDate).format('DD.MM')}-${moment.utc(endDate).format('DD.MM')}${withYear ? '.' : ''}${withYear ? moment.utc(startDate).format('YYYY') : ''}`
+    return `${formatDate(startDate, 'dd.MM')}-${formatDate(endDate, 'dd.MM')}${withYear ? '.' : ''}${withYear ? formatDate(startDate, 'yyyy') : ''}`
   }
   return ''
 }
 
 export const calcMonthsDate = (startDate, endDate, withYear = true) => {
   if (!startDate || !endDate) return ''
-  const startMonth = monthLabels[moment.utc(startDate).format('M')]
-  const endMonth = monthLabels[moment.utc(endDate).format('M')]
-  const year = moment.utc(startDate).format('YYYY')
+
+  const startMonth = monthLabels[formatDate(startDate, 'M')]
+  const endMonth = monthLabels[formatDate(endDate, 'M')]
+  const year = formatDate(startDate, 'yyyy')
 
   return withYear ? `${startMonth} - ${endMonth} ${year}` : `${startMonth} - ${endMonth}`
 }
 
-export const countDays = (startDate, endDate) => startDate && endDate ? moment.utc(endDate).diff(moment.utc(startDate), 'days') : 0
+export const calcYear = (date) => formatDate(date, 'yyyy')
 
-export const calcYear = (date) => date ? moment.utc(date).format('YYYY') : ''
-
-export const calcYearShort = (date) => date ? moment.utc(date).format('YY') : ''
+export const calcYearShort = (date) => formatDate(date, 'yy')

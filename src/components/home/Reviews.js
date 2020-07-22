@@ -6,10 +6,11 @@ import Image from '../Image'
 import LefIcon from '../../icons/buttons/left'
 import RightIcon from '../../icons/buttons/right'
 import Star from '../../icons/buttons/star'
+import Youtube from './Youtube'
 
 const height = 400
 
-export default ({ reviews, reviewImage, reviewVideo }) => {
+export default ({ reviews, reviewImage, reviewVideo, reviewPreview }) => {
   const [revKey, setRevKey] = useState(0)
   const length = reviews && reviews.length
 
@@ -25,7 +26,7 @@ export default ({ reviews, reviewImage, reviewVideo }) => {
       <Img data={{image: reviewImage, name: 'Opinie'}} style={imgStyle} />
       <View>
         <ReviewsGrid>
-          <YoutubeIframe height={height} src={reviewVideo} title='youtube' />
+          <Youtube height={height} reviewVideo={reviewVideo} reviewPreview={reviewPreview} />
           <ReviewsBox>
               <Rows key={revKey}>
                 <H2 color='colorPrimary'>Opinie</H2>
@@ -57,6 +58,9 @@ const Img = styled(Image)`
 
 const ReviewsGrid = styled(Grid)`
   z-index: 1;
+  ${p => p.theme.mobile`
+    flex-direction: column;
+  `}
 `
 
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
@@ -114,17 +118,6 @@ const Controls = styled.div`
   padding-right: 2rem;
   ${p => p.theme.mobile`
     margin-bottom: 0;
-  `}
-`
-
-const YoutubeIframe = styled.iframe`
-  flex: 1;
-  margin-top: -5rem;
-  margin-right: 2rem;
-  border: none;
-  ${p => p.theme.mobile`
-    margin-top: 0rem;
-    margin-right: 0;
   `}
 `
 

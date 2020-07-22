@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Zoom from 'react-medium-image-zoom'
+import Zoom from 'react-medium-image-zoom/dist/cjs/react-medium-image-zoom.min.js'
 import 'react-medium-image-zoom/dist/styles.css'
 import Image from '../Image'
 
@@ -24,7 +24,7 @@ export default ({ map }) => {
   } : null
   return (
     <Zoom wrapStyle={wrapStyle}>
-      <Map data={data} style={imgStyle} />
+      <Map data={data} style={imgStyle} loading={'eager'} />
     </Zoom>
   )
 }

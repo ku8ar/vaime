@@ -52,7 +52,7 @@ const Title = styled(H1)`
   opacity: 0;
 `
 
-export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent, reviews, reviewImage, reviewVideo }) => {
+export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent, reviews, reviewImage, reviewVideo, reviewPreview }) => {
   const HtmlComponent = contentComponent || Content
 
   const _tours = sortTours(tours)
@@ -111,7 +111,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           ))}
         </Grid>
       </Section>
-      <Reviews reviews={reviews} reviewImage={reviewImage} reviewVideo={reviewVideo} />
+      <Reviews reviews={reviews} reviewImage={reviewImage} reviewVideo={reviewVideo} reviewPreview={reviewPreview} />
       <PromoSection promoImage={promoImage} />
       <Instagram />
       <Cookies />
@@ -210,6 +210,7 @@ export const pageQuery = graphql`
         }
         reviewVideo
         reviewImage { ...imageFullWidth }
+        reviewPreview { ...imageTile }
         reviews {
           author
           place

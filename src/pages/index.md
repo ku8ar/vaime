@@ -47,6 +47,7 @@ aboutTitle: O Nas
 aboutImage: /img/20368762_1655758084434695_1529628163071709205_o.jpg
 reviewImage: /img/projekt-bez-tytułu-2-.jpg
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE
+reviewPreview: /img/youtube.jpg
 reviews:
   - author: Barbara
     place: '"Gruzińskie Wakacje", 2018'

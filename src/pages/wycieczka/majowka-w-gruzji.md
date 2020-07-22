@@ -3,11 +3,11 @@ templateKey: tour
 active: true
 minSeats: 1
 title: Majówka w Gruzji
-description: długi majowy weekend w słonecznej gruzji - co może być lepsze!
+description: Długi majowy weekend w słonecznej gruzji - co może być lepsze!
 informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
-  atrakcji turystycznych Gruzji z nieodkrytymi, ciekawymi miejscami. Wystarczy tylko
-  trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki - widoki,
-  kuchnię i gościnność. "
+  atrakcji turystycznych Gruzji z nieodkrytymi, ciekawymi miejscami. Wystarczy
+  tylko trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki -
+  widoki, kuchnię i gościnność. "
 discount: 0
 discountTitle: First Minute Zniżka
 terms:

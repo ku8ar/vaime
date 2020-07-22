@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import * as Sentry from '@sentry/react'
+import * as Sentry from '@sentry/browser'
 import { path, pipe, defaultTo, head, propOr, toLower, includes, prop } from 'rambda'
 import styled from 'styled-components'
 import { Button, P } from '../Base'
