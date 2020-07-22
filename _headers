@@ -1,2 +1,6 @@
 /static/*
   Cache-Control: "public, max-age=2628000"
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Set-Cookie: Secure; SameSite=None
