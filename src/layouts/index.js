@@ -3,7 +3,7 @@ import Footer from '../components/layout/Footer'
 import Theme, { Content, Placeholder } from '../components/style/Theme'
 import StructuredData from '../components/custom/StructuredData'
 import Header from '../components/layout/Header'
-import FacebookChat from '../components/FacebookChat'
+import FacebookChat from '../components/Facebook'
 import useGlobal from '../utils/useGlobal'
 
 const Layout = ({ children, path, ...props }) => {
