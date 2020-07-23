@@ -27,7 +27,13 @@ export const bannerImage = graphql`
 
   fragment imageTile on File {
     childImageSharp {
-      fluid(maxWidth: 352, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
+      fluid(maxWidth: 352, quality: 90) { ...GatsbyImageSharpFluid_noBase64 }
+    }
+  }
+
+  fragment imagePreview on File {
+    childImageSharp {
+      fluid(maxWidth: 554, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
     }
   }
 

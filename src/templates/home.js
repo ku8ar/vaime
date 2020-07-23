@@ -210,7 +210,7 @@ export const pageQuery = graphql`
         }
         reviewVideo
         reviewImage { ...imageFullWidth }
-        reviewPreview { ...imageTile }
+        reviewPreview { ...imagePreview }
         reviews {
           author
           place
