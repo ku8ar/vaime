@@ -201,7 +201,7 @@ export const pageQuery = graphql`
         }
         aboutTitle
         aboutImage { ...imageHalfWidth }
-        promoImage { ...imageViewWidth }
+        promoImage { ...imageViewWidthSvg }
         team {
           name
           place
