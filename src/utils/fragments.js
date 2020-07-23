@@ -7,6 +7,12 @@ export const bannerImage = graphql`
     }
   }
 
+  fragment imageFullWidthSvg on File {
+    childImageSharp {
+      fluid(maxWidth: 1920, quality: 90) { ...GatsbyImageSharpFluid_withWebp_tracedSVG }
+    }
+  }
+
   fragment imageHalfWidth on File {
     childImageSharp {
       fluid(maxWidth: 960, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
