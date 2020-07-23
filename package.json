@@ -6,7 +6,10 @@
   "browserslist": [
     "> .5% and last 2 versions",
     "not IE 11",
-    "not dead"
+    "not dead",
+    "not and_uc > 0",
+    "not op_mini all",
+    "not opera > 0"
   ],
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.13.44",

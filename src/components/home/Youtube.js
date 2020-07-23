@@ -1,10 +1,12 @@
 import React from 'react'
+import { path } from 'rambda'
 import styled, { css } from 'styled-components'
 import ReactPlayer from 'react-player/youtube'
 import Play from '../../icons/buttons/play'
 
 export default ({ height, reviewVideo, reviewPreview }) => {
-  return <Youtube height={height} width={'100%'} url={reviewVideo} title='youtube' playing controls light={reviewPreview} playIcon={<PlayButton size={'8rem'} />} />
+  const light = path(['childImageSharp', 'fluid', 'src'], reviewPreview)
+  return <Youtube height={height} width={'100%'} url={reviewVideo} title='youtube' playing controls light={light} playIcon={<PlayButton size={'8rem'} />} />
 }
 
 const PlayButton = styled(Play)`

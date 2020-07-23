@@ -131,7 +131,7 @@ export const pageQuery = graphql`
         }
         thumb { ...imageTile }
         seoImage: thumb { ...imageSeo }
-        map { ...imageFullWidth }
+        map { ...imageFullWidthSvg }
         images {
           name
           image { ...imageFullWidth }

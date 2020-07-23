@@ -7,21 +7,33 @@ export const bannerImage = graphql`
     }
   }
 
+  fragment imageFullWidthSvg on File {
+    childImageSharp {
+      fluid(maxWidth: 1920, quality: 90) { ...GatsbyImageSharpFluid_withWebp_tracedSVG }
+    }
+  }
+
   fragment imageHalfWidth on File {
     childImageSharp {
       fluid(maxWidth: 960, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
     }
   }
 
-  fragment imageViewWidth on File {
+  fragment imageViewWidthSvg on File {
     childImageSharp {
-      fluid(maxWidth: 1140, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
+      fluid(maxWidth: 1140, quality: 90) { ...GatsbyImageSharpFluid_withWebp_tracedSVG }
     }
   }
 
   fragment imageTile on File {
     childImageSharp {
       fluid(maxWidth: 352, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
+    }
+  }
+
+  fragment imagePreview on File {
+    childImageSharp {
+      fluid(maxWidth: 554, quality: 90) { ...GatsbyImageSharpFluid_noBase64 }
     }
   }
 
