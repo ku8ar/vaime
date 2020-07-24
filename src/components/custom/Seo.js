@@ -39,13 +39,6 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
       <link href="https://static.doubleclick.net" rel="preconnect" crossOrigin />
       <link href="https://www.google-analytics.com" rel="preconnect" crossOrigin />
       <link href="https://www.instagram.com" rel="preconnect" crossOrigin />
-
-      <link rel="preload" href="/fonts/montserrat_light_latin_ext.woff2" as="font" type="font/woff2" crossOrigin />
-      <link rel="preload" href="/fonts/montserrat_light_latin.woff2" as="font" type="font/woff2" crossOrigin />
-      <link rel="preload" href="/fonts/montserrat_regular_latin_ext.woff2" as="font" type="font/woff2" crossOrigin />
-      <link rel="preload" href="/fonts/montserrat_regular_latin.woff2" as="font" type="font/woff2" crossOrigin />
-      <link rel="preload" href="/fonts/montserrat_medium_latin_ext.woff2" as="font" type="font/woff2" crossOrigin />
-      <link rel="preload" href="/fonts/montserrat_medium_latin.woff2" as="font" type="font/woff2" crossOrigin />
     </Helmet>
   )
 }
