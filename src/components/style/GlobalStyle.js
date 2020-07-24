@@ -6,7 +6,8 @@ const fonts = css`
   font-family: 'Montserrat';
   font-weight: 1 999;
   font-display: swap;
-  src: url(/montserrat.woff2) format('woff2');
+  src: url(/montserrat-subset.woff2) format('woff2');
+  unicode-range: U+21-5F,U+61-7D,U+D3,U+F3,U+104-107,U+118,U+119,U+141-144,U+15A,U+15B,U+179-17C;
 }
 `
 
