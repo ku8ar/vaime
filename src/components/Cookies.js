@@ -44,6 +44,9 @@ const Wrapper = styled.div`
     top: 0;
     bottom: inherit;
   `}
+  ${p => p.theme.print`
+    display: none;
+  `}
 `
 
 const Agree = styled(Button)`

@@ -8,3 +8,7 @@
   YARN_FLAGS = "--no-ignore-optional"
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public,max-age=31536000,immutable"
