@@ -10,7 +10,7 @@ informations: >
   kulturowych, religijnych czy gastronimicznych. Nasza objazówka pozwoli na
   bliższe poznanie skarbów Gruzji i Azerbejdżanu.
 
-  Przy rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
+  Przy rezerwacji do 31 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
 terms:
