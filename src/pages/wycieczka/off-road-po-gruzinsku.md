@@ -12,8 +12,8 @@ informations: W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
 discount: 0
 discountTitle: first minute zniżka
 terms:
-  - startDate: 2021-06-09T12:08:25.411Z
-    endDate: 2021-06-18T12:08:25.446Z
+  - startDate: 2021-06-21T12:08:25.411Z
+    endDate: 2021-06-30T12:08:25.446Z
     daysCount: 10 DNI/9 NOCY
     seats: 15
     price: 510
@@ -24,7 +24,7 @@ images:
 map: /img/racha.png
 schedule:
   - day: "1"
-    place: 09.06 - Kutaisi
+    place: 21.06 - Kutaisi
     text: Przylot do Kutaisi, zakwaterowanie w hotelu. Po krótkim wypoczynku udajemy
       się na zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy
       akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku tłumaczyli
@@ -34,7 +34,7 @@ schedule:
       Odwiedzimy również katedrę Bagrati (XI w.). Powitalna obiadokolacja i
       nocleg w Kutaisi.
   - day: "2"
-    place: 10.06 - Kutaisi - Ambrolauri
+    place: 22.06 - Kutaisi - Ambrolauri
     text: Śniadanie, wykwaterowanie z hotelu. Wyjeżdżamy w kierunku jednego z
       najładniejszych górskich regionów Gruzji - Racza. Samochodami terenowymi
       wjedziemy na grzbiet Nakerala, który oddziela regiony Imereti i Racza i
@@ -49,7 +49,7 @@ schedule:
       katedry; oraz cerkwi Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka
       Ambrolauri, obiadokolacja, nocleg.
   - day: "3"
-    place: 11.06 - Ambrolauri - Utsera - Ghebi - Oni
+    place: 23.06 - Ambrolauri - Utsera - Ghebi - Oni
     text: Śniadanie, wykwaterowanie z hotelu. Nasz off-road kontynuujemy w kierunku
       górnej Raczy. Region Racza zdecydowanie wyroźnia się swoimi widokami na
       góry Wielkiego Kaukazu, nietkniętą naturą i zagubionymi wśród szczytów
@@ -58,7 +58,7 @@ schedule:
       wód mineralnych pochodzących z tej wioski. Po zwiedzaniu wiosek,
       przejeżdżamy na nocleg do miejscowości Oni. Obiadokolacja, nocleg.
   - day: "4"
-    place: 12.06 - Oni - Kutaisi
+    place: 24.06 - Oni - Kutaisi
     text: Śniadanie, wykwaterowanie. Zanim opuścimy miasteczko Oni, udamy się na
       zwiedzanie cudownej synagogi, która ozdabia centrum miasta. Synagoga w Oni
       jest trzecią największą świątynią żydowskiej mniejszości w Gruzji, tuż po
@@ -81,9 +81,9 @@ schedule:
       wagon J. Stalina, który urodził się i spędził pierwsze lata swojego życia
       właśnie w Gori. Dojazd do Tbilisi, zakwaterowanie, wolny czas.
       Obiadokolacja, nocleg w Tbilisi.
-    place: 13.06 - Kutaisi - Gori  - Tbilisi
+    place: 25.06 - Kutaisi - Gori  - Tbilisi
   - day: "6"
-    place: 14.06 - Tbilisi - Mccheta - Ananuri - Kazbegi
+    place: 26.06 - Tbilisi - Mccheta - Ananuri - Kazbegi
     text: >
       Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Zwiedzanie starej stolicy
@@ -99,7 +99,7 @@ schedule:
       najwyższy szczyt kraju. Po zwiedzaniu czeka na nas obiadokolacja, nocleg w
       Kazbegi.
   - day: "7"
-    place: 15.06 - Kazbegi - Dolina Truso - Kazbegi
+    place: 27.06 - Kazbegi - Dolina Truso - Kazbegi
     text: >
       Śniadanie, przejazd samochodami terenowymi do doliny Truso, jest to jedno
       z najładniejszych miejsc w okolicy miejscowości Kazbegi. Dolina ciągnie
@@ -113,7 +113,7 @@ schedule:
       spacerze w pięknych okolicznościach przyrody, powrót do Kazbegi,
       obiadokolacja, nocleg.
   - day: "8"
-    place: 16.06 - Kazbegi - Dżuta - Tbilisi
+    place: 28.06 - Kazbegi - Dżuta - Tbilisi
     text: >-
       Śniadanie, wykwaterowanie, wyjazd samochodami terenowymi w kierunku
       zabytkowej wioski Dżuta (łączna trasa ok 20 km), po drodze towarzyć nam
@@ -124,7 +124,7 @@ schedule:
 
       Powrót do Tbilisi, obiadokolacja, nocleg.
   - day: "9"
-    place: 17.06 - Tbilisi - Kutaisi
+    place: 29.06 - Tbilisi - Kutaisi
     text: "Śniadanie. Od rana zwiedzanie starego miasta oraz najważniejszych
       zabytków stolicy – twierdzy Narikala, na którą wjedziemy kolejką linową,
       co pozwoli nam na podziwianie panoramy miasta, z twierdzy natomiast
@@ -134,7 +134,7 @@ schedule:
       Anczischati (VII w.).  Po zwiedzaniu wyjazd do miasta Kutaisi, pożegnalna
       obiadokolacja, nocleg."
   - day: "10"
-    place: 18.06 - Transfer na lotnisko
+    place: 30.06 - Transfer na lotnisko
     text: Śniadanie, transfer na lotnisko, wylot do Polski.
 priceContains:
   - text: Nocleg w hotelach 3* w Tbilisi, Kutaisi
