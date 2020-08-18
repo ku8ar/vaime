@@ -41,7 +41,7 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: 18.09 - Tbilisi - Mccheta - Tbilisi
+    place: 19.09 - Tbilisi - Mccheta - Tbilisi
     text: >-
       Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
       najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
