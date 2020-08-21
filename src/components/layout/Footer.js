@@ -6,7 +6,7 @@ import logo from '../../img/logo.svg'
 import { View, H6 } from '../Base'
 
 export default memo(({ data }) => {
-  const { phoneNumbers, socialLinks, email, companyName } = data
+  const { phoneNumbers, socialLinks, email, companyName } = data || {}
 
   return (
     <Footer>
@@ -14,7 +14,7 @@ export default memo(({ data }) => {
         <FooterRow>
           <FooterList>
             <FooterLogo src={logo} alt="Vaime Travel" />
-            {phoneNumbers.map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
+            {(phoneNumbers || []).map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
             <FooterLink href={`mailto: ${email}`} title='email'>{email}</FooterLink>
           </FooterList>
           <MiddleFooterList>
@@ -22,7 +22,7 @@ export default memo(({ data }) => {
           </MiddleFooterList>
           <LastFooterList>
             <Title color="colorWhite">Gruziński Po Polsku</Title>
-            <Row>{socialLinks.map(social => <SocialLink key={social.type} {...social} />)}</Row>
+            <Row>{(socialLinks || []).map(social => <SocialLink key={social.type} {...social} />)}</Row>
           </LastFooterList>
         </FooterRow>
         <FooterRow>

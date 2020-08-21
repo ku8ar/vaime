@@ -18,8 +18,7 @@ const monthLabels = {
 
 const parseDate = date => {
   if (!date) return ''
-  const isTs = typeof date === 'number'
-  return isTs ? date : parseISO(date)
+  return typeof date === 'string' ? parseISO(date) : date
 }
 
 const formatDate = (date, type) => {
