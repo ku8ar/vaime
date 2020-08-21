@@ -47,6 +47,7 @@ export default createGlobalStyle`
   }
 
   @media print {
+    -webkit-print-color-adjust: exact;
     h1, h2, h3, h4, h5, h6, p, div, span {
       color: ${p => p.theme.colorSecondary} !important;
     }

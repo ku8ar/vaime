@@ -58,7 +58,7 @@ export const TourTemplate = ({ schedule, html, contentComponent, map, editor, ..
             <HtmlComponent content={html || ''} />
           </LeftColumn>
           <Column size={65}>
-            <Map map={map} />
+            <Map map={map} editor={editor} />
           </Column>
         </Grid>
       </View>

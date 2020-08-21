@@ -11,17 +11,29 @@ const Map = styled(Image)`
   ${p => p.theme.print` break-before: page; `}
 `
 
+const EditorMap = styled.div`
+  width: 100%;
+`
+
 const wrapStyle = {
   width: '100%'
 }
 
 const imgStyle = {  }
 
-export default ({ map }) => {
+export default ({ map, editor }) => {
   const data = map ? {
     name: 'mapa',
     image: map
   } : null
+
+  if (editor) {
+    return (
+      <EditorMap>
+        <Map data={data} style={imgStyle} loading={'eager'} />
+      </EditorMap>
+    )
+  }
   return (
     <Zoom wrapStyle={wrapStyle}>
       <Map data={data} style={imgStyle} loading={'eager'} />
