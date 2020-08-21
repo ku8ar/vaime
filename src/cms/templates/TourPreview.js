@@ -11,7 +11,7 @@ import Preview from '../Preview'
 //   return '' + y + '-' + (m<=9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d);
 // }
 
-const TourPagePreview = ({ entry, widgetFor }) => {
+const TourPagePreview = ({ entry, widgetFor, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
   if (!data) return <div>Fill data first</div>
   return (
@@ -19,6 +19,9 @@ const TourPagePreview = ({ entry, widgetFor }) => {
       <Theme>
         <TourTemplate
           {...data}
+          images={(data.images || []).map(({image, ...rest}) => ({image: getAsset(image), ...rest}))}
+          map={getAsset(data.map)}
+          thumb={getAsset(data.thumb)}
           html={widgetFor('body')}
         />
       </Theme>
