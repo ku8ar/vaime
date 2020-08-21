@@ -15,9 +15,9 @@ terms:
     daysCount: 8 DNI/7 NOCY
     seats: 15
     price: 550
-thumb: /img/shutterstock_581659471.jpg
+thumb: /img/xinkali-23.jpg
 images:
-  - image: /img/acharuli Chalupka.jpg
+  - image: /img/gastroprzyga_acharuli.jpg
     name: acharuli
 map: /img/gastrp.png
 schedule:
@@ -28,10 +28,10 @@ schedule:
       aczma (rodzaj chaczapuri, podobne do lasagne) i oczywiście czarnomorskie
       ryby. Przed kolacją udamy się na krótki rejs statkiem, oraz jeśli czas
       pozwoli, na targ rybny. Nocleg Batumi."
-    place: "adżarskie chaczapuri "
+    place: "12.07 - adżarskie chaczapuri "
     day: "1"
   - day: "2"
-    place: herbaciane pola
+    place: 13.07 - herbaciane pola
     text: >
       Filipinki jeszcze w latach 60-tych śpiewały o herbacianych polach Batumi,
       więc nasza podróż nie może się odbyć bez zobaczenia tych herbacianych pól
@@ -43,7 +43,7 @@ schedule:
       który już od 100 lat cieszy gości Adżarii pięknem egzotycznej natury.
       Kolacja, nocleg w Batumi.
   - day: "3"
-    place: winnice i skalne miasto
+    place: 14.07 - winnice i skalne miasto
     text: >
       Wyruszamy w kierunku Tbilisi. Po drodze zatrzymamy się na spróbowanie
       słodkich chlebków Nazuki, które można znaleźć tylko w jednej miejscowości
@@ -55,7 +55,7 @@ schedule:
       Kolacja w lokalnej restauracji z pokazem tańców gruzińskich. Nocleg w
       Tbilisi. 
   - day: "4"
-    place: Warsztaty kulinarne w stolicy
+    place: 15.07 - Warsztaty kulinarne w stolicy
     text: "Cały dzień spędzimy w stolicy. Wjazd kolejką gondolową na taras widokowy,
       na którym ustawiony jest pomnik Matki Gruzji – podziwianie panoramy
       miasta, spacer przez Stare Miasto – znajdziemy tu obok siebie cerkwie
@@ -67,13 +67,13 @@ schedule:
       orzechami.  Czas wolny, możliwość korzystania z łaźni siarkowych (we
       własnym zakresie).  Kolacja i nocleg  w Tbilisi."
   - day: "5"
-    place: kaukaz i chinkali
+    place: 16.07 - kaukaz i chinkali
     text: >
       Wyjazd Gruzińską Drogą Wojenną w kierunku Stepancminda (Kazbegi).
 
       Przejazd wzdłuż rzeki Aragwi, przez Przełęcz Krzyżową. Po drodze obejrzymy malowniczą twierdzę Ananuri położoną nad rzeką Aragwi.Z Kazbegi wjazd samochodami terenowymi do zabytkowego kościoła Trójcy Świętej położonego na wysokości 2020 m n.p.m. (wjazd odbędzie się jeżeli pozwolą na to warunki atmosferyczne). Przy ładnej pogodzie rozpościera się stąd piękny widok na jeden z najwyższych szczytów Gruzji - górę Kazbek (5047 m). Powrót w Tbilisi. Kolacja i nocleg.
   - day: "6"
-    place: "kraina wina "
+    place: "17.07 - kraina wina "
     text: >
       Wyjazd do Kachetii, krainy wina. Przejazd do miasta Telawi, wizyta na
       lokalnym bazarze, pełnym przypraw, win, bimbru, owoców i warzyw. Po
@@ -83,7 +83,7 @@ schedule:
       prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam chojną
       suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
   - day: "7"
-    place: biesiada i folklor
+    place: 18.07 - biesiada i folklor
     text: >+
       Wyjazd w kierunku Kutaisi. Naszym pierwszym punktem zwiedzania będzie
       miejscowość  Mccheta (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji,
@@ -98,7 +98,7 @@ schedule:
       muzyki ludowej. Nocleg w Kutaisi. 
        
   - day: "8"
-    place: TRANSFER na lotnisko
+    place: 19.07 - TRANSFER na lotnisko
     text: Transfer na lotnisko, wylot.
 priceContains:
   - text: Noclegi w hotelach 3* w Tbilisi, Kutaisi, Batumi
