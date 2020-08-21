@@ -131,7 +131,7 @@ qa:
       Obywatele UE mogą wjeżdżać i przebywać w Gruzji i Armenii w celach
       turystycznych bez jakiejkolwiek wizy. 
 
-      Azerbejdżan natomiast wymaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet, płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
+      Azerbejdżan natomiast wymaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet (https://evisa.gov.az/), płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
     question: Czy jest potrzebna wiza?
   - answer: >
       Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi

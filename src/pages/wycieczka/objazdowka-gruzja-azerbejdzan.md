@@ -10,14 +10,14 @@ informations: >
   kulturowych, religijnych czy gastronimicznych. Nasza objazówka pozwoli na
   bliższe poznanie skarbów Gruzji i Azerbejdżanu.
 
-  Przy rezerwacji do 15 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
+  Przy rezerwacji do 31 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
 discount: 10
 discountTitle: first minute zniżka
 terms:
   - startDate: 2021-09-17T20:45:50.268Z
     endDate: 2021-09-27T20:45:50.302Z
     daysCount: 10 DNI/11 NOCY
-    seats: 15
+    seats: 13
     price: 745
 thumb: /img/p1020318.jpg
 images:
@@ -41,7 +41,7 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: 18.09 - Tbilisi - Mccheta - Tbilisi
+    place: 19.09 - Tbilisi - Mccheta - Tbilisi
     text: >-
       Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
       najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
