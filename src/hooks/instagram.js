@@ -14,7 +14,7 @@ export default () => {
           href: `https://www.instagram.com/p/${node.shortcode}`,
           src: node.display_url
         })))
-      })
+      }).catch(() => {})
     }
   }, [])
 
