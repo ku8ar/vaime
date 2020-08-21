@@ -6,7 +6,7 @@ const Cookies = () => {
   const [show, setShow] = useState(false)
 
   useEffect(() => {
-    const hasCookie = localStorage.getItem("cookie")
+    const hasCookie = localStorage && localStorage.getItem("cookie")
 
     if (!hasCookie) {
       setShow(true)
@@ -14,7 +14,7 @@ const Cookies = () => {
   }, [])
 
   const hideCookie = useCallback(() => {
-    localStorage.setItem("cookie", "true")
+     localStorage && localStorage.setItem("cookie", "true")
     setShow(false)
   }, [])
 
