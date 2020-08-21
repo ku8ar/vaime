@@ -5,7 +5,7 @@ oneDay: false
 minSeats: 15
 title: Gastro-Przygoda
 description: poznaj prawdziwe smaki gruzji
-discount: 10
+discount: 0
 terms:
   - startDate: 2021-07-12T11:00:14.238Z
     endDate: 2021-06-19T11:00:14.328Z
