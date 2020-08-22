@@ -1,4 +1,4 @@
-import React, { useCallback, memo } from 'react'
+import React, { useCallback, memo, useState } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Vaime from './Vaime'
@@ -11,14 +11,20 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
   const path = (slug || '').slice(0, -1) // remove slash
+  
+  const isHome = !path
+  const [isOverHome, setIsOverHome] = useState(false)
+  const onMouseEnter = useCallback(() => setIsOverHome(true), [])
+  const onMouseLeave = useCallback(() => setIsOverHome(false), [])
+  const showLogoBorder = isHome || isOverHome
 
   return (
     <>
       <Header>
         <LayoutNavigationDesktop>
           <Nav>
-            <LogoWrapper to="/" title="Logo" onClick={onClick}>
-              <Vaime />
+            <LogoWrapper to="/" title="Logo" onClick={onClick} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+              <Vaime noBorder={!showLogoBorder} />
             </LogoWrapper>
             {navigation.map(nav => (
               <NavItem data-active={path === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
@@ -88,18 +94,19 @@ const LogoWrapper = styled(Link)`
   margin-right: 1rem;
 `
 
-const LogoIcon = styled.img`
-  height: 2.5rem;
-`
-
 const NavItem = styled(Link)`
   color: ${p => p.theme.colorWhite};
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 1rem;
   line-height: 2.75;
-  border-top: ${p => p['data-active'] ? '1px solid white' : 'none'};
-  border-bottom: ${p => p['data-active'] ? '1px solid white' : 'none'};
+  font-weight: ${p => p.theme.weightBolder};
+
+  transition: border .2s;
+
+  border-top: ${p => p['data-active'] ? '1px solid white' : '1px solid transparent'};
+  border-bottom: ${p => p['data-active'] ? '1px solid white' : '1px solid transparent'};
+
   &:hover {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
