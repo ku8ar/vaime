@@ -1,7 +1,7 @@
 import React, { useCallback, memo } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import logo from '../../img/logo.svg'
+import Vaime from './Vaime'
 import phoneImg from '../../img/phone.svg'
 import { View } from '../Base'
 import SocialLink from './SocialLink'
@@ -18,7 +18,7 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
         <LayoutNavigationDesktop>
           <Nav>
             <LogoWrapper to="/" title="Logo" onClick={onClick}>
-              <LogoIcon src={logo} alt={companyName} />
+              <Vaime />
             </LogoWrapper>
             {navigation.map(nav => (
               <NavItem data-active={path === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
@@ -43,7 +43,7 @@ const SocialListContainer = memo(({phone, socialLinks}) => (
 const LayoutNavigationMobileContainer = memo(({ companyName, phone }) => (
   <LayoutNavigationMobile>
     <LogoWrapper to="/" title="Logo">
-      <LogoIcon src={logo} alt={companyName} />
+      <Vaime />
     </LogoWrapper>
     <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
   </LayoutNavigationMobile>
