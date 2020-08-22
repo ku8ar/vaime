@@ -87,6 +87,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: auto;
   align-items: baseline;
   ${p => p.theme.mobile` align-items: center; `}
 `

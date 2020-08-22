@@ -14,11 +14,17 @@ export default () => {
     onIntersect: ([{ isIntersecting }]) => isIntersecting && setIsVisible(isIntersecting)
   })
 
-  const instagramPhotos = useInstagram()
+  const [instagramPhotos, hasError] = useInstagram(isVisible)
 
+  if (hasError) {
+    return null
+  }
+
+  const isFetched = instagramPhotos && instagramPhotos.length
+  
   return (
     <Wrapper ref={target}>
-      {isVisible ? instagramPhotos.map(({ href, src }, key) => (
+      {isFetched ? instagramPhotos.map(({ href, src }, key) => (
         <Anchor
           key={href}
           target="_blank"

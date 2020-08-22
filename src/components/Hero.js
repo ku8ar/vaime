@@ -20,27 +20,18 @@ const Hero = ({ images, children, small }) => {
         </>
       )}
       <HeroWrapper small={small}>
-        <TransitionWrapper>
+        <TransitionGroup>
           <CSSTransition key={imgKey} {...cssTransitionProps}>
-            <>
-              <Img style={imgStyle} data={imgData} loading={'eager'} />
-              <HeroContent>
-                {children}
-              </HeroContent>
-            </>
+            <Img style={imgStyle} data={imgData} loading={'eager'} />
           </CSSTransition>
-        </TransitionWrapper>
+        </TransitionGroup>
+        <HeroContent>
+          {children}
+        </HeroContent>
       </HeroWrapper >
     </>
   )
 }
-
-const TransitionWrapper = styled(TransitionGroup)`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: relative;
-`
 
 const Img = styled(Image)`
   ${p => p.theme.print` display: none; `}
@@ -60,8 +51,7 @@ const GlobalStyle = createGlobalStyle`
 
 const HeroWrapper = styled.div`
   height: ${p => p.small ? 10 : 30}rem;
-  background-position: center center;
-  background-size: cover;
+  position: relative;
   ${p => p.theme.mobile` height: auto; `}
   ${p => p.theme.print` height: auto; `}
 `

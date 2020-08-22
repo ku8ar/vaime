@@ -65,6 +65,7 @@ const PhoneNo = styled.a`
   font-size: ${p => p.theme.fontBig};
   margin-right: 1rem;
   display: flex;
+  align-items: center;
 `
 
 const Header = styled.header`
