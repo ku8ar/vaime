@@ -1,25 +1,27 @@
 import React from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import cross from '../../img/cross-dark.svg'
 import { H4 } from '../Base'
 
 export default ({ open, title, onClose, children }) => (
   <>
-    <GlobalStyle/>
-    <ReactCSSTransitionGroup {...cssTransitionProps}>
+    <GlobalStyle />
+    <TransitionWrapper>
       {open && (
-        <ModalWrapper>
-          <CloseWrapper onClick={onClose}>
-            <CloseIcon src={cross} />
-          </CloseWrapper>
-          <ContentWrapper>
-            <Title>{title}</Title>
-            {children}
-          </ContentWrapper>
-        </ModalWrapper>
+        <CSSTransition {...cssTransitionProps}>
+          <ModalWrapper>
+            <CloseWrapper onClick={onClose}>
+              <CloseIcon src={cross} />
+            </CloseWrapper>
+            <ContentWrapper>
+              <Title>{title}</Title>
+              {children}
+            </ContentWrapper>
+          </ModalWrapper>
+        </CSSTransition>
       )}
-    </ReactCSSTransitionGroup>
+    </TransitionWrapper>
   </>
 )
 
@@ -78,21 +80,19 @@ const Title = styled(H4)`
   margin-top: 1rem;
 `
 
+const TransitionWrapper = styled(TransitionGroup)`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+`
+
 const cssTransitionProps = {
-  className: "right-modal",
-  transitionName: "right-modal-animation",
-  transitionEnterTimeout: 500,
-  transitionLeaveTimeout: 300
+  classNames: "right-modal-animation",
+  timeout: { enter: 500, exit: 300 }
 }
 
 const GlobalStyle = createGlobalStyle`
-  .right-modal {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
-  }
-
   @keyframes slide-in-blurred-right {
     0% {
       transform: translateX(1000px);
@@ -116,14 +116,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .right-modal-animation-enter {}
-  .right-modal-animation-leave {}
+  .right-modal-animation-exit {}
 
   .right-modal-animation-enter.right-modal-animation-enter-active {
     animation: slide-in-blurred-right 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
   }
 
 
-  .right-modal-animation-leave.right-modal-animation-leave-active {
+  .right-modal-animation-exit.right-modal-animation-exit-active {
     animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   }
 `

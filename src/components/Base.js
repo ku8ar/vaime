@@ -1,12 +1,5 @@
 import styled, { css } from 'styled-components'
 
-export const Center = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-`
-
 export const Grid = styled.div`
   display: flex;
   width: 100%;

@@ -46,16 +46,21 @@ const Anchor = styled.a`
   padding-bottom: 32%;
 `
 
-export default () => (
-  <SectionWrapper>
-    <TitleWrapper>
-      <Icon icon='instagram' />
-      <Title>vaimetravel</Title>
-    </TitleWrapper>
-    <Wrapper>
-      {useInstagram().slice(0, 9).map(({ href, src }) => (
-        <Anchor key={href} target="_blank" href={href} style={{ backgroundImage: `url("${src}")` }} />
-      ))}
-    </Wrapper >
-  </SectionWrapper>
-)
+export default () => {
+  const [photos] = useInstagram()
+
+  return (
+    <SectionWrapper>
+      <TitleWrapper>
+        <Icon icon='instagram' />
+        <Title>vaimetravel</Title>
+      </TitleWrapper>
+      <Wrapper>
+        {photos.slice(0, 9).map(({ href, src }) => (
+          <Anchor key={href} target="_blank" href={href} style={{ backgroundImage: `url("${src}")` }} />
+        ))}
+      </Wrapper >
+    </SectionWrapper>
+  )
+  
+}

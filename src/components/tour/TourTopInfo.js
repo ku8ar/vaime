@@ -24,8 +24,8 @@ export default (tour) => {
       <Wrapper>
         <H2>{description}</H2>
         <Buttons>
-          <Link href={`${fbShareUrl}${siteUrl}${slug}`} target="_blank" rel="noopener noreferrer"><Fb size={20} /></Link>
-          <Button onClick={windowGlobal.print}><Print size={20} /></Button>
+          <Link href={`${fbShareUrl}${siteUrl}${slug}`} aria-label="Udostępnij na FB" target="_blank" rel="noopener noreferrer"><Fb size={20} /></Link>
+          <Button onClick={windowGlobal.print} aria-label="druk"><Print size={20} /></Button>
         </Buttons>
       </Wrapper>
       {informations && (
@@ -87,6 +87,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: auto;
   align-items: baseline;
   ${p => p.theme.mobile` align-items: center; `}
 `

@@ -1,11 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
 import { path, prop } from 'rambda'
 import Cookies from '../components/Cookies'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Content, { HTMLContent } from '../components/Content'
-import { Page, Center, H1 } from '../components/Base'
+import { Page, H1 } from '../components/Base'
 import Services from '../components/page/Services'
 import Faq from '../components/page/Faq'
 import Section from '../components/page/Section'
@@ -17,6 +18,14 @@ import GridSection from '../components/page/GridSection'
 import ContactForm from '../components/forms/ContactForm'
 import TextSection from '../components/page/TextSection'
 import Flights from '../components/page/Flights'
+
+export const Center = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+`
 
 export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, showFlights, text, contentComponent, services }) => {
   const HtmlComponent = contentComponent || Content

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import styled, { createGlobalStyle } from 'styled-components'
 import Image from './Image'
-import {View} from './Base'
+import { View } from './Base'
 import PreloadImage from './custom/PreloadImage'
 
 const Hero = ({ images, children, small }) => {
@@ -13,20 +13,22 @@ const Hero = ({ images, children, small }) => {
 
   return (
     <>
-    {multiple && (
-      <>
-        <GlobalStyle/>
-        <PreloadImage image={nextImage} />
-      </>
-    )}
-    <HeroWrapper small={small}>
-      <ReactCSSTransitionGroup {...cssTransitionProps}>
-        <Img key={imgKey} style={imgStyle} data={imgData} loading={'eager'} />
+      {multiple && (
+        <>
+          <GlobalStyle />
+          <PreloadImage image={nextImage} />
+        </>
+      )}
+      <HeroWrapper small={small}>
+        <TransitionGroup>
+          <CSSTransition key={imgKey} {...cssTransitionProps}>
+            <Img style={imgStyle} data={imgData} loading={'eager'} />
+          </CSSTransition>
+        </TransitionGroup>
         <HeroContent>
           {children}
         </HeroContent>
-      </ReactCSSTransitionGroup>
-    </HeroWrapper >
+      </HeroWrapper >
     </>
   )
 }
@@ -38,38 +40,19 @@ const Img = styled(Image)`
 const transitionTime = 600
 
 const GlobalStyle = createGlobalStyle`
-  .hero-animated-list {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
-  }
-
-  .example-enter {
-    opacity: 0.01;
-  }
-
-  .example-enter.example-enter-active {
-    opacity: 1
-  }
-
-  .example-leave {
-    opacity: 1;
-  }
-
-  .example-leave.example-leave-active {
-    opacity: 0.01;
-    transition: opacity ${transitionTime}ms linear;
+  .example-enter { opacity: 0; }
+  .example-enter.example-enter-active { opacity: 1 }
+  .example-exit { opacity: 1; }
+  .example-exit.example-exit-active {
+    opacity: 0;
+    transition: opacity ${transitionTime}ms ease-in-out;
   }
 `
 
 const HeroWrapper = styled.div`
   height: ${p => p.small ? 10 : 30}rem;
-  background-position: center center;
-  background-size: cover;
-  ${p => p.theme.mobile`
-    height: auto;
-  `}
+  position: relative;
+  ${p => p.theme.mobile` height: auto; `}
   ${p => p.theme.print` height: auto; `}
 `
 
@@ -82,10 +65,8 @@ const HeroContent = styled(View)`
 `
 
 const cssTransitionProps = {
-  className: "hero-animated-list",
-  transitionName: "example",
-  transitionEnterTimeout: transitionTime / 2,
-  transitionLeaveTimeout: transitionTime
+  classNames: "example",
+  timeout: { enter: transitionTime, exit: transitionTime }
 }
 
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
@@ -101,7 +82,7 @@ const useImageKey = (images) => {
     }, 5000);
     return () => clearTimeout(timer);
   }, [x, images]);
-  
+
   return x
 }
 

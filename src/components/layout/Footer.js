@@ -2,8 +2,8 @@ import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import SocialLink from './SocialLink'
-import logo from '../../img/logo.svg'
 import { View, H6 } from '../Base'
+import Vaime from './Vaime'
 
 export default memo(({ data }) => {
   const { phoneNumbers, socialLinks, email, companyName } = data || {}
@@ -13,7 +13,9 @@ export default memo(({ data }) => {
       <View>
         <FooterRow>
           <FooterList>
-            <FooterLogo src={logo} alt="Vaime Travel" />
+            <LogoLink>
+              <Vaime />
+            </LogoLink>
             {(phoneNumbers || []).map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
             <FooterLink href={`mailto: ${email}`} title='email'>{email}</FooterLink>
           </FooterList>
@@ -96,7 +98,7 @@ const FooterNav = styled(Link)`
   text-decoration: none;
 `
 
-const FooterLogo = styled.img`
+const LogoLink = styled.div`
   width: 5.0rem;
   margin-bottom: 1rem;
   ${p => p.theme.print` display: none; `}

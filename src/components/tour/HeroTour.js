@@ -77,6 +77,7 @@ const Wrapper = styled.div`
   ${p => p.theme.mobile`
     flex-direction: column;
   `}
+  z-index: 1;
 `
 
 const Column = styled.div`
@@ -99,9 +100,9 @@ const LastColumn = styled(Column)`
 const Info = styled.div`
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  width: 100%;
   background-color: ${p => p.theme.colorSecondaryTransparent};
-  padding: ${path('theme.marginS')} ${path('theme.marginS')} ${path('theme.marginS')} 0;
+  padding: ${path('theme.marginS')} 0rem ${path('theme.marginS')} 0rem;
   backdrop-filter: blur(3px);
 
   border-top-left-radius: ${p => p.theme.radiusSmall};
@@ -114,7 +115,7 @@ const Info = styled.div`
   `}
   ${p => p.theme.print`
     flex-direction: row;
-    width: fit-content;
+    width: 100%;
     background-color: white;
     border: 1px solid black;
   `}
@@ -123,12 +124,13 @@ const Info = styled.div`
 const Pill = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 ${path('theme.marginS')};
+  padding: 0rem ${path('theme.marginS')};
   border-right: 1px solid ${path('theme.colorWhite')};
   font-weight: ${path('theme.weightNormal')};
   &:last-child {
     border-right: none;
   }
+  min-width: 7rem;
   ${p => p.theme.mobile`
     border: none;
     padding-top: .5rem;

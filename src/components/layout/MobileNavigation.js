@@ -5,7 +5,7 @@ import { colorPrimary } from '../../components/style/Theme'
 import MenuIcon from '../../icons/menu'
 
 export default ({ menu, navigation, slug }) => {
-  const path = (slug || '').slice(0, -1) // remove slash
+  const path = slug
 
   return (
     <Wrapper>

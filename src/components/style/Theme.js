@@ -2,7 +2,6 @@ import React, { memo } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import GlobalStyle from './GlobalStyle'
 import media from '../../utils/media'
-import Logo from '../../icons/base/logo'
 import '../../styles/normalize.css'
 
 export const colorPrimary = '#DE261D' // 221, 51, 51
@@ -29,6 +28,7 @@ const theme = {
   marginXs: '.5rem',
   marginXxs: '.25rem',
   // font weight
+  weightBolder: 600,
   weightBold: 500,
   weightNormal: 400,
   weightThin: 300,
@@ -65,29 +65,5 @@ const Main = styled.main`
   display: flex;
   flex-direction: column;
 `
-
-export const Content = styled.div`
-  flex: 1;
-  min-height: 100vh;
-`
-
-const PlaceholderWrapper = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  border: 3px solid ${colorPrimary};
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  background-color: ${colorPrimary};
-`
-
-export const Placeholder = memo(() => (
-  <PlaceholderWrapper>
-    <Logo size='5rem' fill={'#fff'} />
-  </PlaceholderWrapper>
-))
 
 export default Theme
