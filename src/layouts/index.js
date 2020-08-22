@@ -5,9 +5,11 @@ import StructuredData from '../components/custom/StructuredData'
 import Header from '../components/layout/Header'
 import FacebookChat from '../components/Facebook'
 import useGlobal from '../utils/useGlobal'
+import usePath from '../utils/usePath'
 
-const Layout = ({ children, path, ...props }) => {
+const Layout = ({ children }) => {
   const data = useGlobal()
+  const path = usePath()
 
   return (
     <Theme>

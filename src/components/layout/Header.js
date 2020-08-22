@@ -10,9 +10,8 @@ import MobileNavigation from './MobileNavigation'
 export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
-  const path = (slug || '').slice(0, -1) // remove slash
   
-  const isHome = !path
+  const isHome = !slug || slug === '/'
   const [isOverHome, setIsOverHome] = useState(false)
   const onMouseEnter = useCallback(() => setIsOverHome(true), [])
   const onMouseLeave = useCallback(() => setIsOverHome(false), [])
@@ -21,15 +20,13 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
   return (
     <>
       <Header>
-        <div data-test="test">{path}</div>
-        <div data-test="test">{slug}</div>
         <LayoutNavigationDesktop>
           <Nav>
             <LogoWrapper to="/" title="Logo" onClick={onClick} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
               <Vaime noBorder={!showLogoBorder} />
             </LogoWrapper>
             {navigation.map(nav => (
-              <NavItem data-active={path === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
+              <NavItem data-active={slug === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
             ))}
           </Nav>
         <SocialListContainer phone={phone} socialLinks={socialLinks} />
