@@ -2,10 +2,6 @@ import React from 'react'
 import {path} from 'rambda'
 import Img from 'gatsby-image'
 
-const placeholderStyle = {
-  filter: 'blur(10px)'
-}
-
 export default ({data, ...props}) => {
   if (!data) return null
 
@@ -20,7 +16,5 @@ export default ({data, ...props}) => {
     return <img {...props} style={style} alt={name} src={path('image', data)} />
   }
 
-  const isSvg = !!path('image.childImageSharp.fluid.tracedSVG', data)
-
-  return <Img {...props} placeholderStyle={!isSvg ? placeholderStyle : undefined} alt={name} fluid={fluid} />
+  return <Img {...props} alt={name} fluid={fluid} />
 }
