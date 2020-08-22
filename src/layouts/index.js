@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/layout/Footer'
-import Theme, { Content, Placeholder } from '../components/style/Theme'
+import Theme from '../components/style/Theme'
 import StructuredData from '../components/custom/StructuredData'
 import Header from '../components/layout/Header'
 import FacebookChat from '../components/Facebook'
@@ -13,9 +13,7 @@ const Layout = ({ children, path, ...props }) => {
     <Theme>
       <StructuredData {...data} slug={path} />
       <Header {...data} slug={path} />
-      <Content>
-        {children}
-      </Content>
+      {children}
       <Footer data={data} />
       <FacebookChat />
     </Theme>
