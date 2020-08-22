@@ -15,6 +15,8 @@ import Map from '../components/tour/Map'
 import TourTopInfo from '../components/tour/TourTopInfo'
 import Instagram from '../components/home/Instagram'
 import { useSetSeen } from '../hooks/useSeen'
+import TourTile from '../components/TourTile'
+import EditorWrapper from '../components/EditorWrapper'
 
 const TourPage = styled(Page)`
   background-color: ${p => p.theme.colorGreyNew};
@@ -28,12 +30,17 @@ const LeftColumn = styled(Column)`
   `}
 `
 
-export const TourTemplate = ({ schedule, html, contentComponent, map, ...props }) => {
+export const TourTemplate = ({ schedule, html, contentComponent, map, editor, ...props }) => {
   const HtmlComponent = contentComponent || Content
 
   return (
     <TourPage>
       <HeroTour {...props} />
+      {editor && (
+        <EditorWrapper>
+          <TourTile tour={props} />
+        </EditorWrapper>
+      )}
       <View>
         <TourTopInfo {...props} />
         <Grid>
@@ -51,7 +58,7 @@ export const TourTemplate = ({ schedule, html, contentComponent, map, ...props }
             <HtmlComponent content={html || ''} />
           </LeftColumn>
           <Column size={65}>
-            <Map map={map} />
+            <Map map={map} editor={editor} />
           </Column>
         </Grid>
       </View>

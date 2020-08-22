@@ -23,6 +23,7 @@ const TourPagePreview = ({ entry, widgetFor, getAsset }) => {
           map={getAsset(data.map)}
           thumb={getAsset(data.thumb)}
           html={widgetFor('body')}
+          editor
         />
       </Theme>
     </Preview>
