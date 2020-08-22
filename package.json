@@ -40,7 +40,6 @@
     "node-sass": "^4.14.1",
     "rambda": "^5.13.1",
     "react": "^16.13.1",
-    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-medium-image-zoom": "^4.3.1",
