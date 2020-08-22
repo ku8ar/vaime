@@ -21,6 +21,8 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
   return (
     <>
       <Header>
+        <div data-test="test">{path}</div>
+        <div data-test="test">{slug}</div>
         <LayoutNavigationDesktop>
           <Nav>
             <LogoWrapper to="/" title="Logo" onClick={onClick} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
