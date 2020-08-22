@@ -4,10 +4,10 @@ active: true
 oneDay: false
 minSeats: 1
 title: Gastro-Przygoda
-description: poznaj prawdziwe smaki gruzji
+description: Poznaj prawdziwe smaki Gruzji
 informations: Kuchnia gruzińska, pełna egzotycznych przypraw, świeże owoce,
   domowe wino, warsztaty kulinarne - ten wyjazd zadowoli każdego smakosza
-  dobrego jedzenia. Zapraszamy na naszą apetyczną wycieczkę!
+  pysznego jedzenia i dobrego wina . Zapraszamy na naszą apetyczną wycieczkę!
 discount: 0
 terms:
   - startDate: 2021-07-12T11:00:14.238Z
@@ -39,7 +39,7 @@ schedule:
       regionu Guria, do miasteczka Ozurgeti, gdzie czekać na nas będą różne
       atrakcje, m.in. zbieranie herbaty, a nasza gospodyni opowie nam całą
       historię związaną z wprowadzeniem kultury herbaty do Gruzji. Mały lunch,
-      powrót do miasta. Na drodze powrotnej odwiedzimy ogród botaniczny Batumi,
+      powrót do miasta. W drodze powrotnej odwiedzimy ogród botaniczny Batumi,
       który już od 100 lat cieszy gości Adżarii pięknem egzotycznej natury.
       Kolacja, nocleg w Batumi.
   - day: "3"
@@ -71,7 +71,7 @@ schedule:
     text: >
       Wyjazd Gruzińską Drogą Wojenną w kierunku Stepancminda (Kazbegi).
 
-      Przejazd wzdłuż rzeki Aragwi, przez Przełęcz Krzyżową. Po drodze obejrzymy malowniczą twierdzę Ananuri położoną nad rzeką Aragwi.Z Kazbegi wjazd samochodami terenowymi do zabytkowego kościoła Trójcy Świętej położonego na wysokości 2020 m n.p.m. (wjazd odbędzie się jeżeli pozwolą na to warunki atmosferyczne). Przy ładnej pogodzie rozpościera się stąd piękny widok na jeden z najwyższych szczytów Gruzji - górę Kazbek (5047 m). Powrót w Tbilisi. Kolacja i nocleg.
+      Przejazd wzdłuż rzeki Aragwi, przez Przełęcz Krzyżową. Po drodze obejrzymy malowniczą twierdzę Ananuri położoną nad rzeką Aragwi. Z Kazbegi wjazd samochodami terenowymi do zabytkowego kościoła Trójcy Świętej położonego na wysokości 2020 m n.p.m. (wjazd odbędzie się jeżeli pozwolą na to warunki atmosferyczne). Przy ładnej pogodzie rozpościera się stąd piękny widok na jeden z najwyższych szczytów Gruzji - górę Kazbek (5047 m). Powrót do Tbilisi. Kolacja i nocleg.
   - day: "6"
     place: "17.07 - kraina wina "
     text: >
