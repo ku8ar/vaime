@@ -9,10 +9,10 @@ export default ({ root, target, onIntersect, threshold = 1.0, rootMargin = "0px"
         threshold,
       })
 
-      observer.observe(target.current)
+      target.current && observer.observe(target.current)
 
       return () => {
-        observer.unobserve(target.current)
+        target.current && observer.unobserve(target.current)
       }
     }
   )
