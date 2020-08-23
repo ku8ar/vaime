@@ -13,7 +13,7 @@ thumb: /img/grapes-2576705.jpg
 images:
   - image: /img/country-lane-428039.jpg
     name: kacheti
-map: /img/majówka_gruz.wakacje_winobranie-6-.png
+map: /img/majowka_gruzja.png
 schedule:
   - day: "1"
     place: 02.09 - Kutaisi – Tbilisi

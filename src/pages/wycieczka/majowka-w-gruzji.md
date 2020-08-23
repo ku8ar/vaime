@@ -18,7 +18,7 @@ terms:
     startDate: 2021-04-28T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
-  - image: /img/ტბილიუსი.jpg
+  - image: /img/most.jpg
     name: tbilisi
 map: /img/majowka-2021.png
 schedule:

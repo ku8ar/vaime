@@ -14,9 +14,9 @@ terms:
     price: 40
 thumb: /img/georgia-3609803.jpg
 images:
-  - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
+  - image: /img/monastyr_gergeti.jpg
     name: Kazbegi
-map: /img/kazbegi-mapa.png.png
+map: /img/kazbegi-mapa.png
 schedule:
   - day: 9 00
     place: Wyjazd z Tbilisi
