@@ -1,4 +1,4 @@
-import React, { useCallback, memo, useState } from 'react'
+import React, { useCallback, memo } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Vaime from './Vaime'
@@ -11,19 +11,13 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
   
-  const isHome = !slug || slug === '/'
-  const [isOverHome, setIsOverHome] = useState(false)
-  const onMouseEnter = useCallback(() => setIsOverHome(true), [])
-  const onMouseLeave = useCallback(() => setIsOverHome(false), [])
-  const showLogoBorder = isHome || isOverHome
-
   return (
     <>
       <Header>
         <LayoutNavigationDesktop>
           <Nav>
-            <LogoWrapper to="/" title="Logo" onClick={onClick} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-              <Vaime noBorder={!showLogoBorder} />
+            <LogoWrapper to="/" title="Logo" onClick={onClick}>
+              <Vaime />
             </LogoWrapper>
             {navigation.map(nav => (
               <NavItem data-active={slug === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
