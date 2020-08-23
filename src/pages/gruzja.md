@@ -41,7 +41,7 @@ grid:
       centra edukacji i kultury, akademie, obronne twierdze i zamki, skalne
       miasta oraz zabytki pochodzące jeszcze z czasów pogańskich.
   - image0: /img/supra-joanna-barbara-bielak.jpg
-    image1: /img/img_2511jpg.jpg
+    image1: /img/czurchela.jpg
     title: Gościnni ludzie
     text: >
       O gruzińskiej gościnności krążą legendy. W Gruzji mówi się, że gość to dar
