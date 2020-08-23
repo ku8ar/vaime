@@ -30,8 +30,8 @@ grid:
       “kwewri”, wpisana jest na listę światowego dziedzictwa UNESCO. Gruzini do
       naszych czasów zachowali tę tradycję, a wino zrobione w tradycyjnych
       kwewri możemy znaleźć wszędzie.
-  - image0: /img/img_1549jpg.jpg
-    image1: /img/jvari-swieczki.jpg
+  - image0: /img/bagrati_kosciol.jpg
+    image1: /img/jvari_swieczki.jpg
     title: Bogate dziedzictwo kulturowe
     text: >
       Gruzja przyjęła chrześcijaństwo w IV wieku, w wyniku czego na terenie
@@ -66,9 +66,9 @@ carousel:
     name: Twierdza Rabati, Achalcyche
   - image: /img/wardzia_wejscie.JPG
     name: Skalne miasto Wardzia
-  - image: /img/jvari-swieczki.jpg
+  - image: /img/jvari_swieczki_grid.jpg
     name: Monastyr Dżwari, Mccheta
-  - image: /img/jaskinia-prometeusza.jpg
+  - image: /img/jaskinia_prometeusza.jpg
     name: Jaskina Prometeusza, Ckaltubo
   - image: /img/batumi-bulvar-2.jpg
     name: Nadmorski bulwar w Batumi

@@ -36,8 +36,8 @@ collections:
       - {label: "Price not contains", name: "priceNotContains", widget: "list", fields: [{label: Text, name: text, widget: string}, {label: Icon, name: icon, widget: select, required: false, options: ['beach', 'boat', 'bus', 'cableCar', 'catamaran', 'food', 'guide', 'hotel', 'map', 'offroad', 'plane', 'ticket', 'wine', 'alcohol', 'cinemaTicket', 'coffee', 'grapes', 'healthcare', 'home', 'restaurant', 'train', 'whisky']}]}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "static"
-    label: "Static"
+  - name: "custom"
+    label: "Custom"
     files:
       - file: "src/pages/index.md"
         label: "Start Page"
@@ -61,17 +61,7 @@ collections:
           - {label: Reviews, name: reviews, widget: list, required: false, fields: [{label: "Author", name: author, widget: string}, {label: "Place", name: place, widget: string}, {label: "Text", name: text, widget: text}, {label: "Stars", name: stars, widget: number}]}
           - {label: "Promo Image", name: "promoImage", widget: image}
 
-      - file: "src/pages/kontakt.md"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact"}
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
-          - {label: "Body", name: "body", widget: "markdown"}
-
-      - file: "src/pages/static/global.md"
+      - file: "src/pages/custom/global.md"
         label: "Global"
         name: "global"
         fields:

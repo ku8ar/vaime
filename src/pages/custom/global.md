@@ -1,6 +1,6 @@
 ---
 templateKey: global
-seoTitle: "| Vaime Travel"
+seoTitle: "- Vaime Travel"
 logo: /img/vaime_circle.png
 companyName: Vaime Travel
 email: info@vaimetravel.com

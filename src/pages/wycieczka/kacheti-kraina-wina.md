@@ -13,7 +13,7 @@ terms:
     price: 50
 thumb: /img/georgia-5139384.jpg
 images:
-  - image: /img/img_2511jpg.jpg
+  - image: /img/czurchela.jpg
     name: bazar
 map: /img/kacheti-mapa.png
 schedule:
