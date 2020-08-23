@@ -73,7 +73,7 @@ export const buttonStyle = css`
   padding: .5rem 1rem;
   font-size: ${p => p.theme.fontNormal};
   letter-spacing: ${p => p.theme.spacingBig};
-  font-weight: ${p => p.theme.weightThin};
+  font-weight: ${p => p.theme.weightBold};
   border-radius: ${p => p.theme.radiusSmall};
   margin: ${p => p.theme.marginS} 0;
   cursor: ${p => p.disabled ? 'default' : 'pointer'};

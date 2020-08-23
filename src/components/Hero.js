@@ -5,11 +5,20 @@ import Image from './Image'
 import { View } from './Base'
 import PreloadImage from './custom/PreloadImage'
 
-const Hero = ({ images, children, small, fullScreen, dark, bottomChildren }) => {
+const Hero = ({ images, children, small, fullScreen, dark, noWrapper }) => {
   const imgKey = useImageKey(images)
   const imgData = images && images.length && images[imgKey]
   const nextImage = images && images.length && images[imgKey + 1]
   const multiple = images && !!images.length
+
+  let child = (
+    <HeroContent>
+      {children}
+    </HeroContent>
+  )
+  if (noWrapper) {
+    child = children
+  }
 
   return (
     <>
@@ -25,10 +34,7 @@ const Hero = ({ images, children, small, fullScreen, dark, bottomChildren }) => 
             <Img style={dark ? imgDarkStyle : imgStyle} data={imgData} loading={'eager'} />
           </CSSTransition>
         </TransitionGroup>
-        <HeroContent>
-          {children}
-        </HeroContent>
-        {bottomChildren}
+        {child}
       </HeroWrapper >
     </>
   )
@@ -54,7 +60,6 @@ const HeroWrapper = styled.div`
   height: ${p => p.fullScreen ? 'calc(100vh - 4rem)' : p.small ? '10rem' : '30rem'};
   position: relative;
   overflow: hidden;
-  ${p => p.theme.mobile` height: auto; `}
   ${p => p.theme.print` height: auto; `}
 `
 

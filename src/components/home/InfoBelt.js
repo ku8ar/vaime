@@ -8,9 +8,7 @@ const Wrapper = styled.div`
   backdrop-filter: blur(3px);
   border-top-left-radius: ${p => p.theme.radiusSmall};
   border-top-right-radius: ${p => p.theme.radiusSmall};
-  position: absolute;
-    bottom: 0;
-    width: 100%;
+  width: 100%;
 `
 
 const InfoView = styled(View)`
@@ -23,7 +21,7 @@ const InfoWrapper = styled.div`
   width: 15rem;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 `
 
 const IconWrapper = styled.div`
@@ -39,12 +37,6 @@ const Title = styled(P)`
   font-size: 1rem;
   margin-bottom: 0;
   color: ${p => p.theme.colorWhite};
-  font-weight: ${p => p.theme.weightBold};
-`
-
-const Description = styled(P)`
-  margin-bottom: 0;
-  color: ${p => p.theme.colorWhite};
   font-weight: ${p => p.theme.weightThin};
 `
 
@@ -55,7 +47,6 @@ const InfoItem = ({icon, label, description}) => (
     </IconWrapper>
     <Column>
       <Title>{label}</Title>
-      <Description>{description}</Description>
     </Column>
   </InfoWrapper>
 )

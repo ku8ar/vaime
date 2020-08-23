@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import compass from './compass'
 import human from './human'
 import bus from './bus'
+import group from './group'
+import money from './money'
 
 const IconWrapper = styled.div`
   height: ${p => p.size};
@@ -12,7 +14,9 @@ const IconWrapper = styled.div`
 const types = {
   compass,
   human,
-  bus
+  bus,
+  group,
+  money
 }
 
 const Icon = ({ icon }) => {

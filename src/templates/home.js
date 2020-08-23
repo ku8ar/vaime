@@ -62,8 +62,10 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
 
   return (
     <Page>
-      <Hero images={images} dark fullScreen bottomChildren={<InfoBelt {...props} />}>
-        <HeroContent {...props} />
+      <Hero images={images} dark fullScreen noWrapper>
+        <HeroContent {...props}>
+          <InfoBelt {...props} />
+        </HeroContent>
       </Hero>
       <Offers id="offers">
       {
@@ -203,7 +205,6 @@ export const pageQuery = graphql`
         heroInfoBelt {
           icon
           label
-          description
         }
         images {
           name

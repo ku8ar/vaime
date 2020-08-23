@@ -76,6 +76,8 @@ const Wrapper = styled.div`
   height: 100%;
   ${p => p.theme.mobile`
     flex-direction: column;
+    height: auto;
+    margin-top: auto;
   `}
   z-index: 1;
 `

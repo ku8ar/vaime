@@ -1,5 +1,5 @@
 import React from 'react'
-import { H1, H2, Button } from '../Base'
+import { H1, H2, Button, View } from '../Base'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -9,8 +9,12 @@ const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+`
+const CenterWrapper = styled(View)`
+  z-index: 1;
+  display: block;
 `
 const Title = styled(H1)`
   color: white;
@@ -33,13 +37,17 @@ const onClick = () => {
   });
 }
 
-export default ({ heroTitle, heroSubtitle, heroButtonTitle }) => {
+export default ({ heroTitle, heroSubtitle, heroButtonTitle, children }) => {
 
   return (
     <Container>
-        <Title>{heroTitle}</Title>
-        <Subtitle>{heroSubtitle}</Subtitle>
-        <OffersButton href="#offers" onClick={onClick}>{heroButtonTitle}</OffersButton>
+        <div />
+        <CenterWrapper>
+          <Title>{heroTitle}</Title>
+          <Subtitle>{heroSubtitle}</Subtitle>
+          <OffersButton href="#offers" onClick={onClick}>{heroButtonTitle}</OffersButton>
+        </CenterWrapper>
+        {children}
     </Container>
   )
 }

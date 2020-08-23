@@ -6,15 +6,14 @@ heroTitle: GRUZJA, ARMENIA, AZERBEJDŻAN
 heroSubtitle: poszerzaj swoje horyzonty
 heroButtonTitle: NASZE OFERTY
 heroInfoBelt:
-  - label: Zwiedzanie
-    description: Najlepsze atrakcje Zakaukazia
+  - label: Najciekawsze atrakcje
     icon: compass
-  - label: Zespół
-    description: Wykwalifikowani przewodnicy i kierowcy
+  - label: Wykwalifikowany zespół
     icon: human
-  - label: Komfortowa podróż
-    description: Kameralne grupy
+  - label: Komfortowa podróż i kameralne grupy
     icon: bus
+  - label: Najlepsze ceny
+    icon: money
 images:
   - image: /img/302.jpg
     name: Batumi
