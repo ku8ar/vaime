@@ -102,7 +102,7 @@ priceContains:
   - icon: home
     text: Noclegi w pensjonacie/agroturystyce w Mestii (pokoje z łazienkami)
   - icon: cinemaTicket
-    text: "Bilety wstępu "
+    text: Bilety wstępu
   - icon: cableCar
     text: Przejazd kolejką w Tbilisi
   - icon: restaurant

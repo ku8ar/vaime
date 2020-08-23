@@ -14,7 +14,7 @@ grid:
       Kaukazu. Stosunkowo małą Gruzję cechuje różnorodność – zachodnią granicę
       wyznacza wybrzeże Morza Czarnego, na południu są góry małego Kaukazu, a na
       wschodzie podziwiać można rozległe doliny i stepy.
-  - image0: /img/acharuli Chalupka.jpg
+  - image0: /img/acharuli-chalupka.jpg
     image1: /img/chinkali2.jpg
     title: Kraj pysznego jedzenia
     text: >
@@ -22,7 +22,7 @@ grid:
       płodów rolnych oraz aromatycznych przypraw. Charakterystyczne składniki
       używane w naszej kuchni dodają jej niepowtarzalnego i wyjątkowego smaku.
   - image0: /img/mevenaxe.jpg
-    image1: /img/20180504_172850-—-kopia.jpg
+    image1: /img/marani_piwnica.jpg
     title: Unikatowe wino
     text: >
       Gruzja jest ojczyzną wina. Na tej ziemi nasi przodkowie zaczęli robić wino
@@ -54,17 +54,17 @@ text: >
 carousel:
   - image: /img/466.jpg
     name: Region Swaneti, Wielki Kaukaz
-  - image: /img/IMG_2202jpg.JPG
+  - image: /img/chertwisi.JPG
     name: Twierdza Chertwisi
   - image: /img/P1000428.JPG
     name: Freski w głównym kościele monastyru Gelati, Kutaisi
   - image: /img/P1000438.JPG
     name: Szczy Kazbek (Mkinvarcveri)
-  - image: /img/img_1549jpg.jpg
+  - image: /img/bagrati_kosciol.jpg
     name: Katedra Bagrati, Kutaisi
   - image: /img/biore_4.jpg
     name: Twierdza Rabati, Achalcyche
-  - image: /img/IMG_2162jpg.JPG
+  - image: /img/wardzia_wejscie.JPG
     name: Skalne miasto Wardzia
   - image: /img/jvari-swieczki.jpg
     name: Monastyr Dżwari, Mccheta
