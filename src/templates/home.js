@@ -1,13 +1,14 @@
 import React from 'react'
-import { path, sortBy, pipe, filter, head, prop, reverse, not, map, uniq, join, groupBy } from 'rambda'
+import { path, sortBy, pipe, filter, head, prop, reverse, not, map, groupBy } from 'rambda'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
 import { calcYear } from '../utils/date'
 import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import TourTile from '../components/TourTile'
-import { Page, Grid, H1 } from '../components/Base'
+import { Page, Grid } from '../components/Base'
 import Section from '../components/home/Section'
 import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
@@ -15,7 +16,7 @@ import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
 import Instagram from '../components/home/Instagram'
 import Reviews from '../components/home/Reviews'
-import styled from 'styled-components'
+import HeroContent from '../components/home/HeroContent'
 import JsonLd, { siteUrl } from '../components/custom/JsonLd'
 
 const getIsOneDay = path(['node', 'frontmatter', 'oneDay'])
@@ -48,11 +49,11 @@ const getMutliDayTourMap = pipe(
 
 const filterOneDayTours = filter(getIsOneDay)
 
-const Title = styled(H1)`
-  opacity: 0;
+const Offers = styled.div`
+
 `
 
-export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent, reviews, reviewImage, reviewVideo, reviewPreview }) => {
+export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent, reviews, reviewImage, reviewVideo, reviewPreview, ...props }) => {
   const HtmlComponent = contentComponent || Content
 
   const _tours = sortTours(tours)
@@ -61,10 +62,10 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
 
   return (
     <Page>
-      <Hero images={images}>
-        <Title>{title}</Title>
+      <Hero images={images} dark fullScreen bottomChildren={<InfoBelt {...props} />}>
+        <HeroContent {...props} />
       </Hero>
-      <InfoBelt />
+      <Offers id="offers">
       {
         Object.entries(_multiDayToursMap || {}).map(
           ([year, list]) => (
@@ -95,6 +96,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           </Grid>
         </Section>
       ) : null}
+      </Offers>
       <AboutUsSection
         title={aboutTitle}
         image={aboutImage}
@@ -195,6 +197,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        heroTitle
+        heroSubtitle
+        heroButtonTitle
+        heroInfoBelt {
+          icon
+          label
+          description
+        }
         images {
           name
           image { ...imageFullWidth }

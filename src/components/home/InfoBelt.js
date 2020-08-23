@@ -1,18 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import { View, P } from '../Base'
-import Compass from '../../icons/compass'
-import User from '../../icons/user'
-import BusCircle from '../../icons/busCircle'
-
-const data = [
-  {Icon: Compass, label: 'Zwiedzanie', description: 'Najlepsze atrakcje Zakaukazia'},
-  {Icon: User, label: 'Zespół', description: 'Wykwalifikowani przewodnicy i kierowcy'},
-  {Icon: BusCircle, label: 'Komfortowa podróż', description: 'Kameralne grupy'}
-]
+import Icon from '../../icons/infoBelt'
 
 const Wrapper = styled.div`
-  background-color: ${p => p.theme.colorGrey}
+  background-color: ${p => p.theme.colorSecondaryTransparent};
+  backdrop-filter: blur(3px);
+  border-top-left-radius: ${p => p.theme.radiusSmall};
+  border-top-right-radius: ${p => p.theme.radiusSmall};
+  position: absolute;
+    bottom: 0;
+    width: 100%;
 `
 
 const InfoView = styled(View)`
@@ -29,8 +27,10 @@ const InfoWrapper = styled.div`
 `
 
 const IconWrapper = styled.div`
-  height: 3rem;
   margin-right: 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
 `
 
 const Column = styled.div``
@@ -38,17 +38,20 @@ const Column = styled.div``
 const Title = styled(P)`
   font-size: 1rem;
   margin-bottom: 0;
-  color: ${p => p.theme.colorSecondary}
+  color: ${p => p.theme.colorWhite};
+  font-weight: ${p => p.theme.weightBold};
 `
 
 const Description = styled(P)`
   margin-bottom: 0;
+  color: ${p => p.theme.colorWhite};
+  font-weight: ${p => p.theme.weightThin};
 `
 
-const InfoItem = ({Icon, label, description}) => (
+const InfoItem = ({icon, label, description}) => (
   <InfoWrapper>
     <IconWrapper>
-      <Icon />
+      <Icon icon={icon} />
     </IconWrapper>
     <Column>
       <Title>{label}</Title>
@@ -57,10 +60,10 @@ const InfoItem = ({Icon, label, description}) => (
   </InfoWrapper>
 )
 
-export default () => (
+export default ({ heroInfoBelt = [] }) => (
   <Wrapper>
     <InfoView>
-      {data.map(item => <InfoItem key={item.label} {...item} />)}
+      {heroInfoBelt.map(item => <InfoItem key={item.label} {...item} />)}
     </InfoView>
   </Wrapper>
 )

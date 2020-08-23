@@ -3,6 +3,19 @@ templateKey: home
 title: Wycieczki po Gruzji z Nini i Mają
 description: Biuro podróży Vaime Travel 🇬🇪 Wycieczki objazdowe Gruzja,
   Armenia, Azerbejdżan, Kaukaz
+heroTitle: GRUZJA, ARMENIA, AZERBEJDŻAN
+heroSubtitle: WYCIECZKI Z NINI I MAJĄ
+heroButtonTitle: NASZE OFERTY
+heroInfoBelt:
+  - label: Zwiedzanie
+    description: Najlepsze atrakcje Zakaukazia
+    icon: compass
+  - label: Zespół
+    description: Wykwalifikowani przewodnicy i kierowcy
+    icon: human
+  - label: Komfortowa podróż
+    description: Kameralne grupy
+    icon: bus
 images:
   - image: /img/302.jpg
     name: Batumi
@@ -18,7 +31,7 @@ images:
     name: gori
   - image: /img/houses-4994218.jpg
     name: tbilisi
-  - image: /img/ararat-zdjęcie.jpg
+  - image: /img/ararat-zdjecie.jpg
     name: ararat
   - image: /img/biore_4.jpg
     name: rabati

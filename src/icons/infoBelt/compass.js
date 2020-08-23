@@ -1,22 +1,22 @@
 import * as React from "react"
 
-function SvgComponent(props) {
+function SvgComponent({size, fill, ...props }) {
   return (
-    <svg height={50} viewBox="0 0 50 50" width={50} {...props}>
+    <svg height={size} viewBox="0 0 50 50" width={size} {...props}>
       <path fill="none" d="M0 0h50v50H0z" />
       <circle
         cx={25}
         cy={25}
         fill="none"
         r={24}
-        stroke="#000"
+        stroke={fill}
         strokeLinecap="round"
         strokeMiterlimit={10}
         strokeWidth={2}
       />
       <path
         fill="none"
-        stroke="#000"
+        stroke={fill}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeMiterlimit={10}
@@ -26,7 +26,7 @@ function SvgComponent(props) {
       <path d="M22.465 22.465l15.141-10.07-10.07 15.14z" />
       <path
         fill="none"
-        stroke="#000"
+        stroke={fill}
         strokeLinecap="round"
         strokeMiterlimit={10}
         strokeWidth={2}

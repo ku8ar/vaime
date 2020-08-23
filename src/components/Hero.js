@@ -5,7 +5,7 @@ import Image from './Image'
 import { View } from './Base'
 import PreloadImage from './custom/PreloadImage'
 
-const Hero = ({ images, children, small }) => {
+const Hero = ({ images, children, small, fullScreen, dark, bottomChildren }) => {
   const imgKey = useImageKey(images)
   const imgData = images && images.length && images[imgKey]
   const nextImage = images && images.length && images[imgKey + 1]
@@ -19,15 +19,16 @@ const Hero = ({ images, children, small }) => {
           <PreloadImage image={nextImage} />
         </>
       )}
-      <HeroWrapper small={small}>
+      <HeroWrapper small={small} fullScreen={fullScreen}>
         <TransitionGroup>
           <CSSTransition key={imgKey} {...cssTransitionProps}>
-            <Img style={imgStyle} data={imgData} loading={'eager'} />
+            <Img style={dark ? imgDarkStyle : imgStyle} data={imgData} loading={'eager'} />
           </CSSTransition>
         </TransitionGroup>
         <HeroContent>
           {children}
         </HeroContent>
+        {bottomChildren}
       </HeroWrapper >
     </>
   )
@@ -50,8 +51,9 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const HeroWrapper = styled.div`
-  height: ${p => p.small ? 10 : 30}rem;
+  height: ${p => p.fullScreen ? 'calc(100vh - 4rem)' : p.small ? '10rem' : '30rem'};
   position: relative;
+  overflow: hidden;
   ${p => p.theme.mobile` height: auto; `}
   ${p => p.theme.print` height: auto; `}
 `
@@ -62,6 +64,7 @@ const HeroContent = styled(View)`
   justify-content: space-between;
   height: 100%;
   z-index: 1;
+  position: relative;
 `
 
 const cssTransitionProps = {
@@ -70,6 +73,7 @@ const cssTransitionProps = {
 }
 
 const imgStyle = { position: 'absolute', width: '100%', height: '100%' }
+const imgDarkStyle = { ...imgStyle, filter: ' brightness(80%)' }
 
 const useImageKey = (images) => {
   const [x, setX] = useState(0)
