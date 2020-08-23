@@ -19,10 +19,6 @@ thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
     name: batumi
-  - image: /img/p1020746.jpg
-    name: svaneti
-  - image: /img/565.jpg
-    name: martvili
 map: /img/gruzinskie-wakacje-2021.png
 schedule:
   - day: "1"
