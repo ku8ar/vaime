@@ -10,14 +10,12 @@ export const Grid = styled.div`
 
 export const View = styled.div`
   width: 100%;
-  max-width: 1140px;
+  max-width: 1172px;
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  ${p => p.theme.smallScreen`
-    padding: 0 1rem;
-  `}
+  padding: 0 1rem;
   ${p => p.theme.print` display: block; `}
 `
 
