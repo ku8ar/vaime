@@ -1,8 +1,7 @@
 ---
 templateKey: home
 title: Wycieczki po Gruzji z Nini i Mają
-description: Biuro podróży Vaime Travel | Wycieczki objazdowe Gruzja,
-  Armenia, Azerbejdżan, Kaukaz
+description: Biuro podróży Vaime Travel | Wycieczki objazdowe Gruzja, Armenia, Azerbejdżan, Kaukaz
 heroTitle: GRUZJA, ARMENIA, AZERBEJDŻAN
 heroSubtitle: poszerzaj swoje horyzonty
 heroButtonTitle: NASZE OFERTY
@@ -116,15 +115,15 @@ reviews:
       dodając swoje trafne modyfikacje i propozycje programu. Noclegi przez nie
       zaproponowane okazały się strzałem w dziesiątkę, zawsze klimatyczne,
       pozwalające spotkać się z prawdziwą gruzińską gościnnością i pyszną
-      kuchnią z domowych produktów.  Dziewczyny serdeczne i naturalne. Gorąco
+      kuchnią z domowych produktów. Dziewczyny serdeczne i naturalne. Gorąco
       polecam.
     author: Kamila
     place: Wyjazd indywidualny, 2018
     stars: 5
   - author: Monika
     place: Kaukaski Duet - Gruzja i Armenia", 2019
-    text: Uczestniczyłam w wycieczce po Gruzji i Armenii  i śmiało mogę powiedzieć,
-      że wycieczka przerosła moje najśmielsze oczekiwania.  Dziewczyny z pasją
+    text: Uczestniczyłam w wycieczce po Gruzji i Armenii i śmiało mogę powiedzieć,
+      że wycieczka przerosła moje najśmielsze oczekiwania. Dziewczyny z pasją
       potrafią opowiadać o historii, zabytkach czy sytuacji geopolitycznej
       regionu. Po zwiedzaniu byliśmy zabierani do najlepszych restauracji na
       biesiady przy rewelacyjnych potrawach i wspaniałym winie. Długo będę
@@ -163,8 +162,8 @@ reviews:
     stars: 5
 promoImage: /img/mapka_glowna.jpg
 ---
-Witamy w naszym biurze!  \
-Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.  
+Witamy w naszym biurze!\
+Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.
 
 Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze staramy się dostosować programy do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
 Zapraszamy, zwiedźcie Gruzję razem z nami!

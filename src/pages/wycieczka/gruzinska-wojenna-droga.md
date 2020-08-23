@@ -41,7 +41,7 @@ schedule:
 
       Zwiedzanie Ananuri - kompleksu architektonicznego, w skład którego wchodzą: główny kościół, mniejszy nieczynny kościół, wieża obronna oraz mur obronny twierdzy, cały kompleks należy do XVII w. 
 
-      Wyjazd z Ananuri o ok.  12:00.
+      Wyjazd z Ananuri o ok. 12:00.
   - day: 13 00
     place: Gudauri
     text: Dojazd do słynnego ośrodka narciarskiego Gudauri, gdzie zatrzymamy się

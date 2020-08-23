@@ -91,7 +91,7 @@ schedule:
       potrawami, winem oraz pokaże cząstkę lokalnego folkloru. Nocleg w
       agroturystyce. "
   - day: "7"
-    place: 04.05 - Keda -  Kutaisi
+    place: 04.05 - Keda - Kutaisi
     text: Śniadanie. Pożegnanie z gospodarzem i wyjazd w kierunku Kutaisi. Po drodze
       przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
       dojazd. Pożegnalna biadokolacja i nocleg w Kutaisi.

@@ -89,7 +89,7 @@ schedule:
       również ruiny katedry Zwartnoc (VII w.), również wpisanej na listę
       UNESCO. 
 
-      Wyjazd  w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
+      Wyjazd w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
     place: Goris - Geghard - Garni - Erywań
     text: "Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania zwiedzamy dwa
@@ -117,7 +117,7 @@ schedule:
       centrum Gruzji, starej stolicy Mcchety. Mccheta jest kolebką
       chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
       jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
-      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.).  Dojazd
+      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.). Dojazd
       do Tbilisi, obiadokolacja, nocleg.
   - day: "9"
     place: Tbilisi - Bodbe - Signagi

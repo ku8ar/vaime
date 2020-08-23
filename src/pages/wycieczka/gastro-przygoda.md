@@ -23,7 +23,7 @@ map: /img/gastrp.png
 schedule:
   - text: "Przylot do miasta Kutaisi, odbiór z lotniska. Transfer do nadmorskiego
       kurortu Batumi. Czas na odpoczynek. Krótki spacer po mieście, po spacerze
-      zaczynamy naszą przygodę z kuchnią gruzińską.  W Batumi do spróbowania
+      zaczynamy naszą przygodę z kuchnią gruzińską. W Batumi do spróbowania
       mamy: adżarskie chaczapuri z jajkiem, borano (smażone masło z serem),
       aczma (rodzaj chaczapuri, podobne do lasagne) i oczywiście czarnomorskie
       ryby. Przed kolacją udamy się na krótki rejs statkiem, oraz jeśli czas
@@ -48,7 +48,7 @@ schedule:
       Wyruszamy w kierunku Tbilisi. Po drodze zatrzymamy się na spróbowanie
       słodkich chlebków Nazuki, które można znaleźć tylko w jednej miejscowości
       o nazwie Surami, więc jak będziemy ją mijać, nie można o nie nie zahaczyć.
-      Kolejny przystanek będzie w mieście Gori, gdzie  zrobimy lunch w bardzo
+      Kolejny przystanek będzie w mieście Gori, gdzie zrobimy lunch w bardzo
       klimatycznej winnicy - spróbujemy tradycyjnych dań i win tego regionu. Po
       lunchu czeka na nas zwiedzanie skalnego miasta Upliscyche, które było
       zamieszkane jeszcze w III wieku p.n.e. Po zwiedzaniu dojazd do Tbilisi.
@@ -62,10 +62,10 @@ schedule:
       prawosławne, kościoły katolickie, synagogi i meczety: świątynia Metechi,
       potężna twierdza Narikala – fantastyczny widok na miasto, tbilisskie
       łaźnie siarkowe w 1500-letniej dzielnicy Abanotubani. Po
-      zwiedzaniu  czekają na nas warsztaty kulinarne, gdzie nauczymy się robić
+      zwiedzaniu czekają na nas warsztaty kulinarne, gdzie nauczymy się robić
       takich tradycyjnych dań kuchni gruzińskiej, jak chaczapuri i bakłażany z
-      orzechami.  Czas wolny, możliwość korzystania z łaźni siarkowych (we
-      własnym zakresie).  Kolacja i nocleg  w Tbilisi."
+      orzechami. Czas wolny, możliwość korzystania z łaźni siarkowych (we
+      własnym zakresie). Kolacja i nocleg w Tbilisi."
   - day: "5"
     place: 16.07 - kaukaz i chinkali
     text: >
@@ -77,7 +77,7 @@ schedule:
     text: >
       Wyjazd do Kachetii, krainy wina. Przejazd do miasta Telawi, wizyta na
       lokalnym bazarze, pełnym przypraw, win, bimbru, owoców i warzyw. Po
-      zakupach i spacerku po mieście udajemy się do miejscowego winiarza,  gdzie
+      zakupach i spacerku po mieście udajemy się do miejscowego winiarza, gdzie
       czekają na nas warsztaty kulinarne. Nauczymy się piec gruzińskiej chlebki
       i robić czurczchele (słodycze gruzińskie), a po wszystkim skosztujemy
       prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam chojną
@@ -86,7 +86,7 @@ schedule:
     place: 18.07 - biesiada i folklor
     text: >+
       Wyjazd w kierunku Kutaisi. Naszym pierwszym punktem zwiedzania będzie
-      miejscowość  Mccheta (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji,
+      miejscowość Mccheta (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji,
       właśnie tu w IV wieku przyjęto chrześcijaństwo jako państwową religię.
       Odwiedzimy najważniejsze obiekty sakralne z listy UNESCO – katedrę
       Sweticchoweli z XI i monastyr Dżwari z VI wieku, którego rozciąga się
@@ -96,7 +96,6 @@ schedule:
       Wieczorem udamy się na kolację u lokalnego gospodarza, gdzie oprócz
       spróbowania lokalnych potraw i win, czeka na nas koncert gruzińskiej
       muzyki ludowej. Nocleg w Kutaisi. 
-       
   - day: "8"
     place: 19.07 - TRANSFER na lotnisko
     text: Transfer na lotnisko, wylot.

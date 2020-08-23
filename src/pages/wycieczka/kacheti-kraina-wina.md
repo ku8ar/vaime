@@ -36,7 +36,7 @@ schedule:
       najważniejszej świątyni regionu, o ocalenie której kachetyjczycy podjęli
       walkę przeciw Persom (II połowa XVI wieku), rozpoczynając falę masowych
       powstań w całym kraju. Alawerdi to symbol Kacheti i kiedyś najwyższa
-      cerkiew kraju, sięgająca   ok. 50 m wysokości.
+      cerkiew kraju, sięgająca ok. 50 m wysokości.
   - day: 12 40
     place: "degustacja "
     text: >-

@@ -42,7 +42,7 @@ schedule:
       na samą górę, udamy się na krótki trekking (ok. 20-25 min) i ostatecznie
       znajdziemy się przy dziewięciu rozstawionych na skale krzyżach. Na miejscu
       dowiemy się, jaką legendę kryje to miejsce i nacieszymy się cudownymi
-      widokami.  Nasza dalsza droga prowadzi wzdłuż malowniczego jeziora Szaori
+      widokami. Nasza dalsza droga prowadzi wzdłuż malowniczego jeziora Szaori
       (1132 m n.p.m.). Po drodze zwiedzanie dwóch perełek gruzińskiej
       architektury sakralnej - katedry Nikorcminda XI. w, która znana jest ze
       swoich bogato ozdobnych płaskorzeźb na fasadach i fresków wewnątrz
@@ -67,7 +67,7 @@ schedule:
       degustację unikatowego wina Chwanczkara (ხვანჭკარა). Szczep Chwanczkara
       jest typowo raczyńskim gatunkiem winogron, z którego powstaje półsłodkie
       aromatyczne czerwone wino, znaleźć prawdziwą Chwanczkarę można tylko
-      tutaj, w Raczy.  Po degustacji i zwiedzaniu marani, czyli winnicy,
+      tutaj, w Raczy. Po degustacji i zwiedzaniu marani, czyli winnicy,
       opuszczamy region Racza i przejeżdżamy do miasta Kutaisi na obiadokolację
       i nocleg.
   - day: "5"
@@ -131,7 +131,7 @@ schedule:
       otwiera się przepiękny widok na całą stolicę; Abanotubani (dzielnica łaźni
       siarkowych), kręte uliczki starego Tbilisi, najważniejsze świątynie
       miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi –
-      Anczischati (VII w.).  Po zwiedzaniu wyjazd do miasta Kutaisi, pożegnalna
+      Anczischati (VII w.). Po zwiedzaniu wyjazd do miasta Kutaisi, pożegnalna
       obiadokolacja, nocleg."
   - day: "10"
     place: 30.06 - Transfer na lotnisko
