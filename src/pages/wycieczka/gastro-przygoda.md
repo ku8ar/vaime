@@ -13,12 +13,16 @@ terms:
   - startDate: 2021-07-12T11:00:14.238Z
     endDate: 2021-07-19T11:00:14.328Z
     daysCount: 8 DNI/7 NOCY
-    seats: 15
+    seats: 13
     price: 550
 thumb: /img/xinkali-23.jpg
 images:
   - image: /img/gastroprzyga_acharuli.jpg
     name: acharuli
+  - image: /img/kawa na piasku katarzyna.jpg
+    name: kawa
+  - image: /img/churchxela-chalupka.jpg
+    name: czurczchela
 map: /img/gastrp.png
 schedule:
   - text: "Przylot do miasta Kutaisi, odbiór z lotniska. Transfer do nadmorskiego
