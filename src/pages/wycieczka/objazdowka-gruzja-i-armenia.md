@@ -27,6 +27,10 @@ thumb: /img/armenia-3716853-1-.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
     name: sevan
+  - image: /img/IMG_2162jpg.JPG
+    name: wardzia
+  - image: /img/p1020020.jpg
+    name: garni
 map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"
