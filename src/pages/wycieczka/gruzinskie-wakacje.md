@@ -11,7 +11,7 @@ discount: 0
 discountTitle: first minute zniżka
 terms:
   - price: 530
-    seats: 13
+    seats: 15
     daysCount: 8 DNI/9 NOCY
     startDate: 2021-07-05T20:00:00.000Z
     endDate: 2021-07-13T20:00:00.000Z
@@ -19,6 +19,10 @@ thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
     name: batumi
+  - image: /img/IMG_2318jpg (1).JPG
+    name: mccheta
+  - image: /img/p1020756-1-.jpg
+    name: svaneti
 map: /img/gruzinskie-wakacje-2021.png
 schedule:
   - day: "1"
