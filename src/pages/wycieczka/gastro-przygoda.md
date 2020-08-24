@@ -21,6 +21,8 @@ images:
     name: acharuli
   - image: /img/churchxela-chalupka.jpg
     name: czurczchela
+  - image: /img/kawanapiasku.jpg
+    name: kawa na piasku
 map: /img/gastrp.png
 schedule:
   - text: "Przylot do miasta Kutaisi, odbiór z lotniska. Transfer do nadmorskiego
@@ -63,9 +65,9 @@ schedule:
       miasta, spacer przez Stare Miasto – znajdziemy tu obok siebie cerkwie
       prawosławne, kościoły katolickie, synagogi i meczety: świątynia Metechi,
       potężna twierdza Narikala – fantastyczny widok na miasto, tbilisskie
-      łaźnie siarkowe w 1500-letniej dzielnicy Abanotubani. Po
-      zwiedzaniu czekają na nas warsztaty kulinarne, gdzie nauczymy się robić
-      takich tradycyjnych dań kuchni gruzińskiej, jak chaczapuri i bakłażany z
+      łaźnie siarkowe w 1500-letniej dzielnicy Abanotubani. Po zwiedzaniu
+      czekają na nas warsztaty kulinarne, gdzie nauczymy się robić takich
+      tradycyjnych dań kuchni gruzińskiej, jak chaczapuri i bakłażany z
       orzechami. Czas wolny, możliwość korzystania z łaźni siarkowych (we
       własnym zakresie). Kolacja i nocleg w Tbilisi."
   - day: "5"
@@ -86,7 +88,7 @@ schedule:
       suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
   - day: "7"
     place: 18.07 - biesiada i folklor
-    text: >+
+    text: >
       Wyjazd w kierunku Kutaisi. Naszym pierwszym punktem zwiedzania będzie
       miejscowość Mccheta (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji,
       właśnie tu w IV wieku przyjęto chrześcijaństwo jako państwową religię.
