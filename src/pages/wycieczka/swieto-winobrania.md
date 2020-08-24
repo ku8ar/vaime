@@ -23,6 +23,10 @@ thumb: /img/mevenaxe.jpg
 images:
   - image: /img/georgia-4856786_1920-2-.jpg
     name: kacheti
+  - image: /img/grapes-2576705.jpg
+    name: rtveli
+  - image: /img/dsc_0169.jpg
+    name: signagi
 map: /img/majówka_gruz.wakacje_winobranie-6-.png
 schedule:
   - day: "1"
