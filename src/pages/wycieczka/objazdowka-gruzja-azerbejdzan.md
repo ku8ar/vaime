@@ -79,7 +79,7 @@ schedule:
       płonęły „wieczne ognie”. Na tym miejscu we wczesnym średniowieczu
       znajdowała się zoroastriańska świątynia ognia.
 
-      Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane jako Muzeum Petroglifów.  Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu).  Powrót do Baku, obiadokolacja, nocleg. 
+      Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane jako Muzeum Petroglifów. Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu). Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
     place: 22.09 - Baku - wioska Hinalug - Baku
     text: >+
@@ -95,7 +95,7 @@ schedule:
   - day: "7"
     place: "23.09 - Baku - Maraza - Szamachi - Szeki "
     text: >
-      Śniadanie.  Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki. Po
+      Śniadanie. Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki. Po
       drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd na
       zwiedzanie historycznego Meczetu Juma w miejscowości Szamachi. Zwiedzanie
       mauzoleum Jeddi Gumbaz - miejsce pochowku szyrwańskich szachów. Dojeżdżamy
@@ -111,7 +111,7 @@ schedule:
       lokalnych przysmaków. Powoli żegnamy się z Azerbajdżanem - wyjazd
       malowniczą drogą górską do granicy gruzińskiej, przekroczenie granicy w
       Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
-      do Telawi, obiadokolacja, nocleg.  
+      do Telawi, obiadokolacja, nocleg.
   - day: "9"
     place: 25.09 - Telawi - Alawerdi - Gremi - Tbilisi
     text: Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie okolicznych

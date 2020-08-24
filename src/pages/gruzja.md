@@ -14,7 +14,7 @@ grid:
       Kaukazu. Stosunkowo małą Gruzję cechuje różnorodność – zachodnią granicę
       wyznacza wybrzeże Morza Czarnego, na południu są góry małego Kaukazu, a na
       wschodzie podziwiać można rozległe doliny i stepy.
-  - image0: /img/acharuli Chalupka.jpg
+  - image0: /img/acharuli-chalupka.jpg
     image1: /img/chinkali2.jpg
     title: Kraj pysznego jedzenia
     text: >
@@ -22,7 +22,7 @@ grid:
       płodów rolnych oraz aromatycznych przypraw. Charakterystyczne składniki
       używane w naszej kuchni dodają jej niepowtarzalnego i wyjątkowego smaku.
   - image0: /img/mevenaxe.jpg
-    image1: /img/20180504_172850-—-kopia.jpg
+    image1: /img/marani_piwnica.jpg
     title: Unikatowe wino
     text: >
       Gruzja jest ojczyzną wina. Na tej ziemi nasi przodkowie zaczęli robić wino
@@ -30,8 +30,8 @@ grid:
       “kwewri”, wpisana jest na listę światowego dziedzictwa UNESCO. Gruzini do
       naszych czasów zachowali tę tradycję, a wino zrobione w tradycyjnych
       kwewri możemy znaleźć wszędzie.
-  - image0: /img/img_1549jpg.jpg
-    image1: /img/jvari-swieczki.jpg
+  - image0: /img/bagrati_kosciol.jpg
+    image1: /img/jvari_swieczki.jpg
     title: Bogate dziedzictwo kulturowe
     text: >
       Gruzja przyjęła chrześcijaństwo w IV wieku, w wyniku czego na terenie
@@ -41,7 +41,7 @@ grid:
       centra edukacji i kultury, akademie, obronne twierdze i zamki, skalne
       miasta oraz zabytki pochodzące jeszcze z czasów pogańskich.
   - image0: /img/supra-joanna-barbara-bielak.jpg
-    image1: /img/img_2511jpg.jpg
+    image1: /img/czurchela.jpg
     title: Gościnni ludzie
     text: >
       O gruzińskiej gościnności krążą legendy. W Gruzji mówi się, że gość to dar
@@ -54,21 +54,21 @@ text: >
 carousel:
   - image: /img/466.jpg
     name: Region Swaneti, Wielki Kaukaz
-  - image: /img/IMG_2202jpg.JPG
+  - image: /img/chertwisi.JPG
     name: Twierdza Chertwisi
   - image: /img/P1000428.JPG
     name: Freski w głównym kościele monastyru Gelati, Kutaisi
   - image: /img/P1000438.JPG
     name: Szczy Kazbek (Mkinvarcveri)
-  - image: /img/img_1549jpg.jpg
+  - image: /img/bagrati_kosciol.jpg
     name: Katedra Bagrati, Kutaisi
   - image: /img/biore_4.jpg
     name: Twierdza Rabati, Achalcyche
-  - image: /img/IMG_2162jpg.JPG
+  - image: /img/wardzia_wejscie.JPG
     name: Skalne miasto Wardzia
-  - image: /img/jvari-swieczki.jpg
+  - image: /img/jvari_swieczki_grid.jpg
     name: Monastyr Dżwari, Mccheta
-  - image: /img/jaskinia-prometeusza.jpg
+  - image: /img/jaskinia_prometeusza.jpg
     name: Jaskina Prometeusza, Ckaltubo
   - image: /img/batumi-bulvar-2.jpg
     name: Nadmorski bulwar w Batumi

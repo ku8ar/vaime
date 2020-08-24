@@ -3,7 +3,7 @@ templateKey: page
 title: Informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:
-  - image: /img/projekt-bez-tytułu-4-.jpg
+  - image: /img/projekt-bez-tytulu-4-.jpg
     name: lotnisko
 services:
   - title: Vaime Travel
@@ -106,7 +106,7 @@ qa:
       W dużych miastach i miejscowościach płatność karta akceptuje większość
       obiektów gastronomicznych, noclegowych i handlowych. Kartą nie zaplacimy
       na bazarach spożywczych, na otwartych straganach z pamiątkami, w małych
-      knajpkach przy trasie, w górskich wioskach itd.  
+      knajpkach przy trasie, w górskich wioskach itd.
 
       Większość bankomatów w Gruzji akceptuje karty polskich banków, możliwe jest wypłacenie GEL (gruzińskich lari).
   - answer: >-

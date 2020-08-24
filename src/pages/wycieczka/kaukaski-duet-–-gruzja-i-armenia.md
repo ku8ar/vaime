@@ -12,7 +12,7 @@ terms:
     startDate: 2020-10-03T18:43:00.496Z
 thumb: /img/armenia-3721463.jpg
 images:
-  - image: /img/IMG_2318jpg (1).JPG
+  - image: /img/IMG_2318.JPG
     name: tbilisi
 map: /img/kaukasi-duet-5-.png
 schedule:
@@ -25,7 +25,7 @@ schedule:
       widok na całą stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte
       uliczki starego Tbilisi, najważniejsze świątynie miasta: katedra Sioni
       (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII
-      w.).  Kolacja w restauracji z pokazem tańców gruzińskich. Nocleg w
+      w.). Kolacja w restauracji z pokazem tańców gruzińskich. Nocleg w
       Tbilisi."
   - day: "2"
     place: Tbilisi - Kazbegi - Tbilisi
@@ -69,7 +69,7 @@ schedule:
       303 r. i mimo licznych zniszczeń, katedra pozostała zachowana w niemal
       oryginalnym stani, wpisana jest na listę UNESCO. Wagharszapat jest równiez
       miejscem siedziby Katolikosa – głowy Apostolskiego Kościoła Ormiańskiego.
-      Odwiedzimy również kościół św. Rypsyme,  zbudowany w miejscu, gdzie św.
+      Odwiedzimy również kościół św. Rypsyme, zbudowany w miejscu, gdzie św.
       Rypsyme zginęła i została pochowana. Przejazd do Erywania, zwiedzanie
       stolicy, odwiedzimy również Muzeum Ludobójstwa Ormian. Obiadokolacja,
       nocleg w hotelu w Erywaniu.
@@ -77,10 +77,10 @@ schedule:
     place: Erywań - Geghard - Garni - Erywań
     text: Śniadanie. Zwiedzanie jednej z najważniejszych świątyń Armenii – klasztoru
       Geghard, część której jest wykuta w skale. Następnie jedziemy do
-      miejscowości Garni.  Na jej terytorium znajduje się bardzo ciekawy pomnik
+      miejscowości Garni. Na jej terytorium znajduje się bardzo ciekawy pomnik
       ormiańskiej architektury – jedyna pogańska świątynia, zbudowana w stylu
       klasycznym I w. n.e., do dziś w całości zachowana. Świątynia o nazwie
-      Garni poświęcona była bóstwu słońca Mitrze.  Obiadokolacja i nocleg w
+      Garni poświęcona była bóstwu słońca Mitrze. Obiadokolacja i nocleg w
       Erywaniu.
   - day: "7"
     place: "Erywań - Wardzia - Achalcyche "
@@ -161,7 +161,7 @@ priceNotContains:
   * w sezonie jesiennym - w terenach górskich ok. +15°C, w terenach nizinnych ok. +30°C
 * Waluta: 
 
-  * w Gruzji - GEL (gruzińskie lari),  1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;  
+  * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AMD z bankomatu
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można kupic też na miejscu)

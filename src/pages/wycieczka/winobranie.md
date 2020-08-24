@@ -13,7 +13,7 @@ thumb: /img/grapes-2576705.jpg
 images:
   - image: /img/country-lane-428039.jpg
     name: kacheti
-map: /img/majówka_gruz.wakacje_winobranie-6-.png
+map: /img/majowka_gruzja.png
 schedule:
   - day: "1"
     place: 02.09 - Kutaisi – Tbilisi
@@ -32,7 +32,7 @@ schedule:
       (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w IV
       wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
-      w.) i monastyr Dżwari (VI w.).  Powrót do Tbilisi, obiadokolacja, nocleg."
+      w.) i monastyr Dżwari (VI w.). Powrót do Tbilisi, obiadokolacja, nocleg."
   - day: "3"
     place: 04.09 - Tbilisi – Kacheti
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
@@ -42,7 +42,7 @@ schedule:
       dolinę Alazanską, gdzie uprawiane są najlepsze szczepy winogron. Dojazd do
       miasta miłości Signagi, które idealne zachowane zostało od wieków
       XVII-XVIII. Spacer po miasteczku-muzeum, wizyta na lokalnym bazarku, gdzie
-      kupić można domowe wina i gruzińskie smakołyki. Wizyta w  domowej winnicy,
+      kupić można domowe wina i gruzińskie smakołyki. Wizyta w domowej winnicy,
       gdzie zobaczyć można, jak robi się gruzińskie domowe wino, degustacja wina
       i czaczy (bimber gruziński) połączona z obiadokolacją. Nocleg w Telawi.
   - day: "4"
@@ -91,7 +91,7 @@ schedule:
       różnorodnością jaskiń i pomieszczeń mieszkalnych. Po zwiedzaniu
       Upliscyche, udajemy się do centrum miasta Gori, gdzie zobaczymy z zewnątrz
       dom-muzeum oraz pancerny wagon J. Stalina, który urodził się i spędził
-      pierwsze lata swojego życia właśnie w Gori.  Dojazd do Kutaisi, zwiedzanie
+      pierwsze lata swojego życia właśnie w Gori. Dojazd do Kutaisi, zwiedzanie
       miasta – monastyr i akademia Gelati (XII w.), oraz katedrę Bagrati (XI
       w.). Pożegnalna obiadokolacja, nocleg w Kutaisi.
   - day: "8"

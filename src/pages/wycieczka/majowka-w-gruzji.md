@@ -18,11 +18,11 @@ terms:
     startDate: 2021-04-28T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
-  - image: /img/ტბილიუსი.jpg
+  - image: /img/most.jpg
     name: tbilisi
-  - image: /img/IMG_2505jpg (2).JPG
+  - image: /img/signagi.jpg
     name: signagi
-  - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
+  - image: /img/monastyr_gergeti.jpg
     name: kazbegi
 map: /img/majowka-2021.png
 schedule:
@@ -95,7 +95,7 @@ schedule:
       potrawami, winem oraz pokaże cząstkę lokalnego folkloru. Nocleg w
       agroturystyce. "
   - day: "7"
-    place: 04.05 - Keda -  Kutaisi
+    place: 04.05 - Keda - Kutaisi
     text: Śniadanie. Pożegnanie z gospodarzem i wyjazd w kierunku Kutaisi. Po drodze
       przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
       dojazd. Pożegnalna biadokolacja i nocleg w Kutaisi.
