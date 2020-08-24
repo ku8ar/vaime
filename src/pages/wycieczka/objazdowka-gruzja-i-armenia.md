@@ -27,7 +27,7 @@ thumb: /img/armenia-3716853-1-.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
     name: sevan
-  - image: /img/vardziaa.jpg
+  - image: /img/vardzia-5187928_1920.jpg
     name: wardzia
   - image: /img/p1020020.jpg
     name: garni
