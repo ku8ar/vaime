@@ -27,7 +27,7 @@ images:
     name: rtveli
   - image: /img/dsc_0169.jpg
     name: signagi
-map: /img/majówka_gruz.wakacje_winobranie-6-.png
+map: /img/winobranie.png
 schedule:
   - day: "1"
     place: 08.09 - Kutaisi – Tbilisi
