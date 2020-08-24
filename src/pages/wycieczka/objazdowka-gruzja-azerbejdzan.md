@@ -23,6 +23,10 @@ thumb: /img/p1020318.jpg
 images:
   - image: /img/ancient-1997162_1920-1-.jpg
     name: Baku
+  - image: /img/kakheti-4452432-1-.jpg
+    name: alaverdi
+  - image: /img/baku-2337485_1920.jpg
+    name: baku
 map: /img/xinaliq-hinalug-.png
 schedule:
   - day: "1"
