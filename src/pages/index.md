@@ -7,13 +7,13 @@ heroSubtitle: poszerzaj swoje horyzonty
 heroButtonTitle: NASZE OFERTY
 heroInfoBelt:
   - label: Najciekawsze atrakcje
-    icon: compass
-  - label: Wykwalifikowany zespół
-    icon: human
-  - label: Komfortowa podróż i kameralne grupy
+    icon: map
+  - label: Doświadczony zespół
+    icon: foot
+  - label: Komfortowa podróż
     icon: bus
-  - label: Najlepsze ceny
-    icon: money
+  - label: Kameralne grupy
+    icon: bag
 images:
   - image: /img/302.jpg
     name: Batumi

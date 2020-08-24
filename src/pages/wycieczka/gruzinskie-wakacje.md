@@ -19,7 +19,7 @@ thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
     name: batumi
-  - image: /img/IMG_2318jpg (1).JPG
+  - image: /img/IMG_2318.JPG
     name: mccheta
   - image: /img/p1020756-1-.jpg
     name: svaneti

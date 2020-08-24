@@ -19,8 +19,6 @@ thumb: /img/xinkali-23.jpg
 images:
   - image: /img/gastroprzyga_acharuli.jpg
     name: acharuli
-  - image: /img/kawa na piasku katarzyna.jpg
-    name: kawa
   - image: /img/churchxela-chalupka.jpg
     name: czurczchela
 map: /img/gastrp.png

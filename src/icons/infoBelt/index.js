@@ -1,10 +1,9 @@
 import * as React from "react"
 import styled from 'styled-components'
-import compass from './compass'
-import human from './human'
+import bag from './bag'
 import bus from './bus'
-import group from './group'
-import money from './money'
+import foot from './foot'
+import map from './map'
 
 const IconWrapper = styled.div`
   height: ${p => p.size};
@@ -12,11 +11,10 @@ const IconWrapper = styled.div`
 `
 
 const types = {
-  compass,
-  human,
+  bag,
   bus,
-  group,
-  money
+  foot,
+  map
 }
 
 const Icon = ({ icon }) => {

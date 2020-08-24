@@ -20,9 +20,9 @@ thumb: /img/batumi-kolo.jpg
 images:
   - image: /img/most.jpg
     name: tbilisi
-  - image: /img/IMG_2505jpg (2).JPG
+  - image: /img/signagi.jpg
     name: signagi
-  - image: /img/Monastyr Gergeti, Kazbegi (2).jpg
+  - image: /img/monastyr_gergeti.jpg
     name: kazbegi
 map: /img/majowka-2021.png
 schedule:
