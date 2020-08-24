@@ -18,7 +18,11 @@ terms:
 thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
-    name: Kazbegi
+    name: batumi
+  - image: /img/IMG_2318jpg (1).JPG
+    name: mccheta
+  - image: /img/p1020756-1-.jpg
+    name: svaneti
 map: /img/gruzinskie-wakacje-2021.png
 schedule:
   - day: "1"
