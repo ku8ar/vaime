@@ -21,7 +21,7 @@ thumb: /img/img_20180718_135553.jpg
 images:
   - image: /img/img_20180709_182231.jpg
     name: Ghebi
-  - image: /img/uplistsikhe.jpg
+  - image: /img/mountains-3776197.jpg
     name: upliscyche
   - image: /img/img_20180720_120755.jpg
     name: ananuri
