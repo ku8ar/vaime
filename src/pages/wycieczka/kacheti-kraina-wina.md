@@ -5,13 +5,14 @@ oneDay: true
 minSeats: 1
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
+discount: 0
 terms:
   - startDate: 2020-07-02T16:50:54.599Z
     endDate: 2020-11-29T16:50:54.627Z
     daysCount: "1"
     seats: 1
     price: 50
-thumb: /img/georgia-5139384.jpg
+thumb: /img/biore-5-.jpg
 images:
   - image: /img/czurchela.jpg
     name: bazar
