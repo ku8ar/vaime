@@ -25,7 +25,7 @@ images:
     name: Baku
   - image: /img/kakheti-4452432-1-.jpg
     name: alaverdi
-  - image: /img/baku-2337485_1920.jpg
+  - image: /img/azerbaijan-4856054_1920.jpg
     name: baku
 map: /img/xinaliq-hinalug-.png
 schedule:
