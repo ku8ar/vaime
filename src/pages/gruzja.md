@@ -3,7 +3,7 @@ templateKey: page
 title: O Gruzji
 description: Informacje o Gruzji
 images:
-  - image: /img/caucasus-3110386.jpg
+  - image: /img/georgia-4514143.jpg
     name: Swaneti
 grid:
   - image0: /img/georgia-3702447.jpg
@@ -14,7 +14,7 @@ grid:
       Kaukazu. Stosunkowo małą Gruzję cechuje różnorodność – zachodnią granicę
       wyznacza wybrzeże Morza Czarnego, na południu są góry małego Kaukazu, a na
       wschodzie podziwiać można rozległe doliny i stepy.
-  - image0: /img/acharuli-chalupka.jpg
+  - image0: /img/kupati-chalupka.jpg
     image1: /img/chinkali2.jpg
     title: Kraj pysznego jedzenia
     text: >
