@@ -8,5 +8,5 @@ export default () => {
     return ''
   }
 
-  return pathname.endsWith('/') ? pathname.slice(0, pathname.lastIndexOf("/")) : pathname
+  return pathname
 }

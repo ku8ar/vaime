@@ -184,8 +184,6 @@ const TourButton = styled.div`
   ${buttonStyle}
   z-index: 1;
   pointer-events: none;
-  position: absolute:
-  bottom: 0;
 `
 
 const TourColumn = styled.div`

@@ -9,8 +9,8 @@ const absoluteUrl = url => url ? `${siteUrl}${url}` : url
 const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
   const pageUrl = absoluteUrl(slug)
   const image = absoluteUrl(path('childImageSharp.fixed.src', seoImage))
-  const width = absoluteUrl(path('childImageSharp.fixed.width', seoImage))
-  const height = absoluteUrl(path('childImageSharp.fixed.height', seoImage))
+  const width = path('childImageSharp.fixed.width', seoImage)
+  const height = path('childImageSharp.fixed.height', seoImage)
 
   return (
     <Helmet>
