@@ -10,7 +10,7 @@ export default ({ menu, navigation, slug }) => {
   return (
     <Wrapper>
         <NavItem to="/" title="Logo">
-          <Icon icon={'home'} fill={path === '' ? colorPrimary : 'white'} />
+          <Icon icon={'home'} fill={!path || path === '/' ? colorPrimary : 'white'} />
           Vaime
         </NavItem>
         {navigation.map(nav => <Item key={nav.to} nav={nav} active={path === nav.to} />)}
