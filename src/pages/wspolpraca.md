@@ -3,7 +3,7 @@ templateKey: page
 title: Współpraca
 description: Profejsonalna obsługa tour operatorów
 images:
-  - image: /img/off-road-3397640_1920.jpg
+  - image: /img/102.jpg
     name: tbilisi
 carousel: []
 contact: false
