@@ -42,14 +42,14 @@ schedule:
       Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie jednego z
       najważniejszych obiektów sakralnych z listy UNESCO – monastyr Dżwari (VI
       w.), który znajduje się przy starej stolicy Gruzji, Mcchecie i
-      reprezentuje wczesny przyklad architektury sakralnej. Dojazd do Tbilisi,
+      reprezentuje wczesny przykład architektury sakralnej. Dojazd do Tbilisi,
       zakwaterowanie, chwila na odpoczynek i wyruszamy na zwiedzanie stolicy:
       starego miasta oraz najważniejszych zabytków stolicy – twierdzy Narikala,
       na którą wjedziemy kolejką linową, co pozwoli nam na podziwianie panoramy
       miasta, z twierdzy natomiast otwiera się przepiękny widok na całą stolicę;
       Abanotubani (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi,
       najważniejsze świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza
-      cerkiew Tbilisi – Anczischati (VII w.). obiadokolacja, nocleg.
+      cerkiew Tbilisi – Anczischati (VII w.). Obiadokolacja, nocleg.
   - day: "3"
     place: 30.04 - Tbilisi - Kazbegi - Tbilisi
     text: >+
@@ -68,7 +68,7 @@ schedule:
     place: 01.05 - Tbilisi – Bodbe - Signagi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
-      jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
       chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
       oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
       szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
@@ -98,7 +98,7 @@ schedule:
     place: 04.05 - Keda - Kutaisi
     text: Śniadanie. Pożegnanie z gospodarzem i wyjazd w kierunku Kutaisi. Po drodze
       przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
-      dojazd. Pożegnalna biadokolacja i nocleg w Kutaisi.
+      dojazd. Pożegnalna obiadokolacja i nocleg w Kutaisi.
   - day: "8"
     place: 05.05 - Transfer na lotnisko
     text: Śniadanie, przejazd na lotnisko, wylot do Polski.
@@ -108,9 +108,9 @@ priceContains:
   - icon: home
     text: Nocleg w agroturystyce w miejscowości Keda (wspólne łazienki)
   - icon: cinemaTicket
-    text: "Bilety wstępu "
+    text: Bilety wstępu do zwiedzanych obiektów
   - icon: cableCar
-    text: Przejazd kolejką w Tbilisi
+    text: Przejazd kolejką linową w Tbilisi
   - icon: offroad
     text: Transport 4x4 w Kazbegi
   - icon: restaurant
@@ -132,6 +132,6 @@ priceNotContains:
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +25°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić GEL z bankomatu 
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się do mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie powinny mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
