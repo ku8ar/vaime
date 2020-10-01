@@ -5,6 +5,7 @@ oneDay: true
 minSeats: 1
 title: "Tbilisi - historia w nazwach "
 description: Spacer po nieznanych zakątkach starego Tbilisi
+discount: 0
 terms:
   - startDate: 2020-07-01T18:59:13.091Z
     endDate: 2020-11-30T18:59:13.133Z
@@ -26,7 +27,7 @@ schedule:
     place: Plac wolności
   - day: "2"
     place: "Baratashvili i mury miejskie "
-    text: Spacer kontynuujemy ulicą Puszkina aż do szerokiej ulicy Baratashvili. Są
+    text: Spacer kontynuujemy ulicą Puszkina aż do szerokiej ulicy Barataszwili. Są
       to już obrzeża starego miasta, gdyż tutaj zobaczyć możemy fragmenty murów
       miejskich z XVI wieku, które kiedyś otaczały sporą część starego Tbilisi.
       Zatrzymamy się, aby poznać historię tej ulicy, zabytkowych domków oraz
@@ -38,28 +39,28 @@ schedule:
       Srebrna (Wercchlis kucza) oraz Złotnika (Okromczedlis kucza) były kiedyś
       centrami tbiliskiego przemysłyu jubilerskiego, znajdowały się tutaj rzędy
       sprzedawców srebra i złota. Stare zdjęcia Tbilisi dobrze pokazują, jak te
-      uliczki były pełne życia, były tloczne i gwarne. Na miejscu dowiemy się
+      uliczki były pełne życia, były tłoczne i gwarne. Na miejscu dowiemy się
       kim byli "hamkarzy", dlaczego nosili przy sobie srebrny pasek i jak doszło
       do konfliktu z Niemcami.
   - day: "4"
     place: Ulica Kote Apkhazi (Leselidze)
-    text: Wychodzimy na ulicę Kote Apkhazi, albo inaczej ulicę Leselidze. Jest to
+    text: Wychodzimy na ulicę Kote Apchazi, albo inaczej ulicę Leselidze. Jest to
       jedna z najbardziej znanych uliczek starego miasta, znaleźć można tutaj
       wszelkie pamiątki, sklepy z gruzińskimi winami, które oferują darmowe
       degustacje oraz stragany ze słodyczami i przyprawami. Ulica ta łączy Plac
-      Wolności z Meidani, czyli tz. rynkiem miasta Tbilisi. Ulica Kote Apkhazi
+      Wolności z Meidani, czyli tz. rynkiem miasta Tbilisi. Ulica Kote Apchazi
       kilka razy zmieniała swoją nazwę - w XIX w. to miejsce znane było, jako
       Ormiański Bazar, gdzie nabyć można było wszelką broń i futra, w I połowie
       XX w. wprowadzona została nazwa Leselidze, na cześć gruzińskiego generała
       radzieckiej armii Konstantine Leselidze, a w 2006 roku ulica przyjęła
-      swoją aktualną nazwę - Kote Apkhazi. Na ulicy Kote Apkhazi wraz z
+      swoją aktualną nazwę - Kote Apchazi. Na ulicy Kote Apchazi wraz z
       gruzińskimi cerkwiami, znajdują się kościół katolicki oraz synagoga.
   - day: "5"
     place: Karawanseraj
     text: >-
-      Z ulicy Kote Apkhazi skręcamy na równoległą uliczkę Sioni z katedrą o tej
+      Z ulicy Kote Apchazi skręcamy na równoległą uliczkę Sioni z katedrą o tej
       samej nazwie i seminarium duchownym. Oprócz zabytków sakralnych, na ulicy
-      Sioni znajduje się Muzeum Historii Miasta Tbilisi Karvasla. Muzeum to
+      Sioni znajduje się Muzeum Historii Miasta Tbilisi Karwasla. Muzeum to
       ciekawe jest nie tylko z powodu wystaw opowiadających o powstaniu, rozwoju
       i historii starego Tbilisi, ale również dlatego, że budynek, w którym
       obecnie mieści się muzeum, kiedyś pełnił funkcję karawanseraju, czyli
@@ -105,9 +106,9 @@ schedule:
       więzienia, ani muru dziś już nie ma, ale stare fotografie pomogą nam
       lepiej przedstawić obraz tego miejsca. 
 
-      Obecna cerkiew Metechi pochodzi z XIII wieku, a obok możemy zobaczyć pomnik założyciela miasta Tbilisi, króla Vachtanga Gorgasali.
+      Obecna cerkiew Metechi pochodzi z XIII wieku, a obok możemy zobaczyć pomnik założyciela miasta Tbilisi, króla Wachtanga Gorgasali.
   - day: "10"
-    place: "Ulica Wina "
+    place: "Ulica Winna "
     text: Po zwiedzaniu Metechi schodzimy w okolice placu Europejskiego. Tutaj
       znajdujemy się na rozwidleniu dróg. Szczególnie ciekawi nas jedna ulica,
       która prowadzi pod górkę, do historycznej dzielnicy Awlabari. Nazywa się
