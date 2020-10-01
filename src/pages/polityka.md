@@ -12,7 +12,7 @@ contact: false
 
 **Biuro podróży Vaime Travel** przywiązuje szczególną uwagę do poszanowania prywatności użytkowników odwiedzających naszą stronę. Zależy nam, aby każdy użytkownik dokładnie wiedział, jakie dane pozyskujemy i jak może chronić swoją prywatność.
 
-Administratorem danych jest **Spółka z Ograniczoną Odpowiedzialnością (LLC) Vaime Travel** zarejestrowaną w Gruzji, pod adresem: Didi Digomi 6/123, Tbilisi, 0131.
+Administratorem danych jest **Spółka z Ograniczoną Odpowiedzialnością (LLC) Vaime Travel** zarejestrowana w Gruzji, pod adresem: Didi Digomi 6/123, Tbilisi, 0131.
 
 Serwisy **Vaime Travel** zawierają odnośniki do innych stron internetowych. Nie możemy ponosić odpowiedzialności za zasady zachowania prywatności obowiązujące na innych stronach. Zachęcamy, by po przejściu na inną stronę internetową, zapoznać się z ich polityką prywatności.
 
