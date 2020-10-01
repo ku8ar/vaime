@@ -52,7 +52,7 @@ schedule:
     place: 10.09 - Tbilisi – Signagi - Telawi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
-      jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
       chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
       oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
       szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
@@ -67,7 +67,7 @@ schedule:
       zdecydowanie najważniejszym wydarzeniem w Gruzji i, szczególnie, w
       Kacheti. My będziemy mieć okazję brać udział w tym święcie zbiorów
       winogron. Czeka na nas zbieranie winogron oraz nauka całego procesu
-      robienia wina gruzińskiego: ugniatania winogron, wlewania soku do kwewri,
+      robienia wina gruzińskiego: ugniatanie winogron, nalewanie soku do kwewri,
       amfor, w których gruzińskie wino się fermentuje i dojrzewa. Doświadczony
       lokalny winiarz odkryje nam tajemnice unikatowej gruzińskiej metody
       robienia wina, która wpisana jest na listę UNESCO. Zajmiemy się również
@@ -83,7 +83,7 @@ schedule:
       firmowym sklepie. Następnie czeka na nas degustacja wina oraz bimbru
       gruzińskiego, czaczy, która odbędzie się podczas wizyty w jednej z
       najciekawszych winnic regionu – Chareba (ხარება), która ukryta w
-      wydrążonych w skale kilkukilometrowych tunelach i robi imponujące
+      wydrążonych w skale kilku kilometrowych tunelach i robi imponujące
       wrażenie. Po degustacji wyjazd do Tbilisi, obiadokolacja, nocleg.
   - day: "6"
     place: 13.09 - Tbilisi – Kazbegi – Tbilisi
@@ -120,6 +120,10 @@ priceContains:
     icon: home
   - icon: restaurant
     text: Śniadania i obfite obiadokolacje z winem
+  - text: Bilety wstępu do zwiedzanych obiektów
+    icon: cinemaTicket
+  - text: Przejazd kolejką linową w Tbilisi
+    icon: cableCar
   - icon: alcohol
     text: Degustacje wina
   - icon: grapes
@@ -143,6 +147,6 @@ priceNotContains:
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +27°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu 
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy w winnicy (zbieranie winogron)
-* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienią florę bakteryjną w Gruzji (można też kupić na miejscu)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy w winnicy (zbieranie winogron)
+* Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
