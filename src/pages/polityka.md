@@ -24,9 +24,9 @@ Podczas Twojej wizyty nasze serwery automatycznie zapisują tzw. logi systemowe 
 
 Zebrane logi przechowywane są przez czas nieokreślony jako materiał pomocniczy służący do administrowania serwisem. Informacje w nich zawarte nie są ujawniane nikomu poza osobami upoważnionymi do administrowania serwerem.
 
-Dodatkowo nasz serwis gromadzi anonimowe dane dotyczące odwiedzanych stron, takie, jak: liczba odwiedzin, kraj, przeglądarka, czas wizyty itp. Analizujemy gromadzone dane korzystając z rozwiązania zewnętrznego dostawcy. Aktualnie używamy Google Analytics. Narzędzie działa w oparciu o tzw. pliki cookies i nie udostępnia danych umożliwiających identyfikację osoby. Prosimy o zapoznanie się ze szczegółami polityki prywatności Google Analytics.
+Dodatkowo nasz serwis gromadzi anonimowe dane dotyczące odwiedzanych stron, takie, jak: liczba odwiedzin, kraj, przeglądarka, czas wizyty itp. Analizujemy gromadzone dane korzystając z rozwiązania zewnętrznego dostawcy. Aktualnie używamy Google Analytics. Narzędzie działa w oparciu o tzw. pliki cookies i nie udostępnia danych umożliwiających identyfikację osoby. Prosimy o zapoznanie się ze szczegółami polityki prywatności Google Analytics. 
 
-Gdy kontaktujesz się z nami za pomocą formularza kontaktowego, telefonu, poczty e-mail, itp. przekazujesz nam swoje dane osobowe, np. imię, nazwisko, adres e-mail, itp. Dane te wykorzystywane są w celu kontaktowym – sporządzeniu odpowiedzi na pytanie.
+Gdy kontaktujesz się z nami za pomocą formularza kontaktowego, telefonu, poczty elektronicznej itp., przekazujesz nam swoje dane osobowe, np. imię, nazwisko, adres e-mail, itp. Dane te wykorzystywane są w celu kontaktowym – sporządzeniu odpowiedzi na pytanie.
 
 Dane osobowe (imię, nazwisko, adres e-mail), zbierane przez formularze, służą wyłącznie do celów kontaktowych.
 
