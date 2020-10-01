@@ -184,6 +184,6 @@ priceNotContains:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AMD z bankomatu
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie powinny mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)
