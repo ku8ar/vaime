@@ -9,7 +9,7 @@ services:
   - title: Vaime Travel
     text: Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną
       Odpowiedzialnością, która zajmuje się organizacją różnego rodzaju
-      wycieczek obiazdowych po Gruzji, Armenii i Azerbejdżanie.
+      wycieczek objazdowych po Gruzji, Armenii i Azerbejdżanie.
     icon: logo
   - title: Bilety lotnicze
     text: "Zakup biletów lotniczych pozostawiamy Wam, ale od momentu przylotu aż do
@@ -20,7 +20,7 @@ services:
   - title: Płatność
     text: Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje
       przedpłata w wys. 30% całkowitej kwoty. Płatność może być uregulowana
-      przelewem lub gotowką na miejscu, wystawiamy także faktury VAT w j.
+      przelewem lub gotówką na miejscu, wystawiamy także faktury VAT w j.
       polskim.
     icon: money
   - title: Dopasowane programy
@@ -65,10 +65,10 @@ qa:
     answer: >-
       Ze względu na wysoki poziom zróżnicowania terenu, klimat w Gruzji jest
       bardzo różnorodny. W zachodniej części kraju, bliżej wybrzeża Morza
-      Czarnego występuję klimat subtropikalny, co powoduje największy w kraju
-      poziom opadów rocznie (4000 mm), natomiast wschodnia częśc kraju
-      charakteryzuje się suchycm umiarkowanym klimatem z małą ilością opadów
-      (200 mm). Temperatura w upalne lata może sięgać +35°C lub wyżej. Zimy są
+      Czarnego występuje klimat subtropikalny, co powoduje największy w kraju
+      poziom opadów rocznie (4000 mm), natomiast wschodnia część kraju
+      charakteryzuje się suchym umiarkowanym klimatem z małą ilością opadów (200
+      mm). Temperatura w upalne lata może sięgać +35°C lub wyżej. Zimy są
       łagodne, w nizinnych częściach Gruzji temperatura nie spada poniżej -8°C ,
       natomiast w górach Wielkiego Kaukazu występują surowe zimy z mrozami do
       -20°C i dużą ilością śniegu, co pozwala na funkcjonowanie w Gruzji
@@ -81,7 +81,7 @@ qa:
       wygodnie. Tylko pamiętaj, że będziemy też w górach, więc jakieś ciepłe
       ubrania też się przydadzą, a do tego wygodne buty. Na wszelki wypadek miej
       przy sobie płaszcz przeciwdeszczowy. Paniom warto mieć przy sobie chustę
-      do nakrycia główy, aby wejść do gruzińskich cerkwi. Najczęściej przy
+      do nakrycia głowy, aby wejść do gruzińskich cerkwi. Najczęściej przy
       świątyniach można chusty pożyczyć, ale zawsze można mieć swoją.
     question: Jak się ubrać na wycieczkę?
   - answer: >
@@ -104,9 +104,9 @@ qa:
   - question: Czy na miejscu można płacić kartą?
     answer: >-
       W dużych miastach i miejscowościach płatność karta akceptuje większość
-      obiektów gastronomicznych, noclegowych i handlowych. Kartą nie zaplacimy
+      obiektów gastronomicznych, noclegowych i handlowych. Kartą nie zapłacimy
       na bazarach spożywczych, na otwartych straganach z pamiątkami, w małych
-      knajpkach przy trasie, w górskich wioskach itd.
+      knajpach przy trasie, w górskich wioskach itd.
 
       Większość bankomatów w Gruzji akceptuje karty polskich banków, możliwe jest wypłacenie GEL (gruzińskich lari).
   - answer: >-
@@ -134,8 +134,8 @@ qa:
       Azerbejdżan natomiast wymaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet (https://evisa.gov.az/), płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
     question: Czy jest potrzebna wiza?
   - answer: >
-      Wizzair - tanie linie lotniczne Wizzair realizuje loty do miasta Kutaisi
-      z: Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku już z
+      Wizzair - tanie linie lotnicze Wizzair realizuje loty do miasta Kutaisi z:
+      Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku już z
       Krakowa i Poznania. Wizzair lata również z Berlina do Kutaisi. 
 
       Polskie Linie Lotnicze LOT - w sezonie letnim LOT lata z Warszawy do Tbilisi prawie codziennie! 
