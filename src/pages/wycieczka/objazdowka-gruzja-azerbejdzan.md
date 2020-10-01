@@ -72,12 +72,12 @@ schedule:
     place: "21.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
     text: >
       Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej góry
-      Janar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
-      zwiedzanie świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom Ognia”,
-      teren na którym znajduje się świątynia, przez wiele wieków było znane,
-      jako miejsce wydobycia się na powierzchnię ziemi gazu ziemnego, gdzie
-      płonęły „wieczne ognie”. Na tym miejscu we wczesnym średniowieczu
-      znajdowała się zoroastriańska świątynia ognia.
+      Yanar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
+      zwiedzanie świątyni ognia Ateshgah. Nazwa Atəşgah oznacza „Dom Ognia”, a
+      teren, na którym znajduje się świątynia, przez wiele wieków był miejsce
+      wydobycia się na powierzchnię ziemi gazu ziemnego z „wiecznie płonącymi
+      ogniami”. Na tym miejscu we wczesnym średniowieczu znajdowała się
+      zoroastriańska świątynia ognia.
 
       Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane jako Muzeum Petroglifów. Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu). Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
@@ -108,7 +108,7 @@ schedule:
     place: 24.09 - Szeki - Lagodechi - Telawi
     text: >
       Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość zakupów
-      lokalnych przysmaków. Powoli żegnamy się z Azerbajdżanem - wyjazd
+      lokalnych przysmaków. Powoli żegnamy się z Azerbejdżanem - wyjazd
       malowniczą drogą górską do granicy gruzińskiej, przekroczenie granicy w
       Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
       do Telawi, obiadokolacja, nocleg.
@@ -117,14 +117,14 @@ schedule:
     text: Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie okolicznych
       zabytków - katedry Alawerdi oraz twierdzy Gremi. Katedra Alawerdi jest
       najważniejszym zabytkiem regionu Kacheti, zbudowana w XII wieku, w okresie
-      rozkwitu Królestwa Gruzińskiego, do dziś robi niesamowite wrażenie. Przy
-      katedrze zobaczyć można winnice, gdyś mnisi mieszkający na terenie
-      świątyni, produkują wino. Dalej odwiedzimy twierdzę Gremi, miejsce, gdzie
-      kiedyś znajdowała się stolica Królestwa Kacheti, i gdzie do dziś można
-      znaleźć pozostałości po mieście. Przepiękny późnośredniowieczny kościół
-      oraz wieża obserwacyjna stanowią najlepiej zachowane obiekty kompleksu. Po
-      zwiedzaniu udamy się na degustację wina w lokalnej winiarni. Przejazd do
-      Tbilisi, obiadokolacja, nocleg.
+      rozkwitu Królestwa Gruzińskiego. Przy katedrze zobaczyć można winnice,
+      gdyś mnisi mieszkający na terenie świątyni, produkują wino. Dalej
+      odwiedzimy twierdzę Gremi, miejsce, gdzie kiedyś znajdowała się stolica
+      Królestwa Kacheti, i gdzie do dziś można znaleźć pozostałości po mieście.
+      Przepiękny późnośredniowieczny kościół oraz wieża obserwacyjna stanowią
+      najlepiej zachowane obiekty kompleksu. Po zwiedzaniu udamy się na
+      degustację wina w lokalnej winiarni. Przejazd do Tbilisi, obiadokolacja,
+      nocleg.
   - day: "10"
     place: 26.09 - Tbilisi - Kutaisi
     text: Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po krótkim
@@ -145,11 +145,11 @@ priceContains:
     icon: home
   - text: Śniadania i obiadokolacje
     icon: restaurant
-  - text: Bilety wstępu
+  - text: Bilety wstępu do zwiedzanych obiektów
     icon: cinemaTicket
   - text: Transport 4x4 w Kazbegi i parku narodowym Gobustan (jeśli pozwoli pogoda)
     icon: offroad
-  - text: Przejazd kolejką w Tbilisi
+  - text: Przejazd kolejką linową w Tbilisi
     icon: cableCar
   - text: Degustację wina
     icon: alcohol
@@ -175,6 +175,6 @@ priceNotContains:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Azerbejdżanie - AZN (azerskie manaty), 1 AZN = 2,33 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AZN z bankomatu
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 20 AZN w Azerbejdżanie)
