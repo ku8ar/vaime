@@ -1,9 +1,10 @@
 ---
 templateKey: tour
-active: true
+active: false
 minSeats: 1
 title: Kaukaski Duet – Gruzja i Armenia
 description: Odwiedź najpiękniejsze zakątki Kaukazu
+discount: 0
 terms:
   - daysCount: 10 DNI/11 NOCY
     endDate: 2020-10-13T18:43:00.578Z
@@ -24,9 +25,8 @@ schedule:
       podziwianie panoramy miasta, z twierdzy natomiast otwiera się przepiękny
       widok na całą stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte
       uliczki starego Tbilisi, najważniejsze świątynie miasta: katedra Sioni
-      (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII
-      w.). Kolacja w restauracji z pokazem tańców gruzińskich. Nocleg w
-      Tbilisi."
+      (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w.). Kolacja
+      w restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi."
   - day: "2"
     place: Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
