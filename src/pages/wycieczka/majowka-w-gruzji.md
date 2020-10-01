@@ -132,6 +132,6 @@ priceNotContains:
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +25°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić GEL z bankomatu 
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie powinny mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
