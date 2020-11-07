@@ -10,9 +10,8 @@ informations: >+
   wina, poznanie tajemnic gruzińskiej kuchni i winiarstwa to niezapomniane
   przeżycia.
 
-  Przy rezerwacji do 31 października 2020 r. włącznie, obowiązuje zniżka -15% od podanej ceny na osobę.  Zapraszamy!
 
-discount: 15
+discount: 0
 discountTitle: "first minute zniżka "
 terms:
   - price: 530
