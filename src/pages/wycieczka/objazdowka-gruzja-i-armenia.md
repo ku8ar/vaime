@@ -9,9 +9,8 @@ informations: >+
   Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków, pysznego
   jedzenia i życzliwych ludzi czekają na Was! 
 
-  Przy rezerwacji do 31 października 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
 
-discount: 10
+discount: 0
 discountTitle: "first minute zniżka "
 terms:
   - startDate: 2021-06-08T14:29:18.146Z
