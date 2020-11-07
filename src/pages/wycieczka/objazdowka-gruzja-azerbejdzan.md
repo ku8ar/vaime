@@ -5,13 +5,12 @@ oneDay: false
 minSeats: 1
 title: Gruzja I Azerbejdżan
 description: kraje gór, morza, wina i pysznej kuchni
-informations: >
+informations: >+
   Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze więcej różnic -
   kulturowych, religijnych czy gastronomicznych. Nasza objazdówka pozwoli na
   bliższe poznanie skarbów Gruzji i Azerbejdżanu.
 
-  Przy rezerwacji do 31 października 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę.  Zapraszamy!
-discount: 10
+discount: 0
 discountTitle: first minute zniżka
 terms:
   - startDate: 2021-09-17T20:45:50.268Z
