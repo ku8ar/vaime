@@ -6,6 +6,7 @@ minSeats: 1
 title: Gruzińska Wojenna Droga
 description: Podróż wśród szczytów Wielkiego Kaukazu
 informations: ""
+discount: 0
 terms:
   - startDate: 2020-07-01T22:18:04.673Z
     endDate: 2020-11-01T22:18:04.729Z
@@ -51,7 +52,7 @@ schedule:
       zdjęcia, wyjazd z Gudauri o ok. 13:30.
   - day: 14 00
     place: Mineralne wody kaukazu
-    text: Wyjzad z Gudauri, przystanek przy źródle mineralnej wody. Ten punkt jest
+    text: Wyjazd z Gudauri, przystanek przy źródle mineralnej wody. Ten punkt jest
       znany wszystkim podróżnikom, jako miejsce, gdzie można się napić
       naturalnej żelazowej wody prosto z ujęcia. Wyjazd z punktu o ok. 14:15
   - day: 15 00
@@ -88,6 +89,6 @@ priceNotContains:
 
 * Długość trasy wycieczki: ok. 300 km (trasa w obie strony) 
 * Stopień trudności: łatwy
-* Ubiór: lekki, wygodne obuwie do chodzenia, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
-* Podane godziny zwiedzania mogą nieznacznie się różnić od zrealizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania
+* Podane godziny zwiedzania mogą nieznacznie się różnić od realizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania

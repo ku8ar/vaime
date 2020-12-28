@@ -13,7 +13,7 @@ terms:
   - startDate: 2021-07-12T11:00:14.238Z
     endDate: 2021-07-19T11:00:14.328Z
     daysCount: 8 DNI/7 NOCY
-    seats: 13
+    seats: 9
     price: 550
 thumb: /img/xinkali-23.jpg
 images:
@@ -21,6 +21,8 @@ images:
     name: acharuli
   - image: /img/churchxela-chalupka.jpg
     name: czurczchela
+  - image: /img/kawanapiasku.jpg
+    name: kawa na piasku
 map: /img/gastrp.png
 schedule:
   - text: "Przylot do miasta Kutaisi, odbiór z lotniska. Transfer do nadmorskiego
@@ -29,7 +31,7 @@ schedule:
       mamy: adżarskie chaczapuri z jajkiem, borano (smażone masło z serem),
       aczma (rodzaj chaczapuri, podobne do lasagne) i oczywiście czarnomorskie
       ryby. Przed kolacją udamy się na krótki rejs statkiem, oraz jeśli czas
-      pozwoli, na targ rybny. Nocleg Batumi."
+      pozwoli, na targ rybny. Nocleg w Batumi."
     place: "12.07 - adżarskie chaczapuri "
     day: "1"
   - day: "2"
@@ -49,25 +51,25 @@ schedule:
     text: >
       Wyruszamy w kierunku Tbilisi. Po drodze zatrzymamy się na spróbowanie
       słodkich chlebków Nazuki, które można znaleźć tylko w jednej miejscowości
-      o nazwie Surami, więc jak będziemy ją mijać, nie można o nie nie zahaczyć.
-      Kolejny przystanek będzie w mieście Gori, gdzie zrobimy lunch w bardzo
-      klimatycznej winnicy - spróbujemy tradycyjnych dań i win tego regionu. Po
-      lunchu czeka na nas zwiedzanie skalnego miasta Upliscyche, które było
-      zamieszkane jeszcze w III wieku p.n.e. Po zwiedzaniu dojazd do Tbilisi.
-      Kolacja w lokalnej restauracji z pokazem tańców gruzińskich. Nocleg w
-      Tbilisi. 
+      o nazwie Surami, więc jak będziemy ją mijać, nie można nie zahaczyć o ten
+      lokalny smakołyk. Kolejny przystanek będzie w mieście Gori, gdzie zrobimy
+      lunch w bardzo klimatycznej winnicy - spróbujemy tradycyjnych dań i win
+      tego regionu. Po lunchu czeka na nas zwiedzanie skalnego miasta
+      Upliscyche, które było zamieszkane jeszcze w III wieku p.n.e. Po
+      zwiedzaniu dojazd do Tbilisi. Kolacja w lokalnej restauracji z pokazem
+      tańców gruzińskich. Nocleg w Tbilisi. 
   - day: "4"
     place: 15.07 - Warsztaty kulinarne w stolicy
     text: "Cały dzień spędzimy w stolicy. Wjazd kolejką gondolową na taras widokowy,
       na którym ustawiony jest pomnik Matki Gruzji – podziwianie panoramy
       miasta, spacer przez Stare Miasto – znajdziemy tu obok siebie cerkwie
       prawosławne, kościoły katolickie, synagogi i meczety: świątynia Metechi,
-      potężna twierdza Narikala – fantastyczny widok na miasto, tbilisskie
-      łaźnie siarkowe w 1500-letniej dzielnicy Abanotubani. Po
-      zwiedzaniu czekają na nas warsztaty kulinarne, gdzie nauczymy się robić
-      takich tradycyjnych dań kuchni gruzińskiej, jak chaczapuri i bakłażany z
-      orzechami. Czas wolny, możliwość korzystania z łaźni siarkowych (we
-      własnym zakresie). Kolacja i nocleg w Tbilisi."
+      potężna twierdza Narikala – fantastyczny widok na miasto, tbiliskie łaźnie
+      siarkowe w 1500-letniej dzielnicy Abanotubani. Po zwiedzaniu czekają na
+      nas warsztaty kulinarne, gdzie nauczymy się robić takich tradycyjnych dań
+      kuchni gruzińskiej, jak chaczapuri i bakłażany z orzechami. Czas wolny,
+      możliwość korzystania z łaźni siarkowych (we własnym zakresie). Kolacja i
+      nocleg w Tbilisi."
   - day: "5"
     place: 16.07 - kaukaz i chinkali
     text: >
@@ -86,7 +88,7 @@ schedule:
       suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
   - day: "7"
     place: 18.07 - biesiada i folklor
-    text: >+
+    text: >
       Wyjazd w kierunku Kutaisi. Naszym pierwszym punktem zwiedzania będzie
       miejscowość Mccheta (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji,
       właśnie tu w IV wieku przyjęto chrześcijaństwo jako państwową religię.
@@ -116,7 +118,7 @@ priceContains:
     icon: cableCar
   - icon: wine
     text: Udział w zbiorach herbaty
-  - text: Bilety wstępu
+  - text: Bilety wstępu do zwiedzanych obiektów
     icon: cinemaTicket
   - text: Transport 4×4 w Kazbegi
     icon: offroad
@@ -135,6 +137,6 @@ priceNotContains:
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +22°C, w terenach nizinnych ok. +35°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy przy zbiorze herbaty oraz do warsztatów kulinarnych
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy przy zbiorze herbaty oraz do warsztatów kulinarnych
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)

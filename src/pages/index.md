@@ -1,9 +1,10 @@
 ---
 templateKey: home
 title: Wycieczki po Gruzji z Nini i Mają
-description: Biuro podróży Vaime Travel | Wycieczki objazdowe Gruzja, Armenia, Azerbejdżan, Kaukaz
+description: Biuro podróży Vaime Travel | Wycieczki objazdowe Gruzja, Armenia,
+  Azerbejdżan, Kaukaz
 heroTitle: GRUZJA, ARMENIA, AZERBEJDŻAN
-heroSubtitle: poszerzaj swoje horyzonty
+heroSubtitle: Podróżuj razem z nami
 heroButtonTitle: NASZE OFERTY
 heroInfoBelt:
   - label: Najciekawsze atrakcje
@@ -17,16 +18,18 @@ heroInfoBelt:
 images:
   - image: /img/302.jpg
     name: Batumi
+  - image: /img/khor-virap-1781518.jpg
+    name: chor virap
   - image: /img/560.jpg
     name: Kanion Martwili
-  - image: /img/p1020327-1-.jpg
-    name: baku
   - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
   - image: /img/cathedral-1781012-1-.jpg
     name: zvartnoc
-  - image: /img/uflistsikhe-uplistsikhe-3.jpg
-    name: gori
+  - image: /img/287907_270686586280237_100000166945688_1293937_2568758_o.jpg
+    name: davit_gareja
+  - image: /img/baku-4626962_1920.jpg
+    name: Baku
   - image: /img/houses-4994218.jpg
     name: tbilisi
   - image: /img/ararat-zdjecie.jpg
@@ -164,7 +167,7 @@ promoImage: /img/mapka_glowna.jpg
 Witamy w naszym biurze!\
 Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.
 
-Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji i Armenii. Zawsze staramy się dostosować programy do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
-Zapraszamy, zwiedźcie Gruzję razem z nami!
+Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji, Armenii i Azerbejdżanie. Zawsze staramy się dostosować programy do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
+Zapraszamy, zwiedźcie Kaukaz razem z nami!
 
 Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg?view_as=subscriber)

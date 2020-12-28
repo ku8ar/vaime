@@ -5,18 +5,18 @@ oneDay: false
 minSeats: 1
 title: Objazdówka - Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
-informations: >
+informations: >+
   Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków, pysznego
-  jedzenia i życzliwych ludzi czekają na Was!
+  jedzenia i życzliwych ludzi czekają na Was! 
 
-  Przy rezerwacji do 31 sierpnia 2020 r. włącznie, obowiązuje zniżka -10% od podanej ceny na osobę. Zapraszamy!
-discount: 10
-discountTitle: first minute zniżka
+
+discount: 0
+discountTitle: "first minute zniżka "
 terms:
   - startDate: 2021-06-08T14:29:18.146Z
     endDate: 2020-06-18T14:29:18.670Z
     daysCount: 10 DNI/11 NOCY
-    seats: 15
+    seats: 14
     price: 640
   - startDate: 2021-10-05T17:44:13.572Z
     endDate: 2021-10-15T17:44:13.632Z
@@ -27,7 +27,7 @@ thumb: /img/armenia-3716853-1-.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
     name: sevan
-  - image: /img/vardziaa.jpg
+  - image: /img/vardzia-5187928_1920.jpg
     name: wardzia
   - image: /img/p1020020.jpg
     name: garni
@@ -70,14 +70,14 @@ schedule:
       Śniadanie, wyjazd do Erywania. zakwaterowanie. Zwiedzanie stolicy Armenii.
       Erywań to jedno z najstarszych miast Kaukazu i całego świata, założone w
       782 roku p.n.e, do dziś pełni funkcję stolicy i największego miasta
-      Armenii. Warty uwagi jest centalny plac miasta, Plac Republiki, na którym
+      Armenii. Warty uwagi jest centralny plac miasta, Plac Republiki, na którym
       znajdują się ministerstwa i inne rządowe budynki. Spacerując dalej,
       zobaczymy piękny gmach Opery oraz Kaskady. Erewańskie Kaskady liczą 572
       schodów, na pomocą których można wejść na samą górę i nacieszyć się
       pięknem miasta. Na górę wjechać można również schodami ruchomymi,
       znajdującymi się wewnątrz budynku. Wnętrza Kaskad służą miejscem
       ekspozycji sztuki współczesnej, urzęduje tu Muzeum Sztuki Cafesjiana. Po
-      zwiedzaniu centrum miasta udamy się do Muzeum Ludobójstwa, miesjca
+      zwiedzaniu centrum miasta udamy się do Muzeum Ludobójstwa, miejsca
       upamiętniającego ofiary rzezi Ormian na początku XX wieku. 
 
       Dzień zakończymy degustacją prawdziwego ormiańskiego koniaku oraz obiadokolacją. Nocleg w Erywaniu.
@@ -93,7 +93,7 @@ schedule:
       również ruiny katedry Zwartnoc (VII w.), również wpisanej na listę
       UNESCO. 
 
-      Wyjazd w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewa", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejeżdżamy do uroczego miasteczka Goris na obiadokolację i nocleg.
+      Wyjazd w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewu", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejedziemy do uroczego miasteczka Goris na obiadokolację i nocleg.
   - day: "6"
     place: Goris - Geghard - Garni - Erywań
     text: "Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania zwiedzamy dwa
@@ -127,7 +127,7 @@ schedule:
     place: Tbilisi - Bodbe - Signagi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
-      jest św. Nino – apostolka cerkwi gruzińskiej, która przyniosła
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
       chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
       oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
       szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
@@ -140,7 +140,7 @@ schedule:
     place: Tbilisi
     text: Śniadanie w hotelu. Wolny dzień w Tbilisi, czas na spacery, zakupy
       pamiątek itd. Wieczorem pożegnalna obiadokolacja w restauracji z pokazem
-      folklorystyczynym. Nocleg w Tbilisi.
+      folklorystycznym. Nocleg w Tbilisi.
   - day: "11"
     place: Transfer na lotnisko
     text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
@@ -152,13 +152,13 @@ priceContains:
     icon: home
   - text: Śniadania i obiadokolacje
     icon: restaurant
-  - text: Bilety wstępu
+  - text: Bilety wstępu do zwiedzanych obiektów
     icon: cinemaTicket
   - text: Degustację wina w Kacheti
     icon: alcohol
   - text: Zwiedzanie rozlewni koniaku i degustacja w Erywaniu
     icon: whisky
-  - text: Przejazd kolejką w Tbilisi i Tatewie
+  - text: Przejazd kolejką linową w Tbilisi i Tatewie
     icon: cableCar
   - text: Transport 4×4 w Kazbegi
     icon: offroad
@@ -183,6 +183,6 @@ priceNotContains:
 
   * w Gruzji - GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD, albo wypłacić GEL z bankomatu;
   * w Armenii - AMD (ormiańskie dramy), 1 AMD = 0,008 PLN, na miejscu wymienić można EUR, USD oraz GEL, albo wypłacić AMD z bankomatu
-* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 2000 AMD w Armenii)

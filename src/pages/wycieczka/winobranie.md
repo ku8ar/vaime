@@ -1,8 +1,10 @@
 ---
 templateKey: tour
-active: true
+active: false
+minSeats: 1
 title: Winobranie
 description: Święto winobrania w krainie wina
+discount: 10
 terms:
   - price: 525
     seats: 15

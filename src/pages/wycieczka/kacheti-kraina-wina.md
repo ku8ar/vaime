@@ -5,13 +5,14 @@ oneDay: true
 minSeats: 1
 title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
+discount: 0
 terms:
   - startDate: 2020-07-02T16:50:54.599Z
     endDate: 2020-11-29T16:50:54.627Z
     daysCount: "1"
     seats: 1
     price: 50
-thumb: /img/georgia-5139384.jpg
+thumb: /img/biore-5-.jpg
 images:
   - image: /img/czurchela.jpg
     name: bazar
@@ -28,13 +29,13 @@ schedule:
     place: Telawi
     text: Dojazd do miasta Telawi, głównego miasta Kacheti. W Telawi warto jest
       odwiedzić lokalny bazar, można tu znaleźć wszelkie gruzińskie przyprawy,
-      domowe wino i czaczę (gruzińskie bimber winogronowy) oraz świeże owoce i
+      domowe wino i czaczę (gruziński bimber winogronowy) oraz świeże owoce i
       warzywa. Wolny czas na zakupy na bazarku. Wyjazd z Telawi.
   - day: 12 00
     place: Alawerdi
     text: Zwiedzanie znajdującej się pod miastem Telawi katedry Alawerdi (XII w.),
       najważniejszej świątyni regionu, o ocalenie której kachetyjczycy podjęli
-      walkę przeciw Persom (II połowa XVI wieku), rozpoczynając falę masowych
+      walkę przeciwko Persom (II połowa XVI wieku), rozpoczynając falę masowych
       powstań w całym kraju. Alawerdi to symbol Kacheti i kiedyś najwyższa
       cerkiew kraju, sięgająca ok. 50 m wysokości.
   - day: 12 40
@@ -43,13 +44,13 @@ schedule:
       Przejazd na degustację domowego wina do domowej winiarni, gdzie zobaczyć
       można, jak się robi gruzińskie wino oraz na czym polega 8000-letnia
       gruzińska tradycja robienia wina, która wpisana jest na listę UNESCO.
-      Degustacja wina wraz z drobym poczęstunkiem.
+      Degustacja wina wraz z drobnym poczęstunkiem.
 
-      Wyjazd w kierunku miasteczka miłości Signagi ok. godziny 13:30
+      Wyjazd w kierunku miasteczka miłości Signagi ok. godziny 13:30.
   - day: 15 00
     place: Bodbe
     text: "Dojazd do monastyru Bodbe, który znajduje się pod miastem Signagi.
-      Zwiedzanie monastyru, gdzie pochowana jest apostolka i najważniejsza
+      Zwiedzanie monastyru, gdzie pochowana jest apostołka i najważniejsza
       święta gruzińskiej cerkwi - św Nino. Św NIno kanonizowała Gruzinów w 337
       roku, co uczyniło Gruzję drugim najstarszym chrześcijańskim krajem na
       świecie po Armenii. "
@@ -87,6 +88,6 @@ priceNotContains:
 
 * Długość trasy: ok. 350 km
 * Stopień trudności: łatwy
-* Ubiór: lekki, wygodne obuwie do chodzenia, chusta (panie obowiązują się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia, chusta (panio zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
-* Podane godziny zwiedzania mogą nieznacznie się różnić od zrealizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania
+* Podane godziny zwiedzania mogą nieznacznie się różnić od realizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania

@@ -5,23 +5,23 @@ oneDay: false
 minSeats: 1
 title: Off-road po gruzińsku
 description: Przejażdżka po najpięknieszych górskich regionach - Racza i Chewi
-informations: W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
+informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
   możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
-  szczytów wiosek, rozległych dolin i świątyń w górach. Wszysko połączone z
-  kosztowaniem pysznej gruzińskiej kuchni i wina.
+  szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
+  skosztowaniem pysznej gruzińskiej kuchni i wina.  "
 discount: 0
 discountTitle: first minute zniżka
 terms:
   - startDate: 2021-06-21T12:08:25.411Z
     endDate: 2021-06-30T12:08:25.446Z
     daysCount: 10 DNI/9 NOCY
-    seats: 15
+    seats: 12
     price: 510
 thumb: /img/img_20180718_135553.jpg
 images:
   - image: /img/img_20180709_182231.jpg
     name: Ghebi
-  - image: /img/uplistsikhe.jpg
+  - image: /img/mountains-3776197.jpg
     name: upliscyche
   - image: /img/img_20180720_120755.jpg
     name: ananuri
@@ -48,14 +48,14 @@ schedule:
       dowiemy się, jaką legendę kryje to miejsce i nacieszymy się cudownymi
       widokami. Nasza dalsza droga prowadzi wzdłuż malowniczego jeziora Szaori
       (1132 m n.p.m.). Po drodze zwiedzanie dwóch perełek gruzińskiej
-      architektury sakralnej - katedry Nikorcminda XI. w, która znana jest ze
+      architektury sakralnej - katedry Nikorcminda (XI w.), która znana jest ze
       swoich bogato ozdobnych płaskorzeźb na fasadach i fresków wewnątrz
       katedry; oraz cerkwi Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka
       Ambrolauri, obiadokolacja, nocleg.
   - day: "3"
     place: 23.06 - Ambrolauri - Utsera - Ghebi - Oni
     text: Śniadanie, wykwaterowanie z hotelu. Nasz off-road kontynuujemy w kierunku
-      górnej Raczy. Region Racza zdecydowanie wyroźnia się swoimi widokami na
+      górnej Raczy. Region Racza zdecydowanie wyróżnia się swoimi widokami na
       góry Wielkiego Kaukazu, nietkniętą naturą i zagubionymi wśród szczytów
       wioskami. Tego dnia odwiedzimy wysokogórskie wioski Ghebi, Glola i Utsera.
       Ta ostatnia to kiedyś słynne uzdrowisko, obecnie możemy również skosztować
@@ -66,7 +66,7 @@ schedule:
     text: Śniadanie, wykwaterowanie. Zanim opuścimy miasteczko Oni, udamy się na
       zwiedzanie cudownej synagogi, która ozdabia centrum miasta. Synagoga w Oni
       jest trzecią największą świątynią żydowskiej mniejszości w Gruzji, tuż po
-      tbiliskiej i kutaiskiej sygagogach. Obecnie nieczynna, ale dostępna do
+      tbiliskiej i kutaiskiej synagogach. Obecnie nieczynna, ale dostępna do
       zwiedzania. Dalej wracamy do okolic miasteczka Ambrolauri, aby udać się ma
       degustację unikatowego wina Chwanczkara (ხვანჭკარა). Szczep Chwanczkara
       jest typowo raczyńskim gatunkiem winogron, z którego powstaje półsłodkie
@@ -120,11 +120,11 @@ schedule:
     place: 28.06 - Kazbegi - Dżuta - Tbilisi
     text: >-
       Śniadanie, wykwaterowanie, wyjazd samochodami terenowymi w kierunku
-      zabytkowej wioski Dżuta (łączna trasa ok 20 km), po drodze towarzyć nam
+      zabytkowej wioski Dżuta (łączna trasa ok 20 km), po drodze towarzyszyć nam
       będą przepiękne widoki. Przystanek we wsi Sno, która znana jest jako
-      miejsce urodzenia gruzińskiego patriarchy Ilii II, oraz ze swoich źródeł
-      wód mineralnych. Dojazd do wioski Dżuta, jeśli pozwoli czas, krótki
-      trekking. 
+      miejsce urodzenia gruzińskiego katolikosa-patriarchy Ilii II, oraz ze
+      swoich źródeł wód mineralnych. Dojazd do wioski Dżuta, jeśli pozwoli czas,
+      krótki trekking. 
 
       Powrót do Tbilisi, obiadokolacja, nocleg.
   - day: "9"
@@ -149,11 +149,11 @@ priceContains:
     icon: restaurant
   - text: Transport 4x4 w Raczy i Kazbegi
     icon: offroad
-  - text: Bilety wstępu
+  - text: Bilety wstępu do zwiedzanych obiektów
     icon: cinemaTicket
   - text: Degustację wina
     icon: alcohol
-  - text: Przejazd kolejką w Tbilisi
+  - text: Przejazd kolejką linową w Tbilisi
     icon: cableCar
   - text: Usługi polskojęzycznego przewodnika
     icon: guide
@@ -170,6 +170,6 @@ priceNotContains:
 * Potrzebne dokumenty: dowód osobisty lub paszport
 * Warunki pogodowe: w terenach górskich ok. +15°C, w terenach nizinnych ok. +28°C
 * Waluta: GEL (gruzińskie lari), 1 GEL = 1,32 PLN, na miejscu można wymienić EUR, USD albo wypłacić GEL z bankomatu
-* Ubiór: lekki, sportowe buty na ewentualny trekking, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, płaszcz przeciwdeszczowy, chusta (panie obowiązują się do mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, sportowe buty na ewentualny trekking, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, płaszcz przeciwdeszczowy, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
