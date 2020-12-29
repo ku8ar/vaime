@@ -13,7 +13,6 @@ import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
 import Instagram from '../components/page/Instagram'
-import Carousel from '../components/page/Carousel'
 import GridSection from '../components/page/GridSection'
 import ContactForm from '../components/forms/ContactForm'
 import TextSection from '../components/page/TextSection'
@@ -27,7 +26,7 @@ export const Center = styled.div`
   z-index: 1;
 `
 
-export const StandardPageTemplate = ({ title, images, carousel, html, background, qa, contact, grid, hideInstagram, hideContact, showFlights, text, contentComponent, services }) => {
+export const StandardPageTemplate = ({ title, images, html, background, qa, contact, grid, hideInstagram, hideContact, showFlights, text, contentComponent, services }) => {
   const HtmlComponent = contentComponent || Content
   const bg = path('childImageSharp.fluid.src', background) || background
   const hideInfo = hideContact && hideInstagram && !showFlights
@@ -64,7 +63,6 @@ export const StandardPageTemplate = ({ title, images, carousel, html, background
         <GridSection data={grid} />
         <TextSection text={text} />
       </Grid>
-          <Section><Carousel images={carousel} /></Section>
       <Cookies />
     </Page>
   )
@@ -104,10 +102,6 @@ export const pageQuery = graphql`
           answer
         }
         images {
-          name
-          image { ...imageFullWidth }
-        }
-        carousel {
           name
           image { ...imageFullWidth }
         }

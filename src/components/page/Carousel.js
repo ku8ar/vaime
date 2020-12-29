@@ -60,14 +60,12 @@ const Carousel = ({ images }) => {
   )
 }
 
-const Wrapper = styled(View)`
+const Wrapper = styled.div`
   display: block;
   padding: 0;
   position: relative;
   width: 100%;
-    ${p => p.theme.mobile`
-    display: none;
-  `}
+  height: calc(100vh - 4rem);
 `
 
 const Arrow = styled.div`
@@ -144,9 +142,9 @@ const GlobalStyle = createGlobalStyle`
 
 
 .BrainhubCarousel .BrainhubCarousel__trackContainer .BrainhubCarousel__track {
-  height: 33rem;
+  height: calc(100vh - 8rem);
   ${p => p.theme.mobile`
-    height: 15rem;
+    height: calc(100vh - 4rem);
   `}
 }
 

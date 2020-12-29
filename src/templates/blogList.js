@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
 import Cookies from '../components/Cookies'
-import { Page, H2 } from '../components/Base'
+import { Page } from '../components/Base'
 import Section from '../components/page/Section'
 import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
@@ -43,32 +43,28 @@ const Placeholder = styled.div`
   margin-top: 1.75rem;
 `
 
-const BlogList = () => {
-  console.log(useBlogList())
-
-  return (
-    <Layout title='Blog' description='Blog' slug='/blog/'>
-      <Page>
-        <Grid>
-          <Column size={70}>
-            <Placeholder />
-            {useBlogList().map(({ node: { fields: { slug }, frontmatter } }) => (
-              <BlogTile key={slug} slug={slug} {...frontmatter} />
-            ))}
-          </Column>
-          <Column size={30}>
-            <Section>
-              <Info />
-            </Section>
-            <Section>
-              <Instagram />
-            </Section>
-          </Column>
-        </Grid>
-        <Cookies />
-      </Page>
-    </Layout>
-  )
-}
+const BlogList = () => (
+  <Layout title='Blog' description='Blog' slug='/blog/'>
+    <Page>
+      <Grid>
+        <Column size={70}>
+          <Placeholder />
+          {useBlogList().map(({ node: { fields: { slug }, frontmatter } }) => (
+            <BlogTile key={slug} slug={slug} {...frontmatter} />
+          ))}
+        </Column>
+        <Column size={30}>
+          <Section>
+            <Info />
+          </Section>
+          <Section>
+            <Instagram />
+          </Section>
+        </Column>
+      </Grid>
+      <Cookies />
+    </Page>
+  </Layout>
+)
 
 export default BlogList

@@ -12,7 +12,6 @@ const StandardPagePreview = ({ entry, widgetFor, getAsset }) => {
         <StandardPageTemplate
           {...data}
           images={(data.images || []).map(({image, ...rest}) => ({image: getAsset(image), ...rest}))}
-          carousel={(data.carousel || []).map(({image, ...rest}) => ({image: getAsset(image), ...rest}))}
           grid={(data.grid || []).map(({image0, image1, ...rest}) => ({image0: getAsset(image0), image1: getAsset(image1), ...rest}))}
           html={widgetFor('body')}
         />

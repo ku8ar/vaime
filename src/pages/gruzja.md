@@ -51,27 +51,6 @@ text: >
   A więc zapraszamy, przyjeżdżajcie i podziwiajcie te widoki, smakujcie
   gruzińską kuchnię, napijcie się wina a my, Gruzinki z krwi i kości, postaramy
   się, żebyście wspominali czas spędzony u nas z uśmiechem na twarzy!
-carousel:
-  - image: /img/466.jpg
-    name: Region Swaneti, Wielki Kaukaz
-  - image: /img/chertwisi.JPG
-    name: Twierdza Chertwisi
-  - image: /img/P1000428.JPG
-    name: Freski w głównym kościele monastyru Gelati, Kutaisi
-  - image: /img/P1000438.JPG
-    name: Szczy Kazbek (Mkinvarcveri)
-  - image: /img/bagrati_kosciol.jpg
-    name: Katedra Bagrati, Kutaisi
-  - image: /img/biore_4.jpg
-    name: Twierdza Rabati, Achalcyche
-  - image: /img/wardzia_wejscie.JPG
-    name: Skalne miasto Wardzia
-  - image: /img/jvari_swieczki_grid.jpg
-    name: Monastyr Dżwari, Mccheta
-  - image: /img/jaskinia_prometeusza.jpg
-    name: Jaskina Prometeusza, Ckaltubo
-  - image: /img/batumi-bulvar-2.jpg
-    name: Nadmorski bulwar w Batumi
 contact: false
 hideInstagram: true
 hideContact: true

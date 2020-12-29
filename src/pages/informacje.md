@@ -143,7 +143,6 @@ qa:
       Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
     question: Gdzie znaleźć tanie połączenia do Gruzji?
 grid: []
-carousel: null
 contact: false
 showFlights: true
 ---
