@@ -119,11 +119,11 @@ const LinkWrapper = styled(Link)`
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 22rem;
   box-shadow: 0 2px 4px 0 rgba(23,27,30,.1);
   border-radius: ${props => props.theme.radiusSmall};
-  margin: 2rem 1rem 1rem 2rem;
+  margin: .5rem .5rem .5rem .5rem;
   background-color: ${props => props.theme.colorWhite};
   text-decoration: none;
   transition: box-shadow .3s ease-out;

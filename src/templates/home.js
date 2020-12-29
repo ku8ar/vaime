@@ -67,7 +67,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           <InfoBelt {...props} />
         </HeroContent>
       </Hero>
-      <Offers id="offers">
+      <Offers>
       {
         Object.entries(_multiDayToursMap || {}).map(
           ([year, list]) => (
