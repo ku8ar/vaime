@@ -16,9 +16,15 @@ const Wrapper = styled.div`
   ${p => p.theme.print` display: none; `}
 `
 
+const _msg = 'messanger'
+
 export default memo(() => {
-  const [visible, setVisible] = useState(false)
-  const onClick = useCallback(() => setVisible(true), [])
+  const _visible = localStorage && localStorage.getItem(_msg)
+  const [visible, setVisible] = useState(_visible)
+  const onClick = useCallback(() => {
+    setVisible(true)
+    localStorage && localStorage.setItem(_msg, true)
+  }, [])
 
   useEffect(() => {
     if (visible) {
