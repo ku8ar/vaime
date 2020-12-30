@@ -1,21 +1,25 @@
 ---
 templateKey: blog
 active: true
-title: Test
-description: Opis testowego bloga
-thumb: /img/xinkali-23.jpg
+date: 2020-12-30T09:01:16.707Z
+title: Święta w Gruzji
+description: Jak świętujemy Nowy Rok i Boże Narodzenie w Gruzji - tradycje,
+  zwyczaje, kuchnia.
+thumb: /img/projekt-bez-tytułu-26-.png
 images:
-  - image: /img/302.jpg
+  - image: /img/zielona-i-czerwona-wesoła-liście-boże-narodzenie-życzenia-wydarzenia-i-specjalne-zainteresowania-prezentacja.png
     name: test foto
 ---
-## Lorem ipsum dolor sit amet
+## święta w gruzji
 
-consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Zbliżają się Święta - jak przebiega okres świąteczny, co świętujemy, kiedy i jak?\
+\
+Sylwester/Nowy Rok - mimo, że Gruzja ma renomę kraju niezwykle religijnego, o wiele huczniej obchodzi się tu Sylwester, niż Boże Narodzenie. Największy wpływ na kształtowanie tej tradycji miały czasy ZSRR, gdzie święta religijne nie były uznawane. Gruzini świętują 31 grudnia z rozmachem - z ogromną ilością jedzenia, z winem i szampanem, strzelaniem fajerwerków o północy itd. Sylwester jest uważany za święto bardzo rodzinne, dlatego wszyscy starają się spędzić go z najbliższymi. W noc z 31 grudnia na 1 stycznia gruzińskie dzieciaki dostają prezenty od Dziadka Mroza (gruz. თოვლის ბაბუა, Towlis Babua), jest to gruziński odpowiednik Santa Clausa.
 
-- ut enim ad minim veniam,
-- quis nostrud exercitation ullamco,
-- laboris nisi ut aliquip ex ea commodo consequat
+Bedoba - 2 stycznia, drugi dzień nowego roku ma swoje symboliczne znaczenie w naszym kraju. Nazwa tego dnia pochodzi od słowa "bedi" (gruz. ბედი), czyli los, przeznaczenie. Tradycja nakazuje, że ten dzień ma być odzwierciedleniem nadchodzącego roku, dlatego trzeba go spędzić w jak najlepszy i najprzyjemniejszy możliwy sposób.
 
-## de Finibus Bonorum et Malorum
+Boże Narodzenie - Wigilia i Boże Narodzenie (6 i 7 stycznia), to święta przede wszystkim religijne. Większe znaczenie tu ma bożenarodzeniowe nabożeństwa w cerkwi, niż supra i toasty. Ludzie wierzący odwiedzają cerkwie, aby wziąć udział w świątecznej liturgii, która trwa ok. 4-5 godzin (oczywiście można opuścić cerkiew o wiele wcześniej, liczy się sama chęć udziału). Świętowanie Bożego Narodzenia w domach zależy od rodziny, ale zazwyczaj jest urządzana skromna supra z winem.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Stary Nowy Rok - 14 stycznia, czyli Nowy Rok wg. starego, juliańskiego kalendarza, to zakończenie świątecznego maratonu w Gruzji. Ludzie wierzą, że od 14 stycznia nowy rok już na pewno nadszedł, i można żyć dalej. Podobno jak na Sylwester, organizują się uroczysta kolacja rodzinna.\
+Mikołajki\
+W Gruzji nie ma dokładnego odpowiednika polskich Mikołajek, za to jest religijne święto Nikolozoba, czyli Dzień Świętego Mikołaja, które obchodzone jest 19 grudnia. Jest to przede wszystkim dzień imienin wszystkich o imieniu Nikoloz (Mikołaj. Nie ma tradycji dawania prezentów czy słodyczy, wszystkie te przyjemne zwyczaje mają miejsce w Sylwester.
