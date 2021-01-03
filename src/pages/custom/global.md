@@ -1,7 +1,7 @@
 ---
 templateKey: global
-seoTitle: "- Vaime Travel"
 logo: /img/vaime_circle.png
+seoTitle: "- Vaime Travel"
 companyName: Vaime Travel
 email: info@vaimetravel.com
 navigation:
@@ -17,10 +17,6 @@ navigation:
     to: /wspolpraca/
     mobile: true
     icon: cooperation
-  - title: Galeria
-    to: /galeria/
-    mobile: false
-    icon: gallery
   - title: Kontakt
     to: /kontakt/
     mobile: true
