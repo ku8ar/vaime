@@ -19,11 +19,11 @@ terms:
 thumb: /img/batumi-kolo.jpg
 images:
   - image: /img/most.jpg
-    name: tbilisi
+    name: Most Pokoju, Tbilisi
   - image: /img/georgia-5139384.jpg
-    name: signagi
+    name: Signagi
   - image: /img/caucasus-3110386.jpg
-    name: kazbegi
+    name: Gruzińska Droga Wojenna
 map: /img/majowka-2021.png
 schedule:
   - day: "1"

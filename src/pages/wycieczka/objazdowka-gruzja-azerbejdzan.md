@@ -21,11 +21,11 @@ terms:
 thumb: /img/p1020318.jpg
 images:
   - image: /img/ancient-1997162_1920-1-.jpg
-    name: Baku
+    name: Stare Miasto, Baku
   - image: /img/kakheti-4452432-1-.jpg
-    name: alaverdi
+    name: Katedra Alawerdi
   - image: /img/azerbaijan-4856054_1920.jpg
-    name: baku
+    name: Xinalug, Azerbejdżan
 map: /img/xinaliq-hinalug-.png
 schedule:
   - day: "1"

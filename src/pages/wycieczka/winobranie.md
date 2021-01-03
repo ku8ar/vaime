@@ -14,7 +14,7 @@ terms:
 thumb: /img/grapes-2576705.jpg
 images:
   - image: /img/country-lane-428039.jpg
-    name: kacheti
+    name: Kacheti
 map: /img/majowka_gruzja.png
 schedule:
   - day: "1"

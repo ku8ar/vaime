@@ -20,11 +20,11 @@ terms:
 thumb: /img/img_20180718_135553.jpg
 images:
   - image: /img/img_20180709_182231.jpg
-    name: Ghebi
+    name: Wioska Ghebi, Górna Racza, Gruzja
   - image: /img/mountains-3776197.jpg
-    name: upliscyche
+    name: Szczyt Kazbek
   - image: /img/img_20180720_120755.jpg
-    name: ananuri
+    name: Twierdza Ananuri
 map: /img/racha.png
 schedule:
   - day: "1"

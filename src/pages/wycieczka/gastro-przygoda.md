@@ -18,11 +18,11 @@ terms:
 thumb: /img/xinkali-23.jpg
 images:
   - image: /img/gastroprzyga_acharuli.jpg
-    name: acharuli
+    name: Adżarskie chaczapuri
   - image: /img/churchxela-chalupka.jpg
-    name: czurczchela
+    name: Czurczchela
   - image: /img/kawanapiasku.jpg
-    name: kawa na piasku
+    name: Gruzińska kawa na piasku
 map: /img/gastrp.png
 schedule:
   - text: "Przylot do miasta Kutaisi, odbiór z lotniska. Transfer do nadmorskiego

@@ -15,7 +15,7 @@ terms:
 thumb: /img/georgia-4708365.jpg
 images:
   - image: /img/stare_tbilisi.jpg
-    name: tbilisi
+    name: Tbilisi
 map: /img/toponimy.png
 schedule:
   - day: "1"

@@ -18,11 +18,11 @@ terms:
 thumb: /img/georgia-4514141.jpg
 images:
   - image: /img/georgia-1383959_1920.jpg
-    name: batumi
+    name: Batumi
   - image: /img/tbilisi-2171192_1920.jpg
-    name: tbilisi
+    name: Tbilisi
   - image: /img/20180502_173835-—-kopia.jpg
-    name: svaneti
+    name: Widok na miasteczko Mccheta
 map: /img/gruzinskie-wakacje-2021.png
 schedule:
   - day: "1"

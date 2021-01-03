@@ -14,7 +14,7 @@ terms:
 thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/IMG_2318.JPG
-    name: tbilisi
+    name: Katedra Sweticchoweli, Mccheta
 map: /img/kaukasi-duet-5-.png
 schedule:
   - day: "1"
