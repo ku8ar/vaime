@@ -19,35 +19,35 @@ images:
   - image: /img/302.jpg
     name: Batumi
   - image: /img/khor-virap-1781518.jpg
-    name: chor virap
+    name: Chor Virap
   - image: /img/560.jpg
     name: Kanion Martwili
   - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
   - image: /img/cathedral-1781012-1-.jpg
-    name: zvartnoc
+    name: Zvartnoc
   - image: /img/287907_270686586280237_100000166945688_1293937_2568758_o.jpg
-    name: davit_gareja
+    name: Davit Gareja
   - image: /img/baku-4626962_1920.jpg
     name: Baku
   - image: /img/houses-4994218.jpg
-    name: tbilisi
+    name: Tbilisi
   - image: /img/ararat-zdjecie.jpg
-    name: ararat
+    name: Ararat
   - image: /img/biore_4.jpg
-    name: rabati
+    name: Rabati
   - image: /img/mountains-4919849.jpg
-    name: gory
+    name: Góry Kaukazu
   - image: /img/azerbaijan-3699444_1920-1-.jpg
-    name: shamakhi
+    name: Shamakhi
   - image: /img/panorama-3363874.jpg
-    name: signagi
+    name: Signagi
   - image: /img/tbilisi-2386965_1920.jpg
-    name: tbilisi
+    name: Tbilisi
   - image: /img/ushba.jpg
-    name: ushba
+    name: Ushba
   - image: /img/p1020264.jpg
-    name: baku
+    name: Baku
 team:
   - image: /img/majunia.jpg
     name: Maja Varshanidze
@@ -163,6 +163,19 @@ reviews:
     place: Majówka, 2018
     stars: 5
 promoImage: /img/mapka_glowna.jpg
+blogTitle: Poznaj Gruzję
+blogDescription: >-
+  Gruzja to pełnia wrażeń - słońce, najpiękniejsze plaże, morza mieniące się niezliczonymi odcieniami błękitu, zniewalające zabytki i nieziemskie krajobrazy. To także zdrowa, gruzińska kuchnia i Gruzini, którzy od wieków żyją w swoim tempie. Właśnie to wszystko chcemy Ci pokazać!
+blogButton: Więcej
+blogImages:
+  - image: /img/302.jpg
+    name: Batumi
+  - image: /img/khor-virap-1781518.jpg
+    name: Chor Virap
+  - image: /img/560.jpg
+    name: Kanion Martwili
+  - image: /img/p1000434-1-.jpg
+    name: Kazbek, Gergeti, Stepancminda
 ---
 Witamy w naszym biurze!\
 Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.

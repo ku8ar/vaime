@@ -14,6 +14,7 @@ import TeamTile from '../components/home/TeamTile'
 import InfoBelt from '../components/home/InfoBelt'
 import AboutUsSection from '../components/home/AboutUsSection'
 import PromoSection from '../components/home/PromoSection'
+import BlogSection from '../components/home/BlogSection'
 import Instagram from '../components/home/Instagram'
 import Reviews from '../components/home/Reviews'
 import HeroContent from '../components/home/HeroContent'
@@ -116,6 +117,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
         </Grid>
       </Section>
       <Reviews reviews={reviews} reviewImage={reviewImage} reviewVideo={reviewVideo} reviewPreview={reviewPreview} />
+      <BlogSection {...props} />
       <PromoSection promoImage={promoImage} />
       <Instagram />
       <Cookies />
@@ -227,6 +229,13 @@ export const pageQuery = graphql`
           place
           text
           stars
+        }
+        blogTitle
+        blogDescription
+        blogButton
+        blogImages {
+          name
+          image { ...imageTile }
         }
       }
     }

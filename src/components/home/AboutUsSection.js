@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { path } from 'rambda'
 import { View, H2 } from '../Base'
 import Image from '../Image'
 

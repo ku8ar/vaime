@@ -21,11 +21,10 @@ const LeftImage = styled(Image)`
 `
 
 const Wrapper = styled(Link)`
-
 `
 const Title = styled(H4)`
   margin-top: .5rem;
 `
 const Description = styled(P)`
-
+  margin-bottom: 2rem;
 `
