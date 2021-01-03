@@ -75,6 +75,10 @@ collections:
           - {label: "Review Video Preview", name: "reviewPreview", widget: image}
           - {label: Reviews, name: reviews, widget: list, required: false, fields: [{label: "Author", name: author, widget: string}, {label: "Place", name: place, widget: string}, {label: "Text", name: text, widget: text}, {label: "Stars", name: stars, widget: number}]}
           - {label: "Promo Image", name: "promoImage", widget: image}
+          - {label: "Blog Title", name: "blogTitle", widget: string, required: false}
+          - {label: "Blog Description", name: "blogDescription", widget: text}
+          - {label: "Blog Button", name: "blogButton", widget: string}
+          - {label: "Blog Images", name: blogImages, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
 
       - file: "src/pages/custom/global.md"
         label: "Global"
@@ -85,7 +89,7 @@ collections:
           - {label: "SEO Title Suffix", name: seoTitle, widget: string}
           - {label: "Company Name", name: companyName, widget: string}
           - {label: "Email", name: email, widget: string}
-          - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}, {label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}]}
+          - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}, {label: "Mobile?", name: mobile, widget: boolean}, {label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}]}
           - {label: "Phone numbers", name: phoneNumbers, widget: list}
           - {label: "Social links", name: socialLinks, widget: list, fields: [{label: "Type", name: type, widget: string}, {label: "Address", name: src, widget: string}]}
 

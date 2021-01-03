@@ -13,13 +13,13 @@ export default ({ menu, navigation, slug }) => {
           <Icon icon={'home'} fill={!path || path === '/' ? colorPrimary : 'white'} />
           Vaime
         </NavItem>
-        {navigation.map(nav => <Item key={nav.to} nav={nav} active={path === nav.to} />)}
+        {navigation.filter(nav => nav.mobile).map(nav => <Item key={nav.to} nav={nav} active={path === nav.to} />)}
     </Wrapper>
   )
 }
 
 const Item = memo(({nav, active }) => (
-  <NavItem {...nav}>
+  <NavItem to={nav.to}>
     <Icon icon={nav.icon} fill={active ? colorPrimary : 'white'} />
     {nav.title}
   </NavItem>

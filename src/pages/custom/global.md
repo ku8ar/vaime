@@ -7,15 +7,23 @@ email: info@vaimetravel.com
 navigation:
   - title: O Gruzji
     to: /gruzja/
+    mobile: true
     icon: georgia
   - title: Informacje
     to: /informacje/
+    mobile: true
     icon: faq
   - title: Współpraca
     to: /wspolpraca/
+    mobile: true
     icon: cooperation
+  - title: Galeria
+    to: /galeria/
+    mobile: false
+    icon: gallery
   - title: Kontakt
     to: /kontakt/
+    mobile: true
     icon: contact
 phoneNumbers:
   - +995 558 206 038
