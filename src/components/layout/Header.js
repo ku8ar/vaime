@@ -10,10 +10,11 @@ import MobileNavigation from './MobileNavigation'
 export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
+  const isTransparent = slug && slug.includes('galeria')
 
   return (
     <>
-      <Header>
+      <Header isTransparent={isTransparent}>
         <LayoutNavigationDesktop>
           <Nav>
             <LogoWrapper to="/" title="Logo" onClick={onClick}>
@@ -67,7 +68,7 @@ const PhoneNo = styled.a`
 const Header = styled.header`
   display: flex;
   height: 4rem;
-  background-color: ${p => p.theme.colorPrimary};
+  background-color: ${p => p.isTransparent ? 'transparent' : p.theme.colorPrimary};
   position: fixed;
   width: 100%;
   border-bottom: 1px solid ${p => p.theme.colorWhite};

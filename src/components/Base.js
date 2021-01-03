@@ -25,7 +25,6 @@ export const Page = styled.section`
   width: 100%;
   flex: 1;
   background-color: white;
-  background-image: url(${p => p.background});
   ${p => p.theme.print` margin-top: 0; `}
 `
 

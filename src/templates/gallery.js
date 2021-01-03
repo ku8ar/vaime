@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
-import { Page } from '../components/Base'
 import Carousel from '../components/page/Carousel'
 
 const useGallery = () => useStaticQuery(
@@ -28,13 +27,11 @@ const useGallery = () => useStaticQuery(
       }
     }
   `
-).allMarkdownRemark.edges.map(({ node: { frontmatter: { images }}}) => images).flat()
+).allMarkdownRemark.edges.map(({ node: { frontmatter: { images } } }) => images).flat()
 
 const Gallery = () => (
   <Layout title='Galeria' description='galeria' slug='/galeria/'>
-    <Page>
-      <Carousel images={useGallery()} />
-    </Page>
+    <Carousel images={useGallery()} />
   </Layout>
 )
 
