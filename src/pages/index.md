@@ -163,9 +163,11 @@ reviews:
     place: Majówka, 2018
     stars: 5
 promoImage: /img/mapka_glowna.jpg
-blogTitle: Poznaj Gruzję
-blogDescription: >-
-  Gruzja to pełnia wrażeń - słońce, najpiękniejsze plaże, morza mieniące się niezliczonymi odcieniami błękitu, zniewalające zabytki i nieziemskie krajobrazy. To także zdrowa, gruzińska kuchnia i Gruzini, którzy od wieków żyją w swoim tempie. Właśnie to wszystko chcemy Ci pokazać!
+blogTitle: ""
+blogDescription: Gruzja to pełnia wrażeń - słońce, najpiękniejsze plaże, morza
+  mieniące się niezliczonymi odcieniami błękitu, zniewalające zabytki i
+  nieziemskie krajobrazy. To także zdrowa, gruzińska kuchnia i Gruzini, którzy
+  od wieków żyją w swoim tempie. Właśnie to wszystko chcemy Ci pokazać!
 blogButton: Więcej
 blogImages:
   - image: /img/302.jpg
