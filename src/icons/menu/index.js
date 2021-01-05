@@ -6,6 +6,7 @@ import faq from './faq'
 import georgia from './georgia'
 import home from './home'
 import info from './info'
+import gallery from './gallery'
 
 const IconWrapper = styled.div`
   height: 2rem;
@@ -18,7 +19,8 @@ const types = {
   faq,
   georgia,
   home,
-  info
+  info,
+  gallery
 }
 
 const Icon = ({ icon, className, fill, size }) => {

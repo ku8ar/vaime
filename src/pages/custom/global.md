@@ -1,21 +1,25 @@
 ---
 templateKey: global
-seoTitle: "- Vaime Travel"
 logo: /img/vaime_circle.png
+seoTitle: "- Vaime Travel"
 companyName: Vaime Travel
 email: info@vaimetravel.com
 navigation:
   - title: O Gruzji
-    to: /gruzja
+    to: /gruzja/
+    mobile: true
     icon: georgia
   - title: Informacje
-    to: /informacje
+    to: /informacje/
+    mobile: true
     icon: faq
   - title: Współpraca
-    to: /wspolpraca
+    to: /wspolpraca/
+    mobile: true
     icon: cooperation
   - title: Kontakt
-    to: /kontakt
+    to: /kontakt/
+    mobile: true
     icon: contact
 phoneNumbers:
   - +995 558 206 038

@@ -106,6 +106,9 @@ const Right = styled(RightIcon)`
 
 const Rows = styled.div`
   padding: 0 2rem;
+  ${p => p.theme.mobile`
+  padding: 0;
+  `}
 `
 
 const Controls = styled.div`

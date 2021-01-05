@@ -13,7 +13,7 @@ export default () => {
     <Wrapper>
       <Section>
         <Icon icon='mail' />
-        <Anchor href={`mailto: ${email}`}>{email}</Anchor>
+        <Anchor href={`mailto:${email}`}>{email}</Anchor>
       </Section>
       <Section>
         <Icon icon='smartphone' />

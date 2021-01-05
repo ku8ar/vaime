@@ -2,7 +2,6 @@ import React, { useState, useCallback, useMemo, useEffect } from 'react'
 import {path, isEmpty} from 'rambda'
 import styled, { createGlobalStyle } from 'styled-components'
 import ReactCarousel, { Dots } from '@brainhubeu/react-carousel'
-import { View } from '../Base'
 
 const Carousel = ({ images }) => {
   if (!images || isEmpty(images)) return null
@@ -60,14 +59,13 @@ const Carousel = ({ images }) => {
   )
 }
 
-const Wrapper = styled(View)`
+const Wrapper = styled.div`
   display: block;
   padding: 0;
   position: relative;
   width: 100%;
-    ${p => p.theme.mobile`
-    display: none;
-  `}
+  height: calc(100vh - 4rem);
+  flex: 1;
 `
 
 const Arrow = styled.div`
@@ -111,6 +109,7 @@ const Title = styled.div`
   z-index: 1;
   top: 0;
   right: 4rem;
+  top: 4rem;
   height: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
   padding: .25rem 2rem 0rem 2rem;
@@ -144,9 +143,9 @@ const GlobalStyle = createGlobalStyle`
 
 
 .BrainhubCarousel .BrainhubCarousel__trackContainer .BrainhubCarousel__track {
-  height: 33rem;
+  height: calc(100vh - 4rem);
   ${p => p.theme.mobile`
-    height: 15rem;
+    height: calc(100vh - 4rem);
   `}
 }
 

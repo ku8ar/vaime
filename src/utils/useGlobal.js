@@ -13,6 +13,7 @@ export const useGlobal = () => {
             navigation {
               to
               title
+              mobile
               icon
             }
             socialLinks {

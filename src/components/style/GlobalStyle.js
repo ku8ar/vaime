@@ -110,7 +110,7 @@ export default createGlobalStyle`
   li {
     margin-bottom: 1rem;
     &:last-child {
-      margin-bottom: none;
+      margin-bottom: 0;
     }
     ${p => p.theme.print` margin-bottom: .5rem; `}
   }

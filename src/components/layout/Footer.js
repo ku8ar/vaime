@@ -17,10 +17,10 @@ export default memo(({ data }) => {
               <Vaime />
             </LogoLink>
             {(phoneNumbers || []).map(no => <FooterLink key={no} href={`tel: ${no}`} title={`tel: ${no}`}>{no}</FooterLink>)}
-            <FooterLink href={`mailto: ${email}`} title='email'>{email}</FooterLink>
+            <FooterLink href={`mailto:${email}`} title='email'>{email}</FooterLink>
           </FooterList>
           <MiddleFooterList>
-            <FooterNav to='/polityka' title='Polityka Prywatności'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
+            <FooterNav to='/polityka/' title='Polityka Prywatności'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
           </MiddleFooterList>
           <LastFooterList>
             <Title color="colorWhite">Gruziński Po Polsku</Title>
@@ -116,5 +116,5 @@ const FooterCopyright = styled.p`
 `
 
 const Title = styled(H6)`
-  text-transform: upperacase;
+  text-transform: uppercase;
 `

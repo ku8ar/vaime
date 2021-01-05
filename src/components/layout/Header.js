@@ -10,17 +10,18 @@ import MobileNavigation from './MobileNavigation'
 export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
-  
+  const isTransparent = slug && slug.includes('galeria')
+
   return (
     <>
-      <Header>
+      <Header isTransparent={isTransparent}>
         <LayoutNavigationDesktop>
           <Nav>
             <LogoWrapper to="/" title="Logo" onClick={onClick}>
               <Vaime />
             </LogoWrapper>
             {navigation.map(nav => (
-              <NavItem data-active={slug === nav.to} key={nav.to} {...nav}>{nav.title}</NavItem>
+              <NavItem data-active={slug === nav.to} key={nav.to} to={nav.to}>{nav.title}</NavItem>
             ))}
           </Nav>
         <SocialListContainer phone={phone} socialLinks={socialLinks} />
@@ -32,9 +33,11 @@ export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) =>
   )
 }
 
+const removeSpace = str => str.replace(/\s/g, '')
+
 const SocialListContainer = memo(({phone, socialLinks}) => (
   <NavSocialList>
-    <PhoneNo href={`tel: ${phone}`} title="telefon"><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
+    <PhoneNo href={`tel:${removeSpace(phone)}`} title="telefon"><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
     {socialLinks.map(soc => <SocialLink key={soc.type} {...soc} />)}
   </NavSocialList>
 ))
@@ -44,7 +47,7 @@ const LayoutNavigationMobileContainer = memo(({ companyName, phone }) => (
     <LogoWrapper to="/" title="Logo">
       <Vaime />
     </LogoWrapper>
-    <PhoneNo href={`tel: ${phone}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
+    <PhoneNo href={`tel:${removeSpace(phone)}`}><PhoneImg src={phoneImg} alt='telephone' />{phone}</PhoneNo>
   </LayoutNavigationMobile>
 ))
 
@@ -65,7 +68,7 @@ const PhoneNo = styled.a`
 const Header = styled.header`
   display: flex;
   height: 4rem;
-  background-color: ${p => p.theme.colorPrimary};
+  background-color: ${p => p.isTransparent ? 'transparent' : p.theme.colorPrimary};
   position: fixed;
   width: 100%;
   border-bottom: 1px solid ${p => p.theme.colorWhite};

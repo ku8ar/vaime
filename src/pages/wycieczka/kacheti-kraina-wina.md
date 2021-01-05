@@ -15,7 +15,7 @@ terms:
 thumb: /img/biore-5-.jpg
 images:
   - image: /img/czurchela.jpg
-    name: bazar
+    name: Bazar
 map: /img/kacheti-mapa.png
 schedule:
   - day: 9 00

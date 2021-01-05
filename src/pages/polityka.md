@@ -5,7 +5,6 @@ description: Cookies, Polityka Prywatności
 images:
   - image: /img/cloud-computing-2001090_1920.jpg
     name: prywatność
-carousel: null
 contact: false
 ---
 #### Preambuła

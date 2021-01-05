@@ -26,11 +26,11 @@ terms:
 thumb: /img/armenia-3716853-1-.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
-    name: sevan
+    name: Sewanawank, Jezioro Sewan, Armenia
   - image: /img/vardzia-5187928_1920.jpg
-    name: wardzia
+    name: Skalne Miasto Wardzia
   - image: /img/p1020020.jpg
-    name: garni
+    name: Pogańska Świątynia Garni, Armenia
 map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"

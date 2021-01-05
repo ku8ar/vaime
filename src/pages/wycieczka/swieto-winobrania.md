@@ -22,11 +22,11 @@ terms:
 thumb: /img/mevenaxe.jpg
 images:
   - image: /img/georgia-4856786_1920-2-.jpg
-    name: kacheti
+    name: Dolina Alazani, Kachetia
   - image: /img/grapes-2576705.jpg
-    name: rtveli
+    name: Rtveli
   - image: /img/dsc_0169.jpg
-    name: signagi
+    name: Signagi
 map: /img/winobranie.png
 schedule:
   - day: "1"

@@ -16,7 +16,7 @@ terms:
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/monastyr_gergeti.jpg
-    name: Kazbegi
+    name: Katedra Gergeti, Stepancminda
 map: /img/kazbegi-mapa.png
 schedule:
   - day: 9 00

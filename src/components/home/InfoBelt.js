@@ -52,7 +52,7 @@ const InfoItem = ({icon, label, description}) => (
 )
 
 export default ({ heroInfoBelt = [] }) => (
-  <Wrapper>
+  <Wrapper id="offers">
     <InfoView>
       {heroInfoBelt.map(item => <InfoItem key={item.label} {...item} />)}
     </InfoView>

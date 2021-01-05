@@ -48,4 +48,10 @@ export const bannerImage = graphql`
       fixed(width: 800, quality: 90) { ...GatsbyImageSharpFixed_noBase64 }
     }
   }
+
+  fragment imageBlog on File {
+    childImageSharp {
+      fluid(maxWidth: 800, quality: 90) { ...GatsbyImageSharpFluid_withWebp }
+    }
+  }
 `
