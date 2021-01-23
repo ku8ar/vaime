@@ -14,7 +14,7 @@ terms:
   - daysCount: 8 DNI/7 NOCY
     endDate: 2021-05-05T17:40:01.392Z
     price: 490
-    seats: 15
+    seats: 14
     startDate: 2021-04-28T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
