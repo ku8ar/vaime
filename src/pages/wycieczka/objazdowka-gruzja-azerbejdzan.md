@@ -4,7 +4,7 @@ active: true
 oneDay: false
 minSeats: 1
 title: Gruzja I Azerbejdżan
-description: kraje gór, morza, wina i pysznej kuchni
+description: Kraje gór, morza, wina i pysznej kuchni
 informations: >+
   Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze więcej różnic -
   kulturowych, religijnych czy gastronomicznych. Nasza objazdówka pozwoli na
