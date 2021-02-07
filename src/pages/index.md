@@ -53,7 +53,7 @@ team:
     name: Maja Varshanidze
     place: ""
     text: ""
-  - image: /img/nina.jpg
+  - image: /img/projekt-bez-tytułu-30-.png
     name: Nini Karosanidze
     place: ""
     text: ""
