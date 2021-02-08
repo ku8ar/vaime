@@ -49,11 +49,11 @@ images:
   - image: /img/p1020264.jpg
     name: Baku
 team:
-  - image: /img/majunia.jpg
+  - image: /img/projekt-bez-tytułu-32-.png
     name: Maja Varshanidze
     place: ""
     text: ""
-  - image: /img/projekt-bez-tytułu-30-.png
+  - image: /img/projekt-bez-tytułu-34-.png
     name: Nini Karosanidze
     place: ""
     text: ""
