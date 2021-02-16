@@ -31,4 +31,7 @@ socialLinks:
     type: instagram
   - src: https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg
     type: youtube
+popupTitle: COVID-19
+popupText: Informacje dotyczące wjazdu do Gruzji
+popupLink: /covid-19-informacje
 ---

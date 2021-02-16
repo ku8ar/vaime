@@ -21,6 +21,9 @@ export const useGlobal = () => {
               src
             }
             phoneNumbers
+            popupTitle
+            popupText
+            popupLink
           }
         }
       }

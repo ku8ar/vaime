@@ -4,6 +4,7 @@ import Theme from '../components/style/Theme'
 import StructuredData from '../components/custom/StructuredData'
 import Header from '../components/layout/Header'
 import FacebookChat from '../components/Facebook'
+import Popup from '../components/Popup'
 import useGlobal from '../utils/useGlobal'
 import usePath from '../utils/usePath'
 
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
     <Theme>
       <StructuredData {...data} slug={path} />
       <Header {...data} slug={path} />
+      <Popup {...data} slug={path} />
       {children}
       <Footer data={data} />
       <FacebookChat />

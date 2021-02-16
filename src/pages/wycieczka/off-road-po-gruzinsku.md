@@ -10,7 +10,7 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
   szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
   skosztowaniem pysznej gruzińskiej kuchni i wina.  "
 discount: 0
-discountTitle: first minute zniżka
+tileTitle: ""
 terms:
   - startDate: 2021-06-21T12:08:25.411Z
     endDate: 2021-06-30T12:08:25.446Z

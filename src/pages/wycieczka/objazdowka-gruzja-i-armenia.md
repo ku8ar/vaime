@@ -11,7 +11,7 @@ informations: >+
 
 
 discount: 0
-discountTitle: "first minute zniżka "
+tileTitle: ""
 terms:
   - startDate: 2021-06-08T14:29:18.146Z
     endDate: 2020-06-18T14:29:18.670Z

@@ -12,7 +12,7 @@ informations: >+
 
 
 discount: 0
-discountTitle: "first minute zniżka "
+tileTitle: ""
 terms:
   - price: 530
     seats: 15

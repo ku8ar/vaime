@@ -25,8 +25,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Informations", name: "informations", widget: "text", required: false}
-      - {label: "Discount", name: "discount", widget: "number"}
-      - {label: "Discount Title", name: "discountTitle", widget: "string", required: false}
+      - {label: "Discount", name: "discount", widget: "number", default: 0}
+      - {label: "Tile Title", name: "tileTitle", widget: "string", required: false}
       - {label: Terms, name: terms, widget: list, fields: [{label: "Start Date", name: "startDate", widget: "datetime", pickerUtc: true}, {label: "End Date", name: "endDate", widget: "datetime", pickerUtc: true}, {label: "Count of days", name: "daysCount", widget: "string"}, {label: "No of seats", name: "seats", widget: "number"}, {label: "Price", name: "price", widget: "number"}]}
       - {label: "Thumbnail", name: thumb, widget: image}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
@@ -92,6 +92,9 @@ collections:
           - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}, {label: "Mobile?", name: mobile, widget: boolean}, {label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}]}
           - {label: "Phone numbers", name: phoneNumbers, widget: list}
           - {label: "Social links", name: socialLinks, widget: list, fields: [{label: "Type", name: type, widget: string}, {label: "Address", name: src, widget: string}]}
+          - {label: "Popup title", name: popupTitle, widget: string, required: false}
+          - {label: "Popup text", name: popupText, widget: text, required: false}
+          - {label: "Popup link", name: popupLink, widget: text, required: false}
 
   - name: "pages"
     label: "Pages"

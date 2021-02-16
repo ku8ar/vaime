@@ -24,9 +24,4 @@ export const getIsTourDisabled = ({ terms, oneDay, active }) => {
   return expired || noSeats || !active
 }
 
-export const hasTourDiscount = ({ discount, ...tour }) => {
-  const disabled = getIsTourDisabled(tour)
-  return !disabled && !!discount
-}
-
 export const getDiscountPrice = ({ discount }, price) => ~~((100 - discount) / 100 * price)

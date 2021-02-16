@@ -8,7 +8,7 @@ informations: Nasza lipcowa objazdówka pomoże Wam odkryć najpopularniejsze
   miejscówki w Gruzji i zainspirować Was do zbadania kolejnych regionów i
   zabytków.
 discount: 0
-discountTitle: first minute zniżka
+tileTitle: ""
 terms:
   - price: 530
     seats: 15

@@ -113,7 +113,7 @@ export const pageQuery = graphql`
         title
         description
         discount
-        discountTitle
+        tileTitle
         informations
         terms {
           startDate(formatString: "YYYY-MM-DD")

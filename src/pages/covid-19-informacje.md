@@ -5,12 +5,12 @@ description: Zasady podróży do Gruzjი 2021
 images:
   - image: /img/airplane-983991_1920.jpg
     name: gruzja podróż
-contact: true
+contact: false
 hideInstagram: false
 hideContact: false
-showFlights: true
+showFlights: false
 ---
-# **ZASADY WJAZDU DO GRUZJI**
+## **ZASADY WJAZDU DO GRUZJI**
 
 **Obywatele polscy, przylatujący samolotem do Gruzji bezpośrednio z następujących krajów (w tym podróżujący tranzytem przez kraje trzecie):**
 
