@@ -10,7 +10,7 @@ hideInstagram: false
 hideContact: false
 showFlights: false
 ---
-## **ZASADY WJAZDU DO GRUZJI**
+#### **ZASADY WJAZDU DO GRUZJI**
 
 **Obywatele polscy, przylatujący samolotem do Gruzji bezpośrednio z następujących krajów (w tym podróżujący tranzytem przez kraje trzecie):**
 
