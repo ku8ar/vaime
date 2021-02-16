@@ -4,13 +4,13 @@ import { Link } from 'gatsby'
 import { H5, P, buttonStyle } from '../Base'
 
 export default ({ popupTitle, popupText, popupLink, slug }) => {
-  const id = `popup_${popupTitle}`
+  // const id = `popup_${popupTitle}`
 
-  const [visited, setVisited] = useState(true)
+  const [visited, setVisited] = useState(false)
 
   const onClick = useCallback(() => {
     setVisited(true)
-    localStorage && localStorage.setItem(id, true)
+    // localStorage && localStorage.setItem(id, true)
   }, [])
 
   useEffect(() => {
@@ -21,9 +21,9 @@ export default ({ popupTitle, popupText, popupLink, slug }) => {
     }
   }, [slug])
 
-  useEffect(() => {
-    setVisited(localStorage && localStorage.getItem(id))
-  }, [])
+  // useEffect(() => {
+  //   setVisited(localStorage && localStorage.getItem(id))
+  // }, [])
 
   if (visited) return null
 
