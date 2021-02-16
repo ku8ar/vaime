@@ -21,7 +21,7 @@ terms:
   - startDate: 2021-10-05T17:44:13.572Z
     endDate: 2021-10-15T17:44:13.632Z
     daysCount: 10 DNI/11 NOCY
-    seats: 15
+    seats: 14
     price: 640
 thumb: /img/armenia-3716853-1-.jpg
 images:

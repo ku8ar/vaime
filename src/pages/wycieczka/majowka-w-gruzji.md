@@ -12,10 +12,10 @@ discount: 0
 discountTitle: First Minute Zniżka
 terms:
   - daysCount: 8 DNI/7 NOCY
-    endDate: 2021-05-05T17:40:01.392Z
+    endDate: 2021-05-06T17:40:01.392Z
     price: 490
-    seats: 15
-    startDate: 2021-04-28T17:40:01.346Z
+    seats: 14
+    startDate: 2021-04-29T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
   - image: /img/most.jpg
@@ -27,17 +27,11 @@ images:
 map: /img/majowka-2021.png
 schedule:
   - day: "1"
-    place: 28.04 - Kutasi
-    text: Przylot do Kutaisi, zakwaterowanie w hotelu. Po krótkim wypoczynku udajemy
-      się na zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy
-      akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku tłumaczyli
-      największe dzieła filozofii greckiej, główną cerkiew pw. Matki Boskiej,
-      która słynna jest z przepięknych kolorowych fresków, a na koniec
-      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
-      Odwiedzimy również katedrę Bagrati (XI w.). Powitalna obiadokolacja i
+    place: 29.04 - Kutasi
+    text: Przylot do Kutaisi, zakwaterowanie w hotelu. Powitalna obiadokolacja i
       nocleg w Kutaisi.
   - day: "2"
-    place: 29.04 - Kutaisi - Mccheta - Tbilisi
+    place: 30.04 - Kutaisi - Mccheta - Tbilisi
     text: >
       Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie jednego z
       najważniejszych obiektów sakralnych z listy UNESCO – monastyr Dżwari (VI
@@ -51,7 +45,7 @@ schedule:
       najważniejsze świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza
       cerkiew Tbilisi – Anczischati (VII w.). Obiadokolacja, nocleg.
   - day: "3"
-    place: 30.04 - Tbilisi - Kazbegi - Tbilisi
+    place: 01.05 - Tbilisi - Kazbegi - Tbilisi
     text: >+
       Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
@@ -65,7 +59,7 @@ schedule:
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
 
   - day: "4"
-    place: 01.05 - Tbilisi – Bodbe - Signagi
+    place: 02.05 - Tbilisi – Bodbe - Signagi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
       jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
@@ -78,7 +72,7 @@ schedule:
       gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
       połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "5"
-    place: 02.05 - Tbilisi - Gori - Batumi
+    place: 03.05 - Tbilisi - Gori - Batumi
     text: Śniadanie, wykwaterowanie z hotelu. Wyruszamy do słynnego kurortu
       nadmorskiego Batumi. Po drodze zwiedzanie skalnego miasta Upliscyche w
       mieście Gori, jest to najstarszy zabytek i najstarsze skalne miasto na
@@ -87,7 +81,7 @@ schedule:
       tamte czasy, infrastrukturą oraz różnorodnością jaskiń i pomieszczeń
       mieszkalnych. Dojazd do Batumi, obiadokolacja, nocleg.
   - day: "6"
-    place: 03.05 - Batumi - Keda
+    place: 04.05 - Batumi - Keda
     text: "Śniadanie. Wolne popołudnie w Batumi. W drugiej połowie dnia wyjazd z
       Batumi w kierunku miejscowości Keda, położonej w górach regionu Adżaria.
       Tutaj czeka na nas wyjątkowe miejsce - urocza agroturystyka prowadzona
@@ -95,13 +89,18 @@ schedule:
       potrawami, winem oraz pokaże cząstkę lokalnego folkloru. Nocleg w
       agroturystyce. "
   - day: "7"
-    place: 04.05 - Keda - Kutaisi
+    place: 05.05 - Keda - Kutaisi
     text: Śniadanie. Pożegnanie z gospodarzem i wyjazd w kierunku Kutaisi. Po drodze
       przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
-      dojazd. Pożegnalna obiadokolacja i nocleg w Kutaisi.
+      dojazd. Obiadokolacja i nocleg w Kutaisi.
   - day: "8"
-    place: 05.05 - Transfer na lotnisko
-    text: Śniadanie, przejazd na lotnisko, wylot do Polski.
+    place: 06.05 - Transfer na lotnisko
+    text: Śniadanie,zwiedzanie akademii Gelati (UNESCO), gdzie jeszcze w XI-XII
+      wieku tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw.
+      Matki Boskiej, która słynna jest z przepięknych kolorowych fresków, a na
+      koniec odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla
+      Gruzji. Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna
+      obiadokolacja, przejazd na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
     text: Noclegi w hotelu 3* w Tbilisi, Batumi, Kutaisi

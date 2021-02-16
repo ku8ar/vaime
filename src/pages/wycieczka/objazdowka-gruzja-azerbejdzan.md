@@ -4,7 +4,7 @@ active: true
 oneDay: false
 minSeats: 1
 title: Gruzja I Azerbejdżan
-description: kraje gór, morza, wina i pysznej kuchni
+description: Kraje gór, morza, wina i pysznej kuchni
 informations: >+
   Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze więcej różnic -
   kulturowych, religijnych czy gastronomicznych. Nasza objazdówka pozwoli na
@@ -13,10 +13,10 @@ informations: >+
 discount: 0
 discountTitle: first minute zniżka
 terms:
-  - startDate: 2021-09-17T20:45:50.268Z
-    endDate: 2021-09-27T20:45:50.302Z
+  - startDate: 2021-09-16T20:45:50.268Z
+    endDate: 2021-09-26T20:45:50.302Z
     daysCount: 10 DNI/11 NOCY
-    seats: 7
+    seats: 6
     price: 745
 thumb: /img/p1020318.jpg
 images:
@@ -29,10 +29,10 @@ images:
 map: /img/xinaliq-hinalug-.png
 schedule:
   - day: "1"
-    place: 17.09 - Kutaisi - Tbilisi
+    place: 16.09 - Kutaisi - Tbilisi
     text: Przylot, transfer do Tbilisi, obiadokolacja, nocleg.
   - day: "2"
-    place: 18.09 - Tbilisi - Kazbegi - Tbilisi
+    place: 17.09 - Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
       każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
@@ -44,7 +44,7 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
-    place: 19.09 - Tbilisi - Mccheta - Tbilisi
+    place: 18.09 - Tbilisi - Mccheta - Tbilisi
     text: >-
       Śniadanie. Wyruszamy na zwiedzanie stolicy: starego miasta oraz
       najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
@@ -61,14 +61,14 @@ schedule:
 
       Wykwaterowanie z hotelu i dojazd na dworzec kolejowy, przejazd nocnym pociągiem relacji Tbilisi - Baku. 
   - day: "4"
-    place: 20.09 - Baku
+    place: 19.09 - Baku
     text: "Dojazd do Baku, transfer do hotelu, wypoczynek. Po śniadaniu zwiedzanie
       Baku: Icheri Sheher - stara część miasta, pałac Szirwan Szacha,
       Karawanseraj, Wieża Dziewicza. Spacer po centralnej ulicy Nizami oraz
       placu Fontann. Zwiedzanie zakończymy wizytą w centrum Heydara Aliyeva.
       Nocleg w Baku."
   - day: "5"
-    place: "21.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
+    place: "20.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
     text: >
       Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej góry
       Yanar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
@@ -80,7 +80,7 @@ schedule:
 
       Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane jako Muzeum Petroglifów. Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu). Powrót do Baku, obiadokolacja, nocleg. 
   - day: "6"
-    place: 22.09 - Baku - wioska Hinalug - Baku
+    place: 21.09 - Baku - wioska Hinalug - Baku
     text: >+
       Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy kraju.
       Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś), dojeżdżamy do
@@ -92,7 +92,7 @@ schedule:
       obiadokolacja, nocleg w Baku. 
 
   - day: "7"
-    place: "23.09 - Baku - Maraza - Szamachi - Szeki "
+    place: "22.09 - Baku - Maraza - Szamachi - Szeki "
     text: >
       Śniadanie. Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki. Po
       drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd na
@@ -104,7 +104,7 @@ schedule:
       to punkt doskonały. Zwiedzanie albańskiego kościoła z I w. Nocleg i
       obiadokolacja w Szeki. 
   - day: "8"
-    place: 24.09 - Szeki - Lagodechi - Telawi
+    place: 23.09 - Szeki - Lagodechi - Telawi
     text: >
       Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość zakupów
       lokalnych przysmaków. Powoli żegnamy się z Azerbejdżanem - wyjazd
@@ -112,7 +112,7 @@ schedule:
       Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
       do Telawi, obiadokolacja, nocleg.
   - day: "9"
-    place: 25.09 - Telawi - Alawerdi - Gremi - Tbilisi
+    place: 24.09 - Telawi - Alawerdi - Gremi - Tbilisi
     text: Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie okolicznych
       zabytków - katedry Alawerdi oraz twierdzy Gremi. Katedra Alawerdi jest
       najważniejszym zabytkiem regionu Kacheti, zbudowana w XII wieku, w okresie
@@ -125,7 +125,7 @@ schedule:
       degustację wina w lokalnej winiarni. Przejazd do Tbilisi, obiadokolacja,
       nocleg.
   - day: "10"
-    place: 26.09 - Tbilisi - Kutaisi
+    place: 25.09 - Tbilisi - Kutaisi
     text: Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po krótkim
       wypoczynku udajemy się na zwiedzanie najważniejszych zabytków miasta
       Kutaisi. Zobaczymy akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku
@@ -135,7 +135,7 @@ schedule:
       Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna obiadokolacja i
       nocleg w Kutaisi.
   - day: "11"
-    place: 27.09 - Transfer na lotnisko
+    place: 26.09 - Transfer na lotnisko
     text: Śniadanie, transfer na lotnisko, wylot.
 priceContains:
   - text: Noclegi w hotelach 3* w Tbilisi, Baku, Szeki, Kutaisi

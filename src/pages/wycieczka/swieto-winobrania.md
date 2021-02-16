@@ -17,8 +17,8 @@ terms:
   - price: 530
     seats: 15
     daysCount: 7 DNI/8 NOCY
-    startDate: 2021-09-08T14:24:50.666Z
-    endDate: 2021-09-15T14:24:50.688Z
+    startDate: 2021-09-09T14:24:50.666Z
+    endDate: 2021-09-16T14:24:50.688Z
 thumb: /img/mevenaxe.jpg
 images:
   - image: /img/georgia-4856786_1920-2-.jpg
@@ -30,12 +30,23 @@ images:
 map: /img/winobranie.png
 schedule:
   - day: "1"
-    place: 08.09 - Kutaisi – Tbilisi
-    text: Przylot do Kutaisi, odbiór z lotniska, przejazd do Tbilisi.
-      Zakwaterowanie. Powitalna kolacja w restauracji z pokazem
-      folklorystycznym. Nocleg w Tbilisi.
+    place: 09.09 - Kutaisi – Tbilisi
+    text: Przylot do Kutaisi, odbiór z lotniska. Zakwaterowanie, Powitalna kolacja .
+      Nocleg w Kutaisi.
   - day: "2"
-    place: "09.09 - Tbilisi - Mccheta - Tbilisi "
+    place: "10.09 - Kutaisi - Gori - Tbilisi "
+    text: Śniadanie, wyjazd z kierunku Tbilisi. Po drodze zwiedzanie skalnego miasta
+      Upliscyche w mieście Gori, jest to najstarszy zabytek i najstarsze skalne
+      miasto na terytorium Gruzji, według źródeł historycznych, pierwsze osady
+      tutaj pojawiły się aż w II tysiącleciu p.n.e.! Miasto powala rozwiniętą,
+      jak na tamte czasy, infrastrukturą oraz różnorodnością jaskiń i
+      pomieszczeń mieszkalnych. Po zwiedzaniu Upliscyche, udajemy się do centrum
+      miasta Gori, gdzie zobaczymy z zewnątrz dom-muzeum oraz pancerny wagon J.
+      Stalina, który urodził się i spędził pierwsze lata swojego życia właśnie w
+      Gori. Dojazd do Tbilisi, zakwaterowanie. Obiadokolacja z pokazem
+      folklorystycznym, nocleg w Kutaisi.
+  - day: "3"
+    place: "11.09 - Tbilisi "
     text: "Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków
       stolicy – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli
       nam na podziwianie panoramy miasta, z twierdzy natomiast otwiera się
@@ -47,21 +58,21 @@ schedule:
       wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli (XI
       w.) i monastyr Dżwari (VI w.). Powrót do Tbilisi, obiadokolacja, nocleg."
-  - day: "3"
-    place: 10.09 - Tbilisi – Signagi - Telawi
+  - day: "4"
+    place: 12.09 - Tbilisi - Kacheti
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
       jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
       chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
-      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
+      oszałamiający widok na dolinę Alazańska, gdzie uprawiane są najlepsze
       szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
       zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
       wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
       smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
       gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
       połączona z obiadokolacją. Nocleg w Telawi.
-  - day: "4"
-    place: 11.09 - Kacheti
+  - day: "5"
+    place: 13.09 - Kacheti
     text: "Śniadanie. Czas na winobranie! Winobranie, inaczej rtweli, jest
       zdecydowanie najważniejszym wydarzeniem w Gruzji i, szczególnie, w
       Kacheti. My będziemy mieć okazję brać udział w tym święcie zbiorów
@@ -73,8 +84,8 @@ schedule:
       gotowaniem – krótkie warsztaty kulinarne wypiekania chleba gruzińskiego
       oraz przygotowania czurczcheli (słodycze gruzińskie). Zakończymy wszystko
       chojną suprą (biesiada), nocleg w Telawi lub okolicach."
-  - day: "5"
-    place: 12.09 - Kacheti – Tbilisi
+  - day: "6"
+    place: 14.09 - Kacheti - Tbilisi
     text: Śniadanie. Zwiedzanie największej katedry regionu – katedry Alawerdi (XII
       w.). Wyjazd do rozlewni wina Kindzmarauli, gdzie zobaczymy jak wygląda
       produkcja wina na większą skalę od wewnątrz, oczywiście czeka na nas
@@ -84,8 +95,8 @@ schedule:
       najciekawszych winnic regionu – Chareba (ხარება), która ukryta w
       wydrążonych w skale kilku kilometrowych tunelach i robi imponujące
       wrażenie. Po degustacji wyjazd do Tbilisi, obiadokolacja, nocleg.
-  - day: "6"
-    place: 13.09 - Tbilisi – Kazbegi – Tbilisi
+  - day: "7"
+    place: 15.09 -Tbilisi – Kazbegi –Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
       każdego cudownymi widokami na najwyższe szczyty kaukaskie. Po drodze
@@ -96,22 +107,12 @@ schedule:
       regionu i całego kraju. Z Gergeti w warunkach dobrej widoczności, zobaczyć
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
-  - day: "7"
-    place: "14.09 -Tbilisi – Gori – Kutaisi "
-    text: Śniadanie, wyjazd z Tbilisi w kierunku zachodniej części kraju. Po drodze
-      zwiedzanie skalnego miasta Upliscyche w mieście Gori, jest to najstarszy
-      zabytek i najstarsze skalne miasto na terytorium Gruzji, według źródeł
-      historycznych, pierwsze osady tutaj pojawiły się aż w II tysiącleciu
-      p.n.e.! Miasto powala rozwiniętą, jak na tamte czasy, infrastrukturą oraz
-      różnorodnością jaskiń i pomieszczeń mieszkalnych. Po zwiedzaniu
-      Upliscyche, udajemy się do centrum miasta Gori, gdzie zobaczymy z zewnątrz
-      dom-muzeum oraz pancerny wagon J. Stalina, który urodził się i spędził
-      pierwsze lata swojego życia właśnie w Gori. Dojazd do Kutaisi, zwiedzanie
-      miasta – monastyr i akademia Gelati (UNESCO, XII w.), oraz katedrę Bagrati
-      (XI w.). Pożegnalna obiadokolacja, nocleg w Kutaisi.
   - day: "8"
-    place: 15.09 - transfer na lotnisko
-    text: Śniadanie. Transfer na lotnisko, wylot do Polski.
+    place: 16.09 - transfer na lotnisko
+    text: Śniadanie, wyjazd z Tbilisi w kierunku zachodniej części kraju. Dojazd do
+      Kutaisi, zwiedzanie miasta  oraz monastyr i akademia Gelati (UNESCO, XII
+      w.), Pożegnalna obiadokolacja, nocleg w Kutaisi.Transfer na lotnisko,
+      wylot do Polski.
 priceContains:
   - icon: hotel
     text: Noclegi w hotelach 3* w Tbilisi, Kutaisi
