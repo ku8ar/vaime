@@ -6,7 +6,7 @@ import { H5, P, buttonStyle } from '../Base'
 export default ({ popupTitle, popupText, popupLink, slug }) => {
   const id = `popup_${popupTitle}`
 
-  const [visited, setVisited] = useState(localStorage && localStorage.getItem(id))
+  const [visited, setVisited] = useState(true)
 
   const onClick = useCallback(() => {
     setVisited(true)
@@ -20,6 +20,10 @@ export default ({ popupTitle, popupText, popupLink, slug }) => {
       }
     }
   }, [slug])
+
+  useEffect(() => {
+    setVisited(localStorage && localStorage.getItem(id))
+  }, [])
 
   if (visited) return null
 
