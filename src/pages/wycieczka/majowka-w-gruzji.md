@@ -94,14 +94,13 @@ schedule:
       przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
       dojazd. Obiadokolacja i nocleg w Kutaisi.
   - day: "8"
-    place: 05.05 - Transfer na lotnisko
-    text: Śniadanie, udajemy się na zwiedzanie najważniejszych zabytków miasta
-      Kutaisi. Zobaczymy akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku
-      tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw. Matki
-      Boskiej, która słynna jest z przepięknych kolorowych fresków, a na koniec
-      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
-      Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna obiadokolacja,
-      przejazd na lotnisko, wylot do Polski.
+    place: 06.05 - Transfer na lotnisko
+    text: Śniadanie,zwiedzanie akademii Gelati (UNESCO), gdzie jeszcze w XI-XII
+      wieku tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw.
+      Matki Boskiej, która słynna jest z przepięknych kolorowych fresków, a na
+      koniec odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla
+      Gruzji. Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna
+      obiadokolacja, przejazd na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
     text: Noclegi w hotelu 3* w Tbilisi, Batumi, Kutaisi
