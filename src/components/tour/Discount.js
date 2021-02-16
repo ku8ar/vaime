@@ -1,24 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
 import { P } from '../Base'
-import { hasTourDiscount } from '../../utils/selectors'
+import { getIsTourDisabled } from '../../utils/selectors'
 import Megaphone from '../../icons/base/megaphone'
 
 export default ({ className, tour }) => {
-  const { discount, discountTitle} = tour
-  const hasDiscount = hasTourDiscount(tour)
+  const { discount, tileTitle} = tour
+  const disabled = getIsTourDisabled(tour)
+  const hasTitle = !!tileTitle || !!discount
 
-  return hasDiscount ? (
+  if (disabled || !hasTitle) return null
+
+  return (
     <DiscountWrapper className={className}>
       <Triangle />
       <DiscountContent>
-        <DiscountText>{`${discountTitle || ''} -${discount}%`}</DiscountText>
+        <DiscountText>{`${tileTitle || ''} ${discount ? `-${discount}%` : ``}`}</DiscountText>
         <DiscountCircle>
           <Megaphone size="1.5rem" fill={'#fff'} />
         </DiscountCircle>
       </DiscountContent>
     </DiscountWrapper>
-  ) : null
+  )
 }
 
 const DiscountCircle = styled.div`

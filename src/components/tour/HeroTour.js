@@ -4,7 +4,7 @@ import { path } from 'rambda'
 import Hero from '../Hero'
 import { calcDate, calcMonthsDate } from '../../utils/date'
 import { H1, P, Button } from '../Base'
-import { getIsTourDisabled, hasTourDiscount, getDiscountPrice } from '../../utils/selectors'
+import { getIsTourDisabled } from '../../utils/selectors'
 
 export default (tour) => {
   const { images, title, openReservation, terms, oneDay, minSeats } = tour
@@ -14,7 +14,6 @@ export default (tour) => {
   }
 
   const disabled = getIsTourDisabled(tour)
-  const hasDiscount = hasTourDiscount(tour)
 
   return (
     <Hero images={images}>

@@ -178,7 +178,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             discount
-            discountTitle
+            tileTitle
             terms {
               startDate(formatString: "YYYY-MM-DD")
               timestamp: startDate(formatString: "x")

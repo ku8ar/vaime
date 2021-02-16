@@ -9,7 +9,7 @@ informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
   tylko trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki -
   widoki, kuchnię i gościnność. "
 discount: 0
-discountTitle: First Minute Zniżka
+tileTitle: ""
 terms:
   - daysCount: 8 DNI/7 NOCY
     endDate: 2021-05-06T17:40:01.392Z
