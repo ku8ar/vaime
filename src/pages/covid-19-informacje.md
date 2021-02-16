@@ -3,7 +3,7 @@ templateKey: page
 title: COVID-19 Informacje
 description: Zasady podróży do Gruzjი 2021
 images:
-  - image: /img/airplane-983991_1920.jpg
+  - image: /img/the-plane-3738461_1920.jpg
     name: gruzja podróż
 contact: false
 hideInstagram: false
