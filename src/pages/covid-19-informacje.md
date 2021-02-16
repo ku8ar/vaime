@@ -35,4 +35,4 @@ showFlights: false
 
 **Uwaga!** - w przypadku braku zaświadczeń podczas kontroli paszportowej należy liczyć się z odmową wjazdu do Gruzji.\
 \
-Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/ka ](https://stopcov.ge/ka)
+**Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/en](https://stopcov.ge/en/)**
