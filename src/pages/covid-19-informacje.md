@@ -27,7 +27,7 @@ showFlights: false
 
 **powinni uprzednio przed podróżą wypełnić specjalny [formularz elektroniczny](https://registration.gov.ge/pub/form/8_protocol_for_arrivals_in_georgia/tk6157/) oraz posiadać:**
 
-* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godz. przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR na własny koszt.
+* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR, **koszt testu trzeciego dnia jest w cenie wycieczek Vaime Travel, oferujemy wygodne warunki badań - laboratorium wykona badania w pokojach hotelowych, więc nie ma potrzeby wizyty w klinikach.**
 
 **albo**
 
