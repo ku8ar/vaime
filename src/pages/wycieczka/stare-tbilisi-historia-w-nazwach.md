@@ -7,8 +7,8 @@ title: "Tbilisi - historia w nazwach "
 description: Spacer po nieznanych zakątkach starego Tbilisi
 discount: 0
 terms:
-  - startDate: 2020-07-01T18:59:13.091Z
-    endDate: 2020-11-30T18:59:13.133Z
+  - startDate: 2021-04-11T18:59:13.091Z
+    endDate: 2021-11-30T18:59:13.133Z
     daysCount: "1"
     seats: 5
     price: 60
