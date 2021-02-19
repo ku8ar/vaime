@@ -8,11 +8,11 @@ description: Podróż wśród szczytów Wielkiego Kaukazu
 informations: ""
 discount: 0
 terms:
-  - startDate: 2020-07-01T22:18:04.673Z
+  - startDate: 2021-04-01T22:18:04.673Z
     endDate: 2020-11-01T22:18:04.729Z
     daysCount: "1"
     seats: 1
-    price: 40
+    price: 50
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/monastyr_gergeti.jpg
