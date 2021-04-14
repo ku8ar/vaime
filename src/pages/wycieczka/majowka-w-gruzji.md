@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 minSeats: 1
 title: Majówka w Gruzji
 description: Długi majowy weekend w słonecznej gruzji - co może być lepsze!
