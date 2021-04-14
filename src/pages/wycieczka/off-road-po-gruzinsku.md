@@ -10,7 +10,7 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
   szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
   skosztowaniem pysznej gruzińskiej kuchni i wina.  "
 discount: 0
-tileTitle: ""
+tileTitle: Test PCR gratis!
 terms:
   - startDate: 2021-06-21T12:08:25.411Z
     endDate: 2021-06-30T12:08:25.446Z
@@ -159,6 +159,7 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
+  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket
@@ -173,3 +174,4 @@ priceNotContains:
 * Ubiór: lekki, sportowe buty na ewentualny trekking, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, płaszcz przeciwdeszczowy, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>
