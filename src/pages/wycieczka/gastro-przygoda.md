@@ -9,6 +9,7 @@ informations: Kuchnia gruzińska, pełna egzotycznych przypraw, świeże owoce,
   domowe wino, warsztaty kulinarne - ten wyjazd zadowoli każdego smakosza
   pysznego jedzenia i dobrego wina . Zapraszamy na naszą apetyczną wycieczkę!
 discount: 0
+tileTitle: TEST PCR GRATIS!
 terms:
   - startDate: 2021-07-11T11:00:14.238Z
     endDate: 2021-07-18T11:00:14.328Z
@@ -131,6 +132,7 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
+  - text: "Test PCR na trzeci dzień po przylocie do Gruzji "
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket
@@ -145,3 +147,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy przy zbiorze herbaty oraz do warsztatów kulinarnych
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>
