@@ -11,7 +11,7 @@ informations: >+
   bliższe poznanie skarbów Gruzji i Azerbejdżanu.
 
 discount: 0
-tileTitle: ""
+tileTitle: Test PCR gratis!
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
     endDate: 2021-09-26T20:45:50.302Z
@@ -158,6 +158,7 @@ priceContains:
     icon: bus
   - text: Bilet na pociąg relacji Tbilisi - Baku
     icon: train
+  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - text: Biletów lotniczych
     icon: plane
@@ -177,3 +178,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 20 AZN w Azerbejdżanie)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>
