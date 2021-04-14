@@ -12,7 +12,7 @@ informations: >+
 
 
 discount: 0
-tileTitle: ""
+tileTitle: Test PCR gratis!
 terms:
   - price: 530
     seats: 15
@@ -136,6 +136,7 @@ priceContains:
     text: Obsługę polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy minibus
+  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - icon: ticket
     text: Biletu lotniczego
@@ -150,3 +151,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy w winnicy (zbieranie winogron)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>
