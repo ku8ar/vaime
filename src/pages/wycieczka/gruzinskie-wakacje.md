@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 minSeats: 1
 title: Gruzińskie wakacje
-description: Wakacje w gruzji? czemu nie!
+description: Wakacje w gruzji? Czemu nie!
 informations: Nasza lipcowa objazdówka pomoże Wam odkryć najpopularniejsze
   miejscówki w Gruzji i zainspirować Was do zbadania kolejnych regionów i
   zabytków.
