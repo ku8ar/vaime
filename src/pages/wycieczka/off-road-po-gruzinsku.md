@@ -12,9 +12,9 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
 discount: 0
 tileTitle: Test PCR gratis!
 terms:
-  - startDate: 2021-06-21T12:08:25.411Z
-    endDate: 2021-06-30T12:08:25.446Z
-    daysCount: 10 DNI/9 NOCY
+  - startDate: 2021-06-19T12:08:25.411Z
+    endDate: 2021-06-26T12:08:25.446Z
+    daysCount: 7 DNI/8 NOCY
     seats: 12
     price: 510
 thumb: /img/img_20180718_135553.jpg
@@ -29,14 +29,7 @@ map: /img/racha.png
 schedule:
   - day: "1"
     place: 21.06 - Kutaisi
-    text: Przylot do Kutaisi, zakwaterowanie w hotelu. Po krótkim wypoczynku udajemy
-      się na zwiedzanie najważniejszych zabytków miasta Kutaisi. Zobaczymy
-      akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku tłumaczyli
-      największe dzieła filozofii greckiej, główną cerkiew pw. Matki Boskiej,
-      która słynna jest z przepięknych kolorowych fresków, a na koniec
-      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
-      Odwiedzimy również katedrę Bagrati (XI w.). Powitalna obiadokolacja i
-      nocleg w Kutaisi.
+    text: Przylot do Kutaisi, późna kolacja, nocleg w Kutaisi.
   - day: "2"
     place: 22.06 - Kutaisi - Ambrolauri
     text: Śniadanie, wykwaterowanie z hotelu. Wyjeżdżamy w kierunku jednego z
@@ -53,14 +46,15 @@ schedule:
       katedry; oraz cerkwi Barakoni z XVII w. Po zwiedzaniu dojazd do miasteczka
       Ambrolauri, obiadokolacja, nocleg.
   - day: "3"
-    place: 23.06 - Ambrolauri - Utsera - Ghebi - Oni
+    place: 23.06 - Ambrolauri - Utsera - Ghebi - Oni - Kutaisi
     text: Śniadanie, wykwaterowanie z hotelu. Nasz off-road kontynuujemy w kierunku
       górnej Raczy. Region Racza zdecydowanie wyróżnia się swoimi widokami na
       góry Wielkiego Kaukazu, nietkniętą naturą i zagubionymi wśród szczytów
       wioskami. Tego dnia odwiedzimy wysokogórskie wioski Ghebi, Glola i Utsera.
       Ta ostatnia to kiedyś słynne uzdrowisko, obecnie możemy również skosztować
       wód mineralnych pochodzących z tej wioski. Po zwiedzaniu wiosek,
-      przejeżdżamy na nocleg do miejscowości Oni. Obiadokolacja, nocleg.
+      przejeżdżamy do miejscowości Oni, gdzie znajduje się największa synagoga
+      Gruzji. Powrót do Kutaisi, obiadokolacja, nocleg.
   - day: "4"
     place: 24.06 - Oni - Kutaisi
     text: Śniadanie, wykwaterowanie. Zanim opuścimy miasteczko Oni, udamy się na
