@@ -9,13 +9,13 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
   możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
   szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
   skosztowaniem pysznej gruzińskiej kuchni i wina.  "
-discount: 0
-tileTitle: Test PCR gratis!
+discount: 15
+tileTitle: "PCR gratis! Zniżka "
 terms:
   - startDate: 2021-06-19T12:08:25.411Z
     endDate: 2021-06-26T12:08:25.446Z
     daysCount: 7 DNI/8 NOCY
-    seats: 12
+    seats: 10
     price: 495
 thumb: /img/img_20180718_135553.jpg
 images:
