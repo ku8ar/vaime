@@ -14,7 +14,7 @@ terms:
   - startDate: 2021-07-10T11:00:14.238Z
     endDate: 2021-07-17T11:00:14.328Z
     daysCount: 8 DNI/7 NOCY
-    seats: 4
+    seats: 6
     price: 550
 thumb: /img/xinkali-23.jpg
 images:
