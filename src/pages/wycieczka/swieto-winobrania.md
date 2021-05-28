@@ -15,7 +15,7 @@ discount: 0
 tileTitle: Test PCR gratis!
 terms:
   - price: 530
-    seats: 15
+    seats: 13
     daysCount: 7 DNI/8 NOCY
     startDate: 2021-09-09T14:24:50.666Z
     endDate: 2021-09-16T14:24:50.688Z
