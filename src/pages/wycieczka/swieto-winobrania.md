@@ -111,8 +111,7 @@ schedule:
     place: 16.09 - transfer na lotnisko
     text: Śniadanie, wyjazd z Tbilisi w kierunku zachodniej części kraju. Dojazd do
       Kutaisi, zwiedzanie miasta  oraz monastyr i akademia Gelati (UNESCO, XII
-      w.), Pożegnalna obiadokolacja, nocleg w Kutaisi.Transfer na lotnisko,
-      wylot do Polski.
+      w.), Pożegnalna obiadokolacja. Transfer na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
     text: Noclegi w hotelach 3* w Tbilisi, Kutaisi
