@@ -1,7 +1,7 @@
 ---
 templateKey: page
 title: COVID-19 Informacje
-description: Zasady podróży do Gruzjი 2021
+description: Zasady podróży do Gruzji 2021
 images:
   - image: /img/the-plane-3738461_1920.jpg
     name: gruzja podróż
@@ -31,7 +31,7 @@ showFlights: false
 
 **albo**
 
-* zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19 (w języku angielskim).
+* zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim).
 
 **Uwaga!** - w przypadku braku zaświadczeń podczas kontroli paszportowej należy liczyć się z odmową wjazdu do Gruzji.\
 \
