@@ -78,13 +78,9 @@ priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
 ---
-**CENNIK**
+**Cena wycieczki zależy od liczby osób, aby ustalić cenę, prosimy o kontakt: vaimetravel@gmail.com**
 
-1-3 os. - 80 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
-4-7 os. - 95 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
-
-8-15 os. - 130 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
 * Długość trasy: ok. 350 km
 * Stopień trudności: łatwy
