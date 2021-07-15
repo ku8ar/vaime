@@ -79,13 +79,7 @@ priceNotContains:
   - text: Posiłków i napojów nie zawartych w programie
     icon: food
 ---
-**CENNIK**
-
-1-3 os. - 75 eur/grupa + 8 eur/os samochód terenowy w Kazbegi 
-
-4-7 os. - 90 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
-
-8-15 os. - 120 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
+**Cena wycieczki zależy od liczby osób, aby ustalić cenę, prosimy o kontakt: vaimetravel@gmail.com**
 
 * Długość trasy wycieczki: ok. 300 km (trasa w obie strony) 
 * Stopień trudności: łatwy
