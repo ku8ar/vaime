@@ -22,10 +22,10 @@ thumb: /img/p1020318.jpg
 images:
   - image: /img/ancient-1997162_1920-1-.jpg
     name: Stare Miasto, Baku
-  - image: /img/kakheti-4452432-1-.jpg
-    name: Katedra Alawerdi
   - image: /img/azerbaijan-4856054_1920.jpg
     name: Xinalug, Azerbejdżan
+  - image: /img/uflistsikhe-uplistsikhe-3.jpg
+    name: Upliscyche, Gori
 map: /img/xinaliq-hinalug-1-.png
 schedule:
   - day: "1"
