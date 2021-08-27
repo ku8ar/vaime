@@ -13,8 +13,8 @@ informations: >+
 discount: 0
 tileTitle: ""
 terms:
-  - startDate: 2021-09-15T20:45:50.268Z
-    endDate: 2021-09-24T20:45:50.302Z
+  - startDate: 2021-09-16T20:45:50.268Z
+    endDate: 2021-09-25T20:45:50.302Z
     daysCount: 9 DNI/10 NOCY
     seats: 5
     price: 745
