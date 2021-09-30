@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 minSeats: 1
 title: Majówka w Gruzji
 description: Długi majowy weekend w słonecznej gruzji - co może być lepsze!
@@ -9,7 +9,7 @@ informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
   tylko trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki -
   widoki, kuchnię i gościnność. "
 discount: 0
-tileTitle: ""
+tileTitle: TEST PCR GRATIS!
 terms:
   - daysCount: 8 DNI/7 NOCY
     endDate: 2021-05-06T17:40:01.392Z
@@ -120,6 +120,7 @@ priceContains:
     text: Usługi polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy klimatyzowany minibus
+  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - icon: ticket
     text: Biletu lotniczego
@@ -134,3 +135,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>

@@ -1,16 +1,16 @@
 ---
 templateKey: page
 title: COVID-19 Informacje
-description: Zasady podróży do Gruzjი 2021
+description: Zasady podróży do Gruzji 2021
 images:
-  - image: /img/airplane-983991_1920.jpg
+  - image: /img/the-plane-3738461_1920.jpg
     name: gruzja podróż
 contact: false
 hideInstagram: false
 hideContact: false
 showFlights: false
 ---
-## **ZASADY WJAZDU DO GRUZJI**
+#### **ZASADY WJAZDU DO GRUZJI**
 
 **Obywatele polscy, przylatujący samolotem do Gruzji bezpośrednio z następujących krajów (w tym podróżujący tranzytem przez kraje trzecie):**
 
@@ -27,12 +27,12 @@ showFlights: false
 
 **powinni uprzednio przed podróżą wypełnić specjalny [formularz elektroniczny](https://registration.gov.ge/pub/form/8_protocol_for_arrivals_in_georgia/tk6157/) oraz posiadać:**
 
-* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godz. przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR na własny koszt.
+* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR, **koszt testu trzeciego dnia jest w cenie wycieczek Vaime Travel, oferujemy wygodne warunki badań - laboratorium wykona badania w pokojach hotelowych, więc nie ma potrzeby wizyty w klinikach.**
 
 **albo**
 
-* zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19 (w języku angielskim).
+* zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim).
 
 **Uwaga!** - w przypadku braku zaświadczeń podczas kontroli paszportowej należy liczyć się z odmową wjazdu do Gruzji.\
 \
-Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/ka ](https://stopcov.ge/ka)
+**Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/en](https://stopcov.ge/en/)**

@@ -9,11 +9,12 @@ informations: Kuchnia gruzińska, pełna egzotycznych przypraw, świeże owoce,
   domowe wino, warsztaty kulinarne - ten wyjazd zadowoli każdego smakosza
   pysznego jedzenia i dobrego wina . Zapraszamy na naszą apetyczną wycieczkę!
 discount: 0
+tileTitle: TEST PCR GRATIS!
 terms:
-  - startDate: 2021-07-11T11:00:14.238Z
-    endDate: 2021-07-18T11:00:14.328Z
+  - startDate: 2021-07-10T11:00:14.238Z
+    endDate: 2021-07-17T11:00:14.328Z
     daysCount: 8 DNI/7 NOCY
-    seats: 9
+    seats: 4
     price: 550
 thumb: /img/xinkali-23.jpg
 images:
@@ -27,10 +28,10 @@ map: /img/gastrp.png
 schedule:
   - text: "Przylot do miasta Kutaisi, odbiór z lotniska. Powitalna obiadokolacja,
       nocleg w Kutaisi. "
-    place: "11.07 - adżarskie chaczapuri "
+    place: Start
     day: "1"
   - day: "2"
-    place: 12.07 - Adżarskie Chaczapuri
+    place: Adżarskie Chaczapuri
     text: >+
       Śniadanie. Transfer do nadmorskiego kurortu Batumi. Czas na odpoczynek.
       Krótki spacer po mieście, po spacerze zaczynamy naszą przygodę z kuchnią
@@ -42,7 +43,7 @@ schedule:
 
 
   - day: "3"
-    place: "13.07 - Herbaciane Pola "
+    place: "Herbaciane Pola "
     text: >+
       Filipinki jeszcze w latach 60-tych śpiewały o herbacianych polach Batumi,
       więc nasza podróż nie może się odbyć bez zobaczenia tych herbacianych pól
@@ -55,7 +56,7 @@ schedule:
       Kolacja, nocleg w Batumi.
 
   - day: "4"
-    place: 14.07 - Wnnice i skalne miasto
+    place: Winnice i skalne miasto
     text: "Po śniadaniu wyruszamy w kierunku Tbilisi. Po drodze zatrzymamy się na
       spróbowanie słodkich chlebków Nazuki, które można znaleźć tylko w jednej
       miejscowości o nazwie Surami, więc jak będziemy ją mijać, nie można nie
@@ -71,7 +72,7 @@ schedule:
       całe miasto. Po zwiedzaniu dojazd do Tbilisi. Kolacja w lokalnej
       restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi. "
   - day: "5"
-    place: 15.07 - Kulinarne warsztaty w stolicy
+    place: Kulinarne warsztaty w stolicy
     text: >
       Cały dzień spędzimy w stolicy. Wjazd kolejką gondolową na taras widokowy,
       na którym ustawiony jest pomnik Matki Gruzji – podziwianie panoramy
@@ -84,13 +85,13 @@ schedule:
       możliwość korzystania z łaźni siarkowych (we własnym zakresie). Kolacja i
       nocleg w Tbilisi.
   - day: "6"
-    place: 16.07 - Kaukaz i chinkali
+    place: Kaukaz i chinkali
     text: >
       Wyjazd Gruzińską Drogą Wojenną w kierunku Stepancminda (Kazbegi).
 
       Przejazd wzdłuż rzeki Aragwi, przez Przełęcz Krzyżową. Po drodze obejrzymy malowniczą twierdzę Ananuri położoną nad rzeką Aragwi. Z Kazbegi wjazd samochodami terenowymi do zabytkowego kościoła Trójcy Świętej położonego na wysokości 2020 m n.p.m. (wjazd odbędzie się jeżeli pozwolą na to warunki atmosferyczne). Przy ładnej pogodzie rozpościera się stąd piękny widok na jeden z najwyższych szczytów Gruzji - górę Kazbek (5047 m). Powrót do Tbilisi. Kolacja i nocleg.
   - day: "7"
-    place: 17.07 - biesiada i folklor
+    place: biesiada i folklor
     text: >
       Wyjazd do Kachetii, krainy wina. Przejazd do miasta Telawi, wizyta na
       lokalnym bazarze, pełnym przypraw, win, bimbru, owoców i warzyw. Po
@@ -100,7 +101,7 @@ schedule:
       prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam chojną
       suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
   - day: "8"
-    place: 18.07 - TRANSFER na lotnisko
+    place: TRANSFER na lotnisko
     text: >-
       Wyjazd w kierunku Kutaisi. Dojazd do Kutaisi. Po krótkim wypoczynku udamy
       się na kolację u lokalnego gospodarza, gdzie oprócz spróbowania lokalnych
@@ -131,6 +132,7 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
+  - text: "Test PCR na trzeci dzień po przylocie do Gruzji "
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket
@@ -145,3 +147,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń), wygodna odzież do pracy przy zbiorze herbaty oraz do warsztatów kulinarnych
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>

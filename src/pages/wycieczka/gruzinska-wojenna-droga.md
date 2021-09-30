@@ -8,11 +8,11 @@ description: Podróż wśród szczytów Wielkiego Kaukazu
 informations: ""
 discount: 0
 terms:
-  - startDate: 2020-07-01T22:18:04.673Z
+  - startDate: 2021-04-01T22:18:04.673Z
     endDate: 2020-11-01T22:18:04.729Z
     daysCount: "1"
     seats: 1
-    price: 40
+    price: 50
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/monastyr_gergeti.jpg
@@ -79,13 +79,7 @@ priceNotContains:
   - text: Posiłków i napojów nie zawartych w programie
     icon: food
 ---
-**CENNIK**
-
-1-3 os. - 75 eur/grupa + 8 eur/os samochód terenowy w Kazbegi 
-
-4-7 os. - 90 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
-
-8-15 os. - 120 eur/grupa + 8 eur/os samochód terenowy w Kazbegi
+**Cena wycieczki zależy od liczby osób, aby ustalić cenę, prosimy o kontakt: vaimetravel@gmail.com**
 
 * Długość trasy wycieczki: ok. 300 km (trasa w obie strony) 
 * Stopień trudności: łatwy

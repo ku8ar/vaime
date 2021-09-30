@@ -44,6 +44,18 @@ services:
       dostępny jest w przypadku dopłaty.
     icon: bed
 qa:
+  - question: Zasady wyjazdu do Gruzji w czasach pandemii
+    answer: >-
+      Podróżujący z UE powinni okazać na granicy 
+
+      - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR (w cenie naszych wycieczek).
+
+      albo 
+
+      - zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19 (w języku angielskim).
+
+
+      Więcej informacji znajdziecie tutaj: https://vaimetravel.com/covid-19-informacje
   - answer: >
       Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to
       wszystko było bardzo dawno temu. W Gruzji teraz jest bardzo bezpiecznie i

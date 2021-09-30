@@ -7,8 +7,8 @@ title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 discount: 0
 terms:
-  - startDate: 2020-07-02T16:50:54.599Z
-    endDate: 2020-11-29T16:50:54.627Z
+  - startDate: 2021-04-01T16:50:00.000Z
+    endDate: 2021-11-30T16:50:00.000Z
     daysCount: "1"
     seats: 1
     price: 50
@@ -78,13 +78,9 @@ priceNotContains:
   - icon: food
     text: Posiłków i napojów nie zawartych w programie
 ---
-**CENNIK**
+**Cena wycieczki zależy od liczby osób, aby ustalić cenę, prosimy o kontakt: vaimetravel@gmail.com**
 
-1-3 os. - 80 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
-4-7 os. - 95 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
-
-8-15 os. - 130 eur/grupa + 8 eur/os degustacja i drobny poczęstunek
 
 * Długość trasy: ok. 350 km
 * Stopień trudności: łatwy

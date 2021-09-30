@@ -3,15 +3,15 @@ templateKey: tour
 active: true
 minSeats: 1
 title: Gruzińskie wakacje
-description: Wakacje w gruzji? czemu nie!
+description: Wakacje w gruzji? Czemu nie!
 informations: Nasza lipcowa objazdówka pomoże Wam odkryć najpopularniejsze
   miejscówki w Gruzji i zainspirować Was do zbadania kolejnych regionów i
   zabytków.
 discount: 0
-tileTitle: ""
+tileTitle: Test PCR Gratis!
 terms:
   - price: 530
-    seats: 15
+    seats: 6
     daysCount: 8 DNI/9 NOCY
     startDate: 2021-07-05T20:00:00.000Z
     endDate: 2021-07-13T20:00:00.000Z
@@ -117,6 +117,7 @@ priceContains:
     text: Usługi polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy klimatyzowany minibus
+  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - icon: ticket
     text: Biletu lotniczego
@@ -131,3 +132,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną w Gruzji (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>

@@ -14,19 +14,19 @@ discount: 0
 tileTitle: ""
 terms:
   - startDate: 2021-09-16T20:45:50.268Z
-    endDate: 2021-09-26T20:45:50.302Z
-    daysCount: 10 DNI/11 NOCY
-    seats: 6
+    endDate: 2021-09-25T20:45:50.302Z
+    daysCount: 9 DNI/10 NOCY
+    seats: 5
     price: 745
 thumb: /img/p1020318.jpg
 images:
   - image: /img/ancient-1997162_1920-1-.jpg
     name: Stare Miasto, Baku
-  - image: /img/kakheti-4452432-1-.jpg
-    name: Katedra Alawerdi
   - image: /img/azerbaijan-4856054_1920.jpg
     name: Xinalug, Azerbejdżan
-map: /img/xinaliq-hinalug-.png
+  - image: /img/uflistsikhe-uplistsikhe-3.jpg
+    name: Upliscyche, Gori
+map: /img/xinaliq-hinalug-1-.png
 schedule:
   - day: "1"
     place: 16.09 - Kutaisi - Tbilisi
@@ -61,14 +61,27 @@ schedule:
 
       Wykwaterowanie z hotelu i dojazd na dworzec kolejowy, przejazd nocnym pociągiem relacji Tbilisi - Baku. 
   - day: "4"
-    place: 19.09 - Baku
-    text: "Dojazd do Baku, transfer do hotelu, wypoczynek. Po śniadaniu zwiedzanie
-      Baku: Icheri Sheher - stara część miasta, pałac Szirwan Szacha,
-      Karawanseraj, Wieża Dziewicza. Spacer po centralnej ulicy Nizami oraz
-      placu Fontann. Zwiedzanie zakończymy wizytą w centrum Heydara Aliyeva.
-      Nocleg w Baku."
+    place: 19.09 - Tbilisi - Bodbe - Signagi - Tbilisi
+    text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
+      “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
+      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
+      oszałamiający widok na dolinę Alazańska, gdzie uprawiane są najlepsze
+      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
+      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
+      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
+      smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
+      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
+      połączona z obiadokolacją. Nocleg w Tbilisi
   - day: "5"
-    place: "20.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
+    place: 20.09 - Baku
+    text: "Śniadanie, wylot do Baku samolotem z Tbilisi o godzinie 10:00. Przylot na
+      miejsce o 11:20. Zwiedzanie Baku: Icheri Sheher - stara część miasta,
+      pałac Szirwan Szacha, Karawanseraj, Wieża Dziewicza. Spacer po centralnej
+      ulicy Nizami oraz placu Fontann. Zwiedzanie zakończymy wizytą w centrum
+      Heydara Aliyeva. Nocleg w Baku."
+  - day: "6"
+    place: "21.09 - Baku - Apszeroński półwysep - Gobustan - Baku "
     text: >
       Śniadanie. Wycieczka na Półwysep Apszeroński. Dojazd do mitycznej góry
       Yanar Dag, znajdują się tu naturalne, płonące od wieków ognie. Dalej
@@ -79,8 +92,8 @@ schedule:
       zoroastriańska świątynia ognia.
 
       Następny punkt to Narodowy Park Gobustan, gdzie zwiedzimy miejsce, znane jako Muzeum Petroglifów. Jeśli pogoda pozwoli, wyjazd w głąb parku do błotnych wulkanów Gobustan (możliwa zmiana pojazdu). Powrót do Baku, obiadokolacja, nocleg. 
-  - day: "6"
-    place: 21.09 - Baku - wioska Hinalug - Baku
+  - day: "7"
+    place: 22.09 - Baku - wioska Hinalug - Baku
     text: >+
       Śniadanie. Rano wyjazd w kierunku północno-zachodnim od stolicy kraju.
       Przejeżdżając przez wioskę Qirmizi Qasaba (Czerwona Wieś), dojeżdżamy do
@@ -91,8 +104,8 @@ schedule:
       znanego jako "Marcowe Dni" (1918 r.) w miejscowości Quba. Powrót do Baku,
       obiadokolacja, nocleg w Baku. 
 
-  - day: "7"
-    place: "22.09 - Baku - Maraza - Szamachi - Szeki "
+  - day: "8"
+    place: "23.09 - Baku - Maraza - Szamachi - Szeki "
     text: >
       Śniadanie. Wykwaterowanie z hotelu, wyjazd do miejscowości Szeki. Po
       drodze zwiedzanie mauzoleum szacha Diri Baby w wiosce Maraza. Przejazd na
@@ -103,72 +116,45 @@ schedule:
       przepysznej baklawy, więc dla miłośników tego wschodniego przysmaku będzie
       to punkt doskonały. Zwiedzanie albańskiego kościoła z I w. Nocleg i
       obiadokolacja w Szeki. 
-  - day: "8"
-    place: 23.09 - Szeki - Lagodechi - Telawi
-    text: >
-      Śniadanie, od rana wizyta na lokalnym bazarze w Szeki, możliwość zakupów
-      lokalnych przysmaków. Powoli żegnamy się z Azerbejdżanem - wyjazd
-      malowniczą drogą górską do granicy gruzińskiej, przekroczenie granicy w
-      Lagodechi, regionie Kacheti, zmiana transportu na gruziński bus, przejazd
-      do Telawi, obiadokolacja, nocleg.
   - day: "9"
-    place: 24.09 - Telawi - Alawerdi - Gremi - Tbilisi
-    text: Śniadanie, wykwaterowanie z hotelu. Wyjazd na zwiedzanie okolicznych
-      zabytków - katedry Alawerdi oraz twierdzy Gremi. Katedra Alawerdi jest
-      najważniejszym zabytkiem regionu Kacheti, zbudowana w XII wieku, w okresie
-      rozkwitu Królestwa Gruzińskiego. Przy katedrze zobaczyć można winnice,
-      gdyś mnisi mieszkający na terenie świątyni, produkują wino. Dalej
-      odwiedzimy twierdzę Gremi, miejsce, gdzie kiedyś znajdowała się stolica
-      Królestwa Kacheti, i gdzie do dziś można znaleźć pozostałości po mieście.
-      Przepiękny późnośredniowieczny kościół oraz wieża obserwacyjna stanowią
-      najlepiej zachowane obiekty kompleksu. Po zwiedzaniu udamy się na
-      degustację wina w lokalnej winiarni. Przejazd do Tbilisi, obiadokolacja,
-      nocleg.
+    place: 24.09 - Szeki - Baku - Tbilisi
+    text: >
+      Śniadanie, wyjazd do Baku. Lot powrotny do Tbilisi o godzinie 18:00,
+      przylot do Tbilisi o godzinie 19:10. Obiadokolacja, nocleg w Tbilisi.
   - day: "10"
     place: 25.09 - Tbilisi - Kutaisi
-    text: Śniadanie, wyjazd z Tbilisi do Kutaisi. Dojazd, zakwaterowanie. Po krótkim
-      wypoczynku udajemy się na zwiedzanie najważniejszych zabytków miasta
-      Kutaisi. Zobaczymy akademię Gelati (UNESCO), gdzie jeszcze w XI-XII wieku
-      tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw. Matki
-      Boskiej, która słynna jest z przepięknych kolorowych fresków, a na koniec
-      odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla Gruzji.
-      Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna obiadokolacja i
-      nocleg w Kutaisi.
-  - day: "11"
-    place: 26.09 - Transfer na lotnisko
-    text: Śniadanie, transfer na lotnisko, wylot.
+    text: Śniadanie, wyjazd z Tbilisi do Kutaisi. Po drodze zwiedzanie skalnego
+      miasta Upliscyche w mieście Gori. Dojazd, zwiedzanie katedry Bagrati (XI
+      w.) w Kutaisi. Pożegnalna obiadokolacja, transfer na lotnisko.
 priceContains:
-  - text: Noclegi w hotelach 3* w Tbilisi, Baku, Szeki, Kutaisi
+  - text: Noclegi w hotelach 3* w Tbilisi, Baku, Szeki
     icon: hotel
-  - text: Nocleg w pensjonacie/agroturystyce w Telawi (pokoje z łazienkami)
-    icon: home
   - text: Śniadania i obiadokolacje
     icon: restaurant
   - text: Bilety wstępu do zwiedzanych obiektów
     icon: cinemaTicket
   - text: Transport 4x4 w Kazbegi i parku narodowym Gobustan (jeśli pozwoli pogoda)
     icon: offroad
-  - text: Przejazd kolejką linową w Tbilisi
-    icon: cableCar
   - text: Degustację wina
     icon: alcohol
   - text: Usługi polskojęzycznego przewodnika
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
-  - text: Bilet na pociąg relacji Tbilisi - Baku
-    icon: train
+  - text: Bilet lotniczy na trasie Tbilisi - Baku - Tbilisi (Buta Airways)
+    icon: plane
 priceNotContains:
-  - text: Biletów lotniczych
+  - text: Biletów lotniczych z Polski do Gruzji
     icon: plane
   - text: Opłat za wizę do Azerbejdżanu (koszt ok. 20 eur)
     icon: ticket
   - text: Dodatkowych posiłków i napojów nie zawartych w programie
     icon: food
+  - text: Testu PCR potrzebnego do wjazdu do Azerbejdżanu (koszt. 28 euro=100 gel)
 ---
 * Trasa wycieczki: ok. 3000 km
 * Stopień trudności: łatwy
-* Potrzebne dokumenty: paszport oraz e-visa (<https://evisa.gov.az/>)
+* Potrzebne dokumenty: test PCR wykonany nie wcześniej, niż 72h przed wylotem do Azerbejdżanu (koszt 28 euro=100 gel), wydrukowane zaświadczenie o przyjęciu szczepienia, paszport oraz e-visa (<https://evisa.gov.az/>)
 * Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30-32°C
 * Waluta:
 
@@ -177,3 +163,4 @@ priceNotContains:
 * Ubiór: lekki, wygodne obuwie do chodzenia po mieście, kurtka/bluza z długim rękawem, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny oraz lek na ewentualne problemy żołądkowe ze względu na odmienną florę bakteryjną (można też kupić na miejscu)
 * Internet: Wi-Fi jest w każdym hotelu i większości restauracji, można nabyć lokalną kartę SIM z Internetem (ok. 15 GEL w Gruzji, ok. 20 AZN w Azerbejdżanie)
+* Bieżące informacje na temat regulacji covidowych: <https://vaimetravel.com/covid-19-informacje>
