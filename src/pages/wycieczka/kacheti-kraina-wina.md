@@ -8,7 +8,7 @@ description: Wino, góry, doliny
 discount: 0
 terms:
   - startDate: 2021-04-01T16:50:00.000Z
-    endDate: 2021-11-30T16:50:00.000Z
+    endDate: 2022-11-30T16:50:00.000Z
     daysCount: "1"
     seats: 1
     price: 50
