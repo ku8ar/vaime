@@ -3,13 +3,13 @@ templateKey: tour
 active: true
 oneDay: true
 minSeats: 1
-title: Gruzińska Wojenna Droga
+title: Kazbegi - Gruzińska Wojenna Droga
 description: Podróż wśród szczytów Wielkiego Kaukazu
 informations: ""
 discount: 0
 terms:
   - startDate: 2021-04-01T22:18:04.673Z
-    endDate: 2020-11-01T22:18:04.729Z
+    endDate: 2022-11-30T22:18:04.729Z
     daysCount: "1"
     seats: 1
     price: 50
