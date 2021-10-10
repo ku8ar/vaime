@@ -28,18 +28,18 @@ map: /img/majowka-2021.png
 schedule:
   - day: "1"
     place: 30.04 - Kutasi
-    text: Przylot do Kutaisi, transfer do Tbilisi. Zakwaterowanie, nocleg.
+    text: Przylot do Kutaisi. Zakwaterowanie, nocleg.
   - day: "2"
     place: 01.05 - Tbilisi
     text: >
-      Po śniadaniu wyruszamy na zwiedzanie stolicy: starego miasta oraz
-      najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
-      kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
-      natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
-      (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi, najważniejsze
-      świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi
-      – Anczischati (VII w.). Obiadokolacja z pokazem folklorystycznym, nocleg w
-      Tbilisi.
+      Po śniadaniu wyruszamy w kierunku Tbilisi, na zwiedzanie stolicy: starego
+      miasta oraz najważniejszych zabytków stolicy – twierdzy Narikala, na którą
+      wjedziemy kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z
+      twierdzy natomiast otwiera się przepiękny widok na całą stolicę;
+      Abanotubani (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi,
+      najważniejsze świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza
+      cerkiew Tbilisi – Anczischati (VII w.). Obiadokolacja z pokazem
+      folklorystycznym, nocleg w Tbilisi.
   - day: "3"
     place: 02.05 - Tbilisi - Kazbegi - Tbilisi
     text: >+
