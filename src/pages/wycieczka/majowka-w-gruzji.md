@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: false
+active: true
 minSeats: 1
 title: Majówka w Gruzji
 description: Długi majowy weekend w słonecznej gruzji - co może być lepsze!
@@ -9,13 +9,13 @@ informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
   tylko trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki -
   widoki, kuchnię i gościnność. "
 discount: 0
-tileTitle: TEST PCR GRATIS!
+tileTitle: ""
 terms:
   - daysCount: 8 DNI/7 NOCY
-    endDate: 2021-05-06T17:40:01.392Z
-    price: 490
-    seats: 14
-    startDate: 2021-04-29T17:40:01.346Z
+    endDate: 2022-05-07T17:40:01.392Z
+    price: 495
+    seats: 15
+    startDate: 2022-04-30T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
   - image: /img/most.jpg
@@ -27,25 +27,21 @@ images:
 map: /img/majowka-2021.png
 schedule:
   - day: "1"
-    place: 29.04 - Kutasi
-    text: Przylot do Kutaisi, zakwaterowanie w hotelu. Powitalna obiadokolacja i
-      nocleg w Kutaisi.
+    place: 30.04 - Kutasi
+    text: Przylot do Kutaisi, transfer do Tbilisi. Zakwaterowanie, nocleg.
   - day: "2"
-    place: 30.04 - Kutaisi - Mccheta - Tbilisi
+    place: 01.05 - Tbilisi
     text: >
-      Po śniadaniu wyjazd w kierunku Tbilisi. Po drodze zwiedzanie jednego z
-      najważniejszych obiektów sakralnych z listy UNESCO – monastyr Dżwari (VI
-      w.), który znajduje się przy starej stolicy Gruzji, Mcchecie i
-      reprezentuje wczesny przykład architektury sakralnej. Dojazd do Tbilisi,
-      zakwaterowanie, chwila na odpoczynek i wyruszamy na zwiedzanie stolicy:
-      starego miasta oraz najważniejszych zabytków stolicy – twierdzy Narikala,
-      na którą wjedziemy kolejką linową, co pozwoli nam na podziwianie panoramy
-      miasta, z twierdzy natomiast otwiera się przepiękny widok na całą stolicę;
-      Abanotubani (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi,
-      najważniejsze świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza
-      cerkiew Tbilisi – Anczischati (VII w.). Obiadokolacja, nocleg.
+      Po śniadaniu wyruszamy na zwiedzanie stolicy: starego miasta oraz
+      najważniejszych zabytków stolicy – twierdzy Narikala, na którą wjedziemy
+      kolejką linową, co pozwoli nam na podziwianie panoramy miasta, z twierdzy
+      natomiast otwiera się przepiękny widok na całą stolicę; Abanotubani
+      (dzielnica łaźni siarkowych), kręte uliczki starego Tbilisi, najważniejsze
+      świątynie miasta: katedra Sioni (XVII w.), oraz najstarsza cerkiew Tbilisi
+      – Anczischati (VII w.). Obiadokolacja z pokazem folklorystycznym, nocleg w
+      Tbilisi.
   - day: "3"
-    place: 01.05 - Tbilisi - Kazbegi - Tbilisi
+    place: 02.05 - Tbilisi - Kazbegi - Tbilisi
     text: >+
       Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
       Drogą Wojenną, aż do miejscowości Kazbegi. Jest to podróż, która zachwyci
@@ -59,7 +55,7 @@ schedule:
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
 
   - day: "4"
-    place: 02.05 - Tbilisi – Bodbe - Signagi
+    place: 03.05 - Tbilisi – Bodbe - Signagi
     text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
       “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
       jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
@@ -72,55 +68,51 @@ schedule:
       gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
       połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "5"
-    place: 03.05 - Tbilisi - Gori - Batumi
-    text: Śniadanie, wykwaterowanie z hotelu. Wyruszamy do słynnego kurortu
-      nadmorskiego Batumi. Po drodze zwiedzanie skalnego miasta Upliscyche w
-      mieście Gori, jest to najstarszy zabytek i najstarsze skalne miasto na
-      terytorium Gruzji, według źródeł historycznych, pierwsze osady tutaj
-      pojawiły się aż w II tysiącleciu p.n.e.! Miasto powala rozwiniętą, jak na
-      tamte czasy, infrastrukturą oraz różnorodnością jaskiń i pomieszczeń
-      mieszkalnych. Dojazd do Batumi, obiadokolacja, nocleg.
+    place: 04.05 - Tbilisi - Mccheta - Gori - Kutaisi
+    text: Śniadanie, wykwaterowanie z hotelu. Wyruszamy w kierunku Gruzji
+      Zachodniej. Po drodze zwiedzanie miejscowości MCCHETA (UNESCO). Miasto to
+      kolebka chrześcijaństwa. Odwiedzimy najważniejsze obiekty sakralne  z
+      listy UNESCO – katedrę Sweticchoweli z XI i monastyr Dżwari z VI wieku.
+      Dalej jedziemy do skalnego miasta Upliscyche w mieście Gori, jest to
+      najstarszy zabytek i najstarsze skalne miasto na terytorium Gruzji, według
+      źródeł historycznych, pierwsze osady tutaj pojawiły się aż w II
+      tysiącleciu p.n.e.! Miasto powala rozwiniętą, jak na tamte czasy,
+      infrastrukturą oraz różnorodnością jaskiń i pomieszczeń mieszkalnych.
+      Dojazd do Kutaisi, obiadokolacja, nocleg.
   - day: "6"
-    place: 04.05 - Batumi - Keda
-    text: "Śniadanie. Wolne popołudnie w Batumi. W drugiej połowie dnia wyjazd z
-      Batumi w kierunku miejscowości Keda, położonej w górach regionu Adżaria.
-      Tutaj czeka na nas wyjątkowe miejsce - urocza agroturystyka prowadzona
-      przez miejscowego gospodarza, który ugości nas tradycjnymi adżarskimi
-      potrawami, winem oraz pokaże cząstkę lokalnego folkloru. Nocleg w
-      agroturystyce. "
+    place: 05.05 - Kutaisi - Batumi
+    text: Śniadanie, wyjazd do Gruzji Zachodniej – zwiedzanie malowniczej Jaskini
+      Prometeusza. Przejazd w kierunku wybrzeża Morza Czarnego, do legendarnego
+      kurortu Batumi Obiadokolacja i nocleg.
   - day: "7"
-    place: 05.05 - Keda - Kutaisi
-    text: Śniadanie. Pożegnanie z gospodarzem i wyjazd w kierunku Kutaisi. Po drodze
-      przystanek w Batumi, wolny czas na zakupy i plażowanie. Wyjazd do Kutaisi,
-      dojazd. Obiadokolacja i nocleg w Kutaisi.
+    place: 06.05 - Batumi
+    text: |
+      Śniadanie. Czas wolny w Batumi. Obiadokolacja, nocleg.
   - day: "8"
-    place: 06.05 - Transfer na lotnisko
-    text: Śniadanie,zwiedzanie akademii Gelati (UNESCO), gdzie jeszcze w XI-XII
-      wieku tłumaczyli największe dzieła filozofii greckiej, główną cerkiew pw.
-      Matki Boskiej, która słynna jest z przepięknych kolorowych fresków, a na
-      koniec odwiedzimy grób Dawida Budowniczego – najbardziej wybitnego króla
-      Gruzji. Odwiedzimy również katedrę Bagrati (XI w.). Pożegnalna
-      obiadokolacja, przejazd na lotnisko, wylot do Polski.
+    place: 07.05 - Batumi - Kutaisi - Transfer na lotnisko
+    text: Śniadanie, wyjazd do Kutaisi, zwiedzanie akademii Gelati (UNESCO), gdzie
+      jeszcze w XI-XII wieku tłumaczyli największe dzieła filozofii greckiej,
+      główną cerkiew pw. Matki Boskiej, która słynna jest z przepięknych
+      kolorowych fresków, a na koniec odwiedzimy grób Dawida Budowniczego –
+      najbardziej wybitnego króla Gruzji. Dla chętnych wizyta na lokalnym
+      bazarze. Pożegnalna obiadokolacja, przejazd na lotnisko, wylot do Polski.
 priceContains:
   - icon: hotel
     text: Noclegi w hotelu 3* w Tbilisi, Batumi, Kutaisi
-  - icon: home
-    text: Nocleg w agroturystyce w miejscowości Keda (wspólne łazienki)
+  - icon: restaurant
+    text: Śniadania i obiadokolacje
   - icon: cinemaTicket
     text: Bilety wstępu do zwiedzanych obiektów
   - icon: cableCar
     text: Przejazd kolejką linową w Tbilisi
   - icon: offroad
     text: Transport 4x4 w Kazbegi
-  - icon: restaurant
-    text: Śniadania i obiadokolacje z winem
   - icon: alcohol
     text: Degustację wina
   - icon: guide
     text: Usługi polskojęzycznego przewodnika
   - icon: bus
     text: Transport – komfortowy klimatyzowany minibus
-  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - icon: ticket
     text: Biletu lotniczego
