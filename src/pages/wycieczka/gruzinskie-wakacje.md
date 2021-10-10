@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 minSeats: 1
 title: Gruzińskie wakacje
 description: Wakacje w gruzji? Czemu nie!
