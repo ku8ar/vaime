@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 minSeats: 1
 title: Święto winobrania
 description: "rtweli w gruzji - winogrona, kuchnia, wino "
