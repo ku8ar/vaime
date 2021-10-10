@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: false
+active: true
 oneDay: false
 minSeats: 1
 title: Gastro-Przygoda
@@ -9,12 +9,12 @@ informations: Kuchnia gruzińska, pełna egzotycznych przypraw, świeże owoce,
   domowe wino, warsztaty kulinarne - ten wyjazd zadowoli każdego smakosza
   pysznego jedzenia i dobrego wina . Zapraszamy na naszą apetyczną wycieczkę!
 discount: 0
-tileTitle: TEST PCR GRATIS!
+tileTitle: ""
 terms:
-  - startDate: 2021-07-10T11:00:14.238Z
-    endDate: 2021-07-17T11:00:14.328Z
+  - startDate: 2022-08-16T11:00:14.238Z
+    endDate: 2022-08-23T11:00:14.328Z
     daysCount: 8 DNI/7 NOCY
-    seats: 4
+    seats: 15
     price: 550
 thumb: /img/xinkali-23.jpg
 images:
@@ -132,7 +132,6 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
-  - text: "Test PCR na trzeci dzień po przylocie do Gruzji "
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket
