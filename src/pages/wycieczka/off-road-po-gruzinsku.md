@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: true
+active: false
 oneDay: false
 minSeats: 1
 title: Off-road po gruzińsku
