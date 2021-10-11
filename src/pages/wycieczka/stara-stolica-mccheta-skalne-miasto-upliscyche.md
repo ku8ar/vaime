@@ -10,12 +10,13 @@ informations: Zwiedzanie starej stolicy kraju, Mcchety, centrum religijnego
   czasów pogańskich, pomoże poznać całą historyczną i kulturową różnorodność
   Gruzji.
 discount: 0
+tileTitle: ""
 terms:
   - startDate: 2021-10-11T09:39:57.496Z
     endDate: 2022-11-30T09:39:57.521Z
     daysCount: "1"
     seats: 1
-    price: 120
+    price: 100
 thumb: /img/img_20191001_174049.jpg
 images:
   - image: /img/IMG_2318.JPG
