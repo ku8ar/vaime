@@ -1,6 +1,6 @@
 ---
 templateKey: tour
-active: false
+active: true
 oneDay: true
 minSeats: 1
 title: Stara stolica Mccheta, skalne miasto Upliscyche
@@ -22,10 +22,11 @@ images:
     name: skalne miasto Upliscyche
 map: /img/upliscyche.png
 schedule:
-  - day: 9:00
+  - day: "1"
     place: Start
-    text: Spotkanie z kierowcą w umówionym miejscu, wyjazd na zwiedzanie.
-  - day: 9:40
+    text: Spotkanie z kierowcą w umówionym miejscu, o godz. 9:00, wyjazd na
+      zwiedzanie.
+  - day: "2"
     place: Klasztor Krzyża - Dżwari
     text: Przejazd na zwiedzanie pierwszego obiektu - klasztoru Dżwari (UNESCO)
       Klasztor Dżwari powstał w drugiej połowie VI wieku i dotarł do naszych
@@ -33,7 +34,7 @@ schedule:
       chrześcijańskich świątyń Gruzji Wschodniej, i miejsce, z którym związane
       są początku chrześcijaństwa w Gruzji. Z Dżwari podziwiać można cudowny
       widok na starą stolicę Mcchetę. Po zwiedzaniu wyjazd do Mcchety.
-  - day: 10:40
+  - day: "3"
     place: Katedra Sweticchoweli
     text: "Wjazd do miasteczka Mccheta, będący starą stolicą kraju do IV wieku n.e.
       Zwiedzanie głównego zabytku miasta, i centrum religijnego, katedry
@@ -41,13 +42,13 @@ schedule:
       przykład gruzińskiej architektury sakralnej, natchnionej stylem romańskim.
       W katedrze pochowani są królowie gruzińscy, oraz wg legendy - Święt
       Sidonia z szatą Chrystusa. "
-  - day: 11:30
+  - day: "4"
     place: Bazarek w Mcchecie
     text: Po zwiedzaniu katedry, warto się przejść po bazarku Mcchety, Zobaczyć tu
       można liczne stragany z lokalną biżuterią, pamiątkami, gruzińskimi
       przyprawami, winogronowymi słodyczami itd. Wolny czas na zakupy.  Po
       zakupach, wyjazd do miasta Gori (1 godz).
-  - day: 13:30
+  - day: "5"
     place: Skalne miasto Upliscyche w Gori
     text: >-
       Dojeżdżamy do skalnego miasta Upliscyche w mieście Gori, jest to
@@ -57,18 +58,18 @@ schedule:
       infrastrukturą oraz różnorodnością jaskiń i pomieszczeń mieszkalnych. 
 
       (Możliwość wynajęcia przewodnika lokalnego we własnym zakresie, dodatkowym koszt - 15 euro)
-  - day: 14:30
+  - day: "6"
     place: Degustacja wina
     text: W skalnym mieście Upliscyche zostały znalezione starożytne winnice, z
       dobrze zachowanymi amforami do robienia wina. Właśnie w miejscu istnienia
       takiej winnicy, powstała nowa, z najlepszymi winami regionu. Po zwiedzaniu
       skalnego miasta, degustacja wina, możliwość kupienia win na miejscu.
-  - day: 15:30
+  - day: "7"
     place: Gori
     text: "Powrót do miasta Gori, postój przy domu-muzeum J. Stalina, gdzie z
       zewnątrz zobaczyć można dom, w którym on się urodził, oraz jego pancerny
       wagon. "
-  - day: 16:00
+  - day: "8"
     place: Powrót do Tbilisi
     text: Powrót do Tbilisi, dojazd o ok. 17:00-17:30. Zakończenia zwiedzania.
 priceContains:
