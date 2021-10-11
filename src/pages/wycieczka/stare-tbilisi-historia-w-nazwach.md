@@ -19,11 +19,11 @@ images:
 map: /img/toponimy.png
 schedule:
   - day: "1"
-    text: "Zwiedzanie Tbilisi rozpoczniemy przy zabytkowej cerkwi Metekhi, tuż obok
+    text: "Zwiedzanie Tbilisi rozpoczniemy przy zabytkowej cerkwi Metechi, tuż obok
       pomnika założyciela miasta - króla Wachtanga Gorgasali. Na miejscu dowiemy
-      się legendy o powstaniu miasta Tbilisi oraz co nazwa naszej stolicy
+      się legendy o powstaniu miasta Tbilisi oraz, co nazwa naszej stolicy
       oznacza. "
-    place: Most Metekhi i Wachtang Gorgasali z bażantem
+    place: "Most Metechi i król Wachtang Gorgasali "
   - day: "2"
     place: Przejazd kolejką linową
     text: Tbilisi położone jest na wzgórzach, co daje nam aż kilka punktów
@@ -33,17 +33,18 @@ schedule:
   - day: "3"
     place: Matka Gruzja
     text: "Będąc na wzgórzu twierdzy Narikala, oprócz podziwiania cudownych widoków
-      na miasto i na tbilisski ogród botaniczny, warto zrobić spacer wzdłuż
-      ścieżki prowadzącej do Matki Gruzji - 30-metrowego posągu kobirty ubranej
-      w gruziński strój ludowy, która symbolem jest Gruzji, i wszystkich
+      na miasto i na tbiliski ogród botaniczny, warto zrobić spacer wzdłuż
+      ścieżki prowadzącej do Matki Gruzji - 30-metrowego posągu kobiety ubranej
+      w gruziński strój ludowy, która jest symbolem Gruzji, i wszystkich
       gruzińskich kobiet. "
   - day: "4"
     place: Twierdza Narikala
     text: Kontynuując spacer, docieramy do murów miejskiej twierdzy Narikala.
       Twierdza w tym miejscu powstała jeszcze w V wieku, tuż po założeniu miasta
       Tbilisi, ale ostateczną swoją formę i nazwę uzyskała dopiero w XVI-XVII.
-      Wejdziemy na twierdzę za pomocą podjazdu konnego, używanego aż do początku
-      XX wieku.
+      Twierdza Narikala od początków historii miasta była najważniejszym
+      obronnym punktem Tbilisi, wiele razy niszczona i odbudowywana. Wejdziemy
+      na twierdzę za pomocą podjazdu konnego, używanego aż do początku XX wieku.
   - day: "5"
     place: Abanotubani - dzielnica łaźni
     text: Z twierdzy Narikala schodzimy pieszo do historycznej dzielnicy łaźni
@@ -55,7 +56,7 @@ schedule:
     place: Meidani
     text: Wychodzimy na rynek Meidani. Meidani to obecnie najlepiej zachowany plac
       starego Tbilisi, z którego możemy zobaczyć twierdzę Narikala, cerkiew
-      Metechi po drugiej stronie rzeki Mtkwari oraz ruiny twierdzy-pałacu
+      Metechi po drugiej stronie rzeki Mtkwari, oraz ruiny twierdzy-pałacu
       królowej Daredżan. Meidani było głównym targowiskiem miasta, liczne
       stragany z przeróżnymi towarami rozstawione były po całym placu. Stara
       nazwa placu brzmi, jako Plac Więzienny, co związane było z istnieniem
@@ -68,7 +69,7 @@ schedule:
       nie śpią - zawsze jest pełno ludzi. W starym Tbilisi te miejsca również
       nie narzekały na brak klientów, ale z innego powodu - otóż uliczki te
       również były miejscami do handlu, kupić można było tutaj bawełnę, wełnę i
-      inne materiały. Obecną nazwę uliczki zyskała dzięki francuskiemu
+      inne materiały. Obecną nazwę uliczki zyskały dzięki francuskiemu
       podróżnikowi Chardinowi, który spędził sporą część swojego życia właśnie w
       Tbilisi.
   - day: "8"
@@ -89,7 +90,7 @@ schedule:
   - day: "10"
     place: Szklany most i uliczki Starego Tbilisi
     text: Spacer po starym Tbilisi trwa, i w najbardziej niespodziewanym momencie,
-      za kolejnym winklem, ukazuje się nam Most Pokoju, wielka szklana
+      za kolejnym rogiem, ukazuje się nam Most Pokoju, wielka szklana
       konstrukcja. Jest to piesza kładka, która przedostać się można na drugi
       brzeg rzeki Mtkwari. Z mostu rozpościera się cudowny widok na twierdzę
       Narikala i kolorowe domki pod nią.
@@ -100,15 +101,15 @@ schedule:
       obrazami, malowanymi magnesami i innymi artystycznymi pamiątkami. Na końcu
       tej uliczki znajdziemy Krzywą Wieżę, wieżę zegarową, i jeśli trafimy tam o
       pełnej godzinie, aniołek mieszkający w wieży, ujawni się i ogłosi nam
-      godzinę poprzez uderzenie w dzwon.
+      godzinę dzwoniąc w dzwon.
   - day: "12"
     place: Cerkiew Anczischati
     text: "Przed wyjściem z terenów starego miasta, został nam jeden zabytek,
       prawdopodobnie najważniejszy, bo najstarszy. Na samych obrzeżach starego
-      Tbilisi, leże cerkiew Anczischati, najstarsza cerkiew miasta, zbudowana w
+      Tbilisi, leży cerkiew Anczischati, najstarsza cerkiew miasta, zbudowana w
       VII wieku. Anczischati miała ciężką historię. m.in. została przerobiona na
       łaźnię publiczną w czasach ZSRR, ale odzyskała swoją funkcję w 90'. Jest
-      to wspaniały zabytek, pełen zabytkowych ikon i relikwii. "
+      to wspaniały obiekt sakralny, pełen zabytkowych ikon i relikwii. "
   - day: "13"
     place: Plac Wolności
     text: Wychodzimy z starego Tbilisi, mijamy mur miejski i wkraczamy w nowoczesne,
@@ -127,7 +128,7 @@ priceNotContains:
     text: Posiłków i napojów nie zawartych w programie
 ---
 **CENNIK**\
-Cena wycieczki - 100 eur (niezależnie od tego, ile osób będzie w grupie
+Cena wycieczki - 100 eur (niezależnie od tego, ile osób będzie w grupie)
 
 * Trasa do przejścia: ok. 5 km 
 * Długość wycieczki: ok. 4-5 godzin 
