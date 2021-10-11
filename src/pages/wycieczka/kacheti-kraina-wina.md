@@ -11,7 +11,7 @@ terms:
     endDate: 2022-11-30T16:50:00.000Z
     daysCount: "1"
     seats: 1
-    price: 50
+    price: 70
 thumb: /img/biore-5-.jpg
 images:
   - image: /img/czurchela.jpg
