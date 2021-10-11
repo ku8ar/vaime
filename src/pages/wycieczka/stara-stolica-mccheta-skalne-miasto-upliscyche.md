@@ -37,21 +37,21 @@ schedule:
   - day: "3"
     place: Katedra Sweticchoweli
     text: "Wjazd do miasteczka Mccheta, będący starą stolicą kraju do IV wieku n.e.
-      Zwiedzanie głównego zabytku miasta, i centrum religijnego, katedry
+      Zwiedzanie głównego zabytku miasta, centrum religijnego, katedry
       Sweticchoweli (UNESCO). Katedra powstała w XI wieku, jest to wspaniały
       przykład gruzińskiej architektury sakralnej, natchnionej stylem romańskim.
-      W katedrze pochowani są królowie gruzińscy, oraz wg legendy - Święt
+      W katedrze pochowani są królowie gruzińscy, oraz wg legendy - Święta
       Sidonia z szatą Chrystusa. "
   - day: "4"
     place: Bazarek w Mcchecie
     text: Po zwiedzaniu katedry, warto się przejść po bazarku Mcchety, Zobaczyć tu
-      można liczne stragany z lokalną biżuterią, pamiątkami, gruzińskimi
-      przyprawami, winogronowymi słodyczami itd. Wolny czas na zakupy.  Po
-      zakupach, wyjazd do miasta Gori (1 godz).
+      można liczne stragany z lokalną biżuterią, przeróżnymi pamiątkami,
+      gruzińskimi przyprawami, winogronowymi słodyczami itd. Wolny czas na
+      zakupy.  Po zakupach, wyjazd do miasta Gori (1 godz).
   - day: "5"
     place: Skalne miasto Upliscyche w Gori
     text: >-
-      Dojeżdżamy do skalnego miasta Upliscyche w mieście Gori, jest to
+      Dojeżdżamy do skalnego miasta Upliscyche pod miastem Gori, jest to
       najstarszy zabytek i najstarsze skalne miasto na terytorium Gruzji. Według
       źródeł historycznych, pierwsze osady tutaj pojawiły się aż w II
       tysiącleciu p.n.e.! Miasto powala rozwiniętą, jak na tamte czasy,
@@ -61,9 +61,9 @@ schedule:
   - day: "6"
     place: Degustacja wina
     text: W skalnym mieście Upliscyche zostały znalezione starożytne winnice, z
-      dobrze zachowanymi amforami do robienia wina. Właśnie w miejscu istnienia
-      takiej winnicy, powstała nowa, z najlepszymi winami regionu. Po zwiedzaniu
-      skalnego miasta, degustacja wina, możliwość kupienia win na miejscu.
+      dobrze zachowanymi amforami do robienia wina. Właśnie w miejscu powstała
+      nowa winnica, z najlepszymi winami regionu. Po zwiedzaniu skalnego miasta
+      degustacja wina, możliwość kupienia win na miejscu.
   - day: "7"
     place: Gori
     text: "Powrót do miasta Gori, postój przy domu-muzeum J. Stalina, gdzie z
@@ -71,7 +71,7 @@ schedule:
       wagon. "
   - day: "8"
     place: Powrót do Tbilisi
-    text: Powrót do Tbilisi, dojazd o ok. 17:00-17:30. Zakończenia zwiedzania.
+    text: Powrót do Tbilisi, dojazd o ok. 17:00-17:30. Zakończenie zwiedzania.
 priceContains:
   - text: Usługi kierowcy
     icon: bus
