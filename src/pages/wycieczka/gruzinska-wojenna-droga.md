@@ -12,7 +12,7 @@ terms:
     endDate: 2022-11-30T22:18:04.729Z
     daysCount: "1"
     seats: 1
-    price: 50
+    price: 60
 thumb: /img/georgia-3609803.jpg
 images:
   - image: /img/monastyr_gergeti.jpg
