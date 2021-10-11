@@ -24,7 +24,7 @@ images:
     name: Signagi
   - image: /img/caucasus-3110386.jpg
     name: Gruzińska Droga Wojenna
-map: /img/majowka-2021.png
+map: /img/majówka.png
 schedule:
   - day: "1"
     place: 30.04 - Kutasi
