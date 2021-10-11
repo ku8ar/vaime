@@ -25,13 +25,13 @@ showFlights: false
 * Zjednoczonych Emiratów Arabskich
 * Królestwa Bahrajnu
 
-**powinni uprzednio przed podróżą wypełnić specjalny [formularz elektroniczny](https://registration.gov.ge/pub/form/8_protocol_for_arrivals_in_georgia/tk6157/) oraz posiadać:**
+**powinni posiadać:**
 
-* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR, **koszt testu trzeciego dnia jest w cenie wycieczek Vaime Travel, oferujemy wygodne warunki badań - laboratorium wykona badania w pokojach hotelowych, więc nie ma potrzeby wizyty w klinikach.**
-
-**albo**
-
-* zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim).
+* zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim)\
+  \
+  lub
+* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR, oraz \
+  **uprzednio przed podróżą wypełnić specjalny [formularz elektroniczny](https://registration.gov.ge/pub/form/8_protocol_for_arrivals_in_georgia/tk6157/)** (dotyczy tylko niezaszczepionych podróżników)
 
 **Uwaga!** - w przypadku braku zaświadczeń podczas kontroli paszportowej należy liczyć się z odmową wjazdu do Gruzji.\
 \
