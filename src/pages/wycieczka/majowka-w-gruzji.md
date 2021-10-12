@@ -14,7 +14,7 @@ terms:
   - daysCount: 8 DNI/7 NOCY
     endDate: 2022-05-07T17:40:01.392Z
     price: 495
-    seats: 15
+    seats: 13
     startDate: 2022-04-30T17:40:01.346Z
 thumb: /img/batumi-kolo.jpg
 images:
