@@ -18,13 +18,13 @@ terms:
     daysCount: 9 DNI/10 NOCY
     seats: 15
     price: 620
-thumb: /img/p1010942.jpg
+thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
     name: Sewanawank, Jezioro Sewan, Armenia
   - image: /img/vardzia-5187928_1920.jpg
     name: Skalne Miasto Wardzia
-  - image: /img/p1020020.jpg
+  - image: /img/cathedral-1781012-1-.jpg
     name: Pogańska Świątynia Garni, Armenia
 map: /img/kaukasi-duet-2021.png
 schedule:
