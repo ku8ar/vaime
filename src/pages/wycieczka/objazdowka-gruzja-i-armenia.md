@@ -18,7 +18,7 @@ terms:
     daysCount: 9 DNI/10 NOCY
     seats: 15
     price: 620
-thumb: /img/armenia-3716853-1-.jpg
+thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
     name: Sewanawank, Jezioro Sewan, Armenia
