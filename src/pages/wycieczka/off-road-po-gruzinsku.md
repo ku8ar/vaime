@@ -9,14 +9,14 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
   możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
   szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
   skosztowaniem pysznej gruzińskiej kuchni i wina.  "
-discount: 15
+discount: 0
 tileTitle: ""
 terms:
   - startDate: 2022-07-30T12:08:25.411Z
     endDate: 2022-08-06T12:08:25.446Z
     daysCount: 7 DNI/8 NOCY
-    seats: 0
-    price: 495
+    seats: 15
+    price: 510
 thumb: /img/img_20180718_135553.jpg
 images:
   - image: /img/img_20180709_182231.jpg
