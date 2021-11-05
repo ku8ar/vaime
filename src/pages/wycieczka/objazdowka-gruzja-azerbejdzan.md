@@ -18,7 +18,7 @@ terms:
     endDate: 2022-10-15T20:45:50.302Z
     daysCount: 11 DNI/12 NOCY
     seats: 15
-    price: 755
+    price: 760
 thumb: /img/p1020318.jpg
 images:
   - image: /img/ancient-1997162_1920-1-.jpg
@@ -161,8 +161,8 @@ priceNotContains:
   - text: Dodatkowych posiłków i napojów nie zawartych w programie
     icon: food
 ---
-* Trasa wycieczki: ok. 3000 km
-* Stopień trudności: łatwy
+* Termin wycieczki dostosowany jest do lotów linii WIzzAir: Warszawa - Kutaisi - Warszawa. Można przylecieć też z innego miasta i dołączyć do grupY, w tym przypadku prosimy o kontakt: vaimetravel@gmail.com
+* Stopień trudności: łatwy; trasa wycieczki: ok. 3000 km
 * Potrzebne dokumenty: test PCR wykonany nie wcześniej, niż 72h przed wylotem do Azerbejdżanu (koszt 28 euro=100 gel, wykonać można w Gruzji), wydrukowane zaświadczenie o przyjęciu szczepienia, paszport oraz e-visa (<https://evisa.gov.az/>)
 * Warunki pogodowe: w terenach górskich ok. +18°C, w terenach nizinnych ok. +30-32°C
 * Waluta:
