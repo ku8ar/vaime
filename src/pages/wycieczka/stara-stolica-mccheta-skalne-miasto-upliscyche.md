@@ -13,7 +13,7 @@ discount: 0
 tileTitle: ""
 terms:
   - startDate: 2021-10-11T09:39:57.496Z
-    endDate: 2022-11-30T09:39:57.521Z
+    endDate: 2021-12-30T09:39:57.521Z
     daysCount: "1"
     seats: 1
     price: 100
