@@ -13,11 +13,11 @@ informations: >+
 discount: 0
 tileTitle: ""
 terms:
-  - startDate: 2022-10-03T17:44:13.572Z
-    endDate: 2022-10-12T17:44:13.632Z
+  - startDate: 2022-06-08T17:44:13.572Z
+    endDate: 2023-06-17T17:44:13.632Z
     daysCount: 9 DNI/10 NOCY
     seats: 15
-    price: 620
+    price: 610
 thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
