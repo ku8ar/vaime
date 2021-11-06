@@ -8,7 +8,7 @@ description: Spacer po zakątkach starego Tbilisi
 discount: 0
 terms:
   - startDate: 2021-07-15T18:59:13.091Z
-    endDate: 2022-11-30T18:59:13.133Z
+    endDate: 2021-12-30T18:59:13.133Z
     daysCount: "1"
     seats: 1
     price: 100
