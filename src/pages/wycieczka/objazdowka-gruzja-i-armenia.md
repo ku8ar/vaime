@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: false
 minSeats: 7
-title: Kaukaski Duet - Gruzja i Armenia
+title: Objazdówka Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
 informations: >+
   Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków, pysznego
