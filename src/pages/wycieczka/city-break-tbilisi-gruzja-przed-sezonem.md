@@ -90,7 +90,7 @@ priceNotContains:
     icon: ticket
   - text: Dodatkowych posiłków i napojów nie zawartych w programie
     icon: food
-  - text: Opłaty na wstęp do jaskini Prometeusza (dodatkowo płatne 8 eur/os)
+  - text: Opłaty za wstęp do jaskini Prometeusza (dodatkowo płatne 8 eur/os)
     icon: cinemaTicket
 ---
 Terminy wycieczki są skorelowane z lotami linii lotniczych WizzAir, na trasie Warszawa - Kutaisi - Warszawa\
