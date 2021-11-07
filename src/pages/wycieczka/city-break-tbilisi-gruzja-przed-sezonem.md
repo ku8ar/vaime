@@ -6,7 +6,7 @@ minSeats: 5
 title: "City Break TBILISI - Gruzja przed sezonem "
 description: WIOSENNY CITY BREAK W GRUZJI
 informations: "Szybki wypad do Gruzji pozwoli odkryć najważniejsze i
-  najładniejsze zakątki kraju, zaznajomić się z kuchnią gruzińską i nabrać
+  najładniejsze zakątki Gruzji, zaznajomić się z kuchnią gruzińską i nabrać
   apetytu na dłuższę i głębsze odkrywanie naszego pięknego kraju. "
 discount: 0
 terms:
