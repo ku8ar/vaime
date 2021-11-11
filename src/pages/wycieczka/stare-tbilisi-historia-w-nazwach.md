@@ -6,6 +6,7 @@ minSeats: 1
 title: Tbilisi - serce Gruzji
 description: Spacer po zakątkach starego Tbilisi
 discount: 0
+tileTitle: Cena grupowa
 terms:
   - startDate: 2021-07-15T18:59:13.091Z
     endDate: 2021-12-30T18:59:13.133Z
