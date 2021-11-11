@@ -5,6 +5,8 @@ oneDay: true
 minSeats: 2
 title: Herbaciane pola Batumi
 description: Herbara, wino, kuchnia - idealna odskocznia od plażowania w batumi
+informations: "Cena wycieczki zależy od liczby osób, aby ustalić cenę, prosimy o
+  kontakt: vaimetravel@gmail.com"
 discount: 0
 tileTitle: Start z Batumi
 terms:
@@ -15,9 +17,9 @@ terms:
     price: 120
 thumb: /img/15167519_1193068994082284_4090557486304017614_o.jpg
 images:
-  - image: /img/georgia-5077358_960_720.jpg
+  - image: /img/batumi-bulvar.jpg
     name: Batumi
-map: /img/batumi-jednodniowa.png
+map: /img/batumi-jednodniowa.png.png
 schedule:
   - day: "1"
     place: "HERBACIANE POLA "
