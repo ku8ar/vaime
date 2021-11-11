@@ -6,6 +6,7 @@ minSeats: 2
 title: Herbaciane pola Batumi
 description: Herbara, wino, kuchnia - idealna odskocznia od plażowania w batumi
 discount: 0
+tileTitle: Start z Batumi
 terms:
   - startDate: 2021-11-11T16:59:05.076Z
     endDate: 2022-12-31T16:59:05.116Z
