@@ -3,7 +3,7 @@ templateKey: tour
 active: true
 oneDay: true
 minSeats: 2
-title: Początki państwowości Gruzji
+title: Gruzja - Początki Państwowości
 description: Chrześcijańska Mccheta i pogańskie skalne miasto Upliscyche
 informations: Zwiedzanie starej stolicy kraju, Mcchety, centrum religijnego
   Gruzji, oraz starożytnego skalnego miasta Upliscyche, pochodzącego jeszcze z
