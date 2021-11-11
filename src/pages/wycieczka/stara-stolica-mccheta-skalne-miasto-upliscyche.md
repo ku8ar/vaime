@@ -2,8 +2,8 @@
 templateKey: tour
 active: true
 oneDay: true
-minSeats: 1
-title: Stara stolica Mccheta, skalne miasto Upliscyche
+minSeats: 2
+title: Początki państwowości Gruzji
 description: Chrześcijańska Mccheta i pogańskie skalne miasto Upliscyche
 informations: Zwiedzanie starej stolicy kraju, Mcchety, centrum religijnego
   Gruzji, oraz starożytnego skalnego miasta Upliscyche, pochodzącego jeszcze z
@@ -17,7 +17,7 @@ terms:
     daysCount: "1"
     seats: 1
     price: 100
-thumb: /img/img_20191001_174049.jpg
+thumb: /img/georgia-3702417_1920.jpg
 images:
   - image: /img/IMG_2318.JPG
     name: skalne miasto Upliscyche
@@ -91,6 +91,6 @@ priceNotContains:
 
 * Długość trasy: ok. 200 km
 * Stopień trudności: łatwy
-* Ubiór: lekki, wygodne obuwie do chodzenia, chusta (panio zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
+* Ubiór: lekki, wygodne obuwie do chodzenia, chusta (paniom zaleca się mieć przy sobie nakrycie głowy do odwiedzania świątyń)
 * Leki: zaleca się mieć przy sobie krem przeciwsłoneczny (można też kupić na miejscu)
 * Podane godziny zwiedzania mogą nieznacznie się różnić od realizowanego programu, w zależności od warunków pogodowych i tempa zwiedzania
