@@ -46,7 +46,7 @@ schedule:
       Długość zwiedzania winnicy i degustacji - ok 1,5-2 godz.
   - day: "3"
     place: Warsztaty kulinarne
-    text: Wyjazd do wsi Achalsopeli (przejazd ok. 20-30 minut), do lokalnego
+    text: 15:30 - Wyjazd do wsi Achalsopeli (przejazd ok. 20-30 minut), do lokalnego
       gospodarza, gdzie odbędzie się warsztat lepienia chinkali. Gospodarz
       opowie również o innych gruzińskich daniach, o historii przepisów, o
       winiarstwie itd (gospodarz mówi w języku polskim). Na warsztatach można
@@ -54,8 +54,8 @@ schedule:
   - day: "4"
     place: Supra
     text: >
-      Po warsztatach gospodarz zaprosi do stołu, aby spróbować gruzińskich dań,
-      nie zabraknie przy stole wina. 
+      17:00 - Po warsztatach gospodarz zaprosi do stołu, aby spróbować
+      gruzińskich dań, nie zabraknie przy stole wina. 
 
       Obiadokolacja będzie się składać z kilku dań, do tego podane będzie wino i czacza. 
   - day: "5"
