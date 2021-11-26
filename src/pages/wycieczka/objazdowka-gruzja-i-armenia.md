@@ -10,7 +10,7 @@ informations: >+
   jedzenia i życzliwych ludzi czekają na Was! 
 
 
-discount: 5
+discount: 7
 tileTitle: BLACK FRIDAY
 terms:
   - startDate: 2022-06-08T17:44:13.572Z
