@@ -11,7 +11,7 @@ informations: >+
 
   Dwa egzotyczne kraje Kaukazu mają sporo wspólnego, ale jeszcze więcej różnic - kulturowych, religijnych czy gastronomicznych. Nasza objazdówka pozwoli na bliższe poznanie skarbów Gruzji i Azerbejdżanu.
 
-discount: 5
+discount: 7
 tileTitle: BLACK FRIDAY
 terms:
   - startDate: 2022-10-04T20:45:50.268Z
