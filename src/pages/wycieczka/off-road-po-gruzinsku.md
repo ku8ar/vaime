@@ -15,7 +15,7 @@ terms:
   - startDate: 2022-07-30T12:08:25.411Z
     endDate: 2022-08-06T12:08:25.446Z
     daysCount: 7 DNI/8 NOCY
-    seats: 15
+    seats: 13
     price: 510
 thumb: /img/img_20180718_135553.jpg
 images:
