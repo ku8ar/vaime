@@ -9,8 +9,8 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
   możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
   szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
   skosztowaniem pysznej gruzińskiej kuchni i wina.  "
-discount: 0
-tileTitle: ""
+discount: 10
+tileTitle: BLACK FRIDAY
 terms:
   - startDate: 2022-07-30T12:08:25.411Z
     endDate: 2022-08-06T12:08:25.446Z
