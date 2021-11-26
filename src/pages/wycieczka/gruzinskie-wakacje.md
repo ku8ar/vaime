@@ -7,8 +7,8 @@ description: Wakacje w gruzji? Czemu nie!
 informations: Nasza czerwcowa objazdówka pomoże Wam odkryć najpopularniejsze
   miejscówki w Gruzji i zainspirować Was do zbadania kolejnych regionów i
   zabytków.
-discount: 0
-tileTitle: ""
+discount: 10
+tileTitle: BLACK FRIDAY
 terms:
   - price: 530
     seats: 15
