@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 oneDay: false
-minSeats: 7
+minSeats: 1
 title: Off-road po gruzińsku
 description: Przejażdżka po najpięknieszych górskich regionach - Racza i Chewi
 informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nami
