@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 oneDay: false
-minSeats: 7
+minSeats: 1
 title: Objazdówka Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
 informations: >+
