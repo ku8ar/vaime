@@ -2,7 +2,7 @@
 templateKey: tour
 active: true
 oneDay: false
-minSeats: 5
+minSeats: 1
 title: City Break - Gruzja przed sezonem
 description: Wiosenny city break w Gruzji
 informations: "Szybki wypad do Gruzji pozwoli odkryć najważniejsze i
