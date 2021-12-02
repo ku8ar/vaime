@@ -9,7 +9,7 @@ informations: Kuchnia gruzińska, pełna egzotycznych przypraw, świeże owoce,
   domowe wino, warsztaty kulinarne - ten wyjazd zadowoli każdego smakosza
   pysznego jedzenia i dobrego wina . Zapraszamy na naszą apetyczną wycieczkę!
 discount: 0
-tileTitle: ""
+tileTitle: ostatnie miejsca
 terms:
   - startDate: 2022-08-16T11:00:14.238Z
     endDate: 2022-08-23T11:00:14.328Z
