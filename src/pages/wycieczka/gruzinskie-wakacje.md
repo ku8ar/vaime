@@ -11,7 +11,7 @@ discount: 0
 tileTitle: ""
 terms:
   - price: 530
-    seats: 15
+    seats: 13
     daysCount: 8 DNI/9 NOCY
     startDate: 2022-06-15T20:00:00.000Z
     endDate: 2022-06-23T20:00:00.000Z
