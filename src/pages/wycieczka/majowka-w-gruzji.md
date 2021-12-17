@@ -8,8 +8,8 @@ informations: "Nasza majówka to doskonałe połączenie najbardziej popularnych
   atrakcji turystycznych Gruzji z nieodkrytymi, ciekawymi miejscami. Wystarczy
   tylko trochę zboczyć ze szlaku, aby znaleźć prawdziwe gruzińskie perełki -
   widoki, kuchnię i gościnność. "
-discount: 0
-tileTitle: ""
+discount: 10
+tileTitle: do 31.12.2021
 terms:
   - daysCount: 8 DNI/7 NOCY
     endDate: 2022-05-07T17:40:01.392Z
