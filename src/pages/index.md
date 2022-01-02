@@ -4,7 +4,7 @@ title: Wycieczki po Gruzji z Nini i Mają
 description: Biuro podróży Vaime Travel | Wycieczki objazdowe Gruzja, Armenia,
   Azerbejdżan, Kaukaz
 heroTitle: GRUZJA, ARMENIA, AZERBEJDŻAN
-heroSubtitle: -10% na wybrane wycieczki 2022!
+heroSubtitle: PODRÓŻUJ RAZEM Z NAMI
 heroButtonTitle: SPRAWDŹ OFERTY
 heroInfoBelt:
   - label: Najciekawsze atrakcje
