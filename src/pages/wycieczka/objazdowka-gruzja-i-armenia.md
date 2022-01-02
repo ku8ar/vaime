@@ -10,8 +10,8 @@ informations: >+
   jedzenia i życzliwych ludzi czekają na Was! 
 
 
-discount: 10
-tileTitle: do 31.12.2021
+discount: 0
+tileTitle: ""
 terms:
   - startDate: 2022-06-08T17:44:13.572Z
     endDate: 2023-06-17T17:44:13.632Z
