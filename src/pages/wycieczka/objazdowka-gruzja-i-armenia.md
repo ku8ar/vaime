@@ -16,7 +16,7 @@ terms:
   - startDate: 2022-06-08T17:44:13.572Z
     endDate: 2023-06-17T17:44:13.632Z
     daysCount: 9 DNI/10 NOCY
-    seats: 14
+    seats: 12
     price: 610
 thumb: /img/armenia-3721463.jpg
 images:
