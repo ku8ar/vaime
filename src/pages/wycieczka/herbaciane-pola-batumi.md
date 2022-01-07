@@ -10,7 +10,7 @@ informations: "Cena wycieczki zależy od liczby osób, aby ustalić cenę, prosi
 discount: 0
 tileTitle: Start z Batumi
 terms:
-  - startDate: 2021-11-11T16:59:05.076Z
+  - startDate: 2022-01-01T16:59:05.076Z
     endDate: 2022-12-31T16:59:05.116Z
     daysCount: "1"
     seats: 2
