@@ -7,7 +7,7 @@ title: "Kacheti - Kraina Wina "
 description: Wino, góry, doliny
 discount: 0
 terms:
-  - startDate: 2021-04-01T16:50:00.000Z
+  - startDate: 2022-01-01T16:50:00.000Z
     endDate: 2021-12-30T16:50:00.000Z
     daysCount: "1"
     seats: 1
