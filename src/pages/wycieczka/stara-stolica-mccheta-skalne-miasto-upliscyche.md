@@ -12,7 +12,7 @@ informations: Zwiedzanie starej stolicy kraju, Mcchety, centrum religijnego
 discount: 0
 tileTitle: ""
 terms:
-  - startDate: 2021-10-11T09:39:57.496Z
+  - startDate: 2022-01-01T09:39:57.496Z
     endDate: 2021-12-30T09:39:57.521Z
     daysCount: "1"
     seats: 1
