@@ -14,7 +14,7 @@ terms:
   - startDate: 2022-03-19T12:51:37.482Z
     endDate: 2022-03-22T12:51:37.523Z
     daysCount: 3 DNI/4 NOCE
-    seats: 14
+    seats: 11
     price: 200
 thumb: /img/orthodox-4994172-1-.jpg
 images:
