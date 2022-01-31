@@ -9,7 +9,7 @@ informations: "Szybki wypad do Gruzji pozwoli odkryć najważniejsze i
   najładniejsze zakątki Gruzji, zaznajomić się z kuchnią gruzińską i nabrać
   apetytu na dłuższę i głębsze odkrywanie naszego pięknego kraju. "
 discount: 0
-tileTitle: ""
+tileTitle: ostatnie miejsca
 terms:
   - startDate: 2022-03-19T12:51:37.482Z
     endDate: 2022-03-22T12:51:37.523Z
