@@ -16,7 +16,7 @@ terms:
     daysCount: 8 DNI/7 NOCY
     seats: 7
     price: 550
-thumb: /img/xinkali-23.jpg
+thumb: /img/4.jpg
 images:
   - image: /img/gastroprzyga_acharuli.jpg
     name: Adżarskie chaczapuri
