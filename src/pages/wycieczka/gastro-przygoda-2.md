@@ -31,49 +31,27 @@ schedule:
     place: Start
     day: "1"
   - day: "2"
-    place: Adżarskie Chaczapuri
+    place: WINNICE I SKALNE MIASTO
     text: >+
-      Śniadanie. Transfer do nadmorskiego kurortu Batumi. Czas na odpoczynek.
-      Krótki spacer po mieście, po spacerze zaczynamy naszą przygodę z kuchnią
-      gruzińską. W Batumi do spróbowania mamy: adżarskie chaczapuri z jajkiem,
-      borano (smażone masło z serem), aczma (rodzaj chaczapuri, podobne do
-      lasagne) i oczywiście czarnomorskie ryby. Przed kolacją udamy się na
-      krótki rejs statkiem, oraz jeśli czas pozwoli, na targ rybny. Nocleg w
-      Batumi.
-
-
-  - day: "3"
-    place: "Herbaciane Pola "
-    text: >+
-      Filipinki jeszcze w latach 60-tych śpiewały o herbacianych polach Batumi,
-      więc nasza podróż nie może się odbyć bez zobaczenia tych herbacianych pól
-      i bez spróbowania prawdziwej gruzińskiej herbaty. W tym celu udamy się
-      regionu Guria, do miasteczka Ozurgeti, gdzie czekać na nas będą różne
-      atrakcje, m.in. zbieranie herbaty, a nasza gospodyni opowie nam całą
-      historię związaną z wprowadzeniem kultury herbaty do Gruzji. Mały lunch,
-      powrót do miasta. W drodze powrotnej odwiedzimy ogród botaniczny Batumi,
-      który już od 100 lat cieszy gości Adżarii pięknem egzotycznej natury.
-      Kolacja, nocleg w Batumi.
-
-  - day: "4"
-    place: Winnice i skalne miasto
-    text: "Po śniadaniu wyruszamy w kierunku Tbilisi. Po drodze zatrzymamy się na
+      Po śniadaniu wyruszamy w kierunku Tbilisi. Po drodze zatrzymamy się na
       spróbowanie słodkich chlebków Nazuki, które można znaleźć tylko w jednej
       miejscowości o nazwie Surami, więc jak będziemy ją mijać, nie można nie
       zahaczyć o ten lokalny smakołyk. Kolejny przystanek będzie w mieście Gori,
       gdzie zrobimy lunch w bardzo klimatycznej winnicy - spróbujemy
       tradycyjnych dań i win tego regionu. Po lunchu czeka na nas zwiedzanie
       skalnego miasta Upliscyche, które było zamieszkane jeszcze w III wieku
-      p.n.e. Naszym kolejnytym punktem zwiedzania będzie miejscowość Mccheta
+      p.n.e. Naszym kolejnym punktem zwiedzania będzie miejscowość Mccheta
       (UNESCO). Miasto to kolebka chrześcijaństwa w Gruzji, właśnie tu w IV
       wieku przyjęto chrześcijaństwo jako państwową religię. Odwiedzimy
       najważniejsze obiekty sakralne z listy UNESCO – katedrę Sweticchoweli z XI
       i monastyr Dżwari z VI wieku, którego rozciąga się przepiękny widok na
       całe miasto. Po zwiedzaniu dojazd do Tbilisi. Kolacja w lokalnej
-      restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi. "
-  - day: "5"
-    place: Kulinarne warsztaty w stolicy
-    text: >
+      restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi.
+
+
+  - day: "3"
+    place: KULINARNE WARSZTATY W STOLICY
+    text: >+
       Cały dzień spędzimy w stolicy. Wjazd kolejką gondolową na taras widokowy,
       na którym ustawiony jest pomnik Matki Gruzji – podziwianie panoramy
       miasta, spacer przez Stare Miasto – znajdziemy tu obok siebie cerkwie
@@ -84,14 +62,19 @@ schedule:
       kuchni gruzińskiej, jak chaczapuri i bakłażany z orzechami. Czas wolny,
       możliwość korzystania z łaźni siarkowych (we własnym zakresie). Kolacja i
       nocleg w Tbilisi.
-  - day: "6"
-    place: Kaukaz i chinkali
-    text: >
-      Wyjazd Gruzińską Drogą Wojenną w kierunku Stepancminda (Kazbegi).
 
-      Przejazd wzdłuż rzeki Aragwi, przez Przełęcz Krzyżową. Po drodze obejrzymy malowniczą twierdzę Ananuri położoną nad rzeką Aragwi. Z Kazbegi wjazd samochodami terenowymi do zabytkowego kościoła Trójcy Świętej położonego na wysokości 2020 m n.p.m. (wjazd odbędzie się jeżeli pozwolą na to warunki atmosferyczne). Przy ładnej pogodzie rozpościera się stąd piękny widok na jeden z najwyższych szczytów Gruzji - górę Kazbek (5047 m). Powrót do Tbilisi. Kolacja i nocleg.
-  - day: "7"
-    place: biesiada i folklor
+  - day: "4"
+    place: KAUKAZ I CHINKALI
+    text: Wyjazd Gruzińską Drogą Wojenną w kierunku Stepancminda (Kazbegi). Przejazd
+      wzdłuż rzeki Aragwi, przez Przełęcz Krzyżową. Po drodze obejrzymy
+      malowniczą twierdzę Ananuri położoną nad rzeką Aragwi. Z Kazbegi wjazd
+      samochodami terenowymi do zabytkowego kościoła Trójcy Świętej położonego
+      na wysokości 2020 m n.p.m. (wjazd odbędzie się jeżeli pozwolą na to
+      warunki atmosferyczne). Przy ładnej pogodzie rozpościera się stąd piękny
+      widok na jeden z najwyższych szczytów Gruzji - górę Kazbek (5047 m).
+      Powrót do Tbilisi. Kolacja i nocleg.
+  - day: "5"
+    place: BIESIADA I FOLKLOR
     text: >
       Wyjazd do Kachetii, krainy wina. Przejazd do miasta Telawi, wizyta na
       lokalnym bazarze, pełnym przypraw, win, bimbru, owoców i warzyw. Po
@@ -100,6 +83,28 @@ schedule:
       i robić czurczchele (słodycze gruzińskie), a po wszystkim skosztujemy
       prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam chojną
       suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
+  - day: "6"
+    place: ADŻARSKIE CHACZAPURI
+    text: >
+      Śniadanie. Transfer do nadmorskiego kurortu Batumi. Czas na odpoczynek.
+      Krótki spacer po mieście, po spacerze zaczynamy naszą przygodę z kuchnią
+      gruzińską. W Batumi do spróbowania mamy: adżarskie chaczapuri z jajkiem,
+      borano (smażone masło z serem), aczma (rodzaj chaczapuri, podobne do
+      lasagne) i oczywiście czarnomorskie ryby. Przed kolacją udamy się na
+      krótki rejs statkiem, oraz jeśli czas pozwoli, na targ rybny. Nocleg w
+      Batumi.
+  - day: "7"
+    place: HERBACIANE POLA
+    text: >
+      Filipinki jeszcze w latach 60-tych śpiewały o herbacianych polach Batumi,
+      więc nasza podróż nie może się odbyć bez zobaczenia tych herbacianych pól
+      i bez spróbowania prawdziwej gruzińskiej herbaty. W tym celu udamy się
+      regionu Guria, do miasteczka Ozurgeti, gdzie czekać na nas będą różne
+      atrakcje, m.in. zbieranie herbaty, a nasza gospodyni opowie nam całą
+      historię związaną z wprowadzeniem kultury herbaty do Gruzji. Mały lunch,
+      powrót do miasta. W drodze powrotnej odwiedzimy ogród botaniczny Batumi,
+      który już od 100 lat cieszy gości Adżarii pięknem egzotycznej natury.
+      Kolacja, nocleg w Batumi.
   - day: "8"
     place: TRANSFER na lotnisko
     text: >-
