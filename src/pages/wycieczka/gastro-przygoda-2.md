@@ -81,7 +81,7 @@ schedule:
       zakupach i spacerku po mieście udajemy się do miejscowego winiarza, gdzie
       czekają na nas warsztaty kulinarne. Nauczymy się piec gruzińskiej chlebki
       i robić czurczchele (słodycze gruzińskie), a po wszystkim skosztujemy
-      prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam chojną
+      prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam hojną
       suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
   - day: "6"
     place: ADŻARSKIE CHACZAPURI
