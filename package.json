@@ -37,7 +37,7 @@
     "gatsby-transformer-sharp": "^2.9.0",
     "nanogram.js": "^3.0.2",
     "netlify-cms-app": "^2.14.8",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "rambda": "^6.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
