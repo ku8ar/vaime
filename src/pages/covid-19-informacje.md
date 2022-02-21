@@ -11,6 +11,7 @@ hideContact: false
 showFlights: false
 ---
 #### **ZASADY WJAZDU DO GRUZJI**
+
 (Aktualizacja 02.2022)
 
 **Obywatele polscy, przylatujący samolotem do Gruzji bezpośrednio z następujących krajów (w tym podróżujący tranzytem przez kraje trzecie):**
@@ -39,7 +40,7 @@ showFlights: false
 
 #
 
-###### WJAZD DO GRUZJI DROGĄ LĄDOWĄ
+#### WJAZD DO GRUZJI DROGĄ LĄDOWĄ
 
 **ARMENIA** \
 Punkty graniczne otwarte: Sadakhlo (region Kvemo Kartli) oraz Bavra (region Samtskhe-Javakheti) \
@@ -61,23 +62,17 @@ Punkty graniczne zamknięte: Lagodekhi (region Kakheti), Red Bridge (region Kvem
 * **dla osób niezaszczepionych:** zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin, trzeciego dnia pobytu w Gruzji poddać się kolejnemu badaniu PCR. \
   Niedostosowanie się do powyższych zasad grozi grzywną pieniężną w wysokości 2000 GEL, naliczaną przy wyjeździe/wylocie z Gruzji.
 
-
-
 **Przekroczenie granicy gruzińsko-ormiańskiej:** \
 Aby wjechać na terytorium Armenii z Gruzji, przy kontroli granicznej należy okazać: 
 
 * zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim). 
 * w przypadku braku szczepienia - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin. 
 
-
-
 **Przekroczenie granicy gruzińsko-azerskiej:** \
 Do Azerbejdżanu aktualnie dostać można tylko drogą powietrzną, w tym bezpośrednimi lotami z Tbilisi do Baku, granice są otwarte tylko dla osób zaszczepionych. \
 Przy kontroli paszportowej na lotnisku w Baku należy okazać zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim) oraz zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin. 
 
-
-
-**Przekroczenie granicy gruzińsko-tureckiej:** \
+**Przekroczenie granicy gruzińsko-tureckiej:**
 Aby wjechać na terytorium Turcji z Gruzji, przy kontroli granicznej należy okazać: 
 
 * zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim). 
@@ -85,8 +80,6 @@ Aby wjechać na terytorium Turcji z Gruzji, przy kontroli granicznej należy oka
 
 oraz 48 godz. przed planowaną podróżą wypełnić formularz https://register.health.gov.tr/ , wygenerowany QR kod po wypełnieniu formularza należy również okazać tureckiej straży granicznej.
 
-
-
-
+#
 
 **Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/en](https://stopcov.ge/en/)**
