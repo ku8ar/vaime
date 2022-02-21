@@ -38,12 +38,11 @@ showFlights: false
 
 **Obostrzenia w Gruzji:** obiekty gastronomiczne działają maksymalnie do północy, ograniczona jest działalność klubów nocnych, obowiązek noszenia maseczek zarówno w transporcie, pomieszczeniach zamkniętych, jak i na zewnątrz. 
 
-### \
-\
-\
+
+
+###### \
 WJAZD DO GRUZJI DROGĄ LĄDOWĄ
 
-\
 **ARMENIA** \
 Punkty graniczne otwarte: Sadakhlo (region Kvemo Kartli) oraz Bavra (region Samtskhe-Javakheti) \
 \
@@ -87,5 +86,9 @@ Aby wjechać na terytorium Turcji z Gruzji, przy kontroli granicznej należy oka
 * w przypadku braku szczepienia - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin
 
 oraz 48 godz. przed planowaną podróżą wypełnić formularz https://register.health.gov.tr/ , wygenerowany QR kod po wypełnieniu formularza należy również okazać tureckiej straży granicznej.
+
+
+
+
 
 **Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/en](https://stopcov.ge/en/)**
