@@ -37,10 +37,9 @@ showFlights: false
 
 **Obostrzenia w Gruzji:** obiekty gastronomiczne działają maksymalnie do północy, ograniczona jest działalność klubów nocnych, obowiązek noszenia maseczek zarówno w transporcie, pomieszczeniach zamkniętych, jak i na zewnątrz. 
 
+#
 
-
-###### \
-WJAZD DO GRUZJI DROGĄ LĄDOWĄ
+###### WJAZD DO GRUZJI DROGĄ LĄDOWĄ
 
 **ARMENIA** \
 Punkty graniczne otwarte: Sadakhlo (region Kvemo Kartli) oraz Bavra (region Samtskhe-Javakheti) \
