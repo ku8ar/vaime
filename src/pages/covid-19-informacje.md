@@ -40,7 +40,7 @@ showFlights: false
 
 #
 
-#### WJAZD DO GRUZJI DROGĄ LĄDOWĄ
+#### **WJAZD DO GRUZJI DROGĄ LĄDOWĄ**
 
 **ARMENIA** \
 Punkty graniczne otwarte: Sadakhlo (region Kvemo Kartli) oraz Bavra (region Samtskhe-Javakheti) \
