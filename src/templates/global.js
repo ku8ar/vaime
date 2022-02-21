@@ -1,5 +1,7 @@
 import React from 'react'
 
-export default () => (
+const Global = () => (
   <p></p>
 )
+
+export default Global
