@@ -9,12 +9,12 @@ informations: Kuchnia gruzińska, pełna egzotycznych przypraw, świeże owoce,
   domowe wino, warsztaty kulinarne - ten wyjazd zadowoli każdego smakosza
   pysznego jedzenia i dobrego wina . Zapraszamy na naszą apetyczną wycieczkę!
 discount: 0
-tileTitle: TEST PCR GRATIS!
+tileTitle: ""
 terms:
-  - startDate: 2021-07-10T11:00:14.238Z
-    endDate: 2021-07-17T11:00:14.328Z
+  - startDate: 2022-08-16T11:00:14.238Z
+    endDate: 2022-08-23T11:00:14.328Z
     daysCount: 8 DNI/7 NOCY
-    seats: 4
+    seats: 0
     price: 550
 thumb: /img/xinkali-23.jpg
 images:
@@ -93,13 +93,17 @@ schedule:
   - day: "7"
     place: biesiada i folklor
     text: >
-      Wyjazd do Kachetii, krainy wina. Przejazd do miasta Telawi, wizyta na
-      lokalnym bazarze, pełnym przypraw, win, bimbru, owoców i warzyw. Po
-      zakupach i spacerku po mieście udajemy się do miejscowego winiarza, gdzie
-      czekają na nas warsztaty kulinarne. Nauczymy się piec gruzińskiej chlebki
-      i robić czurczchele (słodycze gruzińskie), a po wszystkim skosztujemy
-      prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam chojną
-      suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
+      Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
+      “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
+      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
+      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
+      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
+      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
+      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
+      smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
+      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
+      połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "8"
     place: TRANSFER na lotnisko
     text: >-
@@ -132,7 +136,6 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
-  - text: "Test PCR na trzeci dzień po przylocie do Gruzji "
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket

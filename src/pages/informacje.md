@@ -48,11 +48,13 @@ qa:
     answer: >-
       Podróżujący z UE powinni okazać na granicy 
 
-      - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR (w cenie naszych wycieczek).
+      - wydrukowane zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19
 
-      albo 
+      lub
 
-      - zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19 (w języku angielskim).
+      - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR 
+
+
 
 
       Więcej informacji znajdziecie tutaj: https://vaimetravel.com/covid-19-informacje

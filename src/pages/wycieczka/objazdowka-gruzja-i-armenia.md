@@ -1,43 +1,50 @@
 ---
 templateKey: tour
-active: false
+active: true
 oneDay: false
 minSeats: 1
-title: Objazdówka - Gruzja i Armenia
+title: Objazdówka Gruzja i Armenia
 description: ODWIEDŹ NAJPIĘKNIEJSZE ZAKĄTKI KAUKAZU
 informations: >+
   Dwa najstarsze chrześcijańskie kraje, pełne niesamowitych widoków, pysznego
   jedzenia i życzliwych ludzi czekają na Was! 
 
 
-discount: 0
-tileTitle: Test PCR gratis!
+discount: 10
+tileTitle: zniżka
 terms:
-  - startDate: 2021-10-05T17:44:13.572Z
-    endDate: 2021-10-15T17:44:13.632Z
-    daysCount: 10 DNI/11 NOCY
-    seats: 14
-    price: 640
-thumb: /img/armenia-3716853-1-.jpg
+  - startDate: 2022-06-08T17:44:13.572Z
+    endDate: 2023-06-17T17:44:13.632Z
+    daysCount: 9 DNI/10 NOCY
+    seats: 12
+    price: 610
+thumb: /img/armenia-3721463.jpg
 images:
   - image: /img/lake-sevan-2021712.jpg
     name: Sewanawank, Jezioro Sewan, Armenia
   - image: /img/vardzia-5187928_1920.jpg
     name: Skalne Miasto Wardzia
-  - image: /img/p1020020.jpg
+  - image: /img/cathedral-1781012-1-.jpg
     name: Pogańska Świątynia Garni, Armenia
 map: /img/kaukasi-duet-2021.png
 schedule:
   - day: "1"
     place: Tbilisi
-    text: "Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek.
-      Śniadanie, zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
-      – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli nam na
-      podziwianie panoramy miasta, z twierdzy natomiast otwiera się przepiękny
-      widok na całą stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte
-      uliczki starego Tbilisi, najważniejsze świątynie miasta: katedra Sioni
-      (XVII w.), oraz najstarsza cerkiew Tbilisi – Anczischati (VII w.). Kolacja
-      w restauracji z pokazem tańców gruzińskich. Nocleg w Tbilisi."
+    text: >-
+      Przylot do Tbilisi o 04:00, zakwaterowanie, czas na odpoczynek. Śniadanie,
+      zwiedzanie starego miasta oraz najważniejszych zabytków stolicy – twierdzy
+      Narikala, na którą wjedziemy kolejką linową, co pozwoli nam na podziwianie
+      panoramy miasta, z twierdzy natomiast otwiera się przepiękny widok na całą
+      stolicę; Abanotubani (dzielnica łaźni siarkowych), kręte uliczki starego
+      Tbilisi, najważniejsze świątynie miasta: katedra Sioni (XVII w.), oraz
+      najstarsza cerkiew Tbilisi – Anczischati (VII w.). Zawitamy również do
+      religijnego centrum Gruzji, starej stolicy Mcchety. Mccheta jest kolebką
+      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
+      jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
+      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.). Kolacja
+      w restauracji z pokazem tańców gruzińskich. 
+
+      Nocleg w Tbilisi.
   - day: "2"
     place: Tbilisi - Kazbegi - Tbilisi
     text: Śniadanie, wyjazd z Tbilisi w góry Wielkiego Kaukazu słynną Gruzińską
@@ -51,6 +58,19 @@ schedule:
       można szczyt Kazbek (5054 m), drugi najwyższy szczyt kraju. Po zwiedzaniu
       powrót do Tbilisi, obiadokolacja po drodze, nocleg w Tbilisi.
   - day: "3"
+    place: Tbilisi - Bodbe - Signagi
+    text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
+      “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
+      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
+      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
+      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
+      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
+      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
+      smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
+      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
+      połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
+  - day: "4"
     place: Tbilisi - Sewan
     text: "Po śniadaniu przejazd na granicę ormiańską, przekroczenie granicy. Na
       trasie zawitamy do klasztoru Hachpat (X w), który jest wpisany na listę
@@ -59,7 +79,7 @@ schedule:
       Jest to największe jezioro Armenii, tutaj czeka nas spacer na półwyspie i
       zwiedzanie monastyru Sewanawank (IX w.). Odpoczynek, obiadokolacja, nocleg
       nad jeziorem. "
-  - day: "4"
+  - day: "5"
     place: Sewan - Erywań
     text: >-
       Śniadanie, wyjazd do Erywania. zakwaterowanie. Zwiedzanie stolicy Armenii.
@@ -76,7 +96,7 @@ schedule:
       upamiętniającego ofiary rzezi Ormian na początku XX wieku. 
 
       Dzień zakończymy degustacją prawdziwego ormiańskiego koniaku oraz obiadokolacją. Nocleg w Erywaniu.
-  - day: "5"
+  - day: "6"
     place: Erywań - Eczmiadzyn - przełęcz Selim - Tatew - Goris
     text: >-
       Śniadanie, udajemy się do miasta Wagharszapat (Eczmiadzyn). Eczmiadzyn
@@ -89,7 +109,7 @@ schedule:
       UNESCO. 
 
       Wyjazd w kierunku prowincji Sjunik. Po drodze przejeżdżamy przełęcz Sulema albo Selim (2410 m), gdzie zatrzymamy się, aby zajrzeć do tajemniczego karawanseraju, czyli schronu dla podróżujących wzdłuż Jedwabnego Szlaku kupców i handlarzy. Po krótkiej przerwie kontynuujemy naszą podróż w kierunku klasztoru Tatew. Po przybyciu na miejsce, dostaniemy się do klasztoru za pomocą kolejki linowej, zwanej "Skrzydła Tatewu", podróż kolejką potrwa ok. 20 minut. Klasztor Tatew to jeden z najbardziej majestatycznych zabytków sakralnych Armenii, wzniesiony został w IX wieku. Po zwiedzaniu przejedziemy do uroczego miasteczka Goris na obiadokolację i nocleg.
-  - day: "6"
+  - day: "7"
     place: Goris - Geghard - Garni - Erywań
     text: "Śniadanie, wyjazd w kierunku stolicy. W okolicach Erywania zwiedzamy dwa
       unikatowe zabytki: klasztor Geghard, część którego jest wykuta w skale, a
@@ -98,7 +118,7 @@ schedule:
       jedyna pogańska świątynia, zbudowana w stylu klasycznym w I w. n.e., do
       dziś w całości zachowana. Świątynia o nazwie Garni poświęcona była bóstwu
       słońca Mitrze. Obiadokolacja i nocleg w Erywaniu."
-  - day: "7"
+  - day: "8"
     place: Erywań - Wardzia - Achalcyche
     text: Śniadanie. Wyjazd do Gruzji, przekroczenie granicy Bawra. Zwiedzanie
       skalnego miasta Wardzii. Jest to miasto wykute w skałach jeszcze w XII
@@ -107,43 +127,22 @@ schedule:
       małych, wąskich komnatach i przemieszczać się przez małe tunele, dzięki
       czemu poczujemy klimat tego magicznego miejsca. Nocleg i obiadokolacja w
       Wardzii lub Achalcyche.
-  - day: "8"
+  - day: "9"
     place: Achalcyche - Bordżomi - Tbilisi
     text: Śniadanie, przejazd do legendarnego uzdrowiska Bordżomi. Z miejscowości
       pochodzi słynna woda o tej samej nazwie, której będziemy mogli się napić
       prosto ze źródła podczas spaceru po bordżomskim parku zdrojowym. Po
-      zwiedzaniu Bordżomi, ruszamy do stolicy. Po drodze zawitamy do religijnego
-      centrum Gruzji, starej stolicy Mcchety. Mccheta jest kolebką
-      chrześcijaństwa w Gruzji, właśnie tu w IV wieku przyjęto chrześcijaństwo
-      jako państwową religię. Odwiedzimy najważniejsze obiekty sakralne z listy
-      UNESCO – katedrę Sweticchoweli (XI w.) i monastyr Dżwari (VI w.). Dojazd
-      do Tbilisi, obiadokolacja, nocleg.
-  - day: "9"
-    place: Tbilisi - Bodbe - Signagi
-    text: Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
-      “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
-      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
-      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
-      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
-      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
-      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
-      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
-      smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
-      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
-      połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
+      zwiedzaniu Bordżomi, ruszamy do stolicy. Dojazd do Tbilisi, pożegnalna
+      obiadokolacja, nocleg.
   - day: "10"
-    place: Tbilisi
-    text: Śniadanie w hotelu. Wolny dzień w Tbilisi, czas na spacery, zakupy
-      pamiątek itd. Wieczorem pożegnalna obiadokolacja w restauracji z pokazem
-      folklorystycznym. Nocleg w Tbilisi.
-  - day: "11"
     place: Transfer na lotnisko
     text: Śniadanie w formie paczek śniadaniowych, transfer na lotnisko, wylot do
       Polski.
 priceContains:
   - text: Noclegi w hotelu 3* w Tbilisi, Erywaniu
     icon: hotel
-  - text: Noclegi w agroturystyce w Wardzii/Achalcyche (pokoje z łazienkami)
+  - text: Noclegi w agroturystyce w Wardzii/Achalcyche i nad Sewanem (pokoje z
+      łazienkami)
     icon: home
   - text: Śniadania i obiadokolacje
     icon: restaurant
@@ -161,12 +160,12 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany bus
     icon: bus
-  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket
   - text: Dodatkowych posiłków i napojów nie zawartych w programie
     icon: food
+  - text: Testu PCR potrzebnego na granicy ormiańsko-gruzińskiej
 ---
 * Trasa wycieczki: ok. 2400 km
 * Stopień trudności: łatwy

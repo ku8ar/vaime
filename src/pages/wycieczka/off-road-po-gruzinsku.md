@@ -9,14 +9,14 @@ informations: "W Gruzji mówimy, że tylko w górach jest wolność. Razem z nam
   możecie przekonać się w tym sami! Zapraszamy na zwiedzanie ukrytych wśród
   szczytów wiosek, rozległych dolin i świątyń w górach. Wszystko połączone z
   skosztowaniem pysznej gruzińskiej kuchni i wina.  "
-discount: 15
-tileTitle: "PCR gratis! Zniżka "
+discount: 0
+tileTitle: Ostatnie miejsca
 terms:
-  - startDate: 2021-06-19T12:08:25.411Z
-    endDate: 2021-06-26T12:08:25.446Z
+  - startDate: 2022-07-30T12:08:25.411Z
+    endDate: 2022-08-06T12:08:25.446Z
     daysCount: 7 DNI/8 NOCY
     seats: 0
-    price: 495
+    price: 510
 thumb: /img/img_20180718_135553.jpg
 images:
   - image: /img/img_20180709_182231.jpg
@@ -28,10 +28,10 @@ images:
 map: /img/racha.png
 schedule:
   - day: "1"
-    place: 19.06 - Kutaisi
+    place: Kutaisi
     text: Przylot do Kutaisi, późna kolacja, nocleg w Kutaisi.
   - day: "2"
-    place: 20.06 - Kutaisi - Ambrolauri
+    place: Kutaisi - Ambrolauri
     text: Śniadanie, wykwaterowanie z hotelu. Wyjeżdżamy w kierunku jednego z
       najładniejszych górskich regionów Gruzji - Racza. Samochodami terenowymi
       wjedziemy na grzbiet Nakerala, który oddziela regiony Imereti i Racza i
@@ -44,7 +44,7 @@ schedule:
       XVII w. Po zwiedzaniu dojazd do miasteczka Ambrolauri, obiadokolacja
       połączona z degustacją tradycyjnego wina Chwanczkara, nocleg.
   - day: "3"
-    place: 21.06 - Ambrolauri - Górna Racza - Kutaisi
+    place: Ambrolauri - Górna Racza - Kutaisi
     text: Śniadanie, wykwaterowanie z hotelu. Nasz off-road kontynuujemy w kierunku
       górnej Raczy. Region Racza zdecydowanie wyróżnia się swoimi widokami na
       góry Wielkiego Kaukazu, nietkniętą naturą i zagubionymi wśród szczytów
@@ -54,7 +54,7 @@ schedule:
       przejeżdżamy do miejscowości Oni, gdzie znajduje się największa synagoga
       Gruzji. Powrót do Kutaisi, obiadokolacja, nocleg.
   - day: "4"
-    place: 22.06 - Kutaisi - Tbilisi
+    place: Kutaisi - Tbilisi
     text: "Śniadanie, wykwaterowanie. Przejazd do stolicy kraju -
       Tbilisi.  Zwiedzanie starego miasta oraz najważniejszych zabytków stolicy
       – twierdzy Narikala, na którą wjedziemy kolejką linową, co pozwoli nam na
@@ -77,9 +77,9 @@ schedule:
       warunkach dobrej widoczności, zobaczyć można szczyt Kazbek (5054 m), drugi
       najwyższy szczyt kraju. Po zwiedzaniu czeka na nas obiadokolacja, nocleg w
       Kazbegi.
-    place: 23.06 - Tbilisi - Mccheta - Ananuri - Kazbegi
+    place: Tbilisi - Mccheta - Ananuri - Kazbegi
   - day: "6"
-    place: 24.06 - Kazbegi - Dolina Truso - Kazbegi
+    place: Kazbegi - Dolina Truso - Kazbegi
     text: >-
       Śniadanie, przejazd samochodami terenowymi do doliny Truso, jest to jedno
       z najładniejszych miejsc w okolicy miejscowości Kazbegi. Dolina ciągnie
@@ -93,7 +93,7 @@ schedule:
 
       Dalej wyjazd samochodami terenowymi w kierunku zabytkowej wioski Dżuta (łączna trasa ok 20 km), po drodze towarzyszyć nam będą przepiękne widoki. .Po spacerze w pięknych okolicznościach przyrody, powrót do Kazbegi, obiadokolacja, nocleg.
   - day: "7"
-    place: 25.06 - Kazbegi - Gori
+    place: Kazbegi - Gori
     text: Śniadanie, wykwaterowanie. Wyjazd z Kazbegi, przejazd do miasta Gori.
       Zwiedzanie skalnego miasta Upliscyche w mieście Gori, jest to najstarszy
       zabytek i najstarsze skalne miasto na terytorium Gruzji, według źródeł
@@ -105,7 +105,7 @@ schedule:
       pierwsze lata swojego życia właśnie w Gori. Dojazd do Tbilisi,
       zakwaterowanie, wolny czas. Obiadokolacja, nocleg w Gori.
   - day: "8"
-    place: 26.06 - Gori - Kutaisi
+    place: Gori - Kutaisi
     text: Śniadanie, wykwaterowanie, wyjazd do Kutaisi. Udajemy się na zwiedzanie
       najważniejszych zabytków miasta Kutaisi. Zobaczymy akademię Gelati
       (UNESCO), gdzie jeszcze w XI-XII wieku tłumaczyli największe dzieła
@@ -133,7 +133,6 @@ priceContains:
     icon: guide
   - text: Transport – komfortowy klimatyzowany minibus
     icon: bus
-  - text: Test PCR na trzeci dzień po przylocie do Gruzji
 priceNotContains:
   - text: Biletu lotniczego
     icon: ticket
