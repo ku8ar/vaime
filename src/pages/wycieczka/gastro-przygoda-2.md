@@ -76,13 +76,17 @@ schedule:
   - day: "5"
     place: BIESIADA I FOLKLOR
     text: >
-      Wyjazd do Kachetii, krainy wina. Przejazd do miasta Telawi, wizyta na
-      lokalnym bazarze, pełnym przypraw, win, bimbru, owoców i warzyw. Po
-      zakupach i spacerku po mieście udajemy się do miejscowego winiarza, gdzie
-      czekają na nas warsztaty kulinarne. Nauczymy się piec gruzińskiej chlebki
-      i robić czurczchele (słodycze gruzińskie), a po wszystkim skosztujemy
-      prawdziwego domowego wina. Nasze prace gospodarz wynagrodzi nam hojną
-      suprą gruzińską. Powrót do Tbilisi, nocleg w Tbilisi.
+      Śniadanie, wyjazd na wschód kraju, do regionu Kacheti, który zwany jest
+      “krainą wina”. Zwiedzanie przepięknego monastyru Bodbe, gdzie pochowana
+      jest św. Nino – apostołka cerkwi gruzińskiej, która przyniosła
+      chrześcijaństwo do Gruzji już w IV wieku. Z monastyru rozciera się
+      oszałamiający widok na dolinę Alazanską, gdzie uprawiane są najlepsze
+      szczepy winogron. Dojazd do miasta miłości Signagi, które idealne
+      zachowane zostało od wieków XVII-XVIII. Spacer po miasteczku-muzeum,
+      wizyta na lokalnym bazarku, gdzie kupić można domowe wina i gruzińskie
+      smakołyki. Wizyta w domowej winnicy, gdzie zobaczyć można, jak robi się
+      gruzińskie domowe wino, degustacja wina i czaczy (bimber gruziński)
+      połączona z obiadokolacją. Powrót do Tbilisi, nocleg.
   - day: "6"
     place: ADŻARSKIE CHACZAPURI
     text: >
