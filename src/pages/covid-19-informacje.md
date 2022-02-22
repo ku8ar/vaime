@@ -31,14 +31,14 @@ showFlights: false
 
 * zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim)
   lub
-* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR, oraz \
-  **uprzednio przed podróżą wypełnić specjalny [formularz elektroniczny](https://registration.gov.ge/pub/form/8_protocol_for_arrivals_in_georgia/tk6157/)** (dotyczy tylko niezaszczepionych podróżników)
+* zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). \
+  **Uprzednio przed podróżą wypełnić specjalny [formularz elektroniczny](https://registration.gov.ge/pub/form/8_protocol_for_arrivals_in_georgia/tk6157/)** (dotyczy tylko niezaszczepionych podróżników)
 
 **Uwaga!** - w przypadku braku zaświadczeń podczas kontroli paszportowej należy liczyć się z odmową wjazdu do Gruzji.
 
 **Obostrzenia w Gruzji:** obiekty gastronomiczne działają maksymalnie do północy, ograniczona jest działalność klubów nocnych, obowiązek noszenia maseczek zarówno w transporcie, pomieszczeniach zamkniętych, jak i na zewnątrz. 
 
-#
+
 
 #### **WJAZD DO GRUZJI DROGĄ LĄDOWĄ**
 
@@ -59,10 +59,9 @@ Punkty graniczne zamknięte: Lagodekhi (region Kakheti), Red Bridge (region Kvem
 **Przekroczenie granic lądowych przy wjeździe do Gruzji:**
 
 * **dla osób zaszczepionych:** zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim) oraz zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin. 
-* **dla osób niezaszczepionych:** zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin, trzeciego dnia pobytu w Gruzji poddać się kolejnemu badaniu PCR. \
-  Niedostosowanie się do powyższych zasad grozi grzywną pieniężną w wysokości 2000 GEL, naliczaną przy wyjeździe/wylocie z Gruzji.
+* **dla osób niezaszczepionych:** zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin.
 
-**Przekroczenie granicy gruzińsko-ormiańskiej:** \
+**Przekroczenie granicy gruzińsko-ormiańskiej:** 
 Aby wjechać na terytorium Armenii z Gruzji, przy kontroli granicznej należy okazać: 
 
 * zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19, w przypadku szczepionki Jonson&Jonson - jednej dawki (w języku angielskim). 
@@ -79,7 +78,5 @@ Aby wjechać na terytorium Turcji z Gruzji, przy kontroli granicznej należy oka
 * w przypadku braku szczepienia - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin
 
 oraz 48 godz. przed planowaną podróżą wypełnić formularz https://register.health.gov.tr/ , wygenerowany QR kod po wypełnieniu formularza należy również okazać tureckiej straży granicznej.
-
-#
 
 **Bieżące informacje na temat pandemii w Gruzji można śledzić na stronie: [https://stopcov.ge/en](https://stopcov.ge/en/)**
