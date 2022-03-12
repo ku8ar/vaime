@@ -12,6 +12,7 @@ import BlogPreview from './templates/BlogPreview'
 // CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate('index', HomePreview)
+CMS.registerPreviewTemplate('indexEn', HomePreview)
 CMS.registerPreviewTemplate('global', GlobalPreview)
 CMS.registerPreviewTemplate('tour', TourPreview)
 CMS.registerPreviewTemplate('pages', PagePreview)

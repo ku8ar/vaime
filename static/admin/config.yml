@@ -83,7 +83,7 @@ collections:
 
       - file: "src/pages/en/index.md"
         label: "Start Page [EN]"
-        name: "index"
+        name: "indexEn"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
           - {label: "Language", name: lang, widget: select, options: ["pl", "en"], default: "pl"}
