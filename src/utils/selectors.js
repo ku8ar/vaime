@@ -1,12 +1,14 @@
-import { sort, prop, head, pipe } from 'rambda'
+import { sort, prop, head, pipe, defaultTo } from 'rambda'
 
 const getOldestTs = pipe(
+  defaultTo([]),
   sort((a, b) => a.timestamp > b.timestmap),
   head,
   prop('timestamp')
 )
 
 const getBiggestSeats = pipe(
+  defaultTo([]),
   sort((a, b) => a.seats > b.seats),
   head,
   prop('seats')
