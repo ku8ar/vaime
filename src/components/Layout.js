@@ -1,9 +1,9 @@
 import React from 'react'
 import Seo from './custom/Seo'
-import useGlobal from '../utils/useGlobal'
+import { useGlobalData } from '../module/globalData'
 
 const Layout = ({ children, title = '', description = '', seoImage, slug }) => {
-  const data = useGlobal()
+  const data = useGlobalData()
 
   return (
     <>

@@ -5,23 +5,31 @@ import StructuredData from '../components/custom/StructuredData'
 import Header from '../components/layout/Header'
 import FacebookChat from '../components/Facebook'
 import Popup from '../components/Popup'
-import useGlobal from '../utils/useGlobal'
 import usePath from '../utils/usePath'
+import { GlobalDataProvider, useGlobalData } from '../module/globalData'
 
 const Layout = ({ children }) => {
-  const data = useGlobal()
+  const data = useGlobalData()
   const path = usePath()
 
   return (
-    <Theme>
-      <StructuredData {...data} slug={path} />
-      <Header {...data} slug={path} />
-      <Popup {...data} slug={path} />
-      {children}
-      <Footer data={data} />
-      <FacebookChat />
-    </Theme>
+      <Theme>
+        <StructuredData {...data} slug={path} />
+        <Header {...data} slug={path} />
+        <Popup {...data} slug={path} />
+        {children}
+        <Footer data={data} />
+        <FacebookChat />
+      </Theme>
   )
 }
 
-export default Layout
+const App = ({ children }) => (
+  <GlobalDataProvider>
+    <Layout>
+      {children}
+    </Layout>
+  </GlobalDataProvider>
+)
+
+export default App

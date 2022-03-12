@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import useGlobal from '../../utils/useGlobal'
+import { useGlobalData } from '../../module/globalData'
 import Icon from '../../icons/info'
 
 export default () => {
-  const data = useGlobal()
+  const data = useGlobalData()
 
   const phones = data.phoneNumbers || []
   const email = data.email
