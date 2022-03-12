@@ -12,7 +12,7 @@
     "not opera > 0"
   ],
   "dependencies": {
-    "@brainhubeu/react-carousel": "^2.0.4",
+    "@brainhubeu/react-carousel": "^1.19.26",
     "@sendgrid/mail": "^7.6.1",
     "@sentry/browser": "^6.17.9",
     "babel-plugin-styled-components": "^2.0.3",
@@ -42,6 +42,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-instagram-embed": "^3.0.0",
     "react-medium-image-zoom": "^4.3.5",
     "react-player": "^2.9.0",
     "react-transition-group": "^4.4.2",
