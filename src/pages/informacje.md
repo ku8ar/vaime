@@ -1,5 +1,6 @@
 ---
 templateKey: page
+lang: pl
 title: Informacje
 description: Kilka ważnych informacji odnośnie naszych wycieczek
 images:

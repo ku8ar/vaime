@@ -1,5 +1,6 @@
 ---
 templateKey: page
+lang: pl
 title: Współpraca
 description: Profejsonalna obsługa tour operatorów
 images:

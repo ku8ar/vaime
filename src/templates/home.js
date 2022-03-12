@@ -140,7 +140,7 @@ const getStructuredTours = pipe(
   })
 )
 
-export default ({ data }) => {
+export default ({ data, ...props }) => {
   const { title, description } = data.markdownRemark.frontmatter
   const tours = data.allMarkdownRemark.edges
   const slug = data.markdownRemark.fields.slug
@@ -160,7 +160,7 @@ export default ({ data }) => {
 }
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
+  query IndexPageTemplate($id: String!) {
     allMarkdownRemark(
       filter: {
         frontmatter: {
@@ -193,7 +193,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    markdownRemark(frontmatter: { templateKey: { eq: "home" } }) {
+    markdownRemark(id: { eq: $id }) {
       html
       fields {
         slug

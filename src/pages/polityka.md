@@ -1,5 +1,6 @@
 ---
 templateKey: page
+lang: pl
 title: Polityka Prywatności
 description: Cookies, Polityka Prywatności
 images:

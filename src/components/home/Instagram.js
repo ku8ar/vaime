@@ -1,49 +1,43 @@
-import React, { useRef, useState } from 'react'
-import styled, { css } from 'styled-components'
-import useInstagram from '../../hooks/instagram'
-import useIntersectionObserver from '../../hooks/useIntersectionObserver'
+import React, { useRef, useState } from "react";
+import styled, { css } from "styled-components";
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import InstagramEmbed from "react-instagram-embed";
 
-const placeholders = [...Array(12).keys()]
+const placeholders = [...Array(12).keys()];
 
 export default () => {
-  const [isVisible, setIsVisible] = useState(false)
-  const target = useRef()
+  const [isVisible, setIsVisible] = useState(false);
+  const target = useRef();
 
   useIntersectionObserver({
     target,
-    onIntersect: ([{ isIntersecting }]) => isIntersecting && setIsVisible(isIntersecting)
-  })
+    onIntersect: ([{ isIntersecting }]) =>
+      isIntersecting && setIsVisible(isIntersecting),
+  });
 
-  const [instagramPhotos, hasError] = useInstagram(isVisible)
+  return null
 
-  if (hasError) {
-    return null
-  }
-
-  const isFetched = instagramPhotos && instagramPhotos.length
-  
   return (
     <Wrapper ref={target}>
-      {isFetched ? instagramPhotos.map(({ href, src }, key) => (
-        <Anchor
-          key={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          href={href}
-          style={{ backgroundImage: `url("${src}")` }}
-          aria-label={`instagram link ${key}`}
-        />
-      )) : placeholders.map(i => <Placeholder key={i} />)}
-    </Wrapper >
-  )
-}
+      <InstagramEmbed
+        url=""
+        clientAccessToken=""
+        maxWidth={320}
+        hideCaption={false}
+        containerTagName="div"
+        protocol=""
+        injectScript
+      />
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.div`
   width: auto;
   max-width: 100%;
   flex: 1;
   filter: contrast(1.1);
-  ${p => p.theme.mobile`
+  ${(p) => p.theme.mobile`
     padding-right: 0;
     margin-right: 0;
     max-width: 100%;
@@ -52,13 +46,13 @@ const Wrapper = styled.div`
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  ${p => p.theme.print` display: none; `}
-`
+  ${(p) => p.theme.print` display: none; `}
+`;
 
 const itemStyle = css`
   width: calc(100% / 12);
   height: calc(100vw / 12 - 5px);
-  ${p => p.theme.mobile`
+  ${(p) => p.theme.mobile`
     width: 20%;
     height: calc(100vw / 5);
 
@@ -72,7 +66,7 @@ const itemStyle = css`
   border: 1px solid white;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: opacity .15s;
+  transition: opacity 0.15s;
   &:hover {
     opacity: 0.8;
   }

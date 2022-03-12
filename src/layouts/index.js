@@ -8,7 +8,7 @@ import Popup from '../components/Popup'
 import usePath from '../utils/usePath'
 import { GlobalDataProvider, useGlobalData } from '../module/globalData'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, ...props }) => {
   const data = useGlobalData()
   const path = usePath()
 

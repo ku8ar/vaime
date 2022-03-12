@@ -1,5 +1,6 @@
 ---
 templateKey: page
+lang: pl
 title: Kontakt
 description: Profesjonalna obsługa tour operatorów
 images:

@@ -7,10 +7,12 @@ import { View } from '../Base'
 import SocialLink from './SocialLink'
 import MobileNavigation from './MobileNavigation'
 
-export default ({ navigation, socialLinks, companyName, phoneNumbers, slug }) => {
+export default ({ navigationPl, socialLinks, companyName, phoneNumbers, slug }) => {
   const onClick = useCallback(() => window.scrollTo(0, 0), [])
   const phone = phoneNumbers && phoneNumbers[0] || null
   const isTransparent = slug && slug.includes('galeria')
+
+  const navigation = navigationPl
 
   return (
     <>

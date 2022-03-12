@@ -1,5 +1,6 @@
 ---
 templateKey: page
+lang: pl
 title: COVID-19 Informacje
 description: Zasady podróży do Gruzji 2021
 images:

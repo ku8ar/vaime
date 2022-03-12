@@ -17,7 +17,13 @@ export const GlobalDataProvider = ({ children }) => {
             }
             companyName
             email
-            navigation {
+            navigationPl {
+              to
+              title
+              mobile
+              icon
+            }
+            navigationEn {
               to
               title
               mobile

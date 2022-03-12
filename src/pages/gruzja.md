@@ -1,5 +1,6 @@
 ---
 templateKey: page
+lang: pl
 title: O Gruzji
 description: Informacje o Gruzji
 images:

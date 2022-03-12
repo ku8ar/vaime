@@ -4,7 +4,24 @@ logo: /img/vaime_circle.png
 seoTitle: "- Vaime Travel"
 companyName: Vaime Travel
 email: info@vaimetravel.com
-navigation:
+navigationPl:
+  - title: O Gruzji
+    to: /gruzja/
+    mobile: true
+    icon: georgia
+  - title: Informacje
+    to: /informacje/
+    mobile: true
+    icon: faq
+  - title: Współpraca
+    to: /wspolpraca/
+    mobile: true
+    icon: cooperation
+  - title: Kontakt
+    to: /kontakt/
+    mobile: true
+    icon: contact
+navigationEn:
   - title: O Gruzji
     to: /gruzja/
     mobile: true

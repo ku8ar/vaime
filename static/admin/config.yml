@@ -55,10 +55,38 @@ collections:
     label: "Custom"
     files:
       - file: "src/pages/index.md"
-        label: "Start Page"
+        label: "Start Page [PL]"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
+          - {label: "Language", name: lang, widget: select, options: ["pl", "en"], default: "pl"}
+          - {label: "SEO Title", name: title, widget: string}
+          - {label: "SEO Description", name: description, widget: string}
+          - {label: "Hero Title", name: heroTitle, widget: string}
+          - {label: "Hero Subtitle ", name: heroSubtitle, widget: string}
+          - {label: "Hero Button Title", name: heroButtonTitle, widget: string}
+          - {label: "Hero Info Belt", name: heroInfoBelt, widget: list, fields: [{label: "Label", name: label, widget: string}, {label: Icon, name: icon, widget: select, options: ['bag', 'bug', 'foot', 'map']}]}
+          - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
+          - {label: "Team", name: team, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "Place", name: place, widget: string, required: false}, {label: "text", name: text, widget: text, required: false}, {label: "image", name: image, widget: image}]}
+          - {label: "About Us Title", name: "aboutTitle", widget: string}
+          - {label: "About Us Image", name: "aboutImage", widget: image}
+          - {label: "About Us Content", name: "body", widget: "markdown"}
+          - {label: "Review Image", name: "reviewImage", widget: image}
+          - {label: "Review Video", name: "reviewVideo", widget: string}
+          - {label: "Review Video Preview", name: "reviewPreview", widget: image}
+          - {label: Reviews, name: reviews, widget: list, required: false, fields: [{label: "Author", name: author, widget: string}, {label: "Place", name: place, widget: string}, {label: "Text", name: text, widget: text}, {label: "Stars", name: stars, widget: number}]}
+          - {label: "Promo Image", name: "promoImage", widget: image}
+          - {label: "Blog Title", name: "blogTitle", widget: string, required: false}
+          - {label: "Blog Description", name: "blogDescription", widget: text}
+          - {label: "Blog Button", name: "blogButton", widget: string}
+          - {label: "Blog Images", name: blogImages, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
+
+      - file: "src/pages/en/index.md"
+        label: "Start Page [EN]"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
+          - {label: "Language", name: lang, widget: select, options: ["pl", "en"], default: "pl"}
           - {label: "SEO Title", name: title, widget: string}
           - {label: "SEO Description", name: description, widget: string}
           - {label: "Hero Title", name: heroTitle, widget: string}
@@ -89,7 +117,8 @@ collections:
           - {label: "SEO Title Suffix", name: seoTitle, widget: string}
           - {label: "Company Name", name: companyName, widget: string}
           - {label: "Email", name: email, widget: string}
-          - {label: "Navigation", name: navigation, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}, {label: "Mobile?", name: mobile, widget: boolean}, {label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}]}
+          - {label: "Navigation [PL]", name: navigationPl, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}, {label: "Mobile?", name: mobile, widget: boolean}, {label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}]}
+          - {label: "Navigation [EN]", name: navigationEn, widget: list, fields: [{label: "Path", name: to, widget: string}, {label: "Title", name: title, widget: string}, {label: "Mobile?", name: mobile, widget: boolean}, {label: Icon, name: icon, widget: select, required: false, options: ['contact', 'cooperation', 'faq', 'georgia', 'home', 'info']}]}
           - {label: "Phone numbers", name: phoneNumbers, widget: list}
           - {label: "Social links", name: socialLinks, widget: list, fields: [{label: "Type", name: type, widget: string}, {label: "Address", name: src, widget: string}]}
           - {label: "Popup title", name: popupTitle, widget: string, required: false}
@@ -103,6 +132,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page"}
+      - {label: "Language", name: lang, widget: select, options: ["pl", "en"], default: "pl"}
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: string}
       - {label: Images, name: images, widget: list, fields: [{label: "Name", name: name, widget: string}, {label: "image", name: image, widget: image}]}
