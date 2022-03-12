@@ -8,8 +8,12 @@
       "jsx": true,
       "modules": true
     },
-    "sourceType": "module",
-    "babelOptions": { "configFile": "./.babelrc" }
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
   },
   "env": {
     "es6": true

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useGlobalData } from '../../module/globalData'
-import Icon from '../../icons/info'
+import { useGlobalData } from 'src/module/globalData'
+import Icon from 'src/icons/info'
 
 export default () => {
   const data = useGlobalData()

@@ -1,5 +1,15 @@
 {
-  "plugins": [],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "src": "./src"
+        }
+      }
+    ]
+  ],
   "presets": [
     [
       "babel-preset-gatsby"
