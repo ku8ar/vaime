@@ -9,6 +9,7 @@ import Content, { HTMLContent } from '../components/Content'
 import { Page, H1 } from '../components/Base'
 import Section from '../components/page/Section'
 import { Grid } from '../components/page/Grid'
+import App from 'src/components/app'
 
 export const Center = styled.div`
   display: flex;
@@ -43,9 +44,11 @@ const BlogPage = ({ data }) => {
   const seoImage = prop('image', data.markdownRemark.frontmatter.images[0])
 
   return (
-    <Layout title={title} description={description} slug={slug} seoImage={seoImage}>
-      <BlogTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
-    </Layout>
+    <App>
+      <Layout title={title} description={description} slug={slug} seoImage={seoImage}>
+        <BlogTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
+      </Layout>
+    </App>
   )
 }
 

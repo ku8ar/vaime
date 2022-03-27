@@ -19,6 +19,7 @@ import Instagram from '../components/home/Instagram'
 import Reviews from '../components/home/Reviews'
 import HeroContent from '../components/home/HeroContent'
 import JsonLd, { siteUrl } from '../components/custom/JsonLd'
+import App from 'src/components/app'
 
 const getIsOneDay = path(['node', 'frontmatter', 'oneDay'])
 const getIsMultiDay = pipe(getIsOneDay, not)
@@ -146,16 +147,18 @@ export default ({ data, ...props }) => {
   const slug = data.markdownRemark.fields.slug
 
   return (
-    <Layout title={title} description={description} slug={slug}>
-      <JsonLd>
-        {{
-          '@context': 'https://schema.org',
-          '@type': 'ItemList',
-          'itemListElement': getStructuredTours(tours),
-        }}
-      </JsonLd>
-      <HomeTemplate {...data.markdownRemark.frontmatter} tours={tours} html={data.markdownRemark.html} contentComponent={HTMLContent} />
-    </Layout>
+    <App>
+      <Layout title={title} description={description} slug={slug}>
+        <JsonLd>
+          {{
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            'itemListElement': getStructuredTours(tours),
+          }}
+        </JsonLd>
+        <HomeTemplate {...data.markdownRemark.frontmatter} tours={tours} html={data.markdownRemark.html} contentComponent={HTMLContent} />
+      </Layout>
+    </App>
   )
 }
 

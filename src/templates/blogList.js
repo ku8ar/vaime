@@ -9,6 +9,7 @@ import { Grid, Column } from '../components/page/Grid'
 import Info from '../components/page/Info'
 import Instagram from '../components/page/Instagram'
 import BlogTile from '../components/blog/BlogTile'
+import App from 'src/components/app'
 
 const useBlogList = () => useStaticQuery(
   graphql`
@@ -44,27 +45,29 @@ const Placeholder = styled.div`
 `
 
 const BlogList = () => (
-  <Layout title='Blog' description='Blog' slug='/blog/'>
-    <Page>
-      <Grid>
-        <Column size={70}>
-          <Placeholder />
-          {useBlogList().map(({ node: { fields: { slug }, frontmatter } }) => (
-            <BlogTile key={slug} slug={slug} {...frontmatter} />
-          ))}
-        </Column>
-        <Column size={30}>
-          <Section>
-            <Info />
-          </Section>
-          <Section>
-            <Instagram />
-          </Section>
-        </Column>
-      </Grid>
-      <Cookies />
-    </Page>
-  </Layout>
+  <App>
+    <Layout title='Blog' description='Blog' slug='/blog/'>
+      <Page>
+        <Grid>
+          <Column size={70}>
+            <Placeholder />
+            {useBlogList().map(({ node: { fields: { slug }, frontmatter } }) => (
+              <BlogTile key={slug} slug={slug} {...frontmatter} />
+            ))}
+          </Column>
+          <Column size={30}>
+            <Section>
+              <Info />
+            </Section>
+            <Section>
+              <Instagram />
+            </Section>
+          </Column>
+        </Grid>
+        <Cookies />
+      </Page>
+    </Layout>
+  </App>
 )
 
 export default BlogList

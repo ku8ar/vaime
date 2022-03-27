@@ -17,6 +17,7 @@ import Instagram from '../components/home/Instagram'
 import { useSetSeen } from '../hooks/useSeen'
 import TourTile from '../components/TourTile'
 import EditorWrapper from '../components/EditorWrapper'
+import App from 'src/components/app'
 
 const TourPage = styled(Page)`
   background-color: ${p => p.theme.colorGreyNew};
@@ -79,20 +80,22 @@ const Tour = ({ data }) => {
   useSetSeen(data.markdownRemark.fields.slug)
 
   return (
-    <Layout title={title} description={description} seoImage={seoImage} slug={slug}>
-      <TourTemplate
-        {...data.markdownRemark.frontmatter}
-        html={data.markdownRemark.html}
-        contentComponent={HTMLContent}
-        openReservation={openReservation}
-        slug={slug}
-      />
-      <Reservation
-        open={isReservation}
-        onClose={closeReservation}
-        {...data.markdownRemark.frontmatter}
-      />
-    </Layout>
+    <App>
+      <Layout title={title} description={description} seoImage={seoImage} slug={slug}>
+        <TourTemplate
+          {...data.markdownRemark.frontmatter}
+          html={data.markdownRemark.html}
+          contentComponent={HTMLContent}
+          openReservation={openReservation}
+          slug={slug}
+        />
+        <Reservation
+          open={isReservation}
+          onClose={closeReservation}
+          {...data.markdownRemark.frontmatter}
+        />
+      </Layout>
+    </App>
   )
 }
 

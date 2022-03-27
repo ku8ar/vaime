@@ -17,6 +17,7 @@ import GridSection from '../components/page/GridSection'
 import ContactForm from '../components/forms/ContactForm'
 import TextSection from '../components/page/TextSection'
 import Flights from '../components/page/Flights'
+import App from 'src/components/app'
 
 export const Center = styled.div`
   display: flex;
@@ -74,9 +75,11 @@ const StandardPage = ({ data }) => {
   const seoImage = prop('image', data.markdownRemark.frontmatter.images[0])
 
   return (
-    <Layout title={title} description={description} slug={slug} seoImage={seoImage}>
-      <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
-    </Layout>
+    <App>
+      <Layout title={title} description={description} slug={slug} seoImage={seoImage}>
+        <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
+      </Layout>
+    </App>
   )
 }
 
