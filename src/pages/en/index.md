@@ -51,7 +51,7 @@ images:
     name: Baku
 team:
   - image: /img/projekt-bez-tytułu-32-.png
-    name: Maja Varshanidze
+    name: Maia Varshanidze
     place: ""
     text: ""
   - image: /img/projekt-bez-tytułu-34-.png
