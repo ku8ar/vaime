@@ -27,7 +27,7 @@ navigationEn:
     mobile: true
     icon: georgia
   - to: /faq/
-    title: FAX
+    title: FAQ
     mobile: true
     icon: faq
   - to: /cooperation/
