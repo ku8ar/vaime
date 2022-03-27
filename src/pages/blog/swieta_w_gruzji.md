@@ -1,5 +1,6 @@
 ---
 templateKey: blog
+lang: pl
 active: true
 date: 2020-12-30T09:01:16.707Z
 title: Święta w Gruzji

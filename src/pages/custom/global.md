@@ -22,20 +22,8 @@ navigationPl:
     mobile: true
     icon: contact
 navigationEn:
-  - title: O Gruzji
-    to: /gruzja/
-    mobile: true
-    icon: georgia
-  - title: Informacje
-    to: /informacje/
-    mobile: true
-    icon: faq
-  - title: Współpraca
-    to: /wspolpraca/
-    mobile: true
-    icon: cooperation
-  - title: Kontakt
-    to: /kontakt/
+  - title: Contact
+    to: /contact/
     mobile: true
     icon: contact
 phoneNumbers:

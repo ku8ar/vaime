@@ -1,5 +1,6 @@
 ---
-templateKey: tour
+templateKey: tour_pl
+lang: pl
 active: false
 minSeats: 1
 title: Kaukaski Duet – Gruzja i Armenia

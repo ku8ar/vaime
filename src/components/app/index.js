@@ -6,14 +6,14 @@ import Popup from 'src/components/Popup'
 import usePath from 'src/utils/usePath'
 import { GlobalDataProvider, useGlobalData } from 'src/module/globalData'
 
-const AppLayout = ({ children }) => {
+const AppLayout = ({ children, lang }) => {
   const data = useGlobalData()
   const path = usePath()
 
   return (
       <>
         <StructuredData {...data} slug={path} />
-        <Header {...data} slug={path} />
+        <Header {...data} lang={lang} slug={path} />
         <Popup {...data} slug={path} />
         {children}
         <Footer data={data} />
@@ -21,9 +21,9 @@ const AppLayout = ({ children }) => {
   )
 }
 
-const MainAppLayout = ({ children }) => (
+const MainAppLayout = ({ children, lang }) => (
   <GlobalDataProvider>
-    <AppLayout>
+    <AppLayout lang={lang}>
       {children}
     </AppLayout>
   </GlobalDataProvider>

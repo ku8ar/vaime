@@ -10,7 +10,7 @@ const useGallery = () => useStaticQuery(
       allMarkdownRemark(
         filter: {
           frontmatter: {
-            templateKey: { in: "tour" }
+            templateKey: { in: "tour_pl" }
           }
         }
       ) {
@@ -31,7 +31,7 @@ const useGallery = () => useStaticQuery(
 ).allMarkdownRemark.edges.map(({ node: { frontmatter: { images } } }) => images).flat()
 
 const Gallery = () => (
-  <App>
+  <App lang={'pl'}>
     <Layout title='Galeria' description='galeria' slug='/galeria/'>
       <Carousel images={useGallery()} />
     </Layout>

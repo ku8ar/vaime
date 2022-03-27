@@ -75,7 +75,7 @@ const StandardPage = ({ data }) => {
   const seoImage = prop('image', data.markdownRemark.frontmatter.images[0])
 
   return (
-    <App>
+    <App lang={data.markdownRemark.frontmatter.lang}>
       <Layout title={title} description={description} slug={slug} seoImage={seoImage}>
         <StandardPageTemplate {...data.markdownRemark.frontmatter} html={data.markdownRemark.html} contentComponent={HTMLContent} />
       </Layout>
@@ -93,6 +93,7 @@ export const pageQuery = graphql`
         slug
       }
       frontmatter {
+        lang
         title
         description
         services {

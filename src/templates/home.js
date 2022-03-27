@@ -1,7 +1,6 @@
 import React from 'react'
 import { path, sortBy, pipe, filter, head, prop, reverse, not, map, groupBy } from 'rambda'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
 import { calcYear } from '../utils/date'
 import Cookies from '../components/Cookies'
 import Content, { HTMLContent } from '../components/Content'
@@ -51,10 +50,6 @@ const getMutliDayTourMap = pipe(
 
 const filterOneDayTours = filter(getIsOneDay)
 
-const Offers = styled.div`
-
-`
-
 export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutImage, promoImage, html, title, contentComponent, reviews, reviewImage, reviewVideo, reviewPreview, ...props }) => {
   const HtmlComponent = contentComponent || Content
 
@@ -69,7 +64,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           <InfoBelt {...props} />
         </HeroContent>
       </Hero>
-      <Offers>
+      <div>
       {
         Object.entries(_multiDayToursMap || {}).map(
           ([year, list]) => (
@@ -100,7 +95,7 @@ export const HomeTemplate = ({ images, tours = [], team = [], aboutTitle, aboutI
           </Grid>
         </Section>
       ) : null}
-      </Offers>
+      </div>
       <AboutUsSection
         title={aboutTitle}
         image={aboutImage}
@@ -143,11 +138,16 @@ const getStructuredTours = pipe(
 
 export default ({ data, ...props }) => {
   const { title, description } = data.markdownRemark.frontmatter
-  const tours = data.allMarkdownRemark.edges
   const slug = data.markdownRemark.fields.slug
 
+  const lang = data.markdownRemark.frontmatter.lang
+  const isEn = lang === 'en'
+  const toursPl = data.toursPl.edges
+  const toursEn = data.toursEn.edges
+  const tours = isEn ? toursEn : toursPl
+
   return (
-    <App>
+    <App lang={data.markdownRemark.frontmatter.lang}>
       <Layout title={title} description={description} slug={slug}>
         <JsonLd>
           {{
@@ -164,10 +164,42 @@ export default ({ data, ...props }) => {
 
 export const pageQuery = graphql`
   query IndexPageTemplate($id: String!) {
-    allMarkdownRemark(
+    toursPl: allMarkdownRemark(
       filter: {
         frontmatter: {
-          templateKey: { in: "tour" }
+          templateKey: { in: "tour_pl" }
+          active: { eq: true }
+        }
+      }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            discount
+            tileTitle
+            terms {
+              startDate(formatString: "YYYY-MM-DD")
+              timestamp: startDate(formatString: "x")
+              endDate(formatString: "YYYY-MM-DD")
+              price
+              seats
+            }
+            active
+            oneDay
+            thumb { ...imageTile }
+          }
+        }
+      }
+    }
+    toursEn: allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          templateKey: { in: "tour_en" }
           active: { eq: true }
         }
       }
@@ -202,6 +234,7 @@ export const pageQuery = graphql`
         slug
       }
       frontmatter {
+        lang
         title
         description
         heroTitle

@@ -1,5 +1,6 @@
 ---
-templateKey: tour
+templateKey: tour_pl
+lang: pl
 active: true
 oneDay: false
 minSeats: 1

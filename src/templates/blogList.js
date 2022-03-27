@@ -45,7 +45,7 @@ const Placeholder = styled.div`
 `
 
 const BlogList = () => (
-  <App>
+  <App lang={'pl'}>
     <Layout title='Blog' description='Blog' slug='/blog/'>
       <Page>
         <Grid>
