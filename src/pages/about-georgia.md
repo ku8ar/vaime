@@ -48,15 +48,20 @@ grid:
       There are also medieval centres of education and culture, academies, fortified towers and castles, cave-cities, as well as monuments hailing back to pagan times.
   - image0: /img/supra-joanna-barbara-bielak.jpg
     image1: /img/czurchela.jpg
-    title: Gościnni ludzie
+    title: HOSPITABLE FOLK
     text: >
-      O gruzińskiej gościnności krążą legendy. W Gruzji mówi się, że gość to dar
-      od Boga. Gościnni, życzliwi ludzie czynią każdą podróż po Gruzji
-      niepowtarzalnym przeżyciem.
+      Georgian hospitality is a thing of legend. There’s a saying in Georgia
+      that the guest is a gift from God. Hospitable, kind-hearted locals make
+      every trip to Georgia an inimitable experience.
 text: >
-  A więc zapraszamy, przyjeżdżajcie i podziwiajcie te widoki, smakujcie
-  gruzińską kuchnię, napijcie się wina a my, Gruzinki z krwi i kości, postaramy
-  się, żebyście wspominali czas spędzony u nas z uśmiechem na twarzy!
+  So join us, pack your bags and come marvel at the mountain views, taste
+  Georgian
+
+  cuisine, and enjoy a glass of wine, while we, your two full-blooded Georgians hosts, do
+
+  everything in our might to ensure that memories of the time spent with us brings a
+
+  smile to your face for years to come!
 contact: false
 hideInstagram: true
 hideContact: true
