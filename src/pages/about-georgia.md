@@ -2,45 +2,50 @@
 templateKey: page
 lang: en
 title: About Georgia
-description: Informacje o Gruzji
+description: Information about Georgia - culture, history, geography, Georgian
+  wine and cuisine
 images:
   - image: /img/georgia-4514143.jpg
     name: Swaneti
 grid:
   - image0: /img/georgia-3702447.jpg
     image1: /img/batumi-bulvar.jpg
-    title: Kraj pięknych widoków
-    text: >
-      Gruzja jest krajem górzystym, na północy otoczona górami Wielkiego
-      Kaukazu. Stosunkowo małą Gruzję cechuje różnorodność – zachodnią granicę
-      wyznacza wybrzeże Morza Czarnego, na południu są góry małego Kaukazu, a na
-      wschodzie podziwiać można rozległe doliny i stepy.
+    title: LAND OF BEAUTIFUL VISTAS
+    text: >-
+      Georgia is a mountainous country, surrounded from the north by the peaks
+      of the
+
+      Greater Caucasus range. This relatively small nation is characterized by diversity 
+       - with the Black Sea as her western border, the Lesser Caucasus range to the south, and vast valleys and steppes to behold in the east.
   - image0: /img/kupati-chalupka.jpg
     image1: /img/chinkali2.jpg
-    title: Kraj pysznego jedzenia
-    text: >
-      Łagodny i zróżnicowany klimat Gruzji zapewnia obfitość i różnorodność
-      płodów rolnych oraz aromatycznych przypraw. Charakterystyczne składniki
-      używane w naszej kuchni dodają jej niepowtarzalnego i wyjątkowego smaku.
+    title: LAND OF DELICIOUS FOOD
+    text: >-
+      The temperate and varied climate of Georgia guarantees a bountiful and
+      diverse
+
+      harvest as well as aromatic spices. The characteristic ingredients used in our dishes give our cuisine its inimitable and exceptional taste.
   - image0: /img/mevenaxe.jpg
     image1: /img/marani_piwnica.jpg
-    title: Unikatowe wino
+    title: UNIQUE WINE
     text: >
-      Gruzja jest ojczyzną wina. Na tej ziemi nasi przodkowie zaczęli robić wino
-      aż 8000 lat temu. Gruzińska metoda robienia wina, czyli wino w amforze
-      “kwewri”, wpisana jest na listę światowego dziedzictwa UNESCO. Gruzini do
-      naszych czasów zachowali tę tradycję, a wino zrobione w tradycyjnych
-      kwewri możemy znaleźć wszędzie.
+      Georgia is the birthplace of wine. On this land our ancestors began
+      cultivating grapes as early as 8000 year ago. The Georgian method of
+      making wine, that is, in clay amphorae called “kvevri”, is listed by
+      UNESCO as a global cultural heritage. Georgians continue these practices
+      to this day, and traditional kvevri wine can be found anywhere.
   - image0: /img/bagrati_kosciol.jpg
     image1: /img/jvari_swieczki.jpg
-    title: Bogate dziedzictwo kulturowe
+    title: RICH CULTURAL LEGACY
     text: >
-      Gruzja przyjęła chrześcijaństwo w IV wieku, w wyniku czego na terenie
-      Gruzji można znaleźć mnóstwo zabytkowych obiektów sakralnych – niektóre z
-      nich zostały wpisane na listę UNESCO. Ale cerkwie to nie jedyne, czym
-      Gruzja może się pochwalić, znaleźć tutaj można również średniowieczne
-      centra edukacji i kultury, akademie, obronne twierdze i zamki, skalne
-      miasta oraz zabytki pochodzące jeszcze z czasów pogańskich.
+      Georgia adopted Christianity in the 4th century AD, which has resulted in
+      an
+
+      abundance of ancient sacral edifices all over the country – some being UNESCO
+
+      monuments. But Orthodox churches aren’t the only thing Georgia can show off.
+
+      There are also medieval centres of education and culture, academies, fortified towers and castles, cave-cities, as well as monuments hailing back to pagan times.
   - image0: /img/supra-joanna-barbara-bielak.jpg
     image1: /img/czurchela.jpg
     title: Gościnni ludzie
@@ -56,6 +61,15 @@ contact: false
 hideInstagram: true
 hideContact: true
 ---
-### **Sakartwelo** (საქართველო)
+### **Sakartvelo** (საქართველო)
 
-Właśnie tak brzmi nazwa Gruzji w naszym języku ojczystym. Jak możemy najlepiej ją opisać? Przecież mamy mnóstwo rzeczy do powiedzenia  – Gruzja to jedna z najstarszych cywilizacji świata – pierwsze królestwa gruzińskie, Kolchida i Iberia, powstały jeszcze w starożytności. Gruzja jest związana z grecką mitologią – właśnie tutaj przypłynęły legendarni Argonauci szukając Złotego Runa. Stąd pochodzą pierwsi Europejczycy – najstarsze szczątki w Europie znaleziono właśnie tu. W roku 2017 nasz kraj oficjalnie uznano za ojczyznę wina, i bardzo słusznie, przecież możemy się pochwalić ponad 8000-letnią tradycją robienia wina! Nie możemy zapomnieć o fakcie, że Gruzja stała się krajem chrześcijańskim jeszcze w IV wieku, przyjmując chrześcijaństwo, jako drugi kraj na świecie.
+That’s what the name of Georgia sounds like in our native tongue. How can we best
+describe her? There’s a myriad of things to be said: with Georgia being one of the
+world’s oldest civilizations, the first Georgian kingdoms of Colchis and Iberia already
+existed in antiquity. Georgia is tied to Greek mythology as well – it is here that the
+legendary Argonauts came in search of the Golden Fleece. She is also home to the
+oldest Europeans: the most ancient human remains in Europe were discovered on
+Georgian soil. And in 2017 our country was officially deemed the birthplace of wine –
+rightly so, given that we boast an over 8000-year old wine-making tradition! We also
+mustn’t forget that Georgia adopted Christianity in the 4th century AD, becoming the
+second country in the world to do so.
