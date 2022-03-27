@@ -14,7 +14,6 @@ const Seo = ({ title = '', description = '', seoTitle, seoImage, slug }) => {
 
   return (
     <Helmet>
-      <html lang="pl-PL" />
       <title>{`${title} ${seoTitle}`}</title>
       <meta name="description" content={description} />
       <meta name="theme-color" content={colorPrimary} />
