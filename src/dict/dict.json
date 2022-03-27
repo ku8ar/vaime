@@ -1,0 +1,32 @@
+{
+  "en": {
+    "pageUseCookies": "This website uses cookies",
+    "privacyText": "Privacy Policy",
+    "name": "Name",
+    "surname": "Last Name",
+    "yourEmail": "Your e-mail",
+    "subject": "Subject",
+    "yourMessage": "Your messsage",
+    "sent": "Sent",
+    "send": "Send",
+    "enterYourDetails": "Enter your details",
+    "enterValidEmail": "Enter valid e-mail address",
+    "errorMessage": "Error",
+    "getInTouch": "Get In Touch"
+  },
+  "pl": {
+    "pageUseCookies": "Ta strona wykorzystuje pliki cookies",
+    "privacyText": "Polityka Prywatności",
+    "name": "Imię",
+    "surname": "Nazwisko",
+    "yourEmail": "Twój e-mail",
+    "subject": "Temat",
+    "yourMessage": "Twoja wiadomość",
+    "sent": "Wysłano",
+    "send": "Wyslij",
+    "enterYourDetails": "Wprowadź dane",
+    "enterValidEmail": "Wprowadź poprawny adres e-mail",
+    "errorMessage": "Wystąpił błąd",
+    "getInTouch": "Napisz do nas"
+  }
+}

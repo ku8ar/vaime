@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import styled from 'styled-components'
 import { Button } from './Base'
+import useDict from 'src/hooks/dict'
 
 const Cookies = () => {
   const [show, setShow] = useState(false)
@@ -18,9 +19,11 @@ const Cookies = () => {
     setShow(false)
   }, [])
 
+  const title = useDict('pageUseCookies')
+
   return show && (
     <Wrapper>
-      <Text>Ta strona wykorzystuje pliki cookies</Text>
+      <Text>{title}</Text>
       <Agree onClick={hideCookie}>OK</Agree>
     </Wrapper>
   )

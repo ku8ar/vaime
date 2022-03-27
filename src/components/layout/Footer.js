@@ -1,12 +1,15 @@
 import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import useDict from 'src/hooks/dict'
 import SocialLink from './SocialLink'
 import { View, H6 } from '../Base'
 import Vaime from './Vaime'
 
 export default memo(({ data }) => {
   const { phoneNumbers, socialLinks, email, companyName } = data || {}
+
+  const privacyText = useDict("privacyText")
 
   return (
     <Footer>
@@ -20,7 +23,7 @@ export default memo(({ data }) => {
             <FooterLink href={`mailto:${email}`} title='email'>{email}</FooterLink>
           </FooterList>
           <MiddleFooterList>
-            <FooterNav to='/polityka/' title='Polityka Prywatności'><Title color="colorWhite">Polityka Prywatności</Title></FooterNav>
+            <FooterNav to='/polityka/' title={privacyText}><Title color="colorWhite">{privacyText}</Title></FooterNav>
           </MiddleFooterList>
           <LastFooterList>
             <Title color="colorWhite">Gruziński Po Polsku</Title>
@@ -28,7 +31,7 @@ export default memo(({ data }) => {
           </LastFooterList>
         </FooterRow>
         <FooterRow>
-          <FooterCopyright>© Copyright 2017 {companyName}. All Rights Reserved</FooterCopyright>
+          <FooterCopyright>© Copyright 2022 {companyName}. All Rights Reserved</FooterCopyright>
         </FooterRow>
       </View>
     </Footer>

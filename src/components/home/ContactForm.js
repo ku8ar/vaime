@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import useDict from 'src/hooks/dict'
 import { H2 } from '../Base'
 import ContactForm from '../forms/ContactForm'
 
@@ -21,9 +22,11 @@ const Title = styled(H2)`
 `
 
 export default () => {
+  const getInTouchText = useDict("getInTouch")
+
   return (
     <Wrapper> 
-      <Title color='colorPrimary'>Napisz do nas</Title>
+      <Title color='colorPrimary'>{getInTouchText}</Title>
       <ContactForm />
     </Wrapper>
   )

@@ -1,12 +1,14 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import styled from 'styled-components'
+import useDict from 'src/hooks/dict'
 import Form from '../field/Form'
 import { Input, TextArea } from '../field/Input'
 import { Button } from '../Base'
 
 const validateEmail = email => {
-  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-  return !re.test(String(email).toLowerCase()) ? 'Wprowadź poprawny adres e-mail' : null
+  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+  return !re.test(String(email).toLowerCase()) ? true : null
 }
 
 export default () => {
@@ -16,12 +18,23 @@ export default () => {
   const [errors, setErrors] = useState({})
   const [sender, setSender] = useState(0)
 
+  const nameText = useDict("name")
+  const surnameText = useDict("surname")
+  const yourEmailText = useDict("yourEmail")
+  const subjectText = useDict("subject")
+  const yourMessage = useDict("yourMessage")
+  const sentText = useDict("sent")
+  const sendText = useDict("send")
+  const enterYourDetailsText = useDict("enterYourDetails")
+  const enterValidEmailText = useDict("enterValidEmail")
+  const errorMessage = useDict("errorMessage")
+
   const send = useCallback(() => {
     setErrors({
-      name: !values.name && 'Wprowadź dane',
-      surname: !values.surname && 'Wprowadź dane',
-      email: validateEmail(values.email),
-      description: !values.description && 'Wprowadź dane',
+      name: !values.name && enterYourDetailsText,
+      surname: !values.surname && enterYourDetailsText,
+      email: validateEmail(values.email) ? enterValidEmailText : null,
+      description: !values.description && enterYourDetailsText,
     })
     setSender(s => s + 1)
   }, [values, errors])
@@ -42,12 +55,12 @@ export default () => {
             setIsSended(true)
           } else {
             setIsSubmitting(false)
-            alert('Wystąpił błąd.')
+            alert(errorMessage)
           }
         })
         .catch(() => {
           setIsSubmitting(false)
-          alert('Wystąpił błąd.')
+          alert(errorMessage)
         })
     }
   }, [sender])
@@ -55,15 +68,15 @@ export default () => {
   return (
     <Form values={values} errors={errors} setValues={setValues}>
       <FirstRow>
-        <SmallCell><Input field='name' type='text' placeholder='Imię' filled /></SmallCell>
-        <SmallCell><Input field='surname' type='text' placeholder='Nazwisko' filled /></SmallCell>
+        <SmallCell><Input field='name' type='text' placeholder={nameText} filled /></SmallCell>
+        <SmallCell><Input field='surname' type='text' placeholder={surnameText} filled /></SmallCell>
       </FirstRow>
       <Row>
-        <SmallCell><Input field='email' type='text' placeholder='Twój e-mail' filled /></SmallCell>
-        <SmallCell><Input field='title' type='text' placeholder='Temat' filled /></SmallCell>
+        <SmallCell><Input field='email' type='text' placeholder={yourEmailText} filled /></SmallCell>
+        <SmallCell><Input field='title' type='text' placeholder={subjectText} filled /></SmallCell>
       </Row>
-      <TextArea field='description' placeholder='Twoja wiadomość' filled />
-      <Button type="submit" onClick={send} green={isSended} disabled={isSubmitting || isSended}>{isSended ? 'Wysłano' : 'Wyślij'}</Button>
+      <TextArea field='description' placeholder={yourMessage} filled />
+      <Button type="submit" onClick={send} green={isSended} disabled={isSubmitting || isSended}>{isSended ? sentText : sendText}</Button>
     </Form>
   )
 }
