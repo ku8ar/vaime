@@ -1,5 +1,5 @@
 import React from 'react'
-import { TourTemplate } from 'src/containers/tour'
+import TourTemplate from 'src/containers/tour'
 import Theme from '../../components/style/Theme'
 import Preview from '../Preview'
 
