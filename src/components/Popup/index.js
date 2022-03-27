@@ -1,6 +1,7 @@
 import React, { useState, useCallback, memo, useEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import useDict from 'src/hooks/dict'
 import { H5, P, buttonStyle } from '../Base'
 
 export default ({ popupTitle, popupText, popupLink, slug }) => {
@@ -30,14 +31,20 @@ export default ({ popupTitle, popupText, popupLink, slug }) => {
   return <PopupComponent onClick={onClick} popupTitle={popupTitle} popupText={popupText} popupLink={popupLink} />
 }
 
-const PopupComponent = memo(({ onClick, popupTitle, popupText, popupLink }) => (
-  <Wrapper>
-    <CloseButton onClick={onClick}>x</CloseButton>
-    <Title>{popupTitle}</Title>
-    <Text>{popupText}</Text>
-    {popupLink ? <Button to={popupLink}>WIĘCEJ</Button> : null}
-  </Wrapper>
-))
+const PopupComponent = memo(({ onClick, popupTitle, popupText, popupLink }) => {
+  const moreText = useDict("more")
+
+  return (
+    <Wrapper>
+      <CloseButton onClick={onClick}>x</CloseButton>
+      <Title>{popupTitle}</Title>
+      <Text>{popupText}</Text>
+      <ButtonWrapper>
+      {popupLink ? <Button to={popupLink}>{moreText}</Button> : null}
+      </ButtonWrapper>
+    </Wrapper>
+  )
+})
 
 const Wrapper = styled.div`
   position: fixed;
@@ -89,9 +96,12 @@ const CloseButton = styled.div`
     right: 0.5rem;
   `}
 `
-const Button = styled(Link)`
-  ${buttonStyle}
-  width: 30%;
+const ButtonWrapper = styled.div`
+  width: auto;
+  height: auto;
   margin-top: .5rem;
   margin-bottom: .5rem;
+`
+const Button = styled(Link)`
+  ${buttonStyle}
 `

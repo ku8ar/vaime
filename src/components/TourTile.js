@@ -8,6 +8,7 @@ import { H4, H6, P, buttonStyle } from './Base'
 import Heart from './home/Heart'
 import Discount from './tour/Discount'
 import { getDiscountPrice } from '../utils/selectors'
+import useDict from 'src/hooks/dict'
 
 const getOldestTs = pipe(
   sort((a, b) => a.timestamp > b.timestmap),
@@ -37,9 +38,9 @@ const getMonthsDatesFormatted = pipe(
   join(', ')
 )
 
-const getSubtitle = pipe(
+const isMultiple = pipe(
   length,
-  n => n > 1 ? 'Dostępne terminy' : 'Dostępny termin'
+  n => n > 1
 )
 
 const getYear = pipe(
@@ -49,6 +50,11 @@ const getYear = pipe(
 )
 
 export default ({ slug, tour }) => {
+  const moreText = useDict("more")
+  const soldOutText = useDict("soldOut")
+  const availableDateText = useDict("availableDate")
+  const availableDatesText = useDict("availableDates")
+
   if (!tour) return null
 
   const { title, thumb, active, discount, terms, oneDay } = tour
@@ -58,7 +64,7 @@ export default ({ slug, tour }) => {
   }
 
   const dates = oneDay ? getMonthsDatesFormatted(terms) : getDatesFormatted(terms)
-  const available = getSubtitle(terms)
+  const available = isMultiple(terms) ? availableDatesText : availableDateText
   const year = getYear(terms)
   const subtitle = `${available}: ${dates}${oneDay ? ' ' : '.'}${year}`
 
@@ -81,8 +87,8 @@ export default ({ slug, tour }) => {
           <TourDates>
             <TourInfo disabled={disabled}>{subtitle}</TourInfo>
           </TourDates>
-          <TourButton>Więcej</TourButton>
-          {disabled && <Outdated>WYPRZEDANE</Outdated>}
+          <TourButton>{moreText}</TourButton>
+          {disabled && <Outdated>{soldOutText}</Outdated>}
           <Discount tour={tour} />
         </TourContent>
         <Heart slug={slug} />
@@ -206,4 +212,5 @@ const Outdated = styled(H4)`
   border-radius: .5rem;
   padding: .5rem;
   background-color: #ffffff91;
+  text-transform: uppercase;
 `

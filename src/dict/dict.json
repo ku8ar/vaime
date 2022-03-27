@@ -9,10 +9,14 @@
     "yourMessage": "Your messsage",
     "sent": "Sent",
     "send": "Send",
-    "enterYourDetails": "Enter your details",
+    "enterYourDetails": "Enter your message",
     "enterValidEmail": "Enter valid e-mail address",
     "errorMessage": "Error",
-    "getInTouch": "Get In Touch"
+    "getInTouch": "Get In Touch",
+    "more": "More",
+    "soldOut": "Sold Out",
+    "availableDate": "Available Dates",
+    "availableDates": "Available Dates"
   },
   "pl": {
     "pageUseCookies": "Ta strona wykorzystuje pliki cookies",
@@ -27,6 +31,10 @@
     "enterYourDetails": "Wprowadź dane",
     "enterValidEmail": "Wprowadź poprawny adres e-mail",
     "errorMessage": "Wystąpił błąd",
-    "getInTouch": "Napisz do nas"
+    "getInTouch": "Napisz do nas",
+    "more": "Więcej",
+    "soldOut": "Wyprzedane",
+    "availableDate": "Dostępny Termin",
+    "availableDates": "Dostępne Terminy"
   }
 }

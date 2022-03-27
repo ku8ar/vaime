@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Icon from '../../icons/services'
 import { colorPrimary } from '../../components/style/Theme'
 import { H5, P } from '../Base'
+import useDict from 'src/hooks/dict'
 
 export default ({ services }) => {
   if (!services || !services.length ) return null
@@ -19,6 +20,7 @@ export default ({ services }) => {
 const Service = ({icon, title, text}) => {
   const [visible, setVisible] = useState(false)
   const onClick = useCallback(() => setVisible(true), [])
+  const moreText = useDict("more")
 
   return (
     <Item >
@@ -26,7 +28,7 @@ const Service = ({icon, title, text}) => {
       <Column>
         <H5>{title}</H5>
         <Text visible={visible}>{text}</Text>
-        {!visible && <More onClick={onClick}>Więcej</More>}
+        {!visible && <More onClick={onClick}>{moreText}</More>}
       </Column>
     </Item>
   )
