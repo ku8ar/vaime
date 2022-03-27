@@ -8,23 +8,25 @@ images:
     name: tbilisi
 contact: false
 ---
-### **Biuro podróży Vaime Travel**
+#### THE VAIME TRAVEL TOURISM AGENCY
 
-sukcesywnie współpracuje z wieloma polskimi agentami i tour operatorami, zapewniając profesjonalną obsługę oraz najwyższą jakość usług. \
-Oferujemy swoje usługi w organizacji wycieczek **kulturowych, pielgrzymkowych, incentive, gastronomicznych, trekkingowych po Gruzji, Armenii i Azerbejdżanie,** od wyjazdów indywidualnych do dużych grup (40-50 os). Oferujemy transport o wysokim europejskim standardzie, obsługę profesjonalnych doświadczonych kierowców oraz wykwalifikowanych polsko-, angielsko- i rosyjskojęzycznych przewodników. Doskonała znajomość lokalnej bazy noclegowej oraz gastronomicznej pozwala na idealne dopasowanie wycieczek do wymagań każdej grupy turystycznej.
+consecutively cooperates with many agencies and tour operators, ensuring professional handling and service of the highest calibre.
 
-Zespół Vaime Travel dokona wszystkich starań, aby pobyt w Gruzji stał się niezapomnianym przeżyciem dla naszych gości.
 
-**W celu omówienia bliższych szczegółów współpracy, prosimy o kontakt telefoniczny:**
+We offer our services in the organization of **cultural, pilgrimage, incentive, gastro, and trekking excursions across Georgia, Armenia, and Azerbaijan**, from individual trips to larger groups (40-50 people). We offer quality European-standard transportation, the service of professional and experienced drivers, as well as qualified Polish, English, and Russian speaking guides. An excellent knowledge of the local gastronomical and
+hotel assortment allows us to ideally match our trips to the requirements of any group of visitors.
 
-GE: +995 555 628 887 (WhatsApp, VIber)
 
+The Vaime Travel team will do everything in its power to make sure our guests’ stay in
+Georgia becomes an unforgettable experience.
+
+**To discuss concrete details of cooperation, please contact us by phone:**
+
+GE: +995 555 628 887 (WhatsApp, VIber)\
 GE: +995 558 206 038 (WhatsApp, VIber)
 
-**Lub mailowy:**
 
-info@vaimetravel.com\
-kontakt@vaimetravel.com
+**Or by e-mail:**\
+info@vaimetravel.com
 
-\
-**Zapraszamy do współpracy!**
+**We can’t wait to work with you!**
