@@ -163,7 +163,7 @@ reviews:
     author: Sławek
     place: Majówka, 2018
     stars: 5
-promoImage: /img/mapka_glowna.jpg
+promoImage: /img/samegrelo-სამეგრელო-gdzie-jechać-anaklia-martwili-lebarde-co-zjeść-ser-sulguni-elardżi-gebżalia.png
 blogTitle: ""
 blogDescription: Gruzja to pełnia wrażeń - słońce, najpiękniejsze plaże, morza
   mieniące się niezliczonymi odcieniami błękitu, zniewalające zabytki i
