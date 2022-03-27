@@ -180,10 +180,16 @@ blogImages:
   - image: /img/p1000434-1-.jpg
     name: Kazbek, Gergeti, Stepancminda
 ---
-Witamy w naszym biurze!\
-Nazywamy się Nini i Maja, jesteśmy wielkimi pasjonatkami podróży oraz historii i kultury naszego kraju. Studiowałyśmy turystykę w Polsce, a po powrocie do Gruzji założyłyśmy własne biuro podróży Vaime Travel.
+Welcome to our travel agency!
 
-Vaime Travel to lokalne biuro turystyczne, które organizuje wycieczki objazdowe, kulturowe, trekkingowe, gastronomiczne po Gruzji, Armenii i Azerbejdżanie. Zawsze staramy się dostosować programy do zainteresowań i wymagań naszych gości, dlatego oprócz podanych na stronie wycieczek, organizujemy też wyjazdy indywidualne, na życzenie. \
-Zapraszamy, zwiedźcie Kaukaz razem z nami!
 
-Więcej o nas: [Nasz kanał na Youtube](https://www.youtube.com/channel/UCnYblaR424qXMVwkZzbJLkg?view_as=subscriber)
+Our names are Nini and Maia, and we’re two gals hugely passionate about travel
+alongside the history and culture of our country. After studying tourism in Poland, we
+returned to Georgia and started our own travel agency, Vaime Travel.
+Vaime Travel is a local tourism agency that organizes itinerant, cultural, trekking, and
+gastro trips around Georgia, Armenia, and Azerbaijan. We always strive to adjust our
+programs to the interests and requirements of our clients, which is why aside from
+the excursions listed on our website we also organize individual trips by request.
+
+
+We invite you to come and travel the Caucasus with us!
