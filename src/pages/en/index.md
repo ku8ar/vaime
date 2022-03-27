@@ -1,20 +1,20 @@
 ---
 templateKey: home
 lang: en
-title: Wycieczki po Gruzji z Nini i Mają
-description: Biuro podróży Vaime Travel | Wycieczki objazdowe Gruzja, Armenia,
-  Azerbejdżan, Kaukaz
+title: Tours in the South Caucasus - GEORGIA, ARMENIA, AZERBAIJAN
+description: Travel Agency Vaime Travel | Tours in the South Caucasus - GEORGIA,
+  ARMENIA, AZERBAIJAN
 heroTitle: GEORGIA, ARMENIA, AZERBAIJAN
 heroSubtitle: DISCOVER THE CAUCASUS WITH US
-heroButtonTitle: SPRAWDŹ OFERTY
+heroButtonTitle: CHECK OUT OUR OFFER
 heroInfoBelt:
-  - label: Najciekawsze atrakcje
+  - label: The top attractions
     icon: map
-  - label: Doświadczony zespół
+  - label: An experienced team
     icon: foot
-  - label: Komfortowa podróż
+  - label: Comfortable transit
     icon: bus
-  - label: Kameralne grupy
+  - label: Intimate groups
     icon: bag
 images:
   - image: /img/302.jpg
@@ -58,7 +58,7 @@ team:
     name: Nini Karosanidze
     place: ""
     text: ""
-aboutTitle: O Nas
+aboutTitle: About us
 aboutImage: /img/buty.jpg
 reviewImage: /img/hip_hip_hura.jpg
 reviewVideo: https://www.youtube.com/embed/UKfAO_QNexE
