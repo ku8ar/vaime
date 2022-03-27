@@ -2,163 +2,148 @@
 templateKey: page
 lang: en
 title: FAQ
-description: Kilka ważnych informacji odnośnie naszych wycieczek
+description: Important information about out trips and FAQ
 images:
   - image: /img/projekt-bez-tytulu-4-.jpg
     name: lotnisko
 services:
   - title: Vaime Travel
-    text: Vaime Travel jest zarejestrowaną w Gruzji Spółką z Ograniczoną
-      Odpowiedzialnością, która zajmuje się organizacją różnego rodzaju
-      wycieczek objazdowych po Gruzji, Armenii i Azerbejdżanie.
+    text: >-
+      Vaime Travel is a limited liability company registered in Georgia, which
+      organizes trips
+
+      around Georgia, Armenia, and Azerbaijan.
     icon: logo
-  - title: Bilety lotnicze
-    text: "Zakup biletów lotniczych pozostawiamy Wam, ale od momentu przylotu aż do
-      ostatniego dnia wycieczki będziecie w całości pod naszą opieką.
-      Oczywiście, jeśli będzie potrzebna nasza asysta przy poszukiwaniu i kupnie
-      biletów, służymy pomocą. "
+  - title: Plane Tickets
+    text: We leave the purchase of plane tickets entirely to you, but once you
+      arrive you’ll be in our caring hands from beginning till end of the trip.
+      If assistance with buying tickets is needed, we’ll of course do our best
+      to help.
     icon: ticket
-  - title: Płatność
-    text: Płatność za nasze wycieczki pobieramy w dolarach lub euro, obowiązuje
-      przedpłata w wys. 30% całkowitej kwoty. Płatność może być uregulowana
-      przelewem lub gotówką na miejscu, wystawiamy także faktury VAT w j.
-      polskim.
+  - title: Payment
+    text: We accept payments for our trips in USD or EUR, with a deposit of 30% of
+      the total trip cost up front. Payments can be made via bank transfer or in
+      cash upon arrival. We also issue invoices in English.
     icon: money
-  - title: Dopasowane programy
-    text: Oprócz programów podanych na stronie, możliwe jest zorganizowanie
-      wycieczki indywidualnej. Jeśli nie pasują Wam terminy lub program, nie
-      chcecie dołączać do innej grupy - napiszcie do nas, zorganizujemy coś
-      specjalnie dla Was.
+  - title: Customized Programs
+    text: Aside from the programs listed on our site we also organize individual
+      excursions. If our dates or programs are not to your fancy, or you’d
+      prefer not to join a larger group, let us know and we’ll conjure up
+      something special just for you.
     icon: map
-  - title: Terminy
-    text: Jeżeli nie pasują Wam podane terminy, chcecie przyjechać lub wyjechać
-      wcześniej, dolecieć do innego miasta niż podane, po prostu dajcie nam
-      znać, bez problemów zorganizujemy Wam transport, lub odbierzemy z
-      lotniska.
+  - title: Dates
+    text: If the described trip dates are not to your liking, or you’d like to
+      arrive/leave earlier, or fly to a different city than stipulated, simply
+      let us know and we’ll make transport arrangements for you no problem, or
+      simply pick you up from the airport.
     icon: calendar
-  - title: Noclegi
-    text: Nasze wyprawy mogą zawierać noclegi w pensjonatach rodzinnych,
-      prowadzonych przez lokalnych mieszkańców (wg. programu). Dzięki temu, cały
-      czas mamy kontakt z miejscowymi, lepiej poznajemy ich kulturę, życie
-      codzienne i tradycje. W miastach typu Tbilisi, Batumi, Kutaisi zazwyczaj
-      nocujemy w hotelach 3*. Śpimy w pokojach dwuosobowych, pokój jednoosobowy
-      dostępny jest w przypadku dopłaty.
+  - title: Overnight Stays
+    text: Our excursions may include overnight stays in family guesthouses run by
+      locals (according to program). Thanks to this we are in constant contact
+      with locals, better discovering their culture, every-day life, and
+      traditions. In cities like Tbilisi, Batumi, or Kutaisi, we usually
+      overnight in 3-star hotels. We stay in 2-person rooms, though one-person
+      rooms are available at extra cost.
     icon: bed
 qa:
-  - question: Zasady wyjazdu do Gruzji w czasach pandemii
+  - question: Entering Georgia during the pandemic
     answer: >-
-      Podróżujący z UE powinni okazać na granicy 
+      Travelers from the EU are required to provide a printed-out certificate
+      confirming
 
-      - wydrukowane zaświadczenie o przyjęciu dwóch dawek szczepionki przeciwko COVID-19
+      they are fully vaccinated or a negative PCR test result issued within 72 hours of flying
 
-      lub
+      (in English).
 
-      - zaświadczenie o negatywnym wyniku testu PCR wykonanym w ciągu ostatnich 72 godzin przed przylotem (w języku angielskim). Po 3 dniach od przyjazdu należy wykonać kolejny test PCR 
-
-
-
-
-      Więcej informacji znajdziecie tutaj: https://vaimetravel.com/covid-19-informacje
+      More information can be found here:
   - answer: >
-      Tak! Może słyszałeś/łaś coś o wojnie z Rosją, o konflikcie domowym, ale to
-      wszystko było bardzo dawno temu. W Gruzji teraz jest bardzo bezpiecznie i
-      jest to kraj bardzo turystyczny. Statystyki pokazują, że od roku 2017
-      Gruzję odwiedza 7-9 mln. osób rocznie, czyli dwa razy więcej ludzi, niż
-      mieszka w Gruzji! 
-    question: Czy w Gruzji jest bezpiecznie?
+      Yes! Perhaps you heard something about a war with Russia or civil
+      conflict, but that was all a long time ago. Georgia is now a very safe and
+      tourism-oriented place. Statistics show that from 2017 onwards Georgia is
+      visited by 7-9 million visitors annually, so twice the amount of people
+      actually living in the country!
+    question: Is Georgia safe?
   - answer: >
-      Sezon turystyczny w Gruzji zaczyna się na początku kwietnia i trwa do
-      października – oczywiście nie biorąc pod uwagę sezon narciarski od grudnia
-      do marca. Lato w Gruzji jest bardziej gorące niż w Polsce. Typowa dla
-      gruzińskiego lata temperatura to 30°C, a w sierpniu czasami nawet
-      przekracza 35°C. Należy również pamiętać, że klimat jest zróżnicowany – w
-      zachodniej części kraju jest klimat subtropikalny, we wschodniej suchy i
-      umiarkowany. Oprócz tego, Gruzja jest otoczona górami, gdzie, wiadomo
-      temperatura jest niższa, niż w regionach znajdujących się niżej.
-    question: Kiedy najlepiej przyjechać do Gruzji?
-  - question: Jaki jest klimat w Gruzji?
-    answer: >-
-      Ze względu na wysoki poziom zróżnicowania terenu, klimat w Gruzji jest
-      bardzo różnorodny. W zachodniej części kraju, bliżej wybrzeża Morza
-      Czarnego występuje klimat subtropikalny, co powoduje największy w kraju
-      poziom opadów rocznie (4000 mm), natomiast wschodnia część kraju
-      charakteryzuje się suchym umiarkowanym klimatem z małą ilością opadów (200
-      mm). Temperatura w upalne lata może sięgać +35°C lub wyżej. Zimy są
-      łagodne, w nizinnych częściach Gruzji temperatura nie spada poniżej -8°C ,
-      natomiast w górach Wielkiego Kaukazu występują surowe zimy z mrozami do
-      -20°C i dużą ilością śniegu, co pozwala na funkcjonowanie w Gruzji
-      ośrodków narciarskich.
+      The tourist season in Georgia starts at the beginning of April and lasts
+      till October – not considering of course the ski season from December to
+      March. Summer in Georgia is much hotter than in many places in Europe. The
+      standard summer temperature stand at +30°C, while in August it
+      occasionally even surpasses +35°C. One should also remember that the
+      climate is quite varied – the western part of the
 
-      Roślinność również bardzo się różni: na zachodzie rosną figi, palmy, laury, oliwki, cytrusy, kiwi i inne rośliny śródziemnomorskie; na wschodzie natomiast uprawiane są winogrona na większą skalę. 
+      country is subtropical, while the eastern territories are dry and temperate. Aside from that, Georgia is surrounded by mountains, where, naturally, the temperature is colder than in the lower-lying areas.
+    question: When is the best time to visit Georgia?
+  - question: What’s the climate like in Georgia?
+    answer: "Given the highly varied terrain, Georgia’s climate is very diverse. The
+      western side of the country, bordering the Black Sea, is subtropical,
+      which causes the heaviest annual rainfall (4000 mm). The eastern side is
+      characterized by a dry temperate climate with a low level of rainfall (200
+      mm). Temperatures during the hot summers can reach upwards of +35°C.
+      Winters are mild, with lowland temperatures not falling below - 8°C ,
+      though the mountains of the Greater Caucasus have harsh winters with
+      temperatures as low as -20°C and heavy snowfalls. This makes them suitable
+      for a functioning ski resort industry. The flora is also very diverse: the
+      west sports figs, palm trees, laurels, olives, citrus fruits, kiwis, and
+      other Mediterranean plants; the east allows for the large-scale
+      cultivation of grapes."
   - answer: >
-      Weź wygodnie ubrania, zapomnij o wszystkich bzdurnych blogach, które
-      mówią, że masz zakrywać ramiona czy kolana, ubierz tak, jak będzie Ci
-      wygodnie. Tylko pamiętaj, że będziemy też w górach, więc jakieś ciepłe
-      ubrania też się przydadzą, a do tego wygodne buty. Na wszelki wypadek miej
-      przy sobie płaszcz przeciwdeszczowy. Paniom warto mieć przy sobie chustę
-      do nakrycia głowy, aby wejść do gruzińskich cerkwi. Najczęściej przy
-      świątyniach można chusty pożyczyć, ale zawsze można mieć swoją.
-    question: Jak się ubrać na wycieczkę?
+      Bring comfortable clothing and forget all the silly blogs recommending
+      that you cover your shoulders and knees. Dress however will be most
+      comfortable to you. Just remember, we’ll also be visiting the mountains,
+      so some warmer clothing will come in handy along with comfy footwear. Have
+      a raincoat handy as well. Ladies should have a headscarf at the ready for
+      entering churches. Most often shawls will be available for borrowing at
+      entrances to temples, but having your own won’t hurt.
+    question: How should I dress for the trip?
   - answer: >
-      Nie ma znaczenia, ale pamiętaj, żeby nie wymieniać złotówek/dolarów/euro
-      na gruzińskie lari w Polsce, w Gruzji jest dużo lepszy kurs. Pamiętaj
-      również, że jak już bierzesz dolary, weź te nowsze – w Gruzji we
-      większości kantorów nie wymienisz dolarów starszego wydania, niż rok
-      2011. 
-    question: Lepiej zabierać EUR czy USD?
+      It doesn’t matter, just remember not to convert your currency to the
+      Georgian lari at home, as Georgia has better exchange rates locally. Also
+      remember that if you do bring USD along, take newer notes – in Georgia
+      most exchanges won’t accept older USD bills from before 2011.
+    question: Is it better to bring EUR or USD?
   - answer: >+
-      Ceny są porównywalne do Polski. Przelicznik wygląda następująco, 1 gel
-      (gruzińskie lari) to 1,32 zł. Cena pamiątek wariują od jednego lari do
-      kilkunastu. Butelkę dobrego wina kupimy jakoś za 15-20 lari i wyżej.
-      Piwa/kawy w mieście napijemy się za 6-7 lari. W większości miejsc można
-      płacić kartą, bankomaty są szeroko dostępne. 
+      Prices are comparable to those in Central Europe. The exchange rate stands
+      at around 1 GEL (Georgian lari) being 0.30 EUR. The price of a souvenir
+      ranges between 1 and 20 lari. A bottle of good wine will come to 15-20
+      lari or more. Beers/coffee on the town will cost around 6-7 lari. It’s
+      possible to pay by card in most places, and ATMs can be found virtually
+      everywhere. One should remember that foreign currencies aren’t accepted in
+      Georgia, payments can only be made in lari (in cash) or by card.
 
-      Należy pamiętać, że w Gruzji nie akceptuje się innej waluty - płaci się tylko w lari (w gotówce) lub kartą. 
-
-    question: Ile pieniędzy zabierać ze sobą? Czy Gruzja to tani kraj?
-  - question: Czy na miejscu można płacić kartą?
-    answer: >-
-      W dużych miastach i miejscowościach płatność karta akceptuje większość
-      obiektów gastronomicznych, noclegowych i handlowych. Kartą nie zapłacimy
-      na bazarach spożywczych, na otwartych straganach z pamiątkami, w małych
-      knajpach przy trasie, w górskich wioskach itd.
-
-      Większość bankomatów w Gruzji akceptuje karty polskich banków, możliwe jest wypłacenie GEL (gruzińskich lari).
+    question: How much money should I take? Is Georgia a cheap country?
+  - question: Can I pay by card locally?
+    answer: In larger cities and towns most food, stay, and shopping localities will
+      accept card payments. Cards won’t be accepted at bazaars, open-air
+      souvenir stalls, small cafes on-route, in mountain villages, etc. Most
+      ATMs in Georgia accept cards issued by European banks, and Georgian laris
+      can be withdrawn.
   - answer: >-
-      Pamiętaj, że w Gruzji jest inna flora bakteryjna i każdy żołądek reaguje
-      na nią inaczej, więc weź ze sobą jakiś lek na ewentualne problemy
-      żołądkowe. Jak zapomnisz, nie martw się, apteki są wszędzie, a większość
-      leków w Gruzji kupujemy bez recepty. 
+      Remember that the bacterial flora in Georgia is different and each
+      individual stomach may react to it in a different way. Bring along any
+      medicine that may help with potential stomach problems. If you forget to
+      do so don’t fret, pharmacies are all over the place, and most medicines in
+      Georgia are over the counter. To avoid issues at the airport, make sure
+      that none of the medicine on your person contains codeine. In
 
-      Aby uniknąć problemów na lotnisku, sprawdź czy w Twojej apteczce nie ma leków, zawierających kodeinę. Kodeina jest zaliczana w Gruzji do środków narkotycznych i jej wwóz do kraju, w dowolnej postaci, jest zakazany.
-
-      Przyda się również krem przeciwsłoneczny, gdyż gruzińskie słońce czasem bywa za ostre, i nie tylko na plaży.
-    question: Czy wziąć jakieś leki?
+      Georgia codeine is classified as a narcotic and it’s importation into the country, in any form, is illegal. Sunscreen will also come in handy, as the Georgian sun is often fierce, and not only at the beach.
+    question: Should I bring any medicine?
   - answer: >
-      Od 5 lat obywatele krajów strefy Schengen mogą wjeżdżać do Gruzji mając
-      przy sobie jedynie dowód osobisty, ważny przez co najmniej 3 mies. od daty
-      przekroczenia granicy gruzińskiej. Pamiętaj, że w przypadku, gdy
-      zapisujesz się na wycieczkę zawierającą zwiedzanie Armenii lub
-      Azerbejdżanu, przylecieć trzeba na paszport, gdyż polskie dowody osobiste
-      akceptuje tylko Gruzja, ale nie inne kaukaskie kraje. 
-    question: "Jakie dokumenty są wymagane przy przekroczeniu granicy? "
-  - answer: >-
-      Obywatele UE mogą wjeżdżać i przebywać w Gruzji i Armenii w celach
-      turystycznych bez jakiejkolwiek wizy. 
-
-      Azerbejdżan natomiast wymaga wizy od obywateli UE, ale jej wyrobienie jest bardzo proste. Wniosek o azerską wizę składa się przez Internet (https://evisa.gov.az/), płaci się przelewem, elektroniczną wizę dostaje się na e-mail. Przy przekroczeniu granicy azerskiej należy mieć przy sobie paszport i wydrukowaną e-wizę. Koszt azerskiej wizy wynosi 24$.
-    question: Czy jest potrzebna wiza?
-  - answer: >
-      Wizzair - tanie linie lotnicze Wizzair realizuje loty do miasta Kutaisi z:
-      Warszawy, Wrocławia, Katowic, Gdańska, a od września 2019 roku już z
-      Krakowa i Poznania. Wizzair lata również z Berlina do Kutaisi. 
-
-      Polskie Linie Lotnicze LOT - w sezonie letnim LOT lata z Warszawy do Tbilisi prawie codziennie! 
-
-      Ukraińskie Linie Lotnicze UIA - lata codziennie, z Warszawy do Tbilisi z przesiadką w Kijowie. Loty Ukraińskich Linii Lotniczych można znaleźć również z Krakowa do Tbilisi. 
-    question: Gdzie znaleźć tanie połączenia do Gruzji?
+      Since 2011 citizens of Schengen zone countries can enter Georgia on the
+      basis of their ID, if it’s valid for at least 3 months from the date of
+      entry. Remember that if you are signed up for a trip that also includes
+      Armenia and Azerbaijan, you have to come with your passport. Entry on the
+      basis of ID is only permitted by Georgia.
+    question: What documents are required for entering the country?
+  - answer: EU citizens can enter and stay in Georgia and Armenia for the purpose of
+      tourism without any visa. Azerbaijan requires a visa from EU citizens, but
+      it’s issuing is very simple. The application for an Azerbaijani visa is
+      submitted online (https://evisa.gov.az/), the fee is paid via transfer,
+      and the electronic visa is sent to your e-mail. When crossing the border
+      into Azerbaijan, you will have to show your passport and your printed-out
+      e-visa. The price of the visa is 24 USD.
+    question: Do I need visa?
 grid: []
 contact: false
-showFlights: true
+showFlights: false
 ---
-### **Jak działamy**
+### **About our services**
