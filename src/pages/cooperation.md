@@ -2,7 +2,7 @@
 templateKey: page
 lang: en
 title: Cooperation
-description: Profejsonalna obsługa tour operatorów
+description: "Professional tourism services "
 images:
   - image: /img/102.jpg
     name: tbilisi
