@@ -22,6 +22,18 @@ navigationPl:
     mobile: true
     icon: contact
 navigationEn:
+  - to: /about-georgia/
+    title: About Georgia
+    mobile: true
+    icon: georgia
+  - to: /faq/
+    title: FAX
+    mobile: true
+    icon: faq
+  - to: /cooperation/
+    title: Cooperation
+    mobile: true
+    icon: cooperation
   - title: Contact
     to: /contact/
     mobile: true
