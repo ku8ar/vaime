@@ -12,7 +12,7 @@
     "not opera > 0"
   ],
   "dependencies": {
-    "@brainhubeu/react-carousel": "^2.0.4",
+    "@brainhubeu/react-carousel": "1.19.26",
     "@sendgrid/mail": "^7.6.2",
     "@sentry/browser": "^6.19.7",
     "babel-plugin-styled-components": "^2.0.7",
